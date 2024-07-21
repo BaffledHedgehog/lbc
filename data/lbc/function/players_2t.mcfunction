@@ -7,8 +7,8 @@ execute at @s[tag=razorpine_active] run function lbc:other/workingitems/razorpin
 execute at @s[tag=nomagic_active] run function lbc:other/artifact/nomagic
 execute at @s[tag=notnt_active] run function lbc:other/artifact/notnt
 execute at @s[tag=helicopter_active,scores={coldown25=600..}] run function lbc:workingitems/attackhelicopter_pre
-execute at @s[nbt={SelectedItem:{components:{"arcanum2t": true}}}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/5t/select
-execute at @s[nbt={Inventory:[{Slot:-106b,components:{"arcanum2t": true}}]}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/5t/select2
+execute at @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"arcanum2t": true}}}}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/5t/select
+execute at @s[nbt={Inventory:[{Slot:-106b,components: {"minecraft:custom_data":{"arcanum2t": true}}}]}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/5t/select2
 effect clear @s[tag=shulkshell_active] levitation
 execute at @s[tag=reactivehelmet_active] run function lbc:armor/reactive_helmet
 execute unless score legacy lbc.math matches 1 at @s[nbt={active_effects:[{id:"minecraft:hunger"}]},predicate=lbc:chance_from_hunger] positioned ~ ~0.4 ~ run function lbc:other/bullshit/anal

@@ -1,5 +1,5 @@
 data modify entity @s Motion set value [0.0,0.0,0.0]
-data modify entity @s power set value [0.0,0.0,0.0]
+#data modify entity @s power set value [0.0,0.0,0.0]
 data modify entity @s fuse set value 20s
 data modify entity @s Fuse set value 20s
 data modify entity @s Duration set value 200

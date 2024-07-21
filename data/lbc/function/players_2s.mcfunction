@@ -1,6 +1,6 @@
-execute at @s[nbt={Inventory:[{Slot:102b,components:{"techno": true}}]},predicate=lbc:chance50] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/powerhelmet
-execute at @s[nbt={Inventory:[{components:{"konserva": true}}]},scores={foodlvl=..19}] run function lbc:other/konserva
-execute at @s[nbt={Inventory:[{components:{liquidvoid:1b}}]}] run function lbc:other/liquidvoiddamage
+execute at @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{"techno": true}}}]},predicate=lbc:chance50] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/powerhelmet
+execute at @s[nbt={Inventory:[{components: {"minecraft:custom_data":{"konserva": true}}}]},scores={foodlvl=..19}] run function lbc:other/konserva
+execute at @s[nbt={Inventory:[{components: {"minecraft:custom_data":{"liquidvoid":true}}}]}] run function lbc:other/liquidvoiddamage
 execute if score @s manaregen_visual matches 30.. run advancement grant @s only lbc:true_advancements/potions/mana_regen_big
 execute if score @s manaregen_visual matches 150.. run advancement grant @s only lbc:true_advancements/potions/mana_regen_verybig
 execute if score @s manamax matches 15000.. run advancement grant @s only lbc:true_advancements/potions/max_mana_big

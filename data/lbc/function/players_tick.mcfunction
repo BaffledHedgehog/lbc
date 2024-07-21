@@ -29,11 +29,11 @@ execute if score @s danmaku matches 1.. run function lbc:items/wands/danmaku_sta
 scoreboard players remove @s[scores={indolence_cd=1..}] indolence_cd 1
 execute unless score legacy lbc.math matches 1 unless score @s nomagic matches 1.. unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:other/manaregen
 execute if score @s ray matches 1.. anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/erecto/click_upgraded_2_mode_ray_tick
-execute if entity @s[nbt={SelectedItem:{components:{"arcanumt": true}}}] unless entity @a[distance=..15,tag=nomagic_active,gamemode=!spectator] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/select
-execute if entity @s[tag=arcanum_use] unless entity @s[nbt={SelectedItem:{components:{"arcanumt": true}}}] run function lbc:items/arcanums/end
+execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"arcanumt": true}}}}] unless entity @a[distance=..15,tag=nomagic_active,gamemode=!spectator] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/select
+execute if entity @s[tag=arcanum_use] unless entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"arcanumt": true}}}}] run function lbc:items/arcanums/end
 execute if score @s coldownshish matches 21.. run function lbc:workingitems/reactive_shish_particles
-execute if entity @s[nbt={Inventory:[{components:{"arcanumt": true},Slot:-106b}]}] unless entity @a[distance=..15,tag=nomagic_active,gamemode=!spectator] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/select2
-execute if entity @s[tag=arcanum_use2] unless entity @s[nbt={Inventory:[{components:{"arcanumt": true},Slot:-106b}]}] run function lbc:items/arcanums/end2
+execute if entity @s[nbt={Inventory:[{components: {"minecraft:custom_data":{"arcanumt": true}},Slot:-106b}]}] unless entity @a[distance=..15,tag=nomagic_active,gamemode=!spectator] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/select2
+execute if entity @s[tag=arcanum_use2] unless entity @s[nbt={Inventory:[{components: {"minecraft:custom_data":{"arcanumt": true}},Slot:-106b}]}] run function lbc:items/arcanums/end2
 execute if score abyss lbc.math matches 1 at @s at @s[y=0,dy=-1000000] run tp @s ~ 321 ~
 execute if score @s coldownMagnum matches 1.. run function lbc:other/techno/magnum/cooldown
 execute if entity @s[tag=techno_tick_active] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:armor/techno_sel

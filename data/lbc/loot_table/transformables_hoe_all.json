@@ -18,17 +18,12 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"hoe": true,"minecraft:custom_model_data":606,"death_skythe": true,"raycastspell": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.7,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+                            "components": {"minecraft:attribute_modifiers": {"show_in_tooltip": false,"modifiers":},"minecraft:custom_model_data":606,"minecraft:custom_data":{"transformable": true,"hoe": true,"death_skythe": true,"raycastspell": true,"swordwithability": true}}
+                            "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.7,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
-                            "name": [
-                                {
-                                    "translate": "death_skythe",
-                                    "color": "green",
-                                    "italic": false
-                                }
-                            ]
+                            "name": {}
                         },
                         {
                             "function": "set_lore","mode":"replace_all",

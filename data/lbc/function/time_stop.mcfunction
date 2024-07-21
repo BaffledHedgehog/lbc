@@ -1,6 +1,6 @@
 scoreboard players set @s coldown1 60
-tag @e[nbt=!{NoAI:1b},tag=!spectator,nbt=!{Inventory:[{components:{"time_stopper": true}}]},nbt=!{Inventory:[{components:{"stand_clocks": true}}]},tag=!have_stand] add time_stopped
-execute as @a[gamemode=!spectator,nbt=!{Inventory:[{components:{"time_stopper": true}}]},nbt=!{Inventory:[{components:{"stand_clocks": true}}]},tag=!have_stand] at @s unless entity @e[type=marker,tag=teleport_nearest_here,distance=..0.1] run summon marker ~ ~ ~ {Tags:["teleport_nearest_here"]}
+tag @e[nbt=!{NoAI:1b},tag=!spectator,nbt=!{Inventory:[{components: {"minecraft:custom_data":{"time_stopper": true}}}]},nbt=!{Inventory:[{components: {"minecraft:custom_data":{"stand_clocks": true}}}]},tag=!have_stand] add time_stopped
+execute as @a[gamemode=!spectator,nbt=!{Inventory:[{components: {"minecraft:custom_data":{"time_stopper": true}}}]},nbt=!{Inventory:[{components: {"minecraft:custom_data":{"stand_clocks": true}}}]},tag=!have_stand] at @s unless entity @e[type=marker,tag=teleport_nearest_here,distance=..0.1] run summon marker ~ ~ ~ {Tags:["teleport_nearest_here"]}
 execute as @e[type=marker,tag=teleport_nearest_here] at @s run data modify entity @s Rotation set from entity @a[gamemode=!spectator,distance=..0.1,limit=1] Rotation
 scoreboard players set time_stopped lbc.math 11
 playsound minecraft:lbcsounds.zawardo master @a ~ ~ ~ 1 1 0.5

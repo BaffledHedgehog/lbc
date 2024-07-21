@@ -131,7 +131,7 @@ scoreboard objectives remove damage_taken
 scoreboard objectives remove bow_charge_sub
 scoreboard objectives remove overload_jump
 scoreboard objectives remove overload_slam
-scoreboard objectives remove freeze
+scoreboard objectives remove frozen
 scoreboard objectives remove cold
 scoreboard objectives remove cold_cd
 
