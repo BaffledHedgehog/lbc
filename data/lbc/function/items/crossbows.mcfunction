@@ -6,7 +6,7 @@ execute anchored eyes positioned ^ ^ ^ if score #lbclevelup swrg.math matches 1 
 execute anchored eyes positioned ^ ^ ^ if score #lbclevelup swrg.math matches 1 if entity @s[tag=gravitas] as @e[type=#crossbow_charges,limit=1,sort=nearest,distance=..10] at @s run data modify entity @s NoGravity set value 1b
 scoreboard players set @s crossbow_charge 0
 # Minigun
-execute as @s[nbt={SelectedItem:{components:{fast:1b}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/fastbow
+execute as @s[nbt={SelectedItem:{components:{"fast": true}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/fastbow
 execute as @s[nbt={SelectedItem:{components:{"fast_old": true}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/fastbow_old
 # Firegun
 execute as @s[nbt={SelectedItem:{components:{fastfired:1b}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/fastfiredbow

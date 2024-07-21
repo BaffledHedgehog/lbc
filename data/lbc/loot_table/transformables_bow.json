@@ -26,10 +26,17 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,"randchanted": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true,
+                                    "randchanted": true
+                                }
+                            }
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -59,7 +66,20 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"minecraft:custom_model_data":542,"transformable": true,"bow": true,HideFlags:1,"explosive":true,Enchantments:[{id:\"minecraft:feather_falling\",lvl:1s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true,
+                                    "explosive": true
+                                },
+                                "minecraft:custom_model_data": 542,
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:feather_falling": 1
+                                    },
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -72,7 +92,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -130,7 +151,20 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"minecraft:custom_model_data":542,"transformable": true,"bow": true,HideFlags:1,"explosive":true,Enchantments:[{id:\"minecraft:feather_falling\",lvl:1s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true,
+                                    "explosive": true
+                                },
+                                "minecraft:custom_model_data": 542,
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:feather_falling": 1
+                                    },
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -143,7 +177,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -198,7 +233,14 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,"minecraft:custom_model_data":539,double:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true,
+                                    "double": true
+                                },
+                                "minecraft:custom_model_data": 539
+                            }
                         },
                         {
                             "function": "set_name",
@@ -210,7 +252,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -244,10 +287,20 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,fast:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true,
+                                    "fast": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:quick_charge": 5
+                                }
+                            }
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -297,7 +350,14 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,"minecraft:custom_model_data":533,shulker:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true,
+                                    "shulker": true
+                                },
+                                "minecraft:custom_model_data": 533
+                            }
                         },
                         {
                             "function": "set_name",
@@ -310,7 +370,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -344,7 +405,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:quick_charge": 5
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -356,7 +425,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -385,7 +455,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:piercing\",lvl:10s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:piercing": 10
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -397,7 +475,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -426,7 +505,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:multishot": 1
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -438,7 +525,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -467,7 +555,17 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:2s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:multishot": 1,
+                                    "minecraft:piercing": 1,
+                                    "minecraft:quick_charge": 2
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -479,7 +577,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -508,7 +607,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:quick_charge\",lvl:2s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:quick_charge": 2
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -520,7 +627,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -549,7 +657,17 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:5s}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "bow": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:multishot": 1,
+                                    "minecraft:piercing": 1,
+                                    "minecraft:quick_charge": 5
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -561,7 +679,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {

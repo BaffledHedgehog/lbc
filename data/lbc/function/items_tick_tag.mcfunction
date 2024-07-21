@@ -1,7 +1,7 @@
 tag @s add tagged
 execute if score #lbcskill swrg.math matches 1 run function lbc:items_tick_tag_2
 tag @s[nbt={Item: {components: {"drop":true}}}] add drop
-tag @s[nbt={Item: {components: {fast: 1b}}}] add fast
+tag @s[nbt={Item: {components: {"fast": true}}}] add fast
 tag @s[nbt={Item: {components: {"fast_old": true}}}] add fast_old
 tag @s[nbt={Item: {components: {"metal_pipe": true}}}] add metal_pipe
 tag @s[nbt={Item: {components: {"transformable": true}}}] add transformable
@@ -15,7 +15,7 @@ tag @s[type=item,nbt={Item: {components: {multiply: 3}}}] add multiply_item
 tag @s[type=item,nbt={Item: {components: {multiply: 4}}}] add multiply_item
 
 tag @s[nbt={Item: {components: {"drop":true}}}] add working
-tag @s[nbt={Item: {components: {fast: 1b}}}] add working
+tag @s[nbt={Item: {components: {"fast": true}}}] add working
 tag @s[nbt={Item: {components: {"fast_old": true}}}] add working
 tag @s[nbt={Item: {components: {"metal_pipe": true}}}] add working
 tag @s[nbt={Item: {components: {"transformable": true}}}] add working
