@@ -14,7 +14,14 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {CustomPotionColor:6710885,"imba": true}
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 6710885
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -26,7 +33,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",

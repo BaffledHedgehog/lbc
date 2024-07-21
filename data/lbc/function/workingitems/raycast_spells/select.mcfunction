@@ -1,4 +1,4 @@
-execute if entity @s[nbt={SelectedItem:{components:{lightning:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop16
+execute if entity @s[nbt={SelectedItem:{components:{"lightning": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop16
 
 execute if entity @s[nbt={SelectedItem:{components:{tnts:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop9
 
