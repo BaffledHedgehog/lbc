@@ -9,30 +9,28 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{HideFlags:255,"minecraft:custom_model_data":704}"
-                        },
-                        {
-                            "function": "minecraft:copy_components",
-                            "source": {
-                                "type": "minecraft:storage",
-                                "source": "swrg:lang"
-                            },
-                            "ops": [
-                                {
-                                    "source": "lore.lbcskill.15",
-                                    "target": "display{}",
-                                    "op": "merge"
-                                }
-                            ]
+                            "components": {"minecraft:custom_model_data":704}
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "components": {lbcskill.15",
-                                "storage": "swrg:lang",
-                                "interpret": true
+                                "translate": "lbcskill.15",
+                                "italic": false,
+                                "color": "white"
                             }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "lore.lbcskill.15",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }

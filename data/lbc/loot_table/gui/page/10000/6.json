@@ -8,30 +8,30 @@
                     "name": "minecraft:iron_chestplate",
                     "functions": [
                         {
-                            "function": "minecraft:set_components",
-                            "tag": "{HideFlags:255}"
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "lbcskill.6",
+                                "italic": false,
+                                "color": "white"
+                            }
                         },
                         {
-                            "function": "minecraft:copy_components",
-                            "source": {
-                                "type": "minecraft:storage",
-                                "source": "swrg:lang"
-                            },
-                            "ops": [
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
                                 {
-                                    "source": "lore.lbcskill.6",
-                                    "target": "display{}",
-                                    "op": "merge"
+                                    "translate": "lore.lbcskill.6",
+                                    "italic": false,
+                                    "color": "gray"
                                 }
                             ]
                         },
                         {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "name": {
-                                "components": {lbcskill.6",
-                                "storage": "swrg:lang",
-                                "interpret": true
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:attribute_modifiers": false
                             }
                         }
                     ]
