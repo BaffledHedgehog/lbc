@@ -15,7 +15,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{eat_teleport2:1b,imba:1b}"
+                            "tag": "{eat_teleport2:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -40,7 +40,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{throwable_metal_pipe:1b,"special": true,"minecraft:custom_model_data":599,imba:1b}"
+                            "tag": "{throwable_metal_pipe:1b,"special": true,"minecraft:custom_model_data":599,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -74,7 +74,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":578,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"bedrock_bastion\",\"instant\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":578,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"bedrock_bastion\",\"instant\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -113,7 +113,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":666,imba:1b}"
+                            "components": {"minecraft:custom_model_data":666,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -151,7 +151,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{dirter:1b,imba:1b}"
+                            "tag": "{dirter:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -184,7 +184,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":580,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"funny_tnt\",\"instant\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":580,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"funny_tnt\",\"instant\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -218,7 +218,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{debriser:1b,imba:1b}"
+                            "tag": "{debriser:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -252,7 +252,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{EntityTag:{ExplosionPower:127,Motion:[0.0,2.0,0.0],Invulnerable:1b,PersistenceRequired:1b,Health:2147483647f,Attributes:[{Name:\"generic.max_health\",Base:2147483647}],active_effects:[{id:\"minecraft:resistance\",amplifier:4b,duration:-1}]},imba:1b}"
+                            "tag": "{EntityTag:{ExplosionPower:127,Motion:[0.0,2.0,0.0],Invulnerable:1b,PersistenceRequired:1b,Health:2147483647f,Attributes:[{Name:\"generic.max_health\",Base:2147483647}],active_effects:[{id:\"minecraft:resistance\",amplifier:4b,duration:-1}]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -286,7 +286,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":541,EntityTag:{id:\"minecraft:tnt\",fuse:50s,Motion:[0.0,0.3,0.0],Tags:[\"funny_tnt\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":541,EntityTag:{id:\"minecraft:tnt\",fuse:50s,Motion:[0.0,0.3,0.0],Tags:[\"funny_tnt\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -316,7 +316,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"craftusable": true,"bolt_material": true,lightning_bolt:1b,"raycastspell": true,"minecraft:custom_model_data":708,imba:1b}"
+                            "tag": "{"craftusable": true,"bolt_material": true,lightning_bolt:1b,"raycastspell": true,"minecraft:custom_model_data":708,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -415,7 +415,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:255s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-746099017,-353808864,-1408258686,-14451997],Slot:\"mainhand\"}],holocaust:1b,imba:1b}"
+                            "tag": "{Enchantments:[{id:\"minecraft:fire_aspect\",lvl:255s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-746099017,-353808864,-1408258686,-14451997],Slot:\"mainhand\"}],holocaust:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -486,7 +486,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":552,EntityTag:{id:\"minecraft:marker\",Tags:[\"delta_tnt\",\"marker_2t\",\"mecha\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":552,EntityTag:{id:\"minecraft:marker\",Tags:[\"delta_tnt\",\"marker_2t\",\"mecha\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -527,7 +527,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":551,EntityTag:{id:\"minecraft:marker\",Tags:[\"nuke_bruh\",\"rc_1sec\",\"marker_2t\",\"mecha\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":551,EntityTag:{id:\"minecraft:marker\",Tags:[\"nuke_bruh\",\"rc_1sec\",\"marker_2t\",\"mecha\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -568,7 +568,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":526,most_imba:1b,"gadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":526,most_imba:1b,"gadget": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -609,7 +609,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":523,teleport1_imba:1b,"gadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":523,teleport1_imba:1b,"gadget": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -721,7 +721,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":528,"gadget": true,HideFlags:1,"rasengan": true,Enchantments:[{id:\"minecraft:sweeping_edge\",lvl:1s}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":528,"gadget": true,HideFlags:1,"rasengan": true,Enchantments:[{id:\"minecraft:sweeping_edge\",lvl:1s}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -781,7 +781,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":528,"gadget": true,HideFlags:1,"rasengan": true,Enchantments:[{id:\"minecraft:sweeping_edge\",lvl:1s}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":528,"gadget": true,HideFlags:1,"rasengan": true,Enchantments:[{id:\"minecraft:sweeping_edge\",lvl:1s}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -838,7 +838,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":527,"special": true,"smoke": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":527,"special": true,"smoke": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -863,7 +863,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":524,"randtp": true,"gadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":524,"randtp": true,"gadget": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -904,7 +904,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":525,"islandtp": true,"gadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":525,"islandtp": true,"gadget": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -940,7 +940,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{EntityTag:{CustomNameVisible:1b,Health:50f,Tags:[\"fakepig\",\"lucky_mob\"],CustomName:'{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}',Attributes:[{Name:generic.max_health,Base:50}]},imba:1b}"
+                            "tag": "{EntityTag:{CustomNameVisible:1b,Health:50f,Tags:[\"fakepig\",\"lucky_mob\"],CustomName:'{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}',Attributes:[{Name:generic.max_health,Base:50}]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -980,7 +980,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{BlockEntityTag:{LootTable:\"lbc:infinity\"},"craftusable": true,"inf_shulker":true,imba:1b}"
+                            "tag": "{BlockEntityTag:{LootTable:\"lbc:infinity\"},"craftusable": true,"inf_shulker":true,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1015,7 +1015,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"inf": true,imba:1b}"
+                            "tag": "{"inf": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1063,7 +1063,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":559,"bad_apple": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":559,"bad_apple": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1120,7 +1120,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"raycastspell": true,"krazha": true,"minecraft:custom_model_data":566,imba:1b}"
+                            "tag": "{"raycastspell": true,"krazha": true,"minecraft:custom_model_data":566,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1169,7 +1169,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":569,"special": true,"luckygrenade": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":569,"special": true,"luckygrenade": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1214,7 +1214,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":573,EntityTag:{id:\"minecraft:marker\",Tags:[\"stopper\",\"rc_1sec\",\"marker_2t\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":573,EntityTag:{id:\"minecraft:marker\",Tags:[\"stopper\",\"rc_1sec\",\"marker_2t\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1255,7 +1255,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":575,EntityTag:{id:\"minecraft:marker\",Tags:[\"stopper_magic\",\"rc_1sec\",\"marker_2t\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":575,EntityTag:{id:\"minecraft:marker\",Tags:[\"stopper_magic\",\"rc_1sec\",\"marker_2t\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1295,7 +1295,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{EntityTag:{CustomNameVisible:1b,Tags:[\"fake_player\"]},imba:1b}"
+                            "tag": "{EntityTag:{CustomNameVisible:1b,Tags:[\"fake_player\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1325,7 +1325,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"superdice": true,"gadget": true,"minecraft:custom_model_data":585,imba:1b}"
+                            "tag": "{"superdice": true,"gadget": true,"minecraft:custom_model_data":585,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1387,7 +1387,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"superdice": true,"gadget": true,"minecraft:custom_model_data":585,imba:1b}"
+                            "tag": "{"superdice": true,"gadget": true,"minecraft:custom_model_data":585,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1795,7 +1795,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"death_compass": true,imba:1b}"
+                            "tag": "{"death_compass": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1836,7 +1836,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":575,"konserva": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":575,"konserva": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1876,7 +1876,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{CustomPotionColor:16777215,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:400}],imba:1b}"
+                            "tag": "{CustomPotionColor:16777215,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:400}],"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1900,7 +1900,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{CustomPotionColor:16763161,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:300}],imba:1b}"
+                            "tag": "{CustomPotionColor:16763161,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:300}],"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1924,7 +1924,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{CustomPotionColor:2236962,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:300}],imba:1b}"
+                            "tag": "{CustomPotionColor:2236962,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:300}],"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1945,7 +1945,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"trollge": true,"gadget": true,"minecraft:custom_model_data":588,imba:1b}"
+                            "tag": "{"trollge": true,"gadget": true,"minecraft:custom_model_data":588,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1996,7 +1996,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"randchanted": true,"transformable": true,"boots": true,imba:1b}"
+                            "tag": "{"randchanted": true,"transformable": true,"boots": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -2028,7 +2028,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"multiplying": true,"transformable": true,"boots": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:1,Operation:1,UUID:[I;118510710,-984200624,-1591683217,-1384836255],Slot:\"feet\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:1,UUID:[I;-246585005,262818442,-1727664046,-786430238],Slot:\"feet\"}],imba:1b}"
+                            "tag": "{"multiplying": true,"transformable": true,"boots": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:1,Operation:1,UUID:[I;118510710,-984200624,-1591683217,-1384836255],Slot:\"feet\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:1,UUID:[I;-246585005,262818442,-1727664046,-786430238],Slot:\"feet\"}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -2080,7 +2080,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"randchanted": true,"transformable": true,"chestplate": true,imba:1b}"
+                            "tag": "{"randchanted": true,"transformable": true,"chestplate": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -2112,7 +2112,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"multiplying": true,"transformable": true,"chestplate": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:1,UUID:[I;-1140115134,2071022239,-1571434570,1810946798],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:1,UUID:[I;1513991244,-2014493379,-1542381898,-1914562855],Slot:\"chest\"}],imba:1b}"
+                            "tag": "{"multiplying": true,"transformable": true,"chestplate": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:1,UUID:[I;-1140115134,2071022239,-1571434570,1810946798],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:1,UUID:[I;1513991244,-2014493379,-1542381898,-1914562855],Slot:\"chest\"}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -2149,7 +2149,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"transformable": true,"chestplate": true,display:{color:1},"minecraft:custom_model_data":1,HideFlags:64,"dynamite": true,Enchantments:[{id:\"minecraft:blast_protection\",lvl:255s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:15,Operation:0,UUID:[I;-1197286063,-966703212,-1627823476,-1865853662],Slot:\"chest\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:15,Operation:0,UUID:[I;-449625010,-1999550901,-1962659761,-2125256788],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:15,Operation:0,UUID:[I;-1975236396,-68727136,-1444759454,504708504],Slot:\"chest\"}],Unbreakable:1b,imba:1b}"
+                            "tag": "{"transformable": true,"chestplate": true,display:{color:1},"minecraft:custom_model_data":1,HideFlags:64,"dynamite": true,Enchantments:[{id:\"minecraft:blast_protection\",lvl:255s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:15,Operation:0,UUID:[I;-1197286063,-966703212,-1627823476,-1865853662],Slot:\"chest\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:15,Operation:0,UUID:[I;-449625010,-1999550901,-1962659761,-2125256788],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:15,Operation:0,UUID:[I;-1975236396,-68727136,-1444759454,504708504],Slot:\"chest\"}],Unbreakable:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -2207,7 +2207,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"randchanted": true,"transformable": true,"leggings": true,imba:1b}"
+                            "tag": "{"randchanted": true,"transformable": true,"leggings": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -2239,7 +2239,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"multiplying": true,"transformable": true,"leggings": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:3,Operation:1,UUID:[I;1247016977,-11055214,-1672297969,-908513334],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:1,UUID:[I;1013007053,-1500820729,-1183646614,1327672089],Slot:\"legs\"}],imba:1b}"
+                            "tag": "{"multiplying": true,"transformable": true,"leggings": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:3,Operation:1,UUID:[I;1247016977,-11055214,-1672297969,-908513334],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:1,UUID:[I;1013007053,-1500820729,-1183646614,1327672089],Slot:\"legs\"}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -2291,7 +2291,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"randchanted": true,"transformable": true,"helmet": true,imba:1b}"
+                            "tag": "{"randchanted": true,"transformable": true,"helmet": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -2323,7 +2323,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"multiplying": true,"transformable": true,"helmet": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:2,Operation:1,UUID:[I;291294886,-243577490,-1461500507,-860357035],Slot:\"head\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:1,UUID:[I;1250175964,217664547,-1671179780,-1322344299],Slot:\"head\"}],imba:1b}"
+                            "tag": "{"multiplying": true,"transformable": true,"helmet": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:2,Operation:1,UUID:[I;291294886,-243577490,-1461500507,-860357035],Slot:\"head\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:1,UUID:[I;1250175964,217664547,-1671179780,-1322344299],Slot:\"head\"}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -2365,7 +2365,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":589,"ruchka": true,"projegadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":589,"ruchka": true,"projegadget": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -2416,7 +2416,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"witch_gens": true,"magicwand": true,"minecraft:custom_model_data":649,imba:1b}"
+                            "tag": "{"witch_gens": true,"magicwand": true,"minecraft:custom_model_data":649,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2492,7 +2492,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":577,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"railroad\",\"other\"],data:{railtime:0}},imba:1b}"
+                            "components": {"minecraft:custom_model_data":577,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"railroad\",\"other\"],data:{railtime:0}},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",

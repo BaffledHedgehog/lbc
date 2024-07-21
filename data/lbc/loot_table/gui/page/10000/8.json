@@ -26,7 +26,19 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "translate": "lore.lbcskill.8",
+                                    "translate": "lore.lbcskill.8.0",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbcskill.8.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbcskill.8.2",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbcskill.8.3",
                                     "italic": false,
                                     "color": "gray"
                                 }

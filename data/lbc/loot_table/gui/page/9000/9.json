@@ -26,7 +26,23 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "translate": "lore.lbckit.9",
+                                    "translate": "lore.lbckit.9.0",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbckit.9.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbckit.9.2",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbckit.9.3",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbckit.9.4",
                                     "italic": false,
                                     "color": "gray"
                                 }

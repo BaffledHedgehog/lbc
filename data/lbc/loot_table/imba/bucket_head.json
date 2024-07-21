@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"transformable": true,"helmet": true,bucket_head:1b,display:{color:775},"minecraft:custom_model_data":25,HideFlags:64,Unbreakable:1b,imba:1b}"
+                            "tag": "{"transformable": true,"helmet": true,bucket_head:1b,display:{color:775},"minecraft:custom_model_data":25,HideFlags:64,Unbreakable:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",

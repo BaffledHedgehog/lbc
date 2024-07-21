@@ -21,7 +21,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:3600}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:3600}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -64,7 +64,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:9600}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:9600}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -107,7 +107,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:1800}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:1800}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -150,7 +150,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:900}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:900}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -193,7 +193,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:3600}],CustomPotionColor:5065466,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:3600}],CustomPotionColor:5065466,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -236,7 +236,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:9600}],CustomPotionColor:5065466,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:9600}],CustomPotionColor:5065466,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -279,7 +279,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:3600}],CustomPotionColor:8384219,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:3600}],CustomPotionColor:8384219,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -322,7 +322,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:9600}],CustomPotionColor:8384219,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:9600}],CustomPotionColor:8384219,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -365,7 +365,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:3600}],CustomPotionColor:7519231,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:3600}],CustomPotionColor:7519231,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -408,7 +408,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:9600}],CustomPotionColor:7519231,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:9600}],CustomPotionColor:7519231,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -451,7 +451,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:3600}],CustomPotionColor:5898339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:3600}],CustomPotionColor:5898339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -494,7 +494,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:9600}],CustomPotionColor:5898339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:9600}],CustomPotionColor:5898339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -537,7 +537,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:74b,duration:96000000}],CustomPotionColor:0,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:74b,duration:96000000}],CustomPotionColor:0,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -577,7 +577,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:3600}],CustomPotionColor:5560297,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:3600}],CustomPotionColor:5560297,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -620,7 +620,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:9600}],CustomPotionColor:5560297,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:9600}],CustomPotionColor:5560297,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -663,7 +663,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:106b,duration:3600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:106b,duration:3600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -706,7 +706,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:3600}],CustomPotionColor:16749851,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:3600}],CustomPotionColor:16749851,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -749,7 +749,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:9600}],CustomPotionColor:16749851,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:9600}],CustomPotionColor:16749851,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -792,7 +792,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:3600}],CustomPotionColor:148766711,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:3600}],CustomPotionColor:148766711,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -835,7 +835,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:9600}],CustomPotionColor:148766711,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:9600}],CustomPotionColor:148766711,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -878,7 +878,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:3600}],CustomPotionColor:11171128,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:3600}],CustomPotionColor:11171128,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -921,7 +921,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:9600}],CustomPotionColor:11171128,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:9600}],CustomPotionColor:11171128,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -964,7 +964,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:3600}],CustomPotionColor:7957339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:3600}],CustomPotionColor:7957339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1007,7 +1007,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:9600}],CustomPotionColor:7957339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:9600}],CustomPotionColor:7957339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1050,7 +1050,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:105b,duration:450}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:105b,duration:450}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1093,7 +1093,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:3600}],CustomPotionColor:15073024,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:3600}],CustomPotionColor:15073024,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1136,7 +1136,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:9600}],CustomPotionColor:15073024,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:9600}],CustomPotionColor:15073024,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1179,7 +1179,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:3600}],CustomPotionColor:5066061,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:3600}],CustomPotionColor:5066061,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1222,7 +1222,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:9600}],CustomPotionColor:5066061,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:9600}],CustomPotionColor:5066061,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1265,7 +1265,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:3600}],CustomPotionColor:13697019,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:3600}],CustomPotionColor:13697019,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1308,7 +1308,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:9600}],CustomPotionColor:13697019,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:9600}],CustomPotionColor:13697019,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1351,7 +1351,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:3600}],CustomPotionColor:16743699,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:3600}],CustomPotionColor:16743699,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1394,7 +1394,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:9600}],CustomPotionColor:16743699,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:9600}],CustomPotionColor:16743699,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1437,7 +1437,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:3600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:3600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1480,7 +1480,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:9600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:9600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1523,7 +1523,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:3600}],CustomPotionColor:12105912,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:3600}],CustomPotionColor:12105912,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1566,7 +1566,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:9600}],CustomPotionColor:12105912,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:9600}],CustomPotionColor:12105912,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1609,7 +1609,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:3600}],CustomPotionColor:13446619,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:3600}],CustomPotionColor:13446619,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1652,7 +1652,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:9600}],CustomPotionColor:13446619,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:9600}],CustomPotionColor:13446619,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1695,7 +1695,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:3600}],CustomPotionColor:16769596,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:3600}],CustomPotionColor:16769596,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1738,7 +1738,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:9600}],CustomPotionColor:16769596,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:9600}],CustomPotionColor:16769596,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1781,7 +1781,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:3600}],CustomPotionColor:6826339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:3600}],CustomPotionColor:6826339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1824,7 +1824,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:9600}],CustomPotionColor:6826339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:9600}],CustomPotionColor:6826339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1867,7 +1867,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:3600}],CustomPotionColor:16711680,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:3600}],CustomPotionColor:16711680,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1910,7 +1910,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:9600}],CustomPotionColor:16711680,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:9600}],CustomPotionColor:16711680,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1953,7 +1953,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:3600}],CustomPotionColor:12116077,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:3600}],CustomPotionColor:12116077,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -1996,7 +1996,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:9600}],CustomPotionColor:12116077,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:9600}],CustomPotionColor:12116077,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2039,7 +2039,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:3600}],CustomPotionColor:2820142,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:3600}],CustomPotionColor:2820142,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2082,7 +2082,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:9600}],CustomPotionColor:2820142,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:9600}],CustomPotionColor:2820142,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2125,7 +2125,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:3600}],CustomPotionColor:3931938,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:3600}],CustomPotionColor:3931938,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2168,7 +2168,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:9600}],CustomPotionColor:3931938,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:9600}],CustomPotionColor:3931938,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2211,7 +2211,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:3600}],CustomPotionColor:13213951,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:3600}],CustomPotionColor:13213951,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2254,7 +2254,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:9600}],CustomPotionColor:13213951,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:9600}],CustomPotionColor:13213951,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2297,7 +2297,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:3600}],CustomPotionColor:3691859,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:3600}],CustomPotionColor:3691859,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2340,7 +2340,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:9600}],CustomPotionColor:3691859,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:9600}],CustomPotionColor:3691859,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2383,7 +2383,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:3600}],CustomPotionColor:1698267,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:3600}],CustomPotionColor:1698267,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2426,7 +2426,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:9600}],CustomPotionColor:1698267,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:9600}],CustomPotionColor:1698267,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2469,7 +2469,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:3600}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:3600}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2512,7 +2512,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:9600}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:9600}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2555,7 +2555,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:1800}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:1800}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2598,7 +2598,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:900}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:900}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2641,7 +2641,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:3600}],CustomPotionColor:5065466,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:3600}],CustomPotionColor:5065466,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2684,7 +2684,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:9600}],CustomPotionColor:5065466,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:9600}],CustomPotionColor:5065466,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2727,7 +2727,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:3600}],CustomPotionColor:8384219,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:3600}],CustomPotionColor:8384219,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2770,7 +2770,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:9600}],CustomPotionColor:8384219,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:9600}],CustomPotionColor:8384219,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2813,7 +2813,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:3600}],CustomPotionColor:7519231,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:3600}],CustomPotionColor:7519231,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2856,7 +2856,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:9600}],CustomPotionColor:7519231,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:9600}],CustomPotionColor:7519231,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2899,7 +2899,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:3600}],CustomPotionColor:5898339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:3600}],CustomPotionColor:5898339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2942,7 +2942,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:9600}],CustomPotionColor:5898339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:9600}],CustomPotionColor:5898339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -2985,7 +2985,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:74b,duration:96000000}],CustomPotionColor:0,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:74b,duration:96000000}],CustomPotionColor:0,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3025,7 +3025,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:3600}],CustomPotionColor:5560297,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:3600}],CustomPotionColor:5560297,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3068,7 +3068,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:9600}],CustomPotionColor:5560297,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:9600}],CustomPotionColor:5560297,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3111,7 +3111,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:106b,duration:3600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:106b,duration:3600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3154,7 +3154,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:3600}],CustomPotionColor:16749851,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:3600}],CustomPotionColor:16749851,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3197,7 +3197,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:9600}],CustomPotionColor:16749851,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:9600}],CustomPotionColor:16749851,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3240,7 +3240,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:3600}],CustomPotionColor:148766711,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:3600}],CustomPotionColor:148766711,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3283,7 +3283,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:9600}],CustomPotionColor:148766711,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:9600}],CustomPotionColor:148766711,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3326,7 +3326,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:3600}],CustomPotionColor:11171128,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:3600}],CustomPotionColor:11171128,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3369,7 +3369,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:9600}],CustomPotionColor:11171128,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:9600}],CustomPotionColor:11171128,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3412,7 +3412,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:3600}],CustomPotionColor:7957339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:3600}],CustomPotionColor:7957339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3455,7 +3455,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:9600}],CustomPotionColor:7957339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:9600}],CustomPotionColor:7957339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3498,7 +3498,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:105b,duration:450}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:105b,duration:450}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3541,7 +3541,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:3600}],CustomPotionColor:15073024,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:3600}],CustomPotionColor:15073024,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3584,7 +3584,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:9600}],CustomPotionColor:15073024,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:9600}],CustomPotionColor:15073024,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3627,7 +3627,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:3600}],CustomPotionColor:5066061,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:3600}],CustomPotionColor:5066061,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3670,7 +3670,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:9600}],CustomPotionColor:5066061,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:9600}],CustomPotionColor:5066061,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3713,7 +3713,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:3600}],CustomPotionColor:13697019,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:3600}],CustomPotionColor:13697019,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3756,7 +3756,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:9600}],CustomPotionColor:13697019,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:9600}],CustomPotionColor:13697019,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3799,7 +3799,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:3600}],CustomPotionColor:16743699,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:3600}],CustomPotionColor:16743699,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3842,7 +3842,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:9600}],CustomPotionColor:16743699,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:9600}],CustomPotionColor:16743699,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3885,7 +3885,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:3600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:3600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3928,7 +3928,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:9600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:9600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -3971,7 +3971,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:3600}],CustomPotionColor:12105912,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:3600}],CustomPotionColor:12105912,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4014,7 +4014,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:9600}],CustomPotionColor:12105912,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:9600}],CustomPotionColor:12105912,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4057,7 +4057,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:3600}],CustomPotionColor:13446619,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:3600}],CustomPotionColor:13446619,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4100,7 +4100,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:9600}],CustomPotionColor:13446619,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:9600}],CustomPotionColor:13446619,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4143,7 +4143,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:3600}],CustomPotionColor:16769596,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:3600}],CustomPotionColor:16769596,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4186,7 +4186,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:9600}],CustomPotionColor:16769596,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:9600}],CustomPotionColor:16769596,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4229,7 +4229,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:3600}],CustomPotionColor:6826339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:3600}],CustomPotionColor:6826339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4272,7 +4272,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:9600}],CustomPotionColor:6826339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:9600}],CustomPotionColor:6826339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4315,7 +4315,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:3600}],CustomPotionColor:16711680,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:3600}],CustomPotionColor:16711680,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4358,7 +4358,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:9600}],CustomPotionColor:16711680,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:9600}],CustomPotionColor:16711680,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4401,7 +4401,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:3600}],CustomPotionColor:12116077,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:3600}],CustomPotionColor:12116077,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4444,7 +4444,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:9600}],CustomPotionColor:12116077,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:9600}],CustomPotionColor:12116077,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4487,7 +4487,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:3600}],CustomPotionColor:2820142,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:3600}],CustomPotionColor:2820142,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4530,7 +4530,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:9600}],CustomPotionColor:2820142,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:9600}],CustomPotionColor:2820142,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4573,7 +4573,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:3600}],CustomPotionColor:3931938,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:3600}],CustomPotionColor:3931938,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4616,7 +4616,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:9600}],CustomPotionColor:3931938,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:9600}],CustomPotionColor:3931938,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4659,7 +4659,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:3600}],CustomPotionColor:13213951,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:3600}],CustomPotionColor:13213951,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4702,7 +4702,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:9600}],CustomPotionColor:13213951,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:9600}],CustomPotionColor:13213951,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4745,7 +4745,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:3600}],CustomPotionColor:3691859,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:3600}],CustomPotionColor:3691859,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4788,7 +4788,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:9600}],CustomPotionColor:3691859,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:9600}],CustomPotionColor:3691859,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4831,7 +4831,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:3600}],CustomPotionColor:1698267,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:3600}],CustomPotionColor:1698267,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4874,7 +4874,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:9600}],CustomPotionColor:1698267,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:9600}],CustomPotionColor:1698267,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4917,7 +4917,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:3600}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:3600}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -4960,7 +4960,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:9600}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:40b,duration:9600}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5003,7 +5003,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:1800}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:1800}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5046,7 +5046,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:900}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:41b,duration:900}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5089,7 +5089,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:3600}],CustomPotionColor:5065466,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:3600}],CustomPotionColor:5065466,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5132,7 +5132,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:9600}],CustomPotionColor:5065466,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:17b,duration:9600}],CustomPotionColor:5065466,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5175,7 +5175,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:3600}],CustomPotionColor:8384219,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:3600}],CustomPotionColor:8384219,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5218,7 +5218,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:9600}],CustomPotionColor:8384219,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:18b,duration:9600}],CustomPotionColor:8384219,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5261,7 +5261,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:3600}],CustomPotionColor:7519231,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:3600}],CustomPotionColor:7519231,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5304,7 +5304,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:9600}],CustomPotionColor:7519231,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:19b,duration:9600}],CustomPotionColor:7519231,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5347,7 +5347,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:3600}],CustomPotionColor:5898339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:3600}],CustomPotionColor:5898339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5390,7 +5390,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:9600}],CustomPotionColor:5898339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:20b,duration:9600}],CustomPotionColor:5898339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5433,7 +5433,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:74b,duration:96000000}],CustomPotionColor:0,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:74b,duration:96000000}],CustomPotionColor:0,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5473,7 +5473,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:3600}],CustomPotionColor:5560297,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:3600}],CustomPotionColor:5560297,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5516,7 +5516,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:9600}],CustomPotionColor:5560297,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:16b,duration:9600}],CustomPotionColor:5560297,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5559,7 +5559,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:106b,duration:3600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:hero_of_the_village\",amplifier:106b,duration:3600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5602,7 +5602,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:3600}],CustomPotionColor:16749851,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:3600}],CustomPotionColor:16749851,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5645,7 +5645,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:9600}],CustomPotionColor:16749851,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:9600}],CustomPotionColor:16749851,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5688,7 +5688,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:3600}],CustomPotionColor:148766711,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:3600}],CustomPotionColor:148766711,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5731,7 +5731,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:9600}],CustomPotionColor:148766711,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:109b,duration:9600}],CustomPotionColor:148766711,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5774,7 +5774,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:3600}],CustomPotionColor:11171128,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:3600}],CustomPotionColor:11171128,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5817,7 +5817,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:9600}],CustomPotionColor:11171128,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:104b,duration:9600}],CustomPotionColor:11171128,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5860,7 +5860,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:3600}],CustomPotionColor:7957339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:3600}],CustomPotionColor:7957339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5903,7 +5903,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:9600}],CustomPotionColor:7957339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:107b,duration:9600}],CustomPotionColor:7957339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5946,7 +5946,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:105b,duration:450}],CustomPotionColor:16403165,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:105b,duration:450}],CustomPotionColor:16403165,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -5989,7 +5989,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:3600}],CustomPotionColor:15073024,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:3600}],CustomPotionColor:15073024,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6032,7 +6032,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:9600}],CustomPotionColor:15073024,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:108b,duration:9600}],CustomPotionColor:15073024,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6075,7 +6075,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:3600}],CustomPotionColor:5066061,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:3600}],CustomPotionColor:5066061,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6118,7 +6118,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:9600}],CustomPotionColor:5066061,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:9600}],CustomPotionColor:5066061,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6161,7 +6161,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:3600}],CustomPotionColor:13697019,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:3600}],CustomPotionColor:13697019,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6204,7 +6204,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:9600}],CustomPotionColor:13697019,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:9600}],CustomPotionColor:13697019,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6247,7 +6247,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:3600}],CustomPotionColor:16743699,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:3600}],CustomPotionColor:16743699,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6290,7 +6290,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:9600}],CustomPotionColor:16743699,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:111b,duration:9600}],CustomPotionColor:16743699,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6333,7 +6333,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:3600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:3600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6376,7 +6376,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:9600}],CustomPotionColor:16777215,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:112b,duration:9600}],CustomPotionColor:16777215,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6419,7 +6419,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:3600}],CustomPotionColor:12105912,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:3600}],CustomPotionColor:12105912,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6462,7 +6462,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:9600}],CustomPotionColor:12105912,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:113b,duration:9600}],CustomPotionColor:12105912,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6505,7 +6505,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:3600}],CustomPotionColor:13446619,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:3600}],CustomPotionColor:13446619,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6548,7 +6548,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:9600}],CustomPotionColor:13446619,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:115b,duration:9600}],CustomPotionColor:13446619,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6591,7 +6591,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:3600}],CustomPotionColor:16769596,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:3600}],CustomPotionColor:16769596,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6634,7 +6634,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:9600}],CustomPotionColor:16769596,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:116b,duration:9600}],CustomPotionColor:16769596,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6677,7 +6677,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:3600}],CustomPotionColor:6826339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:3600}],CustomPotionColor:6826339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6720,7 +6720,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:9600}],CustomPotionColor:6826339,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:117b,duration:9600}],CustomPotionColor:6826339,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6763,7 +6763,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:3600}],CustomPotionColor:16711680,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:3600}],CustomPotionColor:16711680,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6806,7 +6806,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:9600}],CustomPotionColor:16711680,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:118b,duration:9600}],CustomPotionColor:16711680,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6849,7 +6849,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:3600}],CustomPotionColor:12116077,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:3600}],CustomPotionColor:12116077,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6892,7 +6892,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:9600}],CustomPotionColor:12116077,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:119b,duration:9600}],CustomPotionColor:12116077,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6935,7 +6935,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:3600}],CustomPotionColor:2820142,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:3600}],CustomPotionColor:2820142,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -6978,7 +6978,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:9600}],CustomPotionColor:2820142,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:9600}],CustomPotionColor:2820142,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -7021,7 +7021,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:3600}],CustomPotionColor:3931938,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:3600}],CustomPotionColor:3931938,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -7064,7 +7064,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:9600}],CustomPotionColor:3931938,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:9600}],CustomPotionColor:3931938,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -7107,7 +7107,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:3600}],CustomPotionColor:13213951,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:3600}],CustomPotionColor:13213951,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -7150,7 +7150,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:9600}],CustomPotionColor:13213951,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:9600}],CustomPotionColor:13213951,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -7193,7 +7193,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:3600}],CustomPotionColor:3691859,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:3600}],CustomPotionColor:3691859,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -7236,7 +7236,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:9600}],CustomPotionColor:3691859,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:9600}],CustomPotionColor:3691859,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -7279,7 +7279,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:3600}],CustomPotionColor:1698267,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:3600}],CustomPotionColor:1698267,"imba": true}"
                         },
                         {
                             "function": "set_name",
@@ -7322,7 +7322,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:9600}],CustomPotionColor:1698267,imba:1b}"
+                            "tag": "{HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:9600}],CustomPotionColor:1698267,"imba": true}"
                         },
                         {
                             "function": "set_name",

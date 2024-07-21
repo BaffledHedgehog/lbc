@@ -12,7 +12,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{kapusta:1b,"gadget": true,"minecraft:custom_model_data":618,imba:1b}"
+                            "tag": "{kapusta:1b,"gadget": true,"minecraft:custom_model_data":618,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -46,7 +46,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{tikva:1b,"projegadget": true,"minecraft:custom_model_data":620,imba:1b}"
+                            "tag": "{tikva:1b,"projegadget": true,"minecraft:custom_model_data":620,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -85,7 +85,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":585,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"pumpkinator\",\"rare\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":585,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"pumpkinator\",\"rare\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -118,7 +118,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{bucks:1b,"gadget": true,"minecraft:custom_model_data":622,imba:1b}"
+                            "tag": "{bucks:1b,"gadget": true,"minecraft:custom_model_data":622,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -152,7 +152,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{honew:1b,"projegadget": true,"minecraft:custom_model_data":621,imba:1b}"
+                            "tag": "{honew:1b,"projegadget": true,"minecraft:custom_model_data":621,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",

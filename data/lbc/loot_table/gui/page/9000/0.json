@@ -26,10 +26,14 @@
                   "entity": "this",
                   "lore": [
                       {
-                          "translate": "lore.lbckit.0",
+                          "translate": "lore.lbckit.0.0",
                           "italic": false,
                           "color": "gray"
-                      }
+                      },{
+                        "translate": "lore.lbckit.0.1",
+                        "italic": false,
+                        "color": "gray"
+                    }
                   ]
               }
             ]
