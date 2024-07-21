@@ -14,7 +14,14 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{ender_pernul:1b,"special": true,"minecraft:custom_model_data":600,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "ender_pernul": true,
+                                    "special": true,
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 600
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -26,7 +33,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -43,10 +51,16 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{eat_teleport2:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "eat_teleport2": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -63,7 +77,20 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":582,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"end_portal\",\"instant\"]},"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 582,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "slowraycast",
+                                        "end_portal",
+                                        "instant"
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -75,7 +102,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -92,7 +120,15 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":583,EntityTag:{id:\"minecraft:end_crystal\"},"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 583,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:end_crystal"
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -104,7 +140,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -121,7 +158,20 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":584,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"nether_portal\",\"instant\"]},"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 584,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "slowraycast",
+                                        "nether_portal",
+                                        "instant"
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -133,7 +183,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",

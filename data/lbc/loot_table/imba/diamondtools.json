@@ -17,7 +17,16 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":500,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],imbaxe:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "imba": true,
+                                    "imbaxe": true
+                                },
+                                "minecraft:custom_model_data": 500,
+                                "minecraft:enchantments": {
+                                    "minecraft:efficiency": 255
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -29,7 +38,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -58,7 +68,16 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":500,chaos_pic:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 500,
+                                "minecraft:custom_data": {
+                                    "chaos_pic": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:efficiency": 255
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -70,7 +89,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -99,7 +119,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{Unbreakable:1b,chaos_swo:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "chaos_swo": true,
+                                    "imba": true
+                                },
+                                "minecraft:unbreakable": {}
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -111,7 +137,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -140,7 +167,16 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":604,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],chaos_sho:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 604,
+                                "minecraft:custom_data": {
+                                    "chaos_sho": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:efficiency": 255
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -152,7 +188,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -181,7 +218,17 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":500,Enchantments:[{id:\"minecraft:efficiency\",lvl:255},{id:\"minecraft:silk_touch\",lvl:1}],chaos_hoe:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 500,
+                                "minecraft:custom_data": {
+                                    "chaos_hoe": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:efficiency": 255,
+                                    "minecraft:silk_touch": 1
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -193,7 +240,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -218,7 +266,21 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":586,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"midas_block\",\"magic\",\"imba_rc\"]},"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 586,
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                },
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "slowraycast",
+                                        "midas_block",
+                                        "magic",
+                                        "imba_rc"
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -230,7 +292,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "midas_block.lore",

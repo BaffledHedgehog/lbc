@@ -1,6 +1,5 @@
 {
     "pools": [
-        
         {
             "rolls": 1,
             "entries": [
@@ -15,7 +14,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{infinite_arrow:1b,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "infinite_arrow": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -27,7 +34,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",

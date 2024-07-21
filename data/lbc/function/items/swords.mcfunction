@@ -54,6 +54,6 @@ execute at @s[nbt={SelectedItem:{components:{"banhammer": true}}}] run function 
 execute at @s[nbt={SelectedItem:{components:{"stand_arrow": true}}}] as @e[nbt={HurtTime:10s},distance=0.01..7,tag=!spectator] at @s run function lbc:other/stand_arrow/hit
 execute at @s[nbt={SelectedItem:{components:{"wtf_item": true}}}] run function lbc:items/swords/wtf_item/hit
 execute at @s[nbt={SelectedItem:{components:{"fevgalea_star": true}}}] run function lbc:items/swords/fevgalea_star/hit
-execute at @s[nbt={SelectedItem:{components:{chaos_swo:1b}}}] run function lbc:items/swords/chaos_sword_imba_pre
+execute at @s[nbt={SelectedItem:{components:{"chaos_swo": true}}}] run function lbc:items/swords/chaos_sword_imba_pre
 execute at @s[nbt={SelectedItem:{components:{triple_golden_sword:1b}}}] run function lbc:items/swords/triple_golden_sword/damage
 advancement revoke @s only lbc:gowno

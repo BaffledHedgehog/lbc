@@ -13,7 +13,20 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":579,EntityTag:{id:\"minecraft:marker\",Tags:[\"rc_1sec\",\"diamondificator\",\"magic\"]},"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 579,
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                },
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "rc_1sec",
+                                        "diamondificator",
+                                        "magic"
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -25,7 +38,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "diamondificator.lore",

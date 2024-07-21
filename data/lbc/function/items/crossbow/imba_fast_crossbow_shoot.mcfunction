@@ -4,4 +4,4 @@ execute as @e[type=arrow,limit=1,distance=..0.01,tag=fast_crossbow_arrow,tag=!ac
 tag @e[type=arrow,limit=1,distance=..0.01,tag=fast_crossbow_arrow,tag=!active] add active
 playsound item.crossbow.shoot master @a ~ ~ ~ 1 1
 particle crit ~ ~ ~
-clear @s[nbt=!{Inventory:[{components:{infinite_arrow:1b}}]}] arrow 1
+clear @s[nbt=!{Inventory:[{components:{"infinite_arrow": true}}]}] arrow 1

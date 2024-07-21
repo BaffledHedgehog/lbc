@@ -17,7 +17,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":581,diamond_apple:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 581,
+                                "minecraft:custom_data": {
+                                    "diamond_apple": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -29,7 +35,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -50,7 +57,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":582,golden_stew:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 582,
+                                "minecraft:custom_data": {
+                                    "golden_stew": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -62,7 +75,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -83,7 +97,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":583,golden_bread:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 583,
+                                "minecraft:custom_data": {
+                                    "golden_bread": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -95,7 +115,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -116,7 +137,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":584,golden_porkchop:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 584,
+                                "minecraft:custom_data": {
+                                    "golden_porkchop": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -128,7 +155,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -149,7 +177,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":585,diamond_porkchop:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 585,
+                                "minecraft:custom_data": {
+                                    "diamond_porkchop": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -161,7 +195,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -182,7 +217,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":586,netherite_apple:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 586,
+                                "minecraft:custom_data": {
+                                    "netherite_apple": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -194,7 +235,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -215,7 +257,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":587,bedrock_apple:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 587,
+                                "minecraft:custom_data": {
+                                    "bedrock_apple": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -227,7 +275,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -248,7 +297,32 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":588,golden_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:2}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 588,
+                                "minecraft:custom_data": {
+                                    "golden_fish": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:knockback": 2
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "generic.ahhethhmage",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "genghghghghgck_speed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -260,7 +334,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -281,7 +356,34 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":589,diamond_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:5},{id:\"minecraft:bane_of_arthropods\",lvl:5},{id:\"minecraft:lure\",lvl:5}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 589,
+                                "minecraft:custom_data": {
+                                    "diamond_fish": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:knockback": 5,
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:lure": 5
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "gfhnhnfykjykamage",
+                                        "amount": 8,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "genejynm8kkmfghjhjhpeed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -293,7 +395,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -314,7 +417,34 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":590,netherite_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 590,
+                                "minecraft:custom_data": {
+                                    "netherite_fish": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:knockback": 255,
+                                    "minecraft:bane_of_arthropods": 255,
+                                    "minecraft:smite": 255
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "gensdhs5hbyukmyhumkage",
+                                        "amount": 14,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "genericed6bnu7tmkukbhjed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -326,7 +456,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -347,7 +478,34 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":591,netherstar_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 591,
+                                "minecraft:custom_data": {
+                                    "netherstar_fish": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:knockback": 255,
+                                    "minecraft:bane_of_arthropods": 255,
+                                    "minecraft:smite": 255
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "gegytunyikibhuge",
+                                        "amount": 15,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "gentnoiikhjkhjjhed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -359,7 +517,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -380,7 +539,34 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":592,transdimensional_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:16,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 592,
+                                "minecraft:custom_data": {
+                                    "transdimensional_fish": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:knockback": 255,
+                                    "minecraft:bane_of_arthropods": 255,
+                                    "minecraft:smite": 255
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "gedjgfynmj8knrc6rege",
+                                        "amount": 16,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "gvumtujucfyhghghed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -392,7 +578,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -413,7 +600,34 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":593,multiverse_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:40,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 593,
+                                "minecraft:custom_data": {
+                                    "multiverse_fish": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:knockback": 255,
+                                    "minecraft:bane_of_arthropods": 255,
+                                    "minecraft:smite": 255
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "hdbthfdchbdfhmage",
+                                        "amount": 40,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "genernjt78kitcrheyhthhd",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -425,7 +639,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -446,7 +661,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":594,golden_cake:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 594,
+                                "minecraft:custom_data": {
+                                    "golden_cake": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -458,7 +679,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -479,7 +701,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":595,golden_cookie:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 595,
+                                "minecraft:custom_data": {
+                                    "golden_cookie": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -491,7 +719,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -512,7 +741,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":596,golden_melon:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 596,
+                                "minecraft:custom_data": {
+                                    "golden_melon": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -524,7 +759,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -545,7 +781,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":597,golden_kelp:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 597,
+                                "minecraft:custom_data": {
+                                    "golden_kelp": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -557,7 +799,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -578,7 +821,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":598,golden_beef:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 598,
+                                "minecraft:custom_data": {
+                                    "golden_beef": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -590,7 +839,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -611,7 +861,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":599,diamond_beef:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 599,
+                                "minecraft:custom_data": {
+                                    "diamond_beef": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -623,7 +879,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -644,7 +901,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":600,golden_chicken:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 600,
+                                "minecraft:custom_data": {
+                                    "golden_chicken": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -656,7 +919,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -677,7 +941,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":601,diamond_chicken:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 601,
+                                "minecraft:custom_data": {
+                                    "diamond_chicken": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -689,7 +959,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -710,7 +981,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":602,human_"flesh": true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 602,
+                                "minecraft:custom_data": {
+                                    "human_flesh": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -722,7 +999,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -743,7 +1021,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":603,human_eye:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 603,
+                                "minecraft:custom_data": {
+                                    "human_eye": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -755,7 +1039,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -776,7 +1061,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":604,golden_chorus:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 604,
+                                "minecraft:custom_data": {
+                                    "golden_chorus": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -788,7 +1079,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -809,7 +1101,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":605,golden_berries:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 605,
+                                "minecraft:custom_data": {
+                                    "golden_berries": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -821,7 +1119,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -842,7 +1141,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":606,diamond_carrot:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 606,
+                                "minecraft:custom_data": {
+                                    "diamond_carrot": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -854,7 +1159,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -875,7 +1181,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":607,netherite_carrot:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 607,
+                                "minecraft:custom_data": {
+                                    "netherite_carrot": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -887,7 +1199,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -908,7 +1221,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":608,golden_potato:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 608,
+                                "minecraft:custom_data": {
+                                    "golden_potato": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -920,7 +1239,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -941,7 +1261,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":609,diamond_potato:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 609,
+                                "minecraft:custom_data": {
+                                    "diamond_potato": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -953,7 +1279,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -974,7 +1301,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":610,netherite_potato:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 610,
+                                "minecraft:custom_data": {
+                                    "netherite_potato": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -986,7 +1319,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1007,7 +1341,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":611,golden_pie:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 611,
+                                "minecraft:custom_data": {
+                                    "golden_pie": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1019,7 +1359,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1040,7 +1381,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":612,golden_rabbit:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 612,
+                                "minecraft:custom_data": {
+                                    "golden_rabbit": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1052,7 +1399,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1073,7 +1421,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":613,diamond_rabbit:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 613,
+                                "minecraft:custom_data": {
+                                    "diamond_rabbit": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1085,7 +1439,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1106,7 +1461,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":614,diamond_stew:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 614,
+                                "minecraft:custom_data": {
+                                    "diamond_stew": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1118,7 +1479,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1139,7 +1501,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":615,golden_mutton:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 615,
+                                "minecraft:custom_data": {
+                                    "golden_mutton": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1151,7 +1519,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1172,7 +1541,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":616,diamond_mutton:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 616,
+                                "minecraft:custom_data": {
+                                    "diamond_mutton": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1184,7 +1559,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1205,7 +1581,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":617,golden_beetroot:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 617,
+                                "minecraft:custom_data": {
+                                    "golden_beetroot": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1217,7 +1599,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1238,7 +1621,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":618,netherite_stew:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 618,
+                                "minecraft:custom_data": {
+                                    "netherite_stew": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1250,7 +1639,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1271,7 +1661,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":619,diamond_berries:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 619,
+                                "minecraft:custom_data": {
+                                    "diamond_berries": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1283,7 +1679,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -1304,7 +1701,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":620,yellow_lightings_bottle:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 620,
+                                "minecraft:custom_data": {
+                                    "yellow_lightings_bottle": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1316,7 +1719,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",

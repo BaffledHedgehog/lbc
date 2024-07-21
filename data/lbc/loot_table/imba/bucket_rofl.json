@@ -9,7 +9,14 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{bucket:1b,"projegadget": true,"minecraft:custom_model_data":601,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "bucket": true,
+                                    "projegadget": true,
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 601
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -21,16 +28,18 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "bucket.lore",
                                     "italic": false,
-                                    "color":"white"
-                                },{
+                                    "color": "white"
+                                },
+                                {
                                     "translate": "imba_version",
                                     "italic": false,
-                                    "color":"dark_purple"
+                                    "color": "dark_purple"
                                 }
                             ]
                         }

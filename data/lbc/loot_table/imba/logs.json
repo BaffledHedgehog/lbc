@@ -123,7 +123,8 @@
                             "count": 64
                         }
                     ]
-                },{
+                },
+                {
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:oak_log",
@@ -255,7 +256,20 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":581,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"mystical_tree\",\"instant\"]},"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 581,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "slowraycast",
+                                        "mystical_tree",
+                                        "instant"
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -267,7 +281,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",

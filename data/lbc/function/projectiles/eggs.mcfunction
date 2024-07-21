@@ -22,9 +22,9 @@ execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"trollge"
 
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"kill_rand": true} unless entity @e[type=marker,limit=1,tag=stopper,distance=..24] run function lbc:other/kill_rand_hihihiha
 
-execute anchored eyes positioned ^ ^ ^ if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{kapusta:1b} run function lbc:other/kapusta/throw
+execute anchored eyes positioned ^ ^ ^ if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"kapusta": true} run function lbc:other/kapusta/throw
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"gayradar": true} run function lbc:other/gayradar/click
-execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{bucks:1b} run function lbc:other/bucks/rc
+execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"bucks": true} run function lbc:other/bucks/rc
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"libspell": true} run function lbc:items/libspells/select
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{win_button:1b} run function lbc:items/win/win
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{most_imba:1b} run function lbc:other/imba/most_spawn

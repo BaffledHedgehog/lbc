@@ -1,4 +1,4 @@
 # Recharging crossbow
 execute if entity @s[nbt={Inventory:[{id:"minecraft:arrow"}]}] run item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"translate":"minigun","color":"gray","italic":false}',Lore:['{"translate": "minigun.lore.1","color": "yellow","italic": false}','{"translate": "minigun.lore.2","color": "yellow","italic": false}']},"fast_old": true,Enchantments:[{id:"minecraft:quick_charge",lvl:5s}],ChargedProjectiles:[{id:"minecraft:arrow",Count:1b},{},{}],Charged:1b} 1
 # clearing 1 arrow
-execute if entity @s[nbt={Inventory:[{id:"minecraft:arrow"}]}] run clear @s[nbt=!{Inventory:[{components:{infinite_arrow:1b}}]}] arrow 1
+execute if entity @s[nbt={Inventory:[{id:"minecraft:arrow"}]}] run clear @s[nbt=!{Inventory:[{components:{"infinite_arrow": true}}]}] arrow 1
