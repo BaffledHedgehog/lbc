@@ -1,0 +1,117 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "quality": 0,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "magicwand": true,
+                                    "spellwithcooldown_n": true,
+                                    "spellwithcooldown": true,
+                                    "nexus_roadgun": true
+                                },
+                                "minecraft:custom_model_data": 720
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "nexus_roadgun",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "nexus_roadgun.lore.1",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "nexus_roadgun.lore.2",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "nexus_roadgun.lore.3",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "quality": 0,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "magicwand": true,
+                                    "spellwithcooldown_n": true,
+                                    "spellwithcooldown": true,
+                                    "nexus_pulsar": true
+                                },
+                                "minecraft:custom_model_data": 726
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "nexus_pulsar",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "nexus_pulsar.lore.1",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "nexus_pulsar.lore.2",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "nexus_pulsar.lore.3",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1021 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_chestplate",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"randchanted": true,"transformable": true,"chestplate": true}"
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"multiplying": true,"transformable": true,"chestplate": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:1,UUID:[I;-1140115134,2071022239,-1571434570,1810946798],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:1,UUID:[I;1513991244,-2014493379,-1542381898,-1914562855],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "multiplying_chestplate",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,display:{color:1},"minecraft:custom_model_data":1,HideFlags:64,"dynamite": true,Enchantments:[{id:\"minecraft:blast_protection\",lvl:255s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:15,Operation:0,UUID:[I;-1197286063,-966703212,-1627823476,-1865853662],Slot:\"chest\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:15,Operation:0,UUID:[I;-449625010,-1999550901,-1962659761,-2125256788],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:15,Operation:0,UUID:[I;-1975236396,-68727136,-1444759454,504708504],Slot:\"chest\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "tnt_jacket",
+                  "color": "dark_red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "tnt_jacket.lore",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,"berserk": true,display:{color:513},"minecraft:custom_model_data":5,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:-8,Operation:0,UUID:[I;-94924628,50346755,-147345731,-152792944],Slot:\"chest\"},{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-45669965,-19427555,-133845364,159932994],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-4,Operation:0,UUID:[I;73332343,37089897,-200000750,113912764],Slot:\"chest\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.15,Operation:1,UUID:[I;-48562058,117763642,-186024244,-155842167],Slot:\"chest\"},{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;885720,-8268395,-126737,-1370918],Slot:\"chest\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "berserker_chestplate",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_berserker",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"minecraft:custom_model_data":4,"transformable": true,"chestplate": true,HideFlags:68,display:{color:256},"chaoschestplate": true,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:generic.armor,Amount:5,Operation:0,UUID:[I;-738177,140209701,-162343953,-30940581],Slot:chest}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "chaos_chestplate",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "chaos_chestplate.lore",
+                  "color": "yellow",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_chaos.1",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_chaos.2",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"transformable": true,"chestplate": true,display:{color:3},"minecraft:custom_model_data":3,HideFlags:68,Unbreakable:1b,"mage": true,Enchantments:[{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s},{id:\"minecraft:projectile_protection\",lvl:5s}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "mage_mantle",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "mage_hat.lore.1",
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "translate": "mage_hat.lore.2",
+                  "color": "aqua",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_mage",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "craft_with_phantom_chestplate",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"govnoq": true,"transformable": true,"chestplate": true,display:{color:258},"minecraft:custom_model_data":9,HideFlags:64,"gownoleggings": true,Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "gowno_chestplate",
+                "color": "#402626",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "gowno_leggings.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "gowno_leggings.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shitty",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,Unbreakable:1b,HideFlags:68,"shulkshell": true,display:{color:259},"minecraft:custom_model_data":7,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;1231263,-127663,-129636,236127],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "shulker_chestplate",
+                  "color": "#8942B3",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shulker.1",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shulker.2",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shulker.3",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shulker.4",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "shulker_chestplate.lore.1",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "shulker_chestplate.lore.2",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"transformable": true,display:{color:512},"minecraft:custom_model_data":8,"chestplate": true,HideFlags:68,Unbreakable:1b,"reactive":true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1654863489,274138968,-11414694,4934096],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "reactive_chestplate",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "reactive_chestplate.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "reactive_chestplate.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "set_bonus",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "set_bonus_steampunk",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "craft_with_techno_chestplate",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"transformable": true,"chestplate": true,display:{color:2},"minecraft:custom_model_data":2,HideFlags:68,Unbreakable:1b,"techno": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1657863489,275138968,-1143174694,493305796],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "wyvern_chestplate",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "power_helmet.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "power_helmet.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_techno.1",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_techno.2",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_techno.3",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "craft_with_reactive_chestplate",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,display:{color:257},"minecraft:custom_model_data":6,HideFlags:64,"jumpboost": true,Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "travel_chestplate",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "travel_chestplate.lore",
+                  "color": "#FFBFBF",
+                  "italic": false
+                },
+                {
+                  "translate": "set_bonus",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "set_bonus_traveller",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,"assasin": true,display:{color:515},"minecraft:custom_model_data":11,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "assasin_chestplate",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "assasin_set_bonus.1",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "assasin_set_bonus.2",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,"paladin": true,display:{color:4},"minecraft:custom_model_data":10,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:15,Operation:0,UUID:[I;4946328,506505,-1145731,-15944],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:15,Operation:0,UUID:[I;5563928,3466905,-139357,5279929],Slot:chest},{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:-0.3,Operation:1,UUID:[I;15563281,5466051,-11113337,52719296],Slot:chest}],Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:blast_protection\",lvl:255s}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "paladin_chestplate",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "paladin_set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"transformable": true,"chestplate": true,"phantom": true,display:{color:514},"minecraft:custom_model_data":12,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "phantom_chestplate",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "phantom_set_bonus.1",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "phantom_set_bonus.2",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "phantom_set_bonus.3",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "phantom_set_bonus.4",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "craft_with_mage_chestplate",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,"erosion":true,display:{color:8},"minecraft:custom_model_data":23,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:255}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "erosion_chestplate",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "erosion.lore",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,"flesh": true,display:{color:264},"minecraft:custom_model_data":21,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "flesh_chestplate",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "flesh.lore",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,"nanobots": true,display:{color:514},"minecraft:custom_model_data":22,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:0,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "nanobots_chestplate",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "nanobots_lore.1",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "nanobots_lore.2",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "nanobots_lore.3",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"chestplate": true,"glass": true,display:{color:520},"minecraft:custom_model_data":20,HideFlags:64,Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "glass_chestplate",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "glass.lore",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "glass.lore.2",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "generic.armor",
+                  "amount": 40,
+                  "operation": "add_value",
+                  "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "generic.armor_toughness",
+                  "amount": 40,
+                  "operation": "add_value",
+                  "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
+                  "slot": "chest"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type":"loot_table",
+          "name":"lbc:neko_set_overload/chestplate"
+        }
+      ]
+    }
+  ]
+}

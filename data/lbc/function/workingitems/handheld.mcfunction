@@ -1,0 +1,1 @@
+effect give @s[nbt={SelectedItem:{components:{"kiuaskivi":1b}}}] fire_resistance 1 2 true

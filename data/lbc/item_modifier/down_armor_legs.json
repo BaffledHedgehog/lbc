@@ -1,0 +1,77 @@
+[
+    {
+        "function": "minecraft:set_components",
+        "tag": "{"transformable": true,"leggings": true,"glass": true,display:{color:256},"minecraft:custom_model_data":20,HideFlags:64,Unbreakable:1b}"
+    },
+    {
+        "function": "minecraft:set_name",
+        "name": {
+            "translate": "glass_leggings",
+            "color": "white",
+            "italic": false
+        }
+    },
+    {
+        "function": "set_lore","mode":"replace_all",
+        "lore": [
+            [
+                {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                },
+                {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                }
+            ],
+            {
+                "translate": "glass.lore",
+                "italic": false,
+                "color": "aqua"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "name": "generic.armor",
+                "amount": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#tmp2"
+                    },
+                    "score": "lbc.math",
+                    "scale": 0.0009
+                },
+                "operation": "add_value",
+                "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
+                "slot": "legs",
+                "add": false
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "name": "generic.armor_toughness",
+                "amount": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#tmp2"
+                    },
+                    "score": "lbc.math",
+                    "scale": 0.0009
+                },
+                "operation": "add_value",
+                "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
+                "slot": "legs",
+                "add": false
+            }
+        ],
+        "add": false
+    }
+]

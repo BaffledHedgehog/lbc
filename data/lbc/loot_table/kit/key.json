@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_axe",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "tag": "{"minecraft:custom_model_data":41522,Damage:31,Enchantments:[{id:\"minecraft:fortune\",lvl:64}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "key",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,514 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_sword",
+            "components": {"minecraft:custom_model_data":549}
+        },
+        "title": {
+            "translate": "lbc.adv.sword.fragment"
+        },
+        "description": {
+            "translate": "lbc.adv.sword.fragment.lore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/swords/terra",
+    "criteria": {
+        "cool_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 5
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 7
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_9": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 8
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_10": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_11": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_12": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 11
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_13": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 12
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_14": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 13
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 14
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_16": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 15
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "cool_17": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "fragmentsword": true,
+                                "cooltype": 16
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

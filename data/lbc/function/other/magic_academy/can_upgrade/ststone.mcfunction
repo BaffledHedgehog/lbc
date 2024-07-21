@@ -1,0 +1,1 @@
+tellraw @s {"translate":"upgrade_condition_ststone","color":"yellow"}

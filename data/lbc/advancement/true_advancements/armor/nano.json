@@ -1,0 +1,86 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_chestplate",
+            "components": {"minecraft:custom_model_data":22}
+        },
+        "title": {
+            "translate": "lbc.adv.armor.nano"
+        },
+        "description": {
+            "translate": "lbc.adv.armor.nano.lore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/armor/erosion",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "nanobots": true
+                                        }
+                                    }
+                                },
+                                "chest": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "nanobots": true
+                                        }
+                                    }
+                                },
+                                "legs": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "nanobots": true
+                                        }
+                                    }
+                                },
+                                "feet": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "nanobots": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/kit"
+    }
+}

@@ -1,0 +1,257 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 738
+            }
+        },
+        "title": {
+            "translate": "lbc.adv.legends.tiny_wands"
+        },
+        "description": {
+            "translate": "lbc.adv.legends.tiny_wands.lore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/legends/kill_tiny_skeleton",
+    "criteria": {
+        "wand_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "struby_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wand_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "stterra_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wand_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "stelectro_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wand_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "stair_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wand_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "stacid_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wand_6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "stteleport_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wand_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "ststone_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wand_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "stfire_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wand_9": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "stblind_tiny": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

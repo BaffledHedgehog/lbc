@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^-.5 as @e[type=#mobs,distance=..2] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 facing entity @s eyes as @a[tag=caster,limit=1] run function lbcr:raycast_preloop10magnum
+particle electric_spark ~ ~ ~ 0.5 0.5 0.5 0 20 force

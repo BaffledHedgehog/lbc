@@ -1,0 +1,312 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "lbc:transformables_sword",
+                    "weight": 18
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:tuntijaa_terra_awakened",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":643,vexsword:1b,"magicwand": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "vex_sword",
+                                    "color": "green",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "sword",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "on_damage",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "vex_sword.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "RCability",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "vex_sword.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "3 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "4.0 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:one_punch_glove",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:0,UUID:[I;812312922,-773874805,-1323209468,890335225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-458612331,-2115309334,-16123146,-92378237],Slot:\"mainhand\"}],"minecraft:custom_model_data":655,techrunner_katana:1b,"magicwand": true,"sword": true,"transformable": true,"swordwithability": true,display:{Name:'{\"translate\":\"techrunner_katana\",\"italic\":false}',Lore:['{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\",\"extra\":[{\"translate\":\"sword\"}]}','{\"translate\":\"techrunner_katana_lore_1\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"techrunner_katana_lore_2\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"techrunner_katana_lore_3\",\"italic\":false,\"color\":\"white\"}','{\"text\":\"\"}','{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \",\"extra\":[{\"text\":\"8 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"dark_green\",\"italic\":false}]}','{\"text\":\" \",\"extra\":[{\"text\":\"1.6 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_speed\",\"color\":\"dark_green\",\"italic\":false}]}']}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"sword": true,"crowbar": true,"minecraft:custom_model_data":572,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "crowbar",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "sword",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "9 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "1.6 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Rexi_31",
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Beta Server Harem event",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{display:{Name:'{\"translate\":\"shit_katana\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}',Lore:['[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"sword\",\"italic\": false,\"color\": \"aqua\"}]','{\"translate\": \"on_damage\",\"color\": \"white\",\"italic\": false}','{\"translate\": \"shit_katana.lore.1\",\"color\": \"white\",\"italic\": false}','{\"translate\": \"RCability\",\"color\": \"white\",\"italic\": false}','{\"translate\": \"shit_katana.lore.2\",\"color\": \"gold\",\"italic\": false}','{\"translate\": \"item.modifiers.mainhand\",\"color\": \"gray\",\"italic\": false}','[{\"text\": \"5 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\": \"attribute.name.generic.attack_damage\"}]','[{\"text\": \"1.8 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\": \"attribute.name.generic.attack_speed\",\"color\": \"dark_green\",\"italic\": false}]','{\"translate\": \"shit_katana.lore.3\",\"color\": \"white\",\"italic\": false}']},"craftusable": true,"transformable": true,"minecraft:custom_model_data":644 ,"sword": true,shit_katana:1b,"magicwand": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.2,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"sword": true,"antimagic": true,"minecraft:custom_model_data":575,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;8811922,-7751105,-13732211,891125],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.0,Operation:0,UUID:[I;-455544331,-21551555,-15536,55271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255}]}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "antimagic_stick",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "sword",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "antimagic_stick.lore",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "5 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "2.0 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "nischtosnektem",
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Happy Birthday 14.10.2023!",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:fevgalea_star",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:triple_golden_sword",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

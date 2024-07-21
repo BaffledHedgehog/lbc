@@ -1,0 +1,1 @@
+$execute positioned ~ ~1 ~ rotated $(rot) 0 positioned ^ ^ ^-10 run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_danmaku_at_swordspawn_2 with storage lbc.math

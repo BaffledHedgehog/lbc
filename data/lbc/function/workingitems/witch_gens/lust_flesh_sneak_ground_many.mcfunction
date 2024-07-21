@@ -1,0 +1,1 @@
+function lbc:other/attributes/max_health_up_eight

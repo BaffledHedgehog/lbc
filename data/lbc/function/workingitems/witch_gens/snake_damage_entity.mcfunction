@@ -1,0 +1,10 @@
+effect give @s blindness 10 1
+effect give @s darkness 20 2
+effect give @s hunger 30 4
+effect give @s mining_fatigue 40 8
+effect give @s nausea 50 16
+effect give @s poison 60 32
+effect give @s slowness 70 64
+effect give @s unluck 80 127
+effect give @s weakness 90 127
+effect give @s wither 100 127

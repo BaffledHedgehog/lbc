@@ -1,0 +1,1 @@
+execute if entity @s[tag=sauvojen_blind] run function lbc:raycast/sauvojen_blind

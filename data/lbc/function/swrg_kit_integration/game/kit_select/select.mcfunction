@@ -1,0 +1,16 @@
+loot give @s[scores={lbc.kit=1}] loot lbc:kit/broken_totem
+loot give @s[scores={lbc.kit=2}] loot lbc:kit/3_purify_potion
+loot give @s[scores={lbc.kit=3}] loot lbc:kit/gaara
+loot give @s[scores={lbc.kit=4}] loot lbc:kit/life_in_death
+loot give @s[scores={lbc.kit=5}] loot lbc:kit/hell
+loot give @s[scores={lbc.kit=6}] loot lbc:kit/lucky_baffled
+loot give @s[scores={lbc.kit=7}] loot lbc:kit/moisei
+loot give @s[scores={lbc.kit=8}] loot lbc:kit/multiply_tablet
+loot give @s[scores={lbc.kit=9}] loot lbc:kit/nanobot
+loot give @s[scores={lbc.kit=10}] loot lbc:kit/ghost
+loot give @s[scores={lbc.kit=11}] loot lbc:kit/govno_raskid
+loot give @s[scores={lbc.kit=12}] loot lbc:kit/steampunk
+loot give @s[scores={lbc.kit=13}] loot lbc:kit/hook
+loot give @s[scores={lbc.kit=14}] loot lbc:kit/key
+loot give @s[scores={lbc.kit=15}] loot lbc:kit/dynamite
+loot give @s[scores={lbc.kit=16}] loot lbc:kit/key_luck

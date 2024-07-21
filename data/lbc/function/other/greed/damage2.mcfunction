@@ -1,0 +1,1 @@
+execute unless entity @s[scores={void_resistance=1..}] run damage @s[tag=!sin_greed_active] 1.5 minecraft:out_of_world

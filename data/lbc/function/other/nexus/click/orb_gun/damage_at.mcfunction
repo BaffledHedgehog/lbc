@@ -1,0 +1,1 @@
+$damage @s $(tmp) outside_border by @a[tag=caster,limit=1]

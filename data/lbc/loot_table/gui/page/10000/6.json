@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{HideFlags:255}"
+                        },
+                        {
+                            "function": "minecraft:copy_components",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "swrg:lang"
+                            },
+                            "ops": [
+                                {
+                                    "source": "lore.lbcskill.6",
+                                    "target": "display{}",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "components": {lbcskill.6",
+                                "storage": "swrg:lang",
+                                "interpret": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

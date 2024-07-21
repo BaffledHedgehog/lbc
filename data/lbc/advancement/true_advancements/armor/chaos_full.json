@@ -1,0 +1,107 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_helmet",
+            "components": {
+                "minecraft:custom_model_data": 8,
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": {
+            "translate": "lbc.adv.armor.chaos_full"
+        },
+        "description": {
+            "translate": "lbc.adv.armor.chaos_full.lore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/armor/chaos",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "chaoschestplate": true
+                                        }
+                                    }
+                                },
+                                "chest": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "chaoschestplate": true
+                                        }
+                                    }
+                                },
+                                "legs": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "chaoschestplate": true
+                                        }
+                                    }
+                                },
+                                "feet": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "chaoschestplate": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "cool": true
+                            }
+                        }
+                    },
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "staff": true,
+                                "unstable_spellbook": true
+                            }
+                        }
+                    },
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "luckyblockwand": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/kit"
+    }
+}

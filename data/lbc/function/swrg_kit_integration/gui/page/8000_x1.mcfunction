@@ -1,0 +1,25 @@
+execute if score tmp lbc.math matches 28 run item modify entity @s enderchest.0 swrg:select
+execute if score tmp lbc.math matches 29 run item modify entity @s enderchest.1 swrg:select
+execute if score tmp lbc.math matches 30 run item modify entity @s enderchest.2 swrg:select
+execute if score tmp lbc.math matches 31 run item modify entity @s enderchest.3 swrg:select
+execute if score tmp lbc.math matches 32 run item modify entity @s enderchest.4 swrg:select
+execute if score tmp lbc.math matches 33 run item modify entity @s enderchest.5 swrg:select
+execute if score tmp lbc.math matches 34 run item modify entity @s enderchest.6 swrg:select
+execute if score tmp lbc.math matches 35 run item modify entity @s enderchest.7 swrg:select
+execute if score tmp lbc.math matches 36 run item modify entity @s enderchest.8 swrg:select
+execute if score tmp lbc.math matches 37 run item modify entity @s enderchest.9 swrg:select
+execute if score tmp lbc.math matches 38 run item modify entity @s enderchest.10 swrg:select
+execute if score tmp lbc.math matches 39 run item modify entity @s enderchest.11 swrg:select
+execute if score tmp lbc.math matches 40 run item modify entity @s enderchest.12 swrg:select
+execute if score tmp lbc.math matches 41 run item modify entity @s enderchest.13 swrg:select
+execute if score tmp lbc.math matches 42 run item modify entity @s enderchest.14 swrg:select
+execute if score tmp lbc.math matches 43 run item modify entity @s enderchest.15 swrg:select
+execute if score tmp lbc.math matches 44 run item modify entity @s enderchest.16 swrg:select
+execute if score tmp lbc.math matches 45 run item modify entity @s enderchest.17 swrg:select
+
+execute if score tmp lbc.math matches 47 run item modify entity @s enderchest.19 swrg:select
+execute if score tmp lbc.math matches 48 run item modify entity @s enderchest.20 swrg:select
+execute if score tmp lbc.math matches 49 run item modify entity @s enderchest.21 swrg:select
+execute if score tmp lbc.math matches 50 run item modify entity @s enderchest.22 swrg:select
+execute if score tmp lbc.math matches 51 run item modify entity @s enderchest.23 swrg:select
+execute if score tmp lbc.math matches 52 run item modify entity @s enderchest.24 swrg:select

@@ -1,0 +1,1 @@
+tellraw @s {"translate":"upgrade_condition_lightning_bolt","color":"yellow"}

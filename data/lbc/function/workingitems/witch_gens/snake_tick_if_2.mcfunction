@@ -1,0 +1,2 @@
+summon marker ~ ~ ~ {Tags:["black_snake","slowraycast","fragm","magic","other"],data:{lifetime:20}}
+execute as @e[type=marker,limit=1,distance=..0.01,tag=black_snake,tag=!actived] run function lbc:workingitems/witch_gens/snake_tick_if_at

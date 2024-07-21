@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "brown_mushroom_block",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 520,
+                                "minecraft:custom_name": "{\"text\":\"Lucky Block Neko\",\"color\":\"light_purple\",\"italic\":false}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"By BaffledHedgehog\",\"color\":\"gray\",\"italic\":false}"
+                                ],
+                                "minecraft:block_state": {
+                                    "up": "false",
+                                    "down": "false",
+                                    "north": "false",
+                                    "south": "false",
+                                    "east": "false",
+                                    "west": "false"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

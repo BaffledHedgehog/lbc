@@ -1,0 +1,2 @@
+execute if predicate lbc:sneak unless score @s lust_cd matches 1.. run function lbc:workingitems/witch_gens/lust_flesh_sneak
+execute unless predicate lbc:sneak run function lbc:workingitems/witch_gens/lust_flesh_not_sneak

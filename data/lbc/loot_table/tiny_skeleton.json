@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "lbc:random_sauvojen_wand_tiny"
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bone_meal"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "lbc:triple_golden_sword"
+                }
+            ]
+        },
+        {
+            "rolls": 8,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "count": 4
+                },
+                {
+                    "type": "item",
+                    "name": "gold_ingot",
+                    "count": 32
+                },
+                {
+                    "type": "item",
+                    "name": "gold_block",
+                    "count": 16
+                },
+                {
+                    "type": "item",
+                    "name": "enchanted_golden_apple",
+                    "count": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,279 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 8
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 514,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "confuse": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "ender_dart",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "ender_dart.lore",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 8,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 515,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "blind": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "blind_dart",
+                  "color": "black",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 516,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "boom": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "explosive_dart",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 2,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 517,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "standart": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "dart",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 8,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 518,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "wither": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wither_dart",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 6,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 519,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "poison": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "poison_dart",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 6,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 12
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 576,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "impulse": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "impulse_dart",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "impulse_dart.lore",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

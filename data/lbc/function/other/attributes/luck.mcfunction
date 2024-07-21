@@ -1,0 +1,10 @@
+execute store result score tmp lbc.math run attribute @s generic.luck base get 1
+scoreboard players add tmp lbc.math 1
+execute store result storage lbcmath tmp double 1 run scoreboard players get tmp lbc.math
+
+
+function lbc:other/attributes/luck_update with storage minecraft:lbcmath
+
+playsound entity.player.levelup master @a ~ ~ ~ 1 1
+particle happy_villager ~ ~1 ~ .5 .5 .5 0 100 normal
+advancement revoke @s only lbc:luckattr

@@ -1,0 +1,2 @@
+summon rabbit ~ ~ ~ {Tags:["grand_rabbit"],PersistenceRequired:1b,RabbitType:99,Attributes:[{Name:"generic.follow_range",Base:100},{Name:"generic.movement_speed",Base:1}]}
+scoreboard players set @s Distance 400

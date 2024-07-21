@@ -1,0 +1,3 @@
+summon vex ~ ~ ~ {PersistenceRequired:1b,Health:5000f,LifeTicks:2000000,CustomName:'{"translate":"evil_vex","color":"gray","italic":false}',Attributes:[{Name:"generic.max_health",Base:5000},{Name:"generic.follow_range",Base:200},{Name:"generic.knockback_resistance",Base:100},{Name:"generic.movement_speed",Base:1},{Name:"generic.attack_damage",Base:1},{Name:"generic.armor",Base:40},{Name:"generic.armor_toughness",Base:40},{Name:"generic.attack_knockback",Base:0}]}
+advancement grant @a[tag=caster,limit=1] only lbc:true_advancements/staffs/psycho
+kill @s

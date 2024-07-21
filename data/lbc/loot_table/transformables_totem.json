@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "quality": 8,
+          "value": "lbc:infinite_totem"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"totem": true,deviltotem:1b,"minecraft:custom_model_data":557}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "devil_totem.name.1",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.name.2",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "translate": "devil_totem.name.3",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.name.4",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "translate": "devil_totem.name.5",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "totem",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "devil_totem.lore.1",
+                  "color": "dark_red",
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.lore.2",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.lore.3",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.lore.4",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.lore.5",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.lore.6",
+                  "color": "dark_red",
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.lore.7",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.lore.8",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "devil_totem.lore.9",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

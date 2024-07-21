@@ -1,0 +1,1 @@
+$execute positioned ^$(p1) ^ ^ positioned ~ ~$(p2) ~ run function lbc:other/imba/most_tick_random_colon

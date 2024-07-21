@@ -1,0 +1,2 @@
+scoreboard players set @s Distance 0
+function lbc:workingitems/awaken_tuntija_wands/exahoming_click_upgraded_mode_destiny_loop

@@ -1,0 +1,2 @@
+execute if score @s Lifetime matches ..200 positioned ^ ^ ^7 positioned ~ ~20 ~ run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_meteors_spawn
+execute if score @s Lifetime matches 250.. run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_meteors_end

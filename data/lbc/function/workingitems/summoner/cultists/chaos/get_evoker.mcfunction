@@ -1,0 +1,1 @@
+execute at @e[type=#mobs,limit=10,distance=1.5..50,tag=!nodmg,tag=!spectator] run function lbc:workingitems/summoner/cultists/chaos/fangs

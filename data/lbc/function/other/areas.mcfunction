@@ -1,0 +1,1 @@
+execute if entity @s[tag=slowraycast] run function lbc:raycastselector

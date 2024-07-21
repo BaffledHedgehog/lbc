@@ -1,0 +1,13 @@
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.0,1.0,0.0]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.0,1.0,0.1]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.0,1.0,-0.1]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.1,1.0,0.0]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.1,1.0,0.1]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.1,1.0,-0.1]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[-0.1,1.0,0.0]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[-0.1,1.0,0.1]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[-0.1,1.0,-0.1]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.2,1.0,0.0]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[-0.2,1.0,0.0]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.0,1.0,0.2]}
+summon tnt ~ ~0.1 ~ {fuse:70s,Motion:[0.0,1.0,-0.2]}

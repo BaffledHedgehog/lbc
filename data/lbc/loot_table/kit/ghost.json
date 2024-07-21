@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 4,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "tag": "{custom_potion_effects:[{id:\"minecraft:speed\",amplifier:9b,duration:200,show_particles:0b},{id:\"minecraft:jump_boost\",amplifier:4b,duration:200,show_particles:0b},{id:\"minecraft:invisibility\",amplifier:1b,duration:200,show_particles:0b},{id:\"minecraft:strength\",amplifier:1b,duration:200,show_particles:0b}],CustomPotionColor:14737663}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "ghost_potion",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+summon item_display ^ ^20 ^50 {Tags:["slowraycast","other","helicopter_boss","phase_1"],view_range:10f,interpolation_duration:1,teleport_duration:1,item_display:"fixed",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},item:{id:"minecraft:repeating_command_block",Count:1b,components:{"minecraft:custom_model_data":642}}}
+summon ravager ^ ^20 ^50 {Tags:["helicopter_boss_hitbox"],NoGravity:1b,Silent:1b,Invulnerable:0b,CustomNameVisible:1b,DeathLootTable:"none",PersistenceRequired:1b,NoAI:1b,Health:150f,CustomName:'{"translate":"helicopter_boss","italic":false}',active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b}],Attributes:[{Name:"generic.max_health",Base:150},{Name:"generic.armor",Base:10},{Name:"generic.armor_toughness",Base:10}]}
+execute positioned ^ ^20 ^50 as @e[type=item_display,tag=helicopter_boss,tag=!identified,limit=1,distance=..1] at @s run function lbc:drops/helicopter_boss_spawn_2
+playsound minecraft:lbcsounds.helicopter master @a[distance=..20] ~ ~ ~ 0.1 1 0.1
+playsound minecraft:lbcsounds.kazahstan master @a[distance=..20] ~ ~ ~ 2 1 1
+execute positioned ^ ^20 ^50 at @e[type=item_display,limit=1,tag=helicopter_boss,distance=..0.01] facing entity @s feet rotated ~ 0 run tp @e[type=item_display,limit=1,tag=helicopter_boss,distance=..0.01] ~ ~ ~ ~ ~
+particle dust 1 0 0 2 ~ ~10 ~ 0 100 0 0 1000 normal

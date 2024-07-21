@@ -1,0 +1,1048 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_leggings",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"randchanted": true,"transformable": true,"leggings": true}"
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"multiplying": true,"transformable": true,"leggings": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:3,Operation:1,UUID:[I;1247016977,-11055214,-1672297969,-908513334],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:1,UUID:[I;1013007053,-1500820729,-1183646614,1327672089],Slot:\"legs\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "multiplying_leggings",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,"berserk": true,display:{color:8},"minecraft:custom_model_data":4,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:-6,Operation:0,UUID:[I;-949246328,503467505,-1147345731,-1527929424],Slot:\"legs\"},{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-456699655,-109427555,-1338445364,1599329949],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-4,Operation:0,UUID:[I;733328343,370689897,-2000007509,1139127643],Slot:\"legs\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.15,Operation:1,UUID:[I;-485620582,1177636452,-1860234244,-1558242167],Slot:\"legs\"},{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;8815720,-32680395,-156627377,-137098312],Slot:\"legs\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "berserker_leggings",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_berserker",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"minecraft:custom_model_data":5,"transformable": true,"leggings": true,HideFlags:68,display:{color:3},"chaoschestplate": true,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:generic.armor,Amount:4,Operation:0,UUID:[I;-438177,140206701,-162339653,-30994581],Slot:legs}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "chaos_leggings",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "chaos_leggings.lore",
+                  "color": "yellow",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_chaos.1",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_chaos.2",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"transformable": true,"leggings": true,display:{color:5},"minecraft:custom_model_data":7,HideFlags:68,Unbreakable:1b,"mage": true,Enchantments:[{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "mage_leggings",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "mage_hat.lore.1",
+                  "color": "aqua",
+                  "italic": false
+                },
+                {
+                  "translate": "mage_hat.lore.2",
+                  "color": "aqua",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_mage",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "craft_with_phantom_leggings",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"govnoq": true,"transformable": true,"leggings": true,display:{color:2},"minecraft:custom_model_data":2,HideFlags:64,"gownoleggings": true,Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "gowno_leggings",
+                "color": "#402626",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "gowno_leggings.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "gowno_leggings.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shitty",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,display:{color:2},"minecraft:custom_model_data":2,HideFlags:64,"gownoleggings": true,Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "gowno_leggings",
+                "color": "#402626",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "gowno_leggings.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "gowno_leggings.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shitty",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,Unbreakable:1b,HideFlags:68,"shulkshell": true,display:{color:6},"minecraft:custom_model_data":6,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1231293,-192763,-129936,293127],Slot:\"legs\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "shulker_leggings",
+                  "color": "#8942B3",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shulker.1",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shulker.2",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shulker.3",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_shulker.4",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "shulker_leggings.lore",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"transformable": true,display:{color:7},"minecraft:custom_model_data":3,"leggings": true,HideFlags:68,Unbreakable:1b,"reactive":true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-165786389,275148468,-1143174644,49313046],Slot:\"legs\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "reactive_leggings",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "reactive_leggings.lore",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "set_bonus",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "set_bonus_steampunk",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "craft_with_techno_leggings",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"transformable": true,"leggings": true,HideFlags:68,"techno": true,"minecraft:custom_model_data":8,display:{color:4},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;23612,18472372,-4677367,1287331],Slot:\"legs\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "power_leggings",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wyvern_chestplate.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "wyvern_chestplate.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "wyvern_chestplate.lore.3",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "wyvern_chestplate.lore.4",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "wyvern_chestplate.lore.5",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "wyvern_chestplate.lore.6",
+                  "color": "white",
+                  "italic": false
+                },
+                [
+                  {
+                    "translate": "set_bonus",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_techno.1",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_techno.2",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus_techno.3",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "craft_with_reactive_leggings",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,display:{color:1},"minecraft:custom_model_data":1,HideFlags:64,"jumpboost": true,Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "frog_leggings",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "frog_leggings.lore",
+                  "color": "#FFBFBF",
+                  "italic": false
+                },
+                {
+                  "translate": "set_bonus",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "set_bonus_traveller",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,"assasin": true,display:{color:10},"minecraft:custom_model_data":10,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "assasin_leggings",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "assasin_set_bonus.1",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "assasin_set_bonus.2",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,"paladin": true,display:{color:11},"minecraft:custom_model_data":9,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;-94126328,506465,-1146457,-15279297],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:10,Operation:0,UUID:[I;-95568,5346605,-333357,52792964],Slot:legs},{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:-0.3,Operation:1,UUID:[I;556366628,5646605,-11366337,52679296],Slot:legs}],Unbreakable:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:255s},{id:\"minecraft:protection\",lvl:3s}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "paladin_leggings",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "paladin_set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"craftusable": true,"transformable": true,"leggings": true,"phantom": true,display:{color:9},"minecraft:custom_model_data":11,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "phantom_leggings",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "set_bonus",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "phantom_set_bonus.1",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "phantom_set_bonus.2",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "phantom_set_bonus.3",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "phantom_set_bonus.4",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "craft_with_mage_leggings",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,"flesh": true,display:{color:258},"minecraft:custom_model_data":21,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "flesh_leggings",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "flesh.lore",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,"glass": true,display:{color:256},"minecraft:custom_model_data":20,HideFlags:64,Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "glass_leggings",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "glass.lore",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "glass.lore.2",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "generic.armor",
+                  "amount": 40,
+                  "operation": "add_value",
+                  "id": "aa20a077-1d80-4750-810e-1e2b46000e57",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "generic.armor_toughness",
+                  "amount": 40,
+                  "operation": "add_value",
+                  "id": "aa20a077-1d80-4750-810e-1e2b46000e57",
+                  "slot": "legs"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,"nanobots": true,display:{color:9},"minecraft:custom_model_data":22,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:0,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "nanobots_leggings",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "nanobots_lore.1",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "nanobots_lore.2",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                {
+                  "translate": "nanobots_lore.3",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"leggings": true,"erosion":true,display:{color:257},"minecraft:custom_model_data":23,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:180}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "erosion_leggings",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "translate": "erosion.lore",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type":"loot_table",
+          "name":"lbc:neko_set_overload/leggings"
+        }
+      ]
+    }
+  ]
+}

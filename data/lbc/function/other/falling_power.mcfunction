@@ -1,0 +1,2 @@
+summon marker 0 310 0 {Tags:["slowraycast","movingpower","spawned_new_power","can_deleted","magic","other"],data:{lifetime:800}}
+execute as @e[type=marker,limit=1,tag=spawned_new_power] run function lbc:other/falling_power_data

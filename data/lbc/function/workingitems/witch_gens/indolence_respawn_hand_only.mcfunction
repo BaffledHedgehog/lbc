@@ -1,0 +1,1 @@
+loot give @s loot lbc:indolence_claw

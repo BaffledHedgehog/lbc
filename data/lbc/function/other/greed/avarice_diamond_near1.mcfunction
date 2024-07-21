@@ -1,0 +1,2 @@
+execute if entity @a[gamemode=!spectator,distance=..2] run function lbc:other/greed/avarice_diamond_near
+advancement grant @a[gamemode=!spectator,distance=..16] only lbc:true_advancements/legends/avarice_diamond

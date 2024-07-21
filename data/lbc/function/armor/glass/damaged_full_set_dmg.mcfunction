@@ -1,0 +1,1 @@
+$execute as @e[type=#mobs,distance=0.001..7] run damage @s $(tmp) arrow by @a[tag=atacker,limit=1]

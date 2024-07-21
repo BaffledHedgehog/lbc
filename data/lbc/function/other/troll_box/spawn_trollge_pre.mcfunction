@@ -1,0 +1,1 @@
+execute if predicate lbc:chance5 at @r[gamemode=!spectator] run function lbc:other/troll_box/spawn_trollge

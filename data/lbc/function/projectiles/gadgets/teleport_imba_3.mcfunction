@@ -1,0 +1,1 @@
+execute as @a[tag=syn_shlyhi] at @s run function lbc:projectiles/gadgets/teleport_imba_4

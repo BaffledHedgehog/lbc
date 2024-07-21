@@ -1,0 +1,50 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {"minecraft:custom_model_data":546}
+        },
+        "title": {
+            "translate": "lbc.adv.upgraded_staff.vampire"
+        },
+        "description": {
+            "translate": "lbc.adv.upgraded_staff.vampire.lore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/legends/academy/ender_random",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{playerGameType:3}"
+              }
+            }
+          }
+        ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                              "upgraded": true,
+                              "transformable": true,
+                              "staff": true,
+                              "lifestealer": true
+                            }
+                          }
+                    }
+                ]
+            }
+        }
+    }
+}

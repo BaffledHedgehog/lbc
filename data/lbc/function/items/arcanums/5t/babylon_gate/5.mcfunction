@@ -1,0 +1,2 @@
+summon firework_rocket ~ ~ ~ {Tags:["babylon_charge"],LifeTime:100,ShotAtAngle:1b,FireworksItem:{id:"firework_rocket",Count:1,components:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;16754176],FadeColors:[I;7031040]},{Type:1,Flicker:1b,Trail:1b,Colors:[I;16743168],FadeColors:[I;0]},{Type:2,Flicker:1b,Trail:1b,Colors:[I;16775936],FadeColors:[I;7955200]},{Type:4,Flicker:1b,Trail:1b,Colors:[I;16748800],FadeColors:[I;8932608]}]}}}}
+

@@ -1,0 +1,1 @@
+function lbcr:dmg_byentity_1pt

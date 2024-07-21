@@ -1,0 +1,8 @@
+execute if entity @s[tag=bedrock_bastion] run function lbc:workingitems/imba/bastion_create
+execute if entity @s[tag=funny_tnt] run function lbc:workingitems/imba/funny_tnt
+execute if entity @s[tag=mystical_tree] run function lbc:workingitems/imba/mystical_tree_tick
+execute if entity @s[tag=end_portal] run function lbc:workingitems/imba/end_portal
+execute if entity @s[tag=nether_portal] run function lbc:workingitems/imba/nether_portal
+execute if entity @s[tag=nuke_old] run function lbc:other/nuke/nuket_old
+execute if entity @s[tag=explodein,scores={Lifetime=3}] run function lbc:other/shishfill
+execute if entity @s[tag=birch] run function lbc:other/spawn_birch

@@ -1,0 +1,1 @@
+execute if entity @s[advancements={lbc:true_advancements/bows/blaze=true,lbc:true_advancements/bows/ghast=true,lbc:true_advancements/bows/penis_gun=true,lbc:true_advancements/bows/minigun=true}] run function lbc:swrg_kit_integration/gain/skill

@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{components:{attack_helicopter:1}}}] run function lbc:workingitems/attackhelicopter
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{attack_helicopter:1}}]}] run function lbc:workingitems/attackhelicopter_left

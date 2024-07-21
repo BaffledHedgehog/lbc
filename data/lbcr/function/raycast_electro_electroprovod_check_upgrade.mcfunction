@@ -1,0 +1,3 @@
+scoreboard players set tmp lbc.math 0
+execute store result score tmp lbc.math if entity @e[distance=..10,type=#mobs,tag=!spectator,tag=!rcdenyalways,tag=!sauvojen_tuntija]
+execute if score tmp lbc.math matches 10.. at @a[gamemode=!spectator,nbt={Inventory:[{components:{upgradable:1b,"lightningwand": true}}]}] if score @a[gamemode=!spectator,nbt={Inventory:[{components:{upgradable:1b,"lightningwand": true}}]},limit=1,distance=..0.001] lbcID2 = @s lbcID2 as @a[gamemode=!spectator,nbt={Inventory:[{components:{upgradable:1b,"lightningwand": true}}]},limit=1,distance=..0.001] at @s run function lbc:other/magic_academy/can_upgrade

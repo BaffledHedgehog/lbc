@@ -1,0 +1,1 @@
+execute if entity @s[scores={lbc.skill=5}] run function lbc:swrg_kit_integration/game/skills/erose

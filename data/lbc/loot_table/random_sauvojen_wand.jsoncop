@@ -1,0 +1,68 @@
+{
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":635,"stblind": true}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "translate": "sauvojen_wand_blind",
+                    "color":"light_purple",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore","mode":"replace_all",
+                "entity": "this",
+                "lore": [
+                  [
+                    {
+                      "translate": "type",
+                      "italic": false,
+                      "color": "aqua"
+                    },
+                    {
+                      "translate": "staff",
+                      "italic": false,
+                      "color": "aqua"
+                    }
+                  ],
+                  [
+                    {
+                      "score": {
+                        "name": "stblind_wand_mana_use",
+                        "objective": "lbc.math"
+                      },
+                      "italic":false,
+                      "color":"aqua"
+                    },
+                    {
+                      "translate": "mana_on_activate",
+                      "italic": false,
+                      "color": "aqua"
+                    }
+                  ],
+                  {
+                    "translate": "sauvojen_wand_blind.lore.1",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "translate": "sauvojen_wand_blind.lore.2",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }

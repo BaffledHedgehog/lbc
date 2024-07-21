@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{"minecraft:custom_model_data":567}"
+                        },
+                        {
+                            "function": "minecraft:copy_components",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "swrg:lang"
+                            },
+                            "ops": [
+                                {
+                                    "source": "lore.lbcskill.5",
+                                    "target": "display{}",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "components": {lbcskill.5",
+                                "storage": "swrg:lang",
+                                "interpret": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

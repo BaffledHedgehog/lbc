@@ -1,0 +1,96 @@
+[
+    {
+      "function": "minecraft:set_lore","mode":"replace_all",
+      "entity": "this",
+      "lore": [
+        [
+            {
+                "translate": "type",
+                "italic": false,
+                "color": "aqua"
+            },
+            {
+                "translate": "sword",
+                "italic": false,
+                "color": "aqua"
+            }
+        ],
+        {
+            "translate": "item.modifiers.mainhand",
+            "color": "gray",
+            "italic": false
+        },
+        [
+            {
+                "text": " ",
+                "italic": false,
+                "color": "dark_green"
+            },
+            {
+                "score": {
+                    "name": "@p[gamemode=!spectator]",
+                    "objective": "hplvl",
+                    "color": "dark_green",
+                    "italic": false
+                }
+            },
+            {
+                "text": " ",
+                "italic": false,
+                "color": "dark_green"
+            },
+            {
+                "translate": "attribute.name.generic.attack_damage",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        [
+            {
+                "text": "∞ ",
+                "color": "dark_green",
+                "italic": false
+            },
+            {
+                "translate": "attribute.name.generic.attack_speed",
+                "color": "dark_green",
+                "italic": false
+            }
+        ],
+        [
+            {
+                "text": "GONZO",
+                "color": "green",
+                "italic": false
+            },{
+                "text": " Beta Server Harem event",
+                "color": "dark_gray",
+                "italic": false
+            }
+        ]
+    ],
+      "replace": true
+    },
+      {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "name": "generic.attack_damage",
+            "amount": {
+              "type": "minecraft:score",
+              "target": "this",
+              "score": "hplvl",
+              "scale": 1
+            },
+            "operation": "add_value",
+            "id": "6d11865d-ed3d-4f0e-b892-ed5b0d216b9e",
+            "slot": "mainhand",
+            "add": false
+            
+          }
+        ],
+        "add": false
+      }
+  ]
+  

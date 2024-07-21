@@ -1,0 +1,1 @@
+execute unless entity @s[nbt={SelectedItem:{components:{unstable_spellbook:1}}}] run function lbc:other/magic_academy/can_upgrade_book

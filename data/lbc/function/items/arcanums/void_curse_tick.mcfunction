@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=void_curse] if score @e[type=marker,tag=void_curse,limit=1,distance=..0.0001] lbcID2 = @s lbcID2 run scoreboard players operation @s mana -= void_arcanum_mana_tick lbc.math

@@ -1,0 +1,2 @@
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{mystical_old:1,type:1}}]}] run function lbc:other/artifact/noeffects1_old
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{mystical_old:1,type:3}}]}] run function lbc:other/artifact/nohp_old

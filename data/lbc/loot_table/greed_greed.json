@@ -1,0 +1,56 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "divider",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "craftusable": true,
+                                    "magicwand": true,
+                                    "greed_greed": true,
+                                    "spellwithcooldown": true
+                                },
+                                "minecraft:custom_model_data": 647
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "divider.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "divider.lore.1",
+                                    "italic": false,
+                                    "color": "gold"
+                                },
+                                {
+                                    "translate": "craft_with_metal_pipe",
+                                    "italic": false,
+                                    "color": "yellow"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_pickaxe",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"pickaxe": true,"randchanted": true}"
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "pickaxe",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"pickaxe": true,silk:1b,Enchantments:[{id:\"minecraft:silk_touch\",lvl:10s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-2,Operation:0,UUID:[I;1768640660,1227179818,-1910919626,939361007],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "silk_pickaxe",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "pickaxe",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+scoreboard players add @s[scores={swordcharged8=..5}] swordcharged8 1

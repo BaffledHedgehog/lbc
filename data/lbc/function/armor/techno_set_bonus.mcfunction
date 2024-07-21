@@ -1,0 +1,1 @@
+execute at @e[type=#mobs,distance=..10,tag=!spectator] if block ~ ~ ~ water run function lbc:armor/techno_set_bonus1

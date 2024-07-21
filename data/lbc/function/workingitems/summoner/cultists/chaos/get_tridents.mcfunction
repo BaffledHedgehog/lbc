@@ -1,0 +1,2 @@
+execute anchored eyes facing entity @e[type=#mobs,limit=1,sort=nearest,tag=!nodmg,tag=!spectator,distance=..75] eyes positioned ^ ^ ^.5 run function lbc:workingitems/summoner/cultists/chaos/tridentshoot
+playsound item.trident.throw master @a ~ ~ ~ 1 1

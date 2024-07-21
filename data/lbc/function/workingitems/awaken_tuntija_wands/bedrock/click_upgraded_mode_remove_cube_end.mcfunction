@@ -1,0 +1,2 @@
+execute as @e[type=marker,distance=..7,tag=bedrock_block] at @s run function lbc:workingitems/awaken_tuntija_wands/bedrock/click_upgraded_mode_remove_cube_end_at
+scoreboard players set @s Distance 1000

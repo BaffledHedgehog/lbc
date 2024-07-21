@@ -1,0 +1,149 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 10,
+                "max": 20
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{ender_pernul:1b,"special": true,"minecraft:custom_model_data":600,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "ender_pernul",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{eat_teleport2:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{"minecraft:custom_model_data":582,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"end_portal\",\"instant\"]},imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "end_portal",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{"minecraft:custom_model_data":583,EntityTag:{id:\"minecraft:end_crystal\"},imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "end_crystal",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{"minecraft:custom_model_data":584,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"nether_portal\",\"instant\"]},imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "nether_portal",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

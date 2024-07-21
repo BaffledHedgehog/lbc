@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {"minecraft:custom_model_data":644}
+        },
+        "title": {
+            "translate": "lbc.adv.sword.shit_katana"
+        },
+        "description": {
+            "translate": "lbc.adv.sword.shit_katana.lore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/swords/electro",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{playerGameType:3}"
+              }
+            }
+          }
+        ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "sword": true,
+                                "shit_katana": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 8
+            },
+            "bonus_rolls": {
+                "min": 0,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "lbc:imba/transformables_spells"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_components",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "swrg:lang"
+                            },
+                            "ops": [
+                                {
+                                    "source": "lore.lbclevelup.28",
+                                    "target": "display{}",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "components": {lbclevelup.28",
+                                "storage": "swrg:lang",
+                                "interpret": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

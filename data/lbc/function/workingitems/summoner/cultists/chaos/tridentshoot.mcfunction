@@ -1,0 +1,4 @@
+execute anchored eyes positioned ^ ^ ^ run summon trident ^ ^ ^1 {damage:0.2,Tags:["rc_vp"]}
+execute anchored eyes positioned ^ ^ ^1 as @e[type=trident,limit=1,distance=..0.001,tag=rc_vp,tag=!actived] at @s facing entity @e[type=#mobs,limit=1,distance=..50,tag=!nodmg,tag=!spectator] eyes run function lbc:raycast_vpered_big
+execute anchored eyes positioned ^ ^ ^1 run data modify entity @e[type=trident,limit=1,distance=..0.001,tag=rc_vp,tag=!actived] Owner set from entity @s UUID
+execute anchored eyes positioned ^ ^ ^1 run tag @e[type=trident,limit=1,distance=..0.001,tag=rc_vp,tag=!actived] add actived

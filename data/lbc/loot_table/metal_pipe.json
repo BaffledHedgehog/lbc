@@ -1,0 +1,79 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spyglass",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "metal_pipe": true,
+                                    "craftusable": true,
+                                    "transformable": true,
+                                    "sword": true
+                                },
+                                "minecraft:custom_model_data": 594,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "genej7cj6jxge",
+                                        "amount": 10,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "fffffffffdaerisdaerosed",
+                                        "amount": -3.1,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "metal_pipe",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "sword",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "craft_with_divider",
+                                    "italic": false,
+                                    "color": "yellow"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

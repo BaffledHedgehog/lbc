@@ -1,0 +1,61 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 647,
+                                "minecraft:custom_data": {
+                                    "nexus_wire_red": true,
+                                    "instantitem": true
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "nexus_wire_red",
+                                    "italic": false,
+                                    "color": "red"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "nexus_wire_red.lore.1",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "nexus_wire_red.lore.2",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "nexus_wire.lore",
+                                    "color": "gold",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

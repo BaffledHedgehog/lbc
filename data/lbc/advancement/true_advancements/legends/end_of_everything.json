@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:snowball",
+            "components": {"minecraft:custom_model_data":586}
+        },
+        "title": {
+            "translate": "lbc.adv.legends.end_of_everything"
+        },
+        "description": {
+            "translate": "lbc.adv.legends.end_of_everything.lore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/legends/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

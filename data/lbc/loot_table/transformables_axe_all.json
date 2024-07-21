@@ -1,0 +1,129 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "lbc:transformables_axe",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "swordwithability": true,
+                                    "transformable": true,
+                                    "axe": true,
+                                    "banhammer": true,
+                                    "magicwand": true
+                                },
+                                "minecraft:custom_model_data": 711,
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:generic.attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "gxcvbgfbgfdamage",
+                                            "amount": 11,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:generic.attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "genebeth6thbgnhd",
+                                            "amount": -2.8,
+                                            "operation": "add_value"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "banhammer",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "axe",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "banhammer.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "12 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "1.2 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "JustSh1sh_",
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " No Nut November 2023 Event",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+execute at @e[type=#mobs,team=!,distance=..13] if score @e[type=#mobs,team=!,limit=1,distance=..0.01] lbcID2 = @s lbcID2 run tag @e[type=#mobs,team=!,limit=1,distance=..0.01] add nodmg
+execute at @s if entity @e[type=#mobs,limit=1,distance=0.001..10,tag=!spectator,tag=!nodmg] anchored eyes positioned ^ ^ ^ facing entity @e[type=#mobs,limit=1,distance=0.001..10,tag=!spectator,tag=!nodmg] eyes run function lbc:other/baffledwall/tick_rc_pl_laser
+tag @e remove nodmg

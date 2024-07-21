@@ -1,0 +1,614 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "bonus_rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"bow": true,Unbreakable:1b,imba_fast_crossbow:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:255s}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "very_fast_crossbow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "special_arrows_cannot_use",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"bow": true,imba_sniper_crossbow:1b,Enchantments:[{id:\"minecraft:piercing\",lvl:255s}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "sniper_crossbow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "special_arrows_cannot_use",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"bow": true,imba_shotgun:1b,Enchantments:[{id:\"minecraft:multishot\",lvl:255s}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "shotgun_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"bow": true,imba_super_shotgun:1b,Enchantments:[{id:\"minecraft:multishot\",lvl:255s},{id:\"minecraft:piercing\",lvl:255s},{id:\"minecraft:quick_charge\",lvl:2s}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "super_shotgun_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "special_arrows_cannot_use",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "fast_crossbow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"transformable": true,"bow": true,imba_gatlingator:1b,Enchantments:[{id:\"minecraft:multishot\",lvl:255s},{id:\"minecraft:piercing\",lvl:255s},{id:\"minecraft:quick_charge\",lvl:255s}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "gatlingator_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "special_arrows_cannot_use",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "bonus_rolls": {
+                "min": 0,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{infinite_arrow:1b,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "infinite_arrow",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{CustomPotionColor:6710884,imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "strong_arrow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "strong_arrow_imba.lore",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{CustomPotionColor:6710882,custom_potion_effects:[{id:\"minecraft:weakness\",amplifier:127b,duration:-1}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "weak_arrow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{CustomPotionColor:2883328,custom_potion_effects:[{id:\"minecraft:poison\",amplifier:4b,duration:-1,show_particles:0b},{id:\"minecraft:wither\",amplifier:4b,duration:-1,show_particles:0b},{id:\"minecraft:dolphins_grace\",amplifier:120b,duration:2}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "poison_arrow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "poison_arrow_imba.lore",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{CustomPotionColor:6710886,imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "reactive_arrow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "reactive_arrow_imba.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{CustomPotionColor:16746496,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:121b,duration:2,show_particles:0b}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "explosive_arrow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "explosive_arrow_imba.lore",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{CustomPotionColor:6184020,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:122b,duration:2,show_particles:0b}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "evoker_arrow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "evoker_arrow_imba.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{CustomPotionColor:65493,custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:127b,duration:-1,show_particles:0b},{id:\"minecraft:mining_fatigue\",amplifier:127b,duration:-1,show_particles:0b},{id:\"minecraft:dolphins_grace\",amplifier:123b,duration:2,show_particles:0b}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "paralyzing_arrow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "paralyzing_arrow_imba.lore",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{CustomPotionColor:52479,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:124b,duration:2,show_particles:0b}],imba:1b}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "electric_arrow_imba",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "electric_arrow_imba.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

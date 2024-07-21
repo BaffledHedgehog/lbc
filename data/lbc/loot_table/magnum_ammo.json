@@ -1,0 +1,148 @@
+{
+  "pools": [
+    {
+      "rolls": 32,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "standard_round": true
+                },
+                "minecraft:custom_model_data": 609,
+                "minecraft:custom_name": "{\"translate\":\"round_standard\",\"italic\":false,\"color\":\"white\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "incendiary_round": true
+                },
+                "minecraft:custom_model_data": 610,
+                "minecraft:custom_name": "{\"translate\":\"round_incendiary\",\"italic\":false,\"color\":\"white\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "electric_round": true
+                },
+                "minecraft:custom_model_data": 611,
+                "minecraft:custom_name": "{\"translate\":\"round_electric\",\"italic\":false,\"color\":\"white\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "acid_round": true
+                },
+                "minecraft:custom_model_data": 612,
+                "minecraft:custom_name": "{\"translate\":\"round_acid\",\"italic\":false,\"color\":\"white\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "void_round": true
+                },
+                "minecraft:custom_model_data": 613,
+                "minecraft:custom_name": "{\"translate\":\"round_void\",\"italic\":false,\"color\":\"white\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "explosive_round": true
+                },
+                "minecraft:custom_model_data": 614,
+                "minecraft:custom_name": "{\"translate\":\"round_explosive\",\"italic\":false,\"color\":\"white\"}"
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

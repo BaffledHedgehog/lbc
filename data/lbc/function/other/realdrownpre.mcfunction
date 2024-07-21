@@ -1,0 +1,2 @@
+execute if entity @s[nbt={active_effects:[{id:"minecraft:water_breathing",amplifier:1b}]}] run function lbc:other/drown
+execute if entity @s[nbt={active_effects:[{id:"minecraft:water_breathing",amplifier:2b}]}] run function lbc:other/drown2

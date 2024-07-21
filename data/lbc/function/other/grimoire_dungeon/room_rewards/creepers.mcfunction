@@ -1,0 +1,1 @@
+summon creeper ~ ~ ~ {powered:1b,Tags:["dungeon_mob"],PersistenceRequired:1b}

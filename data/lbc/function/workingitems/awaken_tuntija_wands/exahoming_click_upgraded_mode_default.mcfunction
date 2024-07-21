@@ -1,0 +1,1 @@
+function lbc:workingitems/awaken_tuntija_wands/exahoming_click_loop

@@ -1,0 +1,1 @@
+execute as @a[tag=kill_one_skeleton] at @s run function lbc:workingitems/witch_gens/indolence_respawn_cheduled_as

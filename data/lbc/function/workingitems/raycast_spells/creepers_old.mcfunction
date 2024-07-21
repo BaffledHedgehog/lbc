@@ -1,0 +1,11 @@
+summon creeper ~ ~1 ~ {ExplosionRadius:2b,Fuse:60}
+summon creeper ~ ~1 ~1 {ExplosionRadius:2b,Fuse:60}
+summon creeper ~ ~1 ~-1 {ExplosionRadius:2b,Fuse:60}
+summon creeper ~1 ~1 ~ {ExplosionRadius:2b,Fuse:60}
+summon creeper ~-1 ~1 ~ {ExplosionRadius:2b,Fuse:60}
+summon creeper ~1 ~1 ~1 {ExplosionRadius:2b,Fuse:60}
+summon creeper ~-1 ~1 ~1 {ExplosionRadius:2b,Fuse:60}
+summon creeper ~1 ~1 ~-1 {ExplosionRadius:2b,Fuse:60}
+summon creeper ~-1 ~1 ~-1 {ExplosionRadius:2b,Fuse:60}
+scoreboard players set @s empty 1
+scoreboard players set @s Distance 300

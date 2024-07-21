@@ -1,0 +1,1 @@
+loot give @a[tag=have_stand] loot lbc:stand_oraora

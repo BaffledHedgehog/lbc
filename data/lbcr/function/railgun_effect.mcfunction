@@ -1,0 +1,1 @@
+$effect give @e[type=#mobs,distance=..3,type=!creeper,tag=!owner] $(id) $(dur) $(amp)

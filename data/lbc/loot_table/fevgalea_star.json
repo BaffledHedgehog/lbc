@@ -1,0 +1,163 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "swordwithability": true,
+                                    "transformable": true,
+                                    "sword": true,
+                                    "magicwand": true,
+                                    "fevgalea_star": true
+                                },
+                                "minecraft:custom_model_data": 717,
+                                "minecraft:unbreakable": {},
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:generic.attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "fevgalea",
+                                            "amount": 13,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:generic.attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "fevgalea1",
+                                            "amount": -2.2,
+                                            "operation": "add_value"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "fevgalea_star",
+                                    "italic": false,
+                                    "color": "green"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "sword",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "fevgalea_star.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.3",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.4",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.5",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.6",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.7",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.8",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.9",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.10",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "fevgalea_star.lore.11",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "14 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "1.8 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

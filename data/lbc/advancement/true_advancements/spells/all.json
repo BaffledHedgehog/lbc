@@ -1,0 +1,303 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 741
+            }
+        },
+        "title": {
+            "translate": "lbc.adv.spells.all"
+        },
+        "description": {
+            "translate": "lbc.adv.spells.all.lore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/spells",
+    "criteria": {
+        "spell_1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "anvils": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "arrows1": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "heal1": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "creeperz": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "lava1": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "lightning": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "skeletons": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "trap2": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_9": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "tnts": true
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "spell_10": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "spellitem": true,
+                                "wither1": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

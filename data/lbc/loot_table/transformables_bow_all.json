@@ -1,0 +1,122 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "lbc:transformables_bow",
+                    "weight": 11
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{display:{Name:'{\"translate\":\"blaze_crossbow\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"blaze_crossbow.lore\",\"color\": \"gold\",\"italic\":false}']},ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b},{},{}],"transformable": true,"bow": true,Charged:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s}],fastfired:1b,"craftusable": true}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{display:{Name:'{\"translate\":\"ghast_crossbow\",\"color\":\"red\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"ghast_crossbow.lore\",\"color\": \"gold\",\"italic\":false}']},"transformable": true,"bow": true,fastexplode:1b,"craftusable": true,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s}],ChargedProjectiles:[{id:\"minecraft:firework_rocket\",Count:1b,components:{Fireworks:{Flight:3b,Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;16772608],FadeColors:[I;16711680]},{Type:0,Flicker:1b,Trail:1b,Colors:[I;16712965],FadeColors:[I;10249480]},{Type:1,Flicker:1b,Trail:1b,Colors:[I;16757504],FadeColors:[I;9539985]}]}}},{},{}],Charged:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{display:{Name:'{\"translate\":\"dildomet\",\"color\":\"#FF0099\",\"bold\":true,\"italic\":false}'},"transformable": true,"minecraft:custom_model_data":500 ,"bow": true,penisgun:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:2s}],ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b},{},{}],Charged:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "tag": "{"craftusable": true,"transformable": true,"bow": true,"minecraft:custom_model_data":540,"railgun_bow": true}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "railgun_bow",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "bow.lbc",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "railgun_bow.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "railgun_bow.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "Stendari",
+                                        "color": "green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": " Beta Server Harem event",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{display:{Name:'{\"translate\":\"shish_bow\",\"color\":\"green\",\"bold\":true,\"italic\":false}',Lore:['[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"bow.lbc\",\"italic\": false,\"color\": \"aqua\"}]','{\"translate\": \"shish_bow.lore\",\"color\": \"gold\",\"italic\": false}']},"craftusable": true,"transformable": true,"minecraft:custom_model_data":541 ,"bow": true,shish_gun:1b,Enchantments:[{id:\"minecraft:infinity\",lvl:1}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

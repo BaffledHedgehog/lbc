@@ -1,0 +1,16 @@
+execute if block ~ ~ ~ #red at @s run function lbc:other/artifact/colors/red
+execute if block ~ ~ ~ #white at @s run function lbc:other/artifact/colors/white
+execute if block ~ ~ ~ #blue at @s run function lbc:other/artifact/colors/blue
+execute if block ~ ~ ~ #yellow at @s run function lbc:other/artifact/colors/yellow
+execute if block ~ ~ ~ #orange at @s run function lbc:other/artifact/colors/orange
+execute if block ~ ~ ~ #light_blue at @s run function lbc:other/artifact/colors/light_blue
+execute if block ~ ~ ~ #purple at @s run function lbc:other/artifact/colors/purple
+execute if block ~ ~ ~ #gray at @s run function lbc:other/artifact/colors/gray
+execute if block ~ ~ ~ #light_gray at @s run function lbc:other/artifact/colors/light_gray
+execute if block ~ ~ ~ #lime at @s run function lbc:other/artifact/colors/lime
+execute if block ~ ~ ~ #pink at @s run function lbc:other/artifact/colors/pink
+execute if block ~ ~ ~ #cyan at @s run function lbc:other/artifact/colors/cyan
+execute if block ~ ~ ~ #black at @s run function lbc:other/artifact/colors/black
+execute if block ~ ~ ~ #brown at @s run function lbc:other/artifact/colors/brown
+execute if block ~ ~ ~ #green at @s run function lbc:other/artifact/colors/green
+execute if block ~ ~ ~ #magenta at @s run function lbc:other/artifact/colors/magenta

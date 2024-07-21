@@ -1,0 +1,11 @@
+gamerule doFireTick true
+gamerule waterSourceConversion true
+gamerule randomTickSpeed 3
+gamerule naturalRegeneration true
+gamerule doLimitedCrafting false
+gamerule commandModificationBlockLimit 100000
+gamerule doDaylightCycle true
+gamerule doMobLoot true
+gamerule doTileDrops true
+gamerule doEntityDrops true
+gamerule playersNetherPortalDefaultDelay 1

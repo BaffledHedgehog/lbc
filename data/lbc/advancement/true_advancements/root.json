@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom_block",
+      "components": {
+        "minecraft:custom_model_data": 520
+      }
+    },
+    "title": "Lucky Block",
+    "description": {
+      "translate": "lbc.adv.root.desc"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/lucky_block_nigger.png",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{playerGameType:3}"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "minecraft:red_mushroom_block",
+            "components": {
+              "minecraft:custom_model_data": 520
+            }
+          }
+        ]
+      }
+    }
+  }
+}

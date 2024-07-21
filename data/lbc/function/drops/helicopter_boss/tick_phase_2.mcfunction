@@ -1,0 +1,3 @@
+execute anchored eyes facing entity @e[type=#mobs,limit=1,tag=!helicopter_boss_hitbox,tag=!spectator,sort=nearest] eyes positioned ^ ^ ^0.5 rotated as @s positioned ^ ^ ^1 facing entity @s eyes facing ^ ^ ^-1 positioned as @s rotated ~ 0 run tp @s ^ ^ ^1 ~ ~
+execute if predicate lbc:chance40 as @e[type=ravager,limit=1,distance=..15,tag=helicopter_boss_hitbox,tag=current] at @s at @s positioned ~-4 ~ ~-4 if entity @e[type=#mobs,dx=8,dy=-10000,dz=8,limit=1,distance=..150,tag=!helicopter_boss_hitbox,tag=!spectator] at @s positioned ~ ~-3 ~ run function lbc:workingitems/penispenispenis_random_penis_big_penis_small_penispenis_only_spawn
+execute if predicate lbc:chance0_5 run function lbc:drops/helicopter_boss/phase_2_to_1

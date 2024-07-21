@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run place template lbc:white_concrete_pad_5x1x5 ~-2 ~-2 ~-2

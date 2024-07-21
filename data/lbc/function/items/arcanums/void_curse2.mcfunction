@@ -1,0 +1,3 @@
+execute if score @s[tag=!voidactive2,gamemode=!spectator] mana >= void_arcanum_mana_activate lbc.math run function lbc:items/arcanums/void_curse_spawn2
+execute if score @s[tag=voidactive2,gamemode=!spectator] mana >= void_arcanum_mana_tick lbc.math run function lbc:items/arcanums/void_curse_tick
+execute if score @s[tag=voidactive2,gamemode=!spectator] mana < void_arcanum_mana_tick lbc.math run tag @s remove voidactive2

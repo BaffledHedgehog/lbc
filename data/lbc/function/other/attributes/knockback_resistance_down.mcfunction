@@ -1,0 +1,6 @@
+execute store result score tmp lbc.math run attribute @s generic.knockback_resistance base get 10
+scoreboard players remove tmp lbc.math 10
+execute store result storage lbcmath tmp double 0.1 run scoreboard players get tmp lbc.math
+
+
+function lbc:other/attributes/knockback_resistance_update with storage minecraft:lbcmath

@@ -1,0 +1,1 @@
+$tp @s $(tmpx) $(tmpy) $(tmpz)

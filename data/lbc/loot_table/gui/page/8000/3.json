@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_components",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "swrg:lang"
+                            },
+                            "ops": [
+                                {
+                                    "source": "lore.lbclevelup.3",
+                                    "target": "display{}",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "components": {lbclevelup.3",
+                                "storage": "swrg:lang",
+                                "interpret": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

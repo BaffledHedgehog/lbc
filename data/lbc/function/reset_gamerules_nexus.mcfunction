@@ -1,0 +1,16 @@
+gamerule doFireTick false
+gamerule waterSourceConversion false
+gamerule randomTickSpeed 0
+gamerule naturalRegeneration false
+gamerule doLimitedCrafting false
+gamerule commandModificationBlockLimit 100000
+gamerule doDaylightCycle false
+gamerule doMobLoot true
+gamerule doTileDrops true
+gamerule doEntityDrops true
+gamerule doWeatherCycle false
+gamerule doMobSpawning false
+gamerule doPatrolSpawning false
+gamerule doImmediateRespawn true
+gamerule fallDamage false
+gamerule doVinesSpread false

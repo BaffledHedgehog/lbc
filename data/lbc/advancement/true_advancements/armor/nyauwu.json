@@ -1,0 +1,86 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_helmet",
+            "components": {"minecraft:custom_model_data":19}
+        },
+        "title": {
+            "translate": "lbc.adv.armor.nyauwu"
+        },
+        "description": {
+            "translate": "lbc.adv.armor.nyauwu.lore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/armor/mage",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "nyauwu": true
+                                        }
+                                    }
+                                },
+                                "chest": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "nyauwu": true
+                                        }
+                                    }
+                                },
+                                "legs": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "nyauwu": true
+                                        }
+                                    }
+                                },
+                                "feet": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "nyauwu": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/skill"
+    }
+}

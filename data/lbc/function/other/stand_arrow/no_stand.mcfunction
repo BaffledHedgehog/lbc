@@ -1,0 +1,1 @@
+tellraw @s {"translate":"no_stand"}

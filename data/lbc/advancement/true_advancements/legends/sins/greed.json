@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:repeating_command_block",
+            "components": {"minecraft:custom_model_data":598}
+        },
+        "title": {
+            "translate": "lbc.adv.legends.sins.greed"
+        },
+        "description": {
+            "translate": "lbc.adv.legends.sins.greed.lore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/legends/witch_gens",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

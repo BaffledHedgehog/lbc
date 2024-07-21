@@ -1,0 +1,1 @@
+$execute in overworld run tp @s $(p1) $(p2) $(p3)

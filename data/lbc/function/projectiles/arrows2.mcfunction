@@ -1,0 +1,29 @@
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:101b}]}] unless entity @a[distance=..12,nbt={Inventory:[{components:{mystical:1,type:2}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run summon creeper ~ ~ ~ {Silent:1b,Invulnerable:1b,ExplosionRadius:1b,Fuse:0,ignited:1b}
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:109b}]}] unless entity @a[distance=..12,nbt={Inventory:[{components:{mystical:1,type:2}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run summon lightning_bolt ~ ~ ~
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:110b}]}] unless entity @a[distance=..12,nbt={Inventory:[{components:{mystical:1,type:2}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run fill ~3 ~3 ~3 ~-3 ~-3 ~-3 fire replace #airs
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:110b}]}] unless entity @a[distance=..12,nbt={Inventory:[{components:{mystical:1,type:2}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run fill ~1.5 ~1.5 ~1.5 ~-1.5 ~-1.5 ~-1.5 air destroy
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:104b}]}] unless entity @a[distance=..12,nbt={Inventory:[{components:{mystical:1,type:2}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run summon tnt ~ ~ ~ {fuse:2}
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:107b}]}] unless entity @a[distance=..12,nbt={Inventory:[{components:{mystical:1,type:2}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:projectiles/arrows/bigexplode
+
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:105b}]}] unless score no_borders swrg.math matches 0 run spreadplayers ~ ~ 0 140 under 120 false @s[predicate=lbc:the_nether]
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:105b}]}] unless score no_borders swrg.math matches 0 run spreadplayers ~ ~ 0 140 false @s[predicate=!lbc:the_nether]
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:105b}]}] if score no_borders swrg.math matches 0 run spreadplayers 0 0 0 190 under 120 false @s[predicate=lbc:the_nether]
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:105b}]}] if score no_borders swrg.math matches 0 run spreadplayers 0 0 0 190 false @s[predicate=!lbc:the_nether]
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:108b}]}] run loot spawn ~ ~ ~ loot lbc:traps
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:102b}]}] at @e[distance=..8,type=!player,nbt={DeathTime:0s}] run function lbc:projectiles/arrows/evoker
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:102b}]}] at @a[distance=..8,gamemode=!spectator] run function lbc:projectiles/arrows/evoker
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:103b}]}] run function lbc:projectiles/arrows/shock
+
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:111b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:items/arcanums/kiuaskivi2arr
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:112b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] if predicate lbc:chance25 run summon marker ~ ~ ~ {Tags:["slowraycast","lightarrowtrail","magic","other"],data:{lifetime:200}}
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:113b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] if predicate lbc:chance35 run summon marker ~ ~ ~ {Tags:["slowraycast","trappertrail","magic","other"],data:{lifetime:400}}
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:115b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:projectiles/teleport_nahui
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:116b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run scoreboard players add @s piss 1200
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:117b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/witch_gens/reset
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:118b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:other/hedgehog_boom
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:119b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:other/stand_arrow/hit_pre
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:120b}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run scoreboard players add @s delayed_death 90
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:121b}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:other/nuke/nuke1_at
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:122b}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run tp @e[type=!player,distance=..100] ~ ~ ~ ~ ~
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:123b}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:other/imba/time_stopped_lol
+execute at @s[nbt={active_effects:[{id:"minecraft:dolphins_grace",amplifier:124b}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:other/imba/chain_lightning

@@ -1,0 +1,8 @@
+place template lbc:ponos ~ ~ ~ none none
+playsound minecraft:lbcsounds.ponos master @a ~ ~ ~ 1 1
+execute if score #lbcskill swrg.math matches 1 if score @p[gamemode=!spectator] lbc.skill matches 9 run function lbc:drops/ponos_mega
+execute align xyz positioned ~.5 ~.5 ~.5 run summon marker ~ ~1 ~ {data:{lifetime:280},Tags:["ultraponos","rc_5t","can_deleted","mecha"]}
+execute align xyz positioned ~.5 ~-1.5 ~.5 run summon creeper ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",duration:288,show_particles:0b}],NoAI:1b,NoGravity:1b,Silent:1b,Fuse:290,Tags:["govno_creeper"],ignited:1b,PersistenceRequired:1b,Invulnerable:1b,ExplosionRadius:6,CustomName:'{"translate":"megadrist","color":"yellow","italic":false}'}
+execute align xyz positioned ~.5 ~-2.5 ~.5 run summon creeper ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",duration:288,show_particles:0b}],NoAI:1b,NoGravity:1b,Silent:1b,Fuse:290,Tags:["govno_creeper"],ignited:1b,PersistenceRequired:1b,Invulnerable:1b,ExplosionRadius:7,CustomName:'{"translate":"megadrist","color":"yellow","italic":false}'}
+execute align xyz positioned ~.5 ~.5 ~.5 run summon creeper ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",duration:288,show_particles:0b}],NoAI:1b,NoGravity:1b,Silent:1b,Fuse:290,Tags:["govno_creeper"],ignited:1b,PersistenceRequired:1b,Invulnerable:1b,ExplosionRadius:8,CustomName:'{"translate":"megadrist","color":"yellow","italic":false}'}
+execute align xyz positioned ~.5 ~1.5 ~.5 run summon creeper ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",duration:288,show_particles:0b}],NoAI:1b,NoGravity:1b,Silent:1b,Fuse:290,Tags:["govno_creeper"],ignited:1b,PersistenceRequired:1b,Invulnerable:1b,ExplosionRadius:9,CustomName:'{"translate":"megadrist","color":"yellow","italic":false}'}

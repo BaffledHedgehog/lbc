@@ -1,0 +1,41 @@
+execute unless entity @s[nbt={Inventory:[{Slot:0b}]}] run loot replace entity @s hotbar.0 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:1b}]}] run loot replace entity @s hotbar.1 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:2b}]}] run loot replace entity @s hotbar.2 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:3b}]}] run loot replace entity @s hotbar.3 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:4b}]}] run loot replace entity @s hotbar.4 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:5b}]}] run loot replace entity @s hotbar.5 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:6b}]}] run loot replace entity @s hotbar.6 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:7b}]}] run loot replace entity @s hotbar.7 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:8b}]}] run loot replace entity @s hotbar.8 loot lbc:malevich_rnd
+
+execute unless entity @s[nbt={Inventory:[{Slot:9b}]}] run loot replace entity @s inventory.0 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:10b}]}] run loot replace entity @s inventory.1 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:11b}]}] run loot replace entity @s inventory.2 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:12b}]}] run loot replace entity @s inventory.3 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:13b}]}] run loot replace entity @s inventory.4 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:14b}]}] run loot replace entity @s inventory.5 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:15b}]}] run loot replace entity @s inventory.6 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:16b}]}] run loot replace entity @s inventory.7 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:17b}]}] run loot replace entity @s inventory.8 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:18b}]}] run loot replace entity @s inventory.9 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:19b}]}] run loot replace entity @s inventory.10 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:20b}]}] run loot replace entity @s inventory.11 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:21b}]}] run loot replace entity @s inventory.12 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:22b}]}] run loot replace entity @s inventory.13 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:23b}]}] run loot replace entity @s inventory.14 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:24b}]}] run loot replace entity @s inventory.15 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:25b}]}] run loot replace entity @s inventory.16 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:26b}]}] run loot replace entity @s inventory.17 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:27b}]}] run loot replace entity @s inventory.18 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:28b}]}] run loot replace entity @s inventory.19 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:29b}]}] run loot replace entity @s inventory.20 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:30b}]}] run loot replace entity @s inventory.21 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:31b}]}] run loot replace entity @s inventory.22 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:32b}]}] run loot replace entity @s inventory.23 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:33b}]}] run loot replace entity @s inventory.24 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:34b}]}] run loot replace entity @s inventory.25 loot lbc:malevich_rnd
+execute unless entity @s[nbt={Inventory:[{Slot:35b}]}] run loot replace entity @s inventory.26 loot lbc:malevich_rnd
+
+execute unless entity @s[nbt={Inventory:[{Slot:103b}]}] run loot replace entity @s armor.head loot lbc:malevich_rnd
+
+execute unless entity @s[nbt={Inventory:[{Slot:-106b}]}] run loot replace entity @s weapon.offhand loot lbc:malevich_rnd

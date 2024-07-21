@@ -1,0 +1,369 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 587,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item_display",
+                                    "Tags": [
+                                        "rc_1sec",
+                                        "corrupted_dust",
+                                        "bafomet",
+                                        "magic"
+                                    ],
+                                    "interpolation_duration": 20,
+                                    "shadow_radius": 0,
+                                    "shadow_strength": 0,
+                                    "transformation": [
+                                        2,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -1,
+                                        0,
+                                        0,
+                                        2,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1
+                                    ],
+                                    "teleport_duration": 20,
+                                    "item_display": "fixed",
+                                    "item": {
+                                        "id": "minecraft:panda_spawn_egg",
+                                        "Count": 1,
+                                        "components": {
+                                            "minecraft:custom_model_data": 588
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "corrupted_dust_bafomet",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "corrupted_dust",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust_bafomet.lore.1",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust_bafomet.lore.2",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 591,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item_display",
+                                    "Tags": [
+                                        "rc_1sec",
+                                        "corrupted_dust",
+                                        "lamashtu",
+                                        "magic"
+                                    ],
+                                    "interpolation_duration": 20,
+                                    "shadow_radius": 0,
+                                    "shadow_strength": 0,
+                                    "transformation": [
+                                        2,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -1,
+                                        0,
+                                        0,
+                                        2,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1
+                                    ],
+                                    "teleport_duration": 20,
+                                    "item_display": "fixed",
+                                    "item": {
+                                        "id": "minecraft:panda_spawn_egg",
+                                        "Count": 1,
+                                        "components": {
+                                            "minecraft:custom_model_data": 589
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "corrupted_dust_lamashtu",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "corrupted_dust",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust_lamashtu.lore.1",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust_lamashtu.lore.2",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 592,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item_display",
+                                    "Tags": [
+                                        "rc_1sec",
+                                        "corrupted_dust",
+                                        "belial",
+                                        "magic"
+                                    ],
+                                    "interpolation_duration": 20,
+                                    "shadow_radius": 0,
+                                    "shadow_strength": 0,
+                                    "transformation": [
+                                        2,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -1,
+                                        0,
+                                        0,
+                                        2,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1
+                                    ],
+                                    "teleport_duration": 20,
+                                    "item_display": "fixed",
+                                    "item": {
+                                        "id": "minecraft:panda_spawn_egg",
+                                        "Count": 1,
+                                        "components": {
+                                            "minecraft:custom_model_data": 590
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "corrupted_dust_belial",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "corrupted_dust",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust_belial.lore.1",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust_belial.lore.2",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 593,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item_display",
+                                    "Tags": [
+                                        "rc_1sec",
+                                        "corrupted_dust",
+                                        "ahriman",
+                                        "magic"
+                                    ],
+                                    "interpolation_duration": 20,
+                                    "shadow_radius": 0,
+                                    "shadow_strength": 0,
+                                    "transformation": [
+                                        2,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        -1,
+                                        0,
+                                        0,
+                                        2,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        0,
+                                        1
+                                    ],
+                                    "teleport_duration": 20,
+                                    "item_display": "fixed",
+                                    "item": {
+                                        "id": "minecraft:panda_spawn_egg",
+                                        "Count": 1,
+                                        "components": {
+                                            "minecraft:custom_model_data": 594
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "corrupted_dust_ahriman",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "corrupted_dust",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust_ahriman.lore.1",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "corrupted_dust_ahriman.lore.2",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

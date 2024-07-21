@@ -1,0 +1,1 @@
+execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator] lbcID2 = @s lbcID2 as @p[gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^2 run function lbc:workingitems/exopersoparticles

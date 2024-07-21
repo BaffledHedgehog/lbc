@@ -1,0 +1,1 @@
+effect give @e[distance=..5,type=#mobs,tag=!nodamage,tag=!spectator] poison 30 0

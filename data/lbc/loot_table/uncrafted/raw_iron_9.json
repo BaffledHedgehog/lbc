@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:raw_iron",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

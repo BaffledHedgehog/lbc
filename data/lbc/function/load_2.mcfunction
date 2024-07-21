@@ -1,0 +1,1 @@
+$function lbc:swrg_kit_integration/lang_$(lang)

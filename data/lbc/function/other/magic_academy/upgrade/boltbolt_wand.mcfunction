@@ -1,0 +1,1 @@
+tellraw @s {"translate":"upgrade_succesful_boltbolt","color":"yellow"}

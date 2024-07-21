@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:black_shulker_box",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:container_loot": {
+                  "loot_table": "lbc:infinity"
+                },
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "inf_shulker": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "infinite_shulker",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "infinite_shulker.lore",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 26,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "lbc:infinity_no_shulker"
+        }
+      ]
+    }
+  ]
+}

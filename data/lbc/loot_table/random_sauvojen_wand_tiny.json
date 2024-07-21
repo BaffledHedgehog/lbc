@@ -1,0 +1,812 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "struby_tiny": true
+                },
+                "minecraft:custom_model_data": 729
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_ruby_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_ruby_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_ruby_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_ruby_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_ruby.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_ruby.lore.4",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stterra_tiny": true
+                },
+                "minecraft:custom_model_data": 730
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_terra_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_terra_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_terra_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_terra_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_terra.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_terra.lore.4",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "cyberset": true,
+                  "stelectro_tiny": true
+                },
+                "minecraft:custom_model_data": 731
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_electro_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_electro_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_electro_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_electro_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_electro_tiny.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_electro.lore.4",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_electro.lore.5",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stair_tiny": true
+                },
+                "minecraft:custom_model_data": 732
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_air_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_air_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_air_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_air_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_air.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_air.lore.4",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stacid_tiny": true
+                },
+                "minecraft:custom_model_data": 733
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_acid_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_acid_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_acid_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_acid_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_acid_tiny.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_acid.lore.4",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_acid.lore.5",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stteleport_tiny": true
+                },
+                "minecraft:custom_model_data": 734
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_teleport_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_teleport_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_teleport_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_teleport_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_teleport.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_teleport.lore.4",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "ststone_tiny": true
+                },
+                "minecraft:custom_model_data": 735
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_stone_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_stone_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_stone_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_stone_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_stone.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_stone.lore.4",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stfire_tiny": true
+                },
+                "minecraft:custom_model_data": 736
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_fire_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_fire_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_fire_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_fire_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_fire.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_fire.lore.4",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stblind_tiny": true
+                },
+                "minecraft:custom_model_data": 737
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wand_blind_tiny",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "tiny_blind_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "wand_blind_tiny.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_blind_tiny.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_blind.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "wand_blind.lore.4",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:effects_changed",
+            "player": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "minecraft:nexus"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "rewards": {
+        "function": "lbc:items/effects_changed"
+    }
+}

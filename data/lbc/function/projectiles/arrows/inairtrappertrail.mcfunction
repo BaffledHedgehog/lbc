@@ -1,0 +1,36 @@
+execute if entity @s[scores={Lifetime=50}] run summon evoker_fangs ~ ~ ~
+execute if entity @s[scores={Lifetime=60}] run summon evoker_fangs ~1.5 ~ ~
+execute if entity @s[scores={Lifetime=70}] run summon evoker_fangs ~-1.5 ~ ~
+execute if entity @s[scores={Lifetime=80}] run summon evoker_fangs ~ ~ ~1.5
+execute if entity @s[scores={Lifetime=90}] run summon evoker_fangs ~ ~ ~-1.5
+execute if entity @s[scores={Lifetime=100}] run summon evoker_fangs ~ ~1.5 ~
+execute if entity @s[scores={Lifetime=110}] run summon evoker_fangs ~ ~-1.5 ~
+execute if entity @s[scores={Lifetime=120}] run summon evoker_fangs ~1 ~ ~1
+execute if entity @s[scores={Lifetime=130}] run summon evoker_fangs ~1 ~ ~-1
+execute if entity @s[scores={Lifetime=140}] run summon evoker_fangs ~-1 ~ ~1
+execute if entity @s[scores={Lifetime=150}] run summon evoker_fangs ~-1 ~ ~-1
+execute if entity @s[scores={Lifetime=160}] run summon evoker_fangs ~.5 ~ ~
+execute if entity @s[scores={Lifetime=170}] run summon evoker_fangs ~ ~ ~.5
+execute if entity @s[scores={Lifetime=180}] run summon evoker_fangs ~-.5 ~ ~-.5
+execute if entity @s[scores={Lifetime=190}] run summon evoker_fangs ~-.5 ~ ~.5
+execute if entity @s[scores={Lifetime=200}] run summon evoker_fangs ~.5 ~ ~-.5
+execute if entity @s[scores={Lifetime=210}] run summon evoker_fangs ~.5 ~ ~.5
+execute if entity @s[scores={Lifetime=220}] run summon evoker_fangs ~-.5 ~.5 ~-.5
+execute if entity @s[scores={Lifetime=230}] run summon evoker_fangs ~-.5 ~-.5 ~-.5
+execute if entity @s[scores={Lifetime=240}] run summon evoker_fangs ~.5 ~1 ~-.5
+execute if entity @s[scores={Lifetime=250}] run summon evoker_fangs ~.5 ~-1 ~-.5
+execute if entity @s[scores={Lifetime=260}] run summon evoker_fangs ~1.5 ~ ~
+execute if entity @s[scores={Lifetime=270}] run summon evoker_fangs ~-1.5 ~ ~
+execute if entity @s[scores={Lifetime=280}] run summon evoker_fangs ~ ~ ~1.5
+execute if entity @s[scores={Lifetime=290}] run summon evoker_fangs ~ ~ ~-1.5
+execute if entity @s[scores={Lifetime=300}] run summon evoker_fangs ~ ~1.5 ~
+execute if entity @s[scores={Lifetime=310}] run summon evoker_fangs ~ ~-1.5 ~
+execute if entity @s[scores={Lifetime=320}] run summon evoker_fangs ~1 ~ ~1
+execute if entity @s[scores={Lifetime=330}] run summon evoker_fangs ~1 ~ ~-1
+execute if entity @s[scores={Lifetime=340}] run summon evoker_fangs ~-1 ~ ~1
+execute if entity @s[scores={Lifetime=350}] run summon evoker_fangs ~-1 ~ ~-1
+execute if entity @s[scores={Lifetime=360}] run summon evoker_fangs ~.5 ~ ~
+execute if entity @s[scores={Lifetime=370}] run summon evoker_fangs ~ ~ ~.5
+execute if entity @s[scores={Lifetime=380}] run summon evoker_fangs ~-.5 ~ ~-.5
+execute if entity @s[scores={Lifetime=390}] run kill @s
+execute unless entity @e[type=#mobs,limit=1,distance=..60] run kill @s

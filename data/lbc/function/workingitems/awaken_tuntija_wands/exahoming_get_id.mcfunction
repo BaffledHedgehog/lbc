@@ -1,0 +1,2 @@
+scoreboard players operation @e[type=fireball,limit=1,tag=homing_fireball,tag=!active,sort=nearest] lbcID2 = @s lbcID2
+tag @e[type=fireball,limit=1,tag=homing_fireball,tag=!active,sort=nearest] add active

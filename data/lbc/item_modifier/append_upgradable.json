@@ -1,0 +1,12 @@
+[
+    {
+        "function": "set_lore","mode":"replace_all",
+        "lore": [
+            {
+                "translate": "upgraded_item",
+                "italic": false,
+                "color": "green"
+            }
+        ],"replace": true
+    }
+]

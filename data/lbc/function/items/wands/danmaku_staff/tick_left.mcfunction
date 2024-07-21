@@ -1,0 +1,10 @@
+execute if score danmaku lbc.math matches 19 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_1l
+execute if score danmaku lbc.math matches 17 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_2l
+execute if score danmaku lbc.math matches 15 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_3l
+execute if score danmaku lbc.math matches 13 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_4l
+execute if score danmaku lbc.math matches 11 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_5l
+execute if score danmaku lbc.math matches 9 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_6l
+execute if score danmaku lbc.math matches 7 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_7l
+execute if score danmaku lbc.math matches 5 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_8l
+execute if score danmaku lbc.math matches 3 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_9l
+execute if score danmaku lbc.math matches 1 anchored eyes positioned ^ ^ ^ positioned ~ ~-0.5 ~ run function lbc:items/wands/danmaku_staff/shoot_10l

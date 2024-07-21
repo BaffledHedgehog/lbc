@@ -1,0 +1,2 @@
+data modify entity @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:lightning_rod"}}] Item set value {id:"minecraft:panda_spawn_egg",Count:1b,components:{display:{Name:'{"translate":"mecha_breaker","color":"red","italic":false}',Lore:['{"translate":"mecha_breaker.lore.1","color":"white","italic":false}','{"translate":"mecha_breaker.lore.2","color":"white","italic":false}']},"minecraft:custom_model_data":573,EntityTag:{id:"minecraft:marker",Tags:["stopper","rc_1sec","marker_2t"]}}}
+kill @s

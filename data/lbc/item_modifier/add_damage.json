@@ -1,0 +1,20 @@
+[
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "attack_damage",
+          "amount": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "attack_damage",
+            "scale": 0.0001
+          },
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  ]
+  

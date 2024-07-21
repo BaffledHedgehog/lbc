@@ -1,0 +1,36 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": [
+            {
+                "translate": "gui.locked",
+                "color": "red",
+                "bold": true,
+                "italic": false
+            }
+        ],
+        "replace": false,
+        "add": true
+    },
+    {
+        "function": "minecraft:set_lore","mode":"replace_all",
+        "entity": "this",
+        "lore": [
+            {
+                "translate": "gui.for_open",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.accessories.sand_amulet",
+                "color": "red"
+            }
+        ],
+        "replace": false,
+        "add": true
+    },
+    {
+        "function": "minecraft:set_components",
+        "tag": "{HideFlags:127}"
+    }
+]

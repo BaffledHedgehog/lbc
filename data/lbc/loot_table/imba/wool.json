@@ -1,0 +1,633 @@
+{
+    "pools": [
+        {
+            "rolls": 64,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.black_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,black:1b,"projegadget": true,"minecraft:custom_model_data":602,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.blue_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,blue:1b,"projegadget": true,"minecraft:custom_model_data":603,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.brown_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":604,brown:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.cyan_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":605,cyan:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.gray_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":606,gray:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.green_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":607,green:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.light_blue_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":608,light_blue:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.light_gray_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":609,light_gray:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.lime_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":610,lime:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.magenta_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":611,magenta:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.orange_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":612,orange:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.pink_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":613,pink:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.purple_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":614,purple:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.red_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":615,red:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.white_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":616,white:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "snowball",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "translate": "block.minecraft.yellow_wool"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":617,yellow:1b,imba:1b}"
+                        },
+                        {
+                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "wool.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

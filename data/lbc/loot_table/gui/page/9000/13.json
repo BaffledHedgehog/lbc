@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "tag": "{"minecraft:custom_model_data":41522,Damage:31}"
+                        },
+                        {
+                            "function": "minecraft:copy_components",
+                            "source": {
+                                "type": "minecraft:storage",
+                                "source": "swrg:lang"
+                            },
+                            "ops": [
+                                {
+                                    "source": "lore.lbckit.13",
+                                    "target": "display{}",
+                                    "op": "merge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "components": {lbckit.13",
+                                "storage": "swrg:lang",
+                                "interpret": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

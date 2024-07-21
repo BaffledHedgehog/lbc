@@ -1,0 +1,4 @@
+# Recharging crossbow
+execute if entity @s[nbt={Inventory:[{id:"minecraft:arrow"}]}] run item replace entity @s weapon.mainhand with crossbow{display:{Name:'{"translate":"ghast_crossbow","color":"red","bold":true,"italic":false}',Lore:['{"translate":"ghast_crossbow.lore","color": "white","italic":false}']},"transformable": true,"bow": true,fastexplode:1b,"craftusable": true,Enchantments:[{id:"minecraft:quick_charge",lvl:5s}],ChargedProjectiles:[{id:"minecraft:firework_rocket",Count:1b,components:{Fireworks:{Flight:3b,Explosions:[{Type:2,Flicker:1b,Trail:1b,Colors:[I;16772608],FadeColors:[I;16711680]},{Type:0,Flicker:1b,Trail:1b,Colors:[I;16712965],FadeColors:[I;10249480]},{Type:1,Flicker:1b,Trail:1b,Colors:[I;16757504],FadeColors:[I;9539985]}]}}},{},{}],Charged:1b} 1
+# clearing 1 arrow
+execute if entity @s[nbt={Inventory:[{id:"minecraft:arrow"}]}] run clear @s[nbt=!{Inventory:[{components:{infinite_arrow:1b}}]}] arrow 1

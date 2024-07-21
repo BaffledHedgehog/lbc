@@ -1,0 +1,5 @@
+summon tnt ^2 ^ ^ {CustomNameVisible:0b,fuse:100,Tags:["groundbam"],Passengers:[{id:"minecraft:pig",CustomNameVisible:1b,DeathLootTable:"none",Health:35f,CustomName:'{"text":"Українська бiмба","italic":false}',Attributes:[{Name:"generic.max_health",Base:35}]}],CustomName:'{"text":"Українська бiмба","italic":false}'}
+summon tnt ^-2 ^ ^ {CustomNameVisible:0b,fuse:100,Tags:["groundbam"],Passengers:[{id:"minecraft:pig",CustomNameVisible:1b,DeathLootTable:"none",Health:35f,CustomName:'{"text":"Українська бiмба","italic":false}',Attributes:[{Name:"generic.max_health",Base:35}]}],CustomName:'{"text":"Українська бiмба","italic":false}'}
+summon tnt ^ ^ ^ {CustomNameVisible:0b,fuse:100,Tags:["groundbam"],Passengers:[{id:"minecraft:pig",CustomNameVisible:1b,DeathLootTable:"none",Health:35f,CustomName:'{"text":"Українська бiмба","italic":false}',Attributes:[{Name:"generic.max_health",Base:35}]}],CustomName:'{"text":"Українська бiмба","italic":false}'}
+
+tp @s ^ ^ ^1 ~ ~

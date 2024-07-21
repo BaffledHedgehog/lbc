@@ -1,0 +1,490 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.01,
+                "max": 0.1
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "very_fast_crossbow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:piercing\",lvl:10s}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.01,
+                "max": 0.1
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "sniper_crossbow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.01,
+                "max": 0.1
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "shotgun",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:2s}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.01,
+                "max": 0.1
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "super_shotgun",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:quick_charge\",lvl:2s}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.01,
+                "max": 0.1
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "fast_crossbow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:5s}]}"
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.01,
+                "max": 0.1
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "gatlingator",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{CustomPotionColor:6710881}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "strong_arrow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{CustomPotionColor:6710882}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "weak_arrow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{CustomPotionColor:2883328,custom_potion_effects:[{id:\"minecraft:poison\",amplifier:2b,duration:160,show_particles:0b},{id:\"minecraft:wither\",amplifier:2b,duration:40,show_particles:0b}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "poison_arrow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{CustomPotionColor:6710883}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "reactive_arrow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "reactive_arrow.lore",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{CustomPotionColor:16746496,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:2,show_particles:0b}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "explosive_arrow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{CustomPotionColor:6184020,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:2,show_particles:0b}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "evoker_arrow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "evoker_arrow.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "evoker_arrow.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{CustomPotionColor:65493,custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:127b,duration:40,show_particles:0b},{id:\"minecraft:mining_fatigue\",amplifier:127b,duration:40,show_particles:0b}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "paralyzing_arrow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 10
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{CustomPotionColor:52479,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:2,show_particles:0b}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "electric_arrow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "electric_arrow.lore",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

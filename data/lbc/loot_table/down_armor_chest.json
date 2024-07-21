@@ -1,0 +1,105 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "chestplate": true,
+                                    "glass": true
+                                },
+                                "minecraft:custom_model_data": 20,
+                                "minecraft:unbreakable": {},
+                                "minecraft:dyed_color": {
+                                    "rgb": 520,
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "glass_chestplate",
+                                "color": "white",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "chestplate",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "glass.lore",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "glass.lore.2",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "amount": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": "#tmp1"
+                                        },
+                                        "score": "lbc.math",
+                                        "scale": 0.00095
+                                    },
+                                    "operation": "add_value",
+                                    "id": "71af780-80f9-4861-8a64-49ab1247121b",
+                                    "slot": "chest",
+                                    "add": false
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor_toughness",
+                                    "amount": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": "#tmp1"
+                                        },
+                                        "score": "lbc.math",
+                                        "scale": 0.00095
+                                    },
+                                    "operation": "add_value",
+                                    "id": "71eaf780-80f9-4861-8a64-49ab247121b",
+                                    "slot": "chest",
+                                    "add": false
+                                }
+                            ],
+                            "add": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

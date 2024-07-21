@@ -1,0 +1,2836 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:chorus_fruit",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:iron_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:bedrock",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:diamond_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:coarse_dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:ancient_debris",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:ghast",
+                  "ExplosionPower": 15,
+                  "Motion": [
+                    0,
+                    2,
+                    0
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "super_ghast",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:panda_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:tnt",
+                  "fuse": 40,
+                  "Motion": [
+                    0,
+                    0.3,
+                    0
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "minecraft:custom_model_data": 541
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "fused_tnt",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:panda_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "bolt_material": true
+                },
+                "minecraft:custom_model_data": 540,
+                "minecraft:entity_data": {
+                  "id": "minecraft:lightning_bolt"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "lightning_bolt.lbc",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "lightning_bolt.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lightning_bolt.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lightning_bolt.lore.3",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lightning_bolt.lore.4",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lightning_bolt.lore.5",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lightning_bolt.lore.6",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "craft_with_wind",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 0,
+          "value": "lbc:logs"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 4,
+          "value": "lbc:alotofarrow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 5,
+          "value": "lbc:enderpearls"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 0,
+          "value": "lbc:buckets"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": -5,
+          "value": "lbc:wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:flint_and_steel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:fire_aspect": 20
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "mainhand",
+                    "id": "gevuryej7dy7fsidfdsf",
+                    "amount": -0.99,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "op_flint",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 0,
+          "value": "lbc:food"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": -5,
+          "value": "lbc:foodblocks"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 5,
+          "value": "lbc:elytra"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 10,
+          "value": "lbc:fireballs"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 0,
+          "value": "lbc:diamondtools"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 0,
+          "value": "lbc:spawnegg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:panda_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 552,
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "compressedtnt",
+                    "marker_2t",
+                    "mecha"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "omega_tnt",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 5,
+          "value": "lbc:weapons"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:panda_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 551,
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "nuke",
+                    "rc_1sec",
+                    "marker_2t",
+                    "mecha"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "nuke",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "nuke.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "nuke.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 526,
+                "minecraft:custom_data": {
+                  "most": true,
+                  "projegadget": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "bridge_builder",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "bridge_builder.lore.1",
+                  "color": "green",
+                  "italic": false
+                },
+                {
+                  "translate": "bridge_builder.lore.2",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 523,
+                "minecraft:custom_data": {
+                  "teleport1": true,
+                  "gadget": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "teleporter",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "teleporter.lore.1",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "teleporter.lore.2",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "teleporter.lore.3",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 10,
+          "value": "lbc:spells",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 3,
+          "value": "lbc:potions",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 7,
+          "value": "lbc:slabs"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 10,
+          "value": "lbc:knifes"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 7,
+          "value": "lbc:stews"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 528,
+                "minecraft:custom_data": {
+                  "gadget": true,
+                  "rasengan": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sweeping_edge": 1
+                  },
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "rasengan.lore.1",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "translate": "rasengan.lore.2",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "rasengan",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10000,
+          "quality": 10,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 528,
+                "minecraft:custom_data": {
+                  "gadget": true,
+                  "rasengan": true
+                },
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sweeping_edge": 1
+                  },
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "rasengan.lore.1",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "translate": "rasengan.lore.2",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "rasengan",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "final_luck_modifier"
+                },
+                "score": "lbc.math",
+                "scale": 1
+              },
+              "range": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 527,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "smoke": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "smoke_grenade",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 9,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 524,
+                "minecraft:custom_data": {
+                  "randtp": true,
+                  "gadget": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "swapper",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "swapper.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "swapper.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 8,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 525,
+                "minecraft:custom_data": {
+                  "islandtp": true,
+                  "gadget": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "island_teleporter",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "island_teleporter.lore",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:pig_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:pig",
+                  "CustomNameVisible": 1,
+                  "Health": 50,
+                  "Tags": [
+                    "fakepig",
+                    "lucky_mob"
+                  ],
+                  "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}",
+                  "Attributes": [
+                    {
+                      "Name": "generic.max_health",
+                      "Base": 50
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Fake lucky pig",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "fake_lucky_pig.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "fake_lucky_pig.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:black_shulker_box",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:container_loot": {
+                  "loot_table": "lbc:infinity"
+                },
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "inf_shulker": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "infinite_shulker",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "infinite_shulker.lore",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "inf": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "infinite_steak",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "infinite_steak.lore",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 10,
+          "value": "lbc:imitator"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 0,
+          "value": "lbc:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 559,
+                "minecraft:custom_data": {
+                  "bad_apple": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "B",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "a",
+                  "color": "black",
+                  "italic": false
+                },
+                {
+                  "text": "d ",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "A",
+                  "color": "black",
+                  "italic": false
+                },
+                {
+                  "text": "ppl",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "e",
+                  "color": "black",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 10,
+          "value": "lbc:attributefood"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "raycastspell": true,
+                  "krazha": true
+                },
+                "minecraft:custom_model_data": 566
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "shadow_glove",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "shadow_glove.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "shadow_glove.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "shadow_glove.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 569,
+                "minecraft:custom_data": {
+                  "special": true,
+                  "luckygrenade": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "lucky_grenade",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "lucky_grenade.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lucky_grenade.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lucky_grenade.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:panda_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 573,
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "stopper",
+                    "rc_1sec",
+                    "marker_2t"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "mecha_breaker",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "mecha_breaker.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "mecha_breaker.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:panda_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 575,
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "stopper_magic",
+                    "rc_1sec",
+                    "marker_2t"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "magic_breaker",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "magic_breaker.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "magic_breaker.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:villager",
+                  "CustomNameVisible": true,
+                  "Tags": [
+                    "fake_player"
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "selector": "@p[gamemode=!spectator]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "fake_player.lore",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "superdice": true,
+                  "gadget": true
+                },
+                "minecraft:custom_model_data": 585
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "super_dice",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "super_dice.lore.1",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.2",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.3",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.4",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.5",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.6",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.7",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1000,
+          "quality": 7,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "superdice": true,
+                  "gadget": true
+                },
+                "minecraft:custom_model_data": 585
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "super_dice",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "super_dice.lore.1",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.2",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.3",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.4",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.5",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.6",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "super_dice.lore.7",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "final_luck_modifier"
+                },
+                "score": "lbc.math",
+                "scale": 1
+              },
+              "range": 7
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 0,
+          "value": "lbc:purifypotion",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 0,
+          "value": "lbc:explosivepotion",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 110,
+          "value": "lbc:transformables_accessory",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 910,
+          "value": "lbc:transformables_accessory",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "final_luck_modifier"
+                },
+                "score": "lbc.math",
+                "scale": 1
+              },
+              "range": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "value": "lbc:transformables_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "value": "lbc:transformables_bow",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10000,
+          "value": "lbc:transformables_bow",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "final_luck_modifier"
+                },
+                "score": "lbc.math",
+                "scale": 1
+              },
+              "range": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "value": "lbc:transformables_hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "value": "lbc:transformables_pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 120,
+          "value": "lbc:transformables_potion",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1200,
+          "value": "lbc:transformables_potion",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "final_luck_modifier"
+                },
+                "score": "lbc.math",
+                "scale": 1
+              },
+              "range": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "value": "lbc:transformables_shield"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 70,
+          "value": "lbc:transformables_shooter"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 510,
+          "value": "lbc:transformables_shooter",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "final_luck_modifier"
+                },
+                "score": "lbc.math",
+                "scale": 1
+              },
+              "range": 7
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "value": "lbc:transformables_shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 240,
+          "value": "lbc:transformables_staff",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 80,
+          "value": "lbc:transformables_summons",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 180,
+          "value": "lbc:transformables_sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 150000,
+          "value": "lbc:transformables_sword",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "final_luck_modifier"
+                },
+                "score": "lbc.math",
+                "scale": 1
+              },
+              "range": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "value": "lbc:transformables_totem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "value": "lbc:transformables_trident"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 60,
+          "value": "lbc:transformables_arcanum",
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "minecraft:value_check",
+                "value": {
+                  "type": "minecraft:score",
+                  "target": {
+                    "type": "minecraft:fixed",
+                    "name": "final_luck_modifier"
+                  },
+                  "score": "lbc.math",
+                  "scale": 1
+                },
+                "range": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "death_compass": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "death_compass",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "death_compass.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "death_compass.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 575,
+                "minecraft:custom_data": {
+                  "konserva": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "konserva",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "konserva.lore.1",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "konserva.lore.2",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16777215,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 112,
+                      "duration": 400
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "lightshoot_arrow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16763161,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 111,
+                      "duration": 300
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "kiuaskivi_arrow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 2236962,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 113,
+                      "duration": 300
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trapping_arrow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "trollge": true,
+                  "gadget": true
+                },
+                "minecraft:custom_model_data": 588
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "troll_box",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "troll_box.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "troll_box.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_boots",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "randchanted": true,
+                  "transformable": true,
+                  "boots": true
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "boots",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "multiplying": true,
+                  "transformable": true,
+                  "boots": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "gegs56hthxghfr",
+                    "amount": 1,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "feet",
+                    "id": "genedhfxdthxgffdjd6s",
+                    "amount": 1,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "multiplying_boots",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "boots",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_chestplate",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "randchanted": true,
+                  "transformable": true,
+                  "chestplate": true
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "multiplying": true,
+                  "transformable": true,
+                  "chestplate": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "genhz6hxh5earmor",
+                    "amount": 4,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "chest",
+                    "id": "generic.armohdhfgdfghs",
+                    "amount": 4,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "multiplying_chestplate",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "dynamite": true
+                },
+                "minecraft:custom_model_data": 1,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:blast_protection": 255
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 1,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "genedcrththmor",
+                    "amount": 15,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.knockback_resistance",
+                    "slot": "chest",
+                    "id": "generityretyrekback_resistance",
+                    "amount": 15,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "chest",
+                    "id": "geneyyyyyuyuss",
+                    "amount": 15,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "tnt_jacket",
+                  "color": "dark_red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "chestplate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "tnt_jacket.lore",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_leggings",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "randchanted": true,
+                  "transformable": true,
+                  "leggings": true
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "multiplying": true,
+                  "transformable": true,
+                  "leggings": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "fffgenifrmor",
+                    "amount": 3,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "legs",
+                    "id": "daerisfodjifd",
+                    "amount": 3,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "multiplying_leggings",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "leggings",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_helmet",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "randchanted": true,
+                  "transformable": true,
+                  "helmet": true
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "helmet",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "multiplying": true,
+                  "transformable": true,
+                  "helmet": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "head",
+                    "id": "genghbdth5hymor",
+                    "amount": 2,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "head",
+                    "id": "generjjjjgfjxc6thjness",
+                    "amount": 2,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "multiplying_helmet",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "helmet",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 589,
+                "minecraft:custom_data": {
+                  "ruchka": true,
+                  "projegadget": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "ruchka",
+                  "color": "#FF5C5C",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "ruchka.lore.1",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "ruchka.lore.2",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "ruchka.lore.3",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "ruchka.lore.4",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 8,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "witch_gens": true,
+                  "magicwand": true
+                },
+                "minecraft:custom_model_data": 649
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "witch_gens",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "witch_gens.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "witch_gens.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "witch_gens.lore.3",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "witch_gens.lore.4",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "witch_gens.lore.5",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "witch_gens.lore.6",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "witch_gens.lore.7",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "witch_gens.lore.8",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "lbc:rofls"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:panda_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 577,
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "slowraycast",
+                    "railroad",
+                    "other"
+                  ],
+                  "data": {
+                    "railtime": 0
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "railroad",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "railroad.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "railroad.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "railroad.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "lbc:sussy_molten_penis"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "lbc:clocks"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "value": "lbc:luckyblock_imba"
+        }
+      ]
+    }
+  ]
+}

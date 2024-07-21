@@ -1,0 +1,1 @@
+effect give @e[distance=..2.5,type=#mobs,tag=!nodamage,tag=!spectator,tag=!muravei] poison 15 0

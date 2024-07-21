@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run function lbc:other/nexus/wires_other_worlds/black_at

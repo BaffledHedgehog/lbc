@@ -1,0 +1,39 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_block",
+            "functions": [
+              {
+                "function": "minecraft:copy_components",
+                "source": {
+                  "type": "minecraft:storage",
+                  "source": "swrg:lang"
+                },
+                "ops": [
+                  {
+                    "source": "lore.lbcskill.1",
+                    "target": "display{}",
+                    "op": "merge"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "components": {lbcskill.1",
+                  "storage": "swrg:lang",
+                  "interpret": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

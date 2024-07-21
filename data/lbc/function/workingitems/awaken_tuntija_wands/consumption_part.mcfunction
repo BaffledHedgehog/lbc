@@ -1,0 +1,1 @@
+execute if score @s Lifetime matches 60.. run function lbc:workingitems/awaken_tuntija_wands/consumption_part_da

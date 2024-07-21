@@ -1,0 +1,13 @@
+scoreboard players remove @s coldown_evoker 5
+scoreboard players remove @s coldown_bass 5
+scoreboard players remove @s coldown_ender 5
+scoreboard players remove @s coldown_corrupt 5
+scoreboard players remove @s coldown_vampire 5
+scoreboard players remove @s coldown_foxus 5
+scoreboard players remove @s coldown_blood 5
+scoreboard players remove @s coldown_wiki 5
+execute at @s[nbt={Inventory:[{id:"minecraft:leather_helmet",Slot:103b,components:{magichat_old:1b}}]}] run function lbc:other/new_game/magic_boost_hat
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{manabelt_old:1b}}]}] run function lbc:other/new_game/magic_boost_belt
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{mystical_old:1,type:2}}]}] run function lbc:other/artifact/nomagic_old
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{mystical_old:1,type:5}}]}] run function lbc:other/artifact/notnt_old
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{mystical_old:1,type:6}}]}] run function lbc:other/artifact/nofluid_old

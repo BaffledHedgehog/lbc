@@ -1,0 +1,6 @@
+execute if entity @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village",amplifier:40b}]}] run spreadplayers ~ ~ 0 10 false @s[predicate=!lbc:the_nether]
+execute if entity @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village",amplifier:41b}]}] run spreadplayers ~ ~ 0 20 false @s[predicate=!lbc:the_nether]
+execute if entity @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village",amplifier:42b}]}] run spreadplayers ~ ~ 0 30 false @s[predicate=!lbc:the_nether]
+execute if entity @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village",amplifier:40b}]}] run spreadplayers ~ ~ 0 10 under 120 false @s[predicate=lbc:the_nether]
+execute if entity @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village",amplifier:41b}]}] run spreadplayers ~ ~ 0 20 under 120 false @s[predicate=lbc:the_nether]
+execute if entity @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village",amplifier:42b}]}] run spreadplayers ~ ~ 0 30 under 120 false @s[predicate=lbc:the_nether]

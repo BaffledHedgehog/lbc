@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stfire": true
+                },
+                "minecraft:custom_model_data": 639
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "sauvojen_wand_fire",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "stfire_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "sauvojen_wand_fire.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_fire.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_fire.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_fire.lore.4",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+tellraw @a [{"selector":"@s"},{"translate":"super_dice.event.6","color": "yellow"}]
+tellraw @s [{"translate":"super_dice.event.grant"},{"text":" 6!"}]
+give @s carrot_on_a_stick{display:{Name:'{"translate":"white_arrow","italic":false}',Lore:['{"translate":"white_arrow.lore","italic":false,"color":"aqua"}']},"minecraft:custom_model_data":586,whitearrow:1,"raycastspell": true} 1

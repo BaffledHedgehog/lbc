@@ -1,0 +1,72 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": [
+            {
+                "translate": "gui.locked",
+                "color": "red",
+                "bold": true,
+                "italic": false
+            }
+        ],
+        "replace": false,
+        "add": true
+    },
+    {
+        "function": "minecraft:set_lore","mode":"replace_all",
+        "entity": "this",
+        "lore": [
+            {
+                "translate": "gui.for_open",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.upgraded_tuntija.acid",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.upgraded_staff.acid",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.upgraded_tuntija.acidacid",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.upgraded_tuntija.acidcorrupt",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.upgraded_staff.corruption",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.staff.acid",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.staff.corruption",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.tuntija.acid",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.tuntija.acidacid",
+                "color": "red"
+            },
+            {
+                "translate": "lbc.adv.tuntija.acidcorrupt",
+                "color": "red"
+            }
+        ],
+        "replace": false,
+        "add": true
+    },
+    {
+        "function": "minecraft:set_components",
+        "tag": "{HideFlags:127}"
+    }
+]

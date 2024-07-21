@@ -1,0 +1,1 @@
+execute if score @s lbc.skill matches 14 if entity @s[nbt={Inventory:[{id:"minecraft:arrow"}]}] run function lbc:swrg_kit_integration/game/skills/pulemet

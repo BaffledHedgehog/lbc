@@ -1,0 +1,1 @@
+function lbc:workingitems/awaken_tuntija_wands/consuming_wand_loop

@@ -1,0 +1,2 @@
+execute if entity @s[predicate=lbc:swimming] run function lbc:workingitems/seaguardian_1
+execute unless entity @s[predicate=lbc:swimming] if predicate lbc:chance25 run function lbc:workingitems/seaguardian_2

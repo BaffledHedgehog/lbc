@@ -1,0 +1,2 @@
+item replace entity @a[tag=scheduled_eating] weapon.mainhand with rabbit_stew{display:{Name:'{"translate":"horn","color":"white","italic":false}',Lore:['{"translate":"horn.lore","color":"white","italic":false}']},inf_old:1b} 1
+tag @a remove scheduled_eating

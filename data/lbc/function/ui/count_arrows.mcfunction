@@ -1,0 +1,2 @@
+execute store result storage lbc.math arrow int 1 run clear @s #arrows 0
+data modify storage lbc.math ui append value '{"text":"    \\uE108 ","extra":[{"components":"arrow","storage":"lbc.math","color":"white"}]}'

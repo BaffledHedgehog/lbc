@@ -1,0 +1,1 @@
+fill ~ ~ ~ ~ ~3 ~ air destroy

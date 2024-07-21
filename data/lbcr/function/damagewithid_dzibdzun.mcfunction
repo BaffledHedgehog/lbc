@@ -1,0 +1,4 @@
+function lbcr:dmgwithid_un_playeronly
+execute if score @s Lifetime matches 30.. if entity @e[distance=..10,dx=0,dy=0,dz=0,type=#mobs,tag=!nodamage,tag=!spectator,limit=1] at @a[gamemode=!spectator,nbt={SelectedItem:{components:{erecto_wand:1b,upgradable:1b}}}] if score @a[gamemode=!spectator,limit=1,distance=..0.001,nbt=!{SelectedItem:{components:{upgrade_available:1b}}}] lbcID2 = @s lbcID2 as @a[gamemode=!spectator,limit=1,distance=..0.001] at @s run function lbc:other/magic_academy/can_upgrade
+execute as @e[distance=..10,dx=0,dy=0,dz=0,type=#mobs,tag=!nodamage,tag=!spectator,limit=2] run damage @s 1 arrow
+tag @a remove nodamage

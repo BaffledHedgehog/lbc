@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "tag": "{"minecraft:custom_model_data":595,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"nano_trapik\",\"player\"]}}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "nanotraps",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "lore": [
+                                {
+                                    "translate": "nanotraps.lore",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

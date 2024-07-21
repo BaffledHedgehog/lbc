@@ -1,0 +1,4 @@
+effect give @s slow_falling 10 0
+particle cloud ~ ~-0.2 ~ 0.2 0.02 0.2 0.03 2 normal
+execute unless score @s reactivefuel matches ..0 at @s[nbt=!{Inventory: [{Slot: 101b, components: {"reactive":true}},{Slot: 102b, components: {"reactive":true}},{Slot: 103b, components: {"reactive":true}},{Slot: 100b, components: {"reactive":true}}]}] run function lbc:other/reactiveboots
+execute unless score @s reactivefuel matches ..0 at @s[nbt={Inventory: [{Slot: 101b, components: {"reactive":true}},{Slot: 102b, components: {"reactive":true}},{Slot: 103b, components: {"reactive":true}},{Slot: 100b, components: {"reactive":true}}]}] run function lbc:other/reactiveboots_mega

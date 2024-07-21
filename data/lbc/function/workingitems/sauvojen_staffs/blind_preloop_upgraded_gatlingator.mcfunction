@@ -1,0 +1,1 @@
+scoreboard players add @s gatling_fovos 20

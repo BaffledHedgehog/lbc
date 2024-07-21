@@ -1,0 +1,1 @@
+execute if entity @s[type=skeleton,tag=golden_skeleton] run function lbc:other/grimoire_dungeon/mobs/golden_skeleton/10s

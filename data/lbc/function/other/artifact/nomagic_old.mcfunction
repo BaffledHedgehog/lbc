@@ -1,0 +1,5 @@
+kill @e[type=area_effect_cloud,distance=..4]
+kill @e[type=evoker_fangs,distance=..4]
+kill @e[type=experience_bottle,distance=..4]
+kill @e[type=experience_orb,distance=..4]
+kill @e[type=dragon_fireball,distance=..4]

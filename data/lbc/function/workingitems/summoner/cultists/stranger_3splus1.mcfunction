@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=strange_destroyer] at @s run function lbc:workingitems/summoner/cultists/stranger_3splus1at

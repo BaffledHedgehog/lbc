@@ -1,0 +1,1 @@
+$execute store result score tmp_aft lbc.math run random value 0..$(tmpi)

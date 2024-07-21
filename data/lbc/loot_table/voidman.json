@@ -1,0 +1,134 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:repeating_command_block",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_components",
+                "tag": "{"minecraft:custom_model_data":576,liquidvoid:1b}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "translate": "liquid_abyss",
+                    "italic": false,
+                    "color":"dark_purple"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore","mode":"replace_all",
+                "lore": [
+                  {
+                    "translate": "liquid_abyss.lore",
+                    "color": "dark_purple",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "item",
+                  "weight": 10,
+                  "quality": 8,
+                  "name": "minecraft:carrot_on_a_stick",
+                  "functions": [
+                      {
+                          "function": "set_count",
+                          "count": 1
+                      },
+                      {
+                          "function": "set_components",
+                          "tag": "{"craftusable": true,"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":640,"stblind": true}"
+                      },
+                      {
+                          "function": "set_name",
+                          "name": [
+                              {
+                                  "translate": "sauvojen_wand_blind",
+                                  "color": "light_purple",
+                                  "italic": false
+                              }
+                          ]
+                      },
+                      {
+                          "function": "set_lore","mode":"replace_all",
+                          "entity": "this",
+                          "lore": [
+                              [
+                                  {
+                                      "translate": "type",
+                                      "italic": false,
+                                      "color": "aqua"
+                                  },
+                                  {
+                                      "translate": "staff",
+                                      "italic": false,
+                                      "color": "aqua"
+                                  }
+                              ],
+                              [
+                                  {
+                                      "score": {
+                                          "name": "stblind_wand_mana_use",
+                                          "objective": "lbc.math"
+                                      },
+                                      "italic": false,
+                                      "color": "aqua"
+                                  },
+                                  {
+                                      "translate": "mana_on_activate",
+                                      "italic": false,
+                                      "color": "aqua"
+                                  }
+                              ],
+                              {
+                                  "translate": "sauvojen_wand_blind.lore.1",
+                                  "color": "gold",
+                                  "italic": false
+                              },
+                              {
+                                  "translate": "sauvojen_wand_blind.lore.2",
+                                  "color": "gold",
+                                  "italic": false
+                              },
+                              {
+                                  "translate": "sauvojen_wand_blind.lore.3",
+                                  "color": "gold",
+                                  "italic": false
+                              },
+                              {
+                                  "translate": "sauvojen_wand_blind.lore.4",
+                                  "color": "yellow",
+                                  "italic": false
+                              }
+                          ]
+                      }
+                  ],
+                  "conditions": [
+                      {
+                          "condition": "random_chance",
+                          "chance": 0.1
+                      }
+                  ]
+              }
+          ]
+      }
+    ]
+  }

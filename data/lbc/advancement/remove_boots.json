@@ -1,0 +1,50 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "feet": {
+                                        "components": {
+                                            "minecraft:custom_data": {
+                                              "technomk2": true
+                                            }
+                                          }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"technomk2fly\"]}"
+                        }
+                    },{
+                        "condition": "minecraft:inverted",
+                        "term": {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                            "location": {
+                              "dimension": "minecraft:nexus"
+                            }
+                          }
+                        }
+                      }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lbc:armor/technomk2/take_off"
+    }
+}

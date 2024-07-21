@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem: {components: {yellow_lightning: 1b}}}] positioned ~ ~.85 ~ run function lbc:workingitems/yellow_lightning_ball
+execute if entity @s[nbt={Inventory: [{Slot: -106b, components: {yellow_lightning: 1b}}]}] positioned ~ ~.85 ~ run function lbc:workingitems/yellow_lightning_ball

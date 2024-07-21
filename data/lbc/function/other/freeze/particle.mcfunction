@@ -1,0 +1,1 @@
+$particle snowflake ~ ~0.81 ~ 0.3 0.4 0.3 0 $(tmp1)

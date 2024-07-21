@@ -1,0 +1,8 @@
+particle flame ^ ^ ^0.1 0 0 0 0 1 normal @p[gamemode=!spectator]
+particle flame ^ ^ ^0.5 0 0 0 0 1 normal @p[gamemode=!spectator]
+particle flame ^ ^ ^0.9 0 0 0 0 1 normal @p[gamemode=!spectator]
+particle flame ^ ^ ^1.3 0 0 0 0 1 normal @p[gamemode=!spectator]
+particle flame ^ ^ ^1.7 0 0 0 0 1 normal @p[gamemode=!spectator]
+particle flame ^ ^ ^2.1 0 0 0 0 1 normal @p[gamemode=!spectator]
+particle flame ^ ^ ^2.6 0 0 0 0 1 normal @p[gamemode=!spectator]
+particle flame ^ ^ ^3.2 0 0 0 0 1 normal @p[gamemode=!spectator]

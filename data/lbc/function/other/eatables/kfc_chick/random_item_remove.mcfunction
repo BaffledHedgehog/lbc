@@ -1,0 +1,41 @@
+tellraw @s {"translate":"yum_remove"}
+playsound minecraft:lbcsounds.shitting_1 master @a ~ ~ ~ 1 2
+execute store result score tmp lbc.math run random value 1..38
+execute if score tmp lbc.math matches 1 run loot replace entity @s inventory.0 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 2 run loot replace entity @s inventory.1 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 3 run loot replace entity @s inventory.2 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 4 run loot replace entity @s inventory.3 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 5 run loot replace entity @s inventory.4 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 6 run loot replace entity @s inventory.5 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 7 run loot replace entity @s inventory.6 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 8 run loot replace entity @s inventory.7 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 9 run loot replace entity @s inventory.8 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 10 run loot replace entity @s inventory.9 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 11 run loot replace entity @s inventory.10 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 12 run loot replace entity @s inventory.11 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 13 run loot replace entity @s inventory.12 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 14 run loot replace entity @s inventory.13 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 15 run loot replace entity @s inventory.14 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 16 run loot replace entity @s inventory.15 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 17 run loot replace entity @s inventory.16 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 18 run loot replace entity @s inventory.17 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 19 run loot replace entity @s inventory.18 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 20 run loot replace entity @s inventory.19 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 21 run loot replace entity @s inventory.20 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 22 run loot replace entity @s inventory.21 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 23 run loot replace entity @s inventory.22 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 24 run loot replace entity @s inventory.23 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 25 run loot replace entity @s inventory.24 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 26 run loot replace entity @s inventory.25 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 27 run loot replace entity @s inventory.26 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 28 run loot replace entity @s hotbar.0 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 29 run loot replace entity @s hotbar.1 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 30 run loot replace entity @s hotbar.2 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 31 run loot replace entity @s hotbar.3 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 32 run loot replace entity @s hotbar.4 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 33 run loot replace entity @s hotbar.5 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 34 run loot replace entity @s hotbar.6 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 35 run loot replace entity @s hotbar.7 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 36 run loot replace entity @s hotbar.8 loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 37 run loot replace entity @s armor.head loot lbc:govno_lot_2
+execute if score tmp lbc.math matches 38 run loot replace entity @s weapon.offhand loot lbc:govno_lot_2

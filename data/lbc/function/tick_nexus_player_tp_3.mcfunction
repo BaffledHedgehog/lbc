@@ -1,0 +1,1 @@
+$execute in nexus run tp @s $(p1) 2032 $(p3)

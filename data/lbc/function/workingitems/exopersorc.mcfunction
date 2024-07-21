@@ -1,0 +1,1 @@
+execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator] lbcID2 = @s lbcID2 run data modify entity @s Rotation set from entity @p[gamemode=!spectator] Rotation

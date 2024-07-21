@@ -1,0 +1,2 @@
+summon marker ~ ~ ~ {data:{lifetime:300},Tags:["hard_acid","rare","slowraycast","magic"]}
+execute as @e[type=marker,tag=hard_acid,limit=1,distance=..0.001,tag=!actived] run function lbc:workingitems/awaken_tuntija_wands/acidcorrupt/spawn

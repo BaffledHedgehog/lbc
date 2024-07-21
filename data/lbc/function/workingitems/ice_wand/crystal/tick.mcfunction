@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=ice_crystal] at @s run function lbc:workingitems/ice_wand/crystal/run

@@ -1,0 +1,70 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:bow",
+            "components": {
+                "minecraft:custom_model_data": 533
+            }
+        },
+        "title": {
+            "translate": "lbc.adv.bow.shulker"
+        },
+        "description": {
+            "translate": "lbc.adv.bow.shulker.lore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/bows/minigun",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "transformable": true,
+                                            "bow": true,
+                                            "shulker": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "equipment": {
+                                "mainhand": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "transformable": true,
+                                            "bow": true,
+                                            "shulker": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/levelup"
+    }
+}

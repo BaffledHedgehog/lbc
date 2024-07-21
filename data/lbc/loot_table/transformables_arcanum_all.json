@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "lbc:transformables_arcanum",
+                    "weight": 6
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:tuntijaa_fire_kiuas",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:neutral_ball",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

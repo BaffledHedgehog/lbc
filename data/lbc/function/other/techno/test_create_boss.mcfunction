@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,nbt={ArmorItems:[{id:"minecraft:leather_boots",Count:1b,components:{"techno": true}},{id:"minecraft:leather_leggings",Count:1b,components:{"techno": true}},{id:"minecraft:leather_chestplate",Count:1b,components:{"techno": true}},{id:"minecraft:leather_helmet",Count:1b,components:{"techno": true}}]}] at @s run function lbc:other/techno/create_boss
+advancement revoke @s only lbc:place_techno_cyborg

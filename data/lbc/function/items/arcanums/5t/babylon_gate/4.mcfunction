@@ -1,0 +1,1 @@
+summon trident ~ ~ ~ {Tags:["babylon_charge"]}

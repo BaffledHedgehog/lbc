@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "mushroom_stem",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 521,
+                                "minecraft:custom_name": "{\"text\":\"❤ Lucky Block Loli ❤\",\"color\":\"#FFB8E0\",\"italic\":false}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"Community of the Lucky Wars ❤\",\"color\":\"gray\",\"italic\":false}",
+                                    "{\"text\":\"Daeris_ | Beta Server harem event\",\"color\":\"dark_gray\",\"italic\":false}"
+                                ],
+                                "minecraft:block_state": {
+                                    "up": "false",
+                                    "down": "false",
+                                    "north": "false",
+                                    "south": "false",
+                                    "east": "false",
+                                    "west": "false"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

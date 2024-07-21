@@ -1,0 +1,1 @@
+setblock ~ ~ ~ chest{LootTable:"lbc:lucky_items_1"}

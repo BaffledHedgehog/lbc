@@ -1,0 +1,1 @@
+$team modify $(tmp) prefix {"text":"Ситх ","color":"red"}

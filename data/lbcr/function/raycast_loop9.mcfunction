@@ -1,0 +1,5 @@
+scoreboard players add @s Distance 1
+particle white_ash ~ ~ ~ 0.5 0.5 0.5 0 2 normal
+execute if entity @e[distance=..15,dx=0,dy=0,dz=0,tag=!raycaster,type=#mobs,tag=!spectator,limit=1] positioned ^ ^ ^-1 run function lbcr:raycast_end9
+execute unless block ~ ~ ~ #airs positioned ^ ^ ^-1 align xyz positioned ~.5 ~ ~.5 run function lbcr:raycast_end9
+execute as @s[scores={Distance=..200}] unless entity @a[distance=..16,tag=nomagic_active,gamemode=!spectator,limit=1] positioned ^ ^ ^1 unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbcr:raycast_loop9

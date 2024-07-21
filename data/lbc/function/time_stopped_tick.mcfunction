@@ -1,0 +1,1 @@
+execute as @e[tag=!spectator] at @s unless dimension minecraft:nexus run function lbc:time_stopped_tickentity

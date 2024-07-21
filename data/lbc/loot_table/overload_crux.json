@@ -1,0 +1,99 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_data":{"craftusable": true,"magicwand": true,"overload_crux": true},"minecraft:custom_model_data":750}
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "overload_crux",
+                                    "color": "#B336ED",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore","mode":"replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [{
+                                    "translate": "overload_crux.lore.6",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "score":{
+                                        "name":"overload_crux_mana_use",
+                                        "objective":"lbc.math"
+                                    },
+                                    "color":"white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "overload_crux.lore.7",
+                                    "color": "white",
+                                    "italic": false
+                                }],
+                                {
+                                    "translate": "overload_crux.lore.8",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "craft_with_diamond_armor.1",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "craft_with_diamond_armor.2",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "overload_crux.lore.1",
+                                    "color": "dark_gray",
+                                    "italic": true
+                                },
+                                {
+                                    "translate": "overload_crux.lore.2",
+                                    "color": "dark_gray",
+                                    "italic": true
+                                },
+                                {
+                                    "translate": "overload_crux.lore.3",
+                                    "color": "dark_gray",
+                                    "italic": true
+                                },
+                                {
+                                    "translate": "overload_crux.lore.4",
+                                    "color": "dark_gray",
+                                    "italic": true
+                                },
+                                {
+                                    "translate": "overload_crux.lore.5",
+                                    "color": "#5724A4",
+                                    "italic": true
+                                }
+                                
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

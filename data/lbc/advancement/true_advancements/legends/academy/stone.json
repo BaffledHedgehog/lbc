@@ -1,0 +1,50 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {"minecraft:custom_model_data":638}
+        },
+        "title": {
+            "translate": "lbc.adv.upgraded_tuntija.stone"
+        },
+        "description": {
+            "translate": "lbc.adv.upgraded_tuntija.stone.lore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/legends/academy/teleport_tuntija",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                              "upgraded": true,
+                              "transformable": true,
+                              "staff": true,
+                              "ststone": true
+                            }
+                          }
+                    }
+                ]
+            }
+        }
+    }
+}

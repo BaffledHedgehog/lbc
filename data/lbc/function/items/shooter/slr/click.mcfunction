@@ -1,0 +1,2 @@
+execute if predicate lbc:sneak run function lbc:items/shooter/slr/change_mode
+execute unless predicate lbc:sneak if score @s[nbt={Inventory:[{id:"minecraft:arrow"}]}] coldownMagnum matches ..0 anchored eyes positioned ^-.2 ^-.2 ^ run function lbc:items/shooter/slr/shoot

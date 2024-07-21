@@ -1,0 +1,16 @@
+effect give @s absorption 300
+effect give @s conduit_power 300
+effect give @s fire_resistance 300
+effect give @s haste 300
+effect give @s health_boost 300
+effect give @s instant_health 30
+effect give @s invisibility 300
+effect give @s night_vision 300
+effect give @s regeneration 300
+effect give @s resistance 300
+effect give @s saturation 300
+effect give @s slow_falling 300
+effect give @s speed 300
+effect give @s strength 300
+effect give @s water_breathing 300
+advancement revoke @s only lbc:badapple

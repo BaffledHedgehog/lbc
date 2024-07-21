@@ -1,0 +1,1 @@
+$execute rotated $(p1) 0 positioned ~$(p2) ~$(p3) ~$(p4) run function lbc:other/imba/most_tick_random_double_most_create_3

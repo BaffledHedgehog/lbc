@@ -1,0 +1,2 @@
+particle electric_spark ~ ~ ~
+execute positioned ^ ^ ^.33 unless entity @e[type=marker,tag=grapping_hook_pos,tag=grapnow,distance=..3] run function lbc:swrg_kit_integration/items/grapping_hook_tick_particle

@@ -1,0 +1,1 @@
+execute at @a[gamemode=!spectator] if score @a[limit=1,distance=..0.01,gamemode=!spectator] lbcID2 = @s lbcID2 run advancement grant @a[limit=1,distance=..0.01,gamemode=!spectator] only lbc:true_advancements/axes/banhammer

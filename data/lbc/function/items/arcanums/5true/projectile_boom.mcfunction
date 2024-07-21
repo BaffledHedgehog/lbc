@@ -1,0 +1,2 @@
+setblock ~ ~ ~ lava
+kill @s

@@ -1,0 +1,10 @@
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}
+summon vex ~ ~ ~ {DeathLootTable:"lbc:vex_sword",Health:1f,Attributes:[{Name:"generic.max_health",Base:1}]}

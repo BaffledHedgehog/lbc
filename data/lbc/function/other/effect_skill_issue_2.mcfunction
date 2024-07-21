@@ -1,0 +1,1 @@
+$data modify storage $(uid) Rotation set from entity @s Rotation

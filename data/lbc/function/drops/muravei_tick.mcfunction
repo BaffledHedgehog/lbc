@@ -1,0 +1,2 @@
+execute if predicate lbc:chance0_125 run playsound entity.bat.takeoff master @a ~ ~ ~ 1 1.6
+execute if predicate lbc:chance3 at @s anchored eyes facing entity @e[type=#mobs,tag=!spectator,tag=!muravei,distance=..10,sort=nearest,limit=1] eyes run function lbc:drops/muravei_acid

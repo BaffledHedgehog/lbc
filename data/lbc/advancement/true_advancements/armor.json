@@ -1,0 +1,75 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:golden_chestplate"
+        },
+        "title": {
+            "translate": "lbc.adv.armor"
+        },
+        "description": "",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "transformable": true,
+                                            "helmet": true
+                                        }
+                                    }
+                                },
+                                "chest": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "transformable": true,
+                                            "chestplate": true
+                                        }
+                                    }
+                                },
+                                "legs": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "transformable": true,
+                                            "leggings": true
+                                        }
+                                    }
+                                },
+                                "feet": {
+                                    "components": {
+                                        "minecraft:custom_data": {
+                                            "transformable": true,
+                                            "boots": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

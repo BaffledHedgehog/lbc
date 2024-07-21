@@ -1,0 +1,1 @@
+tellraw @s {"translate":"not_enough_xp"}

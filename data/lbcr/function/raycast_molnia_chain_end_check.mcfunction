@@ -1,0 +1,1 @@
+execute facing entity @e[type=#mobs,distance=5..10,tag=!spectator,limit=1,tag=!nodamage,sort=nearest] eyes run tp @s ~ ~ ~ ~ ~ 

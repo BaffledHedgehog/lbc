@@ -1,0 +1,9 @@
+execute store result score #rand lbc.math run random value 1..8
+execute if score #rand lbc.math matches 1 run function lbc:other/attributes/armor
+execute if score #rand lbc.math matches 2 run function lbc:other/attributes/armor_toughness
+execute if score #rand lbc.math matches 3 run function lbc:other/attributes/knockback_resistance
+execute if score #rand lbc.math matches 4 run function lbc:other/attributes/luck
+execute if score #rand lbc.math matches 5 run function lbc:other/attributes/max_health
+execute if score #rand lbc.math matches 6 run function lbc:other/attributes/attack_damage
+execute if score #rand lbc.math matches 7 run function lbc:other/attributes/attack_speed
+execute if score #rand lbc.math matches 8 run function lbc:other/attributes/movement_speed

@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Item: {components: {imba: 1b}}}] run function lbc:items_tick_tag_3

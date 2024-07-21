@@ -1,0 +1,11 @@
+execute store result score #random10 lbc.math run random value 1..10
+execute if score #random10 lbc.math matches 1 run function lbc:workingitems/summoner/cultists/chaos/get_strength
+execute if score #random10 lbc.math matches 2 run function lbc:workingitems/summoner/cultists/chaos/get_speed
+execute if score #random10 lbc.math matches 3 run function lbc:workingitems/summoner/cultists/chaos/get_resistance
+execute if score #random10 lbc.math matches 4 run function lbc:workingitems/summoner/cultists/chaos/get_fireshot
+execute if score #random10 lbc.math matches 5 run function lbc:workingitems/summoner/cultists/chaos/get_splash
+execute if score #random10 lbc.math matches 6 run function lbc:workingitems/summoner/cultists/chaos/get_tridents
+execute if score #random10 lbc.math matches 7 run function lbc:workingitems/summoner/cultists/chaos/get_evoker
+execute if score #random10 lbc.math matches 8 run function lbc:workingitems/summoner/cultists/chaos/get_stun
+execute if score #random10 lbc.math matches 9 run function lbc:workingitems/summoner/cultists/chaos/get_terra
+execute if score #random10 lbc.math matches 10 run function lbc:workingitems/summoner/cultists/chaos/get_electro

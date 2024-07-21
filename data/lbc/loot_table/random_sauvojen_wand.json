@@ -1,0 +1,475 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "lbc:sauvojen_tuntija_swargia"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stterra": true
+                },
+                "minecraft:custom_model_data": 633
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "sauvojen_wand_terra",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "stterra_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "sauvojen_wand_terra.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_terra.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_terra.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_terra.lore.4",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "cyberset": true,
+                  "magicwand": true,
+                  "stelectro": true
+                },
+                "minecraft:custom_model_data": 634
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "sauvojen_wand_electro",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "stelectro_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "sauvojen_wand_electro.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_electro.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_electro.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_electro.lore.4",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_electro.lore.5",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stair": true
+                },
+                "minecraft:custom_model_data": 635
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "sauvojen_wand_air",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "stair_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "sauvojen_wand_air.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_air.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_air.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_air.lore.4",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "lbc:stacid_wand"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stteleport": true
+                },
+                "minecraft:custom_model_data": 637
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "sauvojen_wand_teleport",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "stteleport_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "sauvojen_wand_teleport.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_teleport.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_teleport.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_teleport.lore.4",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "lbc:sauvojen_tuntija_ananta"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "lbc:sauvojen_tuntija_fotja"
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "stblind": true
+                },
+                "minecraft:custom_model_data": 640
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "sauvojen_wand_blind",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "staff",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                [
+                  {
+                    "score": {
+                      "name": "stblind_wand_mana_use",
+                      "objective": "lbc.math"
+                    },
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "mana_on_activate",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "sauvojen_wand_blind.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_blind.lore.2",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_blind.lore.3",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "sauvojen_wand_blind.lore.4",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

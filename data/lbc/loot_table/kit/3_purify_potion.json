@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:purifypotion_1"
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:milk_bucket"
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "tag": "{Potion:\"minecraft:strong_healing\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

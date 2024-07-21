@@ -1,0 +1,2 @@
+execute at @e[type=#mobs,tag=!spectator,limit=16,sort=random] run summon marker ~-20 ~ ~ {Tags:["slowraycast","raycastruby","tuntija","can_deleted","magic"],data:{lifetime:50},Rotation:[270F,0F]}
+schedule function lbc:other/everythingend/40 10t

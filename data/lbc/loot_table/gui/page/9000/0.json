@@ -1,0 +1,43 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "tag": "{"minecraft:custom_model_data":558}"
+              },
+              {
+                "function": "minecraft:copy_components",
+                "source": {
+                  "type": "minecraft:storage",
+                  "source": "swrg:lang"
+                },
+                "ops": [
+                  {
+                    "source": "lore.lbckit.0",
+                    "target": "display{}",
+                    "op": "merge"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "components": {lbckit.0",
+                  "storage": "swrg:lang",
+                  "interpret": true
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

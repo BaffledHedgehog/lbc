@@ -1,0 +1,3 @@
+playsound entity.wither.spawn master @a ~ ~ ~ 1 1 0.5
+particle campfire_cosy_smoke ~ ~10 ~ 1 10 1 0 1000 normal
+summon ghast ~ ~20 ~ {DeathLootTable:"lbc:sauvojen_tuntija",PersistenceRequired:1b,Health:100024f,ExplosionPower:3,Tags:["sauvojen_tuntija","rcdenyalways"],CustomName:'{"text":"Sauvojen Tuntija","color":"blue","bold":true,"italic":false}',Attributes:[{Name:"generic.max_health",Base:100024d},{Name:"generic.follow_range",Base:256},{Name:"generic.knockback_resistance",Base:256}]}

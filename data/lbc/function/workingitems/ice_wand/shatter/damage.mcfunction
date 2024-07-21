@@ -1,0 +1,1 @@
+$damage @s $(tmp3) arrow by @a[limit=1,tag=shatter]

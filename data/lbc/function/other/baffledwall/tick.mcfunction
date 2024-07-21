@@ -1,0 +1,1 @@
+execute facing entity @e[type=#mobs,tag=!baffled_wall,limit=1,distance=..10,tag=!spectator] eyes run function lbc:other/baffledwall/tick_rc

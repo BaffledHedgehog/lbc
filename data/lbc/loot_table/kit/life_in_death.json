@@ -1,0 +1,67 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "tag": "{custom_potion_effects:[{id:\"minecraft:instant_health\",amplifier:4b}],CustomPotionColor:16739179}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "item.minecraft.splash_potion.effect.healing",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "tag": "{custom_potion_effects:[{id:\"minecraft:instant_damage\",amplifier:2b}],CustomPotionColor:2362123}"
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "item.minecraft.splash_potion.effect.harming",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "tag": "{Potion:\"minecraft:strong_harming\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

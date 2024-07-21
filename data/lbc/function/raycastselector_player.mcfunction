@@ -1,0 +1,34 @@
+execute if entity @s[tag=raycastmolnia] run function lbcr:raycast_molnia
+execute if entity @s[tag=raycastmolnia_phantom] run function lbcr:raycast_molnia_phantom
+execute if entity @s[tag=raycastacid] run function lbcr:raycast_acid
+execute if entity @s[tag=raycastacidbig] run function lbcr:raycast_acidbig
+execute if entity @s[tag=raycastarrow] run function lbcr:raycast_arrow
+execute if entity @s[tag=raycastterra] run function lbcr:raycast_terra
+execute if entity @s[tag=void_curse] run function lbc:raycast/voidcurse
+execute if entity @s[tag=prism] run function lbcr:raycast_loop7
+execute if entity @s[tag=pieceofshit] run function lbcr:raycast_gavno
+execute if entity @s[tag=pieceofshit_mega] run function lbcr:raycast_gavno_mega
+execute if entity @s[tag=slowparticlesexplode] run function lbc:workingitems/exopersoexplodeparticles
+execute if entity @s[tag=slowparticlesexplode_2] run function lbc:workingitems/exopersoexplodeparticles_2
+execute if entity @s[tag=exoperso] at @a[gamemode=!spectator] if score @p[gamemode=!spectator] lbcID2 = @s lbcID2 at @s run function lbc:workingitems/exoperso2
+execute if entity @s[tag=exoperso_upg] at @a[gamemode=!spectator] if score @p[gamemode=!spectator] lbcID2 = @s lbcID2 at @s run function lbc:workingitems/exoperso2_upg
+execute if entity @s[tag=raycasttnt] run function lbcr:raycast_tnt
+execute if entity @s[tag=raycasttnt_fast] run function lbcr:raycast_tnt_fast
+execute if entity @s[tag=raycasttnt_homing] run function lbcr:raycast_tnt_homing
+execute if entity @s[tag=raycastblindwand] run function lbcr:raycast_blindwand
+execute if entity @s[tag=raycastblindwand_phantom] run function lbcr:raycast_blindwand_phantom
+execute if entity @s[tag=raycaststonewand] run function lbcr:raycast_stone_wand
+execute if entity @s[tag=raycastteleportwand] run function lbcr:raycast_teleport_wand
+execute if entity @s[tag=raycastteleportwand_fast] run function lbcr:raycast_teleport_wand_fast
+execute if entity @s[tag=raycastteleportwand_inverted] run function lbcr:raycast_teleport_wand_inverted
+execute if entity @s[tag=star_charge] run function lbc:items/swords/fevgalea_star/star_charge_select
+execute if entity @s[tag=star_rain] run function lbc:items/swords/fevgalea_star/star_rain_tick
+execute if entity @s[tag=star_raindrop] run function lbc:items/swords/fevgalea_star/star_raindrop_tick
+execute if entity @s[tag=banhammer3d] run function lbc:items/swords/banhammer/tick_fall
+execute if entity @s[tag=oraora_fireball] run function lbc:items/oraora/projectile_tick
+execute if entity @s[tag=danmaku] run function lbc:items/wands/danmaku_staff/projectile_tick
+execute if entity @s[tag=danmaku_bomb] run function lbc:items/wands/danmaku_staff/bomb_tick
+execute if entity @s[tag=thromn_sword] run function lbc:items/swords/triple_golden_sword/tick
+execute if entity @s[tag=triplesword_portal] run function lbc:other/grimoire_dungeon/mobs/golden_skeleton/portal_tick
+execute if entity @s[tag=nano_trapik] run function lbc:swrg_kit_integration/items/nanotrapik_tick
+execute if entity @s[tag=govno_poprigun] run function lbc:swrg_kit_integration/items/govno_poprigun

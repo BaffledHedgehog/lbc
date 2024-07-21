@@ -1,0 +1,2 @@
+item replace entity @s weapon.mainhand with cooked_beef{display:{Name:'{"translate":"infinite_steak","color":"white","italic":false}',Lore:['{"translate":"infinite_steak.lore","color":"white","italic":false}']},"inf": true} 1
+advancement revoke @s only lbc:stewused

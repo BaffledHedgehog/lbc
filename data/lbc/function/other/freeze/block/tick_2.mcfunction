@@ -1,0 +1,1 @@
+$function lbc:other/freeze/block/tick_3 with storage $(uuid) freeze

@@ -1,0 +1,1 @@
+execute as @a[tag=caster,limit=1] facing ~ ~.1 ~ run function lbcr:raycast_preloop11

@@ -1,0 +1,9 @@
+particle block_marker lava ~ ~-3 ~ 20 5 15 0 15 force
+particle block_marker lava ~ ~15 ~ 3 10 3 0 20 force
+particle block_marker lava ~ ~35 ~ 13 8 13 0 20 force
+particle block_marker fire ~ ~-3 ~ 20 5 15 0 15 force
+particle block_marker fire ~ ~15 ~ 3 10 3 0 20 force
+particle block_marker fire ~ ~35 ~ 13 8 13 0 20 force
+particle block_marker magma_block ~ ~-3 ~ 15 5 15 0 20 force
+particle block_marker magma_block ~ ~15 ~ 3 10 3 0 20 force
+particle block_marker magma_block ~ ~35 ~ 13 8 13 0 20 force

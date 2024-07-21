@@ -1,0 +1,1 @@
+execute positioned ~-30 ~-30 ~-30 at @e[type=#mobs,limit=5,sort=random,dx=60,dy=35,dz=60,tag=!spectator,nbt=!{Inventory:[{components:{vexsword:1b}}]}] run function lbc:other/phantomarrows/select

@@ -1,0 +1,1 @@
+$attribute @s generic.armor_toughness base set $(tmp)

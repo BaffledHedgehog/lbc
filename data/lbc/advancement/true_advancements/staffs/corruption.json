@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 542
+            }
+        },
+        "title": {
+            "translate": "lbc.adv.staff.corruption"
+        },
+        "description": {
+            "translate": "lbc.adv.staff.corruption.lore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/staffs/bass",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id":"minecraft:marker",
+                                    "Tags": [
+                                        "corrupted_dust"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/skill_acidman"
+    }
+}

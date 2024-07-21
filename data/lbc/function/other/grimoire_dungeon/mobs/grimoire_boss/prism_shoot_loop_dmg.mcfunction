@@ -1,0 +1,2 @@
+damage @e[type=#mobs,limit=1,distance=..8,dx=0,dy=0,dz=0,tag=!spectator,tag=!dungeon_mob,tag=!hit] 7 arrow by @s
+tag @e[type=#mobs,limit=1,distance=..8,dx=0,dy=0,dz=0,tag=!spectator,tag=!dungeon_mob,tag=!hit] add hit

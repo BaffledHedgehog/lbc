@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:repeating_command_block",
+            "components": {"minecraft:custom_model_data":638}
+        },
+        "title": {
+            "translate": "lbc.adv.potion.effect_all_seeing_eye"
+        },
+        "description": {
+            "translate": "lbc.adv.potion.effect_all_seeing_eye.lore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/potions/effect_living_legend",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {"minecraft:custom_model_data":649}
+        },
+        "title": {
+            "translate": "lbc.adv.legends.witch_gens"
+        },
+        "description": {
+            "translate": "lbc.adv.legends.witch_gens.lore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/legends/trollge_all_masks",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

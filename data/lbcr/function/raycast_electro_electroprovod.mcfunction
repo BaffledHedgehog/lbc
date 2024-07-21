@@ -1,0 +1,2 @@
+execute if entity @s[tag=check] run function lbcr:raycast_electro_electroprovod_check_upgrade
+execute as @e[distance=..10,type=#mobs,tag=!spectator,tag=!rcdenyalways] at @s run function lbcr:raycast_electro_electroprovod_damage

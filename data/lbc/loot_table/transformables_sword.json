@@ -1,0 +1,963 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_sword",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,"randchanted": true}"
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"sword": true,hylian:1b,"minecraft:custom_model_data":501}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "hylian_sword",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "hylian_sword.lore",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"transformable": true,"sword": true,slimeball:1b,Enchantments:[{id:\"minecraft:knockback\",lvl:3s}]}"
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,HideFlags:2,"minecraft:custom_model_data":522,"heal": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0,Operation:0,UUID:[I;1164976631,2137670136,-1953277444,1089176931],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "devil_sword",
+                  "color": "dark_red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "devil_sword.lore.1",
+                  "italic": false,
+                  "color": "red"
+                },
+                {
+                  "translate": "devil_sword.lore.2",
+                  "italic": false,
+                  "color": "red"
+                },
+                {
+                  "translate": "devil_sword.lore.3",
+                  "italic": false,
+                  "color": "red"
+                },
+                {
+                  "translate": "devil_sword.lore.4",
+                  "italic": false,
+                  "color": "red"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":532,"vampire": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;1532279585,286738676,-1517884619,336894893],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "vampire_fang",
+                  "color": "dark_red",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "vampire_fang.lore.1",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "vampire_fang.lore.2",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 8,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":531,Unbreakable:1b,cool:1b}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "epic_sword",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "epic_sword.lore",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:wooden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":521,"feeding": true}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "steak_sword",
+                  "color": "#780000",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "steak_sword.lore",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 9,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":500,"ender": true}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "ender_sword",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "ender_sword.lore.1",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "translate": "ender_sword.lore.2",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 9,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,gravitationsword:1b,"minecraft:custom_model_data":561}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "gravity_sword",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "gravity_sword.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "gravity_sword.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,seaguardian:1b,"minecraft:custom_model_data":560}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "guardian_sword",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "guardian_sword.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "guardian_sword.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 7,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,icesword:1b,"minecraft:custom_model_data":571}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "ice_sword",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "ice_sword.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "ice_sword.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,evolution:1b,"minecraft:custom_model_data":581,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:generic.attack_damage,Amount:1,Operation:0,UUID:[I;1400410762,20860599,-1924598641,-937956934],Slot:mainhand}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "evolution_sword",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "evolution_sword.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "evolution_sword.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"craftusable": true,"transformable": true,"sword": true,"minecraft:custom_model_data":587,cyberkatana:1,"magicwand": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "cyberkatana",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "on_damage",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "cyberkatana.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "RCability",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "cyberkatana.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "6 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_damage"
+                  }
+                ],
+                [
+                  {
+                    "text": "1.6 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_speed",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "cyberkatana.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"craftusable": true,"transformable": true,"sword": true,"minecraft:custom_model_data":588,terrasword:1,"raycastspell": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "terra_sword",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "on_damage",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "terra_sword.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "RCability",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "terra_sword.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "razorpine.lore.1",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "8 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_damage"
+                  }
+                ],
+                [
+                  {
+                    "text": "1.6 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_speed",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "quality": 8,
+          "value": "lbc:fragmentsword"
+        },
+        {
+          "type": "loot_table",
+          "weight": 10,
+          "value": "lbc:metal_pipe"
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":710,anal_whip:1b,"magicwand": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "anal_whip",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "anal_whip.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "anal_whip.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "7 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_damage"
+                  }
+                ],
+                [
+                  {
+                    "text": "1.5 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_speed",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":722,piston_sword:1b,"magicwand": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "piston_sword",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "sword",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "piston_sword.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "piston_sword.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "8 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_damage"
+                  }
+                ],
+                [
+                  {
+                    "text": "1.5 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_speed",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "quality": 10,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "arcanum": true,
+                                    "arcanumt": true,
+                                    "neutral_ball": true
+                                },
+                                "minecraft:custom_model_data": 709,
+                                "minecraft:unbreakable": {}
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "neutral_ball",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "arcanum",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "score": {
+                                            "name": "neutral_ball_mana_activate",
+                                            "objective": "lbc.math"
+                                        },
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "mana_on_activate",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "neutral_ball.lore.1",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "neutral_ball.lore.2",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "neutral_ball.lore.3",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "neutral_ball.lore.4",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "neutral_ball.lore.5",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "neutral_ball.lore.6",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "neutral_ball.lore.7",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

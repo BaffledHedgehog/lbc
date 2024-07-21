@@ -1,0 +1,1 @@
+execute unless entity @s[scores={void_resistance=1..}] run damage @s 2 outside_border

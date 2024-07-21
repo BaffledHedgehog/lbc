@@ -1,0 +1,40 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "name": "generic.armor",
+                "amount": {
+                    "type": "minecraft:constant",
+                    "value": 6
+                },
+                "operation": "add_value",
+                "id": "e6f36f87-7802-411f-8688-056321a5f6a7",
+                "slot": "legs"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "name": "generic.armor_toughness",
+                "amount": {
+                    "type": "minecraft:constant",
+                    "value": 3
+                },
+                "operation": "add_value",
+                "id": "0a582477-1e0b-425a-9241-fd7533f45c0c",
+                "slot": "legs"
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "name": "generic.knockback_resistance",
+                "amount": {
+                    "type": "minecraft:constant",
+                    "value": 0.1
+                },
+                "operation": "add_value",
+                "id": "5c9aac50-4321-452d-9adb-f3d901bdde2f",
+                "slot": "legs"
+            }
+        ]
+    }
+]

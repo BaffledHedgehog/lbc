@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {"minecraft:custom_model_data":666}
+        },
+        "title": {
+            "translate": "lbc.adv.tuntija.boltbolt"
+        },
+        "description": {
+            "translate": "lbc.adv.tuntija.boltbolt.lore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/legends/tuntija_wands/teleport",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                              "transformable": true,
+                              "staff": true,
+                              "boltbolt_wand": true
+                            }
+                          }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+execute if entity @e[type=#mobs,tag=!caster,tag=!spectator,limit=1,distance=..10,nbt={active_effects:[{id:"minecraft:weakness"},{id:"minecraft:slowness"},{id:"minecraft:blindness"},{id:"minecraft:mining_fatigue"}]}] run function lbc:other/magic_academy/can_upgrade

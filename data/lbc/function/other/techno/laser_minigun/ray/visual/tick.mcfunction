@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=done,tag=laser_ray] at @s unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/techno/laser_minigun/ray/visual/run

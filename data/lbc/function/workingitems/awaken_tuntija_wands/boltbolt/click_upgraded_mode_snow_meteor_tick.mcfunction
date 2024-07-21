@@ -1,0 +1,2 @@
+execute if entity @s[tag=active] run function lbc:workingitems/awaken_tuntija_wands/boltbolt/click_upgraded_mode_snow_meteor_tick_2
+execute if entity @s[tag=!active] run function lbc:workingitems/awaken_tuntija_wands/boltbolt/click_upgraded_mode_snow_meteor_first

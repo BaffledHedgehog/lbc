@@ -1,0 +1,4 @@
+tp @s ^ ^ ^1
+execute if entity @e[type=#mobs,tag=!helicopter_boss_hitbox,distance=..50,limit=1,tag=!spectator] if predicate lbc:chance1 run function lbc:drops/helicopter_boss/phase_1_to_3
+execute if entity @e[type=#mobs,tag=!helicopter_boss_hitbox,distance=..100,limit=1,tag=!spectator] facing entity @e[type=#mobs,tag=!helicopter_boss_hitbox,distance=..100,limit=1,tag=!spectator,sort=nearest] eyes positioned ^ ^ ^8 run function lbc:drops/helicopter_boss/shoot
+execute unless entity @e[type=#mobs,tag=!helicopter_boss_hitbox,distance=..100,limit=1,tag=!spectator] run function lbc:drops/helicopter_boss/phase_1_to_2

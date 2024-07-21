@@ -1,0 +1,686 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "lbc:end_of_everything"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 5,
+                  "minecraft:smite": 5,
+                  "minecraft:bane_of_arthropods": 5,
+                  "minecraft:efficiency": 255,
+                  "minecraft:fortune": 3
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_axe",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:efficiency": 255,
+                  "minecraft:fortune": 30
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_hoe",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:protection": 4,
+                  "minecraft:fire_protection": 4,
+                  "minecraft:feather_falling": 4,
+                  "minecraft:blast_protection": 4,
+                  "minecraft:projectile_protection": 4,
+                  "minecraft:thorns": 3,
+                  "minecraft:depth_strider": 3,
+                  "minecraft:frost_walker": 2,
+                  "minecraft:soul_speed": 3
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.knockback_resistance",
+                    "slot": "feet",
+                    "id": "aimbob_boots",
+                    "amount": 1000,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_boots",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 5,
+                  "minecraft:smite": 5,
+                  "minecraft:bane_of_arthropods": 5,
+                  "minecraft:knockback": 2,
+                  "minecraft:fire_aspect": 2,
+                  "minecraft:looting": 3,
+                  "minecraft:sweeping_edge": 3
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.attack_speed",
+                    "slot": "mainhand",
+                    "id": "aimbob_sword",
+                    "amount": 1000,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "mainhand",
+                    "id": "aimbob_sword1",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_sword",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:protection": 4,
+                  "minecraft:fire_protection": 4,
+                  "minecraft:blast_protection": 4,
+                  "minecraft:projectile_protection": 4,
+                  "minecraft:respiration": 3,
+                  "minecraft:aqua_affinity": 1,
+                  "minecraft:thorns": 3
+                },
+                "minecraft:custom_data": {
+                  "night_vision": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_helmet",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:efficiency": 255,
+                  "minecraft:fortune": 3
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_shovel",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:efficiency": 255,
+                  "minecraft:fortune": 10
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_pickaxe",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:protection": 4,
+                  "minecraft:fire_protection": 4,
+                  "minecraft:blast_protection": 4,
+                  "minecraft:projectile_protection": 4,
+                  "minecraft:thorns": 3
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.movement_speed",
+                    "slot": "legs",
+                    "id": "aimbob_legs",
+                    "amount": 1,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_leggings",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:protection": 4,
+                  "minecraft:fire_protection": 4,
+                  "minecraft:blast_protection": 4,
+                  "minecraft:projectile_protection": 4,
+                  "minecraft:thorns": 3
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.max_health",
+                    "slot": "chest",
+                    "id": "aimbob_chest",
+                    "amount": 20,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_chestplate",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:power": 5,
+                  "minecraft:punch": 2,
+                  "minecraft:flame": 1,
+                  "minecraft:infinity": 1
+                },
+                "minecraft:custom_data": {
+                  "glowingmobs": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_bow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:multishot": 1,
+                  "minecraft:piercing": 5,
+                  "minecraft:quick_charge": 5
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_crossbow",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:sharpness": 5,
+                  "minecraft:smite": 5,
+                  "minecraft:bane_of_arthropods": 5,
+                  "minecraft:knockback": 2,
+                  "minecraft:fire_aspect": 2,
+                  "minecraft:sweeping_edge": 3,
+                  "minecraft:riptide": 15
+                },
+                "minecraft:custom_data": {
+                  "slow_falling": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_trident",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:knockback": 10
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.knockback_resistance",
+                    "slot": "offhand",
+                    "id": "aimbob_shield",
+                    "amount": 1,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.knockback_resistance",
+                    "slot": "mainhand",
+                    "id": "aimbob_shield1",
+                    "amount": 1,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "mainhand",
+                    "id": "aimbob_shield5",
+                    "amount": 10,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "offhand",
+                    "id": "aimbob_shield2",
+                    "amount": 10,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "mainhand",
+                    "id": "aimbob_shield3",
+                    "amount": 10,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "offhand",
+                    "id": "aimbob_shield4",
+                    "amount": 10,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_shield",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:flint_and_steel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:fire_aspect": 255
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_flint",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:luck_of_the_sea": 5,
+                  "minecraft:lure": 5
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.luck",
+                    "slot": "mainhand",
+                    "id": "aimbob_rod",
+                    "amount": 3,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.luck",
+                    "slot": "offhand",
+                    "id": "aimbob_rod1",
+                    "amount": 3,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_rod",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:efficiency": 255
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "mainhand",
+                    "id": "aimbob_shears",
+                    "amount": 6,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_speed",
+                    "slot": "mainhand",
+                    "id": "aimbob_shears1",
+                    "amount": 32767,
+                    "operation": "add_value"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_shears",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 580,
+                "minecraft:custom_data": {
+                  "aimbobapple": true
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "aimbob_apple",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+execute if score @s fevgalea_charge matches ..6 if score @s mana matches 5000.. if predicate lbc:sneak run function lbc:items/swords/fevgalea_star/click_uncharged_shift
+execute if score @s fevgalea_charge matches ..0 if score @s mana matches 1000.. unless predicate lbc:sneak run function lbc:items/swords/fevgalea_star/click_uncharged
+execute if score @s fevgalea_charge matches 7.. if predicate lbc:sneak run function lbc:items/swords/fevgalea_star/click_charged_shift
+execute if score @s fevgalea_charge matches 1.. unless predicate lbc:sneak run function lbc:items/swords/fevgalea_star/click_charged

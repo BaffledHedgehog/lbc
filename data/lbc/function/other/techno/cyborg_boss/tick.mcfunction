@@ -1,0 +1,1 @@
+execute as @e[type=skeleton,tag=cyborg_boss] at @s run function lbc:other/techno/cyborg_boss/run

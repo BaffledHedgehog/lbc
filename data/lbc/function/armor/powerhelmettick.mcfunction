@@ -1,0 +1,2 @@
+execute at @e[type=#mobs,type=!player] run particle minecraft:entity_effect ~ ~ ~ 0 0.007 0 1 0 force @s
+execute at @a[gamemode=!spectator,distance=0.01..] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run particle minecraft:entity_effect ~ ~ ~ 0 0.01 0 1 0 force @s

@@ -1,0 +1,1 @@
+effect give @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"heall_old": true}}]}] regeneration 1 2 true

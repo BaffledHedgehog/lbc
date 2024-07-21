@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=supply_drop,tag=new] at @s run function lbc:other/techno/supply_crate/run

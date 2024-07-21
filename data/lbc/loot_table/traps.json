@@ -1,0 +1,873 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"explode":true,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_tnt",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{korrosion:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_corrosion",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{creepers:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_creepers",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{yama:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_hole",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"lookupanvil":true,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_anvil",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"lookuplava":true,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_lava",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{bob:1,"drop":true,"minecraft:custom_model_data":658}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_bob",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{skeleton:1,"drop":true,"minecraft:custom_model_data":658}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_fat",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{vex:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_vex",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"obsidiantrap": true,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_obsidian",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{badspawner:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_potions",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{droppertnt:1,"drop":true,"minecraft:custom_model_data":658}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_hohol",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{"bullets": true,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_shulker",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{skrimmer:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_screamer",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{slab:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_slab",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{clone:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_clone",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{evilluckyblock:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_lucky_blocks",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{lookupfireball:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_fireball",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{lookuppotions:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_potion",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{zombietnt:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_tnt_zombies",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{aimbob:1,"drop":true,"minecraft:custom_model_data":658}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_aimbob",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{sauvojen_tuntija:1,"drop":true,"minecraft:custom_model_data":658}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_sauvojen_tuntija",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{forest:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_shish",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 10,
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "tag": "{ultraponos:1,"drop":true,"minecraft:custom_model_data":656}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "trap_ponos",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore","mode":"replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
