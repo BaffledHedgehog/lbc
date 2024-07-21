@@ -1,4 +1,4 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.tag.mode 1
+execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
 execute if score #mode lbc.math matches 1 run effect give @e[distance=0.01..25,tag=!spectator] weakness 8 0 true
 execute if score #mode lbc.math matches 2 run effect give @e[distance=0.01..25,tag=!spectator] slowness 12 3 true
 execute if score #mode lbc.math matches 3 run effect give @a[distance=0.01..25,gamemode=!spectator] blindness 8 0 true

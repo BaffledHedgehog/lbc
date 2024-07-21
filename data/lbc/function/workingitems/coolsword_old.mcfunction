@@ -1,6 +1,6 @@
 execute store result score #random17 lbc.math run random value 1..17
 execute if score #random17 lbc.math matches 1 run effect give @s resistance 5 1
-execute if score #random17 lbc.math matches 1 run particle minecraft:block iron_block ~ ~1 ~ 0.3 1 0.3 0 45 force
+execute if score #random17 lbc.math matches 1 run particle minecraft:block{block_state:{Name:"iron_block"}} ~ ~1 ~ 0.3 1 0.3 0 45 force
 execute if score #random17 lbc.math matches 1 run playsound minecraft:block.anvil.break master @a[distance=..20] ~ ~ ~ 10 1
 
 execute if score #random17 lbc.math matches 2 run effect give @s regeneration 1 99

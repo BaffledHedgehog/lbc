@@ -6,8 +6,7 @@ execute if entity @e[type=spectral_arrow,distance=..3,limit=1,tag=doublearrow] r
 # Set those 2 arrows Motion from first arrow
 execute as @e[type=#arrows,tag=doubel,limit=2,distance=..3,tag=!active] run data modify entity @s Owner set from entity @p[gamemode=!spectator,scores={bow=1..}] UUID
 execute as @e[type=#arrows,tag=doubel,limit=2,distance=..3,tag=!active] run data modify entity @s Motion set from entity @e[type=#arrows,distance=..3,limit=1,tag=doublearrow] Motion
-execute as @e[type=#arrows,tag=doubel,limit=2,distance=..3,tag=!active] run data modify entity @s Color set from entity @e[type=#arrows,distance=..3,limit=1,tag=doublearrow] Color
-execute as @e[type=#arrows,tag=doubel,limit=2,distance=..3,tag=!active] run data modify entity @s custom_potion_effects set from entity @e[type=#arrows,distance=..3,limit=1,tag=doublearrow] custom_potion_effects
+execute as @e[type=#arrows,tag=doubel,limit=2,distance=..3,tag=!active] run data modify entity @s item set from entity @e[type=#arrows,distance=..3,limit=1,tag=doublearrow] item
 execute as @e[type=#arrows,tag=doubel,limit=2,distance=..3,tag=!active] run data modify entity @s damage set from entity @e[type=#arrows,distance=..3,limit=1,tag=doublearrow] damage
 scoreboard players operation @e[type=#arrows,tag=doubel,limit=2,distance=..3,tag=!active] lbcID2 = @s lbcID2
 tag @e[type=#arrows,tag=doubel,limit=2,distance=..3,tag=!active] add active
