@@ -24,10 +24,17 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{"randchanted": true,"transformable": true,"chestplate": true}"
+              "components": {
+                "minecraft:custom_data": {
+                  "randchanted": true,
+                  "transformable": true,
+                  "chestplate": true
+                }
+              }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -55,7 +62,29 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{"multiplying": true,"transformable": true,"chestplate": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:1,UUID:[I;-1140115134,2071022239,-1571434570,1810946798],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:1,UUID:[I;1513991244,-2014493379,-1542381898,-1914562855],Slot:\"chest\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "multiplying": true,
+                  "transformable": true,
+                  "chestplate": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "gh6bhnumy7ktgdrgtor",
+                    "amount": 4,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "chest",
+                    "id": "genemy7okimuktfcetgness",
+                    "amount": 4,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -67,7 +96,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -91,7 +121,45 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,display:{color:1},"minecraft:custom_model_data":1,HideFlags:64,"dynamite": true,Enchantments:[{id:\"minecraft:blast_protection\",lvl:255s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:15,Operation:0,UUID:[I;-1197286063,-966703212,-1627823476,-1865853662],Slot:\"chest\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:15,Operation:0,UUID:[I;-449625010,-1999550901,-1962659761,-2125256788],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:15,Operation:0,UUID:[I;-1975236396,-68727136,-1444759454,504708504],Slot:\"chest\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "dynamite": true
+                },
+                "minecraft:custom_model_data": 1,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:blast_protection": 255
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 1,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "gendybnjmynjfhgor",
+                    "amount": 15,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.knockback_resistance",
+                    "slot": "chest",
+                    "id": "genejyumkcdghfnce",
+                    "amount": 15,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "chest",
+                    "id": "htuhnykiyfgthxdfghness",
+                    "amount": 15,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -104,7 +172,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -133,7 +202,56 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,"berserk": true,display:{color:513},"minecraft:custom_model_data":5,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:-8,Operation:0,UUID:[I;-94924628,50346755,-147345731,-152792944],Slot:\"chest\"},{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-45669965,-19427555,-133845364,159932994],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-4,Operation:0,UUID:[I;73332343,37089897,-200000750,113912764],Slot:\"chest\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.15,Operation:1,UUID:[I;-48562058,117763642,-186024244,-155842167],Slot:\"chest\"},{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;885720,-8268395,-126737,-1370918],Slot:\"chest\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "berserk": true
+                },
+                "minecraft:custom_model_data": 5,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 513,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "daerischandgrfegbfg",
+                    "amount": -8,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "chest",
+                    "id": "gerrrrrrrrrrrrrrrmage",
+                    "amount": 5,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "chest",
+                    "id": "gerty7ydrtuyhftghuughness",
+                    "amount": -4,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_speed",
+                    "slot": "chest",
+                    "id": "geunr7ijyxcdtghfdtyued",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.movement_speed",
+                    "slot": "chest",
+                    "id": "gen6nuyuxcdtfhed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -144,7 +262,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -182,7 +301,30 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"minecraft:custom_model_data":4,"transformable": true,"chestplate": true,HideFlags:68,display:{color:256},"chaoschestplate": true,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:generic.armor,Amount:5,Operation:0,UUID:[I;-738177,140209701,-162343953,-30940581],Slot:chest}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "chaoschestplate": true
+                },
+                "minecraft:custom_model_data": 4,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 256,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "gjbnyhdfthgffiugnujghor",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -195,7 +337,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -245,7 +388,27 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"transformable": true,"chestplate": true,display:{color:3},"minecraft:custom_model_data":3,HideFlags:68,Unbreakable:1b,"mage": true,Enchantments:[{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:blast_protection\",lvl:5s},{id:\"minecraft:projectile_protection\",lvl:5s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "chestplate": true,
+                  "mage": true
+                },
+                "minecraft:custom_model_data": 3,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantments": {
+                  "minecraft:fire_protection": 5,
+                  "minecraft:blast_protection": 5,
+                  "minecraft:projectile_protection": 5
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 3,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -257,7 +420,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -310,7 +474,21 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"govnoq": true,"transformable": true,"chestplate": true,display:{color:258},"minecraft:custom_model_data":9,HideFlags:64,"gownoleggings": true,Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "govnoq": true,
+                  "transformable": true,
+                  "chestplate": true,
+                  "gownoleggings": true
+                },
+                "minecraft:custom_model_data": 9,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 258,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -321,7 +499,8 @@
               }
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -369,7 +548,30 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,Unbreakable:1b,HideFlags:68,"shulkshell": true,display:{color:259},"minecraft:custom_model_data":7,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;1231263,-127663,-129636,236127],Slot:\"chest\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "shulkshell": true
+                },
+                "minecraft:custom_model_data": 7,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 259,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "gfhstghbntjyghxzwergdfr",
+                    "amount": 8,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -382,7 +584,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -455,7 +658,31 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"transformable": true,display:{color:512},"minecraft:custom_model_data":8,"chestplate": true,HideFlags:68,Unbreakable:1b,"reactive":true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1654863489,274138968,-11414694,4934096],Slot:\"chest\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "reactive": true,
+                  "chestplate": true
+                },
+                "minecraft:custom_model_data": 8,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 512,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "ghbffyjygnfjgcegxfghgr",
+                    "amount": 6,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -468,7 +695,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -517,7 +745,31 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"transformable": true,"chestplate": true,display:{color:2},"minecraft:custom_model_data":2,HideFlags:68,Unbreakable:1b,"techno": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1657863489,275138968,-1143174694,493305796],Slot:\"chest\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "chestplate": true,
+                  "techno": true
+                },
+                "minecraft:custom_model_data": 2,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 2,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "genhfdtbhfjyhjmjjjj",
+                    "amount": 6,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -528,7 +780,8 @@
               }
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -595,7 +848,19 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,display:{color:257},"minecraft:custom_model_data":6,HideFlags:64,"jumpboost": true,Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "jumpboost": true
+                },
+                "minecraft:custom_model_data": 6,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 257,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -608,7 +873,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -647,7 +913,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,"assasin": true,display:{color:515},"minecraft:custom_model_data":11,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "assasin": true
+                },
+                "minecraft:custom_model_data": 11,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 515,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "ghgfhnyjyjnujumujor",
+                    "amount": 4,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -658,7 +945,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -703,7 +991,46 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,"paladin": true,display:{color:4},"minecraft:custom_model_data":10,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:15,Operation:0,UUID:[I;4946328,506505,-1145731,-15944],Slot:\"chest\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:15,Operation:0,UUID:[I;5563928,3466905,-139357,5279929],Slot:chest},{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:-0.3,Operation:1,UUID:[I;15563281,5466051,-11113337,52719296],Slot:chest}],Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:3s},{id:\"minecraft:blast_protection\",lvl:255s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "paladin": true
+                },
+                "minecraft:custom_model_data": 10,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:protection": 3,
+                  "minecraft:blast_protection": 255
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 4,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "ghdfhxcdfgxhgfdhor",
+                    "amount": 15,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "chest",
+                    "id": "genehbfhnfnjghfjss",
+                    "amount": 15,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.max_health",
+                    "slot": "chest",
+                    "id": "sdzfgfgdsfgngth",
+                    "amount": -0.3,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -714,7 +1041,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -752,7 +1080,29 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"transformable": true,"chestplate": true,"phantom": true,display:{color:514},"minecraft:custom_model_data":12,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "chestplate": true,
+                  "phantom": true
+                },
+                "minecraft:custom_model_data": 12,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 514,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "gjgmnhjffxhggfgfffmor",
+                    "amount": 6,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -763,7 +1113,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -819,7 +1170,31 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,"erosion":true,display:{color:8},"minecraft:custom_model_data":23,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:255}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "erosion": true
+                },
+                "minecraft:custom_model_data": 23,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:protection": 255
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 8,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "gfgdfshtnhgjghj",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -830,7 +1205,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -861,7 +1237,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,"flesh": true,display:{color:264},"minecraft:custom_model_data":21,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "flesh": true
+                },
+                "minecraft:custom_model_data": 21,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 264,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.max_health",
+                    "slot": "chest",
+                    "id": "ihycgjnmygfhjxefgflth",
+                    "amount": 10,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -872,7 +1269,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -901,7 +1299,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,"nanobots": true,display:{color:514},"minecraft:custom_model_data":22,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:0,Operation:0,UUID:[I;-149246328,503767505,-1147345731,-1521119424],Slot:\"chest\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "nanobots": true
+                },
+                "minecraft:custom_model_data": 22,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 514,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "chest",
+                    "id": "fgnmhwzdfgvdsfghntyuhgor",
+                    "amount": 0,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -912,7 +1331,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -951,7 +1371,19 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"chestplate": true,"glass": true,display:{color:520},"minecraft:custom_model_data":20,HideFlags:64,Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chestplate": true,
+                  "glass": true
+                },
+                "minecraft:custom_model_data": 20,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 520,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -962,7 +1394,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -993,7 +1426,6 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:generic.armor",
-                  "name": "generic.armor",
                   "amount": 40,
                   "operation": "add_value",
                   "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
@@ -1001,7 +1433,6 @@
                 },
                 {
                   "attribute": "minecraft:generic.armor_toughness",
-                  "name": "generic.armor_toughness",
                   "amount": 40,
                   "operation": "add_value",
                   "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
@@ -1012,8 +1443,8 @@
           ]
         },
         {
-          "type":"loot_table",
-          "name":"lbc:neko_set_overload/chestplate"
+          "type": "loot_table",
+          "name": "lbc:neko_set_overload/chestplate"
         }
       ]
     }
