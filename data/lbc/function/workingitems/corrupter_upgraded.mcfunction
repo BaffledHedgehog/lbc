@@ -1,4 +1,4 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.tag.mode 1
+execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
 execute if score #mode lbc.math matches 1 run effect give @e[type=!#unholy_monsters,distance=0.01..15,tag=!spectator] poison 10 0 true
 execute if score #mode lbc.math matches 1 run effect give @e[type=#unholy_monsters,distance=0.01..15] wither 10 1 true
 execute if score #mode lbc.math matches 2 run effect give @e[distance=0.01..15,tag=!spectator] wither 7 1 true
