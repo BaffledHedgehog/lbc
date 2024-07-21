@@ -1,6 +1,6 @@
 # Teleporter
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"teleport1": true} unless entity @e[type=marker,limit=1,tag=stopper,distance=..24] run function lbc:projectiles/gadgets/teleport
-execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{teleport1_imba:1b} unless entity @e[type=marker,limit=1,tag=stopper,distance=..24] run function lbc:projectiles/gadgets/teleport_imba
+execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"teleport1_imba": true} unless entity @e[type=marker,limit=1,tag=stopper,distance=..24] run function lbc:projectiles/gadgets/teleport_imba
 
 # Island Teleporter
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"islandtp": true} unless entity @e[type=marker,limit=1,tag=stopper,distance=..24] run function lbc:projectiles/gadgets/islandteleporter
@@ -27,7 +27,7 @@ execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"gayradar
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"bucks": true} run function lbc:other/bucks/rc
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"libspell": true} run function lbc:items/libspells/select
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{win_button:1b} run function lbc:items/win/win
-execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{most_imba:1b} run function lbc:other/imba/most_spawn
+execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"most_imba": true} run function lbc:other/imba/most_spawn
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{govno_raskid:1b} run function lbc:swrg_kit_integration/items/govno_raskid
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{steampunk_rocket:1b} run function lbc:swrg_kit_integration/items/steampunk_rocket
 # remove egg

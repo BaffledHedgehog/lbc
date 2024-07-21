@@ -28,7 +28,7 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{boltbolt_wand:1b}}]
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{infbolt_wand:1b}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/infinite_bolt/click
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{stonekivi_wand:1b}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] if score @s mana >= stonekivi_wand_mana_use lbc.math anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/stonekivi/click
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{woodificator:1b}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_woodifier_loop
-execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{lightning_bolt:1b}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_lightning_bolt
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"lightning_bolt": true}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_lightning_bolt
 
 
 tag @s remove raycaster
