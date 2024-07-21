@@ -7,28 +7,27 @@
             "type": "minecraft:item",
             "name": "minecraft:milk_bucket",
             "functions": [
+              
               {
-                "function": "minecraft:copy_components",
-                "source": {
-                  "type": "minecraft:storage",
-                  "source": "swrg:lang"
-                },
-                "ops": [
-                  {
-                    "source": "lore.lbckit.1",
-                    "target": "display{}",
-                    "op": "merge"
+                  "function": "minecraft:set_name",
+                  "entity": "this",
+                  "name": {
+                      "translate": "lbckit.1",
+                      "italic": false,
+                      "color": "white"
                   }
-                ]
               },
               {
-                "function": "minecraft:set_name",
-                "entity": "this",
-                "name": {
-                  "components": {lbckit.1",
-                  "storage": "swrg:lang",
-                  "interpret": true
-                }
+                  "function": "minecraft:set_lore",
+                  "mode": "replace_all",
+                  "entity": "this",
+                  "lore": [
+                      {
+                          "translate": "lore.lbckit.1",
+                          "italic": false,
+                          "color": "gray"
+                      }
+                  ]
               }
             ]
           }

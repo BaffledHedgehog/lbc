@@ -7,28 +7,27 @@
                     "type": "minecraft:item",
                     "name": "minecraft:lime_dye",
                     "functions": [
-                        {
-                            "function": "minecraft:copy_components",
-                            "source": {
-                                "type": "minecraft:storage",
-                                "source": "swrg:lang"
-                            },
-                            "ops": [
-                                {
-                                    "source": "lore.lbclevelup.3",
-                                    "target": "display{}",
-                                    "op": "merge"
-                                }
-                            ]
-                        },
+                        
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "components": {lbclevelup.3",
-                                "storage": "swrg:lang",
-                                "interpret": true
+                                "translate": "lbclevelup.3",
+                                "italic": false,
+                                "color": "white"
                             }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "lore.lbclevelup.3",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }

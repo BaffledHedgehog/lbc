@@ -6,32 +6,39 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:netherite_chestplate",
-                    "functions": [{
-                        "function": "minecraft:set_components",
-                        "components": {"minecraft:custom_model_data":679,HideFlags:255}"
-                    },
+                    "functions": [
                         {
-                            "function": "minecraft:copy_components",
-                            "source": {
-                                "type": "minecraft:storage",
-                                "source": "swrg:lang"
-                            },
-                            "ops": [
-                                {
-                                    "source": "lore.lbcskill.4",
-                                    "target": "display{}",
-                                    "op": "merge"
-                                }
-                            ]
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 679
+                            }
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:attribute_modifiers": false
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "components": {lbcskill.4",
-                                "storage": "swrg:lang",
-                                "interpret": true
+                                "translate": "lbcskill.4",
+                                "italic": false,
+                                "color": "white"
                             }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "lore.lbcskill.4",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }

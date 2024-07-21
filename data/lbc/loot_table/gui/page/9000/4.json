@@ -8,27 +8,25 @@
                     "name": "minecraft:crying_obsidian",
                     "functions": [
                         {
-                            "function": "minecraft:copy_components",
-                            "source": {
-                                "type": "minecraft:storage",
-                                "source": "swrg:lang"
-                            },
-                            "ops": [
-                                {
-                                    "source": "lore.lbckit.4",
-                                    "target": "display{}",
-                                    "op": "merge"
-                                }
-                            ]
-                        },
-                        {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "components": {lbckit.4",
-                                "storage": "swrg:lang",
-                                "interpret": true
+                                "translate": "lbckit.4",
+                                "italic": false,
+                                "color": "white"
                             }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "lore.lbckit.4",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
                         }
                     ]
                 }
