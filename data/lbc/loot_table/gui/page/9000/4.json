@@ -22,7 +22,15 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "translate": "lore.lbckit.4",
+                                    "translate": "lore.lbckit.4.0",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbckit.4.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                },{
+                                    "translate": "lore.lbckit.4.2",
                                     "italic": false,
                                     "color": "gray"
                                 }

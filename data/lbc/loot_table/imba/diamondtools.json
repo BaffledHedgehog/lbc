@@ -17,7 +17,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":500,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],imbaxe:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":500,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],imbaxe:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -58,7 +58,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":500,chaos_pic:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":500,chaos_pic:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -99,7 +99,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{Unbreakable:1b,chaos_swo:1b,imba:1b}"
+                            "tag": "{Unbreakable:1b,chaos_swo:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -140,7 +140,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":604,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],chaos_sho:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":604,Enchantments:[{id:\"minecraft:efficiency\",lvl:255}],chaos_sho:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -181,7 +181,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":500,Enchantments:[{id:\"minecraft:efficiency\",lvl:255},{id:\"minecraft:silk_touch\",lvl:1}],chaos_hoe:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":500,Enchantments:[{id:\"minecraft:efficiency\",lvl:255},{id:\"minecraft:silk_touch\",lvl:1}],chaos_hoe:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -218,7 +218,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":586,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"midas_block\",\"magic\",\"imba_rc\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":586,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"midas_block\",\"magic\",\"imba_rc\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"transformable": true,"helmet": true,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1}],imba:1b}"
+                            "tag": "{"transformable": true,"helmet": true,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",

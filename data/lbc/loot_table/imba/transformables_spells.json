@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"raycastspell": true,"spellitem": true,"minecraft:custom_model_data":509,tnts_imba:1,"spell": true,imba:1b}"
+                            "tag": "{"transformable": true,"raycastspell": true,"spellitem": true,"minecraft:custom_model_data":509,tnts_imba:1,"spell": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -71,7 +71,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":507,lightning_imba:1,"raycastspell": true,"spell": true,imba:1b}"
+                            "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":507,lightning_imba:1,"raycastspell": true,"spell": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -133,7 +133,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":504,creeperz_imba:1,"raycastspell": true,"spell": true,cons_material:1b,imba:1b}"
+                            "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":504,creeperz_imba:1,"raycastspell": true,"spell": true,cons_material:1b,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -195,7 +195,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":503,trap2_imba:1,"raycastspell": true,"spell": true,cons_material:1b,imba:1b}"
+                            "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":503,trap2_imba:1,"raycastspell": true,"spell": true,cons_material:1b,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -242,7 +242,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":508,skeletons_imba:1,"raycastspell": true,"spell": true,imba:1b}"
+                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":508,skeletons_imba:1,"raycastspell": true,"spell": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -299,7 +299,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":510,wither1_imba:1,"raycastspell": true,"spell": true,imba:1b}"
+                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":510,wither1_imba:1,"raycastspell": true,"spell": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -356,7 +356,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":505,heal1_imba:1,"raycastspell": true,"spell": true,imba:1b}"
+                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":505,heal1_imba:1,"raycastspell": true,"spell": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -408,7 +408,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":501,arrows1_imba:1,"raycastspell": true,"spell": true,imba:1b}"
+                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":501,arrows1_imba:1,"raycastspell": true,"spell": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -465,7 +465,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":506,lava1_imba:1,"raycastspell": true,"spell": true,imba:1b}"
+                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":506,lava1_imba:1,"raycastspell": true,"spell": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",
@@ -517,7 +517,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":502,anvils_imba:1,"raycastspell": true,"spell": true,imba:1b}"
+                            "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":502,anvils_imba:1,"raycastspell": true,"spell": true,"imba": true}"
                         },
                         {
                             "function": "set_lore","mode":"replace_all",

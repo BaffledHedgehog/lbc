@@ -9,29 +9,61 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":742}
+                            "components": {
+                                "minecraft:custom_model_data": 742
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                              "translate": "lbcskill.2",
-                              "italic": false,
-                              "color": "white"
+                                "translate": "lbcskill.2",
+                                "italic": false,
+                                "color": "white"
                             }
-                          },
-                          {
+                        },
+                        {
                             "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
-                              {
-                                "translate": "lore.lbcskill.2",
-                                "italic": false,
-                                "color": "gray"
-                              }
+                                {
+                                    "translate": "lore.lbcskill.2.0",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbcskill.2.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbcskill.2.2",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbcskill.2.3",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbcskill.2.4",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbcskill.2.5",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbcskill.2.6",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
                             ]
-                          }
+                        }
                     ]
                 }
             ]

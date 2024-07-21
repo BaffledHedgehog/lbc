@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{CustomPotionColor:6710885,imba:1b}"
+                            "components": {CustomPotionColor:6710885,"imba": true}
                         },
                         {
                             "function": "set_name",

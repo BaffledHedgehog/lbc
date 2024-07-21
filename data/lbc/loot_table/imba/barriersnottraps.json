@@ -15,7 +15,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{lightning:1,"drop":true,imba:1b}"
+                            "tag": "{lightning:1,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -31,7 +31,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"library":true,"drop":true,imba:1b}"
+                            "tag": "{"library":true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -47,7 +47,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"applepig":true,"drop":true,imba:1b}"
+                            "tag": "{"applepig":true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -63,7 +63,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"end_city": true,"drop":true,imba:1b}"
+                            "tag": "{"end_city": true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -79,7 +79,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"village": true,"drop":true,imba:1b}"
+                            "tag": "{"village": true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -95,7 +95,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"bonus_chest": true,"drop":true,imba:1b}"
+                            "tag": "{"bonus_chest": true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -111,7 +111,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"bastion": true,"drop":true,imba:1b}"
+                            "tag": "{"bastion": true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -127,7 +127,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"treasure": true,"drop":true,imba:1b}"
+                            "tag": "{"treasure": true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -143,7 +143,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"bees": true,"drop":true,imba:1b}"
+                            "tag": "{"bees": true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -159,7 +159,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"lbh": true,"drop":true,imba:1b}"
+                            "tag": "{"lbh": true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -175,7 +175,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{luckyspawner:1,"drop":true,imba:1b}"
+                            "tag": "{luckyspawner:1,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -191,7 +191,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"portall": true,"drop":true,imba:1b}"
+                            "tag": "{"portall": true,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -207,7 +207,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{opanvil:1,"drop":true,imba:1b}"
+                            "tag": "{opanvil:1,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -223,7 +223,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{sethome:1,"drop":true,imba:1b}"
+                            "tag": "{sethome:1,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -245,7 +245,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{magicbean:1,"drop":true,imba:1b}"
+                            "tag": "{magicbean:1,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -261,7 +261,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{magicbean:1,"drop":true,imba:1b}"
+                            "tag": "{magicbean:1,"drop":true,"imba": true}"
                         }
                     ],
                     "conditions": [
@@ -292,7 +292,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{greedcurse:1,"drop":true,imba:1b}"
+                            "tag": "{greedcurse:1,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -308,7 +308,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{pizanski:1,"drop":true,imba:1b}"
+                            "tag": "{pizanski:1,"drop":true,"imba": true}"
                         }
                     ]
                 },
@@ -324,7 +324,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{magic_academy:1b,"drop":true,imba:1b}"
+                            "tag": "{magic_academy:1b,"drop":true,"imba": true}"
                         }
                     ]
                 }

@@ -255,7 +255,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":581,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"mystical_tree\",\"instant\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":581,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"mystical_tree\",\"instant\"]},"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",

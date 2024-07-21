@@ -17,7 +17,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":581,diamond_apple:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":581,diamond_apple:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -50,7 +50,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":582,golden_stew:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":582,golden_stew:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -83,7 +83,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":583,golden_bread:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":583,golden_bread:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -116,7 +116,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":584,golden_porkchop:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":584,golden_porkchop:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -149,7 +149,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":585,diamond_porkchop:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":585,diamond_porkchop:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -182,7 +182,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":586,netherite_apple:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":586,netherite_apple:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -215,7 +215,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":587,bedrock_apple:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":587,bedrock_apple:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -248,7 +248,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":588,golden_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:2}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":588,golden_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:2}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -281,7 +281,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":589,diamond_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:5},{id:\"minecraft:bane_of_arthropods\",lvl:5},{id:\"minecraft:lure\",lvl:5}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":589,diamond_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:5},{id:\"minecraft:bane_of_arthropods\",lvl:5},{id:\"minecraft:lure\",lvl:5}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -314,7 +314,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":590,netherite_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":590,netherite_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:14,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -347,7 +347,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":591,netherstar_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":591,netherstar_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -380,7 +380,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":592,transdimensional_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:16,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":592,transdimensional_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:16,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -413,7 +413,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":593,multiverse_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:40,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":593,multiverse_fish:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:40,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:knockback\",lvl:255},{id:\"minecraft:bane_of_arthropods\",lvl:255},{id:\"minecraft:smite\",lvl:255}],"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -446,7 +446,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":594,golden_cake:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":594,golden_cake:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -479,7 +479,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":595,golden_cookie:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":595,golden_cookie:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -512,7 +512,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":596,golden_melon:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":596,golden_melon:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -545,7 +545,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":597,golden_kelp:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":597,golden_kelp:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -578,7 +578,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":598,golden_beef:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":598,golden_beef:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -611,7 +611,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":599,diamond_beef:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":599,diamond_beef:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -644,7 +644,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":600,golden_chicken:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":600,golden_chicken:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -677,7 +677,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":601,diamond_chicken:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":601,diamond_chicken:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -710,7 +710,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":602,human_"flesh": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":602,human_"flesh": true,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -743,7 +743,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":603,human_eye:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":603,human_eye:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -776,7 +776,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":604,golden_chorus:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":604,golden_chorus:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -809,7 +809,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":605,golden_berries:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":605,golden_berries:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -842,7 +842,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":606,diamond_carrot:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":606,diamond_carrot:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -875,7 +875,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":607,netherite_carrot:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":607,netherite_carrot:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -908,7 +908,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":608,golden_potato:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":608,golden_potato:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -941,7 +941,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":609,diamond_potato:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":609,diamond_potato:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -974,7 +974,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":610,netherite_potato:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":610,netherite_potato:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1007,7 +1007,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":611,golden_pie:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":611,golden_pie:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1040,7 +1040,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":612,golden_rabbit:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":612,golden_rabbit:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1073,7 +1073,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":613,diamond_rabbit:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":613,diamond_rabbit:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1106,7 +1106,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":614,diamond_stew:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":614,diamond_stew:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1139,7 +1139,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":615,golden_mutton:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":615,golden_mutton:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1172,7 +1172,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":616,diamond_mutton:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":616,diamond_mutton:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1205,7 +1205,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":617,golden_beetroot:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":617,golden_beetroot:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1238,7 +1238,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":618,netherite_stew:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":618,netherite_stew:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1271,7 +1271,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":619,diamond_berries:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":619,diamond_berries:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1304,7 +1304,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":620,yellow_lightings_bottle:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":620,yellow_lightings_bottle:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_name",

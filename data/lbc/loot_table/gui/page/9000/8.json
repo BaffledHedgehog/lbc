@@ -9,7 +9,9 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":595}
+                            "components": {
+                                "minecraft:custom_model_data": 595
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -26,7 +28,22 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "translate": "lore.lbckit.8",
+                                    "translate": "lore.lbckit.8.0",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbckit.8.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbckit.8.2",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbckit.8.3",
                                     "italic": false,
                                     "color": "gray"
                                 }

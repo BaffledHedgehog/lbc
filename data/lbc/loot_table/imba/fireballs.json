@@ -17,7 +17,7 @@
               },
               {
                 "function": "set_components",
-                "components": {"minecraft:custom_model_data":544,"special": true,smallfireball_imba:1b,imba:1b}"
+                "components": {"minecraft:custom_model_data":544,"special": true,smallfireball_imba:1b,"imba": true}"
               },
               {
                 "function": "set_name",
@@ -68,7 +68,7 @@
               },
               {
                 "function": "set_components",
-                "components": {"minecraft:custom_model_data":545,"special": true,fireball_imba:1b,imba:1b}"
+                "components": {"minecraft:custom_model_data":545,"special": true,fireball_imba:1b,"imba": true}"
               },
               {
                 "function": "set_name",
@@ -122,7 +122,7 @@
               },
               {
                 "function": "set_components",
-                "components": {"minecraft:custom_model_data":546,"special": true,dragfireball_imba:1b,imba:1b}"
+                "components": {"minecraft:custom_model_data":546,"special": true,dragfireball_imba:1b,"imba": true}"
               },
               {
                 "function": "set_name",

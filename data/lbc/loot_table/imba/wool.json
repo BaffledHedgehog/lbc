@@ -23,7 +23,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,black:1b,"projegadget": true,"minecraft:custom_model_data":602,imba:1b}"
+                            "tag": "{wool:1b,black:1b,"projegadget": true,"minecraft:custom_model_data":602,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -62,7 +62,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,blue:1b,"projegadget": true,"minecraft:custom_model_data":603,imba:1b}"
+                            "tag": "{wool:1b,blue:1b,"projegadget": true,"minecraft:custom_model_data":603,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -101,7 +101,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":604,brown:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":604,brown:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -140,7 +140,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":605,cyan:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":605,cyan:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -179,7 +179,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":606,gray:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":606,gray:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -218,7 +218,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":607,green:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":607,green:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -257,7 +257,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":608,light_blue:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":608,light_blue:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -296,7 +296,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":609,light_gray:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":609,light_gray:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -335,7 +335,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":610,lime:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":610,lime:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -374,7 +374,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":611,magenta:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":611,magenta:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -413,7 +413,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":612,orange:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":612,orange:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -452,7 +452,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":613,pink:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":613,pink:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -491,7 +491,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":614,purple:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":614,purple:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -530,7 +530,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":615,red:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":615,red:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -569,7 +569,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":616,white:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":616,white:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -608,7 +608,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":617,yellow:1b,imba:1b}"
+                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":617,yellow:1b,"imba": true}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
