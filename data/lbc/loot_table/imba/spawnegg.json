@@ -9,7 +9,37 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{DeathLootTable:\"lbc:sauvojen_tuntija\",PersistenceRequired:1b,Health:100024f,ExplosionPower:3,Tags:[\"sauvojen_tuntija\",\"rcdenyalways\"],CustomName:'{\"text\":\"Sauvojen Tuntija\",\"color\":\"blue\",\"bold\":true,\"italic\":false}',Attributes:[{Name:\"generic.max_health\",Base:100024d},{Name:\"generic.follow_range\",Base:256},{Name:\"generic.knockback_resistance\",Base:256}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:ghast",
+                                    "DeathLootTable": "lbc:sauvojen_tuntija",
+                                    "PersistenceRequired": true,
+                                    "Health": 100024,
+                                    "ExplosionPower": 3,
+                                    "Tags": [
+                                        "sauvojen_tuntija",
+                                        "rcdenyalways"
+                                    ],
+                                    "CustomName": "{\"text\":\"Sauvojen Tuntija\",\"color\":\"blue\",\"bold\":true,\"italic\":false}",
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.max_health",
+                                            "Base": 100024
+                                        },
+                                        {
+                                            "Name": "generic.follow_range",
+                                            "Base": 256
+                                        },
+                                        {
+                                            "Name": "generic.knockback_resistance",
+                                            "Base": 256
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -22,7 +52,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -39,7 +70,258 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{Tags: [\"bob\"], DeathLootTable: \"lbc:bob\", CustomNameVisible: 1b, PersistenceRequired: 1b, IsBaby: 0b, CustomName: '{\"translate\":\"bob\",\"color\":\"green\",\"italic\":false}', HandItems: [{id: \"minecraft:netherite_sword\", Count: 1b, components: {display: {Name: '{\"translate\":\"bob_sword\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:sharpness\", lvl: 5s}, {id: \"minecraft:smite\", lvl: 5s}, {id: \"minecraft:bane_of_arthropods\", lvl: 5s}, {id: \"minecraft:knockback\", lvl: 2s}, {id: \"minecraft:fire_aspect\", lvl: 2s}, {id: \"minecraft:looting\", lvl: 3s}, {id: \"minecraft:sweeping_edge\", lvl: 3s}, {id: \"minecraft:unbreaking\", lvl: 3s}]}}, {id: \"minecraft:enchanted_golden_apple\", Count: 6b, components: {display: {Name: '{\"translate\":\"bob_apple\",\"italic\":false}'}}}], HandDropChances: [0.000f, 0.000f], ArmorItems: [{id: \"minecraft:netherite_boots\", Count: 1b, components: {display: {Name: '{\"translate\":\"bob_boots\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:protection\", lvl: 4s}, {id: \"minecraft:fire_protection\", lvl: 4s}, {id: \"minecraft:feather_falling\", lvl: 4s}, {id: \"minecraft:blast_protection\", lvl: 4s}, {id: \"minecraft:projectile_protection\", lvl: 4s}, {id: \"minecraft:thorns\", lvl: 3s}, {id: \"minecraft:depth_strider\", lvl: 3s}, {id: \"minecraft:frost_walker\", lvl: 2s}, {id: \"minecraft:unbreaking\", lvl: 3s}, {id: \"minecraft:soul_speed\", lvl: 3s}]}}, {id: \"minecraft:netherite_leggings\", Count: 1b, components: {display: {Name: '{\"translate\":\"bob_leggings\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:protection\", lvl: 4s}, {id: \"minecraft:fire_protection\", lvl: 4s}, {id: \"minecraft:blast_protection\", lvl: 4s}, {id: \"minecraft:projectile_protection\", lvl: 4s}, {id: \"minecraft:thorns\", lvl: 3s}, {id: \"minecraft:unbreaking\", lvl: 3s}]}}, {id: \"minecraft:netherite_chestplate\", Count: 1b, components: {display: {Name: '{\"translate\":\"bob_chestplate\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:protection\", lvl: 4s}, {id: \"minecraft:fire_protection\", lvl: 4s}, {id: \"minecraft:blast_protection\", lvl: 4s}, {id: \"minecraft:projectile_protection\", lvl: 4s}, {id: \"minecraft:thorns\", lvl: 3s}, {id: \"minecraft:unbreaking\", lvl: 3s}]}}, {id: \"minecraft:netherite_helmet\", Count: 1b, components: {display: {Name: '{\"translate\":\"bob_helmet\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:protection\", lvl: 4s}, {id: \"minecraft:fire_protection\", lvl: 4s}, {id: \"minecraft:blast_protection\", lvl: 4s}, {id: \"minecraft:projectile_protection\", lvl: 4s}, {id: \"minecraft:respiration\", lvl: 3s}, {id: \"minecraft:aqua_affinity\", lvl: 1s}, {id: \"minecraft:thorns\", lvl: 1s}, {id: \"minecraft:unbreaking\", lvl: 1s}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f], Attributes: [{Name: \"generic.follow_range\", Base: 400}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:zombie",
+                                    "Tags": [
+                                        "bob"
+                                    ],
+                                    "DeathLootTable": "lbc:bob",
+                                    "CustomNameVisible": true,
+                                    "PersistenceRequired": true,
+                                    "IsBaby": false,
+                                    "CustomName": "{\"translate\":\"bob\",\"color\":\"green\",\"italic\":false}",
+                                    "HandItems": [
+                                        {
+                                            "id": "minecraft:netherite_sword",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"bob_sword\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:sharpness",
+                                                        "lvl": 5
+                                                    },
+                                                    {
+                                                        "id": "minecraft:smite",
+                                                        "lvl": 5
+                                                    },
+                                                    {
+                                                        "id": "minecraft:bane_of_arthropods",
+                                                        "lvl": 5
+                                                    },
+                                                    {
+                                                        "id": "minecraft:knockback",
+                                                        "lvl": 2
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_aspect",
+                                                        "lvl": 2
+                                                    },
+                                                    {
+                                                        "id": "minecraft:looting",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:sweeping_edge",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:enchanted_golden_apple",
+                                            "Count": 6,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"bob_apple\",\"italic\":false}"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "HandDropChances": [
+                                        0,
+                                        0
+                                    ],
+                                    "ArmorItems": [
+                                        {
+                                            "id": "minecraft:netherite_boots",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"bob_boots\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:feather_falling",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:blast_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:projectile_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:thorns",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:depth_strider",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:frost_walker",
+                                                        "lvl": 2
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:soul_speed",
+                                                        "lvl": 3
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:netherite_leggings",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"bob_leggings\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:blast_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:projectile_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:thorns",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:netherite_chestplate",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"bob_chestplate\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:blast_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:projectile_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:thorns",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:netherite_helmet",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"bob_helmet\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:blast_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:projectile_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:respiration",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:aqua_affinity",
+                                                        "lvl": 1
+                                                    },
+                                                    {
+                                                        "id": "minecraft:thorns",
+                                                        "lvl": 1
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 1
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.follow_range",
+                                            "Base": 400
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -52,7 +334,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -69,7 +352,333 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{Tags: [\"aimbob\"], DeathLootTable: \"lbc:aimbob\", PersistenceRequired: 1b, active_effects: [{id: \"minecraft:instant_damage\", amplifier: 100b, duration: 20}], CustomName: '{\"translate\":\"aimbob\",\"color\":\"aqua\",\"italic\":false}', HandItems: [{id: \"minecraft:bow\", Count: 1b, components: {display: {Name: '{\"translate\":\"aimbob_bow\",\"color\":\"gold\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:unbreaking\", lvl: 3s}, {id: \"minecraft:power\", lvl: 5s}, {id: \"minecraft:punch\", lvl: 2s}, {id: \"minecraft:flame\", lvl: 1s}, {id: \"minecraft:infinity\", lvl: 1s}, {id: \"minecraft:mending\", lvl: 1s}], AttributeModifiers: [{AttributeName: \"generic.attack_damage\", Name: \"generic.attack_damage\", Amount: 9, Operation: 0, UUID: [I; 48204345, 1317749974, -1176837161, -606055070], Slot: \"mainhand\"}, {AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\", Amount: -2.4d, Operation: 0, UUID: [I; 907184834, 334972118, -1433512250, -1661364796], Slot: \"mainhand\"}]}}, {id: \"minecraft:apple\", Count: 6b, components: {display: {Name: '{\"translate\":\"aimbob_apple\",\"color\":\"gold\",\"italic\":false}'}, "minecraft:custom_model_data": 580, aimbobapple: 1b}}], HandDropChances: [0.000f, 0.000f], ArmorItems: [{id: \"minecraft:iron_boots\", Count: 1b, components: {display: {Name: '{\"translate\":\"aimbob_boots\",\"color\":\"gold\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:protection\", lvl: 4s}, {id: \"minecraft:fire_protection\", lvl: 4s}, {id: \"minecraft:feather_falling\", lvl: 4s}, {id: \"minecraft:blast_protection\", lvl: 4s}, {id: \"minecraft:projectile_protection\", lvl: 4s}, {id: \"minecraft:thorns\", lvl: 3s}, {id: \"minecraft:depth_strider\", lvl: 3s}, {id: \"minecraft:frost_walker\", lvl: 2s}, {id: \"minecraft:unbreaking\", lvl: 3s}, {id: \"minecraft:mending\", lvl: 1s}, {id: \"minecraft:soul_speed\", lvl: 3s}], AttributeModifiers: [{AttributeName: \"generic.knockback_resistance\", Name: \"generic.knockback_resistance\", Amount: 1000, Operation: 0, UUID: [I; -274803907, 2076003940, -1334084992, 1720982212], Slot: \"feet\"}]}}, {id: \"minecraft:iron_leggings\", Count: 1b, components: {display: {Name: '{\"translate\":\"aimbob_leggings\",\"color\":\"gold\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:protection\", lvl: 4s}, {id: \"minecraft:fire_protection\", lvl: 4s}, {id: \"minecraft:blast_protection\", lvl: 4s}, {id: \"minecraft:projectile_protection\", lvl: 4s}, {id: \"minecraft:thorns\", lvl: 3s}, {id: \"minecraft:unbreaking\", lvl: 3s}, {id: \"minecraft:mending\", lvl: 1s}], AttributeModifiers: [{AttributeName: \"generic.movement_speed\", Name: \"generic.movement_speed\", Amount: 0.5d, Operation: 1, UUID: [I; -262864731, -593214837, -1302241833, -2090480369], Slot: \"legs\"}]}}, {id: \"minecraft:iron_chestplate\", Count: 1b, components: {display: {Name: '{\"translate\":\"aimbob_chestplate\",\"color\":\"gold\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:protection\", lvl: 4s}, {id: \"minecraft:fire_protection\", lvl: 4s}, {id: \"minecraft:blast_protection\", lvl: 4s}, {id: \"minecraft:projectile_protection\", lvl: 4s}, {id: \"minecraft:thorns\", lvl: 3s}, {id: \"minecraft:unbreaking\", lvl: 3s}, {id: \"minecraft:mending\", lvl: 1s}], AttributeModifiers: [{AttributeName: \"generic.max_health\", Name: \"generic.max_health\", Amount: 40, Operation: 0, UUID: [I; -1828262110, 1854951145, -1985293416, -26830008], Slot: \"chest\"}]}}, {id: \"minecraft:iron_helmet\", Count: 1b, components: {display: {Name: '{\"translate\":\"aimbob_helmet\",\"color\":\"gold\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:protection\", lvl: 4s}, {id: \"minecraft:fire_protection\", lvl: 4s}, {id: \"minecraft:blast_protection\", lvl: 4s}, {id: \"minecraft:projectile_protection\", lvl: 4s}, {id: \"minecraft:respiration\", lvl: 1s}, {id: \"minecraft:aqua_affinity\", lvl: 3s}, {id: \"minecraft:thorns\", lvl: 3s}, {id: \"minecraft:unbreaking\", lvl: 3s}, {id: \"minecraft:mending\", lvl: 1s}], AttributeModifiers: [{AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\", Amount: 1000, Operation: 0, UUID: [I; 1164376091, -1745861365, -1762818894, -920423807], Slot: \"head\"}]}}], ArmorDropChances: [0.000f, 0.000f, 0.000f, 0.000f]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:skeleton",
+                                    "Tags": [
+                                        "aimbob"
+                                    ],
+                                    "DeathLootTable": "lbc:aimbob",
+                                    "PersistenceRequired": true,
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:instant_damage",
+                                            "amplifier": 100,
+                                            "duration": 20
+                                        }
+                                    ],
+                                    "CustomName": "{\"translate\":\"aimbob\",\"color\":\"aqua\",\"italic\":false}",
+                                    "HandItems": [
+                                        {
+                                            "id": "minecraft:bow",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"aimbob_bow\",\"color\":\"gold\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:power",
+                                                        "lvl": 5
+                                                    },
+                                                    {
+                                                        "id": "minecraft:punch",
+                                                        "lvl": 2
+                                                    },
+                                                    {
+                                                        "id": "minecraft:flame",
+                                                        "lvl": 1
+                                                    },
+                                                    {
+                                                        "id": "minecraft:infinity",
+                                                        "lvl": 1
+                                                    },
+                                                    {
+                                                        "id": "minecraft:mending",
+                                                        "lvl": 1
+                                                    }
+                                                ],
+                                                "AttributeModifiers": [
+                                                    {
+                                                        "AttributeName": "generic.attack_damage",
+                                                        "id": "generdfxhfmnugbkmcdthage",
+                                                        "Amount": 9,
+                                                        "Operation": 0,
+                                                        "Slot": "mainhand"
+                                                    },
+                                                    {
+                                                        "AttributeName": "generic.attack_speed",
+                                                        "id": "estghtnkbgujhed",
+                                                        "Amount": -2.4,
+                                                        "Operation": 0,
+                                                        "Slot": "mainhand"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:apple",
+                                            "Count": 6,
+                                            "components": {
+                                                "minecraft:custom_model_data": 580
+                                            }
+                                        }
+                                    ],
+                                    "HandDropChances": [
+                                        0,
+                                        0
+                                    ],
+                                    "ArmorItems": [
+                                        {
+                                            "id": "minecraft:iron_boots",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"aimbob_boots\",\"color\":\"gold\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:feather_falling",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:blast_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:projectile_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:thorns",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:depth_strider",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:frost_walker",
+                                                        "lvl": 2
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:mending",
+                                                        "lvl": 1
+                                                    },
+                                                    {
+                                                        "id": "minecraft:soul_speed",
+                                                        "lvl": 3
+                                                    }
+                                                ],
+                                                "AttributeModifiers": [
+                                                    {
+                                                        "AttributeName": "generic.knockback_resistance",
+                                                        "Name": "generic.knockback_resistance",
+                                                        "Amount": 1000,
+                                                        "Operation": 0,
+                                                        "UUID": [
+                                                            -274803907,
+                                                            2076003940,
+                                                            -1334084992,
+                                                            1720982212
+                                                        ],
+                                                        "Slot": "feet"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:iron_leggings",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"aimbob_leggings\",\"color\":\"gold\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:blast_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:projectile_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:thorns",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:mending",
+                                                        "lvl": 1
+                                                    }
+                                                ],
+                                                "AttributeModifiers": [
+                                                    {
+                                                        "AttributeName": "generic.movement_speed",
+                                                        "Name": "generic.movement_speed",
+                                                        "Amount": 0.5,
+                                                        "Operation": 1,
+                                                        "UUID": [
+                                                            -262864731,
+                                                            -593214837,
+                                                            -1302241833,
+                                                            -2090480369
+                                                        ],
+                                                        "Slot": "legs"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:iron_chestplate",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"aimbob_chestplate\",\"color\":\"gold\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:blast_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:projectile_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:thorns",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:mending",
+                                                        "lvl": 1
+                                                    }
+                                                ],
+                                                "AttributeModifiers": [
+                                                    {
+                                                        "AttributeName": "generic.max_health",
+                                                        "Name": "generic.max_health",
+                                                        "Amount": 40,
+                                                        "Operation": 0,
+                                                        "UUID": [
+                                                            -1828262110,
+                                                            1854951145,
+                                                            -1985293416,
+                                                            -26830008
+                                                        ],
+                                                        "Slot": "chest"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:iron_helmet",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"aimbob_helmet\",\"color\":\"gold\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:fire_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:blast_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:projectile_protection",
+                                                        "lvl": 4
+                                                    },
+                                                    {
+                                                        "id": "minecraft:respiration",
+                                                        "lvl": 1
+                                                    },
+                                                    {
+                                                        "id": "minecraft:aqua_affinity",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:thorns",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:unbreaking",
+                                                        "lvl": 3
+                                                    },
+                                                    {
+                                                        "id": "minecraft:mending",
+                                                        "lvl": 1
+                                                    }
+                                                ],
+                                                "AttributeModifiers": [
+                                                    {
+                                                        "AttributeName": "generic.attack_speed",
+                                                        "id": "kunkcycgvkhkkhkhkhkhkd",
+                                                        "Amount": 1000,
+                                                        "Operation": 0,
+                                                        "Slot": "head"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -82,7 +691,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -99,7 +709,54 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{PersistenceRequired: 1b, DeathLootTable: \"none\", IsBaby: 1b, ArmorItems: [{}, {}, {}, {id: \"minecraft:oak_slab\", Count: 1b, components: {display: {Name: '{\"text\":\"Агрессивный полублок\",\"italic\":false}'}, AttributeModifiers: [{AttributeName: \"generic.attack_damage\", Name: \"generic.attack_damage\", Amount: 7, Operation: 0, UUID: [I; 66136706, 313148718, -1090398472, 525715978], Slot: \"mainhand\"}]}}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 1.000f], active_effects: [{id: \"minecraft:invisibility\", amplifier: 1b, duration: 2000000, show_particles: 0b}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:zombie",
+                                    "PersistenceRequired": true,
+                                    "DeathLootTable": "none",
+                                    "IsBaby": true,
+                                    "ArmorItems": [
+                                        {},
+                                        {},
+                                        {},
+                                        {
+                                            "id": "minecraft:oak_slab",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"text\":\"Агрессивный полублок\",\"italic\":false}"
+                                                },
+                                                "AttributeModifiers": [
+                                                    {
+                                                        "AttributeName": "generic.attack_damage",
+                                                        "id": "dghdynukbvghfhjge",
+                                                        "Amount": 7,
+                                                        "Operation": 0,
+                                                        "Slot": "mainhand"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        0.085,
+                                        0.085,
+                                        0.085,
+                                        1
+                                    ],
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "amplifier": 1,
+                                            "duration": 2000000,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -112,7 +769,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -129,7 +787,139 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{Tags: [\"fat_skeleton\"], DeathLootTable: \"lbc:fatskeleton\", PersistenceRequired: 1b, CustomNameVisible: 1b, CustomName: '{\"translate\":\"fat_skeleton\",\"italic\":false}', HandItems: [{id: \"minecraft:bone\", Count: 1b, components: {display: {Name: '{\"translate\":\"omega_bone\",\"italic\":false}'}, Enchantments: [{id: \"minecraft:knockback\", lvl: 1s}], AttributeModifiers: [{AttributeName: \"generic.attack_damage\", Name: \"generic.attack_damage\", Amount: 7, Operation: 0, UUID: [I; 2115225650, 1222787400, -1214360613, -962612346], Slot: \"mainhand\"}, {AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\", Amount: -3.5d, Operation: 0, UUID: [I; -1787305150, 590040331, -1319520106, -1479424417], Slot: \"mainhand\"}, {AttributeName: \"generic.knockback_resistance\", Name: \"generic.knockback_resistance\", Amount: 1, Operation: 0, UUID: [I; -1090326313, 1511212535, -1399894745, -1406101294], Slot: \"mainhand\"}, {AttributeName: \"generic.movement_speed\", Name: \"generic.movement_speed\", Amount: -0.7d, Operation: 1, UUID: [I; -1384218944, 862604066, -1866597918, 2053394205], Slot: \"mainhand\"}]}}, {}], HandDropChances: [1.000f, 0.085f], ArmorItems: [{id: \"minecraft:bone_meal\", Count: 64b}, {id: \"minecraft:bone\", Count: 32b}, {id: \"minecraft:iron_chestplate\", Count: 1b}, {id: \"minecraft:skeleton_skull\", Count: 1b}], ArmorDropChances: [1.000f, 1.000f, 0.000f, 0.000f], Attributes: [{Name: \"generic.movement_speed\", Base: 0.6d}, {Name: \"generic.armor\", Base: 20}, {Name: \"generic.attack_knockback\", Base: 100}, {Name: \"generic.armor_toughness\", Base: 5}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:skeleton",
+                                    "Tags": [
+                                        "fat_skeleton"
+                                    ],
+                                    "DeathLootTable": "lbc:fatskeleton",
+                                    "PersistenceRequired": true,
+                                    "CustomNameVisible": true,
+                                    "CustomName": "{\"translate\":\"fat_skeleton\",\"italic\":false}",
+                                    "HandItems": [
+                                        {
+                                            "id": "minecraft:bone",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "Name": "{\"translate\":\"omega_bone\",\"italic\":false}"
+                                                },
+                                                "Enchantments": [
+                                                    {
+                                                        "id": "minecraft:knockback",
+                                                        "lvl": 1
+                                                    }
+                                                ],
+                                                "AttributeModifiers": [
+                                                    {
+                                                        "AttributeName": "generic.attack_damage",
+                                                        "Name": "generic.attack_damage",
+                                                        "Amount": 7,
+                                                        "Operation": 0,
+                                                        "UUID": [
+                                                            2115225650,
+                                                            1222787400,
+                                                            -1214360613,
+                                                            -962612346
+                                                        ],
+                                                        "Slot": "mainhand"
+                                                    },
+                                                    {
+                                                        "AttributeName": "generic.attack_speed",
+                                                        "Name": "generic.attack_speed",
+                                                        "Amount": -3.5,
+                                                        "Operation": 0,
+                                                        "UUID": [
+                                                            -1787305150,
+                                                            590040331,
+                                                            -1319520106,
+                                                            -1479424417
+                                                        ],
+                                                        "Slot": "mainhand"
+                                                    },
+                                                    {
+                                                        "AttributeName": "generic.knockback_resistance",
+                                                        "Name": "generic.knockback_resistance",
+                                                        "Amount": 1,
+                                                        "Operation": 0,
+                                                        "UUID": [
+                                                            -1090326313,
+                                                            1511212535,
+                                                            -1399894745,
+                                                            -1406101294
+                                                        ],
+                                                        "Slot": "mainhand"
+                                                    },
+                                                    {
+                                                        "AttributeName": "generic.movement_speed",
+                                                        "Name": "generic.movement_speed",
+                                                        "Amount": -0.7,
+                                                        "Operation": 1,
+                                                        "UUID": [
+                                                            -1384218944,
+                                                            862604066,
+                                                            -1866597918,
+                                                            2053394205
+                                                        ],
+                                                        "Slot": "mainhand"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {}
+                                    ],
+                                    "HandDropChances": [
+                                        1,
+                                        0.085
+                                    ],
+                                    "ArmorItems": [
+                                        {
+                                            "id": "minecraft:bone_meal",
+                                            "Count": 64
+                                        },
+                                        {
+                                            "id": "minecraft:bone",
+                                            "Count": 32
+                                        },
+                                        {
+                                            "id": "minecraft:iron_chestplate",
+                                            "Count": 1
+                                        },
+                                        {
+                                            "id": "minecraft:skeleton_skull",
+                                            "Count": 1
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        1,
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.movement_speed",
+                                            "Base": 0.6
+                                        },
+                                        {
+                                            "Name": "generic.armor",
+                                            "Base": 20
+                                        },
+                                        {
+                                            "Name": "generic.attack_knockback",
+                                            "Base": 100
+                                        },
+                                        {
+                                            "Name": "generic.armor_toughness",
+                                            "Base": 5
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -142,7 +932,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -159,7 +950,24 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{id:\"minecraft:item\",PickupDelay:32767s,Item:{Count:1b,id:\"minecraft:repeating_command_block\",components:{otchim:1b,"drop":true,"minecraft:custom_model_data":658}}},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item",
+                                    "PickupDelay": 32767,
+                                    "Item": {
+                                        "Count": 1,
+                                        "id": "minecraft:repeating_command_block",
+                                        "components": {
+                                            "otchim": 1,
+                                            "drop": 1,
+                                            "minecraft:custom_model_data": 658
+                                        }
+                                    }
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -172,7 +980,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -189,7 +998,22 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{DeathLootTable:\"lbc:vex_sword\",Health:1f,Attributes:[{Name:\"generic.max_health\",Base:1}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:vex",
+                                    "DeathLootTable": "lbc:vex_sword",
+                                    "Health": 1,
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.max_health",
+                                            "Base": 1
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -202,7 +1026,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -219,7 +1044,16 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{ExplosionRadius:1b,DeathLootTable:\"lbc:creeper_wand\"},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:creeper",
+                                    "ExplosionRadius": 1,
+                                    "DeathLootTable": "lbc:creeper_wand"
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -232,7 +1066,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -249,7 +1084,24 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{id:\"minecraft:item\",PickupDelay:32767s,Item:{Count:1b,id:\"minecraft:repeating_command_block\",components:{shahid:1b,"drop":true,"minecraft:custom_model_data":658}}},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item",
+                                    "PickupDelay": 32767,
+                                    "Item": {
+                                        "Count": 1,
+                                        "id": "minecraft:repeating_command_block",
+                                        "components": {
+                                            "shahid": 1,
+                                            "drop": 1,
+                                            "minecraft:custom_model_data": 658
+                                        }
+                                    }
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -262,7 +1114,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -279,7 +1132,59 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{CustomNameVisible:1b,DeathLootTable:\"lbc:reactive_shish\",PersistenceRequired:1b,Health:30f,IsBaby:1b,CustomName:'{\"translate\":\"reactive_shish\",\"color\":\"green\",\"italic\":false}',active_effects:[{id:\"minecraft:jump_boost\",amplifier:6b,duration:2000000,show_particles:0b},{id:\"minecraft:fire_resistance\",amplifier:0b,duration:2000000,show_particles:0b}],Attributes:[{Name:\"generic.max_health\",Base:30},{Name:\"generic.attack_knockback\",Base:1}],ArmorItems:[{},{},{},{id:\"minecraft:spruce_sapling\",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:zombie",
+                                    "CustomNameVisible": true,
+                                    "DeathLootTable": "lbc:reactive_shish",
+                                    "PersistenceRequired": true,
+                                    "Health": 30,
+                                    "IsBaby": true,
+                                    "CustomName": "{\"translate\":\"reactive_shish\",\"color\":\"green\",\"italic\":false}",
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "amplifier": 6,
+                                            "duration": 2000000,
+                                            "show_particles": false
+                                        },
+                                        {
+                                            "id": "minecraft:fire_resistance",
+                                            "amplifier": 0,
+                                            "duration": 2000000,
+                                            "show_particles": false
+                                        }
+                                    ],
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.max_health",
+                                            "Base": 30
+                                        },
+                                        {
+                                            "Name": "generic.attack_knockback",
+                                            "Base": 1
+                                        }
+                                    ],
+                                    "ArmorItems": [
+                                        {},
+                                        {},
+                                        {},
+                                        {
+                                            "id": "minecraft:spruce_sapling",
+                                            "Count": 1
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        0.085,
+                                        0.085,
+                                        0.085,
+                                        0
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -292,7 +1197,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -309,7 +1215,66 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{CustomNameVisible:0b,CustomName:'{\"text\":\"Lucky Block\",\"color\":\"yellow\",\"italic\":false}',IsBaby:1b,Silent:1b,DeathLootTable:\"lbc:luckyblock\",HandItems:[{id:\"minecraft:air\",Count:1b},{}],ArmorItems:[{},{},{},{id:\"minecraft:player_head\",Count:1b,components:{SkullOwner:{Id:[I;-940982597,-1981660917,-1797831442,692841550],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5MmNiNDMzMzNhYTYyMWM3MGVlZjRlYmYyOTliYTQxMmI0NDZmZTEyZTM0MWNjYzU4MmYzMTkyMTg5In19fQ==\"}]}}}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],active_effects:[{id:\"minecraft:invisibility\",amplifier:1b,duration:2000000,show_particles:0b}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:husk",
+                                    "CustomNameVisible": false,
+                                    "CustomName": "{\"text\":\"Lucky Block\",\"color\":\"yellow\",\"italic\":false}",
+                                    "IsBaby": true,
+                                    "Silent": true,
+                                    "DeathLootTable": "lbc:luckyblock",
+                                    "HandItems": [
+                                        {
+                                            "id": "minecraft:air",
+                                            "Count": 1
+                                        },
+                                        {}
+                                    ],
+                                    "ArmorItems": [
+                                        {},
+                                        {},
+                                        {},
+                                        {
+                                            "id": "minecraft:player_head",
+                                            "Count": 1,
+                                            "components": {
+                                                "SkullOwner": {
+                                                    "Id": [
+                                                        -940982597,
+                                                        -1981660917,
+                                                        -1797831442,
+                                                        692841550
+                                                    ],
+                                                    "Properties": {
+                                                        "textures": [
+                                                            {
+                                                                "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5MmNiNDMzMzNhYTYyMWM3MGVlZjRlYmYyOTliYTQxMmI0NDZmZTEyZTM0MWNjYzU4MmYzMTkyMTg5In19fQ=="
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        0.085,
+                                        0.085,
+                                        0.085,
+                                        0
+                                    ],
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "amplifier": 1,
+                                            "duration": 2000000,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -322,7 +1287,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -339,7 +1305,24 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{id:\"minecraft:item\",PickupDelay:32767s,Item:{Count:1b,id:\"minecraft:repeating_command_block\",components:{droppertnt:1,"drop":true,"minecraft:custom_model_data":658}}},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item",
+                                    "PickupDelay": 32767,
+                                    "Item": {
+                                        "Count": 1,
+                                        "id": "minecraft:repeating_command_block",
+                                        "components": {
+                                            "droppertnt": 1,
+                                            "drop": 1,
+                                            "minecraft:custom_model_data": 658
+                                        }
+                                    }
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -352,7 +1335,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -369,7 +1353,17 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{CustomNameVisible:1b,DeathLootTable:\"lbc:applepig\",CustomName:'{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}'},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:pig",
+                                    "CustomNameVisible": true,
+                                    "DeathLootTable": "lbc:applepig",
+                                    "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}"
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -382,7 +1376,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -399,7 +1394,16 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{DeathLootTable:\"lbc:honey\",HasNectar:1b},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:bee",
+                                    "DeathLootTable": "lbc:honey",
+                                    "HasNectar": true
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -412,7 +1416,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -429,7 +1434,100 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{Silent:1b,CustomNameVisible:1b,PersistenceRequired:1b,Health:500f,Tags:[\"stalin\",\"lucky_mob\"],CustomName:'{\"translate\":\"stalin\",\"color\":\"red\",\"italic\":false}',HandItems:[{id:\"minecraft:carrot_on_a_stick\",Count:1b,components:{"minecraft:custom_model_data":619}},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,components:{display:{color:517}}},{id:\"minecraft:leather_leggings\",Count:1b},{id:\"minecraft:leather_chestplate\",Count:1b,components:{display:{color:517}}},{id:\"minecraft:leather_helmet\",Count:1b,components:{display:{color:517},Unbreakable:1b}}],active_effects:[{id:\"minecraft:fire_resistance\",amplifier:0b,duration:2000000},{id:\"minecraft:invisibility\",amplifier:0b,duration:2000000}],Attributes:[{Name:\"generic.max_health\",Base:500},{Name:\"generic.follow_range\",Base:100}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],DeathLootTable:\"lbc:stalin\"},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:zombified_piglin",
+                                    "Silent": true,
+                                    "CustomNameVisible": true,
+                                    "PersistenceRequired": true,
+                                    "Health": 500,
+                                    "Tags": [
+                                        "stalin",
+                                        "lucky_mob"
+                                    ],
+                                    "CustomName": "{\"translate\":\"stalin\",\"color\":\"red\",\"italic\":false}",
+                                    "HandItems": [
+                                        {
+                                            "id": "minecraft:carrot_on_a_stick",
+                                            "Count": 1,
+                                            "components": {
+                                                "minecraft:custom_model_data": 619
+                                            }
+                                        },
+                                        {}
+                                    ],
+                                    "HandDropChances": [
+                                        0,
+                                        0
+                                    ],
+                                    "ArmorItems": [
+                                        {
+                                            "id": "minecraft:leather_boots",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "color": 517
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:leather_leggings",
+                                            "Count": 1
+                                        },
+                                        {
+                                            "id": "minecraft:leather_chestplate",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "color": 517
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:leather_helmet",
+                                            "Count": 1,
+                                            "components": {
+                                                "display": {
+                                                    "color": 517
+                                                },
+                                                "Unbreakable": 1
+                                            }
+                                        }
+                                    ],
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:fire_resistance",
+                                            "amplifier": 0,
+                                            "duration": 2000000
+                                        },
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "amplifier": 0,
+                                            "duration": 2000000
+                                        }
+                                    ],
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.max_health",
+                                            "Base": 500
+                                        },
+                                        {
+                                            "Name": "generic.follow_range",
+                                            "Base": 100
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        0,
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "DeathLootTable": "lbc:stalin"
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -442,7 +1540,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -459,7 +1558,24 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{id:\"minecraft:item\",PickupDelay:32767s,Item:{Count:1b,id:\"minecraft:repeating_command_block\",components:{"mom": true,"drop":true,"minecraft:custom_model_data":658}}},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item",
+                                    "PickupDelay": 32767,
+                                    "Item": {
+                                        "Count": 1,
+                                        "id": "minecraft:repeating_command_block",
+                                        "components": {
+                                            "mom": 1,
+                                            "drop": 1,
+                                            "minecraft:custom_model_data": 658
+                                        }
+                                    }
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -472,7 +1588,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -489,7 +1606,63 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{NoGravity:0b,Silent:1b,Invulnerable:0b,CustomNameVisible:1b,PersistenceRequired:1b,NoAI:1b,Health:500f,IsBaby:0b,Tags:[\"transformator\",\"lucky_mob\"],CustomName:'[{\"translate\":\"transformator\",\"color\":\"gold\",\"italic\":false},{\"text\":\" Nightmare23 Birthday\",\"color\":\"gray\"}]',ArmorItems:[{},{},{},{id:\"minecraft:repeating_command_block\",Count:1b,components:{"minecraft:custom_model_data":596}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],active_effects:[{id:\"minecraft:invisibility\",amplifier:1b,duration:2000000,show_particles:0b}],Attributes:[{Name:\"generic.max_health\",Base:500},{Name:\"generic.knockback_resistance\",Base:100}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:zombie",
+                                    "NoGravity": false,
+                                    "Silent": true,
+                                    "Invulnerable": false,
+                                    "CustomNameVisible": true,
+                                    "PersistenceRequired": true,
+                                    "NoAI": true,
+                                    "Health": 500,
+                                    "IsBaby": false,
+                                    "Tags": [
+                                        "transformator",
+                                        "lucky_mob"
+                                    ],
+                                    "CustomName": "[{\"translate\":\"transformator\",\"color\":\"gold\",\"italic\":false},{\"text\":\" Nightmare23 Birthday\",\"color\":\"gray\"}]",
+                                    "ArmorItems": [
+                                        {},
+                                        {},
+                                        {},
+                                        {
+                                            "id": "minecraft:repeating_command_block",
+                                            "Count": 1,
+                                            "components": {
+                                                "minecraft:custom_model_data": 596
+                                            }
+                                        }
+                                    ],
+                                    "ArmorDropChances": [
+                                        0.085,
+                                        0.085,
+                                        0.085,
+                                        0
+                                    ],
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "amplifier": 1,
+                                            "duration": 2000000,
+                                            "show_particles": false
+                                        }
+                                    ],
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.max_health",
+                                            "Base": 500
+                                        },
+                                        {
+                                            "Name": "generic.knockback_resistance",
+                                            "Base": 100
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -502,7 +1675,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -519,7 +1693,24 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{id:\"minecraft:item\",PickupDelay:32767s,Item:{Count:1b,id:\"minecraft:repeating_command_block\",components:{"helicopter_boss": true,"drop":true,"minecraft:custom_model_data":658}}},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:item",
+                                    "PickupDelay": 32767,
+                                    "Item": {
+                                        "Count": 1,
+                                        "id": "minecraft:repeating_command_block",
+                                        "components": {
+                                            "helicopter_boss": 1,
+                                            "drop": 1,
+                                            "minecraft:custom_model_data": 658
+                                        }
+                                    }
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -532,7 +1723,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -549,7 +1741,81 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{Silent:1b,DeathLootTable:\"lbc:muravei\",PersistenceRequired:1b,ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Health:10f,IsBaby:1b,Tags:[\"muravei\",\"lucky_mob\"],CustomName:'{\"translate\":\"muravei\"}',ArmorItems:[{},{},{},{id:\"minecraft:repeating_command_block\",Count:1b,components:{"minecraft:custom_model_data":655,Unbreakable:1b}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:1b,duration:-1,show_particles:0b}],Attributes:[{Name:\"generic.max_health\",Base:10},{Name:\"generic.follow_range\",Base:50},{Name:\"generic.movement_speed\",Base:0.25},{Name:\"generic.attack_damage\",Base:3},{Name:\"generic.armor\",Base:5},{Name:\"generic.armor_toughness\",Base:5},{Name:\"zombie.spawn_reinforcements\",Base:100}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:zombie",
+                                    "Silent": true,
+                                    "DeathLootTable": "lbc:muravei",
+                                    "PersistenceRequired": true,
+                                    "ArmorDropChances": [
+                                        0.085,
+                                        0.085,
+                                        0.085,
+                                        0
+                                    ],
+                                    "Health": 10,
+                                    "IsBaby": true,
+                                    "Tags": [
+                                        "muravei",
+                                        "lucky_mob"
+                                    ],
+                                    "CustomName": "{\"translate\":\"muravei\"}",
+                                    "ArmorItems": [
+                                        {},
+                                        {},
+                                        {},
+                                        {
+                                            "id": "minecraft:repeating_command_block",
+                                            "Count": 1,
+                                            "components": {
+                                                "minecraft:custom_model_data": 655,
+                                                "Unbreakable": 1
+                                            }
+                                        }
+                                    ],
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "amplifier": 1,
+                                            "duration": -1,
+                                            "show_particles": false
+                                        }
+                                    ],
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.max_health",
+                                            "Base": 10
+                                        },
+                                        {
+                                            "Name": "generic.follow_range",
+                                            "Base": 50
+                                        },
+                                        {
+                                            "Name": "generic.movement_speed",
+                                            "Base": 0.25
+                                        },
+                                        {
+                                            "Name": "generic.attack_damage",
+                                            "Base": 3
+                                        },
+                                        {
+                                            "Name": "generic.armor",
+                                            "Base": 5
+                                        },
+                                        {
+                                            "Name": "generic.armor_toughness",
+                                            "Base": 5
+                                        },
+                                        {
+                                            "Name": "zombie.spawn_reinforcements",
+                                            "Base": 100
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -562,7 +1828,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -579,7 +1846,19 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"grimoire_dungeon\",\"spawn_monument\"]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "slowraycast",
+                                        "grimoire_dungeon",
+                                        "spawn_monument"
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -592,7 +1871,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -609,7 +1889,74 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{Tags:[\"lucky_mob\",\"golden_skeleton\",\"dungeon_mob\"],CustomName:'{\"translate\":\"golden_skeleton\",\"color\":\"gold\",\"italic\":false}',DeathLootTable:\"lbc:golden_skeleton\",PersistenceRequired:1b,Health:30f,HandItems:[{id:\"minecraft:golden_sword\",Count:1b},{}],ArmorItems:[{id:\"minecraft:golden_boots\",Count:1b},{id:\"minecraft:golden_leggings\",Count:1b},{id:\"minecraft:golden_chestplate\",Count:1b},{id:\"minecraft:golden_helmet\",Count:1b}],Attributes:[{Name:\"generic.max_health\",Base:30},{Name:\"generic.follow_range\",Base:100},{Name:\"generic.knockback_resistance\",Base:10},{Name:\"generic.attack_damage\",Base:10},{Name:\"generic.armor\",Base:10},{Name:\"generic.armor_toughness\",Base:10}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:skeleton",
+                                    "Tags": [
+                                        "lucky_mob",
+                                        "golden_skeleton",
+                                        "dungeon_mob"
+                                    ],
+                                    "CustomName": "{\"translate\":\"golden_skeleton\",\"color\":\"gold\",\"italic\":false}",
+                                    "DeathLootTable": "lbc:golden_skeleton",
+                                    "PersistenceRequired": true,
+                                    "Health": 30,
+                                    "HandItems": [
+                                        {
+                                            "id": "minecraft:golden_sword",
+                                            "Count": 1
+                                        },
+                                        {}
+                                    ],
+                                    "ArmorItems": [
+                                        {
+                                            "id": "minecraft:golden_boots",
+                                            "Count": 1
+                                        },
+                                        {
+                                            "id": "minecraft:golden_leggings",
+                                            "Count": 1
+                                        },
+                                        {
+                                            "id": "minecraft:golden_chestplate",
+                                            "Count": 1
+                                        },
+                                        {
+                                            "id": "minecraft:golden_helmet",
+                                            "Count": 1
+                                        }
+                                    ],
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.max_health",
+                                            "Base": 30
+                                        },
+                                        {
+                                            "Name": "generic.follow_range",
+                                            "Base": 100
+                                        },
+                                        {
+                                            "Name": "generic.knockback_resistance",
+                                            "Base": 10
+                                        },
+                                        {
+                                            "Name": "generic.attack_damage",
+                                            "Base": 10
+                                        },
+                                        {
+                                            "Name": "generic.armor",
+                                            "Base": 10
+                                        },
+                                        {
+                                            "Name": "generic.armor_toughness",
+                                            "Base": 10
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -622,7 +1969,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -639,7 +1987,55 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{Tags:[\"lucky_mob\",\"tiny_skeleton\",\"dungeon_mob\"],CustomName:'{\"translate\":\"tiny_skeleton\",\"color\":\"gold\",\"italic\":false}',DeathLootTable:\"lbc:tiny_skeleton\",PersistenceRequired:1b,Health:45f,HandItems:[{id:\"minecraft:golden_sword\",Count:1b,components:{"minecraft:custom_model_data":582}},{}],Attributes:[{Name:\"generic.max_health\",Base:45},{Name:\"generic.follow_range\",Base:100},{Name:\"generic.attack_damage\",Base:17},{Name:\"generic.armor\",Base:1},{Name:\"generic.armor_toughness\",Base:1}]},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:skeleton",
+                                    "Tags": [
+                                        "lucky_mob",
+                                        "tiny_skeleton",
+                                        "dungeon_mob"
+                                    ],
+                                    "CustomName": "{\"translate\":\"tiny_skeleton\",\"color\":\"gold\",\"italic\":false}",
+                                    "DeathLootTable": "lbc:tiny_skeleton",
+                                    "PersistenceRequired": true,
+                                    "Health": 45,
+                                    "HandItems": [
+                                        {
+                                            "id": "minecraft:golden_sword",
+                                            "Count": 1,
+                                            "components": {
+                                                "minecraft:custom_model_data": 582
+                                            }
+                                        },
+                                        {}
+                                    ],
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.max_health",
+                                            "Base": 45
+                                        },
+                                        {
+                                            "Name": "generic.follow_range",
+                                            "Base": 100
+                                        },
+                                        {
+                                            "Name": "generic.attack_damage",
+                                            "Base": 17
+                                        },
+                                        {
+                                            "Name": "generic.armor",
+                                            "Base": 1
+                                        },
+                                        {
+                                            "Name": "generic.armor_toughness",
+                                            "Base": 1
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -652,7 +2048,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
@@ -669,7 +2066,27 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{EntityTag:{DeathLootTable:\"lbc:death_loot\",Health:150f,Tags:[\"death_mob\"],Brain:{memories:{\"minecraft:dig_cooldown\":{value:{},ttl:32767L}}}},"imba": true}"
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:warden",
+                                    "DeathLootTable": "lbc:death_loot",
+                                    "Health": 150,
+                                    "Tags": [
+                                        "death_mob"
+                                    ],
+                                    "Brain": {
+                                        "memories": {
+                                            "minecraft:dig_cooldown": {
+                                                "value": {},
+                                                "ttl": 32767
+                                            }
+                                        }
+                                    }
+                                },
+                                "minecraft:custom_data": {
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -682,7 +2099,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "imba_version",
