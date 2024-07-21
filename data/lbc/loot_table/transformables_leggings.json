@@ -140,7 +140,7 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"minecraft:custom_model_data":5,"transformable": true,"leggings": true,HideFlags:68,display:{color:3},"chaoschestplate": true,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:generic.armor,Amount:4,Operation:0,UUID:[I;-438177,140206701,-162339653,-30994581],Slot:legs}]}"
+              "components": {"minecraft:custom_model_data":5,"transformable": true,"leggings": true,HideFlags:68,display:{color:3},"chaoschestplate": true,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:generic.armor,Amount:4,Operation:0,UUID:[I;-438177,140206701,-162339653,-30994581],Slot:legs}]}"
             },
             {
               "function": "minecraft:set_name",

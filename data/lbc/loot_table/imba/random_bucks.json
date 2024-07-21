@@ -16,7 +16,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"minecraft:custom_model_data":646,bucks:1b,imba:1b}"
+                            "components": {"minecraft:custom_model_data":646,bucks:1b,imba:1b}"
                         },
                         {
                             "function": "set_name",

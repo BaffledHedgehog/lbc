@@ -75,7 +75,7 @@
                   },
                   {
                     "function": "set_components",
-                    "tag": "{"minecraft:custom_model_data":591,"craftusable": true,sickle:1b,"socializm": true,"transformable": true,"hoe": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-1410842775,1488079674,-1715658941,-1450929135]},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-1754116325,-712751714,-1149145765,-90495975]}]}"
+                    "components": {"minecraft:custom_model_data":591,"craftusable": true,sickle:1b,"socializm": true,"transformable": true,"hoe": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-1410842775,1488079674,-1715658941,-1450929135]},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-1754116325,-712751714,-1149145765,-90495975]}]}"
                   },
                   {
                     "function": "set_name",

@@ -63,7 +63,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":582,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"end_portal\",\"instant\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":582,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"end_portal\",\"instant\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -92,7 +92,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":583,EntityTag:{id:\"minecraft:end_crystal\"},imba:1b}"
+                            "components": {"minecraft:custom_model_data":583,EntityTag:{id:\"minecraft:end_crystal\"},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -121,7 +121,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":584,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"nether_portal\",\"instant\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":584,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"nether_portal\",\"instant\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",

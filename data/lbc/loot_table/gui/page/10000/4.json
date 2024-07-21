@@ -8,7 +8,7 @@
                     "name": "minecraft:netherite_chestplate",
                     "functions": [{
                         "function": "minecraft:set_components",
-                        "tag": "{"minecraft:custom_model_data":679,HideFlags:255}"
+                        "components": {"minecraft:custom_model_data":679,HideFlags:255}"
                     },
                         {
                             "function": "minecraft:copy_components",

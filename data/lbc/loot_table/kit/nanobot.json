@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{"minecraft:custom_model_data":595,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"nano_trapik\",\"player\"]}}"
+                            "components": {"minecraft:custom_model_data":595,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"nano_trapik\",\"player\"]}}"
                         },
                         {
                             "function": "set_name",

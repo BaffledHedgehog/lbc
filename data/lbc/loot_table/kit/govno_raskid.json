@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{"minecraft:custom_model_data":687,"gadget": true,govno_raskid:1b}"
+                            "components": {"minecraft:custom_model_data":687,"gadget": true,govno_raskid:1b}"
                         },
                         {
                             "function": "set_name",

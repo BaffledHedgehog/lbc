@@ -1,7 +1,7 @@
 [
     {
       "function": "minecraft:set_components",
-      "tag": "{"minecraft:custom_model_data":681}",
+      "components": {"minecraft:custom_model_data":681}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -18,7 +18,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{"minecraft:custom_model_data":682}",
+      "components": {"minecraft:custom_model_data":682}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -35,7 +35,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{"minecraft:custom_model_data":683}",
+      "components": {"minecraft:custom_model_data":683}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -52,7 +52,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{"minecraft:custom_model_data":684}",
+      "components": {"minecraft:custom_model_data":684}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -69,7 +69,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{"minecraft:custom_model_data":685}",
+      "components": {"minecraft:custom_model_data":685}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -86,7 +86,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{"minecraft:custom_model_data":686}",
+      "components": {"minecraft:custom_model_data":686}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -103,7 +103,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{"minecraft:custom_model_data":687}",
+      "components": {"minecraft:custom_model_data":687}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -120,7 +120,7 @@
     },
     {
         "function": "minecraft:set_components",
-        "tag": "{"minecraft:custom_model_data":680}",
+        "components": {"minecraft:custom_model_data":680}",
         "conditions": [
           {
             "condition": "minecraft:entity_properties",

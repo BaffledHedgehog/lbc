@@ -85,7 +85,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":585,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"pumpkinator\",\"rare\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":585,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"pumpkinator\",\"rare\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",

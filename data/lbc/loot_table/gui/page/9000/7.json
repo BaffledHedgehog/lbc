@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":685}"
+                            "components": {"minecraft:custom_model_data":685}"
                         },
                         {
                             "function": "minecraft:copy_components",

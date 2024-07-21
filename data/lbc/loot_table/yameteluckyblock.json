@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_components",
-                "tag": "{"minecraft:custom_model_data":520,BlockStateTag:{up:\"false\",down:\"false\",north:\"false\",south:\"false\",east:\"false\",west:\"false\"}}"
+                "components": {"minecraft:custom_model_data":520,BlockStateTag:{up:\"false\",down:\"false\",north:\"false\",south:\"false\",east:\"false\",west:\"false\"}}"
               },
               {
                 "function": "minecraft:set_name",

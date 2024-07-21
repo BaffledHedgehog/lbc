@@ -9,27 +9,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":669}"
-                        },
-                        {
-                            "function": "minecraft:copy_components",
-                            "source": {
-                                "type": "minecraft:storage",
-                                "source": "swrg:lang"
-                            },
-                            "ops": [
-                                {
-                                    "source": "lore.lbclevelup.0",
-                                    "target": "display{}",
-                                    "op": "merge"
-                                }
-                            ]
+                            "components": {"minecraft:custom_model_data":669}
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "components": {lbclevelup.0",
+                                "nbt": "lbclevelup.0.Name",
                                 "storage": "swrg:lang",
                                 "interpret": true
                             }

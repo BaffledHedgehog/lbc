@@ -74,7 +74,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":578,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"bedrock_bastion\",\"instant\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":578,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"bedrock_bastion\",\"instant\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -113,7 +113,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":666,imba:1b}"
+                            "components": {"minecraft:custom_model_data":666,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -184,7 +184,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":580,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"funny_tnt\",\"instant\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":580,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"funny_tnt\",\"instant\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -286,7 +286,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":541,EntityTag:{id:\"minecraft:tnt\",fuse:50s,Motion:[0.0,0.3,0.0],Tags:[\"funny_tnt\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":541,EntityTag:{id:\"minecraft:tnt\",fuse:50s,Motion:[0.0,0.3,0.0],Tags:[\"funny_tnt\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -486,7 +486,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":552,EntityTag:{id:\"minecraft:marker\",Tags:[\"delta_tnt\",\"marker_2t\",\"mecha\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":552,EntityTag:{id:\"minecraft:marker\",Tags:[\"delta_tnt\",\"marker_2t\",\"mecha\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -527,7 +527,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":551,EntityTag:{id:\"minecraft:marker\",Tags:[\"nuke_bruh\",\"rc_1sec\",\"marker_2t\",\"mecha\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":551,EntityTag:{id:\"minecraft:marker\",Tags:[\"nuke_bruh\",\"rc_1sec\",\"marker_2t\",\"mecha\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -568,7 +568,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":526,most_imba:1b,"gadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":526,most_imba:1b,"gadget": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -609,7 +609,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":523,teleport1_imba:1b,"gadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":523,teleport1_imba:1b,"gadget": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -721,7 +721,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":528,"gadget": true,HideFlags:1,"rasengan": true,Enchantments:[{id:\"minecraft:sweeping_edge\",lvl:1s}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":528,"gadget": true,HideFlags:1,"rasengan": true,Enchantments:[{id:\"minecraft:sweeping_edge\",lvl:1s}],imba:1b}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -781,7 +781,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":528,"gadget": true,HideFlags:1,"rasengan": true,Enchantments:[{id:\"minecraft:sweeping_edge\",lvl:1s}],imba:1b}"
+                            "components": {"minecraft:custom_model_data":528,"gadget": true,HideFlags:1,"rasengan": true,Enchantments:[{id:\"minecraft:sweeping_edge\",lvl:1s}],imba:1b}"
                         },
                         {
                             "function": "minecraft:set_lore","mode":"replace_all",
@@ -838,7 +838,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":527,"special": true,"smoke": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":527,"special": true,"smoke": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -863,7 +863,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":524,"randtp": true,"gadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":524,"randtp": true,"gadget": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -904,7 +904,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":525,"islandtp": true,"gadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":525,"islandtp": true,"gadget": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1063,7 +1063,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":559,"bad_apple": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":559,"bad_apple": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1169,7 +1169,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":569,"special": true,"luckygrenade": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":569,"special": true,"luckygrenade": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1214,7 +1214,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":573,EntityTag:{id:\"minecraft:marker\",Tags:[\"stopper\",\"rc_1sec\",\"marker_2t\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":573,EntityTag:{id:\"minecraft:marker\",Tags:[\"stopper\",\"rc_1sec\",\"marker_2t\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1255,7 +1255,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":575,EntityTag:{id:\"minecraft:marker\",Tags:[\"stopper_magic\",\"rc_1sec\",\"marker_2t\"]},imba:1b}"
+                            "components": {"minecraft:custom_model_data":575,EntityTag:{id:\"minecraft:marker\",Tags:[\"stopper_magic\",\"rc_1sec\",\"marker_2t\"]},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1836,7 +1836,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":575,"konserva": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":575,"konserva": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -2365,7 +2365,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":589,"ruchka": true,"projegadget": true,imba:1b}"
+                            "components": {"minecraft:custom_model_data":589,"ruchka": true,"projegadget": true,imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -2492,7 +2492,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"minecraft:custom_model_data":577,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"railroad\",\"other\"],data:{railtime:0}},imba:1b}"
+                            "components": {"minecraft:custom_model_data":577,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"railroad\",\"other\"],data:{railtime:0}},imba:1b}"
                         },
                         {
                             "function": "minecraft:set_name",
