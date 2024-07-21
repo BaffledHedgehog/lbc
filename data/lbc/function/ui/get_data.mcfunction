@@ -41,7 +41,7 @@ execute if score @s overheaven matches 1.. run data modify storage lbc.math ui a
 execute if score @s gigaponos matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE135 ","extra":[{"score":{"name":"@s","objective":"gigaponos"},"color":"white"}]}'
 execute if score @s sprint_cooldown matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE136 ","extra":[{"score":{"name":"@s","objective":"sprint_cooldown"},"color":"white"}]}'
 
-execute if entity @s[nbt={Inventory:[{Slot:103b,components:{bucket_head:1b}}]}] run data modify storage lbc.math ui2 prepend value '{"text":"                                      \\uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}'
+execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"bucket_head": true}}]}] run data modify storage lbc.math ui2 prepend value '{"text":"                                      \\uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}'
 execute if score @s skill_issue matches 1.. run data modify storage lbc.math ui2 append value '{"text":" \\uE130 "}'
 execute unless score legacy lbc.math matches 1 run title @s actionbar {"storage":"lbc.math","components":"ui[]","separator":"","interpret":true}
-execute unless score legacy lbc.math matches 1 unless entity @s[scores={skill_issue=..0},nbt=!{Inventory:[{Slot:103b,components:{bucket_head:1b}}]}] run title @s title {"storage":"lbc.math","components":"ui2[]","separator":"","interpret":true}
+execute unless score legacy lbc.math matches 1 unless entity @s[scores={skill_issue=..0},nbt=!{Inventory:[{Slot:103b,components:{"bucket_head": true}}]}] run title @s title {"storage":"lbc.math","components":"ui2[]","separator":"","interpret":true}

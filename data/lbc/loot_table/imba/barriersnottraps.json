@@ -236,7 +236,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"luckyspawner": true,
+                                "minecraft:custom_data": {
+                                    "luckyspawner": true,
                                     "drop": true,
                                     "imba": true
                                 }
@@ -279,7 +280,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"opanvil": true,
+                                "minecraft:custom_data": {
+                                    "opanvil": true,
                                     "drop": true,
                                     "imba": true
                                 }
@@ -300,7 +302,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"sethome": true,
+                                "minecraft:custom_data": {
+                                    "sethome": true,
                                     "drop": true,
                                     "imba": true
                                 }
@@ -327,7 +330,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"magicbean": true,
+                                "minecraft:custom_data": {
+                                    "magicbean": true,
                                     "drop": true,
                                     "imba": true
                                 }
@@ -348,7 +352,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"magicbean": true,
+                                "minecraft:custom_data": {
+                                    "magicbean": true,
                                     "drop": true,
                                     "imba": true
                                 }
@@ -384,7 +389,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"greedcurse": true,
+                                "minecraft:custom_data": {
+                                    "greedcurse": true,
                                     "drop": true,
                                     "imba": true
                                 }
@@ -405,7 +411,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"pizanski": true,
+                                "minecraft:custom_data": {
+                                    "pizanski": true,
                                     "drop": true,
                                     "imba": true
                                 }
@@ -426,7 +433,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {"magic_academy": true,
+                                "minecraft:custom_data": {
+                                    "magic_academy": true,
                                     "drop": true,
                                     "imba": true
                                 }

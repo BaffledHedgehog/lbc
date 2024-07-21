@@ -9,7 +9,20 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"transformable": true,"helmet": true,bucket_head:1b,display:{color:775},"minecraft:custom_model_data":25,HideFlags:64,Unbreakable:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "helmet": true,
+                                    "bucket_head": true,
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 25,
+                                "minecraft:unbreakable": {},
+                                "minecraft:dyed_color": {
+                                    "rgb": 775,
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -20,7 +33,8 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
