@@ -17,7 +17,7 @@ execute as @s[nbt={SelectedItem:{components:{fastexplode_old:1b}}}] at @s unless
 # Dildo 8)
 execute as @s[nbt={SelectedItem:{components:{penisgun:1b}}}] at @s run function lbc:workingitems/penispenispenis
 
-execute as @s[nbt={SelectedItem:{components:{imba_sniper_crossbow:1b}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:items/crossbow/imba_sniper_crossbow
-execute as @s[nbt={SelectedItem:{components:{imba_shotgun:1b}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:items/crossbow/imba_shotgun_crossbow
+execute as @s[nbt={SelectedItem:{components:{"imba_sniper_crossbow": true}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:items/crossbow/imba_sniper_crossbow
+execute as @s[nbt={SelectedItem:{components:{"imba_shotgun": true}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:items/crossbow/imba_shotgun_crossbow
 execute as @s[nbt={SelectedItem:{components:{imba_super_shotgun:1b}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:items/crossbow/imba_super_shotgun_crossbow
 advancement revoke @s only lbc:crossbow

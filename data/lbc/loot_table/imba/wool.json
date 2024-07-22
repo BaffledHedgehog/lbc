@@ -23,10 +23,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,black:1b,"projegadget": true,"minecraft:custom_model_data":602,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "black": true,
+                                    "projegadget": true,
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 602
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -62,10 +71,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,blue:1b,"projegadget": true,"minecraft:custom_model_data":603,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "blue": true,
+                                    "projegadget": true,
+                                    "imba": true
+                                },
+                                "minecraft:custom_model_data": 603
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -101,10 +119,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":604,brown:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "brown": true
+                                },
+                                "minecraft:custom_model_data": 604
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -140,10 +167,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":605,cyan:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "cyan": true
+                                },
+                                "minecraft:custom_model_data": 605
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -179,10 +215,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":606,gray:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "gray": true
+                                },
+                                "minecraft:custom_model_data": 606
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -218,10 +263,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":607,green:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "green": true
+                                },
+                                "minecraft:custom_model_data": 607
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -257,10 +311,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":608,light_blue:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "light_blue": true
+                                },
+                                "minecraft:custom_model_data": 608
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -296,10 +359,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":609,light_gray:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "light_gray": true
+                                },
+                                "minecraft:custom_model_data": 609
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -335,10 +407,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":610,lime:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "lime": true
+                                },
+                                "minecraft:custom_model_data": 610
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -374,10 +455,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":611,magenta:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "magenta": true
+                                },
+                                "minecraft:custom_model_data": 611
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -413,10 +503,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":612,orange:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "orange": true
+                                },
+                                "minecraft:custom_model_data": 612
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -452,10 +551,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":613,pink:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "pink": true
+                                },
+                                "minecraft:custom_model_data": 613
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -491,10 +599,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":614,purple:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "purple": true
+                                },
+                                "minecraft:custom_model_data": 614
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -530,10 +647,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":615,red:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "red": true
+                                },
+                                "minecraft:custom_model_data": 615
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -569,10 +695,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":616,white:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "white": true
+                                },
+                                "minecraft:custom_model_data": 616
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
@@ -608,10 +743,19 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{wool:1b,"projegadget": true,"minecraft:custom_model_data":617,yellow:1b,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "wool": true,
+                                    "projegadget": true,
+                                    "imba": true,
+                                    "yellow": true
+                                },
+                                "minecraft:custom_model_data": 617
+                            }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wool.lore",
