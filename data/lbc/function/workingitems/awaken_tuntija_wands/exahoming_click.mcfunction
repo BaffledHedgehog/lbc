@@ -1,5 +1,5 @@
 function lbc:workingitems/awaken_tuntija_wands/exahoming_click_loop
-execute if entity @s[nbt={SelectedItem:{components:{upgradable:1b}}},predicate=lbc:sneak] run function lbc:workingitems/awaken_tuntija_wands/exahoming_click_upgrade
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}},predicate=lbc:sneak] run function lbc:workingitems/awaken_tuntija_wands/exahoming_click_upgrade
 playsound entity.firework_rocket.shoot master @a ~ ~ ~ 1 1
 scoreboard players operation @s mana -= exahoming_wand_mana_use lbc.math
-scoreboard players operation @s[nbt={Inventory:[{Slot:100b,components:{"mage": true}},{Slot:101b,components:{"mage": true}},{Slot:102b,components:{"mage": true}},{Slot:103b,components:{"mage": true}}]}] manamax += mage_set_bonus lbc.math
+scoreboard players operation @s[nbt={Inventory:[{Slot:100b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:101b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:102b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:103b,components: {"minecraft:custom_data":{"mage": true}}}]}] manamax += mage_set_bonus lbc.math

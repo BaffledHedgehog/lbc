@@ -18,6 +18,6 @@ execute if score #random4 lbc.math matches 2 run particle minecraft:large_smoke 
 execute if score #random4 lbc.math matches 3 run effect give @s speed 10 3 true
 execute if score #random4 lbc.math matches 3 run effect give @s jump_boost 10 3 true
 execute if score #random4 lbc.math matches 3 run particle minecraft:end_rod ~ ~1 ~ 1 1 1 0.05 30 force
-execute if score #random4 lbc.math matches 3 run playsound minecraft:entity.illusioner.cast_spell master @a ~ ~ ~ 1 0 
+execute if score #random4 lbc.math matches 3 run playsound minecraft:entity.illusioner.cast_spell master @a ~ ~ ~ 1 0
 
 scoreboard players set @s coldown_foxus 1000

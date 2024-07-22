@@ -2,8 +2,8 @@
 execute if entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] run tellraw @s {"translate":"magic_academy_root","color":"green"}
 execute if entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] run tellraw @s {"translate":"already_upgraded"}
 execute if entity @s[nbt={SelectedItem:{components:{upgrade_available:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] run function lbc:other/magic_academy/interacted_upgrade
-execute if entity @s[nbt={SelectedItem:{components:{upgradable:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgrade_available:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] run tellraw @s {"translate":"magic_academy_root","color":"green"}
-execute if entity @s[nbt={SelectedItem:{components:{upgradable:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgrade_available:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] run tellraw @s {"translate":"no_conditions"}
-execute unless entity @s[nbt={SelectedItem:{components:{upgradable:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgrade_available:1b}}}] run function lbc:other/magic_academy/interacted_2
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}}] unless entity @s[nbt={SelectedItem:{components:{upgrade_available:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] run tellraw @s {"translate":"magic_academy_root","color":"green"}
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}}] unless entity @s[nbt={SelectedItem:{components:{upgrade_available:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] run tellraw @s {"translate":"no_conditions"}
+execute unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}}] unless entity @s[nbt={SelectedItem:{components:{upgraded:1b}}}] unless entity @s[nbt={SelectedItem:{components:{upgrade_available:1b}}}] run function lbc:other/magic_academy/interacted_2
 
 advancement revoke @s only lbc:interacted_with_academy

@@ -1,5 +1,5 @@
-execute at @s[nbt={SelectedItem:{components:{"magnet": true}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
-execute at @s[nbt={Inventory:[{Slot:-106b,components:{"magnet": true}}]}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
-execute at @s[nbt={SelectedItem:{components:{"magnet": true}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
-execute at @s[nbt={Inventory:[{Slot:-106b,components:{"magnet": true}}]}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
-execute if entity @e[type=item,distance=..1,limit=1,nbt={Item:{components:{penis_bomb:1b}}}] run advancement grant @s only lbc:true_advancements/accesories/magnet
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"magnet": true}}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
+execute at @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"magnet": true}}}]}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"magnet": true}}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
+execute at @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"magnet": true}}}]}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
+execute if entity @e[type=item,distance=..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"penis_bomb":true}}}}] run advancement grant @s only lbc:true_advancements/accesories/magnet

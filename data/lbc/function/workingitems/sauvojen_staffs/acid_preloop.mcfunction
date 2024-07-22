@@ -4,4 +4,4 @@ data modify entity @e[type=marker,tag=raycastacidbig,tag=!actived,limit=1,distan
 scoreboard players operation @e[type=marker,tag=raycastacidbig,tag=!actived,limit=1,distance=..0.0001] lbcID2 = @s lbcID2
 execute as @e[type=marker,tag=raycastacidbig,tag=!actived,limit=1,distance=..0.0001] at @s run function lbc:universal_razbros
 tag @e[type=marker,tag=raycastacidbig,tag=!actived,limit=1,distance=..0.0001] add actived
-execute if entity @s[nbt={SelectedItem:{components:{upgradable:1b}}},predicate=lbc:on_fire] run function lbc:other/magic_academy/can_upgrade
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}},predicate=lbc:on_fire] run function lbc:other/magic_academy/can_upgrade

@@ -7,4 +7,4 @@ execute at @e[type=marker,distance=..0.1,tag=psycho_charge,limit=3,tag=!actived]
 scoreboard players operation @e[type=marker,distance=..0.1,tag=psycho_charge,limit=3,tag=!actived] lbcID2 = @s lbcID2
 execute as @e[type=marker,distance=..0.1,tag=psycho_charge,limit=3,tag=!actived] run function lbc:universal_razbros
 tag @e[type=marker,distance=..0.1,tag=psycho_charge,limit=3,tag=!actived] add actived
-execute if entity @s[nbt={SelectedItem:{components:{upgradable:1b}}},predicate=lbc:sneak] run function lbc:workingitems/awaken_tuntija_wands/psychoblind/click2_upgrade
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}},predicate=lbc:sneak] run function lbc:workingitems/awaken_tuntija_wands/psychoblind/click2_upgrade

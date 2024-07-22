@@ -27,4 +27,4 @@ execute store result score tmp1 lbc.math run data get entity @s Pos[1]
 scoreboard players operation tmp1 lbc.math -= tmp lbc.math
 execute if score tmp1 lbc.math matches 50.. run advancement grant @s only lbc:true_advancements/staffs/confuse
 
-execute if entity @s[nbt={SelectedItem:{components:{upgradable:1b}}}] if score #random4 lbc.math matches 2 if entity @s[nbt={active_effects:[{id:"minecraft:slow_falling"},{id:"minecraft:speed"},{id:"minecraft:jump_boost"},{id:"minecraft:invisibility"}]}] if entity @e[type=#mobs,limit=1,distance=0.01..15,nbt={active_effects:[{id:"minecraft:blindness"},{id:"minecraft:slowness"}]}] run function lbc:other/magic_academy/can_upgrade
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}}] if score #random4 lbc.math matches 2 if entity @s[nbt={active_effects:[{id:"minecraft:slow_falling"},{id:"minecraft:speed"},{id:"minecraft:jump_boost"},{id:"minecraft:invisibility"}]}] if entity @e[type=#mobs,limit=1,distance=0.01..15,nbt={active_effects:[{id:"minecraft:blindness"},{id:"minecraft:slowness"}]}] run function lbc:other/magic_academy/can_upgrade

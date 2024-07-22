@@ -1,9 +1,9 @@
-particle block_marker lava ~ ~-3 ~ 40 10 30 0 30 force
-particle block_marker lava ~ ~23 ~ 6 20 6 0 40 force
-particle block_marker lava ~ ~60 ~ 26 16 26 0 80 force
-particle block_marker fire ~ ~-5 ~ 40 10 30 0 30 force
-particle block_marker fire ~ ~23 ~ 6 20 6 0 40 force
-particle block_marker fire ~ ~60 ~ 26 16 26 0 80 force
-particle block_marker magma_block ~ ~-5 ~ 30 10 30 0 40 force
-particle block_marker magma_block ~ ~23 ~ 6 20 6 0 40 force
-particle block_marker magma_block ~ ~60 ~ 26 16 26 0 80 force
+particle block_marker{block_state:{Name:"lava"}} ~ ~-3 ~ 40 10 30 0 30 force
+particle block_marker{block_state:{Name:"lava"}} ~ ~23 ~ 6 20 6 0 40 force
+particle block_marker{block_state:{Name:"lava"}} ~ ~60 ~ 26 16 26 0 80 force
+particle block_marker{block_state:{Name:"fire"}} ~ ~-5 ~ 40 10 30 0 30 force
+particle block_marker{block_state:{Name:"fire"}} ~ ~23 ~ 6 20 6 0 40 force
+particle block_marker{block_state:{Name:"fire"}} ~ ~60 ~ 26 16 26 0 80 force
+particle block_marker{block_state:{Name:"magma_block"}} ~ ~-5 ~ 30 10 30 0 40 force
+particle block_marker{block_state:{Name:"magma_block"}} ~ ~23 ~ 6 20 6 0 40 force
+particle block_marker{block_state:{Name:"magma_block"}} ~ ~60 ~ 26 16 26 0 80 force

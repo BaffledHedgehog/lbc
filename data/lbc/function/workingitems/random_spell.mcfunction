@@ -58,9 +58,9 @@ execute if score #random53 lbc.math matches 50 anchored eyes positioned ^ ^ ^ ru
 execute if score #random53 lbc.math matches 51 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/gaycaster/ray/cast2
 execute if score #random53 lbc.math matches 52 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/ice_wand/projectile/cast
 execute if score #random53 lbc.math matches 53 run scoreboard players add @s danmaku 20
-execute if entity @s[nbt={SelectedItem:{components:{upgradable:1b}}}] run function lbc:workingitems/random_spell_check 
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}}] run function lbc:workingitems/random_spell_check 
 
 playsound minecraft:item.book.page_turn master @s ~ ~ ~ 10
 tag @s remove raycaster
 scoreboard players operation @s mana -= unstable_spellbook_mana_use lbc.math
-scoreboard players operation @s[nbt={Inventory:[{Slot:100b,components:{"mage": true}},{Slot:101b,components:{"mage": true}},{Slot:102b,components:{"mage": true}},{Slot:103b,components:{"mage": true}}]}] manamax += mage_set_bonus lbc.math
+scoreboard players operation @s[nbt={Inventory:[{Slot:100b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:101b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:102b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:103b,components: {"minecraft:custom_data":{"mage": true}}}]}] manamax += mage_set_bonus lbc.math
