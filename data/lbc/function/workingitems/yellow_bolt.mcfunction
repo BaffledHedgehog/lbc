@@ -1,6 +1,6 @@
 scoreboard players add @s Distance 1
-particle minecraft:dust_color_transition 1 1 0 1 0.8 0.8 0 ~ ~ ~ 0.1 0.1 0.1 0 1 force
-particle minecraft:dust 0.208 0.118 0.027 1 ~ ~ ~ 0.1 0.1 0.1 1 1 normal
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[0.8,0.8,0.0],scale:1} ~ ~ ~ 0.1 0.1 0.1 0 1 force
+particle minecraft:dust{color:[0.208, 0.118, 0.027],scale:1} ~ ~ ~ 0.1 0.1 0.1 1 1 normal
 playsound entity.firework_rocket.twinkle master @a ~ ~ ~ 0.03 2
 playsound block.rooted_dirt.break master @a ~ ~ ~ 0.03 2
 execute if entity @e[type=#mobs,distance=..15,dx=0,dy=0,dz=0,tag=!spectator] run function lbcr:dmg_bypl_0_25nocd

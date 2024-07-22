@@ -1,4 +1,4 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.tag.mode 1
+execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
 execute if score #mode lbc.math matches 1 as @a[distance=0.01..30,tag=!nomagic_active,gamemode=!spectator] at @s run function lbc:workingitems/psychowand/fantomsounds
 execute if score #mode lbc.math matches 2 as @e[distance=0.01..30,tag=!nomagic_active,tag=!spectator] at @s run function lbc:drops/skrimmer
 execute if score #mode lbc.math matches 3 as @e[type=#mobs,distance=0.01..30,tag=!nomagic_active,tag=!spectator] at @s run function lbc:workingitems/psychowand/lookback

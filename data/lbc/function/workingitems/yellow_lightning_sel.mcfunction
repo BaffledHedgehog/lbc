@@ -1,2 +1,2 @@
-execute if entity @s[nbt={SelectedItem:{components:{yellow_lightning:1b}}}] run function lbc:workingitems/yellow_lightning
-execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{yellow_lightning:1b}}]}] run function lbc:workingitems/yellow_lightning
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{yellow_lightning:1b}}}}] run function lbc:workingitems/yellow_lightning
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{yellow_lightning:1b}}}]}] run function lbc:workingitems/yellow_lightning
