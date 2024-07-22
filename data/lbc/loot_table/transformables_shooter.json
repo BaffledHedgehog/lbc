@@ -15,7 +15,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"shooter": true,"magicwand": true,phantomknifes:1,"minecraft:custom_model_data":565}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shooter": true,
+                  "magicwand": true,
+                  "phantomknifes": true
+                },
+                "minecraft:custom_model_data": 565
+              }
             },
             {
               "function": "set_name",
@@ -28,7 +36,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -73,7 +82,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"shooter": true,"spellwithcooldown": true,"magicwand": true,"minecraft:custom_model_data":574,HideFlags:2,mobgun:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shooter": true,
+                  "spellwithcooldown": true,
+                  "magicwand": true,
+                  "mobgun": true
+                },
+                "minecraft:custom_model_data": 574
+              }
             },
             {
               "function": "set_name",
@@ -85,7 +103,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -132,7 +151,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"shooter": true,"spellwithcooldown": true,"magicwand": true,"minecraft:custom_model_data":574,HideFlags:2,mobgun:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shooter": true,
+                  "spellwithcooldown": true,
+                  "magicwand": true,
+                  "mobgun": true
+                },
+                "minecraft:custom_model_data": 574
+              }
             },
             {
               "function": "set_name",
@@ -144,7 +172,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -206,7 +235,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"shooter": true,"magicwand": true,"minecraft:custom_model_data":573,HideFlags:2,kfcgun:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shooter": true,
+                  "magicwand": true,
+                  "kfcgun": true
+                },
+                "minecraft:custom_model_data": 573
+              }
             },
             {
               "function": "set_name",
@@ -218,7 +255,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -270,7 +308,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"shooter": true,"magicwand": true,"minecraft:custom_model_data":575,HideFlags:2,razorpine:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "shooter": true,
+                  "magicwand": true,
+                  "razorpine": true
+                },
+                "minecraft:custom_model_data": 575
+              }
             },
             {
               "function": "set_name",
@@ -282,7 +329,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -297,19 +345,19 @@
                   }
                 ],
                 {
-                    "translate": "razorpine.lore.2",
-                    "color": "white",
-                    "italic": false
+                  "translate": "razorpine.lore.2",
+                  "color": "white",
+                  "italic": false
                 },
                 {
-                    "translate": "razorpine.lore.3",
-                    "color": "white",
-                    "italic": false
+                  "translate": "razorpine.lore.3",
+                  "color": "white",
+                  "italic": false
                 },
                 {
-                    "translate": "razorpine.lore.4",
-                    "color": "white",
-                    "italic": false
+                  "translate": "razorpine.lore.4",
+                  "color": "white",
+                  "italic": false
                 },
                 {
                   "translate": "razorpine.lore.1",
@@ -332,7 +380,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"shooter": true,"spellwithcooldown": true,"magicwand": true,attack_helicopter:1,"minecraft:custom_model_data":589}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shooter": true,
+                  "spellwithcooldown": true,
+                  "magicwand": true,
+                  "attack_helicopter": true
+                },
+                "minecraft:custom_model_data": 589
+              }
             },
             {
               "function": "set_name",
@@ -345,7 +402,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -402,7 +460,31 @@
             },
             {
               "function": "set_components",
-              "tag": "{HideFlags:2,"transformable": true,"shooter": true,"minecraft:custom_model_data":680,"magicwand": true,laser_minigun:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1,Operation:2,UUID:[I;1123899111,1281180625,-1426087303,-2057111185],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1,Operation:2,UUID:[I;552419386,-8500465,-1130569603,-237547308],Slot:\"offhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shooter": true,
+                  "magicwand": true,
+                  "laser_minigun": true
+                },
+                "minecraft:custom_model_data": 680,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.attack_speed",
+                    "slot": "mainhand",
+                    "id": "generijfyjyjted",
+                    "amount": -1,
+                    "operation": "add_multiplied_total"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_speed",
+                    "slot": "offhand",
+                    "id": "gjcjgfcjhjgjgjed",
+                    "amount": -1,
+                    "operation": "add_multiplied_total"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
@@ -415,7 +497,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -474,7 +557,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"shooter": true,"minecraft:custom_model_data":707,"raycastspell": true,woodificator:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shooter": true,
+                  "raycastspell": true,
+                  "woodificator": true
+                },
+                "minecraft:custom_model_data": 707
+              }
             },
             {
               "function": "set_name",
@@ -487,7 +578,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {

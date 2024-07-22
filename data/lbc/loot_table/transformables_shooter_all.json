@@ -19,7 +19,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"shooter": true,"magicwand": true,"minecraft:custom_model_data":619,"ak47": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "shooter": true,
+                                    "magicwand": true,
+                                    "ak47": true
+                                },
+                                "minecraft:custom_model_data": 619
+                            }
                         },
                         {
                             "function": "set_name",
@@ -31,7 +39,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -68,7 +77,23 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"transformable": true,"shooter": true,"minecraft:custom_model_data":656,magnum:1b,mode:0,"raycastspell": true,display:{Name:'{\"translate\":\"magnum_mode_standard\",\"italic\":false}',Lore:['[{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\"},{\"translate\":\"shooter\",\"italic\":false,\"color\":\"aqua\"}]','{\"translate\":\"magnum_lore_1\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"magnum_lore_2\",\"italic\":false,\"color\":\"white\"}','{\"translate\":\"magnum_lore_3\",\"italic\":false,\"color\":\"aqua\"}']}}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "shooter": true,
+                                    "magnum": true,
+                                    "mode": 0,
+                                    "raycastspell": true
+                                },
+                                "minecraft:custom_model_data": 656,
+                                "minecraft:custom_name": "{\"translate\":\"magnum_mode_standard\",\"italic\":false}",
+                                "minecraft:lore": [
+                                    "[{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\"},{\"translate\":\"shooter\",\"italic\":false,\"color\":\"aqua\"}]",
+                                    "{\"translate\":\"magnum_lore_1\",\"italic\":false,\"color\":\"white\"}",
+                                    "{\"translate\":\"magnum_lore_2\",\"italic\":false,\"color\":\"white\"}",
+                                    "{\"translate\":\"magnum_lore_3\",\"italic\":false,\"color\":\"aqua\"}"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -88,7 +113,17 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"govnoq": true,"transformable": true,"shooter": true,"magicwand": true,"craftusable": true,"minecraft:custom_model_data":618,HideFlags:2,govnomet:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "govnoq": true,
+                                    "transformable": true,
+                                    "shooter": true,
+                                    "magicwand": true,
+                                    "craftusable": true,
+                                    "govnomet": true
+                                },
+                                "minecraft:custom_model_data": 618
+                            }
                         },
                         {
                             "function": "set_name",
@@ -100,7 +135,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {

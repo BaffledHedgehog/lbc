@@ -26,10 +26,17 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"pickaxe": true,"randchanted": true}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "pickaxe": true,
+                  "randchanted": true
+                }
+              }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -59,7 +66,25 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"pickaxe": true,silk:1b,Enchantments:[{id:\"minecraft:silk_touch\",lvl:10s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-2,Operation:0,UUID:[I;1768640660,1227179818,-1910919626,939361007],Slot:\"mainhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "pickaxe": true,
+                  "silk": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:silk_touch": 10
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "mainhand",
+                    "id": "gjtrjjyjryjyge",
+                    "amount": -2,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -71,7 +96,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {

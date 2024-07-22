@@ -47,18 +47,18 @@ tag @s[nbt=!{Inventory:[{components:{yellow_lightning:1b}}]}] remove yellow_ligh
 tag @s[nbt={Inventory:[{components:{mystical:1,type:1}}]}] add nomagic_active
 tag @s[nbt=!{Inventory:[{components:{mystical:1,type:1}}]}] remove nomagic_active
 
-tag @s[nbt={Inventory:[{components:{phantomknifes:1}}]}] add phantomknifes_active
-tag @s[nbt={Inventory:[{components:{razorpine:1}}]}] add razorpine_active
+tag @s[nbt={Inventory:[{components:{"phantomknifes": true}}]}] add phantomknifes_active
+tag @s[nbt={Inventory:[{components:{"razorpine": true}}]}] add razorpine_active
 tag @s[nbt={Inventory:[{components:{mystical:1,type:2}}]}] add notnt_active
-tag @s[nbt={Inventory:[{components:{attack_helicopter:1}}]}] add helicopter_active
+tag @s[nbt={Inventory:[{components:{"attack_helicopter": true}}]}] add helicopter_active
 tag @s[nbt={Inventory:[{Slot:101b,components:{"shulkshell": true}}]}] add shulkshell_active
 tag @s[nbt={Inventory:[{Slot:103b,components:{"reactive":true}}]}] add reactivehelmet_active
 tag @s[nbt={Inventory: [{Slot: 100b, components: {"reactive":true}}]},nbt=!{Inventory: [{Slot: 100b, components: {"technomk2": true}}]}] add reactiveboots_active
 
-tag @s[nbt=!{Inventory:[{components:{phantomknifes:1}}]}] remove phantomknifes_active
-tag @s[nbt=!{Inventory:[{components:{razorpine:1}}]}] remove razorpine_active
+tag @s[nbt=!{Inventory:[{components:{"phantomknifes": true}}]}] remove phantomknifes_active
+tag @s[nbt=!{Inventory:[{components:{"razorpine": true}}]}] remove razorpine_active
 tag @s[nbt=!{Inventory:[{components:{mystical:1,type:2}}]}] remove notnt_active
-tag @s[nbt=!{Inventory:[{components:{attack_helicopter:1}}]}] remove helicopter_active
+tag @s[nbt=!{Inventory:[{components:{"attack_helicopter": true}}]}] remove helicopter_active
 tag @s[nbt=!{Inventory:[{Slot:101b,components:{"shulkshell": true}}]}] remove shulkshell_active
 tag @s[nbt=!{Inventory:[{Slot:103b,components:{"reactive":true}}]}] remove reactivehelmet_active
 tag @s[nbt=!{Inventory: [{Slot: 100b, components: {"reactive":true}}]}] remove reactiveboots_active

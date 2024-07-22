@@ -7,7 +7,7 @@ execute if data entity @s {Item:{components:{"pickaxe": true}}} run loot give @p
 execute if data entity @s {Item:{components:{"potion": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_potion
 execute if data entity @s {Item:{components:{"shield": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_shield
 execute if data entity @s {Item:{components:{"shooter": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_shooter
-execute if data entity @s {Item:{components:{shovel:1b}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_shovel
+execute if data entity @s {Item:{components:{"shovel": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_shovel
 execute if data entity @s {Item:{components:{"staff": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_staff
 execute if data entity @s {Item:{components:{"sword": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_sword
 execute if data entity @s {Item:{components:{"totem": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_totem

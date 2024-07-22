@@ -15,7 +15,45 @@
             },
             {
               "function": "set_components",
-              "tag": "{hylianshield:1b,Unbreakable:1b,"transformable": true,"shield": true,HideFlags:96,Enchantments:[{id:\"minecraft:unbreaking\",lvl:10s}],BlockEntityTag:{Base:11,Patterns:[{Color:8,Pattern:\"cbo\"},{Color:14,Pattern:\"flo\"},{Color:11,Pattern:\"hh\"},{Color:4,Pattern:\"tt\"},{Color:11,Pattern:\"ts\"},{Color:8,Pattern:\"bo\"}]}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "hylianshield": true,
+                  "transformable": true,
+                  "shield": true
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:unbreaking": 10
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:base_color": "blue",
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "light_gray",
+                    "pattern": "curly_border"
+                  },
+                  {
+                    "color": "red",
+                    "pattern": "flower"
+                  },
+                  {
+                    "color": "blue",
+                    "pattern": "half_horizontal"
+                  },
+                  {
+                    "color": "yellow",
+                    "pattern": "triangle_top"
+                  },
+                  {
+                    "color": "blue",
+                    "pattern": "stripe_top"
+                  },
+                  {
+                    "color": "light_gray",
+                    "pattern": "border"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
@@ -28,7 +66,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -58,7 +97,62 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"energy_shield": true,HideFlags:98,AttributeModifiers:[{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.5,Operation:1,UUID:[I;1251556592,-1347073089,-1460229625,1521059632],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.5,Operation:1,UUID:[I;-1335337134,-1251130008,-1368795253,1350987093],Slot:\"offhand\"}],"energyshield": true,"transformable": true,"shield": true,BlockEntityTag:{Patterns:[{Pattern:cbo,Color:15},{Pattern:flo,Color:0},{Pattern:mr,Color:0},{Pattern:mc,Color:3},{Pattern:bts,Color:11},{Pattern:tts,Color:11}],Base:3}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "energy_shield": true,
+                  "energyshield": true,
+                  "transformable": true,
+                  "shield": true
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.movement_speed",
+                      "slot": "mainhand",
+                      "id": "gedghhtyjtyjtjspeed",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_base"
+                    },
+                    {
+                      "type": "minecraft:generic.movement_speed",
+                      "slot": "offhand",
+                      "id": "genekrjjy7cfkheed",
+                      "amount": -0.5,
+                      "operation": "add_multiplied_base"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "black",
+                    "pattern": "curly_border"
+                  },
+                  {
+                    "color": "white",
+                    "pattern": "flower"
+                  },
+                  {
+                    "color": "white",
+                    "pattern": "rhombus"
+                  },
+                  {
+                    "color": "light_blue",
+                    "pattern": "circle"
+                  },
+                  {
+                    "color": "blue",
+                    "pattern": "triangles_bottom"
+                  },
+                  {
+                    "color": "blue",
+                    "pattern": "triangles_top"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
@@ -71,7 +165,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -111,7 +206,29 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"shield": true,holyshield:1b,HideFlags:98,BlockEntityTag:{Patterns:[{Pattern:ms,Color:4},{Pattern:cs,Color:4},{Pattern:flo,Color:4}],Base:3}}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shield": true,
+                  "holyshield": true
+                },
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {
+                    "color": "yellow",
+                    "pattern": "stripe_middle"
+                  },
+                  {
+                    "color": "yellow",
+                    "pattern": "stripe_center"
+                  },
+                  {
+                    "color": "yellow",
+                    "pattern": "flower"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
@@ -123,7 +240,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {

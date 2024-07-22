@@ -14,13 +14,13 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{bloodmagic:1}}]}] ma
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{badwiki:1}}]}] mana >= bad_wiki_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/badwiki_pre
 
-execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{mobgun:1}}]}] coldown16 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/mobgun
+execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"mobgun": true}}]}] coldown16 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/mobgun
 
-execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{phantomknifes:1}}]}] coldown13 matches -16.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run scoreboard players set @s coldown13 25
+execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"phantomknifes": true}}]}] coldown13 matches -16.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run scoreboard players set @s coldown13 25
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{unstable_spellbook:1}}]}] mana >= unstable_spellbook_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/random_spell
 
-execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{kfcgun:1}}]}] coldown17 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/kfc
+execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"kfcgun": true}}]}] coldown17 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/kfc
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{psychowand:1}}]}] mana >= psycho_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/psychowand_pre
 
@@ -28,9 +28,9 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{cyberkatana:1}}]}] s
 
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"supersethomer": true}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/teleporthome_left
 
-execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{razorpine:1}}]}] coldown18 matches 1.. unless score @s[nbt={Inventory:[{Slot:-106b,components:{razorpine:1}}]}] coldown18b matches 1.. run function lbc:workingitems/razorpine_ammo_check
+execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"razorpine": true}}]}] coldown18 matches 1.. unless score @s[nbt={Inventory:[{Slot:-106b,components:{"razorpine": true}}]}] coldown18b matches 1.. run function lbc:workingitems/razorpine_ammo_check
 
-execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{attack_helicopter:1}}]}] coldown25 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run scoreboard players set @s coldown25 800
+execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"attack_helicopter": true}}]}] coldown25 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run scoreboard players set @s coldown25 800
 
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"time_stopper": true}}]}] coldown1 matches 1.. run function lbc:time_stop
 

@@ -24,10 +24,17 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{"randchanted": true,"transformable": true,"leggings": true}"
+              "components": {
+                "minecraft:custom_data": {
+                  "randchanted": true,
+                  "transformable": true,
+                  "leggings": true
+                }
+              }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -55,7 +62,29 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{"multiplying": true,"transformable": true,"leggings": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:3,Operation:1,UUID:[I;1247016977,-11055214,-1672297969,-908513334],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:3,Operation:1,UUID:[I;1013007053,-1500820729,-1183646614,1327672089],Slot:\"legs\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "multiplying": true,
+                  "transformable": true,
+                  "leggings": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "gehtfhtjtykjtkjor",
+                    "amount": 3,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "legs",
+                    "id": "genrtsbvjtcjgjgss",
+                    "amount": 3,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -67,7 +96,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -91,7 +121,56 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,"berserk": true,display:{color:8},"minecraft:custom_model_data":4,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:-6,Operation:0,UUID:[I;-949246328,503467505,-1147345731,-1527929424],Slot:\"legs\"},{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-456699655,-109427555,-1338445364,1599329949],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:-4,Operation:0,UUID:[I;733328343,370689897,-2000007509,1139127643],Slot:\"legs\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.15,Operation:1,UUID:[I;-485620582,1177636452,-1860234244,-1558242167],Slot:\"legs\"},{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;8815720,-32680395,-156627377,-137098312],Slot:\"legs\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "berserk": true
+                },
+                "minecraft:custom_model_data": 4,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 8,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "generic.armor",
+                    "amount": -6,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "legs",
+                    "id": "dtbjtv6jdamage",
+                    "amount": 4,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "legs",
+                    "id": "genericiy7nigkbguness",
+                    "amount": -4,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_speed",
+                    "slot": "legs",
+                    "id": "genbfyngyngkgkjjjjed",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.movement_speed",
+                    "slot": "legs",
+                    "id": "gennykguvkuhkhjpeed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -102,7 +181,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -140,7 +220,30 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_model_data":5,"transformable": true,"leggings": true,HideFlags:68,display:{color:3},"chaoschestplate": true,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:generic.armor,Amount:4,Operation:0,UUID:[I;-438177,140206701,-162339653,-30994581],Slot:legs}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "chaoschestplate": true,
+                  "leggings": true
+                },
+                "minecraft:custom_model_data": 5,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 3,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "ghsdhsjhtyjtyjtryjmor",
+                    "amount": 4,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -153,7 +256,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -203,7 +307,27 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"transformable": true,"leggings": true,display:{color:5},"minecraft:custom_model_data":7,HideFlags:68,Unbreakable:1b,"mage": true,Enchantments:[{id:\"minecraft:fire_protection\",lvl:4s},{id:\"minecraft:blast_protection\",lvl:4s},{id:\"minecraft:projectile_protection\",lvl:4s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "leggings": true,
+                  "mage": true
+                },
+                "minecraft:custom_model_data": 7,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantments": {
+                  "minecraft:fire_protection": 4,
+                  "minecraft:blast_protection": 4,
+                  "minecraft:projectile_protection": 4
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 5,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -215,7 +339,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -268,7 +393,21 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"govnoq": true,"transformable": true,"leggings": true,display:{color:2},"minecraft:custom_model_data":2,HideFlags:64,"gownoleggings": true,Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "govnoq": true,
+                  "transformable": true,
+                  "leggings": true,
+                  "gownoleggings": true
+                },
+                "minecraft:custom_model_data": 2,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 2,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -279,7 +418,8 @@
               }
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -327,7 +467,19 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,display:{color:2},"minecraft:custom_model_data":2,HideFlags:64,"gownoleggings": true,Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "gownoleggings": true
+                },
+                "minecraft:custom_model_data": 2,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 2,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -338,7 +490,8 @@
               }
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -386,7 +539,30 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,Unbreakable:1b,HideFlags:68,"shulkshell": true,display:{color:6},"minecraft:custom_model_data":6,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1231293,-192763,-129936,293127],Slot:\"legs\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "shulkshell": true
+                },
+                "minecraft:custom_model_data": 6,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 6,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "rsby6ijjhjhkt7umor",
+                    "amount": 6,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -399,7 +575,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -465,7 +642,31 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"transformable": true,display:{color:7},"minecraft:custom_model_data":3,"leggings": true,HideFlags:68,Unbreakable:1b,"reactive":true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-165786389,275148468,-1143174644,49313046],Slot:\"legs\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "leggings": true,
+                  "reactive": true
+                },
+                "minecraft:custom_model_data": 3,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 7,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "gjyjykj7555rmor",
+                    "amount": 4,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -478,7 +679,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -522,7 +724,31 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"transformable": true,"leggings": true,HideFlags:68,"techno": true,"minecraft:custom_model_data":8,display:{color:4},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;23612,18472372,-4677367,1287331],Slot:\"legs\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "leggings": true,
+                  "techno": true
+                },
+                "minecraft:custom_model_data": 8,
+                "minecraft:dyed_color": {
+                  "rgb": 4,
+                  "show_in_tooltip": false
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "gesdryh5sh56j56j5or",
+                    "amount": 3,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -535,7 +761,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -622,7 +849,19 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,display:{color:1},"minecraft:custom_model_data":1,HideFlags:64,"jumpboost": true,Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "jumpboost": true
+                },
+                "minecraft:custom_model_data": 1,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 1,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -635,7 +874,8 @@
               ]
             },
             {
-              "function": "minecraft:set_lore","mode":"replace_all",
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -674,7 +914,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,"assasin": true,display:{color:10},"minecraft:custom_model_data":10,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "assasin": true
+                },
+                "minecraft:custom_model_data": 10,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 10,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "gtqwthrt7k67k7mkmor",
+                    "amount": 3,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -685,7 +946,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -730,7 +992,46 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,"paladin": true,display:{color:11},"minecraft:custom_model_data":9,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;-94126328,506465,-1146457,-15279297],Slot:\"legs\"},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:10,Operation:0,UUID:[I;-95568,5346605,-333357,52792964],Slot:legs},{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:-0.3,Operation:1,UUID:[I;556366628,5646605,-11366337,52679296],Slot:legs}],Unbreakable:1b,Enchantments:[{id:\"minecraft:fire_protection\",lvl:255s},{id:\"minecraft:protection\",lvl:3s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "paladin": true
+                },
+                "minecraft:custom_model_data": 9,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:fire_protection": 255,
+                  "minecraft:protection": 3
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 11,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "geneyjhn7yihbtvkor",
+                    "amount": 10,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "legs",
+                    "id": "gencrtynub7kcvyukjor_toughness",
+                    "amount": 10,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.max_health",
+                    "slot": "legs",
+                    "id": "generic.max_healtntkykukykh",
+                    "amount": -0.3,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -741,7 +1042,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -779,7 +1081,29 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"craftusable": true,"transformable": true,"leggings": true,"phantom": true,display:{color:9},"minecraft:custom_model_data":11,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "leggings": true,
+                  "phantom": true
+                },
+                "minecraft:custom_model_data": 11,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 9,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "geneewy5h5h5h5h5h5rmor",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -790,7 +1114,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -846,7 +1171,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,"flesh": true,display:{color:258},"minecraft:custom_model_data":21,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "flesh": true
+                },
+                "minecraft:custom_model_data": 21,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 258,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.max_health",
+                    "slot": "legs",
+                    "id": "genjfjkjtky7kykyklth",
+                    "amount": 10,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -857,7 +1203,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -886,7 +1233,19 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,"glass": true,display:{color:256},"minecraft:custom_model_data":20,HideFlags:64,Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "glass": true
+                },
+                "minecraft:custom_model_data": 20,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 256,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -897,7 +1256,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -928,7 +1288,6 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:generic.armor",
-                  
                   "amount": 40,
                   "operation": "add_value",
                   "id": "aa20a077-1d80-4750-810e-1e2b46000e57",
@@ -936,7 +1295,6 @@
                 },
                 {
                   "attribute": "minecraft:generic.armor_toughness",
-                  
                   "amount": 40,
                   "operation": "add_value",
                   "id": "aa20a077-1d80-4750-810e-1e2b46000e57",
@@ -952,7 +1310,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,"nanobots": true,display:{color:9},"minecraft:custom_model_data":22,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:0,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "nanobots": true
+                },
+                "minecraft:custom_model_data": 22,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 9,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "genjbj7cjbjjnyjhor",
+                    "amount": 0,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -963,7 +1342,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -1002,7 +1382,31 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"leggings": true,"erosion":true,display:{color:257},"minecraft:custom_model_data":23,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-941246328,506467505,-114645731,-152792974],Slot:\"legs\"}],Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:180}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "leggings": true,
+                  "erosion": true
+                },
+                "minecraft:custom_model_data": 23,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:protection": 180
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 257,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "legs",
+                    "id": "gjtbvkuukyukylykmykuor",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -1013,7 +1417,8 @@
               }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -1039,8 +1444,8 @@
           ]
         },
         {
-          "type":"loot_table",
-          "name":"lbc:neko_set_overload/leggings"
+          "type": "loot_table",
+          "value": "lbc:neko_set_overload/leggings"
         }
       ]
     }

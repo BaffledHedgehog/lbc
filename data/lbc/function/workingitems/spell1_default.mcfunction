@@ -48,14 +48,14 @@ execute if score @s[nbt={SelectedItem:{components:{"shish_wall_wand": true}}}] m
 
 
 
-execute unless score @s[nbt={SelectedItem:{components:{mobgun:1}}}] coldown16 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/mobgun
-execute unless score @s[nbt={SelectedItem:{components:{phantomknifes:1}}}] coldown13 matches -16.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run scoreboard players set @s coldown13 25
-execute unless score @s[nbt={SelectedItem:{components:{kfcgun:1}}}] coldown17 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/kfc
+execute unless score @s[nbt={SelectedItem:{components:{"mobgun": true}}}] coldown16 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/mobgun
+execute unless score @s[nbt={SelectedItem:{components:{"phantomknifes": true}}}] coldown13 matches -16.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run scoreboard players set @s coldown13 25
+execute unless score @s[nbt={SelectedItem:{components:{"kfcgun": true}}}] coldown17 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/kfc
 execute if score @s[nbt={SelectedItem:{components:{cyberkatana:1}}}] swordcharged1 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/cyberkatanaability
 execute if score @s[nbt={SelectedItem:{components:{techrunner_katana:1b}}}] swordcharged6 matches 1.. at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:other/techno/katana/use
 execute if entity @s[nbt={SelectedItem:{components:{"supersethomer": true}}}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/teleporthome
-execute unless score @s[nbt={SelectedItem:{components:{razorpine:1}}}] coldown18 matches 1.. unless score @s[nbt={SelectedItem:{components:{razorpine:1}}}] coldown18b matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/razorpine_ammo_check
-execute unless score @s[nbt={SelectedItem:{components:{attack_helicopter:1}}}] coldown25 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run scoreboard players set @s coldown25 800
+execute unless score @s[nbt={SelectedItem:{components:{"razorpine": true}}}] coldown18 matches 1.. unless score @s[nbt={SelectedItem:{components:{"razorpine": true}}}] coldown18b matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/razorpine_ammo_check
+execute unless score @s[nbt={SelectedItem:{components:{"attack_helicopter": true}}}] coldown25 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run scoreboard players set @s coldown25 800
 execute unless score @s[nbt={SelectedItem:{components:{"time_stopper": true}}}] coldown1 matches 1.. run function lbc:time_stop
 execute if entity @s[nbt={SelectedItem:{components:{"popit": true}}}] run function lbc:workingitems/popit
 execute if entity @s[nbt={SelectedItem:{components:{luckyblockwand:1b}}}] run loot spawn ~ ~ ~ loot lbc:luckyblock
@@ -82,7 +82,7 @@ execute unless score @s[nbt={SelectedItem:{components:{foxusing_old:1}}}] coldow
 execute unless score @s[nbt={SelectedItem:{components:{"bloodmagic_old": true}}}] coldown_blood matches 701.. at @s run function lbc:workingitems/bloodmagic_old
 execute unless score @s[nbt={SelectedItem:{components:{"badwiki_old": true}}}] coldown_wiki matches 941.. at @s run function lbc:workingitems/badwiki_old
 execute if entity @s[nbt={SelectedItem:{components:{"lightsaberrc": true}}}] run function lbc:other/event/november/click
-execute if entity @s[nbt={SelectedItem:{components:{laser_minigun:1b}}}] anchored eyes positioned ^ ^ ^ run function lbc:other/techno/laser_minigun/shoot/click
+execute if entity @s[nbt={SelectedItem:{components:{"laser_minigun": true}}}] anchored eyes positioned ^ ^ ^ run function lbc:other/techno/laser_minigun/shoot/click
 
 execute if entity @s[nbt={SelectedItem:{components:{clocks:1b}}}] run function lbc:workingitems/clock_fragment/select
 execute if entity @s[nbt={SelectedItem:{components:{anal_whip:1b}}}] run function lbc:workingitems/ender_whip_teleport
