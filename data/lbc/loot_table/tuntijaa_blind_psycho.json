@@ -13,7 +13,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":671,HideFlags:2,Unbreakable:1b,psychoblind_wand:1b}"
+                            "components": {"minecraft:custom_data":{"transformable": true,"staff": true,"magicwand": true,"psychoblind_wand":true},"minecraft:custom_model_data":671}
                         },
                         {
                             "function": "set_name",

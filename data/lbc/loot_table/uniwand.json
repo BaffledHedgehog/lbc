@@ -13,7 +13,18 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":728,HideFlags:2,Unbreakable:1b,uniwand:1b,mana:0,spellcount:0,"spellwithcooldown": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "staff": true,
+                                    "magicwand": true,
+                                    "uniwand": true,
+                                    "mana": 0,
+                                    "spellcount": 0,
+                                    "spellwithcooldown": true
+                                },
+                                "minecraft:custom_model_data": 728
+                            }
                         },
                         {
                             "function": "set_name",
@@ -26,7 +37,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

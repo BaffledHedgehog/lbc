@@ -16,7 +16,7 @@ execute if data entity @s {Item:{components:{"summoner": true}}} run loot give @
 execute if data entity @s {Item:{components:{"boots": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_boots
 execute if data entity @s {Item:{components:{"leggings": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_leggings
 execute if data entity @s {Item:{components:{"helmet": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_helmet
-execute if data entity @s {Item:{components:{trident:1b}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_trident
+execute if data entity @s {Item:{components:{"trident": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_trident
 execute if data entity @s {Item:{components:{"arcanum": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_arcanum
 advancement grant @p[gamemode=!spectator] only lbc:true_advancements/lightning_smith
 execute if data entity @s {Item:{Count:1b}} run kill @s

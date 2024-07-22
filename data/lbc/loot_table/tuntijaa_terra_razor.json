@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"shooter": true,"magicwand": true,"minecraft:custom_model_data":660,HideFlags:2,Unbreakable:1b,razorterra:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "shooter": true,
+                                    "magicwand": true,
+                                    "razorterra": true
+                                },
+                                "minecraft:custom_model_data": 660
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "razorterra",
                                     "italic": false,
-                                    "color":"green"
+                                    "color": "green"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

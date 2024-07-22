@@ -13,7 +13,13 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"raycastspell": true,"minecraft:custom_model_data":667,HideFlags:2,Unbreakable:1b,infbolt_wand:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "raycastspell": true,
+                                    "infbolt_wand": true
+                                },
+                                "minecraft:custom_model_data": 667
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +27,13 @@
                                 {
                                     "translate": "infbolt_wand",
                                     "italic": false,
-                                    "color":"aqua"
+                                    "color": "aqua"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 {

@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"accessory": true,"minecraft:custom_model_data":615,electroblocker:1b,"instantitem":true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "accessory": true,
+                                    "electroblocker": true,
+                                    "instantitem": true
+                                },
+                                "minecraft:custom_model_data": 615
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "electroblocker",
                                     "italic": false,
-                                    "color":"aqua"
+                                    "color": "aqua"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"staff": true,"raycastspell": true,"minecraft:custom_model_data":669,HideFlags:2,Unbreakable:1b,stonekivi_wand:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "staff": true,
+                                    "raycastspell": true,
+                                    "stonekivi_wand": true
+                                },
+                                "minecraft:custom_model_data": 669
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "stonekivi_wand",
                                     "italic": false,
-                                    "color":"gray"
+                                    "color": "gray"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

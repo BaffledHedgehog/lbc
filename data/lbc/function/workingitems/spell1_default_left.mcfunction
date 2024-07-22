@@ -99,9 +99,9 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{piston_sword:1b}}]}
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"nexus_pulsar": true}}]}] pulsar_cd matches 1.. run function lbc:other/nexus/click/pulsar/pre
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"danmaku_staff": true}}]}] mana >= danmaku_staff_mana_use lbc.math run function lbc:items/wands/danmaku_staff/click
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{triple_golden_sword:1b}}]}] swordcharged8 matches 1.. run function lbc:items/swords/triple_golden_sword/click
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"triple_golden_sword": true}}]}] swordcharged8 matches 1.. run function lbc:items/swords/triple_golden_sword/click
 
-execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{uniwand:1b}}]}] run function lbc:items/wands/uniwand/click
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"uniwand": true}}]}] run function lbc:items/wands/uniwand/click
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"struby_tiny": true}}]}] mana >= tiny_ruby_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/ruby
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"stterra_tiny": true}}]}] mana >= tiny_terra_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/terra

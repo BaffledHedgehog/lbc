@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":668,HideFlags:2,Unbreakable:1b,bedrock_wand:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "staff": true,
+                                    "magicwand": true,
+                                    "bedrock_wand": true
+                                },
+                                "minecraft:custom_model_data": 668
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "bedrock_wand",
                                     "italic": false,
-                                    "color":"gray"
+                                    "color": "gray"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

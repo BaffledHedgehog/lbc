@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":657,HideFlags:2,Unbreakable:1b,dublicating_wand:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "staff": true,
+                                    "magicwand": true,
+                                    "dublicating_wand": true
+                                },
+                                "minecraft:custom_model_data": 657
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "dublicating_wand",
                                     "italic": false,
-                                    "color":"light_purple"
+                                    "color": "light_purple"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

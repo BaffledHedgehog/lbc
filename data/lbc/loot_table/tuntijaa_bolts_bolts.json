@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"staff": true,"raycastspell": true,"minecraft:custom_model_data":666,HideFlags:2,Unbreakable:1b,boltbolt_wand:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "staff": true,
+                                    "raycastspell": true,
+                                    "boltbolt_wand": true
+                                },
+                                "minecraft:custom_model_data": 666
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "boltbolt_wand",
                                     "italic": false,
-                                    "color":"aqua"
+                                    "color": "aqua"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

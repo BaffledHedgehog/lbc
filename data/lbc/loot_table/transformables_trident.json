@@ -15,7 +15,25 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,trident:1b,sea_legend:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:10s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-1032882795,889209047,-1497547466,374167284],Slot:\"mainhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "trident": true,
+                  "sea_legend": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:riptide": 10
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "mainhand",
+                    "id": "gejryjuktyuljukjamage",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -28,7 +46,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -57,7 +76,17 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,trident:1b,harpoon:1b,Enchantments:[{id:\"minecraft:loyalty\",lvl:1s},{id:\"minecraft:impaling\",lvl:10s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "trident": true,
+                  "harpoon": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:loyalty": 1,
+                  "minecraft:impaling": 10
+                }
+              }
             },
             {
               "function": "set_name",
@@ -70,7 +99,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
