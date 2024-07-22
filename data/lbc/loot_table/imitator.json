@@ -25,10 +25,7 @@
                 "minecraft:custom_data": {
                   "copypaster": true
                 },
-                "minecraft:custom_model_data": 543,
-                "minecraft:attribute_modifiers": {
-                  "show_in_tooltip": false
-                }
+                "minecraft:custom_model_data": 543
               }
             },
             {
@@ -54,6 +51,12 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
             },
             {
               "function": "set_lore",
