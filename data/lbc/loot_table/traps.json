@@ -51,7 +51,7 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{korrosion:1,"drop":true,"minecraft:custom_model_data":656}"
+              "tag": "{"korrosion": true,"drop":true,"minecraft:custom_model_data":656}"
             },
             {
               "function": "set_name",
@@ -87,7 +87,7 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{creepers:1,"drop":true,"minecraft:custom_model_data":656}"
+              "tag": "{"creepers": true,"drop":true,"minecraft:custom_model_data":656}"
             },
             {
               "function": "set_name",
@@ -123,7 +123,7 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{yama:1,"drop":true,"minecraft:custom_model_data":656}"
+              "tag": "{"yama": true,"drop":true,"minecraft:custom_model_data":656}"
             },
             {
               "function": "set_name",
@@ -231,7 +231,7 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{bob:1,"drop":true,"minecraft:custom_model_data":658}"
+              "tag": "{"bob": true,"drop":true,"minecraft:custom_model_data":658}"
             },
             {
               "function": "set_name",

@@ -131,7 +131,7 @@
               },
               {
                 "function": "set_components",
-                "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":504,creeperz:1,"raycastspell": true,"spell": true,cons_material:1b}"
+                "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":504,creeperz:1,"raycastspell": true,"spell": true,"cons_material": true}"
               },
               {
                 "function": "set_lore","mode":"replace_all",
@@ -192,7 +192,7 @@
               },
               {
                 "function": "set_components",
-                "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":503,trap2:1,"raycastspell": true,"spell": true,cons_material:1b}"
+                "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":503,trap2:1,"raycastspell": true,"spell": true,"cons_material": true}"
               },
               {
                 "function": "set_lore","mode":"replace_all",

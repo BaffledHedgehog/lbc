@@ -4,7 +4,7 @@ execute if entity @s[nbt={Item:{components:{cyberkatana:1}}}] if entity @e[dista
 execute if entity @s[nbt={Item:{components:{"railgun_bow": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"reactive_shish": true}}}] run function lbc:other/shishgun
 execute if entity @s[nbt={Item:{components:{shit_katana:1b}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{shish_gun:1b}}}] run function lbc:other/supernova
 execute if entity @s[nbt={Item:{id:"minecraft:leather_boots",components:{"minecraft:custom_model_data":3,"jumpboost": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{id:"minecraft:leather_boots",components:{"reactive":true,"craftusable": true,"minecraft:custom_model_data":2}}}] run function lbc:other/craft_flying_boots
-execute if entity @s[nbt={Item:{components:{"struby": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{cons_material:1b}}}] run function lbc:other/sauvojen_tuntija/crafted_greed
+execute if entity @s[nbt={Item:{components:{"struby": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"cons_material": true}}}] run function lbc:other/sauvojen_tuntija/crafted_greed
 execute if entity @s[nbt={Item:{components:{"struby": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"greed_greed": true}}}] run function lbc:other/sauvojen_tuntija/crafted_avarice
 execute if entity @s[nbt={Item:{components:{"stterra": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{terrasword:1}}}] run function lbc:other/sauvojen_tuntija/crafted_awakened_terra
 execute if entity @s[nbt={Item:{components:{"stterra": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{razorpine:1}}}] run function lbc:other/sauvojen_tuntija/crafted_razorterra
@@ -41,7 +41,7 @@ execute if entity @s[nbt={Item:{components:{"time_stopper": true}}}] if entity @
 execute if entity @s[nbt={Item:{components:{"metal_pipe": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"greed_greed": true}}}] run function lbc:other/craft/divide_by_metal_pipe
 execute if entity @s[nbt={Item:{components:{true_terra:1b}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{truefallingstars:1b}}}] run function lbc:other/craft/fevgalea_star
 
-execute if entity @s[nbt={Item:{components:{"struby_tiny": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{cons_material:1b}}}] run function lbc:other/sauvojen_tuntija/crafted_greed
+execute if entity @s[nbt={Item:{components:{"struby_tiny": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"cons_material": true}}}] run function lbc:other/sauvojen_tuntija/crafted_greed
 execute if entity @s[nbt={Item:{components:{"struby_tiny": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"greed_greed": true}}}] run function lbc:other/sauvojen_tuntija/crafted_avarice
 execute if entity @s[nbt={Item:{components:{"stterra_tiny": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{terrasword:1}}}] run function lbc:other/sauvojen_tuntija/crafted_awakened_terra
 execute if entity @s[nbt={Item:{components:{"stterra_tiny": true}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{razorpine:1}}}] run function lbc:other/sauvojen_tuntija/crafted_razorterra

@@ -15,7 +15,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"explode":true,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "explode": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -31,7 +37,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{korrosion:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "korrosion": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -47,7 +59,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{creepers:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "creepers": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -63,7 +81,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{yama:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "yama": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -79,7 +103,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"lookupanvil":true,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "lookupanvil": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -95,7 +125,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"lookuplava":true,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "lookuplava": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -111,7 +147,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{bob:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "bob": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -127,7 +169,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{skeleton:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "skeleton": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -143,7 +191,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{vex:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "vex": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -159,7 +213,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"obsidiantrap": true,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "obsidiantrap": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -175,7 +235,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{badspawner:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "badspawner": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -191,7 +257,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{droppertnt:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "droppertnt": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -207,7 +279,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"bullets": true,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "bullets": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -223,7 +301,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{skrimmer:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "skrimmer": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -239,7 +323,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{slab:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "slab": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -255,7 +345,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{clone:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "clone": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -271,7 +367,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{evilluckyblock:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "evilluckyblock": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -287,7 +389,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{lookupfireball:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "lookupfireball": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -303,7 +411,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{lookuppotions:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "lookuppotions": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -319,7 +433,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{zombietnt:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "zombietnt": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -335,7 +455,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{aimbob:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "aimbob": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -351,7 +477,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{sauvojen_tuntija:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "sauvojen_tuntija": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -367,7 +499,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{forest:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "forest": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -383,7 +521,13 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{ultraponos:1,"drop":true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "ultraponos": true,
+                                    "drop": true,
+                                    "imba": true
+                                }
+                            }
                         }
                     ]
                 }

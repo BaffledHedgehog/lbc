@@ -21,18 +21,18 @@
                                         "rcdenyalways"
                                     ],
                                     "CustomName": "{\"text\":\"Sauvojen Tuntija\",\"color\":\"blue\",\"bold\":true,\"italic\":false}",
-                                    "Attributes": [
+                                    "attributes": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 100024
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 100024
                                         },
                                         {
-                                            "Name": "generic.follow_range",
-                                            "Base": 256
+                                            "id": "minecraft:generic.follow_range",
+                                            "base": 256
                                         },
                                         {
-                                            "Name": "generic.knockback_resistance",
-                                            "Base": 256
+                                            "id": "minecraft:generic.knockback_resistance",
+                                            "base": 256
                                         }
                                     ]
                                 },
@@ -84,237 +84,128 @@
                                     "HandItems": [
                                         {
                                             "id": "minecraft:netherite_sword",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"bob_sword\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "bob_sword",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
-                                                    {
-                                                        "id": "minecraft:sharpness",
-                                                        "lvl": 5
-                                                    },
-                                                    {
-                                                        "id": "minecraft:smite",
-                                                        "lvl": 5
-                                                    },
-                                                    {
-                                                        "id": "minecraft:bane_of_arthropods",
-                                                        "lvl": 5
-                                                    },
-                                                    {
-                                                        "id": "minecraft:knockback",
-                                                        "lvl": 2
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_aspect",
-                                                        "lvl": 2
-                                                    },
-                                                    {
-                                                        "id": "minecraft:looting",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:sweeping_edge",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    }
-                                                ]
+                                                "minecraft:enchantments": {
+                                                    "minecraft:sharpness": 5,
+                                                    "minecraft:smite": 5,
+                                                    "minecraft:bane_of_arthropods": 5,
+                                                    "minecraft:knockback": 2,
+                                                    "minecraft:fire_aspect": 2,
+                                                    "minecraft:looting": 3,
+                                                    "minecraft:sweeping_edge": 3,
+                                                    "minecraft:unbreaking": 3
+                                                }
                                             }
                                         },
                                         {
                                             "id": "minecraft:enchanted_golden_apple",
-                                            "Count": 6,
+                                            "count": 6,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"bob_apple\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "bob_apple",
+                                                    "italic": false
                                                 }
                                             }
                                         }
                                     ],
                                     "HandDropChances": [
-                                        0,
-                                        0
+                                        0.000,
+                                        0.000
                                     ],
                                     "ArmorItems": [
                                         {
                                             "id": "minecraft:netherite_boots",
-                                            "Count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"bob_boots\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "bob_boots",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
-                                                    {
-                                                        "id": "minecraft:protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:feather_falling",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:blast_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:projectile_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:thorns",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:depth_strider",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:frost_walker",
-                                                        "lvl": 2
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:soul_speed",
-                                                        "lvl": 3
-                                                    }
-                                                ]
+                                                "minecraft:enchantments": {
+                                                    "minecraft:protection": 4,
+                                                    "minecraft:fire_protection": 4,
+                                                    "minecraft:feather_falling": 4,
+                                                    "minecraft:blast_protection": 4,
+                                                    "minecraft:projectile_protection": 4,
+                                                    "minecraft:thorns": 3,
+                                                    "minecraft:depth_strider": 3,
+                                                    "minecraft:frost_walker": 2,
+                                                    "minecraft:unbreaking": 3,
+                                                    "minecraft:soul_speed": 3
+                                                }
                                             }
                                         },
                                         {
                                             "id": "minecraft:netherite_leggings",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"bob_leggings\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "bob_leggings",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
-                                                    {
-                                                        "id": "minecraft:protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:blast_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:projectile_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:thorns",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    }
-                                                ]
+                                                "minecraft:enchantments": {
+                                                    "minecraft:protection": 4,
+                                                    "minecraft:fire_protection": 4,
+                                                    "minecraft:blast_protection": 4,
+                                                    "minecraft:projectile_protection": 4,
+                                                    "minecraft:thorns": 3,
+                                                    "minecraft:unbreaking": 3
+                                                }
                                             }
                                         },
                                         {
                                             "id": "minecraft:netherite_chestplate",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"bob_chestplate\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "bob_chestplate",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
-                                                    {
-                                                        "id": "minecraft:protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:blast_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:projectile_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:thorns",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    }
-                                                ]
+                                                "minecraft:enchantments": {
+                                                    "minecraft:protection": 4,
+                                                    "minecraft:fire_protection": 4,
+                                                    "minecraft:blast_protection": 4,
+                                                    "minecraft:projectile_protection": 4,
+                                                    "minecraft:thorns": 3,
+                                                    "minecraft:unbreaking": 3
+                                                }
                                             }
                                         },
                                         {
                                             "id": "minecraft:netherite_helmet",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"bob_helmet\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "bob_helmet",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
-                                                    {
-                                                        "id": "minecraft:protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:blast_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:projectile_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:respiration",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:aqua_affinity",
-                                                        "lvl": 1
-                                                    },
-                                                    {
-                                                        "id": "minecraft:thorns",
-                                                        "lvl": 1
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 1
-                                                    }
-                                                ]
+                                                "minecraft:enchantments": {
+                                                    "minecraft:protection": 4,
+                                                    "minecraft:fire_protection": 4,
+                                                    "minecraft:blast_protection": 4,
+                                                    "minecraft:projectile_protection": 4,
+                                                    "minecraft:respiration": 3,
+                                                    "minecraft:aqua_affinity": 1,
+                                                    "minecraft:thorns": 1,
+                                                    "minecraft:unbreaking": 1
+                                                }
                                             }
                                         }
                                     ],
                                     "ArmorDropChances": [
-                                        0,
-                                        0,
-                                        0,
-                                        0
+                                        0.000,
+                                        0.000,
+                                        0.000,
+                                        0.000
                                     ],
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.follow_range",
-                                            "Base": 400
+                                            "id": "minecraft:generic.follow_range",
+                                            "base": 400
                                         }
                                     ]
                                 },
@@ -371,308 +262,155 @@
                                     "HandItems": [
                                         {
                                             "id": "minecraft:bow",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"aimbob_bow\",\"color\":\"gold\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "aimbob_bow",
+                                                    "color": "gold",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:power",
-                                                        "lvl": 5
-                                                    },
-                                                    {
-                                                        "id": "minecraft:punch",
-                                                        "lvl": 2
-                                                    },
-                                                    {
-                                                        "id": "minecraft:flame",
-                                                        "lvl": 1
-                                                    },
-                                                    {
-                                                        "id": "minecraft:infinity",
-                                                        "lvl": 1
-                                                    },
-                                                    {
-                                                        "id": "minecraft:mending",
-                                                        "lvl": 1
-                                                    }
-                                                ],
-                                                "AttributeModifiers": [
-                                                    {
-                                                        "AttributeName": "generic.attack_damage",
-                                                        "id": "generdfxhfmnugbkmcdthage",
-                                                        "Amount": 9,
-                                                        "Operation": 0,
-                                                        "Slot": "mainhand"
-                                                    },
-                                                    {
-                                                        "AttributeName": "generic.attack_speed",
-                                                        "id": "estghtnkbgujhed",
-                                                        "Amount": -2.4,
-                                                        "Operation": 0,
-                                                        "Slot": "mainhand"
-                                                    }
-                                                ]
+                                                "minecraft:enchantments": {
+                                                    "minecraft:unbreaking": 3,
+                                                    "minecraft:power": 5,
+                                                    "minecraft:punch": 2,
+                                                    "minecraft:flame": 1,
+                                                    "minecraft:infinity": 1,
+                                                    "minecraft:mending": 1
+                                                }
                                             }
                                         },
                                         {
                                             "id": "minecraft:apple",
-                                            "Count": 6,
+                                            "count": 6,
                                             "components": {
                                                 "minecraft:custom_model_data": 580
                                             }
                                         }
                                     ],
                                     "HandDropChances": [
-                                        0,
-                                        0
+                                        0.000,
+                                        0.000
                                     ],
                                     "ArmorItems": [
                                         {
                                             "id": "minecraft:iron_boots",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"aimbob_boots\",\"color\":\"gold\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "aimbob_boots",
+                                                    "color": "gold",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
+                                                "minecraft:enchantments": {
+                                                    "minecraft:protection": 4,
+                                                    "minecraft:fire_protection": 4,
+                                                    "minecraft:feather_falling": 4,
+                                                    "minecraft:blast_protection": 4,
+                                                    "minecraft:projectile_protection": 4,
+                                                    "minecraft:thorns": 3,
+                                                    "minecraft:depth_strider": 3,
+                                                    "minecraft:frost_walker": 2,
+                                                    "minecraft:unbreaking": 3,
+                                                    "minecraft:mending": 1,
+                                                    "minecraft:soul_speed": 3
+                                                },
+                                                "attribute_modifiers": [
                                                     {
-                                                        "id": "minecraft:protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:feather_falling",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:blast_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:projectile_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:thorns",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:depth_strider",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:frost_walker",
-                                                        "lvl": 2
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:mending",
-                                                        "lvl": 1
-                                                    },
-                                                    {
-                                                        "id": "minecraft:soul_speed",
-                                                        "lvl": 3
-                                                    }
-                                                ],
-                                                "AttributeModifiers": [
-                                                    {
-                                                        "AttributeName": "generic.knockback_resistance",
-                                                        "Name": "generic.knockback_resistance",
-                                                        "Amount": 1000,
-                                                        "Operation": 0,
-                                                        "UUID": [
-                                                            -274803907,
-                                                            2076003940,
-                                                            -1334084992,
-                                                            1720982212
-                                                        ],
-                                                        "Slot": "feet"
+                                                        "type": "minecraft:generic.knockback_resistance",
+                                                        "id": "minecraft:generic.knockback_resistance",
+                                                        "base": 1000,
+                                                        "operation": "add_value",
+                                                        "slot": "feet"
                                                     }
                                                 ]
                                             }
                                         },
                                         {
                                             "id": "minecraft:iron_leggings",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"aimbob_leggings\",\"color\":\"gold\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "aimbob_leggings",
+                                                    "color": "gold",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
+                                                "minecraft:enchantments": {
+                                                    "minecraft:protection": 4,
+                                                    "minecraft:fire_protection": 4,
+                                                    "minecraft:blast_protection": 4,
+                                                    "minecraft:projectile_protection": 4,
+                                                    "minecraft:thorns": 3,
+                                                    "minecraft:unbreaking": 3,
+                                                    "minecraft:mending": 1
+                                                },
+                                                "attribute_modifiers": [
                                                     {
-                                                        "id": "minecraft:protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:blast_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:projectile_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:thorns",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:mending",
-                                                        "lvl": 1
-                                                    }
-                                                ],
-                                                "AttributeModifiers": [
-                                                    {
-                                                        "AttributeName": "generic.movement_speed",
-                                                        "Name": "generic.movement_speed",
-                                                        "Amount": 0.5,
+                                                        "type": "minecraft:generic.movement_speed",
+                                                        "id": "minecraft:generic.movement_speed",
+                                                        "base": 0.5,
                                                         "Operation": 1,
-                                                        "UUID": [
-                                                            -262864731,
-                                                            -593214837,
-                                                            -1302241833,
-                                                            -2090480369
-                                                        ],
-                                                        "Slot": "legs"
+                                                        "slot": "legs"
                                                     }
                                                 ]
                                             }
                                         },
                                         {
                                             "id": "minecraft:iron_chestplate",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"aimbob_chestplate\",\"color\":\"gold\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "aimbob_chestplate",
+                                                    "color": "gold",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
+                                                "minecraft:enchantments": {
+                                                    "minecraft:protection": 4,
+                                                    "minecraft:fire_protection": 4,
+                                                    "minecraft:blast_protection": 4,
+                                                    "minecraft:projectile_protection": 4,
+                                                    "minecraft:thorns": 3,
+                                                    "minecraft:unbreaking": 3,
+                                                    "minecraft:mending": 1
+                                                },
+                                                "attribute_modifiers": [
                                                     {
-                                                        "id": "minecraft:protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:blast_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:projectile_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:thorns",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:mending",
-                                                        "lvl": 1
-                                                    }
-                                                ],
-                                                "AttributeModifiers": [
-                                                    {
-                                                        "AttributeName": "generic.max_health",
-                                                        "Name": "generic.max_health",
-                                                        "Amount": 40,
-                                                        "Operation": 0,
-                                                        "UUID": [
-                                                            -1828262110,
-                                                            1854951145,
-                                                            -1985293416,
-                                                            -26830008
-                                                        ],
-                                                        "Slot": "chest"
+                                                        "type": "minecraft:generic.max_health",
+                                                        "id": "minecraft:generic.max_health",
+                                                        "base": 40,
+                                                        "operation": "add_value",
+                                                        "slot": "chest"
                                                     }
                                                 ]
                                             }
                                         },
                                         {
                                             "id": "minecraft:iron_helmet",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"aimbob_helmet\",\"color\":\"gold\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "aimbob_helmet",
+                                                    "color": "gold",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
-                                                    {
-                                                        "id": "minecraft:protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:fire_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:blast_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:projectile_protection",
-                                                        "lvl": 4
-                                                    },
-                                                    {
-                                                        "id": "minecraft:respiration",
-                                                        "lvl": 1
-                                                    },
-                                                    {
-                                                        "id": "minecraft:aqua_affinity",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:thorns",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:unbreaking",
-                                                        "lvl": 3
-                                                    },
-                                                    {
-                                                        "id": "minecraft:mending",
-                                                        "lvl": 1
-                                                    }
-                                                ],
-                                                "AttributeModifiers": [
-                                                    {
-                                                        "AttributeName": "generic.attack_speed",
-                                                        "id": "kunkcycgvkhkkhkhkhkhkd",
-                                                        "Amount": 1000,
-                                                        "Operation": 0,
-                                                        "Slot": "head"
-                                                    }
-                                                ]
+                                                "minecraft:enchantments": {
+                                                    "minecraft:protection": 4,
+                                                    "minecraft:fire_protection": 4,
+                                                    "minecraft:blast_protection": 4,
+                                                    "minecraft:projectile_protection": 4,
+                                                    "minecraft:respiration": 1,
+                                                    "minecraft:aqua_affinity": 3,
+                                                    "minecraft:thorns": 3,
+                                                    "minecraft:unbreaking": 3,
+                                                    "minecraft:mending": 1
+                                                }
                                             }
                                         }
                                     ],
                                     "ArmorDropChances": [
-                                        0,
-                                        0,
-                                        0,
-                                        0
+                                        0.000,
+                                        0.000,
+                                        0.000,
+                                        0.000
                                     ]
                                 },
                                 "minecraft:custom_data": {
@@ -715,24 +453,26 @@
                                     "PersistenceRequired": true,
                                     "DeathLootTable": "none",
                                     "IsBaby": true,
+                                    "Silent": true,
                                     "ArmorItems": [
                                         {},
                                         {},
                                         {},
                                         {
                                             "id": "minecraft:oak_slab",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"text\":\"Агрессивный полублок\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "agressive_slab",
+                                                    "italic": false
                                                 },
-                                                "AttributeModifiers": [
+                                                "attribute_modifiers": [
                                                     {
-                                                        "AttributeName": "generic.attack_damage",
+                                                        "type": "minecraft:generic.attack_damage",
                                                         "id": "dghdynukbvghfhjge",
-                                                        "Amount": 7,
-                                                        "Operation": 0,
-                                                        "Slot": "mainhand"
+                                                        "base": 7,
+                                                        "operation": "add_value",
+                                                        "slot": "mainhand"
                                                     }
                                                 ]
                                             }
@@ -800,71 +540,15 @@
                                     "HandItems": [
                                         {
                                             "id": "minecraft:bone",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "Name": "{\"translate\":\"omega_bone\",\"italic\":false}"
+                                                "custom_name": {
+                                                    "translate": "omega_bone",
+                                                    "italic": false
                                                 },
-                                                "Enchantments": [
-                                                    {
-                                                        "id": "minecraft:knockback",
-                                                        "lvl": 1
-                                                    }
-                                                ],
-                                                "AttributeModifiers": [
-                                                    {
-                                                        "AttributeName": "generic.attack_damage",
-                                                        "Name": "generic.attack_damage",
-                                                        "Amount": 7,
-                                                        "Operation": 0,
-                                                        "UUID": [
-                                                            2115225650,
-                                                            1222787400,
-                                                            -1214360613,
-                                                            -962612346
-                                                        ],
-                                                        "Slot": "mainhand"
-                                                    },
-                                                    {
-                                                        "AttributeName": "generic.attack_speed",
-                                                        "Name": "generic.attack_speed",
-                                                        "Amount": -3.5,
-                                                        "Operation": 0,
-                                                        "UUID": [
-                                                            -1787305150,
-                                                            590040331,
-                                                            -1319520106,
-                                                            -1479424417
-                                                        ],
-                                                        "Slot": "mainhand"
-                                                    },
-                                                    {
-                                                        "AttributeName": "generic.knockback_resistance",
-                                                        "Name": "generic.knockback_resistance",
-                                                        "Amount": 1,
-                                                        "Operation": 0,
-                                                        "UUID": [
-                                                            -1090326313,
-                                                            1511212535,
-                                                            -1399894745,
-                                                            -1406101294
-                                                        ],
-                                                        "Slot": "mainhand"
-                                                    },
-                                                    {
-                                                        "AttributeName": "generic.movement_speed",
-                                                        "Name": "generic.movement_speed",
-                                                        "Amount": -0.7,
-                                                        "Operation": 1,
-                                                        "UUID": [
-                                                            -1384218944,
-                                                            862604066,
-                                                            -1866597918,
-                                                            2053394205
-                                                        ],
-                                                        "Slot": "mainhand"
-                                                    }
-                                                ]
+                                                "minecraft:enchantments": {
+                                                    "minecraft:knockback": 1
+                                                }
                                             }
                                         },
                                         {}
@@ -876,43 +560,43 @@
                                     "ArmorItems": [
                                         {
                                             "id": "minecraft:bone_meal",
-                                            "Count": 64
+                                            "count": 64
                                         },
                                         {
                                             "id": "minecraft:bone",
-                                            "Count": 32
+                                            "count": 32
                                         },
                                         {
                                             "id": "minecraft:iron_chestplate",
-                                            "Count": 1
+                                            "count": 1
                                         },
                                         {
                                             "id": "minecraft:skeleton_skull",
-                                            "Count": 1
+                                            "count": 1
                                         }
                                     ],
                                     "ArmorDropChances": [
                                         1,
                                         1,
-                                        0,
-                                        0
+                                        0.000,
+                                        0.000
                                     ],
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.movement_speed",
-                                            "Base": 0.6
+                                            "id": "minecraft:generic.movement_speed",
+                                            "base": 0.6
                                         },
                                         {
-                                            "Name": "generic.armor",
-                                            "Base": 20
+                                            "id": "minecraft:generic.armor",
+                                            "base": 20
                                         },
                                         {
-                                            "Name": "generic.attack_knockback",
-                                            "Base": 100
+                                            "id": "minecraft:generic.attack_knockback",
+                                            "base": 100
                                         },
                                         {
-                                            "Name": "generic.armor_toughness",
-                                            "Base": 5
+                                            "id": "minecraft:generic.armor_toughness",
+                                            "base": 5
                                         }
                                     ]
                                 },
@@ -955,11 +639,13 @@
                                     "id": "minecraft:item",
                                     "PickupDelay": 32767,
                                     "Item": {
-                                        "Count": 1,
+                                        "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "otchim": 1,
-                                            "drop": 1,
+                                            "minecraft:custom_data": {
+                                                "otchim": 1,
+                                                "drop": 1
+                                            },
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
@@ -1003,10 +689,10 @@
                                     "id": "minecraft:vex",
                                     "DeathLootTable": "lbc:vex_sword",
                                     "Health": 1,
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 1
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 1
                                         }
                                     ]
                                 },
@@ -1089,11 +775,13 @@
                                     "id": "minecraft:item",
                                     "PickupDelay": 32767,
                                     "Item": {
-                                        "Count": 1,
+                                        "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "shahid": 1,
-                                            "drop": 1,
+                                            "minecraft:custom_data": {
+                                                "shahid": 1,
+                                                "drop": 1
+                                            },
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
@@ -1155,14 +843,14 @@
                                             "show_particles": false
                                         }
                                     ],
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 30
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 30
                                         },
                                         {
-                                            "Name": "generic.attack_knockback",
-                                            "Base": 1
+                                            "id": "minecraft:generic.attack_knockback",
+                                            "base": 1
                                         }
                                     ],
                                     "ArmorItems": [
@@ -1171,14 +859,14 @@
                                         {},
                                         {
                                             "id": "minecraft:spruce_sapling",
-                                            "Count": 1
+                                            "count": 1
                                         }
                                     ],
                                     "ArmorDropChances": [
                                         0.085,
                                         0.085,
                                         0.085,
-                                        0
+                                        0.000
                                     ]
                                 },
                                 "minecraft:custom_data": {
@@ -1226,7 +914,7 @@
                                     "HandItems": [
                                         {
                                             "id": "minecraft:air",
-                                            "Count": 1
+                                            "count": 1
                                         },
                                         {}
                                     ],
@@ -1236,10 +924,10 @@
                                         {},
                                         {
                                             "id": "minecraft:player_head",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "SkullOwner": {
-                                                    "Id": [
+                                                "minecraft:profile": {
+                                                    "id": [
                                                         -940982597,
                                                         -1981660917,
                                                         -1797831442,
@@ -1260,7 +948,7 @@
                                         0.085,
                                         0.085,
                                         0.085,
-                                        0
+                                        0.000
                                     ],
                                     "active_effects": [
                                         {
@@ -1310,11 +998,13 @@
                                     "id": "minecraft:item",
                                     "PickupDelay": 32767,
                                     "Item": {
-                                        "Count": 1,
+                                        "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "droppertnt": 1,
-                                            "drop": 1,
+                                            "minecraft:custom_data": {
+                                                "droppertnt": true,
+                                                "drop": true
+                                            },
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
@@ -1449,7 +1139,7 @@
                                     "HandItems": [
                                         {
                                             "id": "minecraft:carrot_on_a_stick",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
                                                 "minecraft:custom_model_data": 619
                                             }
@@ -1457,38 +1147,38 @@
                                         {}
                                     ],
                                     "HandDropChances": [
-                                        0,
-                                        0
+                                        0.000,
+                                        0.000
                                     ],
                                     "ArmorItems": [
                                         {
                                             "id": "minecraft:leather_boots",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "color": 517
+                                                "dyed_color": {
+                                                    "rgb": 517
                                                 }
                                             }
                                         },
                                         {
                                             "id": "minecraft:leather_leggings",
-                                            "Count": 1
+                                            "count": 1
                                         },
                                         {
                                             "id": "minecraft:leather_chestplate",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "color": 517
+                                                "dyed_color": {
+                                                    "rgb": 517
                                                 }
                                             }
                                         },
                                         {
                                             "id": "minecraft:leather_helmet",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "display": {
-                                                    "color": 517
+                                                "dyed_color": {
+                                                    "rgb": 517
                                                 },
                                                 "Unbreakable": 1
                                             }
@@ -1506,21 +1196,21 @@
                                             "duration": 2000000
                                         }
                                     ],
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 500
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 500
                                         },
                                         {
-                                            "Name": "generic.follow_range",
-                                            "Base": 100
+                                            "id": "minecraft:generic.follow_range",
+                                            "base": 100
                                         }
                                     ],
                                     "ArmorDropChances": [
-                                        0,
-                                        0,
-                                        0,
-                                        0
+                                        0.000,
+                                        0.000,
+                                        0.000,
+                                        0.000
                                     ],
                                     "DeathLootTable": "lbc:stalin"
                                 },
@@ -1563,11 +1253,13 @@
                                     "id": "minecraft:item",
                                     "PickupDelay": 32767,
                                     "Item": {
-                                        "Count": 1,
+                                        "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "mom": 1,
-                                            "drop": 1,
+                                            "minecraft:custom_data": {
+                                                "mom": 1,
+                                                "drop": 1
+                                            },
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
@@ -1628,7 +1320,7 @@
                                         {},
                                         {
                                             "id": "minecraft:repeating_command_block",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
                                                 "minecraft:custom_model_data": 596
                                             }
@@ -1638,7 +1330,7 @@
                                         0.085,
                                         0.085,
                                         0.085,
-                                        0
+                                        0.000
                                     ],
                                     "active_effects": [
                                         {
@@ -1648,14 +1340,14 @@
                                             "show_particles": false
                                         }
                                     ],
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 500
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 500
                                         },
                                         {
-                                            "Name": "generic.knockback_resistance",
-                                            "Base": 100
+                                            "id": "minecraft:generic.knockback_resistance",
+                                            "base": 100
                                         }
                                     ]
                                 },
@@ -1698,11 +1390,13 @@
                                     "id": "minecraft:item",
                                     "PickupDelay": 32767,
                                     "Item": {
-                                        "Count": 1,
+                                        "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "helicopter_boss": 1,
-                                            "drop": 1,
+                                            "minecraft:custom_data": {
+                                                "helicopter_boss": 1,
+                                                "drop": 1
+                                            },
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
@@ -1751,7 +1445,7 @@
                                         0.085,
                                         0.085,
                                         0.085,
-                                        0
+                                        0.000
                                     ],
                                     "Health": 10,
                                     "IsBaby": true,
@@ -1766,10 +1460,9 @@
                                         {},
                                         {
                                             "id": "minecraft:repeating_command_block",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
-                                                "minecraft:custom_model_data": 655,
-                                                "Unbreakable": 1
+                                                "minecraft:custom_model_data": 655
                                             }
                                         }
                                     ],
@@ -1781,34 +1474,34 @@
                                             "show_particles": false
                                         }
                                     ],
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 10
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 10
                                         },
                                         {
-                                            "Name": "generic.follow_range",
-                                            "Base": 50
+                                            "id": "minecraft:generic.follow_range",
+                                            "base": 50
                                         },
                                         {
-                                            "Name": "generic.movement_speed",
-                                            "Base": 0.25
+                                            "id": "minecraft:generic.movement_speed",
+                                            "base": 0.25
                                         },
                                         {
-                                            "Name": "generic.attack_damage",
-                                            "Base": 3
+                                            "id": "minecraft:generic.attack_damage",
+                                            "base": 3
                                         },
                                         {
-                                            "Name": "generic.armor",
-                                            "Base": 5
+                                            "id": "minecraft:generic.armor",
+                                            "base": 5
                                         },
                                         {
-                                            "Name": "generic.armor_toughness",
-                                            "Base": 5
+                                            "id": "minecraft:generic.armor_toughness",
+                                            "base": 5
                                         },
                                         {
                                             "Name": "zombie.spawn_reinforcements",
-                                            "Base": 100
+                                            "base": 100
                                         }
                                     ]
                                 },
@@ -1904,52 +1597,52 @@
                                     "HandItems": [
                                         {
                                             "id": "minecraft:golden_sword",
-                                            "Count": 1
+                                            "count": 1
                                         },
                                         {}
                                     ],
                                     "ArmorItems": [
                                         {
                                             "id": "minecraft:golden_boots",
-                                            "Count": 1
+                                            "count": 1
                                         },
                                         {
                                             "id": "minecraft:golden_leggings",
-                                            "Count": 1
+                                            "count": 1
                                         },
                                         {
                                             "id": "minecraft:golden_chestplate",
-                                            "Count": 1
+                                            "count": 1
                                         },
                                         {
                                             "id": "minecraft:golden_helmet",
-                                            "Count": 1
+                                            "count": 1
                                         }
                                     ],
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 30
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 30
                                         },
                                         {
-                                            "Name": "generic.follow_range",
-                                            "Base": 100
+                                            "id": "minecraft:generic.follow_range",
+                                            "base": 100
                                         },
                                         {
-                                            "Name": "generic.knockback_resistance",
-                                            "Base": 10
+                                            "id": "minecraft:generic.knockback_resistance",
+                                            "base": 10
                                         },
                                         {
-                                            "Name": "generic.attack_damage",
-                                            "Base": 10
+                                            "id": "minecraft:generic.attack_damage",
+                                            "base": 10
                                         },
                                         {
-                                            "Name": "generic.armor",
-                                            "Base": 10
+                                            "id": "minecraft:generic.armor",
+                                            "base": 10
                                         },
                                         {
-                                            "Name": "generic.armor_toughness",
-                                            "Base": 10
+                                            "id": "minecraft:generic.armor_toughness",
+                                            "base": 10
                                         }
                                     ]
                                 },
@@ -2002,33 +1695,33 @@
                                     "HandItems": [
                                         {
                                             "id": "minecraft:golden_sword",
-                                            "Count": 1,
+                                            "count": 1,
                                             "components": {
                                                 "minecraft:custom_model_data": 582
                                             }
                                         },
                                         {}
                                     ],
-                                    "Attributes": [
+                                    "modifiers": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 45
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 45
                                         },
                                         {
-                                            "Name": "generic.follow_range",
-                                            "Base": 100
+                                            "id": "minecraft:generic.follow_range",
+                                            "base": 100
                                         },
                                         {
-                                            "Name": "generic.attack_damage",
-                                            "Base": 17
+                                            "id": "minecraft:generic.attack_damage",
+                                            "base": 17
                                         },
                                         {
-                                            "Name": "generic.armor",
-                                            "Base": 1
+                                            "id": "minecraft:generic.armor",
+                                            "base": 1
                                         },
                                         {
-                                            "Name": "generic.armor_toughness",
-                                            "Base": 1
+                                            "id": "minecraft:generic.armor_toughness",
+                                            "base": 1
                                         }
                                     ]
                                 },
