@@ -24,7 +24,13 @@
             },
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"randchanted": true,"transformable": true,"boots": true}}
+              "components": {
+                "minecraft:custom_data": {
+                  "randchanted": true,
+                  "transformable": true,
+                  "boots": true
+                }
+              }
             },
             {
               "function": "set_lore",
@@ -56,22 +62,29 @@
             },
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"multiplying": true,"transformable": true,"boots": true},"minecraft:attribute_modifiers": [
-    {
-      "type": "minecraft:generic.armor",
-      "slot": "feet",
-      "id": "generhfhfihchfarmor",
-      "amount": 1,
-      "operation": "add_multiplied_base"
-    },
-    {
-      "type": "minecraft:generic.armor_toughness",
-      "slot": "feet",
-      "id": "generjjjjjjjjjjoughness",
-      "amount": 1,
-      "operation": "add_multiplied_base"
-    }
-  ]}
+              "components": {
+                "minecraft:custom_data": {
+                  "multiplying": true,
+                  "transformable": true,
+                  "boots": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "generhfhfihchfarmor",
+                    "amount": 1,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "feet",
+                    "id": "generjjjjjjjjjjoughness",
+                    "amount": 1,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -108,48 +121,56 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true,"berserk": true},"minecraft:custom_model_data":8,"minecraft:unbreakable": {},
-  "minecraft:dyed_color": {
-    "rgb": 512,
-    "show_in_tooltip": false
-  },
-  "minecraft:attribute_modifiers": [
-    {
-      "type": "minecraft:generic.armor",
-      "slot": "feet",
-      "id": "hfdtjuhnrmor",
-      "amount": -2,
-      "operation": "add_value"
-    },
-    {
-      "type": "minecraft:generic.attack_damage",
-      "slot": "feet",
-      "id": "generictknukturmage",
-      "amount": 3,
-      "operation": "add_value"
-    },
-    {
-      "type": "minecraft:generic.armor_toughness",
-      "slot": "feet",
-      "id": "genehetbrvhrttoughness",
-      "amount": -4,
-      "operation": "add_value"
-    },
-    {
-      "type": "minecraft:generic.attack_speed",
-      "slot": "feet",
-      "id": "generijbg7kjvyhyhked",
-      "amount": 0.15,
-      "operation": "add_multiplied_base"
-    },
-    {
-      "type": "minecraft:generic.movement_speed",
-      "slot": "feet",
-      "id": "generifcwryhntmkyud",
-      "amount": 0.05,
-      "operation": "add_multiplied_base"
-    }
-  ]}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "berserk": true
+                },
+                "minecraft:custom_model_data": 8,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 512,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "hfdtjuhnrmor",
+                    "amount": -2,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "feet",
+                    "id": "generictknukturmage",
+                    "amount": 3,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "feet",
+                    "id": "genehetbrvhrttoughness",
+                    "amount": -4,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.attack_speed",
+                    "slot": "feet",
+                    "id": "generijbg7kjvyhyhked",
+                    "amount": 0.15,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.movement_speed",
+                    "slot": "feet",
+                    "id": "generifcwryhntmkyud",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -199,22 +220,30 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true,"chaoschestplate": true},"minecraft:custom_model_data":7, "minecraft:unbreakable": {
-                "show_in_tooltip": false
-              },
-              "minecraft:dyed_color": {
-                "rgb": 256,
-                "show_in_tooltip": false
-              },
-              "minecraft:attribute_modifiers": [
-                {
-                  "type": "minecraft:generic.armor",
-                  "slot": "feet",
-                  "id": "genubh7iyuiytuior",
-                  "amount": 2,
-                  "operation": "add_value"
-                }
-              ]}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "chaoschestplate": true
+                },
+                "minecraft:custom_model_data": 7,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 256,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "genubh7iyuiytuior",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -278,18 +307,27 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"craftusable": true,"transformable": true,"boots": true,"mage": true},"minecraft:custom_model_data":4,"minecraft:unbreakable": {
-    "show_in_tooltip": false
-  },
-  "minecraft:enchantments": {
-    "minecraft:fire_protection": 2,
-    "minecraft:blast_protection": 2,
-    "minecraft:projectile_protection": 2
-  },
-  "minecraft:dyed_color": {
-    "rgb": 257,
-    "show_in_tooltip": false
-  }}
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "boots": true,
+                  "mage": true
+                },
+                "minecraft:custom_model_data": 4,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:enchantments": {
+                  "minecraft:fire_protection": 2,
+                  "minecraft:blast_protection": 2,
+                  "minecraft:projectile_protection": 2
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 257,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -355,11 +393,21 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"craftusable": true,"govnoq": true,"transformable": true,"boots": true,"gownoleggings": true},"minecraft:custom_model_data":5,"minecraft:unbreakable": {},
-  "minecraft:dyed_color": {
-    "rgb": 258,
-    "show_in_tooltip": false
-  }}
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "govnoq": true,
+                  "transformable": true,
+                  "boots": true,
+                  "gownoleggings": true
+                },
+                "minecraft:custom_model_data": 5,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 258,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -419,7 +467,37 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true},Unbreakable:1b,HideFlags:68,"shulkshell": true,display:{color:259},"minecraft:custom_model_data":6,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;1723123,-124763,-129536,231257],Slot:\"feet\"},{AttributeName:\"minecraft:generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:10000,Operation:0,UUID:[I;123123,-12763,-12936,23127],Slot:\"feet\"}]}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "shulkshell": true
+                },
+                "minecraft:custom_model_data": 6,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 259,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "gendthbtj6tyjor",
+                    "amount": 2,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.knockback_resistance",
+                    "slot": "feet",
+                    "id": "generic.knockk6tyukjyukytkunce",
+                    "amount": 10000,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -492,7 +570,31 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"craftusable": true,"transformable": true,display:{color:2},"minecraft:custom_model_data":2,"boots": true},HideFlags:68,Unbreakable:1b,"reactive":true,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-157864489,7513848,-114314494,49336],Slot:\"feet\"}]}
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "boots": true,
+                  "reactive": true
+                },
+                "minecraft:custom_model_data": 2,
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 2,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "gegerghrthjrthnjtyjtjyjor",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -570,7 +672,29 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"craftusable": true,"transformable": true,"boots": true},"techno": true,Unbreakable:1b,HideFlags:64,"minecraft:custom_model_data":1,display:{color:1},AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;823612,18237283,-46736427,1287361],Slot:\"feet\"}]}
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "boots": true,
+                  "techno": true
+                },
+                "minecraft:custom_model_data": 1,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 1,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "gegrhreh6j5yj56jjdaerisr",
+                    "amount": 4,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -651,7 +775,39 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"craftusable": true,"transformable": true,"boots": true},display:{color:3},"minecraft:custom_model_data":3,"jumpboost": true,HideFlags:64,Enchantments:[{id:\"minecraft:feather_falling\",lvl:10s}],AttributeModifiers:[{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.5,Operation:1,UUID:[I;-224391568,-29646651,-141527921,167362808],Slot:\"feet\"},{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-902391568,-2966651,-14152471,16736288],Slot:\"feet\"}],Unbreakable:1b}
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "boots": true,
+                  "jumpboost": true
+                },
+                "minecraft:custom_model_data": 3,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:feather_falling": 10
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 3,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.movement_speed",
+                    "slot": "feet",
+                    "id": "generdthdrhbthjrdjed",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_base"
+                  },
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "generjeyjtjjyjr",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -702,7 +858,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true},"assasin": true,display:{color:515},"minecraft:custom_model_data":10,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-949556328,503466605,-1133335731,-1527929664],Slot:feet}],Unbreakable:1b}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "assasin": true
+                },
+                "minecraft:custom_model_data": 10,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 515,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "generhherh6hj556mor",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -759,7 +936,46 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true},"paladin": true,display:{color:4},"minecraft:custom_model_data":9,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;-949556328,503466605,-1133335731,-1527929664],Slot:feet},{AttributeName:\"minecraft:generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:7,Operation:0,UUID:[I;-9556328,50346605,-11333357,527929664],Slot:feet},{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:-0.1,Operation:1,UUID:[I;556328,546605,-113337,5279296],Slot:feet}],Unbreakable:1b,Enchantments:[{id:\"minecraft:feather_falling\",lvl:255s},{id:\"minecraft:protection\",lvl:3s}]}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "paladin": true
+                },
+                "minecraft:custom_model_data": 9,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:feather_falling": 255,
+                  "minecraft:protection": 3
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 4,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "geneherhrj7ikj6rymor",
+                    "amount": 7,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "feet",
+                    "id": "genrjnyjrtkurtukess",
+                    "amount": 7,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.max_health",
+                    "slot": "feet",
+                    "id": "jrtjtyjjyjyjyjyax_health",
+                    "amount": -0.1,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -809,7 +1025,29 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"craftusable": true,"transformable": true,"boots": true},"phantom": true,display:{color:514},"minecraft:custom_model_data":11,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-949556328,503466605,-1133335731,-1527929664],Slot:feet}],Unbreakable:1b}
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "boots": true,
+                  "phantom": true
+                },
+                "minecraft:custom_model_data": 11,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 514,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "genhsdhthj6tjt6jjrmor",
+                    "amount": 2,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -877,7 +1115,31 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true},"erosion":true,display:{color:8},"minecraft:custom_model_data":23,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-949556328,503466605,-1133335731,-1527929664],Slot:feet}],Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:100}]}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "erosion": true
+                },
+                "minecraft:custom_model_data": 23,
+                "minecraft:unbreakable": {},
+                "minecraft:enchantments": {
+                  "minecraft:protection": 100
+                },
+                "minecraft:dyed_color": {
+                  "rgb": 8,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "genegesrgre5hr6jjyhgr",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -920,7 +1182,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true},"flesh": true,display:{color:264},"minecraft:custom_model_data":21,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.max_health\",Name:\"generic.max_health\",Amount:5,Operation:0,UUID:[I;-949556328,503466605,-1133335731,-1527929664],Slot:feet}],Unbreakable:1b}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "flesh": true
+                },
+                "minecraft:custom_model_data": 21,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 264,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.max_health",
+                    "slot": "feet",
+                    "id": "geh6rtjtjtktykhkalth",
+                    "amount": 5,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -961,7 +1244,28 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true},"nanobots": true,display:{color:514},"minecraft:custom_model_data":22,HideFlags:64,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:0,Operation:0,UUID:[I;-949556328,503466605,-1133335731,-1527929664],Slot:feet}],Unbreakable:1b}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "nanobots": true
+                },
+                "minecraft:custom_model_data": 22,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 514,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.armor",
+                    "slot": "feet",
+                    "id": "genegdgregermor33",
+                    "amount": 0,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -1012,7 +1316,19 @@
           "functions": [
             {
               "function": "minecraft:set_components",
-              "components": {"minecraft:custom_data":{"transformable": true,"boots": true},"glass": true,display:{color:520},"minecraft:custom_model_data":20,HideFlags:64,Unbreakable:1b}
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "boots": true,
+                  "glass": true
+                },
+                "minecraft:custom_model_data": 20,
+                "minecraft:unbreakable": {},
+                "minecraft:dyed_color": {
+                  "rgb": 520,
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -1055,7 +1371,6 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:generic.armor",
-                  
                   "amount": 40,
                   "operation": "add_value",
                   "id": "71eaf780-80f9-4861-8a64-49a55121b",
@@ -1063,7 +1378,6 @@
                 },
                 {
                   "attribute": "minecraft:generic.armor_toughness",
-                  
                   "amount": 40,
                   "operation": "add_value",
                   "id": "71eaf780-80f9-4861-8a64-49a55121b",
@@ -1075,7 +1389,7 @@
         },
         {
           "type": "loot_table",
-          "name": "lbc:neko_set_overload/boots"
+          "value": "lbc:neko_set_overload/boots"
         }
       ]
     }
