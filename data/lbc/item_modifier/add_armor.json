@@ -4,7 +4,7 @@
         "modifiers": [
             {
                 "attribute": "minecraft:generic.armor",
-                "name": "generic.armor",
+                
                 "amount": {
                     "type": "minecraft:score",
                     "target": {
@@ -21,7 +21,7 @@
             },
             {
                 "attribute": "minecraft:generic.armor_toughness",
-                "name": "generic.armor_toughness",
+                
                 "amount": {
                     "type": "minecraft:score",
                     "target": {

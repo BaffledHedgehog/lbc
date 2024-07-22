@@ -74,30 +74,30 @@ execute if score #lbclevelupmax swrg.math matches 9 run function lbc:swrg_kit_in
 
 
 #
-item replace entity @s[advancements={lbc:true_advancements/accesories/infinite_quiver=false}] enderchest.0 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/accesories/mana_belt=false}] enderchest.1 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/accesories/regeneration_belt=false}] enderchest.2 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/accesories/save_platform=false}] enderchest.3 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/babylon_gate=false}] enderchest.4 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/barrier=false}] enderchest.5 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole=false}] enderchest.6 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole_2=false}] enderchest.7 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole_max=false}] enderchest.8 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/heal=false}] enderchest.9 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/neutral=false}] enderchest.10 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/assasin=false}] enderchest.11 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/berserker=false}] enderchest.12 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/chaos=false}] enderchest.13 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/flesh=false}] enderchest.14 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/glass=false}] enderchest.15 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/mage=false}] enderchest.16 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/shulker=false}] enderchest.17 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/techno=false}] enderchest.19 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/tnt_jacket=false}] enderchest.20 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/traveller=false}] enderchest.21 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/axes/poleaxe=false}] enderchest.22 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/axes/tomahawk=false}] enderchest.23 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/bows/railgun=false}] enderchest.24 with repeating_command_block{"minecraft:custom_model_data":669}
+item replace entity @s[advancements={lbc:true_advancements/accesories/infinite_quiver=false}] enderchest.0 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/accesories/mana_belt=false}] enderchest.1 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/accesories/regeneration_belt=false}] enderchest.2 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/accesories/save_platform=false}] enderchest.3 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/babylon_gate=false}] enderchest.4 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/barrier=false}] enderchest.5 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole=false}] enderchest.6 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole_2=false}] enderchest.7 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole_max=false}] enderchest.8 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/heal=false}] enderchest.9 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/neutral=false}] enderchest.10 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/assasin=false}] enderchest.11 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/berserker=false}] enderchest.12 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/chaos=false}] enderchest.13 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/flesh=false}] enderchest.14 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/glass=false}] enderchest.15 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/mage=false}] enderchest.16 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/shulker=false}] enderchest.17 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/techno=false}] enderchest.19 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/tnt_jacket=false}] enderchest.20 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/traveller=false}] enderchest.21 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/axes/poleaxe=false}] enderchest.22 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/axes/tomahawk=false}] enderchest.23 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/bows/railgun=false}] enderchest.24 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/accesories/infinite_quiver=false}] enderchest.0 lbc:swrg_unlocks/infinite_quiver

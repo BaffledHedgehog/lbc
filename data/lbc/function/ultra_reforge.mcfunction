@@ -15,7 +15,7 @@ execute if data entity @s {Item:{components: {"minecraft:custom_data":{"summoner
 execute if data entity @s {Item:{components: {"minecraft:custom_data":{"moisei": true}}}} run loot spawn ~ ~ ~ loot lbc:transformables_boots_all
 execute if data entity @s {Item:{components: {"minecraft:custom_data":{"trident":true}}}} run loot spawn ~ ~ ~ loot lbc:transformables_trident
 execute if data entity @s {Item:{components: {"minecraft:custom_data":{"arcanum": true}}}} run loot spawn ~ ~ ~ loot lbc:transformables_arcanum_all
-execute if data entity @s {Item:{id:"minecraft:arrow",Count:64b}} run loot spawn ~ ~ ~ loot lbc:magnum_ammo
+execute if data entity @s {Item:{id:"minecraft:arrow",count:64}} run loot spawn ~ ~ ~ loot lbc:magnum_ammo
 execute if data entity @s {Item:{components: {"minecraft:custom_data":{"libspell": true}}}} run loot spawn ~ ~ ~ loot lbc:spells_library
 
 
