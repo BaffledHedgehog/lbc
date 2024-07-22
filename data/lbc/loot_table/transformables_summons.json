@@ -15,7 +15,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"summoner": true,summonerwand:1b,summonerskeletons:1b,"minecraft:custom_model_data":594}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "summoner": true,
+                  "summonerwand": true,
+                  "summonerskeletons": true
+                },
+                "minecraft:custom_model_data": 594
+              }
             },
             {
               "function": "set_name",
@@ -28,7 +36,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -85,8 +94,8 @@
                       "name": "skeleton_soul_mana_use",
                       "objective": "lbc.math"
                     },
-                    "italic":false,
-                    "color":"aqua"
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "translate": "mana_on_activate",
@@ -120,7 +129,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"summoner": true,summonerwand:1b,summonerrazoritel:1b,"minecraft:custom_model_data":595}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "summoner": true,
+                  "summonerwand": true,
+                  "summonerrazoritel": true
+                },
+                "minecraft:custom_model_data": 595
+              }
             },
             {
               "function": "set_name",
@@ -133,7 +150,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -190,8 +208,8 @@
                       "name": "ravager_soul_mana_use",
                       "objective": "lbc.math"
                     },
-                    "italic":false,
-                    "color":"aqua"
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "translate": "mana_on_activate",
@@ -225,7 +243,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"summoner": true,summonerwand:1b,summonervexes:1b,"minecraft:custom_model_data":596}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "summoner": true,
+                  "summonerwand": true,
+                  "summonervexes": true
+                },
+                "minecraft:custom_model_data": 596
+              }
             },
             {
               "function": "set_name",
@@ -238,7 +265,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -295,8 +323,8 @@
                       "name": "vex_soul_mana_use",
                       "objective": "lbc.math"
                     },
-                    "italic":false,
-                    "color":"aqua"
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "translate": "mana_on_activate",
@@ -335,7 +363,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"summoner": true,summonerwand:1b,summonereliteskeletons:1b,"minecraft:custom_model_data":597}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "summoner": true,
+                  "summonerwand": true,
+                  "summonereliteskeletons": true
+                },
+                "minecraft:custom_model_data": 597
+              }
             },
             {
               "function": "set_name",
@@ -348,7 +384,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -405,8 +442,8 @@
                       "name": "elite_skeleton_soul_mana_use",
                       "objective": "lbc.math"
                     },
-                    "italic":false,
-                    "color":"aqua"
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "translate": "mana_on_activate",
@@ -440,7 +477,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"summoner": true,summonerwand:1b,summonerghostrider:1b,"minecraft:custom_model_data":598}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "summoner": true,
+                  "summonerwand": true,
+                  "summonerghostrider": true
+                },
+                "minecraft:custom_model_data": 598
+              }
             },
             {
               "function": "set_name",
@@ -453,7 +498,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -510,8 +556,8 @@
                       "name": "ghost_rider_soul_mana_use",
                       "objective": "lbc.math"
                     },
-                    "italic":false,
-                    "color":"aqua"
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "translate": "mana_on_activate",
@@ -545,7 +591,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"summoner": true,summonerwand:1b,summonerghast:1b,"minecraft:custom_model_data":599}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "summoner": true,
+                  "summonerwand": true,
+                  "summonerghast": true
+                },
+                "minecraft:custom_model_data": 599
+              }
             },
             {
               "function": "set_name",
@@ -558,7 +612,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -615,8 +670,8 @@
                       "name": "ghast_soul_mana_use",
                       "objective": "lbc.math"
                     },
-                    "italic":false,
-                    "color":"aqua"
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "translate": "mana_on_activate",
@@ -650,7 +705,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"summoner": true,summonerwand:1b,summonerblaze:1b,"minecraft:custom_model_data":600}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "summoner": true,
+                  "summonerwand": true,
+                  "summonerblaze": true
+                },
+                "minecraft:custom_model_data": 600
+              }
             },
             {
               "function": "set_name",
@@ -663,7 +726,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -720,8 +784,8 @@
                       "name": "blaze_soul_mana_use",
                       "objective": "lbc.math"
                     },
-                    "italic":false,
-                    "color":"aqua"
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "translate": "mana_on_activate",
@@ -755,7 +819,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"summoner": true,summonerwand:1b,summonerguardians:1b,"minecraft:custom_model_data":601}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "summoner": true,
+                  "summonerwand": true,
+                  "summonerguardians": true
+                },
+                "minecraft:custom_model_data": 601
+              }
             },
             {
               "function": "set_name",
@@ -768,7 +840,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -825,8 +898,8 @@
                       "name": "guardian_soul_mana_use",
                       "objective": "lbc.math"
                     },
-                    "italic":false,
-                    "color":"aqua"
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
                     "translate": "mana_on_activate",

@@ -68,7 +68,7 @@ tag @s[nbt={Inventory: [{Slot: 100b, components: {"technomk2": true}}]}] remove 
 
 tag @s[nbt={Inventory: [{components: {mystical: 1}}]}] add afkartifact5t_active
 tag @s[nbt={Inventory: [{Slot: 100b, components: {"techno": true}}]}] add techno_flame_active
-tag @s[nbt={SelectedItem: {components: {hylian: 1b}}}] add hylian_sword_active
+tag @s[nbt={SelectedItem: {components: {"hylian": true}}}] add hylian_sword_active
 tag @s[nbt={Inventory: [{components: {"demonkishki": true}}]}] add demonkishki_active
 tag @s[nbt={Inventory: [{Slot: 102b, components: {"chaoschestplate": true}}]}] add chaosdust_active
 execute if entity @s[nbt={Inventory: [{Slot: 100b, components: {"phantom": true}}, {Slot: 101b, components: {"phantom": true}}, {Slot: 102b, components: {"phantom": true}}, {Slot: 103b, components: {"phantom": true}}]}] run function lbc:armor/phantom_set_bonus_pre
@@ -79,7 +79,7 @@ tag @s[nbt={Inventory: [{components: {erosion: 1b}}]}] add erosion_active
 
 tag @s[nbt=!{Inventory: [{components: {mystical: 1}}]}] remove afkartifact5t_active
 tag @s[nbt=!{Inventory: [{Slot: 100b, components: {"techno": true}}]}] remove techno_flame_active
-tag @s[nbt=!{SelectedItem: {components: {hylian: 1b}}}] remove hylian_sword_active
+tag @s[nbt=!{SelectedItem: {components: {"hylian": true}}}] remove hylian_sword_active
 tag @s[nbt=!{Inventory: [{components: {"demonkishki": true}}]}] remove demonkishki_active
 tag @s[nbt=!{Inventory: [{Slot: 102b, components: {"chaoschestplate": true}}]}] remove chaosdust_active
 tag @s[nbt=!{Inventory: [{components: {yellow_lightning: 1b}}]}] remove yellow_lightning_active

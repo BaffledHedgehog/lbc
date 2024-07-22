@@ -31,5 +31,5 @@ playsound block.end_portal.spawn master @a ~ ~ ~ 10000 2
 playsound block.end_portal.spawn master @a ~ ~ ~ 10000 1
 summon lightning_bolt
 kill @e[type=item,sort=nearest,limit=1,nbt={Item:{components:{shish_gun:1b}}}]
-kill @e[type=item,sort=nearest,limit=1,nbt={Item:{components:{shit_katana:1b}}}]
+kill @e[type=item,sort=nearest,limit=1,nbt={Item:{components:{"shit_katana": true}}}]
 forceload add ~30 ~30 ~-30 ~-30

@@ -26,10 +26,17 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,"randchanted": true}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "randchanted": true
+                }
+              }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -59,7 +66,14 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"sword": true,hylian:1b,"minecraft:custom_model_data":501}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "hylian": true
+                },
+                "minecraft:custom_model_data": 501
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -71,7 +85,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -106,10 +121,20 @@
             },
             {
               "function": "minecraft:set_components",
-              "tag": "{"transformable": true,"sword": true,slimeball:1b,Enchantments:[{id:\"minecraft:knockback\",lvl:3s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "slimeball": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:knockback": 3
+                }
+              }
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -139,7 +164,26 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,HideFlags:2,"minecraft:custom_model_data":522,"heal": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:0,Operation:0,UUID:[I;1164976631,2137670136,-1953277444,1089176931],Slot:\"mainhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "heal": true
+                },
+                "minecraft:custom_model_data": 522,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "slot": "mainhand",
+                      "id": "gekyjykyukyulyiyulyuli",
+                      "amount": 0,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
@@ -152,7 +196,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -202,7 +247,23 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":532,"vampire": true,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;1532279585,286738676,-1517884619,336894893],Slot:\"mainhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "vampire": true
+                },
+                "minecraft:custom_model_data": 532,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "mainhand",
+                    "id": "genjykjktukukage",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
@@ -215,7 +276,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -255,7 +317,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":531,Unbreakable:1b,cool:1b}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "cool": true
+                },
+                "minecraft:custom_model_data": 531,
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "set_name",
@@ -268,7 +338,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -303,7 +374,14 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":521,"feeding": true}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "feeding": true
+                },
+                "minecraft:custom_model_data": 521
+              }
             },
             {
               "function": "set_name",
@@ -316,7 +394,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -351,7 +430,14 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":500,"ender": true}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "ender": true
+                },
+                "minecraft:custom_model_data": 500
+              }
             },
             {
               "function": "set_name",
@@ -364,7 +450,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -404,7 +491,14 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,gravitationsword:1b,"minecraft:custom_model_data":561}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "gravitationsword": true
+                },
+                "minecraft:custom_model_data": 561
+              }
             },
             {
               "function": "set_name",
@@ -416,7 +510,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -456,7 +551,14 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,seaguardian:1b,"minecraft:custom_model_data":560}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "seaguardian": true
+                },
+                "minecraft:custom_model_data": 560
+              }
             },
             {
               "function": "set_name",
@@ -468,7 +570,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -508,7 +611,14 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,icesword:1b,"minecraft:custom_model_data":571}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "icesword": true
+                },
+                "minecraft:custom_model_data": 571
+              }
             },
             {
               "function": "set_name",
@@ -520,7 +630,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -560,7 +671,24 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,evolution:1b,"minecraft:custom_model_data":581,Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:generic.attack_damage,Amount:1,Operation:0,UUID:[I;1400410762,20860599,-1924598641,-937956934],Slot:mainhand}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "evolution": true
+                },
+                "minecraft:custom_model_data": 581,
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.attack_damage",
+                    "slot": "mainhand",
+                    "id": "generyukjutkyjgframage",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
@@ -572,7 +700,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -611,7 +740,36 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"sword": true,"minecraft:custom_model_data":587,cyberkatana:1,"magicwand": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "sword": true,
+                  "cyberkatana": true,
+                  "magicwand": true,
+                  "swordwithability": true
+                },
+                "minecraft:custom_model_data": 587,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "slot": "mainhand",
+                      "id": "genericbdf7kvctxcxyfdjge",
+                      "amount": 5,
+                      "operation": "add_value"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "slot": "mainhand",
+                      "id": "get43fcrybnjutspeed",
+                      "amount": -2.4,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
@@ -624,7 +782,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -705,7 +864,36 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"sword": true,"minecraft:custom_model_data":588,terrasword:1,"raycastspell": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "sword": true,
+                  "terrasword": true,
+                  "raycastspell": true,
+                  "swordwithability": true
+                },
+                "minecraft:custom_model_data": 588,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "slot": "mainhand",
+                      "id": "genejygktgtfhjtmage",
+                      "amount": 7,
+                      "operation": "add_value"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "slot": "mainhand",
+                      "id": "genericjtuykiyukiyupeed",
+                      "amount": -2.4,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
@@ -718,7 +906,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -810,7 +999,34 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":710,anal_whip:1b,"magicwand": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "anal_whip": true,
+                  "magicwand": true
+                },
+                "minecraft:custom_model_data": 710,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "slot": "mainhand",
+                      "id": "genenyfjmtykj6tamage",
+                      "amount": 6,
+                      "operation": "add_value"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "slot": "mainhand",
+                      "id": "generik5k78kiuspeed",
+                      "amount": -2.5,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
@@ -823,7 +1039,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
@@ -889,7 +1106,34 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":722,piston_sword:1b,"magicwand": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.5,Operation:0,UUID:[I;-458644331,-2118431555,-1612872536,-675217271],Slot:\"mainhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "sword": true,
+                  "piston_sword": true,
+                  "magicwand": true
+                },
+                "minecraft:custom_model_data": 722,
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "slot": "mainhand",
+                      "id": "generinrtyjryukge",
+                      "amount": 7,
+                      "operation": "add_value"
+                    },
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "slot": "mainhand",
+                      "id": "generdxhdbthfvghued",
+                      "amount": -2.5,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
             },
             {
               "function": "set_name",
@@ -902,7 +1146,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {

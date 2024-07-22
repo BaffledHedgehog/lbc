@@ -8,4 +8,4 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{summonerghast:1b}}]}
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{summonerblaze:1b}}]},predicate=!lbc:sneak] mana >= blaze_soul_mana_use lbc.math run function lbc:workingitems/summoner/blaze
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{summonerguardians:1b}}]},predicate=!lbc:sneak] mana >= guardian_soul_mana_use lbc.math run function lbc:workingitems/summoner/guardians
 
-execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{summonerwand:1b}}]},predicate=lbc:sneak] run function lbc:workingitems/summoner/anger
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"summonerwand": true}}]},predicate=lbc:sneak] run function lbc:workingitems/summoner/anger

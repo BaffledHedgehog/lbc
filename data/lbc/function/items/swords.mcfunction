@@ -33,13 +33,13 @@ execute at @s[nbt={SelectedItem:{components:{"ruchka": true}}}] unless entity @e
 
 execute at @s[nbt={SelectedItem:{components:{"metal_pipe": true}}}] run playsound minecraft:lbcsounds.metal_pipe master @a ^ ^ ^1 2 2
 execute at @s[nbt={SelectedItem:{components:{cyberkatana:1}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:workingitems/cyberkatana
-execute at @s[nbt={SelectedItem:{components:{techrunner_katana:1b}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/techno/katana/charge
-execute at @s[nbt={SelectedItem:{components:{shit_katana:1b}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:workingitems/shit_katana
+execute at @s[nbt={SelectedItem:{components:{"techrunner_katana": true}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/techno/katana/charge
+execute at @s[nbt={SelectedItem:{components:{"shit_katana": true}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:workingitems/shit_katana
 execute at @s[nbt={SelectedItem:{components:{terrasword:1}}}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] run function lbc:workingitems/terrasword
 execute at @s[nbt={SelectedItem:{components:{"mortis": true}}}] at @e[nbt={HurtTime:10s},limit=1,distance=..7,tag=!spectator] rotated as @s rotated ~180 0 run function lbc:workingitems/mortis
 execute at @s[nbt={SelectedItem:{components:{"mortis": true}}}] facing entity @e[nbt={HurtTime:10s},limit=1,distance=..7,tag=!spectator] eyes rotated ~ 0 run function lbc:mortisbreak
 execute at @s[nbt={Inventory:[{Slot:100b,components:{"phantom": true}},{Slot:101b,components:{"phantom": true}},{Slot:102b,components:{"phantom": true}},{Slot:103b,components:{"phantom": true}}]},gamemode=!spectator] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:workingitems/phantom
-execute at @s[nbt={SelectedItem:{components:{vexsword:1b}}}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:workingitems/vexsword
+execute at @s[nbt={SelectedItem:{components:{"vexsword": true}}}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:workingitems/vexsword
 execute at @s[nbt={SelectedItem:{components:{true_terra:1b}}}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/true_terra_sword_hit
 execute at @s[nbt={Inventory:[{Slot:102b,components:{"nyauwu": true}}]}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:other/manaregen_hit
 execute at @s[nbt={SelectedItem:{components:{"antimagic": true}}}] as @a[nbt={HurtTime:10s},distance=0.01..7,gamemode=!spectator] run function lbc:other/effect_nomagic

@@ -63,14 +63,14 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"stfire": true}}]}] 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"stblind": true}}]}] mana >= stblind_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/blind
 
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"reactive_shish": true}}]}] coldownshish matches 1.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/reactive_shish
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{vexsword:1b}}]}] swordcharged4 matches 1.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/vex_ulta
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{shit_katana:1b}}]}] swordcharged5 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/shit_ulta
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"vexsword": true}}]}] swordcharged4 matches 1.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/vex_ulta
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"shit_katana": true}}]}] swordcharged5 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/shit_ulta
 execute at @s[nbt={Inventory:[{Slot:-106b,components:{"witch_gens": true}}]}] run function lbc:workingitems/witch_gens/activate
 execute at @s[nbt={Inventory:[{Slot:-106b,components:{"whale":true}}]},tag=sin_gluttony] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] unless entity @e[type=ghast,tag=white_whale] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/witch_gens/whale_spawn
 execute at @s[nbt={Inventory:[{Slot:-106b,components:{"lust_cooldown": true}}]},tag=sin_lust] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/witch_gens/lust_flesh
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"indolence": true}}]},tag=sin_indolence] indolence_cd matches 1.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/witch_gens/indolence_hand
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{techrunner_katana:1b}}]}] swordcharged6 matches 1.. at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:other/techno/katana/use
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"techrunner_katana": true}}]}] swordcharged6 matches 1.. at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:other/techno/katana/use
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{dublicating_wand:1b}}]}] mana >= dublicating_wand_mana_use lbc.math at @s anchored eyes positioned ^ ^ ^ unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/awaken_tuntija_wands/avarice/click
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{true_terra:1b}}]}] mana >= true_terra_mana_use lbc.math at @s anchored eyes positioned ^ ^ ^ unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/awaken_tuntija_wands/terra/click

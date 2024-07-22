@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":643,vexsword:1b,"magicwand": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"}]}"
+                            "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":643,"vexsword": true,"magicwand": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"}]}"
                         },
                         {
                             "function": "set_name",
