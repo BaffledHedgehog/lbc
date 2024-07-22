@@ -15,7 +15,7 @@
             },
             {
               "function": "set_components",
-              "tag": {
+              "components": {
                 "minecraft:custom_data": {
                   "craftusable": true,
                   "transformable": true,

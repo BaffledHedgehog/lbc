@@ -19,9 +19,6 @@
                   "craftusable": true,
                   "govnoq": true,
                   "randomgovno": true
-                },
-                "minecraft:attribute_modifiers": {
-                  "show_in_tooltip": false
                 }
               }
             },
@@ -39,6 +36,12 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -66,9 +69,6 @@
                   "craftusable": true,
                   "govnoq": true,
                   "randomgovno": true
-                },
-                "minecraft:attribute_modifiers": {
-                  "show_in_tooltip": false
                 }
               }
             },
@@ -86,6 +86,12 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -113,9 +119,6 @@
                   "craftusable": true,
                   "govnoq": true,
                   "randomgovno": true
-                },
-                "minecraft:attribute_modifiers": {
-                  "show_in_tooltip": false
                 }
               }
             },
@@ -133,6 +136,12 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
             },
             {
               "function": "minecraft:set_name",
