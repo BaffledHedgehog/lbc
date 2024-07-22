@@ -11,7 +11,7 @@ execute if score @s[nbt={SelectedItem:{components:{unstable_spellbook:1}}}] mana
 execute if score @s[nbt={SelectedItem:{components:{psychowand:1}}}] mana >= psycho_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/psychowand_pre
 execute if score @s[nbt={SelectedItem:{components:{omegaflag:1}}}] mana >= absurd_singularity_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/omegaflag_pre
 execute if score @s[nbt={SelectedItem:{components:{neutralmage:1}}}] mana >= neutral_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/neutralmage/select_pre
-execute if score @s[nbt={SelectedItem:{components:{exoperso:1b}}}] mana >= megumin_staff_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/exoperso_pre
+execute if score @s[nbt={SelectedItem:{components:{"exoperso": true}}}] mana >= megumin_staff_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/exoperso_pre
 execute if score @s[nbt={SelectedItem:{components:{"struby": true}}}] mana >= struby_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/ruby
 execute if score @s[nbt={SelectedItem:{components:{"stterra": true}}}] mana >= stterra_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/terra
 execute if score @s[nbt={SelectedItem:{components:{"stelectro": true}}}] mana >= stelectro_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/electro
@@ -31,7 +31,7 @@ execute if score @s[nbt={SelectedItem:{components:{psychoblind_wand:1b}}}] mana 
 execute if score @s[nbt={SelectedItem:{components:{"gaycaster":true}}}] mana >= gaycaster_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/gaycaster/ray/cast
 execute if score @s[nbt={SelectedItem:{components:{"ice_wand": true}}},predicate=!lbc:sneak] mana >= ice_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/ice_wand/use
 execute if score @s[nbt={SelectedItem:{components:{"ice_wand": true}}},predicate=lbc:sneak] mana >= ice_wand_shift_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/ice_wand/use_shift with entity @s
-execute if score @s[nbt={SelectedItem:{components:{snow_wand:1b}}}] mana >= snow_wand_mana_use lbc.math anchored eyes positioned ^ ^ ^ unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/snow_wand/cast
+execute if score @s[nbt={SelectedItem:{components:{"snow_wand": true}}}] mana >= snow_wand_mana_use lbc.math anchored eyes positioned ^ ^ ^ unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/snow_wand/cast
 execute if score @s[nbt={SelectedItem:{components:{"shish_wall_wand": true}}}] mana >= wall_wand_mana_use lbc.math anchored eyes positioned ^ ^ ^ unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/shish_wall_wand/cast
 
 
@@ -98,7 +98,7 @@ execute unless score @s[nbt={SelectedItem:{components:{"nexus_roadgun": true}}}]
 execute unless score @s[nbt={SelectedItem:{components:{"nexus_corrupter": true}}}] nexus_corrupter_cd matches 1.. run function lbc:other/nexus/click/corrupter
 execute if entity @s[nbt={SelectedItem:{components:{"nexus_orb_gun": true}}}] run function lbc:other/nexus/click/orb_gun/pre
 execute if entity @s[nbt={SelectedItem:{components:{piston_sword:1b}}}] run function lbc:items/swords/piston_sword/click
-execute if score @s[nbt={SelectedItem:{components:{danmaku_staff:1b}}}] mana >= danmaku_staff_mana_use lbc.math run function lbc:items/wands/danmaku_staff/click
+execute if score @s[nbt={SelectedItem:{components:{"danmaku_staff": true}}}] mana >= danmaku_staff_mana_use lbc.math run function lbc:items/wands/danmaku_staff/click
 execute unless score @s[nbt={SelectedItem:{components:{"nexus_pulsar": true}}}] pulsar_cd matches 1.. run function lbc:other/nexus/click/pulsar/pre
 
 execute if score @s[nbt={SelectedItem:{components:{triple_golden_sword:1b}}}] swordcharged8 matches 1.. run function lbc:items/swords/triple_golden_sword/click

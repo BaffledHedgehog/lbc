@@ -1,24 +1,35 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"transformable": true,"raycastspell": true,"spellitem": true,"minecraft:custom_model_data":509,tnts:1,"spell": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "raycastspell": true,
+                  "spellitem": true,
+                  "tnts": true,
+                  "spell": true
+                },
+                "minecraft:custom_model_data": 509
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -30,51 +41,63 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "tnt_fountain_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "tnt_fountain_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "tnt_fountain_spell.lore.3",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "tnt_fountain_spell",
-                    "color": "red",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "tnt_fountain_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "tnt_fountain_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "tnt_fountain_spell.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "tnt_fountain_spell",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "spellitem": true,
+                  "lightning": true,
+                  "raycastspell": true,
+                  "spell": true
+                },
+                "minecraft:custom_model_data": 507
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":507,"lightning": true,"raycastspell": true,"spell": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -86,56 +109,69 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "lightning_bolt_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "lightning_bolt_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "lightning_bolt_spell.lore.3",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "lightning_bolt_spell.lore.4",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "lightning_bolt_spell",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "lightning_bolt_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lightning_bolt_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lightning_bolt_spell.lore.3",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lightning_bolt_spell.lore.4",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "lightning_bolt_spell",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "spellitem": true,
+                  "creeperz": true,
+                  "raycastspell": true,
+                  "spell": true,
+                  "cons_material": true
+                },
+                "minecraft:custom_model_data": 504
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":504,creeperz:1,"raycastspell": true,"spell": true,"cons_material": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -147,56 +183,69 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "creeper_army_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "creeper_army_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "creeper_army_spell.lore.3",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "destroyer_spell.lore.3",
-                    "color": "gold",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "creeper_army_spell",
-                    "color": "green",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "creeper_army_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "creeper_army_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "creeper_army_spell.lore.3",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "destroyer_spell.lore.3",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "creeper_army_spell",
+                  "color": "green",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "spellitem": true,
+                  "trap2": true,
+                  "raycastspell": true,
+                  "spell": true,
+                  "cons_material": true
+                },
+                "minecraft:custom_model_data": 503
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"craftusable": true,"transformable": true,"spellitem": true,"minecraft:custom_model_data":503,trap2:1,"raycastspell": true,"spell": true,"cons_material": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -208,51 +257,62 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "destroyer_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "destroyer_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "destroyer_spell.lore.3",
-                    "color": "gold",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "destroyer_spell",
-                    "color": "gray",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "destroyer_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "destroyer_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "destroyer_spell.lore.3",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "destroyer_spell",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "spellitem": true,
+                  "skeletons": true,
+                  "raycastspell": true,
+                  "spell": true
+                },
+                "minecraft:custom_model_data": 508
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":508,skeletons:1,"raycastspell": true,"spell": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -264,51 +324,62 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "skeleton_army_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "skeleton_army_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "skeleton_army_spell.lore.3",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "skeleton_army_spell",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "skeleton_army_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "skeleton_army_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "skeleton_army_spell.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "skeleton_army_spell",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "spellitem": true,
+                  "wither1": true,
+                  "raycastspell": true,
+                  "spell": true
+                },
+                "minecraft:custom_model_data": 510
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":510,wither1:1,"raycastspell": true,"spell": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -320,51 +391,62 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "wither_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "wither_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "wither_spell.lore.3",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "wither_spell",
-                    "color": "dark_gray",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "wither_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "wither_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "wither_spell.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "wither_spell",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "spellitem": true,
+                  "heal1": true,
+                  "raycastspell": true,
+                  "spell": true
+                },
+                "minecraft:custom_model_data": 505
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":505,heal1:1,"raycastspell": true,"spell": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -376,51 +458,62 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "heal_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "heal_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "heal_spell.lore.3",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "heal_spell",
-                    "color": "red",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "heal_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "heal_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "heal_spell.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "heal_spell",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "spellitem": true,
+                  "arrows1": true,
+                  "raycastspell": true,
+                  "spell": true
+                },
+                "minecraft:custom_model_data": 501
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":501,arrows1:1,"raycastspell": true,"spell": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -432,51 +525,62 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "firestorm_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "firestorm_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "firestorm_spell.lore.3",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "firestorm_spell",
-                    "color": "gold",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "firestorm_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "firestorm_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "firestorm_spell.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "firestorm_spell",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "spellitem": true,
+                  "lava1": true,
+                  "raycastspell": true,
+                  "spell": true
+                },
+                "minecraft:custom_model_data": 506
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":506,lava1:1,"raycastspell": true,"spell": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -488,46 +592,57 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "lava_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "lava_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "lava_spell",
-                    "color": "red",
-                    "italic": false
-                  }
-                ]
+                {
+                  "translate": "lava_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "lava_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "lava_spell",
+                  "color": "red",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "spellitem": true,
+                  "anvils": true,
+                  "raycastspell": true,
+                  "spell": true
+                },
+                "minecraft:custom_model_data": 502
               }
-            ]
-          },
-          {
-            "type": "item",
-            "weight": 1,
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-              {
-                "function": "set_count",
-                "count": 1
-              },
-              {
-                "function": "set_components",
-                "tag": "{"transformable": true,"spellitem": true,"minecraft:custom_model_data":502,anvils:1,"raycastspell": true,"spell": true}"
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [[
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
                     "translate": "type",
                     "italic": false,
@@ -539,36 +654,36 @@
                     "color": "aqua"
                   }
                 ],
-                  {
-                    "translate": "stone_rain_spell.lore.1",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "stone_rain_spell.lore.2",
-                    "color": "white",
-                    "italic": false
-                  },
-                  {
-                    "translate": "stone_rain_spell.lore.3",
-                    "color": "white",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "stone_rain_spell",
-                    "color": "dark_gray",
-                    "italic": false
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+                {
+                  "translate": "stone_rain_spell.lore.1",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "stone_rain_spell.lore.2",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "translate": "stone_rain_spell.lore.3",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "stone_rain_spell",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

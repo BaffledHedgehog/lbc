@@ -15,7 +15,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":513,HideFlags:2,"evocator": true}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "evocator": true
+                },
+                "minecraft:custom_model_data": 513
+              }
             },
             {
               "function": "set_name",
@@ -27,7 +35,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -102,7 +111,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":511,HideFlags:2,bassboost:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "bassboost": true
+                },
+                "minecraft:custom_model_data": 511
+              }
             },
             {
               "function": "set_name",
@@ -114,7 +131,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -204,7 +222,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":542,HideFlags:2,corrupter:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "corrupter": true
+                },
+                "minecraft:custom_model_data": 542
+              }
             },
             {
               "function": "set_name",
@@ -216,7 +243,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -311,7 +339,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{enderset:1b,"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":512,HideFlags:2,enderwand:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "enderset": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "enderwand": true
+                },
+                "minecraft:custom_model_data": 512
+              }
             },
             {
               "function": "set_name",
@@ -323,7 +360,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -386,7 +424,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":546,HideFlags:2,lifestealer:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "lifestealer": true
+                },
+                "minecraft:custom_model_data": 546
+              }
             },
             {
               "function": "set_name",
@@ -398,7 +444,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -488,7 +535,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":548,HideFlags:2,foxusing:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "foxusing": true
+                },
+                "minecraft:custom_model_data": 548
+              }
             },
             {
               "function": "set_name",
@@ -500,7 +555,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -578,7 +634,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":547,HideFlags:2,bloodmagic:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "bloodmagic": true
+                },
+                "minecraft:custom_model_data": 547
+              }
             },
             {
               "function": "set_name",
@@ -590,7 +654,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -680,7 +745,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":550,HideFlags:2,badwiki:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "badwiki": true
+                },
+                "minecraft:custom_model_data": 550
+              }
             },
             {
               "function": "set_name",
@@ -692,7 +765,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -758,7 +832,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,"raycastspell": true,wall:1b,"minecraft:custom_model_data":561}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "wall": true
+                },
+                "minecraft:custom_model_data": 561
+              }
             },
             {
               "function": "set_name",
@@ -770,7 +853,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -858,7 +942,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{enderset:1b,"transformable": true,"staff": true,"raycastspell": true,advancedteleport:1b,"minecraft:custom_model_data":560}"
+              "components": {
+                "minecraft:custom_data": {
+                  "enderset": true,
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "advancedteleport": true
+                },
+                "minecraft:custom_model_data": 560
+              }
             },
             {
               "function": "set_name",
@@ -871,7 +964,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -966,7 +1060,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,"raycastspell": true,truefallingstars:1b,"minecraft:custom_model_data":563}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "truefallingstars": true
+                },
+                "minecraft:custom_model_data": 563
+              }
             },
             {
               "function": "set_name",
@@ -979,7 +1082,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -1091,7 +1195,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,"raycastspell": true,prisma:1b,"minecraft:custom_model_data":568}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "prisma": true
+                },
+                "minecraft:custom_model_data": 568
+              }
             },
             {
               "function": "set_name",
@@ -1104,7 +1217,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -1204,7 +1318,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -1258,7 +1373,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,HideFlags:2,"raycastspell": true,fallingstars:1b,"minecraft:custom_model_data":564}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "fallingstars": true
+                },
+                "minecraft:custom_model_data": 564
+              }
             }
           ]
         },
@@ -1279,7 +1403,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -1424,7 +1549,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,HideFlags:2,"magicwand": true,unstable_spellbook:1,"minecraft:custom_model_data":570}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "unstable_spellbook": true
+                },
+                "minecraft:custom_model_data": 570
+              }
             }
           ]
         },
@@ -1440,7 +1573,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"raycastspell": true,"minecraft:custom_model_data":577,HideFlags:2,baffledhedgehog:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "baffledhedgehog": true
+                },
+                "minecraft:custom_model_data": 577
+              }
             },
             {
               "function": "set_name",
@@ -1452,7 +1593,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -1566,7 +1708,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"raycastspell": true,"minecraft:custom_model_data":578,HideFlags:2,sheepwand:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "sheepwand": true
+                },
+                "minecraft:custom_model_data": 578
+              }
             },
             {
               "function": "set_name",
@@ -1578,7 +1728,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -1658,7 +1809,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":579,HideFlags:2,psychowand:1}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "psychowand": true
+                },
+                "minecraft:custom_model_data": 579
+              }
             },
             {
               "function": "set_name",
@@ -1670,7 +1830,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -1740,14 +1901,14 @@
                   "italic": false
                 },
                 {
-                    "translate": "psycho_wand.lore.4",
-                    "color": "white",
-                    "italic": false
+                  "translate": "psycho_wand.lore.4",
+                  "color": "white",
+                  "italic": false
                 },
                 {
-                    "translate": "psycho_wand.lore.5",
-                    "color": "white",
-                    "italic": false
+                  "translate": "psycho_wand.lore.5",
+                  "color": "white",
+                  "italic": false
                 },
                 {
                   "translate": "craft_with_blind",
@@ -1770,7 +1931,17 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"cyberset": true,"transformable": true,"staff": true,"raycastspell": true,"lightningwand": true,"minecraft:custom_model_data":583}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "cyberset": true,
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "lightningwand": true
+                },
+                "minecraft:custom_model_data": 583
+              }
             },
             {
               "function": "set_name",
@@ -1783,7 +1954,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -1895,7 +2067,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,"raycastspell": true,acidwand:1,"minecraft:custom_model_data":584}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "acidwand": true
+                },
+                "minecraft:custom_model_data": 584
+              }
             },
             {
               "function": "set_name",
@@ -1908,7 +2089,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -2015,7 +2197,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,"magicwand": true,omegaflag:1,"minecraft:custom_model_data":590}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "omegaflag": true
+                },
+                "minecraft:custom_model_data": 590
+              }
             },
             {
               "function": "set_name",
@@ -2028,7 +2219,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -2108,7 +2300,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"magicwand": true,neutralmage:1,"minecraft:custom_model_data":602,"craftusable": true}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "neutralmage": true,
+                  "craftusable": true
+                },
+                "minecraft:custom_model_data": 602
+              }
             },
             {
               "function": "set_name",
@@ -2121,7 +2322,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -2254,7 +2456,17 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"cyberset": true,"transformable": true,"staff": true,"raycastspell": true,lightning_bolts:1,"minecraft:custom_model_data":604}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "cyberset": true,
+                  "transformable": true,
+                  "staff": true,
+                  "raycastspell": true,
+                  "lightning_bolts": true
+                },
+                "minecraft:custom_model_data": 604
+              }
             },
             {
               "function": "set_name",
@@ -2267,7 +2479,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -2359,7 +2572,16 @@
             },
             {
               "function": "set_components",
-              "tag": "{"craftusable": true,"transformable": true,"staff": true,"magicwand": true,exoperso:1b,"minecraft:custom_model_data":631}"
+              "components": {
+                "minecraft:custom_data": {
+                  "craftusable": true,
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "exoperso": true
+                },
+                "minecraft:custom_model_data": 631
+              }
             },
             {
               "function": "set_name",
@@ -2372,7 +2594,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -2452,7 +2675,25 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"spellwithcooldown": true,"staff": true,"magicwand": true,danmaku_staff:1b,"minecraft:custom_model_data":725,AttributeModifiers:[{AttributeName:\"minecraft:generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.75,Operation:1,UUID:[I;841274755,-1237431626,-1741318976,-2052617971],Slot:\"offhand\"}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "spellwithcooldown": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "danmaku_staff": true
+                },
+                "minecraft:custom_model_data": 725,
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:generic.movement_speed",
+                    "slot": "offhand",
+                    "id": "genej656j6j6tk87ukukyeed",
+                    "amount": -0.75,
+                    "operation": "add_multiplied_base"
+                  }
+                ]
+              }
             },
             {
               "function": "set_name",
@@ -2465,7 +2706,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -2546,7 +2788,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"staff": true,"magicwand": true,snow_wand:1b,"minecraft:custom_model_data":748}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "staff": true,
+                  "magicwand": true,
+                  "snow_wand": true
+                },
+                "minecraft:custom_model_data": 748
+              }
             },
             {
               "function": "set_name",
@@ -2559,7 +2809,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "entity": "this",
               "lore": [
                 [
@@ -2599,12 +2850,10 @@
                   "color": "white",
                   "italic": false
                 }
-                
               ]
             }
           ]
         }
-        
       ]
     }
   ]
