@@ -895,17 +895,17 @@
               "components": {
                 "minecraft:entity_data": {
                   "id": "minecraft:pig",
-                  "CustomNameVisible": 1,
+                  "CustomNameVisible": true,
                   "Health": 50,
                   "Tags": [
                     "fakepig",
                     "lucky_mob"
                   ],
                   "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}",
-                  "Attributes": [
+                  "modifiers": [
                     {
-                      "Name": "generic.max_health",
-                      "Base": 50
+                      "id": "minecraft:generic.max_health",
+                      "base": 50
                     }
                   ]
                 }

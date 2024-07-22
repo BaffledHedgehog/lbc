@@ -2459,7 +2459,7 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:entity_data": {
-                                    "CustomNameVisible": 1,
+                                    "CustomNameVisible": true,
                                     "Health": 50,
                                     "Tags": [
                                         "fakepig",
