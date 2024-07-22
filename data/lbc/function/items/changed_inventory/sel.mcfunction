@@ -47,18 +47,18 @@ tag @s[nbt=!{Inventory:[{components:{yellow_lightning:1b}}]}] remove yellow_ligh
 tag @s[nbt={Inventory:[{components:{mystical:1,type:1}}]}] add nomagic_active
 tag @s[nbt=!{Inventory:[{components:{mystical:1,type:1}}]}] remove nomagic_active
 
-tag @s[nbt={Inventory:[{components:{phantomknifes:1}}]}] add phantomknifes_active
-tag @s[nbt={Inventory:[{components:{razorpine:1}}]}] add razorpine_active
+tag @s[nbt={Inventory:[{components:{"phantomknifes": true}}]}] add phantomknifes_active
+tag @s[nbt={Inventory:[{components:{"razorpine": true}}]}] add razorpine_active
 tag @s[nbt={Inventory:[{components:{mystical:1,type:2}}]}] add notnt_active
-tag @s[nbt={Inventory:[{components:{attack_helicopter:1}}]}] add helicopter_active
+tag @s[nbt={Inventory:[{components:{"attack_helicopter": true}}]}] add helicopter_active
 tag @s[nbt={Inventory:[{Slot:101b,components:{"shulkshell": true}}]}] add shulkshell_active
 tag @s[nbt={Inventory:[{Slot:103b,components:{"reactive":true}}]}] add reactivehelmet_active
 tag @s[nbt={Inventory: [{Slot: 100b, components: {"reactive":true}}]},nbt=!{Inventory: [{Slot: 100b, components: {"technomk2": true}}]}] add reactiveboots_active
 
-tag @s[nbt=!{Inventory:[{components:{phantomknifes:1}}]}] remove phantomknifes_active
-tag @s[nbt=!{Inventory:[{components:{razorpine:1}}]}] remove razorpine_active
+tag @s[nbt=!{Inventory:[{components:{"phantomknifes": true}}]}] remove phantomknifes_active
+tag @s[nbt=!{Inventory:[{components:{"razorpine": true}}]}] remove razorpine_active
 tag @s[nbt=!{Inventory:[{components:{mystical:1,type:2}}]}] remove notnt_active
-tag @s[nbt=!{Inventory:[{components:{attack_helicopter:1}}]}] remove helicopter_active
+tag @s[nbt=!{Inventory:[{components:{"attack_helicopter": true}}]}] remove helicopter_active
 tag @s[nbt=!{Inventory:[{Slot:101b,components:{"shulkshell": true}}]}] remove shulkshell_active
 tag @s[nbt=!{Inventory:[{Slot:103b,components:{"reactive":true}}]}] remove reactivehelmet_active
 tag @s[nbt=!{Inventory: [{Slot: 100b, components: {"reactive":true}}]}] remove reactiveboots_active
@@ -68,7 +68,7 @@ tag @s[nbt={Inventory: [{Slot: 100b, components: {"technomk2": true}}]}] remove 
 
 tag @s[nbt={Inventory: [{components: {mystical: 1}}]}] add afkartifact5t_active
 tag @s[nbt={Inventory: [{Slot: 100b, components: {"techno": true}}]}] add techno_flame_active
-tag @s[nbt={SelectedItem: {components: {hylian: 1b}}}] add hylian_sword_active
+tag @s[nbt={SelectedItem: {components: {"hylian": true}}}] add hylian_sword_active
 tag @s[nbt={Inventory: [{components: {"demonkishki": true}}]}] add demonkishki_active
 tag @s[nbt={Inventory: [{Slot: 102b, components: {"chaoschestplate": true}}]}] add chaosdust_active
 execute if entity @s[nbt={Inventory: [{Slot: 100b, components: {"phantom": true}}, {Slot: 101b, components: {"phantom": true}}, {Slot: 102b, components: {"phantom": true}}, {Slot: 103b, components: {"phantom": true}}]}] run function lbc:armor/phantom_set_bonus_pre
@@ -79,7 +79,7 @@ tag @s[nbt={Inventory: [{components: {erosion: 1b}}]}] add erosion_active
 
 tag @s[nbt=!{Inventory: [{components: {mystical: 1}}]}] remove afkartifact5t_active
 tag @s[nbt=!{Inventory: [{Slot: 100b, components: {"techno": true}}]}] remove techno_flame_active
-tag @s[nbt=!{SelectedItem: {components: {hylian: 1b}}}] remove hylian_sword_active
+tag @s[nbt=!{SelectedItem: {components: {"hylian": true}}}] remove hylian_sword_active
 tag @s[nbt=!{Inventory: [{components: {"demonkishki": true}}]}] remove demonkishki_active
 tag @s[nbt=!{Inventory: [{Slot: 102b, components: {"chaoschestplate": true}}]}] remove chaosdust_active
 tag @s[nbt=!{Inventory: [{components: {yellow_lightning: 1b}}]}] remove yellow_lightning_active
@@ -97,20 +97,20 @@ tag @s[nbt=!{Inventory:[{components:{"stand_clocks": true}}]}] remove have_stand
 tag @s[nbt={Inventory:[{components:{"stand_clocks": true}}]}] add stand_clocks_active
 tag @s[nbt=!{Inventory:[{components:{"stand_clocks": true}}]}] remove stand_clocks_active
 
-tag @s[nbt={Inventory:[{Slot:103b,components:{overload:1b}},{Slot:102b,components:{overload:1b}},{Slot:101b,components:{overload:1b}},{Slot:100b,components:{overload:1b}}]}] add overload_full_active
-tag @s[nbt=!{Inventory:[{Slot:103b,components:{overload:1b}},{Slot:102b,components:{overload:1b}},{Slot:101b,components:{overload:1b}},{Slot:100b,components:{overload:1b}}]}] remove overload_full_active
+tag @s[nbt={Inventory:[{Slot:103b,components:{"overload": true}},{Slot:102b,components:{"overload": true}},{Slot:101b,components:{"overload": true}},{Slot:100b,components:{"overload": true}}]}] add overload_full_active
+tag @s[nbt=!{Inventory:[{Slot:103b,components:{"overload": true}},{Slot:102b,components:{"overload": true}},{Slot:101b,components:{"overload": true}},{Slot:100b,components:{"overload": true}}]}] remove overload_full_active
 
-tag @s[nbt={Inventory:[{Slot:103b,components:{overload:1b}}]}] add overload_helmet_active
-tag @s[nbt=!{Inventory:[{Slot:103b,components:{overload:1b}}]}] remove overload_helmet_active
+tag @s[nbt={Inventory:[{Slot:103b,components:{"overload": true}}]}] add overload_helmet_active
+tag @s[nbt=!{Inventory:[{Slot:103b,components:{"overload": true}}]}] remove overload_helmet_active
 
-tag @s[nbt={Inventory:[{Slot:102b,components:{overload:1b}}]}] add overload_chestplate_active
-tag @s[nbt=!{Inventory:[{Slot:102b,components:{overload:1b}}]}] remove overload_chestplate_active
+tag @s[nbt={Inventory:[{Slot:102b,components:{"overload": true}}]}] add overload_chestplate_active
+tag @s[nbt=!{Inventory:[{Slot:102b,components:{"overload": true}}]}] remove overload_chestplate_active
 
-tag @s[nbt={Inventory:[{Slot:101b,components:{overload:1b}}]}] add overload_leggings_active
-tag @s[nbt=!{Inventory:[{Slot:101b,components:{overload:1b}}]}] remove overload_leggings_active
+tag @s[nbt={Inventory:[{Slot:101b,components:{"overload": true}}]}] add overload_leggings_active
+tag @s[nbt=!{Inventory:[{Slot:101b,components:{"overload": true}}]}] remove overload_leggings_active
 
-tag @s[nbt={Inventory:[{Slot:100b,components:{overload:1b}}]}] add overload_boots_active
-tag @s[nbt=!{Inventory:[{Slot:100b,components:{overload:1b}}]}] remove overload_boots_active
+tag @s[nbt={Inventory:[{Slot:100b,components:{"overload": true}}]}] add overload_boots_active
+tag @s[nbt=!{Inventory:[{Slot:100b,components:{"overload": true}}]}] remove overload_boots_active
 
 execute unless data entity @s Inventory.[{Slot:100b}].tag.AttributeModifiers run function lbc:items/changed_inventory/fix_attribute_feet
 execute unless data entity @s Inventory.[{Slot:101b}].tag.AttributeModifiers run function lbc:items/changed_inventory/fix_attribute_legs

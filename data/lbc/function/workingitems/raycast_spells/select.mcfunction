@@ -43,25 +43,25 @@ execute if entity @s[nbt={SelectedItem:{components:{trap2:1}}}] run scoreboard p
 
 
 
-execute if entity @s[nbt={SelectedItem:{components:{lightning_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop16_imba
+execute if entity @s[nbt={SelectedItem:{components:{"lightning_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop16_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{tnts_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop9_imba
+execute if entity @s[nbt={SelectedItem:{components:{"tnts_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop9_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{creeperz_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop8_imba
+execute if entity @s[nbt={SelectedItem:{components:{"creeperz_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop8_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{wither1_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop11_imba
+execute if entity @s[nbt={SelectedItem:{components:{"wither1_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop11_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{heal1_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop12_imba
+execute if entity @s[nbt={SelectedItem:{components:{"heal1_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop12_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{arrows1_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop14_imba
+execute if entity @s[nbt={SelectedItem:{components:{"arrows1_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop14_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{lava1_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop13_imba
+execute if entity @s[nbt={SelectedItem:{components:{"lava1_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop13_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{anvils_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop15_imba
+execute if entity @s[nbt={SelectedItem:{components:{"anvils_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop15_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{skeletons_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop10_imba
+execute if entity @s[nbt={SelectedItem:{components:{"skeletons_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop10_imba
 
-execute if entity @s[nbt={SelectedItem:{components:{trap2_imba:1}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop_imba
+execute if entity @s[nbt={SelectedItem:{components:{"trap2_imba": true}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop_imba
 
 
 # Сбросить счёт RC_Raycast

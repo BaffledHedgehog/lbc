@@ -1,9 +1,9 @@
 
-execute if entity @s[nbt={SelectedItem:{components:{mobgun:1}}},scores={coldown16=1..}] run data modify storage lbc.math ui append value '{"text":"    \\uE105 ","extra":[{"score":{"name":"@s","objective":"coldown16"},"color":"white"}]}'
-execute if entity @s[nbt={SelectedItem:{components:{mobgun:1}}},scores={coldown16=..0}] run data modify storage lbc.math ui append value '{"text":"    \\uE104 ","extra":[{"translate":"ready","color":"green"}]}'
+execute if entity @s[nbt={SelectedItem:{components:{"mobgun": true}}},scores={coldown16=1..}] run data modify storage lbc.math ui append value '{"text":"    \\uE105 ","extra":[{"score":{"name":"@s","objective":"coldown16"},"color":"white"}]}'
+execute if entity @s[nbt={SelectedItem:{components:{"mobgun": true}}},scores={coldown16=..0}] run data modify storage lbc.math ui append value '{"text":"    \\uE104 ","extra":[{"translate":"ready","color":"green"}]}'
 
-execute if entity @s[nbt={SelectedItem:{components:{attack_helicopter:1}}},scores={coldown25=1..}] run data modify storage lbc.math ui append value '{"text":"    \\uE105 ","extra":[{"score":{"name":"@s","objective":"coldown25"},"color":"white"}]}'
-execute if entity @s[nbt={SelectedItem:{components:{attack_helicopter:1}}},scores={coldown25=..0}] run data modify storage lbc.math ui append value '{"text":"    \\uE104 ","extra":[{"translate":"ready","color":"green"}]}'
+execute if entity @s[nbt={SelectedItem:{components:{"attack_helicopter": true}}},scores={coldown25=1..}] run data modify storage lbc.math ui append value '{"text":"    \\uE105 ","extra":[{"score":{"name":"@s","objective":"coldown25"},"color":"white"}]}'
+execute if entity @s[nbt={SelectedItem:{components:{"attack_helicopter": true}}},scores={coldown25=..0}] run data modify storage lbc.math ui append value '{"text":"    \\uE104 ","extra":[{"translate":"ready","color":"green"}]}'
 
 execute if entity @s[nbt={SelectedItem:{components:{"time_stopper": true}}},scores={coldown1=1..}] run data modify storage lbc.math ui append value '{"text":"    \\uE105 ","extra":[{"score":{"name":"@s","objective":"coldown1"},"color":"white"}]}'
 execute if entity @s[nbt={SelectedItem:{components:{"time_stopper": true}}},scores={coldown1=..0}] run data modify storage lbc.math ui append value '{"text":"    \\uE104 ","extra":[{"translate":"ready","color":"green"}]}'

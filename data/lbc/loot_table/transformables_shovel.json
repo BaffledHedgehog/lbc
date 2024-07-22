@@ -1,153 +1,200 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "weight": 10,
-                "quality": 0,
-                "name": "minecraft:iron_shovel",
-                "functions": [
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "randchanted_shovel",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 1,
+                "max": 30
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shovel": true,
+                  "randchanted": true
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
-                    "function": "minecraft:set_name",
-                    "entity": "this",
-                    "name": {
-                      "translate": "randchanted_shovel",
-                      "italic": false
-                    }
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
-                    "function": "minecraft:enchant_with_levels",
-                    "levels": {
-                      "min": 1,
-                      "max": 30
-                    }
-                  },{
-                    "function": "set_components",
-                    "tag": "{"transformable": true,shovel:1b,"randchanted": true}"
-                  },
-                  {
-                    "function": "set_lore","mode":"replace_all",
-                    "lore": [
-                      [
-                        {
-                          "translate": "type",
-                          "italic": false,
-                          "color": "aqua"
-                        },
-                        {
-                          "translate": "shovel",
-                          "italic": false,
-                          "color": "aqua"
-                        }
-                      ]
-                    ]
+                    "translate": "shovel",
+                    "italic": false,
+                    "color": "aqua"
                   }
                 ]
-              },
-              {
-                "type": "minecraft:item",
-                "weight": 10,
-                "quality": 0,
-                "name": "minecraft:iron_shovel",
-                "functions": [
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "shovel": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:efficiency": 255
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
                   {
-                    "function": "minecraft:set_count",
-                    "count": 1
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
                   },
                   {
-                    "function": "minecraft:set_components",
-                    "tag": "{"transformable": true,shovel:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:255s}]}"
-                  },
-                  {
-                    "function": "set_lore","mode":"replace_all",
-                    "lore": [
-                      [
-                        {
-                          "translate": "type",
-                          "italic": false,
-                          "color": "aqua"
-                        },
-                        {
-                          "translate": "shovel",
-                          "italic": false,
-                          "color": "aqua"
-                        }
-                      ]
-                    ]
+                    "translate": "shovel",
+                    "italic": false,
+                    "color": "aqua"
                   }
                 ]
-              },{
-                "type": "item",
-                "weight": 10,
-                "name": "minecraft:netherite_shovel",
-                "functions": [
-                  {
-                    "function": "set_count",
-                    "count": 1
-                  },
-                  {
-                    "function": "set_components",
-                    "components": {"minecraft:custom_model_data":603,mortis:1b,"transformable": true,shovel:1b,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1410842775,1488079674,-1715658941,-1450929135]},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-1754116325,-712751714,-1149145765,-90495975]}]}"
-                  },
-                  {
-                    "function": "set_name",
-                    "name": [
-                      {
-                        "translate": "killer_shovel",
-                        "italic": false
-                      }
-                    ]
-                  },
-                  {
-                    "function": "set_lore","mode":"replace_all",
-                    "lore": [[
-                      {
-                        "translate": "type",
-                        "italic": false,
-                        "color": "aqua"
-                      },
-                      {
-                        "translate": "shovel",
-                        "italic": false,
-                        "color": "aqua"
-                      }
-                    ],{
-                      "translate": "killer_shovel.lore",
-                      "color": "gray",
-                      "italic": false
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:netherite_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 603,
+                "minecraft:custom_data": {
+                  "mortis": true,
+                  "transformable": true,
+                  "shovel": true
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:generic.attack_damage",
+                      "id": "genehdrethtjejyjage",
+                      "amount": 6,
+                      "operation": "add_value"
                     },
-                      {
-                        "translate": "item.modifiers.mainhand",
-                        "color": "gray",
-                        "italic": false
-                      },
-                      [
-                        {
-                          "text": "7 ",
-                          "color": "dark_green",
-                          "italic": false
-                        },
-                        {
-                          "translate": "attribute.name.generic.attack_damage"
-                        }
-                      ],
-                      [
-                        {
-                          "text": "1.6 ",
-                          "color": "dark_green",
-                          "italic": false
-                        },
-                        {
-                          "translate": "attribute.name.generic.attack_speed",
-                          "color": "dark_green",
-                          "italic": false
-                        }
-                      ]
-                    ]
+                    {
+                      "type": "minecraft:generic.attack_speed",
+                      "id": "generzwxhtbhkumukd",
+                      "amount": -2.4,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "killer_shovel",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": "type",
+                    "italic": false,
+                    "color": "aqua"
+                  },
+                  {
+                    "translate": "shovel",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                ],
+                {
+                  "translate": "killer_shovel.lore",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "7 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_damage"
+                  }
+                ],
+                [
+                  {
+                    "text": "1.6 ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "translate": "attribute.name.generic.attack_speed",
+                    "color": "dark_green",
+                    "italic": false
                   }
                 ]
-              }]
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

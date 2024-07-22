@@ -9,4 +9,4 @@ execute if score @s[nbt={SelectedItem:{components:{summonerblaze:1b}}},predicate
 execute if score @s[nbt={SelectedItem:{components:{summonerguardians:1b}}},predicate=!lbc:sneak] mana >= guardian_soul_mana_use lbc.math run function lbc:workingitems/summoner/guardians
 execute if score @s[nbt={SelectedItem:{components:{psychovex_wand:1b}}},predicate=!lbc:sneak] mana >= psychovex_wand_mana_use lbc.math run function lbc:workingitems/summoner/psychovex
 
-execute if entity @s[nbt={SelectedItem:{components:{summonerwand:1b}}},predicate=lbc:sneak] run function lbc:workingitems/summoner/anger
+execute if entity @s[nbt={SelectedItem:{components:{"summonerwand": true}}},predicate=lbc:sneak] run function lbc:workingitems/summoner/anger

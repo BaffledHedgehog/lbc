@@ -1,7 +1,7 @@
 [
     {
       "function": "minecraft:set_components",
-      "tag": "{mode:1,display:{Name:'{\"translate\":\"magnum_mode_incendiary\",\"italic\":false}'}}",
+      "tag": "{"mode": 1,display:{Name:'{\"translate\":\"magnum_mode_incendiary\",\"italic\":false}'}}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -9,7 +9,7 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "components": {mode:0}"
+                "components": {"mode": 0}"
               }
             }
           }
@@ -18,7 +18,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{mode:2,display:{Name:'{\"translate\":\"magnum_mode_electric\",\"italic\":false}'}}",
+      "tag": "{"mode": 2,display:{Name:'{\"translate\":\"magnum_mode_electric\",\"italic\":false}'}}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -26,7 +26,7 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "components": {mode:1}"
+                "components": {"mode": 1}"
               }
             }
           }
@@ -35,7 +35,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{mode:3,display:{Name:'{\"translate\":\"magnum_mode_acid\",\"italic\":false}'}}",
+      "tag": "{"mode": 3,display:{Name:'{\"translate\":\"magnum_mode_acid\",\"italic\":false}'}}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -43,7 +43,7 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "components": {mode:2}"
+                "components": {"mode": 2}"
               }
             }
           }
@@ -52,7 +52,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{mode:4,display:{Name:'{\"translate\":\"magnum_mode_void\",\"italic\":false}'}}",
+      "tag": "{"mode": 4,display:{Name:'{\"translate\":\"magnum_mode_void\",\"italic\":false}'}}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -60,7 +60,7 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "components": {mode:3}"
+                "components": {"mode": 3}"
               }
             }
           }
@@ -69,7 +69,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{mode:5,display:{Name:'{\"translate\":\"magnum_mode_explosive\",\"italic\":false}'}}",
+      "tag": "{"mode": 5,display:{Name:'{\"translate\":\"magnum_mode_explosive\",\"italic\":false}'}}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -77,7 +77,7 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "components": {mode:4}"
+                "components": {"mode": 4}"
               }
             }
           }
@@ -86,7 +86,7 @@
     },
     {
       "function": "minecraft:set_components",
-      "tag": "{mode:0,display:{Name:'{\"translate\":\"magnum_mode_standard\",\"italic\":false}'}}",
+      "tag": "{"mode": 0,display:{Name:'{\"translate\":\"magnum_mode_standard\",\"italic\":false}'}}",
       "conditions": [
         {
           "condition": "minecraft:entity_properties",
@@ -94,7 +94,7 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "components": {mode:5}"
+                "components": {"mode": 5}"
               }
             }
           }

@@ -9,7 +9,12 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":666,multiply:2}"
+                            "components": {
+                                "minecraft:custom_model_data": 666,
+                                "minecraft:custom_data": {
+                                    "multiply": 2
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,7 +26,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "multiply_by_2.lore",
@@ -46,7 +52,12 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":667,multiply:3}"
+                            "components": {
+                                "minecraft:custom_model_data": 667,
+                                "minecraft:custom_data": {
+                                    "multiply": 3
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -58,7 +69,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "multiply_by_3.lore",
@@ -83,7 +95,12 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":668,multiply:4}"
+                            "components": {
+                                "minecraft:custom_model_data": 668,
+                                "minecraft:custom_data": {
+                                    "multiply": 4
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -95,7 +112,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "multiply_by_4.lore",
@@ -120,7 +138,13 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":745,multiply:5,"magicwand": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 745,
+                                "minecraft:custom_data": {
+                                    "multiply": 5,
+                                    "magicwand": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -132,7 +156,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "multiply_by_5.lore",

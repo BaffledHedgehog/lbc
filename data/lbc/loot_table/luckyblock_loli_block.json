@@ -4,8 +4,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
-                    "value": "mushroom_stem",
+                    "type": "item",
+                    "name": "minecraft:mushroom_stem",
                     "functions": [
                         {
                             "function": "set_components",

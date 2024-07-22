@@ -9,7 +9,17 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":595,EntityTag:{id:\"minecraft:marker\",Tags:[\"slowraycast\",\"nano_trapik\",\"player\"]}}"
+                            "components": {
+                                "minecraft:custom_model_data": 595,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:marker",
+                                    "Tags": [
+                                        "slowraycast",
+                                        "nano_trapik",
+                                        "player"
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,7 +31,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "nanotraps.lore",

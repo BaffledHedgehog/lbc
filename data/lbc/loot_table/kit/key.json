@@ -9,7 +9,13 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":41522,Damage:31,Enchantments:[{id:\"minecraft:fortune\",lvl:64}]}"
+                            "components": {
+                                "minecraft:custom_model_data": 41522,
+                                "minecraft:max_damage": 1,
+                                "minecraft:enchantments": {
+                                    "minecraft:fortune": 64
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
