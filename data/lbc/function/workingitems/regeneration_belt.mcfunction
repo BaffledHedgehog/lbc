@@ -1,4 +1,4 @@
-execute store result score tmp lbc.math run clear @s repeating_command_block{"heall": true} 0
+execute store result score tmp lbc.math run clear @s repeating_command_block[custom_data={"heall": true}] 0
 scoreboard players operation tmp1 lbc.math = tmp lbc.math
 scoreboard players operation tmp1 lbc.math /= 16 lbc.math
 scoreboard players add tmp1 lbc.math 3

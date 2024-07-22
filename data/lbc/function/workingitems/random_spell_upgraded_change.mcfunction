@@ -38,7 +38,7 @@ execute if score #mode lbc.math matches 34 run tellraw @s [{"translate":"sauvoje
 execute if score #mode lbc.math matches 35 run tellraw @s [{"translate":"sauvojen_wand_ruby"}]
 execute if score #mode lbc.math matches 36 run tellraw @s [{"translate":"sauvojen_wand_stone"}]
 execute if score #mode lbc.math matches 37 run tellraw @s [{"translate":"sauvojen_wand_teleport"}]
-execute if score #mode lbc.math matches 38 run tellraw @s [{"translate":"sauvojen_wand_terra"}]    
+execute if score #mode lbc.math matches 38 run tellraw @s [{"translate":"sauvojen_wand_terra"}]
 execute if score #mode lbc.math matches 39 run tellraw @s [{"translate":"megumin_wand"}]
 execute if score #mode lbc.math matches 40 run tellraw @s [{"translate":"acidacid_wand"}]
 execute if score #mode lbc.math matches 41 run tellraw @s [{"translate":"acidcorrupt_wand"}]
