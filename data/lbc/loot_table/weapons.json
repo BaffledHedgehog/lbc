@@ -21,7 +21,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:quick_charge\",lvl:5s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "bow": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:quick_charge": 5
+                }
+              }
             },
             {
               "function": "set_damage",
@@ -52,7 +60,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:piercing\",lvl:10s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "bow": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:piercing": 10
+                }
+              }
             },
             {
               "function": "set_damage",
@@ -83,7 +99,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "bow": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:multishot": 1
+                }
+              }
             },
             {
               "function": "set_damage",
@@ -114,7 +138,17 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:2s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "bow": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:multishot": 1,
+                  "minecraft:piercing": 1,
+                  "minecraft:quick_charge": 2
+                }
+              }
             },
             {
               "function": "set_damage",
@@ -145,7 +179,15 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:quick_charge\",lvl:2s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "bow": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:quick_charge": 2
+                }
+              }
             },
             {
               "function": "set_damage",
@@ -176,7 +218,17 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"bow": true,Enchantments:[{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:piercing\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:5s}]}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "bow": true
+                },
+                "minecraft:enchantments": {
+                  "minecraft:multishot": 1,
+                  "minecraft:piercing": 1,
+                  "minecraft:quick_charge": 5
+                }
+              }
             },
             {
               "function": "set_damage",
@@ -233,7 +285,11 @@
             },
             {
               "function": "set_components",
-              "tag": "{CustomPotionColor:6710881}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 6710881
+                }
+              }
             },
             {
               "function": "set_name",
@@ -260,7 +316,11 @@
             },
             {
               "function": "set_components",
-              "tag": "{CustomPotionColor:6710882}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 6710882
+                }
+              }
             },
             {
               "function": "set_name",
@@ -301,7 +361,25 @@
             },
             {
               "function": "set_components",
-              "tag": "{CustomPotionColor:2883328,custom_potion_effects:[{id:\"minecraft:poison\",amplifier:2b,duration:160,show_particles:0b},{id:\"minecraft:wither\",amplifier:2b,duration:40,show_particles:0b}]}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 2883328,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 2,
+                      "duration": 160,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 2,
+                      "duration": 40,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "set_name",
@@ -328,7 +406,11 @@
             },
             {
               "function": "set_components",
-              "tag": "{CustomPotionColor:6710883}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 6710883
+                }
+              }
             },
             {
               "function": "set_name",
@@ -340,7 +422,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 {
                   "translate": "reactive_arrow.lore",
@@ -365,7 +448,20 @@
             },
             {
               "function": "set_components",
-              "tag": "{CustomPotionColor:16746496,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:101b,duration:2,show_particles:0b}]}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16746496,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 101,
+                      "duration": 2,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             },
             {
               "function": "set_name",
@@ -392,7 +488,20 @@
             },
             {
               "function": "set_components",
-              "tag": "{CustomPotionColor:6184020,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:102b,duration:2,show_particles:0b}]}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 6184020,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 102,
+                      "duration": 2,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             },
             {
               "function": "set_name",
@@ -404,7 +513,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 {
                   "translate": "evoker_arrow.lore.1",
@@ -434,7 +544,25 @@
             },
             {
               "function": "set_components",
-              "tag": "{CustomPotionColor:65493,custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:127b,duration:40,show_particles:0b},{id:\"minecraft:mining_fatigue\",amplifier:127b,duration:40,show_particles:0b}]}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 65493,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 127,
+                      "duration": 40,
+                      "show_particles": false
+                    },
+                    {
+                      "id": "minecraft:mining_fatigue",
+                      "amplifier": 127,
+                      "duration": 40,
+                      "show_particles": false
+                    }
+                  ]
+                }
+              }
             },
             {
               "function": "set_name",
@@ -461,7 +589,20 @@
             },
             {
               "function": "set_components",
-              "tag": "{CustomPotionColor:52479,HideFlags:32,custom_potion_effects:[{id:\"minecraft:dolphins_grace\",amplifier:103b,duration:2,show_particles:0b}]}"
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 52479,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:dolphins_grace",
+                      "amplifier": 103,
+                      "duration": 2,
+                      "show_particles": false
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
             },
             {
               "function": "set_name",
@@ -473,7 +614,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 {
                   "translate": "electric_arrow.lore",

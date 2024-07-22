@@ -13,7 +13,36 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"swordwithability": true,"transformable": true,"sword": true,"magicwand": true,"minecraft:custom_model_data":727,HideFlags:2,Unbreakable:1b,triple_golden_sword:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;887935922,-775555,-137523468,85245225],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-4554331,-21151555,-1615536,-675571],Slot:\"mainhand\"}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "swordwithability": true,
+                                    "transformable": true,
+                                    "sword": true,
+                                    "magicwand": true,
+                                    "triple_golden_sword": true
+                                },
+                                "minecraft:custom_model_data": 727,
+                                "minecraft:unbreakable": {},
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:generic.attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "genhrtjrdxjtyjutk67ke",
+                                            "amount": 8,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:generic.attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "getnkygukhhlkjd",
+                                            "amount": -2.4,
+                                            "operation": "add_value"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +50,13 @@
                                 {
                                     "translate": "triple_golden_sword",
                                     "italic": false,
-                                    "color":"green"
+                                    "color": "green"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [
@@ -52,31 +82,31 @@
                                     "italic": false
                                 },
                                 {
-                                  "translate": "item.modifiers.mainhand",
-                                  "color": "gray",
-                                  "italic": false
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
                                 },
                                 [
-                                  {
-                                    "text": "9 ",
-                                    "color": "dark_green",
-                                    "italic": false
-                                  },
-                                  {
-                                    "translate": "attribute.name.generic.attack_damage"
-                                  }
+                                    {
+                                        "text": "9 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
                                 ],
                                 [
-                                  {
-                                    "text": "1.6 ",
-                                    "color": "dark_green",
-                                    "italic": false
-                                  },
-                                  {
-                                    "translate": "attribute.name.generic.attack_speed",
-                                    "color": "dark_green",
-                                    "italic": false
-                                  }
+                                    {
+                                        "text": "1.6 ",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
                                 ]
                             ]
                         }

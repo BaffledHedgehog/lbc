@@ -1,89 +1,168 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:red_mushroom_block",
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {"minecraft:custom_model_data":520,BlockStateTag:{up:\"false\",down:\"false\",north:\"false\",south:\"false\",east:\"false\",west:\"false\"}}"
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": [
-                  {
-                    "text": "❤ Lucky Block chan ❤",
-                    "color": "gold",
-                    "bold": false,
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_lore","mode":"replace_all",
-                "lore": [
-                  {
-                    "translate": "yamete_luckyblock",
-                    "color": "yellow",
-                    "italic": false
-                  },
-                  {"text":"⠄⠄⠄⢰⣧⣼⣯⠄⣸⣠⣶⣶⣦⣾⠄⠄⠄⠄⡀⠄⢀⣿⣿⠄⠄⠄⢸⡇⠄⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⠄⠄⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⠄⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⠄⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⢀⢸⣿⣷⣤⣤⣤⣬⣙⣛⢿⣿⣿⣿⣿⣿⣿⡿⣿⣿⡍⠄⠄⢀⣤⣄⠉⠋⣰","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⣼⣖⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⢇⣿⣿⡷⠶⠶⢿⣿⣿⠇⢀⣤","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⡇⣿⣿⣿⣿⣿⣿⣷⣶⣥⣴⣿⡗","italic":false,"color":"#FFB3D9"},
-                  {"text":"⢀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⢸⣿⣦⣌⣛⣻⣿⣿⣧⠙⠛⠛⡭⠅⠒⠦⠭⣭⡻⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠘⣿⣿⣿⣿⣿⣿⣿⣿⡆⠄⠄⠄⠄⠄⠄⠄⠄⠹⠈⢋⣽⣿⣿⣿⣿⣵⣾⠃⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⠘⣿⣿⣿⣿⣿⣿⣿⣿⠄⣴⣿⣶⣄⠄⣴⣶⠄⢀⣾⣿⣿⣿⣿⣿⣿⠃⠄⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⠄⠈⠻⣿⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⠄⣿⣿⡀⣾⣿⣿⣿⣿⣛⠛⠁⠄⠄⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⠄⠄⠄⠈⠛⢿⣿⣿⣿⠁⠞⢿⣿⣿⡄⢿⣿⡇⣸⣿⣿⠿⠛⠁⠄⠄⠄⠄⠄","italic":false,"color":"#FFB3D9"},
-                  {"text":"⠄⠄⠄⠄⠄⠄⠄⠉⠻⣿⣿⣾⣦⡙⠻⣷⣾⣿⠃⠿⠋⠁⠄⠄⠄⠄⠄⢀⣠⣴","italic":false,"color":"#FFB3D9"},
-                  {"text":"⣿⣿⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⣠⣴⣿⣿⣿","italic":false,"color":"#FFB3D9"}
-                ]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 520,
+                "minecraft:block_state": {
+                  "up": "false",
+                  "down": "false",
+                  "north": "false",
+                  "south": "false",
+                  "east": "false",
+                  "west": "false"
+                }
               }
-            ]
-          }
-        ]
-      },{
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:repeating_command_block",
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "tag": "{"drop":true,yameteluckyblock:1,"minecraft:custom_model_data":657}"
-              },
-              {
-                "function": "set_name",
-                "name": [
-                  {
-                    "translate": "drop_yamete_kudasai",
-                    "italic": false,
-                    "color": "yellow"
-                  }
-                ]
-              },
-              {
-                "function": "set_lore","mode":"replace_all",
-                "lore": [
-                  {
-                    "translate": "trap_desc",
-                    "italic": false,
-                    "color": "white"
-                  }
-                ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "❤ Lucky Block chan ❤",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "yamete_luckyblock",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "⠄⠄⠄⢰⣧⣼⣯⠄⣸⣠⣶⣶⣦⣾⠄⠄⠄⠄⡀⠄⢀⣿⣿⠄⠄⠄⢸⡇⠄⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⠄⠄⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⠄⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⠄⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⢀⢸⣿⣷⣤⣤⣤⣬⣙⣛⢿⣿⣿⣿⣿⣿⣿⡿⣿⣿⡍⠄⠄⢀⣤⣄⠉⠋⣰",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⣼⣖⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⢇⣿⣿⡷⠶⠶⢿⣿⣿⠇⢀⣤",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⡇⣿⣿⣿⣿⣿⣿⣷⣶⣥⣴⣿⡗",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⢀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⢸⣿⣦⣌⣛⣻⣿⣿⣧⠙⠛⠛⡭⠅⠒⠦⠭⣭⡻⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠘⣿⣿⣿⣿⣿⣿⣿⣿⡆⠄⠄⠄⠄⠄⠄⠄⠄⠹⠈⢋⣽⣿⣿⣿⣿⣵⣾⠃⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⠘⣿⣿⣿⣿⣿⣿⣿⣿⠄⣴⣿⣶⣄⠄⣴⣶⠄⢀⣾⣿⣿⣿⣿⣿⣿⠃⠄⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⠄⠈⠻⣿⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⠄⣿⣿⡀⣾⣿⣿⣿⣿⣛⠛⠁⠄⠄⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⠄⠄⠄⠈⠛⢿⣿⣿⣿⠁⠞⢿⣿⣿⡄⢿⣿⡇⣸⣿⣿⠿⠛⠁⠄⠄⠄⠄⠄",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⠄⠄⠄⠄⠄⠄⠄⠉⠻⣿⣿⣾⣦⡙⠻⣷⣾⣿⠃⠿⠋⠁⠄⠄⠄⠄⠄⢀⣠⣴",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                },
+                {
+                  "text": "⣿⣿⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⣠⣴⣿⣿⣿",
+                  "italic": false,
+                  "color": "#FFB3D9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "drop": true,
+                  "yameteluckyblock": true
+                },
+                "minecraft:custom_model_data": 657
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "drop_yamete_kudasai",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

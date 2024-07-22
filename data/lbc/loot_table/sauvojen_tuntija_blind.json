@@ -5,6 +5,7 @@
             "entries": [
                 {
                     "type": "item",
+                    "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
@@ -15,21 +16,22 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:custom_data": {
+                                    "craftusable": true,
                                     "transformable": true,
                                     "staff": true,
-                                    "raycastspell": true,
-                                    "consuming_wand": true
+                                    "magicwand": true,
+                                    "stblind": true
                                 },
-                                "minecraft:custom_model_data": 658
+                                "minecraft:custom_model_data": 640
                             }
                         },
                         {
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "consuming_wand",
-                                    "italic": false,
-                                    "color": "light_purple"
+                                    "translate": "sauvojen_wand_blind",
+                                    "color": "light_purple",
+                                    "italic": false
                                 }
                             ]
                         },
@@ -52,20 +54,8 @@
                                 ],
                                 [
                                     {
-                                        "text": "5 ",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    },
-                                    {
-                                        "translate": "magic_damage",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    }
-                                ],
-                                [
-                                    {
                                         "score": {
-                                            "name": "consuming_wand_mana_use",
+                                            "name": "stblind_wand_mana_use",
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
@@ -78,8 +68,23 @@
                                     }
                                 ],
                                 {
-                                    "translate": "consuming_wand.lore",
-                                    "color": "white",
+                                    "translate": "sauvojen_wand_blind.lore.1",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "sauvojen_wand_blind.lore.2",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "sauvojen_wand_blind.lore.3",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "sauvojen_wand_blind.lore.4",
+                                    "color": "yellow",
                                     "italic": false
                                 }
                             ]

@@ -13,7 +13,13 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":668,win_button:1b,"gadget": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 668,
+                                "minecraft:custom_data": {
+                                    "win_button": true,
+                                    "gadget": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",

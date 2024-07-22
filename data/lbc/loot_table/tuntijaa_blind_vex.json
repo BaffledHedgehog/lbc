@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"summoner": true,"summonerwand": true,"minecraft:custom_model_data":672,HideFlags:2,Unbreakable:1b,psychovex_wand:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "summoner": true,
+                                    "summonerwand": true,
+                                    "psychovex_wand": true
+                                },
+                                "minecraft:custom_model_data": 672
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "psychovex_wand",
                                     "italic": false,
-                                    "color":"aqua"
+                                    "color": "aqua"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

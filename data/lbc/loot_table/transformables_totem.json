@@ -21,7 +21,14 @@
             },
             {
               "function": "set_components",
-              "tag": "{"transformable": true,"totem": true,deviltotem:1b,"minecraft:custom_model_data":557}"
+              "components": {
+                "minecraft:custom_data": {
+                  "transformable": true,
+                  "totem": true,
+                  "deviltotem": true
+                },
+                "minecraft:custom_model_data": 557
+              }
             },
             {
               "function": "set_name",
@@ -61,7 +68,8 @@
               ]
             },
             {
-              "function": "set_lore","mode":"replace_all",
+              "function": "set_lore",
+              "mode": "replace_all",
               "lore": [
                 [
                   {

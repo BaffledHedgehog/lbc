@@ -12,7 +12,7 @@ execute if data entity @s {item:{components:{"sword": true}}} run loot spawn ~ ~
 execute if data entity @s {item:{components:{"totem": true}}} run loot spawn ~ ~ ~ loot lbc:transformables_totem
 execute if data entity @s {item:{components:{"spellitem": true}}} run loot spawn ~ ~ ~ loot lbc:transformables_spells
 execute if data entity @s {item:{components:{"summoner": true}}} run loot spawn ~ ~ ~ loot lbc:transformables_summons
-execute if data entity @s {item:{components:{trident:1b}}} run loot spawn ~ ~ ~ loot lbc:transformables_trident
+execute if data entity @s {item:{components:{"trident": true}}} run loot spawn ~ ~ ~ loot lbc:transformables_trident
 execute if data entity @s {item:{components:{"arcanum": true}}} run loot spawn ~ ~ ~ loot lbc:transformables_arcanum
 execute if data entity @s {item:{components:{"libspell": true}}} run loot spawn ~ ~ ~ loot lbc:spells_library
 

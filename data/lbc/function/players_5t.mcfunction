@@ -10,10 +10,10 @@ scoreboard players remove @s coldownhohol 1
 execute if entity @s[scores={coldownshish=19}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run fill ~1 ~-2 ~1 ~-1 ~-2 ~-1 spruce_leaves[persistent=false]
 execute if entity @s[tag=demonkishki_active,scores={foodlvl=16..,hplvl=..4}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:other/extraheal
 execute if entity @s[tag=chaosdust_active] run particle dust{color:[10.0f,10.0f,10.0f],scale:1} ~ ~1 ~ 0.3 0.3 0.3 0 3 normal
-execute if entity @s[nbt={SelectedItem: {components: {"minecraft:custom_data":{arcanum5t: 1b}}}}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/5true/select
-execute if entity @s[tag=arcanum5t_use] unless entity @s[nbt={SelectedItem: {components: {"minecraft:custom_data":{arcanum5t: 1b}}}}] run function lbc:items/arcanums/end5t
-execute if entity @s[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_data":{arcanum5t: 1b}}}]}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/5true/select2
-execute if entity @s[tag=arcanum5t_use2] unless entity @s[nbt={Inventory: [{components: {"minecraft:custom_data":{arcanum5t: 1b}}, Slot: -106b}]}] run function lbc:items/arcanums/end25t
+execute if entity @s[nbt={SelectedItem: {components: {"minecraft:custom_data":{"arcanum5t": true}}}}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/5true/select
+execute if entity @s[tag=arcanum5t_use] unless entity @s[nbt={SelectedItem: {components: {"minecraft:custom_data":{"arcanum5t": true}}}}] run function lbc:items/arcanums/end5t
+execute if entity @s[nbt={Inventory: [{Slot: -106b, components: {"minecraft:custom_data":{"arcanum5t": true}}}]}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:items/arcanums/5true/select2
+execute if entity @s[tag=arcanum5t_use2] unless entity @s[nbt={Inventory: [{components: {"minecraft:custom_data":{"arcanum5t": true}}, Slot: -106b}]}] run function lbc:items/arcanums/end25t
 execute if entity @s[tag=phantomset] run function lbc:armor/phantom_set_bonus_pre
 execute if entity @s[tag=yellow_lightning_active] run function lbc:workingitems/yellow_lightning_ball_pre
 execute if entity @s[tag=erosion_active] run function lbc:armor/erosion/tick

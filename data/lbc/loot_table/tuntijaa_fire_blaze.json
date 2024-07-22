@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":670,HideFlags:2,Unbreakable:1b,fireblaze_wand:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "staff": true,
+                                    "magicwand": true,
+                                    "fireblaze_wand": true
+                                },
+                                "minecraft:custom_model_data": 670
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "fireblaze_wand",
                                     "italic": false,
-                                    "color":"gold"
+                                    "color": "gold"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

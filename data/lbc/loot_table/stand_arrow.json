@@ -28,11 +28,13 @@
                                             "duration": 2
                                         }
                                     ]
-                                },
-                                "minecraft:hide_additional_tooltip": {},
-                                "minecraft:dyed_color": {
-                                    "show_in_tooltip": false
                                 }
+                            }
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "minecraft:dyed_color": false
                             }
                         },
                         {

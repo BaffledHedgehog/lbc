@@ -9,7 +9,7 @@
               },
               {
                 "function": "set_components",
-                "tag": "{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":635,"stblind": true}"
+                "components": {"minecraft:custom_data":{"transformable": true,"staff": true,"magicwand": true,"minecraft:custom_model_data":635,"stblind": true}"
               },
               {
                 "function": "set_name",

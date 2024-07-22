@@ -743,6 +743,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
+                                    "id": "minecraft:ghast",
                                     "ExplosionPower": 10,
                                     "Motion": [
                                         0,
@@ -1526,7 +1527,9 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:custom_model_data": 538,
-                                "gaara_old": true
+                                "minecraft:custom_data": {
+                                    "gaara_old": true
+                                }
                             }
                         },
                         {
@@ -1609,7 +1612,9 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:custom_model_data": 534,
-                                "reactive_old": true
+                                "minecraft:custom_data": {
+                                    "reactive_old": true
+                                }
                             }
                         },
                         {
@@ -1656,7 +1661,9 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:custom_model_data": 532,
-                                "vampire": true,
+                                "minecraft:custom_data": {
+                                    "vampire": true
+                                },
                                 "minecraft:attribute_modifiers": [
                                     {
                                         "type": "minecraft:generic.attack_damage",
@@ -2413,9 +2420,6 @@
                                         }
                                     ]
                                 },
-                                "minecraft:stored_enchantments": {
-                                    "show_in_tooltip": false
-                                },
                                 "minecraft:hide_additional_tooltip": {}
                             }
                         },
@@ -2459,17 +2463,18 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:entity_data": {
-                                    "CustomNameVisible": 1,
+                                    "id": "minecraft:pig",
+                                    "CustomNameVisible": true,
                                     "Health": 50,
                                     "Tags": [
                                         "fakepig",
                                         "lucky_mob"
                                     ],
                                     "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}",
-                                    "Attributes": [
+                                    "attributes": [
                                         {
-                                            "Name": "generic.max_health",
-                                            "Base": 50
+                                            "id": "minecraft:generic.max_health",
+                                            "base": 50
                                         }
                                     ]
                                 }
@@ -2671,13 +2676,7 @@
                                 "minecraft:enchantments": {
                                     "minecraft:unbreaking": 10
                                 },
-                                "minecraft:stored_enchantments": {
-                                    "show_in_tooltip": false
-                                },
                                 "minecraft:hide_additional_tooltip": {},
-                                "minecraft:dyed_color": {
-                                    "show_in_tooltip": false
-                                },
                                 "minecraft:base_color": "blue",
                                 "minecraft:banner_patterns": [
                                     {
@@ -2840,944 +2839,943 @@
                             ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
                 },
                 {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 513,
-                        "minecraft:custom_data": {
-                            "magicwand": true,
-                            "evocator_old": true
-                        },
-                        "minecraft:enchantments": {
-                            "minecraft:infinity": 1
-                        },
-                        "minecraft:attribute_modifiers": {
-                            "modifiers": [
-                                {
-                                    "type": "minecraft:generic.movement_speed",
-                                    "id": "suvhd7sdjgvbbf",
-                                    "amount": -10,
-                                    "operation": "add_multiplied_base"
-                                }
-                            ],
-                            "show_in_tooltip": false
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
                         {
-                            "translate": "evoker_wand",
-                            "italic": false
-                        }
-                    ]
-                },
-                {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                            "function": "set_count",
+                            "count": 1
+                        },
                         {
-                            "translate": "evoker_wand.lore",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:potion",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:potion_contents": {
-                            "custom_color": 16777215,
-                            "custom_effects": [
-                                {
-                                    "id": "minecraft:regeneration",
-                                    "amplifier": 1,
-                                    "duration": 12000
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 513,
+                                "minecraft:custom_data": {
+                                    "magicwand": true,
+                                    "evocator_old": true
                                 },
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:generic.movement_speed",
+                                            "id": "suvhd7sdjgvbbf",
+                                            "amount": -10,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
                                 {
-                                    "id": "minecraft:saturation",
-                                    "amplifier": 10,
-                                    "duration": 20
+                                    "translate": "evoker_wand",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "evoker_wand.lore",
+                                    "color": "white",
+                                    "italic": false
                                 }
                             ]
                         }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "succubus_potion",
-                            "italic": false
-                        }
                     ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:barrier",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
                 },
                 {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_data": {
-                            "portall": true,
-                            "drop": true
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:netherite_sword",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 500,
-                        "ender": true
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
                         {
-                            "translate": "ender_sword",
-                            "color": "dark_purple",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 16777215,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:regeneration",
+                                            "amplifier": 1,
+                                            "duration": 12000
+                                        },
+                                        {
+                                            "id": "minecraft:saturation",
+                                            "amplifier": 10,
+                                            "duration": 20
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "succubus_potion",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "functions": [
                         {
-                            "translate": "ender_sword.lore.1",
-                            "color": "light_purple",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "ender_sword.lore.2",
-                            "color": "light_purple",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 511,
-                        "minecraft:custom_data": {
-                            "magicwand": true,
-                            "bassboost_old": true
-                        },
-                        "minecraft:enchantments": {
-                            "minecraft:infinity": 1
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "bass_wand",
-                            "italic": false
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "portall": true,
+                                    "drop": true
+                                }
+                            }
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
                         {
-                            "translate": "bass_wand.lore.1",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "bass_wand.lore.2",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 500,
+                                "minecraft:custom_data": {
+                                    "ender": true
+                                }
+                            }
                         },
                         {
-                            "translate": "bass_wand.lore.3",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "ender_sword",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
                         },
                         {
-                            "translate": "bass_wand.lore.4",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 542,
-                        "minecraft:custom_data": {
-                            "magicwand": true,
-                            "corrupter_old": true
-                        },
-                        "minecraft:enchantments": {
-                            "minecraft:infinity": 1
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "corruption_wand",
-                            "italic": false
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "ender_sword.lore.1",
+                                    "color": "light_purple",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "ender_sword.lore.2",
+                                    "color": "light_purple",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
                         {
-                            "translate": "corruption_wand.lore.1",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "corruption_wand.lore.2",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 511,
+                                "minecraft:custom_data": {
+                                    "magicwand": true,
+                                    "bassboost_old": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                }
+                            }
                         },
                         {
-                            "translate": "corruption_wand.lore.3",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "bass_wand",
+                                    "italic": false
+                                }
+                            ]
                         },
                         {
-                            "translate": "corruption_wand.lore.4",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 512,
-                        "minecraft:custom_data": {
-                            "magicwand": true,
-                            "enderwand_old": true
-                        },
-                        "minecraft:enchantments": {
-                            "minecraft:infinity": 1
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "ender_wand",
-                            "italic": false
-                        }
-                    ]
-                },
-                {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
-                        {
-                            "translate": "ender_wand.lore",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "minecraft:loot_table",
-            "value": "lbc:artifact_old"
-        },
-        {
-            "type": "item",
-            "name": "minecraft:repeating_command_block",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 536,
-                        "minecraft:custom_data": {
-                            "heall_old": true
-                        },
-                        "minecraft:enchantments": {
-                            "levels": {
-                                "minecraft:protection": 1
-                            },
-                            "show_in_tooltip": false
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "regeneration_belt",
-                            "color": "#FF3BB7",
-                            "italic": false
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "bass_wand.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "bass_wand.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "bass_wand.lore.3",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "bass_wand.lore.4",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
                         {
-                            "translate": "regeneration_belt.lore.1",
-                            "color": "#FFBFBF",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "regeneration_belt.lore.2",
-                            "color": "#FFBFBF",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:leather_helmet",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:unbreakable": {
-                            "show_in_tooltip": false
-                        },
-                        "minecraft:enchantments": {
-                            "minecraft:fire_protection": 5,
-                            "minecraft:blast_protection": 5,
-                            "minecraft:projectile_protection": 5
-                        },
-                        "minecraft:dyed_color": {
-                            "rgb": 16739302,
-                            "show_in_tooltip": false
-                        },
-                        "minecraft:custom_data": {
-                            "magichat_old": true
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "mage_hat",
-                            "italic": false
-                        }
-                    ]
-                },
-                {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
-                        {
-                            "translate": "mage_hat_old.lore.1",
-                            "italic": false,
-                            "color": "aqua"
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 542,
+                                "minecraft:custom_data": {
+                                    "magicwand": true,
+                                    "corrupter_old": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                }
+                            }
                         },
                         {
-                            "translate": "mage_hat_old.lore.2",
-                            "italic": false,
-                            "color": "aqua"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:repeating_command_block",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 535,
-                        "minecraft:enchantments": {
-                            "levels": {
-                                "minecraft:efficiency": 1
-                            },
-                            "show_in_tooltip": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "corruption_wand",
+                                    "italic": false
+                                }
+                            ]
                         },
-                        "minecraft:custom_data": {
-                            "manabelt_old": true
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
                         {
-                            "translate": "mana_belt",
-                            "color": "blue",
-                            "italic": false
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "corruption_wand.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "corruption_wand.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "corruption_wand.lore.3",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "corruption_wand.lore.4",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
                         {
-                            "translate": "mage_belt_old.lore.1",
-                            "color": "aqua",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "mage_belt_old.lore.2",
-                            "color": "aqua",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:black_shulker_box",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:container_loot": {
-                            "loot_table": "lbc:infinity_old"
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 512,
+                                "minecraft:custom_data": {
+                                    "magicwand": true,
+                                    "enderwand_old": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                }
+                            }
+                        },
                         {
-                            "translate": "infinite_shulker",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:rabbit_stew",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_data": {
-                            "inf_old": true
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "ender_wand",
+                                    "italic": false
+                                }
+                            ]
+                        },
                         {
-                            "translate": "horn",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "ender_wand.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:artifact_old"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
                         {
-                            "translate": "horn.lore",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:bow",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 533,
-                        "minecraft:custom_data": {
-                            "shulker": true
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
+                            "function": "set_count",
+                            "count": 1
+                        },
                         {
-                            "translate": "shulker_bow",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                },
-                {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 536,
+                                "minecraft:custom_data": {
+                                    "heall_old": true
+                                },
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:protection": 1
+                                    },
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
                         {
-                            "translate": "shulker_bow.lore",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:turtle_helmet",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_data": {
-                            "shulkshell": 1
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "regeneration_belt",
+                                    "color": "#FF3BB7",
+                                    "italic": false
+                                }
+                            ]
+                        },
                         {
-                            "translate": "shulker_helmet",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "regeneration_belt.lore.1",
+                                    "color": "#FFBFBF",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "regeneration_belt.lore.2",
+                                    "color": "#FFBFBF",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
                         {
-                            "translate": "shulker_helmet.lore.1",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "shulker_helmet.lore.2",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:barrier",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_data": {
-                            "opanvil_old": true,
-                            "drop": true
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "type": "minecraft:loot_table",
-            "value": "lbc:imitator"
-        },
-        {
-            "type": "item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 546,
-                        "minecraft:custom_data": {
-                            "lifestealer_old": true,
-                            "magicwand": true
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:fire_protection": 5,
+                                    "minecraft:blast_protection": 5,
+                                    "minecraft:projectile_protection": 5
+                                },
+                                "minecraft:dyed_color": {
+                                    "rgb": 16739302,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:custom_data": {
+                                    "magichat_old": true
+                                }
+                            }
                         },
-                        "minecraft:enchantments": {
-                            "minecraft:infinity": 1
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
                         {
-                            "translate": "vampire_wand",
-                            "italic": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "mage_hat",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "mage_hat_old.lore.1",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "mage_hat_old.lore.2",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
                         {
-                            "translate": "vampire_wand.lore.1",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "vampire_wand.lore.2",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 535,
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:efficiency": 1
+                                    },
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:custom_data": {
+                                    "manabelt_old": true
+                                }
+                            }
                         },
                         {
-                            "translate": "vampire_wand.lore.3",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "mana_belt",
+                                    "color": "blue",
+                                    "italic": false
+                                }
+                            ]
                         },
                         {
-                            "translate": "vampire_wand.lore.4",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 548,
-                        "minecraft:enchantments": {
-                            "minecraft:infinity": 1
-                        },
-                        "minecraft:attribute_modifiers": {
-                            "show_in_tooltip": false
-                        },
-                        "minecraft:custom_data": {
-                            "foxusing_old": true,
-                            "magicwand": true
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "confuse_wand",
-                            "italic": false
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "mage_belt_old.lore.1",
+                                    "color": "aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "mage_belt_old.lore.2",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:black_shulker_box",
+                    "functions": [
                         {
-                            "translate": "confuse_wand.lore.1",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "confuse_wand.lore.2",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:container_loot": {
+                                    "loot_table": "lbc:infinity_old"
+                                }
+                            }
                         },
                         {
-                            "translate": "confuse_wand.lore.3",
-                            "color": "white",
-                            "italic": false
-                        },
-                        {
-                            "translate": "confuse_wand.lore.4",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 547,
-                        "minecraft:custom_data": {
-                            "bloodmagic_old": true,
-                            "magicwand": true
-                        },
-                        "minecraft:enchantments": {
-                            "minecraft:infinity": 1
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "blood_wand",
-                            "italic": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "infinite_shulker",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:rabbit_stew",
+                    "functions": [
                         {
-                            "translate": "blood_wand.lore.1",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "blood_wand.lore.2",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "inf_old": true
+                                }
+                            }
                         },
                         {
-                            "translate": "blood_wand.lore.3",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "horn",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
                         },
                         {
-                            "translate": "blood_wand.lore.4",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "name": "minecraft:carrot_on_a_stick",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_model_data": 550,
-                        "minecraft:custom_data": {
-                            "badwiki_old": true,
-                            "magicwand": true
-                        },
-                        "minecraft:enchantments": {
-                            "minecraft:infinity": 1
-                        }
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "bad_wiki",
-                            "italic": false
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "horn.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "functions": [
                         {
-                            "translate": "bad_wiki.lore.1",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "bad_wiki.lore.2",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 533,
+                                "minecraft:custom_data": {
+                                    "shulker": true
+                                }
+                            }
                         },
                         {
-                            "translate": "bad_wiki.lore.3",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "shulker_bow",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
                         },
                         {
-                            "translate": "bad_wiki.lore.4",
-                            "color": "white",
-                            "italic": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "minecraft:loot_table",
-            "value": "lbc:fragmentsword_old"
-        },
-        {
-            "type": "minecraft:loot_table",
-            "value": "lbc:redstone_old"
-        },
-        {
-            "type": "item",
-            "name": "minecraft:repeating_command_block",
-            "functions": [
-                {
-                    "function": "set_count",
-                    "count": 1
-                },
-                {
-                    "function": "set_components",
-                    "components": {
-                        "minecraft:custom_data": {
-                            "magnet": true
-                        },
-                        "minecraft:custom_model_data": 554
-                    }
-                },
-                {
-                    "function": "set_name",
-                    "name": [
-                        {
-                            "translate": "magnet_item",
-                            "italic": false
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "shulker_bow.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "function": "set_lore",
-                    "mode": "replace_all",
-                    "lore": [
+                    "type": "item",
+                    "name": "minecraft:turtle_helmet",
+                    "functions": [
                         {
-                            "translate": "magnet_item.lore.1",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_count",
+                            "count": 1
                         },
                         {
-                            "translate": "magnet_item.lore.2",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "shulkshell": 1
+                                }
+                            }
                         },
                         {
-                            "translate": "magnet_item.lore.3",
-                            "color": "white",
-                            "italic": false
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "shulker_helmet",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "shulker_helmet.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "shulker_helmet.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "opanvil_old": true,
+                                    "drop": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:imitator"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 546,
+                                "minecraft:custom_data": {
+                                    "lifestealer_old": true,
+                                    "magicwand": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "vampire_wand",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "vampire_wand.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "vampire_wand.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "vampire_wand.lore.3",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "vampire_wand.lore.4",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 548,
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                },
+                                "minecraft:custom_data": {
+                                    "foxusing_old": true,
+                                    "magicwand": true
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "confuse_wand",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "confuse_wand.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "confuse_wand.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "confuse_wand.lore.3",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "confuse_wand.lore.4",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 547,
+                                "minecraft:custom_data": {
+                                    "bloodmagic_old": true,
+                                    "magicwand": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "blood_wand",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "blood_wand.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "blood_wand.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "blood_wand.lore.3",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "blood_wand.lore.4",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 550,
+                                "minecraft:custom_data": {
+                                    "badwiki_old": true,
+                                    "magicwand": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:infinity": 1
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "bad_wiki",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "bad_wiki.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "bad_wiki.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "bad_wiki.lore.3",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "bad_wiki.lore.4",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:fragmentsword_old"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:redstone_old"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "magnet": true
+                                },
+                                "minecraft:custom_model_data": 554
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "magnet_item",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "magnet_item.lore.1",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "magnet_item.lore.2",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "magnet_item.lore.3",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 }

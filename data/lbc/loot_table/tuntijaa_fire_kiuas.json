@@ -13,7 +13,16 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"arcanum": true,arcanum5t:1b,"magicwand": true,"minecraft:custom_model_data":616,HideFlags:2,Unbreakable:1b,sun_arcanum:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "arcanum": true,
+                                    "arcanum5t": true,
+                                    "magicwand": true,
+                                    "sun_arcanum": true
+                                },
+                                "minecraft:custom_model_data": 616
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +30,13 @@
                                 {
                                     "translate": "sun_arcanum",
                                     "italic": false,
-                                    "color":"gold"
+                                    "color": "gold"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

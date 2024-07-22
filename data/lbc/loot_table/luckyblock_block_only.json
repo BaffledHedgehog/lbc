@@ -1,0 +1,55 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_mushroom_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 520,
+                                "minecraft:block_state": {
+                                    "up": "false",
+                                    "down": "false",
+                                    "north": "false",
+                                    "south": "false",
+                                    "east": "false",
+                                    "west": "false"
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Lucky Block",
+                                    "color": "yellow",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "Made by: FaffledHedgehog, Scuferis,",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Swagrumm9690_, JastSh2sh",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

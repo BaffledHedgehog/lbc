@@ -13,7 +13,15 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"staff": true,"raycastspell": true,"minecraft:custom_model_data":663,HideFlags:2,Unbreakable:1b,exahoming_wand:1b}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "staff": true,
+                                    "raycastspell": true,
+                                    "exahoming_wand": true
+                                },
+                                "minecraft:custom_model_data": 663
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,12 +29,13 @@
                                 {
                                     "translate": "exahoming_wand",
                                     "italic": false,
-                                    "color":"gold"
+                                    "color": "gold"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [

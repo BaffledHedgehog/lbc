@@ -48,7 +48,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id": "lbcID",
+                  "id": "lbcid",
                   "amount": {
                     "type": "minecraft:score",
                     "target": {

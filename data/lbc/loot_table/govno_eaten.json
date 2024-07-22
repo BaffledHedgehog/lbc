@@ -21,9 +21,7 @@
                   "randomgovno": true,
                   "eat_shit": true
                 },
-                "minecraft:attribute_modifiers": {
-                  "show_in_tooltip": false
-                },
+                "hide_additional_tooltip": {},
                 "minecraft:custom_model_data": 1488
               }
             },
@@ -32,7 +30,7 @@
               "modifiers": [
                 {
                   "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "name": "govno_rnd",
+                  "id": "govno_rnd",
                   "amount": {
                     "min": 1,
                     "max": 100

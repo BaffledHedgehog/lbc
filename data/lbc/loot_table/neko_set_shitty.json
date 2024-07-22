@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:Custom_data": {
+                                "minecraft:custom_data": {
                                     "craftusable": true,
                                     "govnoq": true,
                                     "transformable": true,
@@ -84,7 +84,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:Custom_data": {
+                                "minecraft:custom_data": {
                                     "craftusable": true,
                                     "govnoq": true,
                                     "transformable": true,
@@ -158,7 +158,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:Custom_data": {
+                                "minecraft:custom_data": {
                                     "craftusable": true,
                                     "govnoq": true,
                                     "transformable": true,
@@ -232,7 +232,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:Custom_data": {
+                                "minecraft:custom_data": {
                                     "craftusable": true,
                                     "govnoq": true,
                                     "transformable": true,

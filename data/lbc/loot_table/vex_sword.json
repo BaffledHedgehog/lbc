@@ -14,7 +14,28 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{"transformable": true,"sword": true,"minecraft:custom_model_data":643,"vexsword": true,"magicwand": true,"swordwithability": true,HideFlags:2,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;887930922,-775598805,-1373223468,890245225],Slot:\"mainhand\"}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "sword": true,
+                                    "vexsword": true,
+                                    "magicwand": true,
+                                    "swordwithability": true
+                                },
+                                "minecraft:custom_model_data": 643,
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:generic.attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "gjntbc6tutfjygjyjyage",
+                                            "amount": 2,
+                                            "operation": "add_value"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -27,7 +48,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {

@@ -6,7 +6,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"shit_katana": true}}}] run 
 execute if entity @s[nbt={SelectedItem:{components:{"techrunner_katana": true}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged6"},"color":"white"}," [",{"score":{"name":"@s","objective":"swordcharging6"},"color":"#41BBE0"},{"text":"/"},{"text":"3§f]","color":"#41BBE0"}]}'
 execute if entity @s[nbt={SelectedItem:{components:{"banhammer": true}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged7"},"color":"white"}," [",{"score":{"name":"@s","objective":"swordcharging7"},"color":"#41BBE0"},{"text":"/"},{"text":"15§f]","color":"#41BBE0"}]}'
 execute if entity @s[nbt={SelectedItem:{components:{"fevgalea_star": true}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"fevgalea_charge"},"color":"#41BBE0"}]}'
-execute if entity @s[nbt={SelectedItem:{components:{triple_golden_sword:1b}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged8"},"color":"gold"}]}'
+execute if entity @s[nbt={SelectedItem:{components:{"triple_golden_sword": true}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged8"},"color":"gold"}]}'
 
 
 
