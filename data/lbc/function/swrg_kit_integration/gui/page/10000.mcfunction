@@ -17,7 +17,7 @@ loot replace entity @s enderchest.15 loot lbc:gui/page/10000/15
 loot replace entity @s enderchest.16 loot lbc:gui/page/10000/16
 loot replace entity @s enderchest.17 loot lbc:gui/page/10000/17
 
-loot replace entity @s enderchest.19 loot lbc:gui/page/10000/19
+#loot replace entity @s enderchest.19 loot lbc:gui/page/10000/19
 #
 item modify entity @s[scores={lbc.skill=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.skill=2}] enderchest.1 swrg:select
@@ -43,25 +43,25 @@ item modify entity @s[scores={lbc.skill=21}] enderchest.20 swrg:select
 item modify entity @s[scores={lbc.skill=22}] enderchest.21 swrg:select
 item modify entity @s[scores={lbc.skill=23}] enderchest.22 swrg:select
 #
-item replace entity @s[advancements={lbc:true_advancements/accesories/jaakivi=false}] enderchest.0 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/accesories/magnet=false}] enderchest.1 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/accesories/mystical_artifact=false}] enderchest.2 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/tannerkivi=false}] enderchest.3 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/erosion=false}] enderchest.4 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/nyauwu=false}] enderchest.5 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/paladin=false}] enderchest.6 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/randchanted=false}] enderchest.7 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/shitty_full=false}] enderchest.8 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/shulker_full=false}] enderchest.9 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/techno_full=false}] enderchest.10 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/axes/banhammer=false}] enderchest.11 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/axes/hammer=false}] enderchest.12 with repeating_command_block{"minecraft:custom_model_data":669}
-execute unless entity @s[advancements={lbc:true_advancements/bows/blaze=true,lbc:true_advancements/bows/ghast=true,lbc:true_advancements/bows/penis_gun=true,lbc:true_advancements/bows/minigun=true}] run item replace entity @s enderchest.13 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/bows/double=false}] enderchest.14 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/hoes/death_skytche=false}] enderchest.15 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/hoes/sickle=false}] enderchest.16 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/hoes/socializm=false}] enderchest.17 with repeating_command_block{"minecraft:custom_model_data":669}
-execute unless entity @s[advancements={lbc:true_advancements/staffs/acid=true,lbc:true_advancements/staffs/corruption=true,lbc:true_advancements/legends/academy/acid=true,lbc:true_advancements/legends/academy/acidacid=true,lbc:true_advancements/legends/academy/acidcorrupt=true,lbc:true_advancements/legends/academy/acid_tuntija=true,lbc:true_advancements/legends/tuntija_wands/acid=true,lbc:true_advancements/legends/tuntija_wands/acidacid=true,lbc:true_advancements/legends/tuntija_wands/acidcorrupt=true,lbc:true_advancements/legends/academy/corruption=true}] run item replace entity @s enderchest.19 with repeating_command_block{"minecraft:custom_model_data":669}
+item replace entity @s[advancements={lbc:true_advancements/accesories/jaakivi=false}] enderchest.0 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/accesories/magnet=false}] enderchest.1 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/accesories/mystical_artifact=false}] enderchest.2 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/tannerkivi=false}] enderchest.3 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/erosion=false}] enderchest.4 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/nyauwu=false}] enderchest.5 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/paladin=false}] enderchest.6 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/randchanted=false}] enderchest.7 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/shitty_full=false}] enderchest.8 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/shulker_full=false}] enderchest.9 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/techno_full=false}] enderchest.10 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/axes/banhammer=false}] enderchest.11 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/axes/hammer=false}] enderchest.12 with repeating_command_block[custom_model_data=669]
+execute unless entity @s[advancements={lbc:true_advancements/bows/blaze=true,lbc:true_advancements/bows/ghast=true,lbc:true_advancements/bows/penis_gun=true,lbc:true_advancements/bows/minigun=true}] run item replace entity @s enderchest.13 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/bows/double=false}] enderchest.14 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/hoes/death_skytche=false}] enderchest.15 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/hoes/sickle=false}] enderchest.16 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/hoes/socializm=false}] enderchest.17 with repeating_command_block[custom_model_data=669]
+execute unless entity @s[advancements={lbc:true_advancements/staffs/acid=true,lbc:true_advancements/staffs/corruption=true,lbc:true_advancements/legends/academy/acid=true,lbc:true_advancements/legends/academy/acidacid=true,lbc:true_advancements/legends/academy/acidcorrupt=true,lbc:true_advancements/legends/academy/acid_tuntija=true,lbc:true_advancements/legends/tuntija_wands/acid=true,lbc:true_advancements/legends/tuntija_wands/acidacid=true,lbc:true_advancements/legends/tuntija_wands/acidcorrupt=true,lbc:true_advancements/legends/academy/corruption=true}] run item replace entity @s enderchest.19 with repeating_command_block[custom_model_data=669]
 
 
 

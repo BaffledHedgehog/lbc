@@ -3,8 +3,7 @@
         "function": "minecraft:set_attributes",
         "modifiers": [
             {
-                "attribute": "minecraft:generic.armor",
-                "name": "generic.armor",
+                "attribute": "minecraft:generic.armor",               
                 "amount": {
                     "type": "minecraft:constant",
                     "value": 1

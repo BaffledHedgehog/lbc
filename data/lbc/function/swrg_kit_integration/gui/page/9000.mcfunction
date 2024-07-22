@@ -42,22 +42,22 @@ item modify entity @s[scores={lbc.kit=24}] enderchest.23 swrg:select
 item modify entity @s[scores={lbc.kit=25}] enderchest.24 swrg:select
 item modify entity @s[scores={lbc.kit=26}] enderchest.25 swrg:select
 #
-item replace entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/accesories/popit=false}] enderchest.1 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/accesories/sand_amulet=false}] enderchest.2 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/barrier_and_heal=false}] enderchest.3 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/arcanums/kiuaskivi=false}] enderchest.4 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/chaos_full=false}] enderchest.5 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/moisei_boots=false}] enderchest.6 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/multiplying=false}] enderchest.7 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/nano=false}] enderchest.8 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/phantom=false}] enderchest.9 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/shitty=false}] enderchest.10 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/steampunk=false}] enderchest.11 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/armor/technomk2=false}] enderchest.12 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/axes/randchanted=false}] enderchest.13 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/bows/firework=false}] enderchest.14 with repeating_command_block{"minecraft:custom_model_data":669}
-item replace entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] enderchest.15 with repeating_command_block{"minecraft:custom_model_data":669}
+item replace entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/accesories/popit=false}] enderchest.1 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/accesories/sand_amulet=false}] enderchest.2 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/barrier_and_heal=false}] enderchest.3 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/arcanums/kiuaskivi=false}] enderchest.4 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/chaos_full=false}] enderchest.5 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/moisei_boots=false}] enderchest.6 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/multiplying=false}] enderchest.7 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/nano=false}] enderchest.8 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/phantom=false}] enderchest.9 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/shitty=false}] enderchest.10 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/steampunk=false}] enderchest.11 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/armor/technomk2=false}] enderchest.12 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/axes/randchanted=false}] enderchest.13 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/bows/firework=false}] enderchest.14 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] enderchest.15 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 lbc:swrg_unlocks/devilstomach
