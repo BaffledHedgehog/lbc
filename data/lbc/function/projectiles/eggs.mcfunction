@@ -28,7 +28,7 @@ execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"bucks": 
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"libspell": true} run function lbc:items/libspells/select
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{win_button:1b} run function lbc:items/win/win
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"most_imba": true} run function lbc:other/imba/most_spawn
-execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{govno_raskid:1b} run function lbc:swrg_kit_integration/items/govno_raskid
+execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"govno_raskid": true} run function lbc:swrg_kit_integration/items/govno_raskid
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.tag{steampunk_rocket:1b} run function lbc:swrg_kit_integration/items/steampunk_rocket
 # remove egg
 kill @e[type=snowball,limit=1,sort=nearest,distance=..10,nbt={Item:{components:{"gadget": true}}}]

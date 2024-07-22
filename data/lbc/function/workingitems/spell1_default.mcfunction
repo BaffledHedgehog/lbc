@@ -117,7 +117,7 @@ execute if score @s[nbt={SelectedItem:{components:{"stblind_tiny": true}}}] mana
 execute if entity @s[nbt={SelectedItem:{components:{multiply:5}}}] run function lbc:swrg_kit_integration/items/multiply_5
 execute if score @s[nbt={SelectedItem:{components:{"penis_cultus": true}}}] mana >= penis_cultus_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/penis_cultus/use
 
-execute if entity @s[nbt={SelectedItem:{components:{grapping_hook:1b}}}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] at @s run function lbc:swrg_kit_integration/items/grapping_hook
+execute if entity @s[nbt={SelectedItem:{components:{"grapping_hook": true}}}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] at @s run function lbc:swrg_kit_integration/items/grapping_hook
 
 
 

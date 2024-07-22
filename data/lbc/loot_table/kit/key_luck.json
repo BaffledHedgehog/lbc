@@ -9,7 +9,22 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":41523,"luck_key": true,Damage:30,AttributeModifiers:[{AttributeName:\"minecraft:generic.luck\",Slot:\"mainhand\",Amount:64,UUID:[I;147543534,264346,3463643,-453252355]}]}"
+                            "components": {
+                                "minecraft:custom_model_data": 41523,
+                                "minecraft:custom_data": {
+                                    "luck_key": true
+                                },
+                                "minecraft:max_damage": 1,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.luck",
+                                        "slot": "mainhand",
+                                        "id": "95839458394634644tghgh",
+                                        "operation": "add_value",
+                                        "amount": 64
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "set_name",

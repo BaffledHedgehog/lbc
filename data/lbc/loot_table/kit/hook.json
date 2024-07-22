@@ -9,7 +9,13 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":747,grapping_hook:1b,"magicwand": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 747,
+                                "minecraft:custom_data": {
+                                    "grapping_hook": true,
+                                    "magicwand": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,7 +27,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "grapping_hook.lore",

@@ -114,7 +114,7 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"stfire_tiny": true}
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"stblind_tiny": true}}]}] mana >= tiny_blind_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/blind
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{multiply:5}}]}] run function lbc:swrg_kit_integration/items/multiply_5
 
-execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{grapping_hook:1b}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] at @s run function lbc:swrg_kit_integration/items/grapping_hook
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"grapping_hook": true}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] at @s run function lbc:swrg_kit_integration/items/grapping_hook
 
 
 

@@ -9,7 +9,30 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"transformable": true,"leggings": true,HideFlags:68,overload:1b,"minecraft:custom_model_data":24,display:{color:259},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;824262,1444272,-674467,1283481],Slot:\"legs\"}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "leggings": true,
+                                    "overload": true
+                                },
+                                "minecraft:custom_model_data": 24,
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:dyed_color": {
+                                    "rgb": 259,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "legs",
+                                        "id": "ghndftcxthumunyukr",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -22,7 +45,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {
@@ -52,8 +76,8 @@
                                     "italic": false
                                 },
                                 {
-                                    "text":" "
-                                },                           
+                                    "text": " "
+                                },
                                 [
                                     {
                                         "translate": "set_bonus",

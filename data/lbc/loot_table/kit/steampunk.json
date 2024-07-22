@@ -9,7 +9,12 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":501,steampunk_pickaxe:1b}"
+                            "components": {
+                                "minecraft:custom_model_data": 501,
+                                "minecraft:custom_data": {
+                                    "steampunk_pickaxe": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -21,7 +26,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "steampunk_pickaxe.lore",
@@ -32,7 +38,8 @@
                     ]
                 }
             ]
-        }, {
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -41,7 +48,28 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":576,steampunk_sword:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2,Operation:0,UUID:[I;441288664,754535430,-1627708654,571982112],Slot:\"mainhand\"},{AttributeName:\"minecraft:generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-713075729,-1339797959,-1897028909,-862647622],Slot:\"mainhand\"}]}"
+                            "components": {
+                                "minecraft:custom_model_data": 576,
+                                "minecraft:custom_data": {
+                                    "steampunk_sword": true
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "hdtnkbuycthfngkhgspeed",
+                                        "amount": -2,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "genebyngkucfyvdbffhe",
+                                        "amount": 3,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "set_name",
@@ -53,12 +81,14 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "steampunk_sword.lore.1",
                                     "italic": false
-                                },{
+                                },
+                                {
                                     "translate": "steampunk_sword.lore.2",
                                     "italic": false
                                 }
@@ -67,7 +97,8 @@
                     ]
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -76,7 +107,13 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":691,steampunk_rocket:1b,"gadget": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 691,
+                                "minecraft:custom_data": {
+                                    "steampunk_rocket": true,
+                                    "gadget": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -88,7 +125,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "steampunk_rocket.lore",

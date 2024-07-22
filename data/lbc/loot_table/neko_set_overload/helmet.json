@@ -9,7 +9,30 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"transformable": true,"helmet": true,HideFlags:68,overload:1b,"minecraft:custom_model_data":24,display:{color:776},Unbreakable:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;8233262,14233272,-6734637,12833181],Slot:\"head\"}]}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "helmet": true,
+                                    "overload": true
+                                },
+                                "minecraft:custom_model_data": 24,
+                                "minecraft:unbreakable": {
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:dyed_color": {
+                                    "rgb": 776,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "head",
+                                        "id": "gsbynt7bkc6yunfbgjor",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -22,7 +45,8 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {

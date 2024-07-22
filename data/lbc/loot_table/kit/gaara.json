@@ -13,7 +13,12 @@
                         },
                         {
                             "function": "set_components",
-                            "tag": "{gaara_tikva:1b,"minecraft:custom_model_data":665}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "gaara_tikva": true
+                                },
+                                "minecraft:custom_model_data": 665
+                            }
                         },
                         {
                             "function": "set_name",

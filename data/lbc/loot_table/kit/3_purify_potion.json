@@ -27,7 +27,11 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{Potion:\"minecraft:strong_healing\"}"
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:strong_healing"
+                                }
+                            }
                         }
                     ]
                 }

@@ -9,7 +9,37 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "tag": "{custom_potion_effects:[{id:\"minecraft:speed\",amplifier:9b,duration:200,show_particles:0b},{id:\"minecraft:jump_boost\",amplifier:4b,duration:200,show_particles:0b},{id:\"minecraft:invisibility\",amplifier:1b,duration:200,show_particles:0b},{id:\"minecraft:strength\",amplifier:1b,duration:200,show_particles:0b}],CustomPotionColor:14737663}"
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 14737663,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:speed",
+                                            "amplifier": 9,
+                                            "duration": 200,
+                                            "show_particles": false
+                                        },
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "amplifier": 4,
+                                            "duration": 200,
+                                            "show_particles": false
+                                        },
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "amplifier": 1,
+                                            "duration": 200,
+                                            "show_particles": false
+                                        },
+                                        {
+                                            "id": "minecraft:strength",
+                                            "amplifier": 1,
+                                            "duration": 200,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "set_name",

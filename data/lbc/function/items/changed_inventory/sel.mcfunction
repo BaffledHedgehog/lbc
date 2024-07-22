@@ -97,20 +97,20 @@ tag @s[nbt=!{Inventory:[{components:{"stand_clocks": true}}]}] remove have_stand
 tag @s[nbt={Inventory:[{components:{"stand_clocks": true}}]}] add stand_clocks_active
 tag @s[nbt=!{Inventory:[{components:{"stand_clocks": true}}]}] remove stand_clocks_active
 
-tag @s[nbt={Inventory:[{Slot:103b,components:{overload:1b}},{Slot:102b,components:{overload:1b}},{Slot:101b,components:{overload:1b}},{Slot:100b,components:{overload:1b}}]}] add overload_full_active
-tag @s[nbt=!{Inventory:[{Slot:103b,components:{overload:1b}},{Slot:102b,components:{overload:1b}},{Slot:101b,components:{overload:1b}},{Slot:100b,components:{overload:1b}}]}] remove overload_full_active
+tag @s[nbt={Inventory:[{Slot:103b,components:{"overload": true}},{Slot:102b,components:{"overload": true}},{Slot:101b,components:{"overload": true}},{Slot:100b,components:{"overload": true}}]}] add overload_full_active
+tag @s[nbt=!{Inventory:[{Slot:103b,components:{"overload": true}},{Slot:102b,components:{"overload": true}},{Slot:101b,components:{"overload": true}},{Slot:100b,components:{"overload": true}}]}] remove overload_full_active
 
-tag @s[nbt={Inventory:[{Slot:103b,components:{overload:1b}}]}] add overload_helmet_active
-tag @s[nbt=!{Inventory:[{Slot:103b,components:{overload:1b}}]}] remove overload_helmet_active
+tag @s[nbt={Inventory:[{Slot:103b,components:{"overload": true}}]}] add overload_helmet_active
+tag @s[nbt=!{Inventory:[{Slot:103b,components:{"overload": true}}]}] remove overload_helmet_active
 
-tag @s[nbt={Inventory:[{Slot:102b,components:{overload:1b}}]}] add overload_chestplate_active
-tag @s[nbt=!{Inventory:[{Slot:102b,components:{overload:1b}}]}] remove overload_chestplate_active
+tag @s[nbt={Inventory:[{Slot:102b,components:{"overload": true}}]}] add overload_chestplate_active
+tag @s[nbt=!{Inventory:[{Slot:102b,components:{"overload": true}}]}] remove overload_chestplate_active
 
-tag @s[nbt={Inventory:[{Slot:101b,components:{overload:1b}}]}] add overload_leggings_active
-tag @s[nbt=!{Inventory:[{Slot:101b,components:{overload:1b}}]}] remove overload_leggings_active
+tag @s[nbt={Inventory:[{Slot:101b,components:{"overload": true}}]}] add overload_leggings_active
+tag @s[nbt=!{Inventory:[{Slot:101b,components:{"overload": true}}]}] remove overload_leggings_active
 
-tag @s[nbt={Inventory:[{Slot:100b,components:{overload:1b}}]}] add overload_boots_active
-tag @s[nbt=!{Inventory:[{Slot:100b,components:{overload:1b}}]}] remove overload_boots_active
+tag @s[nbt={Inventory:[{Slot:100b,components:{"overload": true}}]}] add overload_boots_active
+tag @s[nbt=!{Inventory:[{Slot:100b,components:{"overload": true}}]}] remove overload_boots_active
 
 execute unless data entity @s Inventory.[{Slot:100b}].tag.AttributeModifiers run function lbc:items/changed_inventory/fix_attribute_feet
 execute unless data entity @s Inventory.[{Slot:101b}].tag.AttributeModifiers run function lbc:items/changed_inventory/fix_attribute_legs
