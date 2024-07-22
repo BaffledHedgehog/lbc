@@ -9,7 +9,16 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "tag": "{"transformable": true,"helmet": true,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1}],"imba": true}"
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "helmet": true,
+                                    "imba": true
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:binding_curse": 1
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -20,7 +29,8 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 [
                                     {

@@ -16,7 +16,13 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_model_data":646,"bucks": true,"imba": true}"
+                            "components": {
+                                "minecraft:custom_model_data": 646,
+                                "minecraft:custom_data": {
+                                    "bucks": true,
+                                    "imba": true
+                                }
+                            }
                         },
                         {
                             "function": "set_name",
@@ -29,7 +35,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "buck.lore.1",
