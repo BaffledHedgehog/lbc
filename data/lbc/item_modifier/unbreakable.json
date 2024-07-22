@@ -1,6 +1,8 @@
 [
   {
     "function": "minecraft:set_components",
-    "tag":"{Unbreakable:1b}"
+    "components": {
+      "minecraft:unbreakable": {}
+    }
   }
 ]

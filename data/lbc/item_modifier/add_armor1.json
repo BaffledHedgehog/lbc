@@ -1,6 +1,19 @@
 [
     {
         "function": "minecraft:set_components",
-        "tag": "{tanner_upgraded:1b,AttributeModifiers:[{AttributeName:\"minecraft:generic.armor_toughness\",Amount:1.5,Operation:0,Name:\"armor_toughness\",UUID:[I;-6615,322213,-1114,111],Slot:\"feet\"}]}"
+        "components": {
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:generic.armor_toughness",
+                    "slot": "feet",
+                    "id": "armor_toughness_feet",
+                    "amount": 1.5,
+                    "operation": "add_value"
+                }
+            ],
+            "minecraft:custom_data": {
+                "tanner_upgraded": true
+            }
+        }
     }
 ]

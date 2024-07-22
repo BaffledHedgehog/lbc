@@ -4,7 +4,6 @@
         "modifiers": [
             {
                 "attribute": "minecraft:generic.armor",
-                
                 "amount": {
                     "type": "minecraft:score",
                     "target": {
@@ -16,12 +15,10 @@
                 },
                 "operation": "add_value",
                 "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
-                "slot": "head",
-                "add": false
+                "slot": "head"
             },
             {
                 "attribute": "minecraft:generic.armor_toughness",
-                
                 "amount": {
                     "type": "minecraft:score",
                     "target": {
@@ -33,14 +30,16 @@
                 },
                 "operation": "add_value",
                 "id": "bafd952e-692a-41ed-9b61-c7d604d107c9",
-                "slot": "head",
-                "add": false
+                "slot": "head"
             }
-        ],
-        "add": false
+        ]
     },
     {
         "function": "minecraft:set_components",
-        "tag": "{tanner_upgraded:1b}"
+        "components": {
+            "minecraft:custom_data": {
+                "tanner_upgraded": true
+            }
+        }
     }
 ]

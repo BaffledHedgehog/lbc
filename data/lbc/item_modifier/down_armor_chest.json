@@ -1,7 +1,19 @@
 [
     {
         "function": "minecraft:set_components",
-        "tag": "{"transformable": true,"chestplate": true,"glass": true,display:{color:520},"minecraft:custom_model_data":20,HideFlags:64,Unbreakable:1b}"
+        "components": {
+            "minecraft:custom_data": {
+                "transformable": true,
+                "chestplate": true,
+                "glass": true
+            },
+            "minecraft:custom_model_data": 20,
+            "minecraft:unbreakable": {},
+            "minecraft:dyed_color": {
+                "rgb": 520,
+                "show_in_tooltip": false
+            }
+        }
     },
     {
         "function": "minecraft:set_name",
@@ -12,7 +24,8 @@
         }
     },
     {
-        "function": "set_lore","mode":"replace_all",
+        "function": "set_lore",
+        "mode": "replace_all",
         "lore": [
             [
                 {
@@ -31,15 +44,13 @@
                 "italic": false,
                 "color": "aqua"
             }
-        ],
-        "replace": true
+        ]
     },
     {
         "function": "minecraft:set_attributes",
         "modifiers": [
             {
                 "attribute": "minecraft:generic.armor",
-                
                 "amount": {
                     "type": "minecraft:score",
                     "target": {
@@ -51,12 +62,10 @@
                 },
                 "operation": "add_value",
                 "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
-                "slot": "chest",
-                "add": false
+                "slot": "chest"
             },
             {
                 "attribute": "minecraft:generic.armor_toughness",
-                
                 "amount": {
                     "type": "minecraft:score",
                     "target": {
@@ -68,10 +77,8 @@
                 },
                 "operation": "add_value",
                 "id": "71eaf780-80f9-4861-8a64-49ab1247121b",
-                "slot": "chest",
-                "add": false
+                "slot": "chest"
             }
-        ],
-        "add": false
+        ]
     }
 ]
