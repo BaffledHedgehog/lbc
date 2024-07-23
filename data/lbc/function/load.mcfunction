@@ -219,7 +219,28 @@ scoreboard objectives add frozen dummy
 scoreboard objectives add effect_rtp_1 dummy
 scoreboard objectives add effect_rtp_2 dummy
 scoreboard objectives add effect_rtp_3 dummy
-
+scoreboard objectives add effect_small_explosion dummy
+scoreboard objectives add effect_evoker dummy
+scoreboard objectives add effect_shock dummy
+scoreboard objectives add effect_explosion dummy
+scoreboard objectives add effect_rtp_4 dummy
+scoreboard objectives add effect_big_explosion dummy
+scoreboard objectives add effect_traps dummy
+scoreboard objectives add effect_lightning_bolt dummy
+scoreboard objectives add effect_firebreak dummy
+scoreboard objectives add effect_kiuaskivi dummy
+scoreboard objectives add effect_lightarrow dummy
+scoreboard objectives add effect_evokerarrow dummy
+scoreboard objectives add effect_dimshifting dummy
+scoreboard objectives add piss dummy
+scoreboard objectives add effect_witch_gens_reset dummy
+scoreboard objectives add effect_hedgehog_boom dummy
+scoreboard objectives add effect_stand_arrow_hit dummy
+scoreboard objectives add delayed_death dummy
+scoreboard objectives add effect_nuking dummy
+scoreboard objectives add effect_vacuum dummy
+scoreboard objectives add effect_timestop dummy
+scoreboard objectives add effect_chain_lightning dummy
 
 
 

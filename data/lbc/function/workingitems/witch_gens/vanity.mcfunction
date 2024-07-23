@@ -111,6 +111,6 @@ data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.active_e
 data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.Tags set from entity @s Tags
 data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.attributes set from entity @s attributes
 data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.Pos set from entity @s Pos
-
+tag @s add have_lucky_effects
 advancement grant @s only lbc:true_advancements/legends/sins/vanity
 

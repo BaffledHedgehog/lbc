@@ -99,7 +99,7 @@ scoreboard players operation @s screamray = @e[type=marker,tag=stored_stats_vani
 scoreboard players operation @s sleep_time = @e[type=marker,tag=stored_stats_vanity,limit=1] sleep_time
 scoreboard players operation @s target = @e[type=marker,tag=stored_stats_vanity,limit=1] target
 scoreboard players operation @s technomk2shield = @e[type=marker,tag=stored_stats_vanity,limit=1] technomk2shield
-
+tag @s add have_lucky_effects
 
 
 scoreboard players set tmp lbc.math 0

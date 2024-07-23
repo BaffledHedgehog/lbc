@@ -59,4 +59,5 @@ scoreboard players set @s sleep_time 2147483647
 scoreboard players set @s target 2147483647
 scoreboard players set @s twitching 2147483647
 scoreboard players set @s void_resistance 2147483647
+tag @s add have_lucky_effects
 advancement revoke @s only lbc:eat_netherite_stew

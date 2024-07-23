@@ -1,7 +1,6 @@
 execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen"}]},tag=!spectator,tag=!time_stopped] run function lbc:projectiles/arrows2
-execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:106b,duration:18}]},tag=!spectator,tag=!time_stopped] run summon arrow ~ ~ ~ {Motion:[0.0,-10.0,0.0],damage:0.01d,Tags:["edited"],item:{id:"tipped_arrow",components:{potion_contents:{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:106b,duration:20}]},intangible_projectile:{}}}}
-execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:114b,duration:18}]},tag=!spectator,tag=!time_stopped] run summon arrow ~ ~ ~ {Motion:[0.0,-10.0,0.0],damage:0.01d,Tags:["edited"],item:{id:"tipped_arrow",components:{potion_contents:{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:114b,duration:20}]},intangible_projectile:{}}}}
+
+execute if entity @s[tag=have_lucky_effects] run function lbc:effects/tick
 execute if entity @s[type=player,gamemode=!spectator,tag=!time_stopped] run function lbc:players_tick
-execute if entity @s[scores={piss=1..}] anchored eyes positioned ^ ^ ^.3 run function lbc:workingitems/yellow_lightning_asplayer
-execute if entity @s[scores={frozen=1..}] run function lbc:other/freeze/block/tick with storage lbc.math
+
 execute if entity @s[tag=lucky_mob] run function lbc:mobs_tick_lbc
