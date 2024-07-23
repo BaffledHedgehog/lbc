@@ -1,6 +1,6 @@
-execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:40b}]}] run spreadplayers ~ ~ 0 10 false @s[predicate=!lbc:the_nether]
-execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:41b}]}] run spreadplayers ~ ~ 0 20 false @s[predicate=!lbc:the_nether]
-execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:42b}]}] run spreadplayers ~ ~ 0 30 false @s[predicate=!lbc:the_nether]
-execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:40b}]}] run spreadplayers ~ ~ 0 10 under 120 false @s[predicate=lbc:the_nether]
-execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:41b}]}] run spreadplayers ~ ~ 0 20 under 120 false @s[predicate=lbc:the_nether]
-execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:42b}]}] run spreadplayers ~ ~ 0 30 under 120 false @s[predicate=lbc:the_nether]
+execute store result score tmp lbc.math run data get entity @s active_effects[{id:"minecraft:raid_omen"}].amplifier
+execute store result score dur lbc.math run data get entity @s active_effects[{id:"minecraft:raid_omen"}].duration
+execute if score tmp lbc.math matches 40 run scoreboard players operation @s effect_rtp_1 += dur lbc.math
+execute if score tmp lbc.math matches 41 run scoreboard players operation @s effect_rtp_2 += dur lbc.math
+execute if score tmp lbc.math matches 42 run scoreboard players operation @s effect_rtp_3 += dur lbc.math
+effect clear @s raid_omen

@@ -214,6 +214,20 @@ scoreboard objectives add overload_slam dummy
 scoreboard objectives add cold dummy
 scoreboard objectives add cold_cd dummy
 scoreboard objectives add frozen dummy
+#effect!
+
+scoreboard objectives add effect_rtp_1 dummy
+scoreboard objectives add effect_rtp_2 dummy
+scoreboard objectives add effect_rtp_3 dummy
+
+
+
+
+
+
+
+
+#
 execute unless score cfg_lucky_modifier swrg.math matches 0..100 run scoreboard players set cfg_lucky_modifier swrg.math 0
 execute if score #lang swrg.math matches 2 run function lbc:swrg_kit_integration/lang_en
 execute if score #lang swrg.math matches 1 run function lbc:swrg_kit_integration/lang_ru
