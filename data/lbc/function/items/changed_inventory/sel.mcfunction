@@ -27,7 +27,7 @@ tag @s[nbt=!{Inventory:[{components:{"nanobots": true}}]}] remove nanobots_activ
 
 
 
-tag @s[nbt={Inventory:[{components:{mystical:1,type:4}}]}] add no_arrows_active
+tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:4}}}]}] add no_arrows_active
 tag @s[nbt={Inventory:[{components:{"instantitem":true}}]}] add instantitem_active
 tag @s[nbt={Inventory:[{Slot:100b,components:{"shulkshell": true}},{Slot:101b,components:{"shulkshell": true}},{Slot:102b,components:{"shulkshell": true}},{Slot:103b,components:{"shulkshell": true}}]}] add shulker_setbonus_active
 tag @s[nbt={Inventory:[{Slot:103b,components:{troll:1b}}]}] add trollmask_active
@@ -44,12 +44,12 @@ tag @s[nbt=!{Inventory:[{components:{"techno": true}}]}] remove techno_tick_acti
 tag @s[nbt=!{Inventory:[{components:{yellow_lightning:1b}}]}] remove yellow_lightning
 
 
-tag @s[nbt={Inventory:[{components:{mystical:1,type:1}}]}] add nomagic_active
+tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:1}}}]}] add nomagic_active
 tag @s[nbt=!{Inventory:[{components:{mystical:1,type:1}}]}] remove nomagic_active
 
 tag @s[nbt={Inventory:[{components:{"phantomknifes": true}}]}] add phantomknifes_active
 tag @s[nbt={Inventory:[{components:{"razorpine": true}}]}] add razorpine_active
-tag @s[nbt={Inventory:[{components:{mystical:1,type:2}}]}] add notnt_active
+tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:2}}}]}] add notnt_active
 tag @s[nbt={Inventory:[{components:{"attack_helicopter": true}}]}] add helicopter_active
 tag @s[nbt={Inventory:[{Slot:101b,components:{"shulkshell": true}}]}] add shulkshell_active
 tag @s[nbt={Inventory:[{Slot:103b,components:{"reactive":true}}]}] add reactivehelmet_active
