@@ -24,7 +24,7 @@ execute if entity @s[type=experience_bottle] run summon experience_bottle ~ ~ ~ 
 execute if entity @s[type=experience_orb] run summon experience_orb ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=area_effect_cloud] run summon area_effect_cloud ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=tnt_minecart] run summon tnt_minecart ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=spawner_minecart] run summon spawner_minecart ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=spawner_minecart] run summon spawner_minecart ~ ~ ~ {SpawnCount:0,Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=boat] run summon boat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 execute if entity @s[type=marker] run summon marker ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
@@ -53,7 +53,7 @@ execute if entity @s[type=experience_bottle] run summon experience_bottle ~ ~ ~ 
 execute if entity @s[type=experience_orb] run summon experience_orb ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=area_effect_cloud] run summon area_effect_cloud ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=tnt_minecart] run summon tnt_minecart ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=spawner_minecart] run summon spawner_minecart ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=spawner_minecart] run summon spawner_minecart ~ ~ ~ {SpawnCount:0,Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=boat] run summon boat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 execute if entity @s[type=marker] run summon marker ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
@@ -82,7 +82,7 @@ execute if entity @s[type=experience_bottle] run summon experience_bottle ~ ~ ~ 
 execute if entity @s[type=experience_orb] run summon experience_orb ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=area_effect_cloud] run summon area_effect_cloud ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=tnt_minecart] run summon tnt_minecart ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=spawner_minecart] run summon spawner_minecart ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=spawner_minecart] run summon spawner_minecart ~ ~ ~ {SpawnCount:0,Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=boat] run summon boat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 tag @s add quadried

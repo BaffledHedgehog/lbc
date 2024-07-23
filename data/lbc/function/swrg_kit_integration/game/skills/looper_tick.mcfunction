@@ -1,3 +1,3 @@
-execute if entity @s[nbt={SelectedItem:{components:{unresolved_artifact:1b}}}] run function lbc:swrg_kit_integration/game/skills/looper_explain_artifact
-execute if entity @s[nbt={SelectedItem:{components:{"unresolved_fragment":true}}}] run function lbc:swrg_kit_integration/game/skills/looper_explain_fragment
-execute if entity @s[nbt={SelectedItem:{components:{"unresolved_grimoire": true}}}] run function lbc:swrg_kit_integration/game/skills/looper_explain_grimoire
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{unresolved_artifact:1b}}}}] run function lbc:swrg_kit_integration/game/skills/looper_explain_artifact
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"unresolved_fragment":true}}}}] run function lbc:swrg_kit_integration/game/skills/looper_explain_fragment
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"unresolved_grimoire": true}}}}] run function lbc:swrg_kit_integration/game/skills/looper_explain_grimoire
