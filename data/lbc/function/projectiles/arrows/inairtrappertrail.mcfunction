@@ -1,2 +1,1 @@
-execute if predicate lbc:chance20 if entity @a[distance=..80] run function lbc:projectiles/arrows/evoker_rand
-kill @s[scores={Lifetime=390}]
+execute if predicate lbc:chance10 if entity @a[distance=..80] if score @s Lifetime matches 50.. run function lbc:projectiles/arrows/evoker_rand
