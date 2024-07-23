@@ -71,12 +71,21 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:max_damage": 4,
+                                "minecraft:max_damage": 32,
                                 "minecraft:custom_model_data": 582
                             }
-                        },{
+                        },
+                        {
                             "function": "set_attributes",
-                            "modifiers": [{"id": "afsgfgrirj8ighjrgirj"}]
+                            "modifiers": [
+                                {
+                                    "id": "afsgfgrirj8ighjrgirj",
+                                    "amount": 10,
+                                    "attribute": "minecraft:player.entity_interaction_range",
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                }
+                            ]
                         },
                         {
                             "function": "set_name",
