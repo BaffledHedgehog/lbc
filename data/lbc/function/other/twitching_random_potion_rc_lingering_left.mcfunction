@@ -1,4 +1,4 @@
-execute anchored eyes positioned ^ ^ ^.5 run summon potion ~ ~ ~ {Tags:["vpered_rc"],Item:{id:"minecraft:lingering_potion",Count:1b,components:{Potion:"minecraft:empty"}}}
+execute anchored eyes positioned ^ ^ ^.5 run summon potion ~ ~ ~ {Tags:["vpered_rc"],Item:{id:"minecraft:lingering_potion",count:1,components:{Potion:"minecraft:empty"}}}
 data modify entity @e[type=potion,limit=1,sort=nearest,tag=vpered_rc,tag=!active] Item.tag.custom_potion_effects set from entity @s Inventory[{Slot:-106b}].tag.custom_potion_effects
 data modify entity @e[type=potion,limit=1,sort=nearest,tag=vpered_rc,tag=!active] Item.tag.Potion set from entity @s Inventory[{Slot:-106b}].tag.Potion
 data modify entity @e[type=potion,limit=1,sort=nearest,tag=vpered_rc,tag=!active] Item.tag.CustomPotionColor set from entity @s Inventory[{Slot:-106b}].tag.CustomPotionColor

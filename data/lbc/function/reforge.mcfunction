@@ -22,5 +22,5 @@ execute if data entity @s {item:{components:{"leggings": true}}} run loot spawn 
 execute if data entity @s {item:{components:{"boots": true}}} run loot spawn ~ ~ ~ loot lbc:transformables_boots
 advancement grant @p[gamemode=!spectator] only lbc:true_advancements/lightning_smith
 
-execute if data entity @s {item:{Count:1b}} run kill @s
-execute unless data entity @s {item:{Count:1b}} run function lbc:reduce_count_s
+execute if data entity @s {item:{count:1}} run kill @s
+execute unless data entity @s {item:{count:1}} run function lbc:reduce_count_s

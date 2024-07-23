@@ -1,4 +1,4 @@
-summon zombie ~ ~ ~ {Tags:["otchim","lucky_mob"],CustomNameVisible:1b,Invulnerable:1b,ArmorItems:[{id:"minecraft:repeating_command_block",Count:1b,components:{"minecraft:custom_model_data":605}},{},{},{}],ArmorDropChances:[0.000f,0.000f,0.000f,0.000f],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:20000000}],PersistenceRequired:1b}
+summon zombie ~ ~ ~ {Tags:["otchim","lucky_mob"],CustomNameVisible:1b,Invulnerable:1b,ArmorItems:[{id:"minecraft:repeating_command_block",count:1,components:{"minecraft:custom_model_data":605}},{},{},{}],ArmorDropChances:[0.000f,0.000f,0.000f,0.000f],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:20000000}],PersistenceRequired:1b}
 loot replace entity @e[type=zombie,distance=..0.0001,limit=1,tag=otchim,tag=!active] armor.head loot lbc:otchim
 execute as @e[type=zombie,distance=..0.0001,limit=1,tag=otchim,tag=!active] run data modify entity @s CustomName set from entity @s ArmorItems.[0].tag.display.Name
 tag @e[type=zombie,distance=..0.0001,limit=1,tag=otchim,tag=!active] add active

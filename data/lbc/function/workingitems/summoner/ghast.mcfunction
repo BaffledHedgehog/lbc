@@ -14,15 +14,15 @@ execute if entity @s[team=13] run kill @e[type=ghast,tag=summghast,team=13]
 execute if entity @s[team=14] run kill @e[type=ghast,tag=summghast,team=14]
 execute if entity @s[team=15] run kill @e[type=ghast,tag=summghast,team=15]
 execute if entity @s[team=16] run kill @e[type=ghast,tag=summghast,team=16]
-summon ghast ~ ~20 ~10 {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
-summon ghast ~ ~20 ~-10 {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
-summon ghast ~10 ~20 ~ {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
-summon ghast ~-10 ~20 ~ {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
-summon ghast ~ ~20 ~ {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
-summon ghast ~-10 ~20 ~-10 {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
-summon ghast ~10 ~20 ~-10 {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
-summon ghast ~-10 ~20 ~10 {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
-summon ghast ~10 ~20 ~10 {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summghast"],Attributes:[{Name:"generic.follow_range",Base:200}]}
+summon ghast ~ ~20 ~10 {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
+summon ghast ~ ~20 ~-10 {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
+summon ghast ~10 ~20 ~ {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
+summon ghast ~-10 ~20 ~ {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
+summon ghast ~ ~20 ~ {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
+summon ghast ~-10 ~20 ~-10 {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
+summon ghast ~10 ~20 ~-10 {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
+summon ghast ~-10 ~20 ~10 {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
+summon ghast ~10 ~20 ~10 {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"generic.follow_range",base:200}]}
 
 execute if entity @s[team=1] run team join 1 @e[type=ghast,limit=9,tag=summghast,tag=!summactivated,sort=nearest]
 execute if entity @s[team=2] run team join 2 @e[type=ghast,limit=9,tag=summghast,tag=!summactivated,sort=nearest]

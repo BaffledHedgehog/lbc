@@ -14,7 +14,7 @@ execute if entity @s[team=13] run kill @e[type=blaze,tag=summblaze,team=13]
 execute if entity @s[team=14] run kill @e[type=blaze,tag=summblaze,team=14]
 execute if entity @s[team=15] run kill @e[type=blaze,tag=summblaze,team=15]
 execute if entity @s[team=16] run kill @e[type=blaze,tag=summblaze,team=16]
-summon blaze ~ ~5 ~ {PersistenceRequired:1b,DeathLootTable:"none",Tags:["summblaze"],Passengers:[{id:"minecraft:blaze",PersistenceRequired:1b,DeathLootTable:"none",Tags:["summblaze"],Passengers:[{id:"minecraft:blaze",PersistenceRequired:1b,DeathLootTable:"none",Tags:["summblaze"],Attributes:[{Name:"generic.follow_range",Base:200}]}],Attributes:[{Name:"generic.follow_range",Base:200}]}],Attributes:[{Name:"generic.follow_range",Base:200}]}
+summon blaze ~ ~5 ~ {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summblaze"],Passengers:[{id:"minecraft:blaze",PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summblaze"],Passengers:[{id:"minecraft:blaze",PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summblaze"],attributes:[{id:"generic.follow_range",base:200}]}],attributes:[{id:"generic.follow_range",base:200}]}],attributes:[{id:"generic.follow_range",base:200}]}
 execute if entity @s[team=1] run team join 1 @e[type=blaze,limit=3,tag=summblaze,tag=!summactivated,sort=nearest]
 execute if entity @s[team=2] run team join 2 @e[type=blaze,limit=3,tag=summblaze,tag=!summactivated,sort=nearest]
 execute if entity @s[team=3] run team join 3 @e[type=blaze,limit=3,tag=summblaze,tag=!summactivated,sort=nearest]

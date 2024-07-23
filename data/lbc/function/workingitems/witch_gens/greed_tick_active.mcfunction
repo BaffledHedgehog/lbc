@@ -1,7 +1,7 @@
 effect give @s resistance 2 4 true
 effect give @s instant_health 2 4 true
-attribute @s generic.attack_damage modifier add e916adfe-014b-4ff5-82f1-af6ec9226d21 "greed_buff" 10 add
-attribute @s generic.knockback_resistance modifier add e916adfe-014b-4ff5-82f1-af6ec9226d21 "greed_buff" 10000 add
+attribute @s generic.attack_damage modifier add e916adfe-014b-4ff5-82f1-af6ec9226d21 10 add_value
+attribute @s generic.knockback_resistance modifier add e916adfe-014b-4ff5-82f1-af6ec9226d21 10000 add_value
 fill ~ ~1.01 ~ ~ ~.99 ~ air destroy
 execute at @s at @s[y=-30,dy=-10000] run tp @s ~ 322 ~
 effect clear @s bad_omen

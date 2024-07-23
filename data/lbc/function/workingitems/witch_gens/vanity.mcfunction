@@ -109,7 +109,7 @@ scoreboard players operation @e[type=marker,tag=stored_stats_vanity,limit=1] tar
 scoreboard players operation @e[type=marker,tag=stored_stats_vanity,limit=1] technomk2shield = @s technomk2shield
 data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.active_effects set from entity @s active_effects
 data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.Tags set from entity @s Tags
-data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.Attributes set from entity @s Attributes
+data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.attributes set from entity @s attributes
 data modify entity @e[type=marker,tag=stored_stats_vanity,limit=1] data.Pos set from entity @s Pos
 
 advancement grant @s only lbc:true_advancements/legends/sins/vanity

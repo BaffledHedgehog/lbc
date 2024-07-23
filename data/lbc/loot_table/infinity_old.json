@@ -7101,10 +7101,10 @@
                                     "Health": 15,
                                     "DragonPhase": 1,
                                     "CustomName": "{\"text\":\"Эндер Дракон\"}",
-                                    "Attributes": [
+                                    "attributes": [
                                         {
                                             "Name": "generic.max_health",
-                                            "Base": 15
+                                            "base": 15
                                         }
                                     ]
                                 }
@@ -7138,10 +7138,10 @@
                                     "CustomNameVisible": 0,
                                     "Health": 20,
                                     "CustomName": "{\"text\":\"Иссушитель\"}",
-                                    "Attributes": [
+                                    "attributes": [
                                         {
                                             "Name": "generic.max_health",
-                                            "Base": 20
+                                            "base": 20
                                         }
                                     ]
                                 }
@@ -7178,14 +7178,14 @@
                                     "CustomNameVisible": 0,
                                     "NoAI": 0,
                                     "CustomName": "{\"text\":\"Гигант\"}",
-                                    "Attributes": [
+                                    "attributes": [
                                         {
                                             "Name": "generic.attack_damage",
-                                            "Base": 10
+                                            "base": 10
                                         },
                                         {
                                             "Name": "generic.attack_knockback",
-                                            "Base": 5
+                                            "base": 5
                                         }
                                     ]
                                 }

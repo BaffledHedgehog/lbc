@@ -318,14 +318,14 @@
                   "CustomNameVisible": 0,
                   "NoAI": 0,
                   "CustomName": "{\"translate\":\"giant\"}",
-                  "Attributes": [
+                  "attributes": [
                     {
                       "Name": "generic.attack_damage",
-                      "Base": 10
+                      "base": 10
                     },
                     {
                       "Name": "generic.attack_knockback",
-                      "Base": 5
+                      "base": 5
                     }
                   ]
                 }

@@ -19,5 +19,5 @@ execute if data entity @s {Item:{components:{"helmet": true}}} run loot give @p[
 execute if data entity @s {Item:{components:{"trident": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_trident
 execute if data entity @s {Item:{components:{"arcanum": true}}} run loot give @p[gamemode=!spectator] loot lbc:transformables_arcanum
 advancement grant @p[gamemode=!spectator] only lbc:true_advancements/lightning_smith
-execute if data entity @s {Item:{Count:1b}} run kill @s
-execute unless data entity @s {Item:{Count:1b}} run function lbc:reduce_count_l
+execute if data entity @s {Item:{count:1}} run kill @s
+execute unless data entity @s {Item:{count:1}} run function lbc:reduce_count_l

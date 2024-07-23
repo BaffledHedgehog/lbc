@@ -43,5 +43,5 @@ execute if data entity @s {Item:{components: {"minecraft:custom_data":{"overload
 advancement grant @p[gamemode=!spectator] only lbc:true_advancements/lightning_smith_ultra
 
 
-execute if data entity @s {Item:{Count:1b}} run kill @s
-execute unless data entity @s {Item:{Count:1b}} run function lbc:reduce_count
+execute if data entity @s {Item:{count:1}} run kill @s
+execute unless data entity @s {Item:{count:1}} run function lbc:reduce_count

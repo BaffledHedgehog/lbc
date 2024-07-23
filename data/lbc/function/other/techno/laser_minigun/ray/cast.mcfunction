@@ -10,7 +10,7 @@ execute store result entity @s Rotation[0] float 0.001 run scoreboard players ge
 execute store result entity @s Rotation[1] float 0.001 run scoreboard players get #rot1 lbc.math
 
 scoreboard players set *test_ray Distance 0
-summon minecraft:item_display 0 -800 0 {item:{id:"minecraft:repeating_command_block",Count:1b,components:{"minecraft:custom_model_data":620}},Tags:["laser_ray"]}
+summon minecraft:item_display 0 -800 0 {item:{id:"minecraft:repeating_command_block",count:1,components:{"minecraft:custom_model_data":620}},Tags:["laser_ray"]}
 scoreboard players operation @e[type=item_display,limit=1,tag=laser_ray,tag=!done] lbcID2 = @s lbcID2
 scoreboard players operation *check_id lbcID2 = @s lbcID2
 

@@ -1,2 +1,2 @@
-summon item ~ ~ ~ {Item:{Count:1b,id:"minecraft:stone"},Tags:["modifyitem"],PickupDelay:40}
+summon item ~ ~ ~ {Item:{count:1,id:"minecraft:stone"},Tags:["modifyitem"],PickupDelay:40}
 data modify entity @e[type=item,limit=1,sort=nearest,distance=..2,tag=modifyitem] Item set from entity @s Inventory.[{Slot:103b}]

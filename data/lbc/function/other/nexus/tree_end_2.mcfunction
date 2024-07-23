@@ -1,6 +1,6 @@
 execute align xyz positioned ~.5 ~ ~.5 run summon interaction ~ ~ ~ {width:1f,height:1f,response:1b,Tags:["nexus_entity","wire_converter_green"]}
-execute align xyz positioned ~.5 ~.5 ~.5 run summon item_display ~ ~ ~ {Tags:["nexus_entity","wire_converter_item"],interpolation_duration:3,teleport_duration:3,item_display:"fixed",item:{id:"minecraft:tnt",Count:1b}}
-execute align xyz positioned ~.5 ~.5 ~.5 run summon item_display ~ ~ ~ {Tags:["nexus_entity","wire_converter_frame"],interpolation_duration:3,teleport_duration:3,item_display:"fixed",item:{id:"minecraft:repeating_command_block",Count:1b,components:{"minecraft:custom_model_data":652}}}
+execute align xyz positioned ~.5 ~.5 ~.5 run summon item_display ~ ~ ~ {Tags:["nexus_entity","wire_converter_item"],interpolation_duration:3,teleport_duration:3,item_display:"fixed",item:{id:"minecraft:tnt",count:1}}
+execute align xyz positioned ~.5 ~.5 ~.5 run summon item_display ~ ~ ~ {Tags:["nexus_entity","wire_converter_frame"],interpolation_duration:3,teleport_duration:3,item_display:"fixed",item:{id:"minecraft:repeating_command_block",count:1,components:{"minecraft:custom_model_data":652}}}
 execute align xyz positioned ~.5 ~.5 ~.5 run loot spawn ~ ~ ~ loot lbc:nexus_item_green
 execute align xyz positioned ~.5 ~.5 ~.5 run data modify entity @e[type=item_display,tag=wire_converter_item,limit=1,distance=..0.001] item set from entity @e[type=item,limit=1,distance=..0.001] Item
 execute align xyz positioned ~.5 ~.5 ~.5 run kill @e[type=item,limit=1,distance=..0.001]
