@@ -12,6 +12,16 @@
                             "chance": 1
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bone",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 1
+                        }
+                    ]
                 }
             ]
         }
