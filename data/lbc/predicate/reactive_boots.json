@@ -1,27 +1,35 @@
 {
-    "condition": "minecraft:any_of",
-    "terms": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "feet": {
-              "components": {\"technomk2\":1b}"
-            }
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "feet": {
-              "components": {\"reactive\":1b}"
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "components": {
+              "minecraft:custom_data": {
+                "technomk2": true
+              }
             }
           }
         }
       }
-    ]
-  }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "components": {
+              "minecraft:custom_data": {
+                "reactive": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
