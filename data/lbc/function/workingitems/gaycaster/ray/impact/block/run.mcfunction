@@ -17,7 +17,7 @@ execute if score @s h matches 125..175 if entity @e[type=#mobs,distance=..1.5,ta
 execute if score @s h matches 176..226 if entity @e[type=#mobs,distance=..1.5,tag=!caster] run advancement grant @s only lbc:true_advancements/staffs/gaycaster c
 execute if score @s h matches 227..278 if entity @e[type=#mobs,distance=..1.5,tag=!caster] run advancement grant @s only lbc:true_advancements/staffs/gaycaster b
 execute if score @s h matches 278..329 if entity @e[type=#mobs,distance=..1.5,tag=!caster] run advancement grant @s only lbc:true_advancements/staffs/gaycaster p
-
+#warning я хуй знает че тут
 $particle dust $(r) $(g) $(b) 2 ~ ~ ~ 0.3 0.3 0.3 0 20 force
 #
 scoreboard players set @s Distance 0

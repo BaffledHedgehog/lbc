@@ -1,4 +1,4 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.tag.mode 1
+execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
 scoreboard players set check lbc.math 0
 execute if score #mode lbc.math matches 1 run function lbcr:raycast_loop4
 execute if score #mode lbc.math matches 2 run function lbcr:raycast_loop4cd_upgraded2_blaze_head

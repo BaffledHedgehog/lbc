@@ -1,5 +1,5 @@
 
-execute store result score #mode lbc.math run data get entity @s SelectedItem.tag.mode 1
+execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
 playsound minecraft:entity.zombie_villager.cure master @a ~ ~ ~ 1 2
 summon marker ^ ^ ^ {data:{lifetime:300},Tags:["raycastacidbig","player","slowraycast","shield_blockable2","magic"]}
 data modify entity @e[type=marker,tag=raycastacidbig,tag=!actived,limit=1,distance=..0.0001] Rotation set from entity @s Rotation

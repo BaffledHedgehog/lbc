@@ -6,5 +6,5 @@ place template lbc:deepslate_sphere_r4 ~-4 ~-4 ~-4 none none 0.678
 place template lbc:bedrock_sphere_r2 ~-2 ~-2 ~-2 none none 0.678
 playsound block.deepslate_bricks.break master @a ~ ~ ~ 4 1
 playsound block.deepslate_bricks.break master @a ~ ~ ~ 4 0
-execute if entity @s[nbt={SelectedItem:{components:{stonekivi_wand:1b,upgradable:1b}}}] if entity @a[tag=!raycaster,distance=..10,gamemode=!spectator] at @a[tag=!raycaster,distance=..10,gamemode=!spectator] unless block ~ ~ ~ #airs at @s run function lbc:other/magic_academy/can_upgrade
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"stonekivi_wand":true,"upgradable":true}}}}] if entity @a[tag=!raycaster,distance=..10,gamemode=!spectator] at @a[tag=!raycaster,distance=..10,gamemode=!spectator] unless block ~ ~ ~ #airs at @s run function lbc:other/magic_academy/can_upgrade
 scoreboard players set @s Distance 400

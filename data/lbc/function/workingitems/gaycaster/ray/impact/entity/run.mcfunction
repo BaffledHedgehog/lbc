@@ -18,7 +18,7 @@ execute if score @s h matches 125..175 run advancement grant @s only lbc:true_ad
 execute if score @s h matches 176..226 run advancement grant @s only lbc:true_advancements/staffs/gaycaster c
 execute if score @s h matches 227..278 run advancement grant @s only lbc:true_advancements/staffs/gaycaster b
 execute if score @s h matches 278..329 run advancement grant @s only lbc:true_advancements/staffs/gaycaster p
-
+#warning и тут тоже, че это за ачивки бля
 
 
 $particle dust $(r) $(g) $(b) 2 ~ ~ ~ 0.3 0.3 0.3 0 20 force

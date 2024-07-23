@@ -1,5 +1,5 @@
-execute anchored eyes run summon arrow ^0.75 ^ ^0.5 {Tags:["helicopterbullet","groundbreaker"],pickup:2b,damage:0.2d,ShotFromCrossbow:1b,PierceLevel:10}
-execute anchored eyes run summon arrow ^-0.75 ^ ^0.5 {Tags:["helicopterbullet","groundbreaker"],pickup:2b,damage:0.2d,ShotFromCrossbow:1b,PierceLevel:10}
+execute anchored eyes run summon arrow ^0.75 ^ ^0.5 {Tags:["helicopterbullet","groundbreaker"],pickup:2b,damage:0.2d,PierceLevel:10}
+execute anchored eyes run summon arrow ^-0.75 ^ ^0.5 {Tags:["helicopterbullet","groundbreaker"],pickup:2b,damage:0.2d,PierceLevel:10}
 execute anchored eyes positioned ^0.75 ^ ^0.5 run data modify entity @e[type=arrow,limit=1,distance=..0.001,tag=helicopterbullet] UUID set from entity @s
 execute anchored eyes positioned ^-0.75 ^ ^0.5 run data modify entity @e[type=arrow,limit=1,distance=..0.001,tag=helicopterbullet] UUID set from entity @s
 execute anchored eyes positioned ^ ^ ^ run scoreboard players operation @e[type=arrow,limit=2,distance=..2,tag=helicopterbullet] lbcID2 = @s lbcID2
