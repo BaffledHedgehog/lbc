@@ -1,104 +1,158 @@
 [
-    {
-      "function": "minecraft:set_components",
-      "tag": "{"mode": 1,display:{Name:'{\"translate\":\"magnum_mode_incendiary\",\"italic\":false}'}}",
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "components": {"mode": 0}"
-              }
-            }
-          }
-        }
-      ]
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "mode": 1
+      },
+      "minecraft:custom_name": "{\"translate\":\"magnum_mode_incendiary\",\"italic\":false}"
     },
-    {
-      "function": "minecraft:set_components",
-      "tag": "{"mode": 2,display:{Name:'{\"translate\":\"magnum_mode_electric\",\"italic\":false}'}}",
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "components": {"mode": 1}"
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "mode": 0
+                }
               }
             }
           }
         }
-      ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "mode": 2
+      },
+      "minecraft:custom_name": "{\"translate\":\"magnum_mode_electric\",\"italic\":false}"
     },
-    {
-      "function": "minecraft:set_components",
-      "tag": "{"mode": 3,display:{Name:'{\"translate\":\"magnum_mode_acid\",\"italic\":false}'}}",
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "components": {"mode": 2}"
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "mode": 1
+                }
               }
             }
           }
         }
-      ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "mode": 3
+      },
+      "minecraft:custom_name": "{\"translate\":\"magnum_mode_acid\",\"italic\":false}"
     },
-    {
-      "function": "minecraft:set_components",
-      "tag": "{"mode": 4,display:{Name:'{\"translate\":\"magnum_mode_void\",\"italic\":false}'}}",
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "components": {"mode": 3}"
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "mode": 2
+                }
               }
             }
           }
         }
-      ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "mode": 4
+      },
+      "minecraft:custom_name": "{\"translate\":\"magnum_mode_void\",\"italic\":false}"
     },
-    {
-      "function": "minecraft:set_components",
-      "tag": "{"mode": 5,display:{Name:'{\"translate\":\"magnum_mode_explosive\",\"italic\":false}'}}",
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "components": {"mode": 4}"
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "mode": 3
+                }
               }
             }
           }
         }
-      ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "mode": 5
+      },
+      "minecraft:custom_name": "{\"translate\":\"magnum_mode_explosive\",\"italic\":false}"
     },
-    {
-      "function": "minecraft:set_components",
-      "tag": "{"mode": 0,display:{Name:'{\"translate\":\"magnum_mode_standard\",\"italic\":false}'}}",
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "components": {"mode": 5}"
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "mode": 4
+                }
               }
             }
           }
         }
-      ]
-    }
-  ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:custom_data": {
+        "mode": 0
+      },
+      "minecraft:custom_name": "{\"translate\":\"magnum_mode_standart\",\"italic\":false}"
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "minecraft:custom_data": {
+                  "mode": 5
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]
