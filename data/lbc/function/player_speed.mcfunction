@@ -27,7 +27,7 @@ execute if score @s speed matches 0 run scoreboard players add @s sleep_time 16
 
 execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"techrunner_katana": true}}}}] run function lbc:other/techno/katana/speed_based_change
 #tellraw @a [{"text":"speed:  ","extra":[{"score":{"objective": "speed","name":"@s"}}]},{"text":"|  atk bonus:  ","extra":[{"score":{"objective": "lbc.math","name":"tmp"}}]}]
-execute unless entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"techrunner_katana": true}}}}] run attribute @s generic.attack_damage modifier remove a286fd96-0981-4d73-a4b4-cd298373175a
+execute unless entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"techrunner_katana": true}}}}] run attribute @s minecraft:generic.attack_damage modifier remove a286fd96-0981-4d73-a4b4-cd298373175a
 
 
 data modify storage player Pos set from entity @s Pos

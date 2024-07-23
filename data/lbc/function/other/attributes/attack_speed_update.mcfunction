@@ -1,1 +1,1 @@
-$attribute @s generic.attack_speed base set $(tmp)
+$attribute @s minecraft:generic.attack_speed base set $(tmp)

@@ -1,6 +1,6 @@
-attribute @s generic.luck modifier remove ee57f40f-8a9a-404b-8ceb-d8abf9259963
-attribute @s generic.max_health modifier remove a5e06574-2c94-4f2f-843c-55e25f5c4520
-attribute @s generic.knockback_resistance modifier remove c1b6809e-55c4-4a5e-b43d-2ee8f50b74f1
+attribute @s minecraft:generic.luck modifier remove ee57f40f-8a9a-404b-8ceb-d8abf9259963
+attribute @s minecraft:generic.max_health modifier remove a5e06574-2c94-4f2f-843c-55e25f5c4520
+attribute @s minecraft:generic.knockback_resistance modifier remove c1b6809e-55c4-4a5e-b43d-2ee8f50b74f1
 attribute @s minecraft:generic.attack_damage modifier remove c9eee15a-26f7-41a7-bab8-6511c6f3d764
 attribute @s minecraft:generic.attack_speed modifier remove c9eee15a-26f7-41a7-bab8-6511c6f3d764
 attribute @s minecraft:generic.armor modifier remove 6c4edb0b-0497-4694-bddd-1b86bb588c00

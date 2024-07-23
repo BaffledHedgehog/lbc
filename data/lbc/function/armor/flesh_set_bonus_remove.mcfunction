@@ -1,1 +1,1 @@
-attribute @s generic.max_health modifier remove 44a8aa48-d53d-42c0-b229-4557d3c581b1
+attribute @s minecraft:generic.max_health modifier remove 44a8aa48-d53d-42c0-b229-4557d3c581b1

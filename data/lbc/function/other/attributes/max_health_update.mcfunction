@@ -1,1 +1,1 @@
-$attribute @s generic.max_health base set $(tmp)
+$attribute @s minecraft:generic.max_health base set $(tmp)

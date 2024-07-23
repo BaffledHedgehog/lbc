@@ -1,2 +1,2 @@
-execute if score @s[nbt={Inventory:[{Slot:100b,components:{"nyauwu": true}}]}] mana < @s manamax run attribute @s generic.movement_speed modifier add 916c89e6-ae62-4b11-91d7-10e7e57c726d "boost_chulki" 1 multiply
-execute if score @s mana >= @s manamax run attribute @s generic.movement_speed modifier remove 916c89e6-ae62-4b11-91d7-10e7e57c726d
+execute if score @s[nbt={Inventory:[{Slot:100b,components:{"nyauwu": true}}]}] mana < @s manamax run attribute @s minecraft:generic.movement_speed modifier add 916c89e6-ae62-4b11-91d7-10e7e57c726d "boost_chulki" 1 multiply
+execute if score @s mana >= @s manamax run attribute @s minecraft:generic.movement_speed modifier remove 916c89e6-ae62-4b11-91d7-10e7e57c726d

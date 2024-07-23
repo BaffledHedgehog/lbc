@@ -105,11 +105,11 @@ scoreboard players set @s lolidefecation 0
 scoreboard players set @s greed_prestige 0
 scoreboard players set @s ray 0
 scoreboard players set @s acid_rifle 0
-attribute @s generic.attack_damage modifier remove 06147f7f-a452-4a39-b278-fb0f57b00f22
-attribute @s generic.attack_damage modifier remove e916adfe-014b-4ff5-82f1-af6ec9226d21
-attribute @s generic.knockback_resistance modifier remove e916adfe-014b-4ff5-82f1-af6ec9226d21
-attribute @s generic.movement_speed modifier remove 916c89e6-ae62-4b11-91d7-10e7e57c726d
-attribute @s generic.max_health modifier remove 44a8aa48-d53d-42c0-b229-4557d3c581b1
+attribute @s minecraft:generic.attack_damage modifier remove 06147f7f-a452-4a39-b278-fb0f57b00f22
+attribute @s minecraft:generic.attack_damage modifier remove e916adfe-014b-4ff5-82f1-af6ec9226d21
+attribute @s minecraft:generic.knockback_resistance modifier remove e916adfe-014b-4ff5-82f1-af6ec9226d21
+attribute @s minecraft:generic.movement_speed modifier remove 916c89e6-ae62-4b11-91d7-10e7e57c726d
+attribute @s minecraft:generic.max_health modifier remove 44a8aa48-d53d-42c0-b229-4557d3c581b1
 advancement revoke @s only lbc:remove_boots
 scoreboard players set @s lucky_block_count 0
 advancement revoke @s only lbc:sith_killed_jedi

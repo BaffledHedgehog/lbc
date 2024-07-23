@@ -1,6 +1,6 @@
 execute unless data entity @s attributes[{id: "minecraft:generic.knockback_resistance"}] run data modify entity @s attributes append value {base:0.0d,id:"generic.knockback_resistance"}
 data modify storage entities knockback set from entity @s attributes[{id: "minecraft:generic.knockback_resistance"}].base
-attribute @s generic.knockback_resistance base set 1000000.0
+attribute @s minecraft:generic.knockback_resistance base set 1000000.0
 damage @s 6 freeze by @s from @a[tag=damager,limit=1]
 function lbc:workingitems/ice_wand/projectile/impact/return_kb_attribute with storage entities
 

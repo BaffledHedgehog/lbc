@@ -5,7 +5,7 @@ effect give @s weakness 1 127
 effect give @s blindness 2 0
 effect give @s hunger 1 6
 
-execute store result score tmp lbc.math run attribute @s generic.max_health get
+execute store result score tmp lbc.math run attribute @s minecraft:generic.max_health get
 scoreboard players operation tmp1 lbc.math = @s mana
 scoreboard players operation tmp1 lbc.math /= @s manamax
 scoreboard players operation tmp lbc.math -= tmp1 lbc.math

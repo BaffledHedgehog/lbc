@@ -1,4 +1,4 @@
-execute at @s store result score @s luck_amount run attribute @s generic.luck get 1
+execute at @s store result score @s luck_amount run attribute @s minecraft:generic.luck get 1
 scoreboard players add @s luck_amount 1
 execute at @s[tag=phantomknifes_active,scores={coldown13=0..}] run function lbc:workingitems/phantomknifes/start_pre
 scoreboard players remove @s coldown13 5

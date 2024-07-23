@@ -1,1 +1,1 @@
-$attribute @s generic.luck base set $(tmp)
+$attribute @s minecraft:generic.luck base set $(tmp)
