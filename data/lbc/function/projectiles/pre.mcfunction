@@ -8,5 +8,5 @@
 #execute if entity @s[type=arrow,tag=rided] run function lbc:workingitems/sauvojen_staffs/teleport_snowball
 #execute if entity @s[type=arrow,tag=rided_ultra,tag=actived] run function lbc:projectiles/racer_arrow
 #execute if entity @s[type=arrow,tag=rided_steampunk,tag=actived] run function lbc:projectiles/racer_arrow_steampunk
-execute if entity @s[nbt={item: {components:{"potion_contents":{"custom_effects":[{"id":"minecraft:dolphins_grace"}]}}}}] at @s run function lbc:projectiles/arrows/inair
+execute if entity @s[nbt={item: {components:{"potion_contents":{"custom_effects":[{"id":"minecraft:raid_omen"}]}}}}] at @s run function lbc:projectiles/arrows/inair
 execute as @s[nbt={inGround:1b}] run function lbc:projectiles/prein

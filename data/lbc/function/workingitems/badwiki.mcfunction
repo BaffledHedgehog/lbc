@@ -83,9 +83,9 @@ execute if score #random84 lbc.math matches 79 run effect give @s minecraft:wate
 execute if score #random84 lbc.math matches 80 run effect give @s minecraft:weakness 40 2
 execute if score #random84 lbc.math matches 81 run effect give @s minecraft:wither 30 2
 
-execute if score #random84 lbc.math matches 82 run effect give @s minecraft:hero_of_the_village 20 40 true
-execute if score #random84 lbc.math matches 83 run effect give @s minecraft:hero_of_the_village 20 41 true
-execute if score #random84 lbc.math matches 84 run effect give @s minecraft:hero_of_the_village 20 42 true
+execute if score #random84 lbc.math matches 82 run effect give @s minecraft:raid_omen 20 40 true
+execute if score #random84 lbc.math matches 83 run effect give @s minecraft:raid_omen 20 41 true
+execute if score #random84 lbc.math matches 84 run effect give @s minecraft:raid_omen 20 42 true
 execute if score #random84 lbc.math matches 63 run advancement grant @s only lbc:true_advancements/staffs/badwiki
-execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{upgradable:1b}}},active_effects:[{id:"minecraft:absorption"},{id:"minecraft:blindness"},{id:"minecraft:conduit_power"},{id:"minecraft:fire_resistance"},{id:"minecraft:glowing"},{id:"minecraft:haste"},{id:"minecraft:health_boost"},{id:"minecraft:hunger"},{id:"minecraft:invisibility"},{id:"minecraft:jump_boost"},{id:"minecraft:slowness"},{id:"minecraft:resistance"},{id:"minecraft:regeneration"},{id:"minecraft:poison"},{id:"minecraft:night_vision"},{id:"minecraft:nausea"},{id:"minecraft:mining_fatigue"},{id:"minecraft:levitation"},{id:"minecraft:slow_falling"},{id:"minecraft:speed"},{id:"minecraft:strength"},{id:"minecraft:water_breathing"},{id:"minecraft:wither"},{id:"minecraft:hero_of_the_village"},{id:"minecraft:weakness"}]}] run function lbc:other/magic_academy/can_upgrade
+execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{upgradable:1b}}},active_effects:[{id:"minecraft:absorption"},{id:"minecraft:blindness"},{id:"minecraft:conduit_power"},{id:"minecraft:fire_resistance"},{id:"minecraft:glowing"},{id:"minecraft:haste"},{id:"minecraft:health_boost"},{id:"minecraft:hunger"},{id:"minecraft:invisibility"},{id:"minecraft:jump_boost"},{id:"minecraft:slowness"},{id:"minecraft:resistance"},{id:"minecraft:regeneration"},{id:"minecraft:poison"},{id:"minecraft:night_vision"},{id:"minecraft:nausea"},{id:"minecraft:mining_fatigue"},{id:"minecraft:levitation"},{id:"minecraft:slow_falling"},{id:"minecraft:speed"},{id:"minecraft:strength"},{id:"minecraft:water_breathing"},{id:"minecraft:wither"},{id:"minecraft:raid_omen"},{id:"minecraft:weakness"}]}] run function lbc:other/magic_academy/can_upgrade
 playsound minecraft:item.book.page_turn master @s ~ ~ ~ 10

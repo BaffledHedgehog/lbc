@@ -8,10 +8,10 @@ effect clear @s bad_omen
 effect clear @s blindness
 effect clear @s conduit_power
 effect clear @s darkness
-effect clear @s dolphins_grace
+effect clear @s minecraft:raid_omen
 effect clear @s fire_resistance
 effect clear @s glowing
-effect clear @s hero_of_the_village
+effect clear @s minecraft:raid_omen
 effect clear @s hunger
 effect clear @s instant_damage
 effect clear @s invisibility

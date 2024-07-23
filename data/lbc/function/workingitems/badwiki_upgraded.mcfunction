@@ -25,6 +25,6 @@ $execute if score #mode lbc.math matches 24 run effect give @s minecraft:strengt
 $execute if score #mode lbc.math matches 25 run effect give @s minecraft:water_breathing 60 $(tier)
 $execute if score #mode lbc.math matches 26 run effect give @s minecraft:weakness 40 $(tier)
 $execute if score #mode lbc.math matches 27 run effect give @s minecraft:wither 30 $(tier)
-$execute if score #mode lbc.math matches 28 run effect give @s minecraft:hero_of_the_village 20 $(tier) true
+$execute if score #mode lbc.math matches 28 run effect give @s minecraft:raid_omen 20 $(tier) true
 
 playsound minecraft:item.book.page_turn master @s ~ ~ ~ 10

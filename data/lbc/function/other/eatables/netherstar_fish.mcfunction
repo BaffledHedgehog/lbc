@@ -1,8 +1,8 @@
 effect give @s absorption 2880 39
 effect give @s regeneration 2880 8
 effect give @s water_breathing 2880 2
-effect give @s dolphins_grace 2880 4
-effect give @s hero_of_the_village 2880 16
+effect give @s minecraft:raid_omen 2880 4
+effect give @s minecraft:raid_omen 2880 16
 effect give @s conduit_power 2880 2
 effect give @s haste 2880 5
 effect give @s night_vision 2880 0

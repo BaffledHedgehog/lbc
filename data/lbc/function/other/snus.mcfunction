@@ -16,7 +16,7 @@ effect clear @s slow_falling
 effect clear @s slowness
 effect clear @s resistance
 effect clear @s strength
-effect clear @s minecraft:hero_of_the_village
+effect clear @s minecraft:raid_omen
 effect give @s speed 200 15
 effect give @s jump_boost 200 15
 effect give @s nausea 250 0

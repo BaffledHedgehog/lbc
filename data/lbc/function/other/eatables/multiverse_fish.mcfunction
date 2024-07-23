@@ -2,8 +2,8 @@ effect give @s absorption 11520 127
 effect give @s health_boost 11520 127
 effect give @s regeneration 11520 32
 effect give @s water_breathing infinite 0
-effect give @s dolphins_grace 11520 4
-effect give @s hero_of_the_village 11520 16
+effect give @s minecraft:raid_omen 11520 4
+effect give @s minecraft:raid_omen 11520 16
 effect give @s haste 11520 64
 effect give @s night_vision 11520 0
 effect give @s glowing 11520 0

@@ -43,7 +43,7 @@ execute at @s[nbt={SelectedItem:{components:{"vexsword": true}}}] unless entity 
 execute at @s[nbt={SelectedItem:{components:{true_terra:1b}}}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/true_terra_sword_hit
 execute at @s[nbt={Inventory:[{Slot:102b,components:{"nyauwu": true}}]}] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:other/manaregen_hit
 execute at @s[nbt={SelectedItem:{components:{"antimagic": true}}}] as @a[nbt={HurtTime:10s},distance=0.01..7,gamemode=!spectator] run function lbc:other/effect_nomagic
-execute at @s[nbt={SelectedItem:{components:{"holocaust": true}}}] run effect give @e[type=#mobs,nbt={HurtTime:10s},distance=0.01..7,gamemode=!spectator] dolphins_grace 20 111
+execute at @s[nbt={SelectedItem:{components:{"holocaust": true}}}] run effect give @e[type=#mobs,nbt={HurtTime:10s},distance=0.01..7,gamemode=!spectator] minecraft:raid_omen 20 111
 execute at @s[nbt={SelectedItem:{components:{anal_whip:1b}}}] run function lbc:workingitems/ender_whip_get_id
 execute at @s[nbt={SelectedItem:{components:{diamond_fish:1b}}}] as @e[nbt={HurtTime:10s},distance=0.01..7,tag=!spectator] at @s run function lbc:items/swords/get_penised
 execute at @s[nbt={SelectedItem:{components:{netherite_fish:1b}}}] as @e[nbt={HurtTime:10s},distance=0.01..7,tag=!spectator] positioned ^ ^ ^200 run function lbc:items/swords/get_penised_2

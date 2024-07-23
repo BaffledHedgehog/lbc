@@ -6,8 +6,8 @@ execute if entity @s[nbt={Inventory:[{components:{"manabelt": true}}]}] run func
 execute if entity @s[nbt={Inventory:[{components:{"mage": true}}]}] run function lbc:other/manaregen_mage_armor
 
 scoreboard players operation daeris lbc.math = @s manaregen_visual
-scoreboard players operation @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village",amplifier:16b}]}] manaregen_visual *= 3 lbc.math
-scoreboard players operation @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village",amplifier:16b}]}] manaregen_visual /= 2 lbc.math
+scoreboard players operation @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:16b}]}] manaregen_visual *= 3 lbc.math
+scoreboard players operation @s[nbt={active_effects:[{id:"minecraft:raid_omen",amplifier:16b}]}] manaregen_visual /= 2 lbc.math
 scoreboard players operation daeris lbc.math -= @s manaregen_visual
 execute if score daeris lbc.math matches ..-15 run advancement grant @s only lbc:true_advancements/potions/mana_temp
 scoreboard players operation @s[scores={reverse_mana=1..}] mana -= @s manaregen_visual

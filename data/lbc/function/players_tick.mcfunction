@@ -20,7 +20,7 @@ execute if score @s skill_issue matches 1.. run function lbc:other/effect_skill_
 execute if score @s gigaponos matches 1.. run function lbc:other/effect_gigaponos
 execute if entity @s[nbt=!{OnGround:1b}] run function lbc:items/on_falling
 execute if entity @s[nbt={OnGround:1b}] run function lbc:items/on_ground
-execute if entity @s[nbt={active_effects:[{id:"minecraft:hero_of_the_village"}]}] run function lbc:other/mana_potions/select
+execute if entity @s[nbt={active_effects:[{id:"minecraft:raid_omen"}]}] run function lbc:other/mana_potions/select
 execute if entity @s[tag=sin_greed] run function lbc:workingitems/witch_gens/greed_tick
 execute if entity @s[tag=sin_envy] run function lbc:workingitems/witch_gens/envy_tick
 execute if entity @s[tag=sin_wrath] run function lbc:workingitems/witch_gens/wrath_tick

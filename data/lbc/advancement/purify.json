@@ -4,7 +4,7 @@
         "trigger": "minecraft:effects_changed",
         "conditions": {
           "effects": {
-            "minecraft:hero_of_the_village": {
+            "minecraft:raid_omen": {
               "amplifier": 43
             }
           },

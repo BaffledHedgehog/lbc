@@ -29,7 +29,7 @@ summon tnt ^ ^-0.2 ^-0.5 {fuse:850s,Tags:["groundbam"]}
 summon tnt ^ ^-0.2 ^ {fuse:840s,Tags:["groundbam"]}
 # TNT set Motion from arrow
 scoreboard players set tmp lbc.math 0
-execute store result score tmp lbc.math run data get entity @s item.components.minecraft:potion_contents.custom_effects[{id:"minecraft:dolphins_grace"}].amplifier
+execute store result score tmp lbc.math run data get entity @s item.components.minecraft:potion_contents.custom_effects[{id:"minecraft:raid_omen"}].amplifier
 execute if entity @s[nbt={item:{components:{"minecraft:potion_contents":{custom_color:6710877}}}}] run scoreboard players set tmp lbc.math 300
 execute if entity @s[nbt={item:{components:{"minecraft:potion_contents":{custom_color:6710881}}}}] run scoreboard players set tmp lbc.math 301
 execute if entity @s[nbt={item:{components:{"minecraft:potion_contents":{custom_color:6710882}}}}] run scoreboard players set tmp lbc.math 302

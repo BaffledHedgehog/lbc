@@ -2,12 +2,12 @@ effect give @s absorption infinite 127
 effect give @s blindness infinite 0
 effect give @s conduit_power infinite 2
 effect give @s darkness infinite 0
-effect give @s dolphins_grace infinite 5
+effect give @s minecraft:raid_omen infinite 5
 effect give @s fire_resistance infinite 2
 effect give @s glowing infinite 0
 effect give @s haste infinite 127
 effect give @s health_boost infinite 127
-effect give @s hero_of_the_village infinite 5
+effect give @s minecraft:raid_omen infinite 5
 effect give @s hunger infinite 255
 effect give @s instant_damage infinite 127
 effect give @s instant_health infinite 127

@@ -83,8 +83,8 @@ execute if score spell lbc.math matches 106 run effect give @s minecraft:water_b
 execute if score spell lbc.math matches 107 run effect give @s minecraft:weakness 40 2
 execute if score spell lbc.math matches 108 run effect give @s minecraft:wither 30 2
 
-execute if score spell lbc.math matches 109 run effect give @s minecraft:hero_of_the_village 20 40 true
-execute if score spell lbc.math matches 110 run effect give @s minecraft:hero_of_the_village 20 41 true
-execute if score spell lbc.math matches 111 run effect give @s minecraft:hero_of_the_village 20 42 true
+execute if score spell lbc.math matches 109 run effect give @s minecraft:raid_omen 20 40 true
+execute if score spell lbc.math matches 110 run effect give @s minecraft:raid_omen 20 41 true
+execute if score spell lbc.math matches 111 run effect give @s minecraft:raid_omen 20 42 true
 
 playsound minecraft:item.book.page_turn master @s ~ ~ ~ 10
