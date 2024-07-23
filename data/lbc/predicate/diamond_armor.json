@@ -5,28 +5,28 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "components": {Item:{id:\"minecraft:diamond_boots\"}}"
+                "nbt": "{Item:{id:\"minecraft:diamond_boots\"}}"
             }
         },
         {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "components": {Item:{id:\"minecraft:diamond_leggings\"}}"
+                "nbt": "{Item:{id:\"minecraft:diamond_leggings\"}}"
             }
         },
         {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "components": {Item:{id:\"minecraft:diamond_chestplate\"}}"
+                "nbt": "{Item:{id:\"minecraft:diamond_chestplate\"}}"
             }
         },
         {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "components": {Item:{id:\"minecraft:diamond_helmet\"}}"
+                "nbt": "{Item:{id:\"minecraft:diamond_helmet\"}}"
             }
         }
     ]
