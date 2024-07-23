@@ -1,6 +1,6 @@
 place template lbc:sun/sun-1 ~-96 ~48 ~-96
 place template lbc:sun/sun-2 ~-48 ~48 ~-96
-place template lbc:sun/sun-3 ~ ~48 ~-96 
+place template lbc:sun/sun-3 ~ ~48 ~-96
 place template lbc:sun/sun-4 ~48 ~48 ~-96
 place template lbc:sun/sun-5 ~-96 ~48 ~-48
 place template lbc:sun/sun-6 ~-48 ~48 ~-48
@@ -41,7 +41,7 @@ place template lbc:sun/sun-36 ~48 ~48 ~96
 
 place template lbc:sun/sun-1up ~-96 ~96 ~-96
 place template lbc:sun/sun-2up ~-48 ~96 ~-96
-place template lbc:sun/sun-3up ~ ~96 ~-96 
+place template lbc:sun/sun-3up ~ ~96 ~-96
 place template lbc:sun/sun-4up ~48 ~96 ~-96
 place template lbc:sun/sun-5up ~-96 ~96 ~-48
 place template lbc:sun/sun-6up ~-48 ~96 ~-48
@@ -80,7 +80,7 @@ place template lbc:sun/sun-36up ~48 ~96 ~96
 
 place template lbc:sun/sun-1up2 ~-96 ~144 ~-96
 place template lbc:sun/sun-2up2 ~-48 ~144 ~-96
-place template lbc:sun/sun-3up2 ~ ~144 ~-96 
+place template lbc:sun/sun-3up2 ~ ~144 ~-96
 place template lbc:sun/sun-4up2 ~48 ~144 ~-96
 place template lbc:sun/sun-5up2 ~-96 ~144 ~-48
 place template lbc:sun/sun-6up2 ~-48 ~144 ~-48
@@ -119,7 +119,7 @@ place template lbc:sun/sun-36up2 ~48 ~144 ~96
 
 place template lbc:sun/sun-1up3 ~-96 ~192 ~-96
 place template lbc:sun/sun-2up3 ~-48 ~192 ~-96
-place template lbc:sun/sun-3up3 ~ ~192 ~-96 
+place template lbc:sun/sun-3up3 ~ ~192 ~-96
 place template lbc:sun/sun-4up3 ~48 ~192 ~-96
 place template lbc:sun/sun-5up3 ~-96 ~192 ~-48
 place template lbc:sun/sun-6up3 ~-48 ~192 ~-48
@@ -159,7 +159,7 @@ place template lbc:sun/sun-36up3 ~48 ~192 ~96
 
 place template lbc:sun/sun-1up4 ~-96 ~240 ~-96
 place template lbc:sun/sun-2up4 ~-48 ~240 ~-96
-place template lbc:sun/sun-3up4 ~ ~240 ~-96 
+place template lbc:sun/sun-3up4 ~ ~240 ~-96
 place template lbc:sun/sun-4up4 ~48 ~240 ~-96
 place template lbc:sun/sun-5up4 ~-96 ~240 ~-48
 place template lbc:sun/sun-6up4 ~-46 ~240 ~-46

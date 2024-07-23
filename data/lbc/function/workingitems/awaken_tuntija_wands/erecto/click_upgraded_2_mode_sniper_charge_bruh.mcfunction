@@ -1,7 +1,7 @@
 forceload add ~ ~
 execute rotated ~ 0 positioned ^ ^ ^-17 run forceload remove ~ ~ ~ ~
 scoreboard players add @s Distance 1
-particle minecraft:dust_color_transition 1 0.8 0 0.9 0.8 0.8 1.2 ~ ~ ~ 0.1 0.1 0.1 0 1 force
+particle minecraft:dust_color_transition{from_color:[1.0, 0.8, 1.0], scale:0.9, to_color:[0.8,0.8,1.2]} ~ ~ ~ 0.1 0.1 0.1 0 1 force
 scoreboard players operation tmp lbc.math = @s Distance
 scoreboard players operation tmp lbc.math %= 12 lbc.math
 execute if score tmp lbc.math matches 0 run function lbc:workingitems/awaken_tuntija_wands/erecto/click_upgraded_2_mode_sniper_charge_particle

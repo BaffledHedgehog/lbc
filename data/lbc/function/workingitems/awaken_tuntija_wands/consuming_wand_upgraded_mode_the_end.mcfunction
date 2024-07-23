@@ -1,5 +1,5 @@
 scoreboard players add @s Distance 1
-particle dust 0 0 0 5 ~ ~ ~ 2 2 2 0 4 force
+particle dust{color:[0.0,0.0,0.0],scale:4} ~ ~ ~ 2 2 2 0 4 force
 place template lbc:air11x11 ~-5 ~-5 ~-5 none none
 execute as @e[type=#mobs,tag=!spectator,distance=..5,tag=!raycaster,limit=2] run damage @s 6 arrow by @p[gamemode=!spectator,tag=raycaster]
 playsound entity.wither.shoot master @a ~ ~ ~ 0.1 0

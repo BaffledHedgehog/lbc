@@ -1,1 +1,1 @@
-$particle dust $(r) $(g) $(b) 1.5 ~ ~ ~ 0 0 0 1 1 force
+$particle dust{color:[$(r), $(g), $(b)],scale:1.5}~ ~ ~ 0 0 0 1 1 force

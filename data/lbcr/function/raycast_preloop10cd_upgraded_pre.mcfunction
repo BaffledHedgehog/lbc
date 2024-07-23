@@ -1,4 +1,4 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.tag.mode 1
+execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
 
 execute if score #mode lbc.math matches 1 run function lbcr:raycast_preloop10_wtot
 execute if score #mode lbc.math matches 2 run function lbcr:raycast_preloop10cd_upgraded_mode_instant

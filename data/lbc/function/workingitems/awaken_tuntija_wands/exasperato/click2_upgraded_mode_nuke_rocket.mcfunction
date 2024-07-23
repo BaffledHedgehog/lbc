@@ -1,4 +1,4 @@
-particle dust_color_transition 1 0.863 0.251 5 0 0 0 ~ ~ ~ 0 0 0 0.2 3 force
+particle dust_color_transition{from_color:[1.0, 0.863, 0.251], scale:4, to_color:[0.0, 0.0, 0.0]} ~ ~ ~ 0 0 0 0.2 3 force
 scoreboard players add @s Distance 1
 execute store result score tmp lbc.math run data get entity @s Pos[1]
 execute if score tmp lbc.math matches 0..319 unless block ~ ~ ~ #airs run function lbc:workingitems/exopersoexplode

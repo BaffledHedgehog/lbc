@@ -10,7 +10,7 @@ effect give @s slowness infinite
 effect give @s weakness infinite
 effect give @s wither infinite
 
-particle dust 0.051 0.2 0.176 0.365 15 ~ ~10 ~ .3 10 .3 1000 force
+particle dust{color:[0.051, 0.2, 0.176],scale:0.365} ~ ~10 ~ .3 10 .3 1000 15 force
 
 
 
