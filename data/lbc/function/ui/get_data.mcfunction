@@ -11,11 +11,11 @@ execute if score @s frozen matches 1.. run data modify storage lbc.math ui appen
 
 data modify storage lbc.math ui2 set value ['{"text":""}']
 
-execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"techno":1b}}]}] run data modify storage lbc.math ui append value '{"text":"    \\uE101 ","extra":[{"score":{"name":"@s","objective":"nitro"},"color":"white"}]}'
+execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"techno":1b}}}]}] run data modify storage lbc.math ui append value '{"text":"    \\uE101 ","extra":[{"score":{"name":"@s","objective":"nitro"},"color":"white"}]}'
 execute if predicate lbc:reactive_boots run data modify storage lbc.math ui append value '{"text":"    \\uE102 ","extra":[{"score":{"name":"@s","objective":"reactivefuel"},"color":"yellow"}]}'
 execute if entity @s[predicate=lbc:bow_or_crossbow] run function lbc:ui/count_arrows
-execute if entity @s[nbt={SelectedItem:{"tag":{"swordwithability":1b}}}] run function lbc:ui/charging
-execute if entity @s[nbt={SelectedItem:{"tag":{"spellwithcooldown":1b}}}] run function lbc:ui/cooldown
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"swordwithability":1b}}}}] run function lbc:ui/charging
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"spellwithcooldown":1b}}}}] run function lbc:ui/cooldown
 execute if entity @s[nbt={Inventory:[{Slot:-106b,"tag":{"spellwithcooldown":1b}}]}] run function lbc:ui/cooldown
 execute if score @s acid_rifle matches 1.. run data modify storage lbc.math ui append value '{"text":"    \\uE109 ","extra":[{"score":{"name":"@s","objective":"acid_rifle"},"color":"green"}]}'
 execute if score @s blaze matches 1.. run data modify storage lbc.math ui append value '{"text":"  \\uE110 ","extra":[{"score":{"name":"@s","objective":"blaze"},"color":"gold"}]}'
@@ -41,7 +41,7 @@ execute if score @s overheaven matches 1.. run data modify storage lbc.math ui a
 execute if score @s gigaponos matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE135 ","extra":[{"score":{"name":"@s","objective":"gigaponos"},"color":"white"}]}'
 execute if score @s sprint_cooldown matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE136 ","extra":[{"score":{"name":"@s","objective":"sprint_cooldown"},"color":"white"}]}'
 
-execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"bucket_head": true}}]}] run data modify storage lbc.math ui2 prepend value '{"text":"                                      \\uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}'
+execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"bucket_head": true}}}]}] run data modify storage lbc.math ui2 prepend value '{"text":"                                      \\uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}'
 execute if score @s skill_issue matches 1.. run data modify storage lbc.math ui2 append value '{"text":" \\uE130 "}'
-execute unless score legacy lbc.math matches 1 run title @s actionbar {"storage":"lbc.math","components":"ui[]","separator":"","interpret":true}
-execute unless score legacy lbc.math matches 1 unless entity @s[scores={skill_issue=..0},nbt=!{Inventory:[{Slot:103b,components:{"bucket_head": true}}]}] run title @s title {"storage":"lbc.math","components":"ui2[]","separator":"","interpret":true}
+execute unless score legacy lbc.math matches 1 run title @s actionbar {"storage":"lbc.math","nbt":"ui[]","separator":"","interpret":true}
+execute unless score legacy lbc.math matches 1 unless entity @s[scores={skill_issue=..0},nbt=!{Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"bucket_head": true}}}]}] run title @s title {"storage":"lbc.math","nbt":"ui2[]","separator":"","interpret":true}
