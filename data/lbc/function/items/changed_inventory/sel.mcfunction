@@ -3,9 +3,9 @@ tag @s[nbt={Inventory:[{Slot:101b,components:{"jumpboost": true}}]}] add jump_bo
 tag @s[nbt={Inventory:[{components:{"save": true}}]}] add save_platform_active
 tag @s[nbt={Inventory:[{Slot:100b,components:{"chaoschestplate": true}},{Slot:101b,components:{"chaoschestplate": true}},{Slot:102b,components:{"chaoschestplate": true}},{Slot:103b,components:{"chaoschestplate": true}}]}] add chaos_set_bonus_active
 tag @s[nbt={Inventory:[{components:{"magnet": true}}]}] add magnet_active
-tag @s[nbt={Inventory:[{Slot:103b,components:{"technomk2": true}}]}] add night_vision_active
+tag @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"technomk2": true}}}]}] add night_vision_active
 tag @s[nbt={Inventory:[{components:{"gownoleggings": true}}]}] add gowno_active
-tag @s[nbt={Inventory:[{Slot:103b,components:{"techno": true}}]}] add techno_active
+tag @s[nbt={Inventory:[{Slot:103b,components: {"minecraft:custom_data":{"techno": true}}}]}] add techno_active
 tag @s[nbt={Inventory:[{components:{"death_compass": true}}]}] add death_compass_active
 tag @s[nbt={Inventory:[{Slot:100b,components:{"paladin": true}},{Slot:101b,components:{"paladin": true}},{Slot:102b,components:{"paladin": true}},{Slot:103b,components:{"paladin": true}}]}] add paladin_full_active
 tag @s[nbt={Inventory:[{components:{"nanobots": true}}]}] add nanobots_active
@@ -16,9 +16,9 @@ tag @s[nbt=!{Inventory:[{Slot:101b,components:{"jumpboost": true}}]}] remove jum
 tag @s[nbt=!{Inventory:[{components:{"save": true}}]}] remove save_platform_active
 tag @s[nbt=!{Inventory:[{Slot:100b,components:{"chaoschestplate": true}},{Slot:101b,components:{"chaoschestplate": true}},{Slot:102b,components:{"chaoschestplate": true}},{Slot:103b,components:{"chaoschestplate": true}}]}] remove chaos_set_bonus_active
 tag @s[nbt=!{Inventory:[{components:{"magnet": true}}]}] remove magnet_active
-tag @s[nbt=!{Inventory:[{Slot:103b,components:{"technomk2": true}}]}] remove night_vision_active
+tag @s[nbt=!{Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"technomk2": true}}}]}] remove night_vision_active
 tag @s[nbt=!{Inventory:[{components:{"gownoleggings": true}}]}] remove gowno_active
-tag @s[nbt=!{Inventory:[{Slot:103b,components:{"techno": true}}]}] remove techno_active
+tag @s[nbt=!{Inventory:[{Slot:103b,components: {"minecraft:custom_data":{"techno": true}}}]}] remove techno_active
 tag @s[nbt=!{Inventory:[{components:{"death_compass": true}}]}] remove death_compass_active
 tag @s[nbt=!{Inventory:[{Slot:100b,components:{"paladin": true}},{Slot:101b,components:{"paladin": true}},{Slot:102b,components:{"paladin": true}},{Slot:103b,components:{"paladin": true}}]}] remove paladin_full_active
 tag @s[nbt=!{Inventory:[{components:{"nanobots": true}}]}] remove nanobots_active
@@ -32,7 +32,7 @@ tag @s[nbt={Inventory:[{components:{"instantitem":true}}]}] add instantitem_acti
 tag @s[nbt={Inventory:[{Slot:100b,components:{"shulkshell": true}},{Slot:101b,components:{"shulkshell": true}},{Slot:102b,components:{"shulkshell": true}},{Slot:103b,components:{"shulkshell": true}}]}] add shulker_setbonus_active
 tag @s[nbt={Inventory:[{Slot:103b,components:{troll:1b}}]}] add trollmask_active
 tag @s[nbt={Inventory:[{Slot:100b,components:{"assasin": true}},{Slot:101b,components:{"assasin": true}},{Slot:102b,components:{"assasin": true}},{Slot:103b,components:{"assasin": true}}]}] add assasin_setbonus_active
-tag @s[nbt={Inventory:[{components:{"techno": true}}]}] add techno_tick_active
+tag @s[nbt={Inventory:[{components: {"minecraft:custom_data":{"techno": true}}}]}] add techno_tick_active
 tag @s[nbt={Inventory:[{components:{yellow_lightning:1b}}]}] add yellow_lightning
 
 tag @s[nbt=!{Inventory:[{components:{mystical:1,type:4}}]}] remove no_arrows_active
@@ -40,7 +40,7 @@ tag @s[nbt=!{Inventory:[{components:{"instantitem":true}}]}] remove instantitem_
 tag @s[nbt=!{Inventory:[{Slot:100b,components:{"shulkshell": true}},{Slot:101b,components:{"shulkshell": true}},{Slot:102b,components:{"shulkshell": true}},{Slot:103b,components:{"shulkshell": true}}]}] remove shulker_setbonus_active
 tag @s[nbt=!{Inventory:[{Slot:103b,components:{troll:1b}}]}] remove trollmask_active
 tag @s[nbt=!{Inventory:[{Slot:100b,components:{"assasin": true}},{Slot:101b,components:{"assasin": true}},{Slot:102b,components:{"assasin": true}},{Slot:103b,components:{"assasin": true}}]}] remove assasin_setbonus_active
-tag @s[nbt=!{Inventory:[{components:{"techno": true}}]}] remove techno_tick_active
+tag @s[nbt=!{Inventory:[{components: {"minecraft:custom_data":{"techno": true}}}]}] remove techno_tick_active
 tag @s[nbt=!{Inventory:[{components:{yellow_lightning:1b}}]}] remove yellow_lightning
 
 
@@ -52,17 +52,17 @@ tag @s[nbt={Inventory:[{components:{"razorpine": true}}]}] add razorpine_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:2}}}]}] add notnt_active
 tag @s[nbt={Inventory:[{components:{"attack_helicopter": true}}]}] add helicopter_active
 tag @s[nbt={Inventory:[{Slot:101b,components:{"shulkshell": true}}]}] add shulkshell_active
-tag @s[nbt={Inventory:[{Slot:103b,components:{"reactive":true}}]}] add reactivehelmet_active
-tag @s[nbt={Inventory: [{Slot: 100b, components: {"reactive":true}}]},nbt=!{Inventory: [{Slot: 100b, components: {"technomk2": true}}]}] add reactiveboots_active
+tag @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"reactive":true}}}]}] add reactivehelmet_active
+tag @s[nbt={Inventory: [{Slot: 100b, components: {"reactive":true}}]},nbt=!{Inventory: [{Slot: 100b, components: {"minecraft:custom_data":{"technomk2": true}}}]}] add reactiveboots_active
 
 tag @s[nbt=!{Inventory:[{components:{"phantomknifes": true}}]}] remove phantomknifes_active
 tag @s[nbt=!{Inventory:[{components:{"razorpine": true}}]}] remove razorpine_active
 tag @s[nbt=!{Inventory:[{components:{mystical:1,type:2}}]}] remove notnt_active
 tag @s[nbt=!{Inventory:[{components:{"attack_helicopter": true}}]}] remove helicopter_active
 tag @s[nbt=!{Inventory:[{Slot:101b,components:{"shulkshell": true}}]}] remove shulkshell_active
-tag @s[nbt=!{Inventory:[{Slot:103b,components:{"reactive":true}}]}] remove reactivehelmet_active
+tag @s[nbt=!{Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"reactive":true}}}]}] remove reactivehelmet_active
 tag @s[nbt=!{Inventory: [{Slot: 100b, components: {"reactive":true}}]}] remove reactiveboots_active
-tag @s[nbt={Inventory: [{Slot: 100b, components: {"technomk2": true}}]}] remove reactiveboots_active
+tag @s[nbt={Inventory: [{Slot: 100b, components: {"minecraft:custom_data":{"technomk2": true}}}]}] remove reactiveboots_active
 
 
 
@@ -87,11 +87,11 @@ tag @s[nbt=!{Inventory: [{components: {erosion: 1b}}]}] remove erosion_active
 
 
 
-tag @s[nbt={Inventory:[{Slot:102b,components:{"techno": true}},{Slot:101b,components:{"techno": true}},{Slot:100b,components:{"techno": true}},{Slot:103b,components:{"techno": true}}]},nbt=!{Inventory:[{Slot:102b,components:{"technomk2": true}},{Slot:101b,components:{"technomk2": true}},{Slot:100b,components:{"technomk2": true}},{Slot:103b,components:{"technomk2": true}}]}] add techno_set_bonus_active
+tag @s[nbt={Inventory:[{Slot:102b,components: {"minecraft:custom_data":{"techno": true}}},{Slot:101b,components: {"minecraft:custom_data":{"techno": true}}},{Slot:100b,components: {"minecraft:custom_data":{"techno": true}}},{Slot:103b,components: {"minecraft:custom_data":{"techno": true}}}]},nbt=!{Inventory:[{Slot:102b,components:{"minecraft:custom_data":{"technomk2": true}}},{Slot:101b,components:{"minecraft:custom_data":{"technomk2": true}}},{Slot:100b,components:{"minecraft:custom_data":{"technomk2": true}}},{Slot:103b,components:{"minecraft:custom_data":{"technomk2": true}}}]}] add techno_set_bonus_active
 tag @s[nbt={Inventory:[{components:{"stand_clocks": true}}]}] add have_stand_clocks_active
 
-tag @s[nbt=!{Inventory:[{Slot:102b,components:{"techno": true}},{Slot:101b,components:{"techno": true}},{Slot:100b,components:{"techno": true}},{Slot:103b,components:{"techno": true}}]}] remove techno_set_bonus_active
-tag @s[nbt={Inventory:[{Slot:102b,components:{"technomk2": true}},{Slot:101b,components:{"technomk2": true}},{Slot:100b,components:{"technomk2": true}},{Slot:103b,components:{"technomk2": true}}]}] remove techno_set_bonus_active
+tag @s[nbt=!{Inventory:[{Slot:102b,components: {"minecraft:custom_data":{"techno": true}}},{Slot:101b,components: {"minecraft:custom_data":{"techno": true}}},{Slot:100b,components: {"minecraft:custom_data":{"techno": true}}},{Slot:103b,components: {"minecraft:custom_data":{"techno": true}}}]}] remove techno_set_bonus_active
+tag @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{"technomk2": true}}},{Slot:101b,components:{"minecraft:custom_data":{"technomk2": true}}},{Slot:100b,components:{"minecraft:custom_data":{"technomk2": true}}},{Slot:103b,components:{"minecraft:custom_data":{"technomk2": true}}}]}] remove techno_set_bonus_active
 tag @s[nbt=!{Inventory:[{components:{"stand_clocks": true}}]}] remove have_stand_clocks_active
 
 tag @s[nbt={Inventory:[{components:{"stand_clocks": true}}]}] add stand_clocks_active
