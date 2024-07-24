@@ -25,7 +25,7 @@ execute if entity @s[type=experience_orb] run summon experience_orb ~ ~ ~ {Tags:
 execute if entity @s[type=area_effect_cloud] run summon area_effect_cloud ~ ~ ~ {Tags:["doubled","doubledcurr"]}
 execute if entity @s[type=potion] run summon potion ~ ~ ~ {Tags:["doubled","doubledcurr"]}
 execute if entity @s[type=tnt_minecart] run summon tnt_minecart ~ ~ ~ {Tags:["doubled","doubledcurr"]}
-execute if entity @s[type=spawner_minecart] run summon spawner_minecart ~ ~ ~ {Tags:["doubled","doubledcurr"]}
+execute if entity @s[type=spawner_minecart] run summon spawner_minecart ~ ~ ~ {SpawnCount:0,Tags:["doubled","doubledcurr"]}
 execute if entity @s[type=boat] run summon boat ~ ~ ~ {Tags:["doubled","doubledcurr"]}
 tag @s add doubled
 tag @s add doubledcurr

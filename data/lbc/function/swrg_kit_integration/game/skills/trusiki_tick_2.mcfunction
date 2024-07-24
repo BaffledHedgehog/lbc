@@ -1,1 +1,1 @@
-$data modify storage lbc.math2 $(tmp) set from entity @s Health
+$data modify storage lbc.math2 x$(tmp) set from entity @s Health

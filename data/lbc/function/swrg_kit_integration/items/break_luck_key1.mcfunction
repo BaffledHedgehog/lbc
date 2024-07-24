@@ -1,1 +1,1 @@
-clear @a golden_axe{"luck_key": true,Damage:31} 1
+clear @a golden_axe[damage=31,custom_data={"luck_key":true}] 1
