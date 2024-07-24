@@ -114,3 +114,4 @@ scoreboard players add @s danmaku 1
 scoreboard players add @s danmaku_score 1
 scoreboard players add @s pulsar_cd 1
 scoreboard players add @s adv_game_minigun_shooted 1
+tag @s add have_lucky_effects

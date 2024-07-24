@@ -148,6 +148,33 @@ scoreboard objectives remove lbcID
 scoreboard objectives remove lbc.math
 
 
+scoreboard objectives remove effect_rtp_1
+scoreboard objectives remove effect_rtp_2
+scoreboard objectives remove effect_rtp_3
+scoreboard objectives remove effect_small_explosion
+scoreboard objectives remove effect_evoker
+scoreboard objectives remove effect_shock
+scoreboard objectives remove effect_explosion
+scoreboard objectives remove effect_rtp_4
+scoreboard objectives remove effect_big_explosion
+scoreboard objectives remove effect_traps
+scoreboard objectives remove effect_lightning_bolt
+scoreboard objectives remove effect_firebreak
+scoreboard objectives remove effect_kiuaskivi
+scoreboard objectives remove effect_lightarrow
+scoreboard objectives remove effect_evokerarrow
+scoreboard objectives remove effect_dimshifting
+scoreboard objectives remove piss
+scoreboard objectives remove effect_witch_gens_reset
+scoreboard objectives remove effect_hedgehog_boom
+scoreboard objectives remove effect_stand_arrow_hit
+scoreboard objectives remove delayed_death
+scoreboard objectives remove effect_nuking
+scoreboard objectives remove effect_vacuum
+scoreboard objectives remove effect_timestop
+scoreboard objectives remove effect_chain_lightning
+
+
 function lbc:load
 
 

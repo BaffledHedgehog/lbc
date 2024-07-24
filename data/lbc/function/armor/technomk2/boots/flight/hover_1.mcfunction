@@ -1,0 +1,1 @@
+$attribute @s generic.gravity modifier add gravity_mk2armor_fix2 $(tmp) add_value

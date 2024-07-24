@@ -5,3 +5,4 @@ effect give @s blindness 1 0 true
 effect give @s slowness 1 0 true
 execute if score @s[type=player] piss matches 1.. run advancement grant @s only lbc:true_advancements/potions/effect_piss
 scoreboard players remove @s piss 1
+tag @s add have_lucky_effects

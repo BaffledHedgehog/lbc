@@ -104,6 +104,8 @@ scoreboard players set @s overload_jump 0
 scoreboard players set @s overload_slam 0
 attribute @s minecraft:generic.movement_speed modifier remove c1cda724-0ea2-460a-98b8-9631eafd2515
 attribute @s minecraft:generic.attack_damage modifier remove 585f98b8-a8b8-4e4c-838a-f2e124831040
+attribute @s minecraft:generic.gravity modifier remove gravity_mk2armor_fix1
+attribute @s minecraft:generic.gravity modifier remove gravity_mk2armor_fix2
 
 tag @s remove time_stopped_lol
 
@@ -114,5 +116,40 @@ tag @s add checker
 execute as @e[type=marker,tag=exoperso] if score @s lbcID2 = @a[tag=checker,limit=1] lbcID2 run function lbc:leave_death_kest
 execute as @e[type=marker,tag=exoperso_upg] if score @s lbcID2 = @a[tag=checker,limit=1] lbcID2 run function lbc:leave_death_kest
 tag @s remove checker
+
+
+
+
+
+scoreboard players set @s effect_rtp_1 0
+scoreboard players set @s effect_rtp_2 0
+scoreboard players set @s effect_rtp_3 0
+scoreboard players set @s effect_small_explosion 0
+scoreboard players set @s effect_evoker 0
+scoreboard players set @s effect_shock 0
+scoreboard players set @s effect_explosion 0
+scoreboard players set @s effect_rtp_4 0
+scoreboard players set @s effect_big_explosion 0
+scoreboard players set @s effect_traps 0
+scoreboard players set @s effect_lightning_bolt 0
+scoreboard players set @s effect_firebreak 0
+scoreboard players set @s effect_kiuaskivi 0
+scoreboard players set @s effect_lightarrow 0
+scoreboard players set @s effect_evokerarrow 0
+scoreboard players set @s effect_dimshifting 0
+scoreboard players set @s piss 0
+scoreboard players set @s effect_witch_gens_reset 0
+scoreboard players set @s effect_hedgehog_boom 0
+scoreboard players set @s effect_stand_arrow_hit 0
+scoreboard players set @s delayed_death 0
+scoreboard players set @s effect_nuking 0
+scoreboard players set @s effect_vacuum 0
+scoreboard players set @s effect_timestop 0
+scoreboard players set @s effect_chain_lightning 0
+
+
+
+
+
 
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/killed_by_player
