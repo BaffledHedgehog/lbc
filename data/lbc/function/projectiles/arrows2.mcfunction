@@ -3,6 +3,7 @@ execute store result score dur lbc.math run data get entity @s active_effects[{i
 execute if score dur lbc.math matches 2 run scoreboard players set dur lbc.math 1
 
 
+execute if score tmp lbc.math matches 16 run scoreboard players operation @s effect_boost_mana += dur lbc.math
 execute if score tmp lbc.math matches 17 run scoreboard players operation @s effect_add_manamax += dur lbc.math
 execute if score tmp lbc.math matches 18 run scoreboard players operation @s effect_add_manaregen += dur lbc.math
 execute if score tmp lbc.math matches 19 run scoreboard players operation @s effect_add_mana += dur lbc.math

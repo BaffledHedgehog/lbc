@@ -692,6 +692,13 @@
                     "id": "gegrhreh6j5yj56jjdaerisr",
                     "amount": 4,
                     "operation": "add_value"
+                  },
+                  {
+                      "type": "minecraft:generic.safe_fall_distance",
+                      "slot": "feet",
+                      "id": "jdgjdgyvb6kij7finjukukifjgjg",
+                      "amount": 1,
+                      "operation": "add_multiplied_total"
                   }
                 ]
               }

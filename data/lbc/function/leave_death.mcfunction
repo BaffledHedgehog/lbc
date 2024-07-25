@@ -153,7 +153,7 @@ scoreboard players set @s effect_add_manaregen 0
 scoreboard players set @s effect_add_mana 0
 scoreboard players set @s effect_remove_mana 0
 scoreboard players set @s effect_snus 0
-
+scoreboard players set @s effect_boost_mana 0
 
 
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/killed_by_player

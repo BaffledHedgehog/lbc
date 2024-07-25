@@ -180,7 +180,7 @@ scoreboard objectives remove effect_add_manaregen
 scoreboard objectives remove effect_add_mana
 scoreboard objectives remove effect_remove_mana
 scoreboard objectives remove effect_snus
-
+scoreboard objectives remove effect_boost_mana
 
 function lbc:load
 

@@ -250,7 +250,7 @@ scoreboard objectives add effect_add_manaregen dummy
 scoreboard objectives add effect_add_mana dummy
 scoreboard objectives add effect_remove_mana dummy
 scoreboard objectives add effect_snus dummy
-
+scoreboard objectives add effect_boost_mana dummy
 
 
 
