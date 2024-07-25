@@ -1,4 +1,4 @@
-give @s leather_helmet{Unbreakable:1b,troll:1b,trollmask:3,display:{Name:'{"translate":"mask_3","color":"dark_red","italic":false}',color:7},HideFlags:64,"minecraft:custom_model_data":14,AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",id:"minecraft:generic.attack_damage",Amount:1,Operation:1,UUID:[I;-1163740468,-674681743,-141122137,-892440711],Slot:"head"},{AttributeName:"minecraft:generic.armor",id:"minecraft:generic.armor",Amount:4,Operation:1,UUID:[I;-1916401860,-389191382,-20358173,1167994149],Slot:"head"}]} 1
+give @s leather_helmet[unbreakable={},custom_name='{"translate":"mask_3","color":"dark_red","italic":false}',dyed_color={rgb:7,show_in_tooltip:0b},attribute_modifiers=[{type:"minecraft:generic.attack_damage",slot:"head",id:"isjdfqqwwwwwwww22eris",amount:1,operation:"add_multiplied_base"},{type:"minecraft:generic.armor",slot:"head",id:"dfsai080842i3jhaashd",amount:4,operation:"add_multiplied_base"}],custom_data={troll:1b,trollmask:3},minecraft:custom_model_data=14] 1
 title @a title ""
 title @a subtitle {"translate":"beware_3"}
 scoreboard players set powerfall lbc.math 1
