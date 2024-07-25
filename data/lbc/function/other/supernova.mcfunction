@@ -14,8 +14,8 @@ summon marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon marker ~ ~ ~ {Tags:["slowraycast","supernovacore","other"]}
 execute as @e[type=marker,tag=supernova] at @s run spreadplayers ~ ~ 0 50 false @s
-particle dust 1 1 1 20 ~ ~1 ~ 1 1 1 2 1000 force
-particle dust 0.001 0 0.001 20 ~ ~1 ~ 1 1 1 2 1000 force
+particle dust{color:[1.0,1.0,1.0],scale:4} ~ ~1 ~ 1 1 1 2 1000 force
+particle dust{color:[0.001,0.0,0.001],scale:4} ~ ~1 ~ 1 1 1 2 1000 force
 summon tnt
 execute at @e run particle flash ~ ~ ~ 10 10 10 0 100 normal
 effect give @p[gamemode=!spectator] levitation 10000 0 true
@@ -31,5 +31,5 @@ playsound block.end_portal.spawn master @a ~ ~ ~ 10000 2
 playsound block.end_portal.spawn master @a ~ ~ ~ 10000 1
 summon lightning_bolt
 kill @e[type=item,sort=nearest,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"shish_gun":true}}}}]
-kill @e[type=item,sort=nearest,limit=1,nbt={Item:{components:{"shit_katana": true}}}]
+kill @e[type=item,sort=nearest,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"shit_katana": true}}}}]
 forceload add ~30 ~30 ~-30 ~-30
