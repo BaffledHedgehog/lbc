@@ -1,6 +1,15 @@
 execute store result score tmp lbc.math run data get entity @s active_effects[{id:"minecraft:raid_omen"}].amplifier
 execute store result score dur lbc.math run data get entity @s active_effects[{id:"minecraft:raid_omen"}].duration
 execute if score dur lbc.math matches 2 run scoreboard players set dur lbc.math 1
+
+
+execute if score tmp lbc.math matches 17 run scoreboard players operation @s effect_add_manamax += dur lbc.math
+execute if score tmp lbc.math matches 18 run scoreboard players operation @s effect_add_manaregen += dur lbc.math
+execute if score tmp lbc.math matches 19 run scoreboard players operation @s effect_add_mana += dur lbc.math
+execute if score tmp lbc.math matches 20 run scoreboard players operation @s effect_remove_mana += dur lbc.math
+execute if score tmp lbc.math matches 74 run scoreboard players operation @s effect_snus += dur lbc.math
+
+
 execute if score tmp lbc.math matches 101 run scoreboard players operation @s effect_small_explosion += dur lbc.math
 execute if score tmp lbc.math matches 102 run scoreboard players operation @s effect_evoker += dur lbc.math
 execute if score tmp lbc.math matches 103 run scoreboard players operation @s effect_shock += dur lbc.math
@@ -28,3 +37,4 @@ execute if score tmp lbc.math matches 124 run scoreboard players operation @s ef
 
 tag @s add have_lucky_effects
 effect clear @s raid_omen
+

@@ -148,7 +148,11 @@ scoreboard players set @s effect_timestop 0
 scoreboard players set @s effect_chain_lightning 0
 
 
-
+scoreboard players set @s effect_add_manamax 0
+scoreboard players set @s effect_add_manaregen 0
+scoreboard players set @s effect_add_mana 0
+scoreboard players set @s effect_remove_mana 0
+scoreboard players set @s effect_snus 0
 
 
 
