@@ -57,6 +57,7 @@ scoreboard players set 40 lbc.math 40
 scoreboard players set 100 lbc.math 100
 scoreboard players set 200 lbc.math 200
 scoreboard players set 300 lbc.math 300
+scoreboard players set 360 lbc.math 360
 scoreboard players set 400 lbc.math 400
 scoreboard players set 500 lbc.math 500
 scoreboard players set 600 lbc.math 600

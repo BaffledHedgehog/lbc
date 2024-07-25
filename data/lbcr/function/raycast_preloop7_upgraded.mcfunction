@@ -1,6 +1,6 @@
 summon marker ~ ~ ~ {Tags:["prismcheck"]}
 scoreboard players operation @s h += 20 lbc.math
-execute if score @s h matches 360.. run scoreboard players operation @s h -= *360 const
+execute if score @s h matches 360.. run scoreboard players operation @s h -= 360 lbc.math
 scoreboard players set @s s 80
 scoreboard players set @s v 100
 function lbcr:raycast_preloop7_2_upgraded_get_color
