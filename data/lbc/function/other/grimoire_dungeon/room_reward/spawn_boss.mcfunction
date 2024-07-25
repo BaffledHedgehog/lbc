@@ -1,4 +1,4 @@
-particle shriek 5 ~ ~1 ~ 1 1 1 0 20 normal
+particle shriek{delay:5} ~ ~1 ~ 1 1 1 0 20 normal
 playsound block.sculk_shrieker.shriek master @a ~ ~ ~ 2 1
 scoreboard players add id_cloud lbc.math 1
 execute if block ~1 ~.5 ~ barrier run summon item_display ~ ~6 ~ {Rotation:[-90.0f,0.0f],Tags:["grimoire_boss_visual","slowraycast","other","phase_laser","dungeon_mob"],view_range:10f,shadow_radius:0f,shadow_strength:0f,billboard:"fixed",item_display:"fixed",CustomName:'{"translate":"grimoire_boss","color":"dark_red","italic":false}',transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[4f,4f,4f]},item:{id:"minecraft:repeating_command_block",count:1,components:{"minecraft:custom_model_data":664}},Passengers:[{id:"minecraft:area_effect_cloud",Tags:["boss_piece"],Duration:10000000}]}

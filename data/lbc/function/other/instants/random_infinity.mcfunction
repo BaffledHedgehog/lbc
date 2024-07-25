@@ -13,8 +13,8 @@ execute if score #random13 lbc.math matches 9 run tag @s add infinite_haste
 execute if score #random13 lbc.math matches 10 run tag @s add infinite_resistance
 execute if score #random13 lbc.math matches 11 run tag @s add infinite_heal
 execute if score #random13 lbc.math matches 12 run tag @s add infinite_saturation
-execute if score #random13 lbc.math matches 13 run give @s carrot_on_a_stick{display:{Name:'{"translate":"infinite_lucky_block","color":"yellow","italic":false}',Lore:['{"translate":"infinite_lucky_block.lore","color":"yellow","italic":false}']},"magicwand": true,luckyblockwand:1b,Enchantments:[{id:"minecraft:infinity",lvl:1s}],"minecraft:custom_model_data":605,"craftusable": true} 1
-clear @s repeating_command_block{"infinity_rand":true} 1
+execute if score #random13 lbc.math matches 13 run give @s carrot_on_a_stick[enchantments={"minecraft:infinity":1},custom_name='{"translate":"infinite_lucky_block","color":"yellow","italic":false}',lore=['{"translate":"infinite_lucky_block.lore","color":"yellow","italic":false}'],custom_data={magicwand:1b,luckyblockwand:1b,craftusable:1b},custom_model_data=605] 1
+clear @s repeating_command_block[custom_data={"infinity_rand":true}] 1
 title @s title ""
 title @s subtitle {"translate":"infinity_feel"}
 advancement grant @s only lbc:true_advancements/legends/infinity

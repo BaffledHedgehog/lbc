@@ -7,7 +7,7 @@ execute if score #random13 lbc.math matches 5 run effect give @s instant_damage
 execute if score #random13 lbc.math matches 6 run effect give @s levitation 10 1
 execute if score #random13 lbc.math matches 7 run effect give @s mining_fatigue 60 1
 execute if score #random13 lbc.math matches 8 run effect give @s nausea 20 0
-execute if score #random13 lbc.math matches 9 run effect give @s poison 10 0 
+execute if score #random13 lbc.math matches 9 run effect give @s poison 10 0
 execute if score #random13 lbc.math matches 10 run effect give @s slowness 20 1
 execute if score #random13 lbc.math matches 11 run effect give @s unluck 30 1
 execute if score #random13 lbc.math matches 12 run effect give @s weakness 15
