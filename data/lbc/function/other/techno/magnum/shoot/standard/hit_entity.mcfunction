@@ -1,2 +1,2 @@
-damage @s 16 arrow 
+damage @s 16 arrow
 tag @s add hit

@@ -1,2 +1,2 @@
-execute unless entity @s[nbt={Inventory:[{components:{lifestealer:1}}]}] run damage @s 1 in_fire
+execute unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{lifestealer:1}}}]}] run damage @s 1 in_fire
 execute if entity @s[scores={y=20000..,overheaven=..0}] run function lbc:other/stand_arrow/stand_clocks_overheaven_upgrade
