@@ -1,16 +1,16 @@
-execute at @s[nbt={Inventory:[{Slot:101b,components:{jumptnt:1}}]}] run function lbc:workingitems/tntjump
-execute as @s[nbt={Inventory:[{Slot:100b,components:{"reactive_old": true}}]}] at @s run function lbc:workingitems/reactive0
+execute at @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"jumptnt": true}}}]}] run function lbc:workingitems/tntjump
+execute as @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"reactive_old": true}}}]}] at @s run function lbc:workingitems/reactive0
 execute at @s[nbt={Inventory:[{Slot:101b,components: {"minecraft:custom_data":{"techno": true}}}]},nbt=!{Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"technomk2": true}}}]},predicate=lbc:sneak] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] if score @s coldown8 matches 1.. run tellraw @s [{"translate":"wyvern_chestplate.cooldown","color":"dark_purple"},{"translate":"ability_recharge","color":"white"},{"score":{"name":"@s","objective":"coldown8"}},{"translate":"second.lbc","color":"white"}]
 execute at @s[nbt={Inventory:[{Slot:101b,components: {"minecraft:custom_data":{"techno": true}}}]},nbt=!{Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"technomk2": true}}}]},predicate=lbc:sneak] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] unless score @s coldown8 matches 1.. run function lbc:workingitems/wyvern
 execute at @s[scores={nitro=1..},nbt={Inventory:[{Slot:100b,components: {"minecraft:custom_data":{"techno": true}}}]},x_rotation=89..90] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/nitroboots
-execute at @s[nbt={Inventory:[{components:{mystical:3}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] run function lbc:other/artifact/when_jump
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical":3}}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] run function lbc:other/artifact/when_jump
 execute at @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:101b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:102b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:103b,components:{"minecraft:custom_data":{"shulkshell": true}}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] positioned ^ ^ ^5 run spreadplayers ~ ~ 0 3 under 120 false @s[predicate=lbc:the_nether]
 execute at @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:101b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:102b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:103b,components:{"minecraft:custom_data":{"shulkshell": true}}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] positioned ^ ^ ^5 run spreadplayers ~ ~ 0 3 false @s[predicate=!lbc:the_nether]
 execute at @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"chaoschestplate":true}}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] run function lbc:other/chaoschestplate/effectselect_jump
 execute at @s[tag=overload_leggings_active,predicate=lbc:sneak] run function lbc:armor/overload/leggings/jump
-effect give @s[nbt={Inventory:[{components:{mystical_old:3,type:1}}]}] slow_falling 3 3 true
-effect give @s[nbt={Inventory:[{components:{mystical_old:3,type:2}}]}] levitation 1 4 true
-effect give @s[nbt={Inventory:[{components:{mystical_old:3,type:3}}]}] speed 3 4 true
+effect give @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical_old":3,"type":1}}}]}] slow_falling 3 3 true
+effect give @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical_old":3,"type":2}}}]}] levitation 1 4 true
+effect give @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical_old":3,"type":3}}}]}] speed 3 4 true
 
 scoreboard players add @s falltimer 0
 scoreboard players set @s jump1 0

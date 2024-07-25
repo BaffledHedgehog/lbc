@@ -1,4 +1,4 @@
-particle dust 0.961 1 0.616 1 ~ ~ ~ 15 15 15 0 1000 normal
+particle dust{color:[0.961,1.0,0.616],scale:1} ~ ~ ~ 15 15 15 0 1000 normal
 particle firework ~ ~ ~ 15 15 15 0 1000 normal
 particle end_rod ~ ~ ~ 15 15 15 0 1000 normal
 playsound item.trident.riptide_3 master @a ~ ~ ~ 3 1.5
