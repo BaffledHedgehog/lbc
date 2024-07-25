@@ -9,4 +9,4 @@ effect give @s poison 15 1
 effect give @s hunger 2 255
 execute if entity @s[nbt={active_effects:[{id:"minecraft:resistance",amplifier:4b}]}] run advancement grant @s only lbc:true_advancements/staffs/blood
 tellraw @a[distance=0.01..10,gamemode=!spectator] {"translate":"player_blooding","color":"dark_red"}
-execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{upgradable:1b}}}},predicate=lbc:sneak] run function lbc:workingitems/bloodmagic_can_upgrade
+execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"upgradable": true}}}},predicate=lbc:sneak] run function lbc:workingitems/bloodmagic_can_upgrade

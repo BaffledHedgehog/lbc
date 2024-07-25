@@ -5,7 +5,7 @@ execute if score #random4 lbc.math matches 2 run effect give @e[distance=0.01..1
 execute if score #random4 lbc.math matches 3 run effect give @e[distance=0.01..15,tag=!spectator] hunger 2 255 true
 execute at @e[type=#mobs,distance=0.01..15,tag=!spectator] if predicate lbc:chance10 run loot spawn ~ ~ ~ loot lbc:corrupted_dust
 execute if score #random4 lbc.math matches 4 at @e[type=#mobs,distance=0.01..15,tag=!spectator] run damage @e[type=#mobs,limit=1,sort=nearest,tag=!spectator] 8 cactus by @s
-execute if score #random4 lbc.math matches 4 if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{upgradable:1b}}}}] if entity @e[type=#mobs,tag=!caster,tag=!spectator,limit=1,distance=..15,nbt={active_effects:[{id:"minecraft:poison"},{id:"minecraft:wither"},{id:"minecraft:hunger"}]}] run function lbc:other/magic_academy/can_upgrade
+execute if score #random4 lbc.math matches 4 if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"upgradable": true}}}}] if entity @e[type=#mobs,tag=!caster,tag=!spectator,limit=1,distance=..15,nbt={active_effects:[{id:"minecraft:poison"},{id:"minecraft:wither"},{id:"minecraft:hunger"}]}] run function lbc:other/magic_academy/can_upgrade
 
 playsound minecraft:entity.wither.ambient master @a ~ ~ ~ 1 1.2
 particle minecraft:ash ~ ~1 ~ 10 10 10 0 1500 normal

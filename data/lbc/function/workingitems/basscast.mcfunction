@@ -7,7 +7,7 @@ execute if score #random4 lbc.math matches 4 run effect give @e[distance=0.01..2
 function lbc:workingitems/basscast_combo
 
 tellraw @a[distance=0.01..25,gamemode=!spectator] {"translate":"player_stunned"}
-execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{upgradable:1b}}}}] run function lbc:workingitems/basscast_upg_check
+execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"upgradable": true}}}}] run function lbc:workingitems/basscast_upg_check
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 2 0
 playsound minecraft:entity.firework_rocket.blast master @a ~ ~ ~ 2 0
 particle minecraft:flash ~ ~ ~ 17 17 17 1 100 force

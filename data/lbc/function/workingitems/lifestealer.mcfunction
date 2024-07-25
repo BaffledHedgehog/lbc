@@ -9,5 +9,5 @@ execute unless entity @s[tag=have_stand,tag=stand_clocks_active] run function lb
 execute if entity @s[tag=have_stand,tag=stand_clocks_active,scores={overheaven=..0}] run function lbc:workingitems/lifestealer_stand
 execute if entity @s[tag=have_stand,tag=stand_clocks_active,scores={overheaven=1..}] run function lbc:workingitems/lifestealer_stand_x2
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}}] if score playersaround lbc.math matches 15.. run function lbc:other/magic_academy/can_upgrade
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"upgradable": true}}}}] if score playersaround lbc.math matches 15.. run function lbc:other/magic_academy/can_upgrade
 particle minecraft:damage_indicator ~ ~1 ~ 12 12 12 1 200 force

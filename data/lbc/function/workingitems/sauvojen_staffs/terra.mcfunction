@@ -1,5 +1,5 @@
-execute unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}},predicate=lbc:sneak] run function lbc:workingitems/sauvojen_staffs/terra_preloop
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}},predicate=lbc:sneak] if block ~ ~-1 ~ grass_block run function lbc:workingitems/sauvojen_staffs/terra_preloop_check_upgrade
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}},predicate=lbc:sneak] unless block ~ ~-1 ~ grass_block run tellraw @s {"translate":"not_on_grass"}
+execute unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"upgradable": true}}}},predicate=lbc:sneak] run function lbc:workingitems/sauvojen_staffs/terra_preloop
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"upgradable": true}}}},predicate=lbc:sneak] if block ~ ~-1 ~ grass_block run function lbc:workingitems/sauvojen_staffs/terra_preloop_check_upgrade
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"upgradable": true}}}},predicate=lbc:sneak] unless block ~ ~-1 ~ grass_block run tellraw @s {"translate":"not_on_grass"}
 scoreboard players operation @s mana -= stterra_wand_mana_use lbc.math
 scoreboard players operation @s[nbt={Inventory:[{Slot:100b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:101b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:102b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:103b,components: {"minecraft:custom_data":{"mage": true}}}]}] manamax += mage_set_bonus lbc.math

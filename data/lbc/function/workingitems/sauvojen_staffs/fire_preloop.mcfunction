@@ -18,5 +18,5 @@ data modify entity @e[type=small_fireball,distance=..4,tag=!activated,tag=stwand
 
 tag @e[type=small_fireball,distance=..4,tag=!activated,limit=1] add activated
 kill @e[type=marker,tag=reikast]
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}},predicate=lbc:sneak] run function lbc:workingitems/sauvojen_staffs/fire_preloop_upgrade
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"upgradable": true}}}},predicate=lbc:sneak] run function lbc:workingitems/sauvojen_staffs/fire_preloop_upgrade
 playsound item.firecharge.use master @a ~ ~ ~ 1 1

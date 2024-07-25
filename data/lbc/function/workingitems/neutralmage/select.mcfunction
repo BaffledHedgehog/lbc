@@ -4,5 +4,5 @@ execute if score #random5 lbc.math matches 2 run function lbc:workingitems/neutr
 execute if score #random5 lbc.math matches 3 run function lbc:workingitems/neutralmage/3
 execute if score #random5 lbc.math matches 4 run function lbc:workingitems/neutralmage/4
 execute if score #random5 lbc.math matches 5 run function lbc:workingitems/neutralmage/5
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}}] run function lbc:workingitems/neutralmage/check_upgrade
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"upgradable": true}}}}] run function lbc:workingitems/neutralmage/check_upgrade
 playsound entity.wither.shoot master @s ~ ~ ~ 1 1

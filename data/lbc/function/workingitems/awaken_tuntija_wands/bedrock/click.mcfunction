@@ -5,4 +5,4 @@ execute unless entity @e[type=marker,tag=bedrock_room,tag=curr_wall] if score @s
 execute if entity @e[type=marker,tag=bedrock_room,tag=curr_wall] run function lbc:workingitems/awaken_tuntija_wands/bedrock/break_room
 
 tag @e remove curr_wall
-execute if entity @s[predicate=lbc:sneak,nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1b}}}}] run function lbc:workingitems/awaken_tuntija_wands/bedrock/click_upgrade
+execute if entity @s[predicate=lbc:sneak,nbt={SelectedItem:{components:{"minecraft:custom_data":{"upgradable": true}}}}] run function lbc:workingitems/awaken_tuntija_wands/bedrock/click_upgrade
