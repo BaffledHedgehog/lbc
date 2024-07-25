@@ -1,11 +1,11 @@
 # tnt jacket
-execute at @s[nbt={Inventory:[{Slot:102b,components:{"dynamite": true}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run summon tnt ~ ~0.2 ~ {fuse:80}
+execute at @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{"dynamite": true}}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run summon tnt ~ ~0.2 ~ {fuse:80}
 # ARTIFACT
-execute at @s[nbt={Inventory:[{components:{mystical:4}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:other/artifact/damaged
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical":4}}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:other/artifact/damaged
 # chaos chestplate
 execute at @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{"chaoschestplate":true}}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] run function lbc:other/chaoschestplate/effectselect
 # chaos chestplate
-execute at @s[nbt={Inventory:[{Slot:100b,components:{"berserk": true}},{Slot:101b,components:{"berserk": true}},{Slot:102b,components:{"berserk": true}},{Slot:103b,components:{"berserk": true}}]},predicate=lbc:chance70,scores={hplvl=..12}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:armor/set_bonus/berserk4
+execute at @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"berserk": true}}},{Slot:101b,components:{"minecraft:custom_data":{"berserk": true}}},{Slot:102b,components:{"minecraft:custom_data":{"berserk": true}}},{Slot:103b,components:{"minecraft:custom_data":{"berserk": true}}}]},predicate=lbc:chance70,scores={hplvl=..12}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:armor/set_bonus/berserk4
 
 execute at @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{"shulkshell": true}}}]},predicate=lbc:chance20] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:armor/shulker_teleport
 
