@@ -1,4 +1,4 @@
-execute unless data entity @s attributes[{id: "minecraft:generic.knockback_resistance"}] run data modify entity @s attributes append value {base:0.0d,id:"generic.knockback_resistance"}
+execute unless data entity @s attributes[{id: "minecraft:generic.knockback_resistance"}] run data modify entity @s attributes append value {base:0.0d,id:"minecraft:generic.knockback_resistance"}
 data modify storage entities knockback set from entity @s attributes[{id: "minecraft:generic.knockback_resistance"}].base
 attribute @s minecraft:generic.knockback_resistance base set 1000000.0
 damage @s 6 freeze by @s from @a[tag=damager,limit=1]

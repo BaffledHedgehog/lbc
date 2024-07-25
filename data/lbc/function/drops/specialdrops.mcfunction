@@ -71,7 +71,7 @@ execute at @s[nbt={Item: {components: {"helicopter_boss": true}}}] run function 
 execute at @s[nbt={Item: {components: {"muravei": true}}}] run function lbc:drops/muravei
 execute at @s[nbt={Item: {components: {"acidboom": true}}}] positioned ~ ~1 ~ run function lbc:drops/acid_boom
 execute at @s[nbt={Item: {components: {grimoire_dungeon:1b}}}] run function lbc:drops/shadow_citadel
-execute at @s[nbt={Item: {components: {shahid:1b}}}] run summon zombie ~ ~ ~ {IsBaby:1b,Passengers:[{id:"minecraft:tnt",fuse:200}],attributes:[{id:"generic.attack_damage",base:-10}]}
+execute at @s[nbt={Item: {components: {shahid:1b}}}] run summon zombie ~ ~ ~ {IsBaby:1b,Passengers:[{id:"minecraft:tnt",fuse:200}],attributes:[{id:"minecraft:generic.attack_damage",base:-10}]}
 execute at @s[nbt={Item: {components: {"adv_check_lbc": true}}}] run advancement grant @a[distance=..7,gamemode=!spectator,limit=1,nbt={SelectedItem:{components:{silk:1b}}}] only lbc:true_advancements/pickaxes/silk
 kill @s[nbt={Item:{count:1}}]
 execute store result entity @s Item.Count byte 0.99999 run data get entity @s Item.Count 1

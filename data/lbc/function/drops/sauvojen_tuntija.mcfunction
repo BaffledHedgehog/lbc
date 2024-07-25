@@ -1,3 +1,3 @@
 playsound entity.wither.spawn master @a ~ ~ ~ 1 1 0.5
 particle campfire_cosy_smoke ~ ~10 ~ 1 10 1 0 1000 normal
-summon ghast ~ ~20 ~ {DeathLootTable:"lbc:sauvojen_tuntija",PersistenceRequired:1b,Health:100024f,ExplosionPower:3,Tags:["sauvojen_tuntija","rcdenyalways"],CustomName:'{"text":"Sauvojen Tuntija","color":"blue","bold":true,"italic":false}',attributes:[{id:"generic.max_health",base:100024d},{id:"generic.follow_range",base:256},{id:"generic.knockback_resistance",base:256}]}
+summon ghast ~ ~20 ~ {DeathLootTable:"lbc:sauvojen_tuntija",PersistenceRequired:1b,Health:100024f,ExplosionPower:3,Tags:["sauvojen_tuntija","rcdenyalways"],CustomName:'{"text":"Sauvojen Tuntija","color":"blue","bold":true,"italic":false}',attributes:[{id:"minecraft:generic.max_health",base:100024d},{id:"minecraft:generic.follow_range",base:256},{id:"minecraft:generic.knockback_resistance",base:256}]}

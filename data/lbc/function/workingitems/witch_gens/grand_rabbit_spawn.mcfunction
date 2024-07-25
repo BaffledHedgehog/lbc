@@ -1,2 +1,2 @@
 execute store result score rabbit_count_temp lbc.math if entity @e[type=rabbit,tag=grand_rabbit]
-execute if score rabbit_count_temp lbc.math matches ..99 run summon rabbit ~ ~ ~ {Tags:["grand_rabbit"],PersistenceRequired:1b,RabbitType:99,attributes:[{id:"generic.follow_range",base:100},{id:"generic.movement_speed",base:1}]}
+execute if score rabbit_count_temp lbc.math matches ..99 run summon rabbit ~ ~ ~ {Tags:["grand_rabbit"],PersistenceRequired:1b,RabbitType:99,attributes:[{id:"minecraft:generic.follow_range",base:100},{id:"minecraft:generic.movement_speed",base:1}]}

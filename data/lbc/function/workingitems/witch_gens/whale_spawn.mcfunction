@@ -1,4 +1,4 @@
-summon ghast ^ ^ ^10 {Tags:["white_whale","lucky_mob"],PersistenceRequired:1b,Health:5400f,ExplosionPower:30,CustomName:'{"translate":"white_whale","italic":false}',attributes:[{id:"generic.max_health",base:54000},{id:"generic.follow_range",base:200}]}
+summon ghast ^ ^ ^10 {Tags:["white_whale","lucky_mob"],PersistenceRequired:1b,Health:5400f,ExplosionPower:30,CustomName:'{"translate":"white_whale","italic":false}',attributes:[{id:"minecraft:generic.max_health",base:54000},{id:"minecraft:generic.follow_range",base:200}]}
 execute positioned ^ ^ ^10 run function lbcr:podchinenie
 execute positioned 0.0 0.0 0.0 run summon marker ^ ^ ^7 {Tags:["reikast"]}
 execute store result entity @e[tag=white_whale,limit=1] Motion[0] double 0.001 run data get entity @e[type=marker,tag=reikast,limit=1] Pos[0] 1000

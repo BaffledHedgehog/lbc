@@ -14,10 +14,10 @@ execute if entity @s[team=13] run kill @e[type=guardian,tag=summguardians,team=1
 execute if entity @s[team=14] run kill @e[type=guardian,tag=summguardians,team=14]
 execute if entity @s[team=15] run kill @e[type=guardian,tag=summguardians,team=15]
 execute if entity @s[team=16] run kill @e[type=guardian,tag=summguardians,team=16]
-summon guardian ~ ~1 ~3 {NoGravity:1b,PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summguardians"],attributes:[{id:"generic.follow_range",base:200},{id:"generic.knockback_resistance",base:100}]}
-summon guardian ~ ~1 ~-3 {NoGravity:1b,PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summguardians"],attributes:[{id:"generic.follow_range",base:200},{id:"generic.knockback_resistance",base:100}]}
-summon guardian ~3 ~1 ~ {NoGravity:1b,PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summguardians"],attributes:[{id:"generic.follow_range",base:200},{id:"generic.knockback_resistance",base:100}]}
-summon guardian ~-3 ~1 ~ {NoGravity:1b,PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summguardians"],attributes:[{id:"generic.follow_range",base:200},{id:"generic.knockback_resistance",base:100}]}
+summon guardian ~ ~1 ~3 {NoGravity:1b,PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summguardians"],attributes:[{id:"minecraft:generic.follow_range",base:200},{id:"minecraft:generic.knockback_resistance",base:100}]}
+summon guardian ~ ~1 ~-3 {NoGravity:1b,PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summguardians"],attributes:[{id:"minecraft:generic.follow_range",base:200},{id:"minecraft:generic.knockback_resistance",base:100}]}
+summon guardian ~3 ~1 ~ {NoGravity:1b,PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summguardians"],attributes:[{id:"minecraft:generic.follow_range",base:200},{id:"minecraft:generic.knockback_resistance",base:100}]}
+summon guardian ~-3 ~1 ~ {NoGravity:1b,PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summguardians"],attributes:[{id:"minecraft:generic.follow_range",base:200},{id:"minecraft:generic.knockback_resistance",base:100}]}
 
 execute if entity @s[team=1] run team join 1 @e[type=guardian,limit=4,tag=summguardians,tag=!summactivated,sort=nearest]
 execute if entity @s[team=2] run team join 2 @e[type=guardian,limit=4,tag=summguardians,tag=!summactivated,sort=nearest]
