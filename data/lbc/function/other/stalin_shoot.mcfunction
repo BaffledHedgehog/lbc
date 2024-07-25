@@ -1,3 +1,3 @@
-execute anchored eyes positioned ^ ^ ^ run summon arrow ~ ~ ~ {custom_potion_effects:[{id:"minecraft:raid_omen",amplifier:104b,duration:2}],Tags:["stalin_arrow"],damage:0.001d}
+execute anchored eyes positioned ^ ^ ^ run summon arrow ~ ~ ~ {item:{id:"tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_effects:[{id:"minecraft:raid_omen",amplifier:104b,duration:2}]}}},Tags:["stalin_arrow"],damage:0.001d}
 execute anchored eyes positioned ^ ^ ^ as @e[tag=stalin_arrow,limit=1,sort=nearest] at @s facing entity @e[type=#mobs,sort=nearest,tag=!stalin,limit=1,tag=!spectator] eyes run function lbc:raycast_vpered
-playsound minecraft:lbcsounds.shot master @a ~ ~ ~ 1 
+playsound minecraft:lbcsounds.shot master @a ~ ~ ~ 1 1

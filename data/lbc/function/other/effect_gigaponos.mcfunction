@@ -1,5 +1,5 @@
-particle block dirt ~ ~0.7 ~ 0.1 0.1 0.1 0 5 normal
-particle block brown_wool ~ ~0.7 ~ 0.1 0.1 0.1 0 5 normal
+particle block{block_state:"dirt"} ~ ~0.7 ~ 0.1 0.1 0.1 0 5 normal
+particle block{block_state:"brown_wool"} ~ ~0.7 ~ 0.1 0.1 0.1 0 5 normal
 playsound lbcsounds.rocket_power master @a[distance=..50] ~ ~ ~ 0.3 1 0.3
 loot spawn ~ ~ ~ loot lbc:govno
 execute if score @s gigaponos matches 300 run playsound minecraft:lbcsounds.ponos master @a ~ ~ ~ 15 1

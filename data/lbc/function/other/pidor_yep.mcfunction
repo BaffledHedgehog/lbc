@@ -13,5 +13,5 @@ execute positioned ~ ~-189 ~ run function lbc:other/pidor_yep_2
 
 execute as @e[type=!player,tag=!supernova,tag=!supernovacore,distance=..15,type=!lightning_bolt] at @s run function lbc:other/teleport_chebosraki
 summon lightning_bolt
-particle dust 1 1 1 30 ~ ~ ~ 0.5 20 0.5 1 50 force
+particle dust{color:[1.0,1.0,1.0],scale:4} ~ ~ ~ 0.5 20 0.5 1 50 force
 tp @s ~ ~1 ~

@@ -1,2 +1,2 @@
 execute facing entity @e[tag=!chick,limit=1,sort=nearest,type=#mobs,tag=!rcdenyalways,tag=!spectator,tag=!nomagic_active] eyes run function lbc:other/raycastfireballchick
-particle dust 0.992 0.647 0 5 ~ ~ ~ 0.2 0.5 0.2 0 10 force
+particle dust{color:[0.992, 0.647, 0.0],scale: 4} ~ ~ ~ 0.2 0.5 0.2 0 10 force

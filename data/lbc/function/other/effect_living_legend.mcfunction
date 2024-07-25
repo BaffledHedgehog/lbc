@@ -15,6 +15,6 @@ execute if score #random16 lbc.math matches 13 run fill ~3 ~-1 ~3 ~-3 ~-1 ~-3 li
 execute if score #random16 lbc.math matches 14 run fill ~3 ~-1 ~3 ~-3 ~-1 ~-3 cyan_stained_glass replace #airs
 execute if score #random16 lbc.math matches 15 run fill ~3 ~-1 ~3 ~-3 ~-1 ~-3 gray_stained_glass replace #airs
 execute if score #random16 lbc.math matches 16 run fill ~3 ~-1 ~3 ~-3 ~-1 ~-3 light_gray_stained_glass replace #airs
-particle dust_color_transition 1 1 1 200 10 10 10 ~ ~2 ~ 2 2 2 40 40 normal @a
+particle dust_color_transition{from_color:[1.0,1.0,1.0],scale:4,to_color:[10.0,10.0,10.0]} ~ ~2 ~ 2 2 2 40 40 normal @a
 scoreboard players remove @s living_legend 1
 advancement grant @s only lbc:true_advancements/potions/effect_living_legend
