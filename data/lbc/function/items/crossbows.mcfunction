@@ -15,7 +15,7 @@ execute as @s[nbt={SelectedItem:{components:{fastfired_old:1b}}}] at @s unless e
 execute as @s[nbt={SelectedItem:{components:{fastexplode:1b}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/fastghast
 execute as @s[nbt={SelectedItem:{components:{fastexplode_old:1b}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/fastghast_old
 # Dildo 8)
-execute as @s[nbt={SelectedItem:{components:{penisgun:1b}}}] at @s run function lbc:workingitems/penispenispenis
+execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"penisgun": true}}}}] at @s run function lbc:workingitems/penispenispenis
 
 execute as @s[nbt={SelectedItem:{components:{"imba_sniper_crossbow": true}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:items/crossbow/imba_sniper_crossbow
 execute as @s[nbt={SelectedItem:{components:{"imba_shotgun": true}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:items/crossbow/imba_shotgun_crossbow
