@@ -1,8 +1,8 @@
-execute store result score spell lbc.math run data get entity @e[type=snowball,limit=1,sort=nearest] Item.tag{"libspell": true}.spellid
+execute store result score spell lbc.math run data get entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"libspell": true}.spellid
 tag @s add caster
 tag @s add raycaster
 scoreboard players set @s Distance 0
-kill @e[type=snowball,limit=1,sort=nearest,distance=..10,nbt={Item:{components:{"libspell": true}}}]
+kill @e[type=snowball,limit=1,sort=nearest,distance=..10,nbt={Item:{components:{"minecraft:custom_data":{"libspell": true}}}}]
 
 execute if score spell lbc.math matches 128 store result score spell lbc.math run random value 1..241
 execute if score spell lbc.math matches 128 store result score spell lbc.math run random value 1..241

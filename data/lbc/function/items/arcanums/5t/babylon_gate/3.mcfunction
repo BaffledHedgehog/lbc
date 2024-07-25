@@ -1,1 +1,1 @@
-summon arrow ~ ~ ~ {Color:16770560,custom_potion_effects:[{id:"minecraft:raid_omen",amplifier:110b,duration:2}],Tags:["babylon_charge"]}
+summon arrow ~ ~ ~ {Tags:["babylon_charge"],item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:16770560,custom_effects:[{id:"minecraft:raid_omen",amplifier:110,duration:2}]}}}}
