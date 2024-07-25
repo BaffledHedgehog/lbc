@@ -71,7 +71,7 @@ execute if data storage lbc.math {item:"minecraft:cake"} run loot spawn ~ ~ ~ lo
 execute if data storage lbc.math {item:"minecraft:calibrated_sculk_sensor"} run loot spawn ~ ~ ~ loot lbc:uncrafted/amethyst_shard_3_sculk_sensor
 execute if data storage lbc.math {item:"minecraft:campfire"} run loot spawn ~ ~ ~ loot lbc:uncrafted/oak_log_3_stick_3_coal
 execute if data storage lbc.math {item:"minecraft:candle"} run loot spawn ~ ~ ~ loot lbc:uncrafted/honeycomb_string
-execute if data storage lbc.math {item:"minecraft:carrot_on_a_stick"} unless entity @s[nbt={Item: {components: {"magicwand": true}}}] unless entity @s[nbt={Item: {components: {"raycastspell": true}}}] run loot spawn ~ ~ ~ loot lbc:uncrafted/fishing_rod_carrot
+execute if data storage lbc.math {item:"minecraft:carrot_on_a_stick"} unless entity @s[nbt={Item: {components: {"minecraft:custom_data":{"magicwand": true}}}}] unless entity @s[nbt={Item: {components: {"minecraft:custom_data":{"raycastspell": true}}}}] run loot spawn ~ ~ ~ loot lbc:uncrafted/fishing_rod_carrot
 execute if data storage lbc.math {item:"minecraft:cartography_table"} run loot spawn ~ ~ ~ loot lbc:uncrafted/dark_oak_planks_4_paper_2
 execute if data storage lbc.math {item:"minecraft:cauldron"} run loot spawn ~ ~ ~ loot lbc:uncrafted/iron_ingot_7
 execute if data storage lbc.math {item:"minecraft:chain"} run loot spawn ~ ~ ~ loot lbc:uncrafted/iron_nugget_2_iron_ingot
@@ -419,7 +419,7 @@ execute if data storage lbc.math {item:"minecraft:spruce_door"} run loot spawn ~
 execute if data storage lbc.math {item:"minecraft:spruce_fence_gate"} run loot spawn ~ ~ ~ loot lbc:uncrafted/spruce_planks_2_stick_4
 execute if data storage lbc.math {item:"minecraft:spruce_pressure_plate"} run loot spawn ~ ~ ~ loot lbc:uncrafted/spruce_planks_2
 execute if data storage lbc.math {item:"minecraft:spruce_trapdoor"} run loot spawn ~ ~ ~ loot lbc:uncrafted/spruce_planks_3
-execute if data storage lbc.math {item:"minecraft:spyglass"} unless entity @s[nbt={Item: {components: {"metal_pipe": true}}}] run loot spawn ~ ~ ~ loot lbc:uncrafted/copper_ingot_2_amethyst_shard
+execute if data storage lbc.math {item:"minecraft:spyglass"} unless entity @s[nbt={Item: {components: {"minecraft:custom_data":{"metal_pipe": true}}}}] run loot spawn ~ ~ ~ loot lbc:uncrafted/copper_ingot_2_amethyst_shard
 execute if data storage lbc.math {item:"minecraft:stick"} run loot spawn ~ ~ ~ loot lbc:uncrafted/bamboo_2
 execute if data storage lbc.math {item:"minecraft:sticky_piston"} run loot spawn ~ ~ ~ loot lbc:uncrafted/piston_slime_ball
 execute if data storage lbc.math {item:"minecraft:stone_axe"} run loot spawn ~ ~ ~ loot lbc:uncrafted/cobblestone_3_stick_2

@@ -1,0 +1,1 @@
+loot replace entity @s armor.chest loot lbc:neko_set

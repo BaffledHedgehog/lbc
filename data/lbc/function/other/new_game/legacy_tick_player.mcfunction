@@ -1,3 +1,3 @@
-execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{mystical_old:1,type:4}}]}] run function lbc:other/artifact/noarrows_old
-execute at @s[nbt={Inventory:[{id:"minecraft:iron_boots",Slot:100b,components:{"reactive_old": true}}]}] run particle cloud ~ ~-0.2 ~ 0.2 0.02 0.2 0.01 1 force
-effect give @s[nbt={Inventory:[{id:"minecraft:iron_boots",Slot:100b,components:{"reactive_old": true}}]}] minecraft:slow_falling 1 0 true
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:4}}}]}] run function lbc:other/artifact/noarrows_old
+execute at @s[nbt={Inventory:[{id:"minecraft:iron_boots",Slot:100b,components:{"minecraft:custom_data":{"reactive_old": true}}}]}] run particle cloud ~ ~-0.2 ~ 0.2 0.02 0.2 0.01 1 force
+effect give @s[nbt={Inventory:[{id:"minecraft:iron_boots",Slot:100b,components:{"minecraft:custom_data":{"reactive_old": true}}}]}] minecraft:slow_falling 1 0 true
