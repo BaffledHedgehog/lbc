@@ -1,7 +1,7 @@
 tag @s add tagged
 execute if score #lbcskill swrg.math matches 1 run function lbc:items_tick_tag_2
-tag @s[nbt={Item: {components: {"minecraft:custom_data":{"minecraft:custom_data":{"drop":true}}}}}] add drop
-tag @s[nbt={Item: {components: {"minecraft:custom_data":{"minecraft:custom_data":{"fast": true}}}}}] add fast
+tag @s[nbt={Item: {components: {"minecraft:custom_data":{"drop":true}}}}] add drop
+tag @s[nbt={Item: {components: {"minecraft:custom_data":{"fast": true}}}}] add fast
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"fast_old": true}}}}] add fast_old
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"metal_pipe": true}}}}] add metal_pipe
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"transformable": true}}}}] add transformable

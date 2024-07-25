@@ -1,4 +1,4 @@
-summon item ~ ~ ~ {Tags:["itemteamblue"],NoGravity:1b,Glowing:1b,CustomNameVisible:1b,Age:-32768,Health:999999,CustomName:'{"translate":"infinity","color":"dark_aqua","italic":false}',Item:{id:"minecraft:repeating_command_block",count:1,components:{"instantitem":true,"infinity_rand":true,"minecraft:custom_model_data":574}}}
+summon item ~ ~ ~ {Tags:["itemteamblue"],NoGravity:1b,Glowing:1b,CustomNameVisible:1b,Age:-32768,Health:999999,CustomName:'{"translate":"infinity","color":"dark_aqua","italic":false}',Item:{id:"minecraft:repeating_command_block",count:1,components:{"minecraft:custom_data":{"instantitem":true,"infinity_rand":true},"minecraft:custom_model_data":574}}}
 team add bluegays
 team modify bluegays color aqua
 team join bluegays @e[type=item,tag=itemteamblue]
