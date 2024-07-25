@@ -1,11 +1,11 @@
 playsound entity.firework_rocket.launch master @a ~ ~ ~ 3 1
 particle firework ~ ~15 ~ 0 15 0 0 140 normal
-particle dust 0.8 0.8 1 14 ~ ~5 ~ 2 0 0 0 140 force
-particle dust 0.8 0.8 1 14 ~ ~5 ~ 0 0 2 0 140 force
-particle dust 0.8 0.8 1 14 ~-2.5 ~5 ~5 1.5 0 0 0 140 force
-particle dust 0.8 0.8 1 14 ~2.5 ~5 ~-5 1.5 0 0 0 140 force
-particle dust 0.8 0.8 1 14 ~5 ~5 ~2.5 0 0 1.5 0 140 force
-particle dust 0.8 0.8 1 14 ~-5 ~5 ~-2.5 0 0 1.5 0 140 force
+particle dust{color:[0.8,0.8,1.0],scale:4} ~ ~5 ~ 2 0 0 0 140 force
+particle dust{color:[0.8,0.8,1.0],scale:4} ~ ~5 ~ 0 0 2 0 140 force
+particle dust{color:[0.8,0.8,1.0],scale:4} ~-2.5 ~5 ~5 1.5 0 0 0 140 force
+particle dust{color:[0.8,0.8,1.0],scale:4} ~2.5 ~5 ~-5 1.5 0 0 0 140 force
+particle dust{color:[0.8,0.8,1.0],scale:4} ~5 ~5 ~2.5 0 0 1.5 0 140 force
+particle dust{color:[0.8,0.8,1.0],scale:4} ~-5 ~5 ~-2.5 0 0 1.5 0 140 force
 summon fireball ~ ~50 ~ {ExplosionPower:2b,Motion:[0.0,-0.2,0.0]}
 summon fireball ~ ~75 ~3 {ExplosionPower:2b,Motion:[0.0,-0.2,0.0]}
 summon fireball ~3 ~100 ~ {ExplosionPower:2b,Motion:[0.0,-0.2,0.0]}

@@ -1,1 +1,1 @@
-particle dust_color_transition 1 0.749 0.376 3 1 0.902 0 ^ ^ ^-0.5 1 1 1 0.4 1 force
+particle dust_color_transition{from_color:[1.0,0.749,0.376],scale:3,to_color:[1.0,0.902,0.0]} ^ ^ ^-0.5 1 1 1 0.4 1 force

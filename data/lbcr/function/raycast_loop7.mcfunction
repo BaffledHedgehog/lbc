@@ -1,8 +1,8 @@
 scoreboard players add @s Distance 1
-particle minecraft:dust_color_transition 0 0.7 0.4 2 0 5 1 ~ ~ ~ 0.1 0.1 0.1 0.01 1 force
+particle minecraft:dust_color_transition{from_color:[0.0,0.7,0.4],scale:2,to_color:[0.0, 5.0, 1.0]} ~ ~ ~ 0.1 0.1 0.1 0.01 1 force
 playsound minecraft:item.trident.return master @a ~ ~ ~ 0.1 0
 execute if entity @e[type=#mobs,distance=..15,dx=0,dy=0,dz=0] run function lbcr:dmg_bypl_8
-execute if entity @s[predicate=lbc:chance0_5] run setblock ~ ~ ~ light_blue_stained_glass
+execute if entity @s[predicate=lbc:chance0_125] run setblock ~ ~ ~ light_blue_stained_glass
 execute unless block ~0.26 ~ ~ #minecraft:airs as @s[scores={Distance=..6}] rotated ~45 ~ positioned ^ ^ ^0.4 run tp @s ~ ~ ~ ~ ~
 execute unless block ~-0.26 ~ ~ #minecraft:airs as @s[scores={Distance=..6}] rotated ~-45 ~ positioned ^ ^ ^0.4 run tp @s ~ ~ ~ ~ ~
 execute unless block ~ ~0.26 ~ #minecraft:airs as @s[scores={Distance=..6}] rotated ~ ~45 positioned ^ ^ ^0.4 run tp @s ~ ~ ~ ~ ~
