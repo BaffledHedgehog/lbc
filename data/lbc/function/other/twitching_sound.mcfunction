@@ -5,5 +5,5 @@ execute if score #random6 lbc.math matches 3 run playsound minecraft:lbcsounds.y
 execute if score #random6 lbc.math matches 4 run playsound minecraft:lbcsounds.yamai_desu_3 master @a ~ ~ ~ 2.5 1
 execute if score #random6 lbc.math matches 5 run playsound minecraft:lbcsounds.ooh master @a ~ ~ ~ 2.5 1
 execute if score #random6 lbc.math matches 6 run playsound minecraft:lbcsounds.nyah master @a ~ ~ ~ 2.5 1
-particle dust 1 1 1 1 ~ ~.8 ~ 0.1 0.1 0.1 0.2 30 normal
+particle dust{color:[1.0,1.0,1.0],scale:1} ~ ~.8 ~ 0.1 0.1 0.1 0.2 30 normal
 execute if entity @s[nbt={Inventory:[{id:"minecraft:glass_bottle"}]}] run function lbc:other/twitching_bottle_fill
