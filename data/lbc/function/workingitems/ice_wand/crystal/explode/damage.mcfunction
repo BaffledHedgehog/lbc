@@ -7,4 +7,4 @@ scoreboard players set @s[scores={frozen=..0}] cold_cd 5
 
 function lbc:other/freeze/check
 
-execute if entity @s[type=player,scores={frozen=1..}] as @a[tag=damager,limit=1,nbt={SelectedItem:{components:{"minecraft:custom_data":{"ice_wand": true,upgradable:true}}}},nbt=!{SelectedItem:{components:{"minecraft:custom_data":{upgrade_available:1b}}}}] run function lbc:other/magic_academy/can_upgrade
+execute if entity @s[type=player,scores={frozen=1..}] as @a[tag=damager,limit=1,nbt={SelectedItem:{components:{"minecraft:custom_data":{"ice_wand": true,upgradable:true}}}},nbt=!{SelectedItem:{components:{"minecraft:custom_data":{"upgrade_available": true}}}}] run function lbc:other/magic_academy/can_upgrade
