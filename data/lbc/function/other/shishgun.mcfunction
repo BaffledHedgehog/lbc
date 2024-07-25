@@ -5,4 +5,4 @@ playsound item.trident.riptide_1 master @a ~ ~ ~ 2 0
 playsound item.trident.riptide_2 master @a ~ ~ ~ 2 1
 playsound item.trident.riptide_3 master @a ~ ~ ~ 2 2
 kill @e[sort=nearest,limit=1,nbt={Item:{components:{"reactive_shish": true}}}]
-kill @e[sort=nearest,limit=1,nbt={Item:{components:{"railgun_bow": true}}}]
+kill @e[sort=nearest,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"railgun_bow": true}}}}]
