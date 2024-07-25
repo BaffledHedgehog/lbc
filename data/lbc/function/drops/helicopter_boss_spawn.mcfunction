@@ -4,4 +4,4 @@ execute positioned ^ ^20 ^50 as @e[type=item_display,tag=helicopter_boss,tag=!id
 playsound minecraft:lbcsounds.helicopter master @a[distance=..20] ~ ~ ~ 0.1 1 0.1
 playsound minecraft:lbcsounds.kazahstan master @a[distance=..20] ~ ~ ~ 2 1 1
 execute positioned ^ ^20 ^50 at @e[type=item_display,limit=1,tag=helicopter_boss,distance=..0.01] facing entity @s feet rotated ~ 0 run tp @e[type=item_display,limit=1,tag=helicopter_boss,distance=..0.01] ~ ~ ~ ~ ~
-particle dust 1 0 0 2 ~ ~10 ~ 0 100 0 0 1000 normal
+particle dust{color:[1.0,0.0,0.0],scale:2} ~ ~10 ~ 0 100 0 0 1000 normal

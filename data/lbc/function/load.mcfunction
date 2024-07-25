@@ -193,6 +193,7 @@ scoreboard objectives add nexus_roadgun_cd dummy
 scoreboard objectives add nexus_corrupter_cd dummy
 scoreboard objectives add MagnumNyauwu dummy
 scoreboard objectives add speed dummy
+scoreboard objectives add speedy dummy
 scoreboard objectives add danmaku dummy
 scoreboard objectives add danmaku_score dummy
 scoreboard objectives add pulsar_cd dummy

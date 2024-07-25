@@ -117,6 +117,7 @@ scoreboard objectives remove nexus_roadgun_cd
 scoreboard objectives remove nexus_corrupter_cd
 scoreboard objectives remove MagnumNyauwu
 scoreboard objectives remove speed
+scoreboard objectives remove speedy
 scoreboard objectives remove danmaku
 scoreboard objectives remove danmaku_score
 scoreboard objectives remove pulsar_cd

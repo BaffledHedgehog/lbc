@@ -9,6 +9,7 @@ scoreboard players operation y lbc.math -= @s y
 scoreboard players operation z lbc.math -= @s z
 
 scoreboard players operation speedy lbc.math = y lbc.math
+scoreboard players operation @s speedy = y lbc.math
 
 scoreboard players operation x lbc.math *= x lbc.math
 scoreboard players operation y lbc.math *= y lbc.math
