@@ -6,5 +6,5 @@ particle dust 0 0 0 14 ~-2.5 ~5 ~5 1.5 0 0 0 140 force
 particle dust 0 0 0 14 ~2.5 ~5 ~-5 1.5 0 0 0 140 force
 particle dust 0 0 0 14 ~5 ~5 ~2.5 0 0 1.5 0 140 force
 particle dust 0 0 0 14 ~-5 ~5 ~-2.5 0 0 1.5 0 140 force
-summon fireball ~ ~400 ~ {ExplosionPower:15b,power:[0.0,-0.2,0.0]}
+summon fireball ~ ~400 ~ {ExplosionPower:15b,Motion:[0.0,-0.2,0.0]}
 scoreboard players set @s Distance 1000

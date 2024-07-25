@@ -1,4 +1,4 @@
-clear @s nether_star{"greedstone": true} 1
+clear @s nether_star[custom_data={"greedstone": true}] 1
 scoreboard players add @s greed_prestige 1
 tag @s add greed_cursed
 title @s title ""

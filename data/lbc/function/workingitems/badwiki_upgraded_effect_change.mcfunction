@@ -2,7 +2,7 @@ execute if entity @s[x_rotation=89..90] run function lbc:other/magic_academy/cha
 execute if entity @s[x_rotation=-90..-89] run function lbc:other/magic_academy/change_tier_3_up
 execute if entity @s[x_rotation=-89..0] run function lbc:other/magic_academy/change_mode_28_up
 execute if entity @s[x_rotation=0..89] run function lbc:other/magic_academy/change_mode_28_down
-execute store result score #tier lbc.math run data get entity @s SelectedItem.tag.tier 1
+execute store result score #tier lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.tier 1
 
 execute if score #mode lbc.math matches 1 run tellraw @s [{"translate":"lbc_absorption"},{"score":{"objective": "lbc.math","name": "#tier"}}]
 execute if score #mode lbc.math matches 2 run tellraw @s [{"translate":"lbc_blindness"},{"score":{"objective": "lbc.math","name": "#tier"}}]

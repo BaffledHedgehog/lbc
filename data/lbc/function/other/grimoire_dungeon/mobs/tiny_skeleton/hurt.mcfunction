@@ -11,4 +11,4 @@ summon item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0f,shadow_stre
 summon item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0f,shadow_strength:0f,teleport_duration:1,item_display:"fixed",transformation:[0f,0f,2.5000f,0f,1.7678f,-1.7678f,0f,0f,1.7678f,1.7678f,0f,0f,0f,0f,0f,3f],item:{id:"minecraft:golden_sword",count:1,components:{"minecraft:custom_model_data":582}},Tags:["thromn_sword","slowraycast","player","evil"]}
 
 execute as @e[type=item_display,limit=11,distance=..0.01,tag=!actived,tag=thromn_sword] at @s run function lbc:universal_razbros_up_active
-particle item bone ~ ~-0.4 ~ .5 .5 .5 0 10 normal
+particle item{item:"bone"} ~ ~-0.4 ~ .5 .5 .5 0 10 normal

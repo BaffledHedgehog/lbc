@@ -1,4 +1,4 @@
-execute store result score #tier lbc.math run data get entity @s SelectedItem.tag.tier 1
+execute store result score #tier lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.tier 1
 execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
 scoreboard players remove #tier lbc.math 1
 execute if score #mode lbc.math matches 28 run scoreboard players add #tier lbc.math 40
