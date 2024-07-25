@@ -7007,7 +7007,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:illusioner",
-                                    "CustomNameVisible": 0,
+                                    "CustomNameVisible": false,
                                     "CustomName": "{\"text\":\"Иллюзор\"}"
                                 }
                             }
@@ -7037,7 +7037,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:iron_golem",
-                                    "CustomNameVisible": 0,
+                                    "CustomNameVisible": false,
                                     "CustomName": "{\"text\":\"Железный голем\"}"
                                 }
                             }
@@ -7067,7 +7067,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:snow_golem",
-                                    "CustomNameVisible": 0,
+                                    "CustomNameVisible": false,
                                     "CustomName": "{\"text\":\"Снеговик\"}"
                                 }
                             }
@@ -7097,13 +7097,13 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:ender_dragon",
-                                    "CustomNameVisible": 0,
+                                    "CustomNameVisible": false,
                                     "Health": 15,
                                     "DragonPhase": 1,
                                     "CustomName": "{\"text\":\"Эндер Дракон\"}",
                                     "attributes": [
                                         {
-                                            "Name": "generic.max_health",
+                                            "id": "minecraft:generic.max_health",
                                             "base": 15
                                         }
                                     ]
@@ -7135,12 +7135,12 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:wither",
-                                    "CustomNameVisible": 0,
+                                    "CustomNameVisible": false,
                                     "Health": 20,
                                     "CustomName": "{\"text\":\"Иссушитель\"}",
                                     "attributes": [
                                         {
-                                            "Name": "generic.max_health",
+                                            "id": "minecraft:generic.max_health",
                                             "base": 20
                                         }
                                     ]
@@ -7172,19 +7172,19 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:giant",
-                                    "NoGravity": 0,
-                                    "Silent": 0,
-                                    "Invulnerable": 0,
-                                    "CustomNameVisible": 0,
-                                    "NoAI": 0,
+                                    "NoGravity": false,
+                                    "Silent": false,
+                                    "Invulnerable": false,
+                                    "CustomNameVisible": false,
+                                    "NoAI": false,
                                     "CustomName": "{\"text\":\"Гигант\"}",
                                     "attributes": [
                                         {
-                                            "Name": "generic.attack_damage",
+                                            "id": "minecraft:generic.attack_damage",
                                             "base": 10
                                         },
                                         {
-                                            "Name": "generic.attack_knockback",
+                                            "id": "minecraft:generic.attack_knockback",
                                             "base": 5
                                         }
                                     ]
@@ -7216,7 +7216,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:armor_stand",
-                                    "CustomNameVisible": 0,
+                                    "CustomNameVisible": false,
                                     "CustomName": "{\"text\":\"Стойка для брони\"}"
                                 }
                             }
@@ -7246,7 +7246,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:tnt",
-                                    "CustomNameVisible": 0,
+                                    "CustomNameVisible": false,
                                     "fuse": 100,
                                     "CustomName": "{\"text\":\"Динамит\"}"
                                 }
@@ -7277,9 +7277,9 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:boat",
-                                    "NoGravity": 1,
-                                    "Glowing": 1,
-                                    "CustomNameVisible": 0,
+                                    "NoGravity": true,
+                                    "Glowing": true,
+                                    "CustomNameVisible": false,
                                     "Type": "birch",
                                     "Motion": [
                                         0,

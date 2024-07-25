@@ -2,7 +2,7 @@ scoreboard players set *temp.fly.particle lbc.math 0
 effect clear @s levitation
 attribute @s minecraft:generic.gravity modifier remove gravity_mk2armor_fix1
 attribute @s minecraft:generic.gravity modifier remove gravity_mk2armor_fix2
-execute if entity @s[nbt=!{Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"technomk2": true}}}]}] run attribute @s minecraft:generic.gravity modifier add gravity_mk2armor_fix2 0.2 add_value
+execute if entity @s[nbt=!{Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"technomk2": true}}}]}] run attribute @s minecraft:generic.gravity modifier add gravity_mk2armor_fix2 0.1 add_value
 execute if entity @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"technomk2": true}}}]}] store result storage lbc.math tmp double 0.05 run data get entity @s Rotation[1] 100
 
 function lbc:armor/technomk2/boots/flight/hover_1 with storage lbc.math

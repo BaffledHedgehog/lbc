@@ -13,13 +13,13 @@ setblock ~ ~-1 ~ bedrock
 setblock ~ ~4 ~ bedrock
 setblock ~ ~3 ~ end_gateway{ExactTeleport:1b}
 
-data modify block ~ ~3 ~ ExitPortal.X set from entity @e[tag=randomportal,limit=1] Pos[0]
-data modify block ~ ~3 ~ ExitPortal.Y set from entity @e[tag=randomportal,limit=1] Pos[1]
-data modify block ~ ~3 ~ ExitPortal.Z set from entity @e[tag=randomportal,limit=1] Pos[2]
+data modify block ~ ~3 ~ exit_portal[0] set from entity @e[tag=randomportal,limit=1] Pos[0]
+data modify block ~ ~3 ~ exit_portal[1] set from entity @e[tag=randomportal,limit=1] Pos[1]
+data modify block ~ ~3 ~ exit_portal[2] set from entity @e[tag=randomportal,limit=1] Pos[2]
 
-execute at @e[tag=randomportal] run data modify block ~ ~3 ~ ExitPortal.X set from entity @s Pos[0] 
-execute at @e[tag=randomportal] run data modify block ~ ~3 ~ ExitPortal.Y set from entity @s Pos[1] 
-execute at @e[tag=randomportal] run data modify block ~ ~3 ~ ExitPortal.Z set from entity @s Pos[2] 
+execute at @e[tag=randomportal] run data modify block ~ ~3 ~ exit_portal[0] set from entity @s Pos[0] 
+execute at @e[tag=randomportal] run data modify block ~ ~3 ~ exit_portal[1] set from entity @s Pos[1] 
+execute at @e[tag=randomportal] run data modify block ~ ~3 ~ exit_portal[2] set from entity @s Pos[2] 
 
 kill @e[tag=randomportal]
 
