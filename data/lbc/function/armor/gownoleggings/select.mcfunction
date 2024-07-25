@@ -1,7 +1,7 @@
-execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"gownoleggings": true}}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{Slot:101b,components:{"gownoleggings": true}}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"gownoleggings": true}}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"gownoleggings": true}}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"gownoleggings": true}}}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute if entity @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"gownoleggings": true}}}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{"gownoleggings": true}}}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"gownoleggings": true}}}]}] run scoreboard players add shit_amount_temp lbc.math 1
 execute if score #lbcskill swrg.math matches 1 if score @s lbc.skill matches 9 run function lbc:armor/gownoleggings/select_gownomen
 execute if score shit_amount_temp lbc.math matches 1 run function lbc:armor/gownoleggings/1
 execute if score shit_amount_temp lbc.math matches 2 run function lbc:armor/gownoleggings/2

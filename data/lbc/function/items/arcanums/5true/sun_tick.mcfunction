@@ -1,5 +1,5 @@
 effect give @s fire_resistance 120 0
-execute if entity @s[nbt={SelectedItem:{components:{sun_arcanum:1b}},Inventory:[{Slot:-106b,components:{sun_arcanum:1b}}]}] as @e[type=#mobs,distance=0.01..50,tag=!spectator] run damage @s 6 on_fire by @p[tag=sun_active,gamemode=!spectator]
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"sun_arcanum":true}}},Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"sun_arcanum":true}}}]}] as @e[type=#mobs,distance=0.01..50,tag=!spectator] run damage @s 6 on_fire by @p[tag=sun_active,gamemode=!spectator]
 particle flame ~ ~1 ~ 0.5 1 0.5 2 40 normal
 place template lbc:the_sun ~-13 ~-13 ~-13 none none 1
 playsound block.fire.ambient master @a ~ ~ ~ 3 0

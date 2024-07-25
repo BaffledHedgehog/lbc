@@ -12,4 +12,4 @@ execute store result entity @e[tag=babylon_charge,distance=..5,limit=1] Motion[2
 data modify entity @e[tag=babylon_charge,distance=..5,limit=1] Owner set from entity @s UUID
 kill @e[type=marker,tag=reikast]
 tag @e[tag=babylon_charge,limit=1,distance=..5] remove babylon_charge
-particle dust_color_transition 1 1 0 1 1 1 1 ~ ~ ~ 0.1 0.1 0.1 0.4 10 normal
+particle dust_color_transition{from_color:[1.0,1.0,0.0],scale:1,to_color:[1.0,1.0,1.0]} ~ ~ ~ 0.1 0.1 0.1 0.4 10 force

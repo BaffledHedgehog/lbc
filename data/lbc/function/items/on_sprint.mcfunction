@@ -1,4 +1,4 @@
 scoreboard players add @s sprint_timer 1
-execute at @s[predicate=lbc:chance5,nbt={Inventory:[{Slot:100b,components:{"chaoschestplate": true}}],OnGround:1b}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:other/chaoschestplate/effectselect_sprint
+execute at @s[predicate=lbc:chance5,nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"chaoschestplate":true}}}],OnGround:1b}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:other/chaoschestplate/effectselect_sprint
 execute at @s[nbt={Inventory:[{Slot:100b,components:{"moisei": true}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/moisei_boots_tick
 execute at @s[nbt={SelectedItem:{components:{steampunk_sword:1b}}}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:swrg_kit_integration/items/steampunk_sword

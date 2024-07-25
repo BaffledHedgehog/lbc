@@ -14,7 +14,7 @@ execute at @s[nbt={SelectedItem:{components:{"ender": true}}}] unless entity @a[
 execute at @s[nbt={Inventory:[{components:{mystical:2}}]}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:other/artifact/ondamage
 execute at @s[nbt={Inventory:[{components:{mystical_old:2}}]}] run function lbc:other/artifact/ondamage_old
 # sand amulet
-execute at @s[nbt={Inventory:[{components:{"gaara": true}}]}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] if entity @e[nbt={HurtTime:10s},distance=..10,tag=!spectator] run function lbc:workingitems/gaara1
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"gaara": true}}}]}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] if entity @e[nbt={HurtTime:10s},distance=..10,tag=!spectator] run function lbc:workingitems/gaara1
 execute at @s[nbt={Inventory:[{components:{"gaara_old": true}}]}] run function lbc:workingitems/gaara1_old
 
 execute if score time_stopped lbc.math matches 1.. if entity @s[tag=!time_stopped] at @e[type=#mobs,nbt={HurtTime:10s},distance=0.01..7,tag=!spectator] run summon marker ~ ~ ~ {Tags:["damage_splash"]}
