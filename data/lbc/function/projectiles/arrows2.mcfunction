@@ -37,5 +37,7 @@ execute if score tmp lbc.math matches 123 run scoreboard players operation @s ef
 execute if score tmp lbc.math matches 124 run scoreboard players operation @s effect_chain_lightning += dur lbc.math
 
 tag @s add have_lucky_effects
+tag @s add have_lucky_effects_1s
+tag @s add have_lucky_effects_5t
 effect clear @s raid_omen
 

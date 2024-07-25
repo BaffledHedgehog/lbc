@@ -251,6 +251,7 @@ scoreboard objectives add effect_add_mana dummy
 scoreboard objectives add effect_remove_mana dummy
 scoreboard objectives add effect_snus dummy
 scoreboard objectives add effect_boost_mana dummy
+scoreboard objectives add effect_gravity_curse dummy
 
 
 

@@ -30,6 +30,12 @@
                                         "id": "grbydjgjgjghjhjr",
                                         "amount": 2,
                                         "operation": "add_value"
+                                    },{
+                                        "type": "minecraft:generic.safe_fall_distance",
+                                        "slot": "feet",
+                                        "id": "grbydjgjgjghjhjtjtyyjjr",
+                                        "amount": 16,
+                                        "operation": "add_value"
                                     }
                                 ]
                             }
