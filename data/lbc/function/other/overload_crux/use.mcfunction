@@ -27,4 +27,4 @@ execute store success score tmp3 lbc.math if entity @s[nbt={Inventory:[{Slot:102
 execute store success score tmp3 lbc.math if entity @s[nbt={Inventory:[{Slot:101b,id:"minecraft:diamond_leggings"}]}] run loot replace entity @s armor.legs loot lbc:neko_set_overload/leggings
 execute store success score tmp3 lbc.math if entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:diamond_boots"}]}] run loot replace entity @s armor.feet loot lbc:neko_set_overload/boots
 execute if score tmp3 lbc.math matches 1 run playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2
-clear @s carrot_on_a_stick[custom_data={"overload_crux": true}] 1
+clear @s carrot_on_a_stick[custom_data~{"overload_crux": true}] 1

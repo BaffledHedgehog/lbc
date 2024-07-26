@@ -1,4 +1,4 @@
-clear @s repeating_command_block[custom_data={"nexus_wire_red": true}] 1
+clear @s repeating_command_block[custom_data~{"nexus_wire_red": true}] 1
 tellraw @s {"translate":"red_wire_destroyed","color":"red"}
 experience add @s 20 points
 scoreboard players add @s mana 5000

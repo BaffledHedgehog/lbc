@@ -33,7 +33,6 @@ tag @s remove friendly_tuntija
 tag @s remove kill_one_skeleton
 tag @s remove have_mom
 tag @s remove balance_user
-tag @s remove infinite_haste
 tag @s remove infinite_resistance
 tag @s remove infinite_heal
 tag @s remove infinite_saturation

@@ -30,7 +30,7 @@ execute if score tmp lbc.math matches 116 run scoreboard players operation @s pi
 execute if score tmp lbc.math matches 117 run scoreboard players operation @s effect_witch_gens_reset += dur lbc.math
 execute if score tmp lbc.math matches 118 run scoreboard players operation @s effect_hedgehog_boom += dur lbc.math
 execute if score tmp lbc.math matches 119 run scoreboard players operation @s effect_stand_arrow_hit += dur lbc.math
-execute if score tmp lbc.math matches 120 run scoreboard players operation @s delayed_death += dur lbc.math
+execute if score tmp lbc.math matches 120 run scoreboard players operation @s delayed_death = dur lbc.math
 execute if score tmp lbc.math matches 121 run scoreboard players operation @s effect_nuking += dur lbc.math
 execute if score tmp lbc.math matches 122 run scoreboard players operation @s effect_vacuum += dur lbc.math
 execute if score tmp lbc.math matches 123 run scoreboard players operation @s effect_timestop += dur lbc.math

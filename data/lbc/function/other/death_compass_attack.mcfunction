@@ -1,4 +1,4 @@
-clear @s recovery_compass[custom_data={"death_compass": true}] 1
+clear @s recovery_compass[custom_data~{"death_compass": true}] 1
 summon warden ~ ~15 ~ {DeathLootTable:"lbc:death_loot",Health:150f,Tags:["death_mob"],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:32767L}}}}
 effect give @s darkness 30 0
 playsound entity.warden.dig master @a ~ ~ ~ 1 1

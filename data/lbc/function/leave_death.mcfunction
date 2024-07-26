@@ -165,4 +165,5 @@ scoreboard players set @s effect_gravity_curse 0
 tag @s remove have_lucky_effects
 tag @s remove have_lucky_effects_5t
 tag @s remove have_lucky_effects_1s
+effect clear @s
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/killed_by_player

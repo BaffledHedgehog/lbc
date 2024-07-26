@@ -95,7 +95,6 @@ scoreboard players set @s swrg.death 0
 scoreboard players set @s end_damage 0
 scoreboard players set @s nanobots_coldown 0
 scoreboard players set @s nanobots_tier 0
-tag @s remove infinite_haste
 tag @s remove infinite_resistance
 tag @s remove infinite_heal
 tag @s remove infinite_saturation

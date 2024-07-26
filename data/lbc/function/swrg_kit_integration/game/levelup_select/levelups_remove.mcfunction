@@ -43,3 +43,44 @@ tag @s remove perfe
 tag @s remove strong_charge
 tag @s remove strong_charge_1
 tag @s remove gravitas
+
+
+
+attribute @s generic.scale modifier remove infinity_scale
+attribute @s generic.attack_damage modifier remove infinity_scale
+attribute @s generic.attack_knockback modifier remove infinity_scale
+attribute @s generic.explosion_knockback_resistance modifier remove infinity_scale
+attribute @s generic.fall_damage_multiplier modifier remove infinity_scale
+attribute @s generic.jump_strength modifier remove infinity_scale
+attribute @s generic.knockback_resistance modifier remove infinity_scale
+attribute @s generic.max_health modifier remove infinity_scale
+attribute @s generic.movement_efficiency modifier remove infinity_scale
+attribute @s generic.movement_speed modifier remove infinity_scale
+attribute @s generic.safe_fall_distance modifier remove infinity_scale
+attribute @s generic.step_height modifier remove infinity_scale
+attribute @s generic.water_movement_efficiency modifier remove infinity_scale
+attribute @s minecraft:player.block_break_speed modifier remove infinity_scale
+attribute @s minecraft:player.block_interaction_range modifier remove infinity_scale
+attribute @s minecraft:player.entity_interaction_range modifier remove infinity_scale
+attribute @s minecraft:player.mining_efficiency modifier remove infinity_scale
+attribute @s minecraft:player.sweeping_damage_ratio modifier remove infinity_scale
+attribute @s generic.gravity modifier remove infinity_scale
+attribute @s generic.scale modifier remove infinity_scale1
+attribute @s generic.attack_damage modifier remove infinity_scale1
+attribute @s generic.attack_knockback modifier remove infinity_scale1
+attribute @s generic.explosion_knockback_resistance modifier remove infinity_scale1
+attribute @s generic.fall_damage_multiplier modifier remove infinity_scale1
+attribute @s generic.jump_strength modifier remove infinity_scale1
+attribute @s generic.knockback_resistance modifier remove infinity_scale1
+attribute @s generic.max_health modifier remove infinity_scale1
+attribute @s generic.movement_efficiency modifier remove infinity_scale1
+attribute @s generic.movement_speed modifier remove infinity_scale1
+attribute @s generic.safe_fall_distance modifier remove infinity_scale1
+attribute @s generic.step_height modifier remove infinity_scale1
+attribute @s generic.water_movement_efficiency modifier remove infinity_scale1
+attribute @s minecraft:player.block_break_speed modifier remove infinity_scale1
+attribute @s minecraft:player.block_interaction_range modifier remove infinity_scale1
+attribute @s minecraft:player.entity_interaction_range modifier remove infinity_scale1
+attribute @s minecraft:player.mining_efficiency modifier remove infinity_scale1
+attribute @s minecraft:player.sweeping_damage_ratio modifier remove infinity_scale1
+attribute @s generic.gravity modifier remove infinity_scale1
