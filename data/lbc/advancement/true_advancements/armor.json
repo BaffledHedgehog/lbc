@@ -34,7 +34,7 @@
                         "predicate": {
                             "equipment": {
                                 "head": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "transformable": true,
                                             "helmet": true
@@ -42,7 +42,7 @@
                                     }
                                 },
                                 "chest": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "transformable": true,
                                             "chestplate": true
@@ -50,7 +50,7 @@
                                     }
                                 },
                                 "legs": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "transformable": true,
                                             "leggings": true
@@ -58,7 +58,7 @@
                                     }
                                 },
                                 "feet": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "transformable": true,
                                             "boots": true

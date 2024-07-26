@@ -42,13 +42,16 @@
                             "minecraft:tipped_arrow"
                         ],
                         "components": {
-                            "minecraft:potion_contents": {
+                            "potion_contents": {
                                 "custom_effects": [
                                     {
                                         "id": "minecraft:raid_omen",
-                                        "amplifier": 20
+                                        "amplifier": 20,
+                                        "duration": 5,
+                                        "show_particles": false
                                     }
-                                ]
+                                ],
+                                "custom_color": 16056821
                             }
                         }
                     }

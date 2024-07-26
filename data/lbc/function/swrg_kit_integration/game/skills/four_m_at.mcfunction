@@ -79,6 +79,9 @@ execute if entity @s[type=tadpole] run summon tadpole ~ ~ ~ {Tags:["quadried","q
 execute if entity @s[type=camel] run summon camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=sniffer] run summon sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=breeze] run summon breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=wind_charge] run summon wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=armadillo] run summon armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=bogged] run summon bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 
@@ -164,7 +167,9 @@ execute if entity @s[type=tadpole] run summon tadpole ~ ~ ~ {Tags:["quadried","q
 execute if entity @s[type=camel] run summon camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=sniffer] run summon sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=breeze] run summon breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-
+execute if entity @s[type=wind_charge] run summon wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=armadillo] run summon armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=bogged] run summon bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 
@@ -250,7 +255,9 @@ execute if entity @s[type=tadpole] run summon tadpole ~ ~ ~ {Tags:["quadried","q
 execute if entity @s[type=camel] run summon camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=sniffer] run summon sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=breeze] run summon breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-
+execute if entity @s[type=wind_charge] run summon wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=armadillo] run summon armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=bogged] run summon bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 

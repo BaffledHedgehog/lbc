@@ -34,10 +34,13 @@
         ],
                 "items": [
                     {
-                        "components": {
-                            "minecraft:enchantments": {
-                              "minecraft:fortune": 3
-                            },
+                        "predicates": {
+                            "minecraft:enchantments": [
+                              {
+                                "enchantments": "minecraft:fortune",
+                                "levels": 3
+                              }
+                            ],
                             "minecraft:custom_data": {
                               "transformable": true,
                               "pickaxe": true,

@@ -7,7 +7,7 @@
             "items": [
               "minecraft:shield"
             ],
-            "components": {
+            "predicates": {
               "minecraft:custom_data": {
                 "energyshield": true
               }

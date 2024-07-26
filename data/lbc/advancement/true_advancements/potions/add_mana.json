@@ -39,18 +39,21 @@
                 ],
                 "item": {
                     "components": {
-                        "minecraft:potion_contents": {
-                            "custom_color": 1114367,
-                            "custom_effects": [
-                                {
-                                    "id": "minecraft:raid_omen",
-                                    "amplifier": 19
-                                }
-                            ]
-                        },
                         "minecraft:custom_data": {
                             "transformable": true,
                             "potion": true
+                        },
+                        "minecraft:hide_additional_tooltip": {},
+                        "potion_contents": {
+                            "custom_effects": [
+                                {
+                                    "id": "minecraft:raid_omen",
+                                    "amplifier": 19,
+                                    "duration": 1,
+                                    "show_particles": false
+                                }
+                            ],
+                            "custom_color": 1114367
                         }
                     }
                 }

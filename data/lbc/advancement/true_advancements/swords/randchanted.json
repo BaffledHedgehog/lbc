@@ -36,12 +36,21 @@
                 ],
                 "items": [
                     {
-                        "components": {
-                            "minecraft:enchantments": {
-                                "minecraft:sharpness": 5,
-                                "minecraft:knockback": 2,
-                                "minecraft:fire_aspect": 2
-                            },
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:sharpness",
+                                    "levels": 5
+                                },
+                                {
+                                    "enchantments": "minecraft:knockback",
+                                    "levels": 2
+                                },
+                                {
+                                    "enchantments": "minecraft:fire_aspect",
+                                    "levels": 2
+                                }
+                            ],
                             "minecraft:custom_data": {
                                 "transformable": true,
                                 "sword": true,

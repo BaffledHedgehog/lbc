@@ -36,7 +36,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
                                 "trollmask": 1
@@ -63,7 +63,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
                                 "trollmask": 2
@@ -90,7 +90,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
                                 "trollmask": 3
@@ -117,7 +117,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
                                 "trollmask": 4
@@ -144,7 +144,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
                                 "trollmask": 5
@@ -171,7 +171,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
                                 "trollmask": 6

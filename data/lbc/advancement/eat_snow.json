@@ -4,7 +4,7 @@
         "trigger": "minecraft:using_item",
         "conditions": {
           "item": {
-            "components": {
+            "predicates": {
               "minecraft:custom_data": {
                 "snow_bucket": true
               }

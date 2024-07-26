@@ -40,28 +40,28 @@
                         "predicate": {
                             "equipment": {
                                 "head": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "techno": true
                                         }
                                     }
                                 },
                                 "chest": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "techno": true
                                         }
                                     }
                                 },
                                 "legs": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "techno": true
                                         }
                                     }
                                 },
                                 "feet": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "techno": true
                                         }
@@ -73,7 +73,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "transformable": true,
                                 "sword": true,
@@ -82,7 +82,7 @@
                         }
                     },
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "transformable": true,
                                 "staff": true,
@@ -91,7 +91,7 @@
                         }
                     },
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "transformable": true,
                                 "bow": true,
@@ -100,7 +100,7 @@
                         }
                     },
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "transformable": true,
                                 "shield": true,

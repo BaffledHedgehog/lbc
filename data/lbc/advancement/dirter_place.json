@@ -10,7 +10,7 @@
                 "items": [
                   "minecraft:coarse_dirt"
                 ],
-                "components": {
+                "predicates": {
                   "minecraft:custom_data": {
                     "dirter": true
                   }

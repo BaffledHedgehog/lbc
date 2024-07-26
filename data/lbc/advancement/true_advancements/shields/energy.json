@@ -58,7 +58,7 @@
                                 "predicate": {
                                     "equipment": {
                                         "mainhand": {
-                                            "components": {
+                                            "predicates": {
                                                 "minecraft:custom_data": {
                                                   "energy_shield": true
                                                 }
@@ -73,7 +73,7 @@
                                 "predicate": {
                                     "equipment": {
                                         "offhand": {
-                                            "components": {
+                                            "predicates": {
                                                 "minecraft:custom_data": {
                                                   "energy_shield": true
                                                 }

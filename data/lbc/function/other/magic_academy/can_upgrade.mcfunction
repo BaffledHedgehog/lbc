@@ -1,1 +1,1 @@
-execute unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{unstable_spellbook:1}}}}] run function lbc:other/magic_academy/can_upgrade_book
+execute unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"unstable_spellbook": true}}}}] run function lbc:other/magic_academy/can_upgrade_book

@@ -6,14 +6,14 @@ item modify entity @s weapon.mainhand lbc:add_upgrade_desc
 
 tellraw @s {"translate":"magic_academy_root","color":"green"}
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"evocator": true}}}}] run function lbc:other/magic_academy/upgrade/evocator
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{bassboost:1}}}}] run function lbc:other/magic_academy/upgrade/bassboost
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{enderwand:1}}}}] run function lbc:other/magic_academy/upgrade/enderwand
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"bassboost": true}}}}] run function lbc:other/magic_academy/upgrade/bassboost
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"enderwand": true}}}}] run function lbc:other/magic_academy/upgrade/enderwand
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"corrupter": true}}}}] run function lbc:other/magic_academy/upgrade/corrupter
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{lifestealer:1}}}}] run function lbc:other/magic_academy/upgrade/lifestealer
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{foxusing:1}}}}] run function lbc:other/magic_academy/upgrade/foxusing
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{bloodmagic:1}}}}] run function lbc:other/magic_academy/upgrade/bloodmagic
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{badwiki:1}}}}] run function lbc:other/magic_academy/upgrade/badwiki
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{unstable_spellbook:1}}}}] run function lbc:other/magic_academy/upgrade/unstable_spellbook
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"lifestealer": true}}}}] run function lbc:other/magic_academy/upgrade/lifestealer
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"foxusing": true}}}}] run function lbc:other/magic_academy/upgrade/foxusing
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"bloodmagic": true}}}}] run function lbc:other/magic_academy/upgrade/bloodmagic
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"badwiki": true}}}}] run function lbc:other/magic_academy/upgrade/badwiki
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"unstable_spellbook": true}}}}] run function lbc:other/magic_academy/upgrade/unstable_spellbook
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"psychowand": true}}}}] run function lbc:other/magic_academy/upgrade/psychowand
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"omegaflag": true}}}}] run function lbc:other/magic_academy/upgrade/omegaflag
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"neutralmage": true}}}}] run function lbc:other/magic_academy/upgrade/neutralmage
@@ -40,7 +40,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"ad
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"fallingstars": true}}}}] run function lbc:other/magic_academy/upgrade/fallingstars
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"truefallingstars": true}}}}] run function lbc:other/magic_academy/upgrade/truefallingstars
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"prisma": true}}}}] run function lbc:other/magic_academy/upgrade/prisma
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{sheepwand:1}}}}] run function lbc:other/magic_academy/upgrade/sheepwand
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"sheepwand": true}}}}] run function lbc:other/magic_academy/upgrade/sheepwand
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"baffledhedgehog": true}}}}] run function lbc:other/magic_academy/upgrade/baffledhedgehog
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"lightningwand": true}}}}] run function lbc:other/magic_academy/upgrade/lightningwand
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"acidwand": true}}}}] run function lbc:other/magic_academy/upgrade/acidwand

@@ -1,24 +1,24 @@
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"evocator": true}}}]}] mana >= evoker_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/evokercast_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{bassboost:1}}}]}] mana >= bass_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/basscast_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"bassboost": true}}}]}] mana >= bass_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/basscast_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{enderwand:1}}}]}] mana >= ender_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/endcast_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"enderwand": true}}}]}] mana >= ender_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/endcast_pre
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"corrupter": true}}}]}] mana >= corruption_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/corrupter_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{lifestealer:1}}}]}] mana >= vampire_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/lifestealer_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"lifestealer": true}}}]}] mana >= vampire_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/lifestealer_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{foxusing:1}}}]}] mana >= confuse_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/foxuscast_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"foxusing": true}}}]}] mana >= confuse_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/foxuscast_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{bloodmagic:1}}}]}] mana >= blood_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/bloodmagic_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"bloodmagic": true}}}]}] mana >= blood_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/bloodmagic_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{badwiki:1}}}]}] mana >= bad_wiki_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/badwiki_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"badwiki": true}}}]}] mana >= bad_wiki_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/badwiki_pre
 
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"mobgun": true}}}]}] coldown16 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/mobgun
 
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"phantomknifes": true}}}]}] coldown13 matches -16.. unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run scoreboard players set @s coldown13 25
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{unstable_spellbook:1}}}]}] mana >= unstable_spellbook_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/random_spell
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"unstable_spellbook": true}}}]}] mana >= unstable_spellbook_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/random_spell
 
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"kfcgun": true}}}]}] coldown17 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/kfc
 

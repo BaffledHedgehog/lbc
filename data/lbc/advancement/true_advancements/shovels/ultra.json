@@ -34,10 +34,13 @@
         ],
                 "items": [
                     {
-                        "components": {
-                            "minecraft:enchantments": {
-                              "minecraft:efficiency": 255
-                            },
+                        "predicates": {
+                            "minecraft:enchantments": [
+                              {
+                                "enchantments": "minecraft:efficiency",
+                                "levels": 255
+                              }
+                            ],
                             "minecraft:custom_data": {
                               "transformable": true,
                               "shovel": true

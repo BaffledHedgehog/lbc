@@ -2,7 +2,9 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "components": {"minecraft:custom_model_data":627}
+            "components": {
+                "minecraft:custom_model_data": 627
+            }
         },
         "title": {
             "translate": "lbc.adv.potion.effect_magic_buff"
@@ -18,26 +20,7 @@
     "parent": "lbc:true_advancements/potions/effect_piss",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:effects_changed",
-            "conditions": {
-                "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
-            }
-          }
-        ],
-                "effects": {
-                    "minecraft:raid_omen": {
-                        "amplifier": 16
-                    }
-                }
-            }
+            "trigger": "minecraft:impossible"
         }
     }
 }

@@ -33,7 +33,7 @@
                     }
                 ],
                 "item": {
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "transformable": true,
                             "trident": true,

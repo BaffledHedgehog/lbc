@@ -27,7 +27,7 @@
                         "predicate": {
                             "equipment": {
                                 "mainhand": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                           "transformable": true,
                                           "staff": true,

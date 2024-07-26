@@ -69,10 +69,13 @@
                                 "predicate": {
                                     "equipment": {
                                         "mainhand": {
-                                            "components": {
-                                                "minecraft:unbreakable": {
-                                                    "minecraft:unbreaking": 10
-                                                },
+                                            "predicates": {
+                                                "minecraft:enchantments": [
+                                                    {
+                                                        "enchantments": "minecraft:unbreaking",
+                                                        "levels": 10
+                                                    }
+                                                ],
                                                 "minecraft:custom_data": {
                                                     "transformable": true,
                                                     "shield": true
@@ -88,10 +91,13 @@
                                 "predicate": {
                                     "equipment": {
                                         "offhand": {
-                                            "components": {
-                                                "minecraft:unbreakable": {
-                                                    "minecraft:unbreaking": 10
-                                                },
+                                            "predicates": {
+                                                "minecraft:enchantments": [
+                                                    {
+                                                        "enchantments": "minecraft:unbreaking",
+                                                        "levels": 10
+                                                    }
+                                                ],
                                                 "minecraft:custom_data": {
                                                     "transformable": true,
                                                     "shield": true

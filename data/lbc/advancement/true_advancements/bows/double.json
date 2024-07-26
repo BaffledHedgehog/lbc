@@ -34,10 +34,13 @@
         ],
                 "items": [
                     {
-                        "components": {
-                            "minecraft:enchantments": {
-                              "minecraft:power": 5
-                            },
+                        "predicates": {
+                            "minecraft:enchantments": [
+                              {
+                                "enchantments": "minecraft:power",
+                                "levels": 5
+                              }
+                            ],
                             "minecraft:custom_data": {
                               "transformable": true,
                               "bow": true,

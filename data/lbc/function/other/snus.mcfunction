@@ -23,5 +23,4 @@ effect give @s mining_fatigue 250 2
 effect give @s hunger 400 0
 effect give @s hunger 16 10
 effect give @s night_vision 250 0
-advancement grant @s only lbc:true_advancements/potions/snus
 
