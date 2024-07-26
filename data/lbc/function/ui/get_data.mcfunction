@@ -41,8 +41,6 @@ execute if score @s overheaven matches 1.. run data modify storage lbc.math ui a
 execute if score @s gigaponos matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE135 ","extra":[{"score":{"name":"@s","objective":"gigaponos"},"color":"white"}]}'
 execute if score @s sprint_cooldown matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE136 ","extra":[{"score":{"name":"@s","objective":"sprint_cooldown"},"color":"white"}]}'
 
-execute if score @s effect_small_explosion matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE137 ","extra":[{"score":{"name":"@s","objective":"effect_small_explosion"},"color":"red"}]}'
-execute if score @s effect_lightning_bolt matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE138 ","extra":[{"score":{"name":"@s","objective":"effect_lightning_bolt"},"color":"red"}]}'
 execute if score @s effect_firebreak matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE139 ","extra":[{"score":{"name":"@s","objective":"effect_firebreak"},"color":"red"}]}'
 execute if score @s effect_explosion matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE140 ","extra":[{"score":{"name":"@s","objective":"effect_explosion"},"color":"red"}]}'
 execute if score @s effect_big_explosion matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE141 ","extra":[{"score":{"name":"@s","objective":"effect_big_explosion"},"color":"red"}]}'
@@ -67,6 +65,8 @@ execute if score @s effect_add_manaregen matches 1.. run data modify storage lbc
 execute if score @s effect_remove_mana matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE160 ","extra":[{"score":{"name":"@s","objective":"effect_remove_mana"},"color":"red"}]}'
 execute if score @s effect_snus matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE161 ","extra":[{"score":{"name":"@s","objective":"effect_snus"},"color":"white"}]}'
 execute if score @s effect_gravity_curse matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE162 ","extra":[{"score":{"name":"@s","objective":"effect_gravity_curse"},"color":"red"}]}'
+execute if score @s effect_small_explosion matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE163 ","extra":[{"score":{"name":"@s","objective":"effect_small_explosion"},"color":"red"}]}'
+execute if score @s effect_lightning_bolt matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE164 ","extra":[{"score":{"name":"@s","objective":"effect_lightning_bolt"},"color":"red"}]}'
 
 execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"bucket_head": true}}}]}] run data modify storage lbc.math ui2 prepend value '{"text":"                                      \\uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}'
 execute if score @s skill_issue matches 1.. run data modify storage lbc.math ui2 append value '{"text":" \\uE130 "}'
