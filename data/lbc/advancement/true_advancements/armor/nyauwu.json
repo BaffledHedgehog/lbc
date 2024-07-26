@@ -37,28 +37,28 @@
                         "predicate": {
                             "equipment": {
                                 "head": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "nyauwu": true
                                         }
                                     }
                                 },
                                 "chest": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "nyauwu": true
                                         }
                                     }
                                 },
                                 "legs": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "nyauwu": true
                                         }
                                     }
                                 },
                                 "feet": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "nyauwu": true
                                         }

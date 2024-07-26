@@ -27,7 +27,7 @@
             }
           ],
           "item": {
-            "components": {
+            "predicates": {
               "minecraft:custom_data": {
                 "staff": true
               }

@@ -11,6 +11,8 @@ scoreboard players operation @e[tag=quadriedcurr,limit=3,distance=..0.01] scared
 scoreboard players operation @e[tag=quadriedcurr,limit=3,distance=..0.01] piss = @s piss
 scoreboard players operation @e[tag=quadriedcurr,limit=3,distance=..0.01] target = @s target
 execute if entity @s[tag=have_lucky_effects] run tag @e[tag=quadriedcurr,limit=3,distance=..0.01] add have_lucky_effects
+execute if entity @s[tag=have_lucky_effects] run tag @e[tag=quadriedcurr,limit=3,distance=..0.01] add have_lucky_effects_5t
+execute if entity @s[tag=have_lucky_effects] run tag @e[tag=quadriedcurr,limit=3,distance=..0.01] add have_lucky_effects_1s
 
 execute if entity @s[team=1] run team join 1 @e[tag=quadriedcurr,limit=3,distance=..0.01]
 execute if entity @s[team=2] run team join 2 @e[tag=quadriedcurr,limit=3,distance=..0.01]

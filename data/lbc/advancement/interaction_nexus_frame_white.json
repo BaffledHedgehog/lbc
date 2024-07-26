@@ -16,7 +16,7 @@
             }
           ],
           "item": {
-            "components": {
+            "predicates": {
               "minecraft:custom_data": {
                 "nexus_wire_white": true
               }

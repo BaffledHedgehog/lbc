@@ -67,4 +67,38 @@ scoreboard players set @s technomk2shield 0
 scoreboard players set @s twitching 0
 scoreboard players set @s void_resistance 0
 
+scoreboard players set @s effect_rtp_1 0
+scoreboard players set @s effect_rtp_2 0
+scoreboard players set @s effect_rtp_3 0
+scoreboard players set @s effect_small_explosion 0
+scoreboard players set @s effect_evoker 0
+scoreboard players set @s effect_shock 0
+scoreboard players set @s effect_explosion 0
+scoreboard players set @s effect_rtp_4 0
+scoreboard players set @s effect_big_explosion 0
+scoreboard players set @s effect_traps 0
+scoreboard players set @s effect_lightning_bolt 0
+scoreboard players set @s effect_firebreak 0
+scoreboard players set @s effect_kiuaskivi 0
+scoreboard players set @s effect_lightarrow 0
+scoreboard players set @s effect_evokerarrow 0
+scoreboard players set @s effect_dimshifting 0
+scoreboard players set @s piss 0
+scoreboard players set @s effect_witch_gens_reset 0
+scoreboard players set @s effect_hedgehog_boom 0
+scoreboard players set @s effect_stand_arrow_hit 0
+scoreboard players set @s delayed_death 0
+scoreboard players set @s effect_nuking 0
+scoreboard players set @s effect_vacuum 0
+scoreboard players set @s effect_timestop 0
+scoreboard players set @s effect_chain_lightning 0
+
+
+scoreboard players set @s effect_add_manamax 0
+scoreboard players set @s effect_add_manaregen 0
+scoreboard players set @s effect_add_mana 0
+scoreboard players set @s effect_remove_mana 0
+scoreboard players set @s effect_snus 0
+scoreboard players set @s effect_boost_mana 0
+
 advancement revoke @s only lbc:purify

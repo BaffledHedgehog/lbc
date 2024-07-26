@@ -37,28 +37,28 @@
                         "predicate": {
                             "equipment": {
                                 "head": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "multiplying": true
                                         }
                                     }
                                 },
                                 "chest": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "multiplying": true
                                         }
                                     }
                                 },
                                 "legs": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "multiplying": true
                                         }
                                     }
                                 },
                                 "feet": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "multiplying": true
                                         }

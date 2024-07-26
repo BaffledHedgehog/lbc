@@ -19,5 +19,18 @@ execute if score @s effect_nuking matches 1.. run function lbc:effects/effect_nu
 execute if score @s effect_vacuum matches 1.. run function lbc:effects/effect_vacuum
 execute if score @s effect_timestop matches 1.. run function lbc:effects/effect_timestop
 execute if score @s effect_chain_lightning matches 1.. run function lbc:effects/effect_chain_lightning
+
+execute if score @s effect_add_mana matches 1.. run function lbc:effects/effect_add_mana
+execute if score @s effect_add_manamax matches 1.. run function lbc:effects/effect_add_manamax
+execute if score @s effect_add_manaregen matches 1.. run function lbc:effects/effect_add_manaregen
+execute if score @s effect_remove_mana matches 1.. run function lbc:effects/effect_remove_mana
+execute if score @s effect_snus matches 1.. run function lbc:effects/effect_snus
+
 execute if entity @s[scores={piss=1..}] anchored eyes positioned ^ ^ ^.3 run function lbc:workingitems/yellow_lightning_asplayer
 execute if entity @s[scores={frozen=1..}] run function lbc:other/freeze/block/tick with storage lbc.math
+
+
+
+
+
+

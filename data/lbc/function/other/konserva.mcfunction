@@ -19,5 +19,5 @@ execute if score #random11 lbc.math matches 8 run effect give @s regeneration 10
 execute if score #random11 lbc.math matches 9 run effect give @s resistance 20 1
 execute if score #random11 lbc.math matches 10 run effect give @s strength 10
 execute if score #random11 lbc.math matches 11 run effect give @s water_breathing 30
-clear @s repeating_command_block[custom_data={"konserva": true}] 1
+clear @s repeating_command_block[custom_data~{"konserva": true}] 1
 scoreboard players add @s food_count 1

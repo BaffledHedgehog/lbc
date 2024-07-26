@@ -36,7 +36,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 1
                             }
@@ -62,7 +62,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 2
                             }
@@ -88,7 +88,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 3
                             }
@@ -114,7 +114,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 4
                             }
@@ -140,7 +140,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 5
                             }
@@ -166,7 +166,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 6
                             }
@@ -192,7 +192,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 7
                             }
@@ -218,7 +218,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 8
                             }
@@ -244,7 +244,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 9
                             }
@@ -270,7 +270,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 10
                             }
@@ -296,7 +296,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 11
                             }
@@ -322,7 +322,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 12
                             }
@@ -348,7 +348,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 13
                             }
@@ -374,7 +374,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 14
                             }
@@ -400,7 +400,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 15
                             }
@@ -426,7 +426,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 16
                             }
@@ -452,7 +452,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 17
                             }
@@ -478,7 +478,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 18
                             }
@@ -504,7 +504,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 19
                             }
@@ -530,7 +530,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 20
                             }
@@ -556,7 +556,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 21
                             }
@@ -582,7 +582,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 22
                             }
@@ -608,7 +608,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 23
                             }
@@ -634,7 +634,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 24
                             }
@@ -660,7 +660,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 25
                             }
@@ -686,7 +686,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 26
                             }
@@ -712,7 +712,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 27
                             }
@@ -738,7 +738,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 28
                             }
@@ -764,7 +764,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 29
                             }
@@ -790,7 +790,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 30
                             }
@@ -816,7 +816,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 31
                             }
@@ -842,7 +842,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 32
                             }
@@ -868,7 +868,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 33
                             }
@@ -894,7 +894,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 34
                             }
@@ -920,7 +920,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 35
                             }
@@ -946,7 +946,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 36
                             }
@@ -972,7 +972,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 37
                             }
@@ -998,7 +998,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 38
                             }
@@ -1024,7 +1024,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 39
                             }
@@ -1050,7 +1050,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 40
                             }
@@ -1076,7 +1076,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 41
                             }
@@ -1102,7 +1102,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 42
                             }
@@ -1128,7 +1128,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 43
                             }
@@ -1154,7 +1154,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 44
                             }
@@ -1180,7 +1180,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 45
                             }
@@ -1206,7 +1206,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 46
                             }
@@ -1232,7 +1232,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 47
                             }
@@ -1258,7 +1258,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 48
                             }
@@ -1284,7 +1284,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 49
                             }
@@ -1310,7 +1310,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 50
                             }
@@ -1336,7 +1336,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 51
                             }
@@ -1362,7 +1362,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 52
                             }
@@ -1388,7 +1388,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 53
                             }
@@ -1414,7 +1414,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 54
                             }
@@ -1440,7 +1440,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 55
                             }
@@ -1466,7 +1466,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 56
                             }
@@ -1492,7 +1492,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 57
                             }
@@ -1518,7 +1518,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 58
                             }
@@ -1544,7 +1544,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 59
                             }
@@ -1570,7 +1570,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 60
                             }
@@ -1596,7 +1596,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 61
                             }
@@ -1622,7 +1622,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 62
                             }
@@ -1648,7 +1648,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 63
                             }
@@ -1674,7 +1674,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 64
                             }
@@ -1700,7 +1700,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 65
                             }
@@ -1726,7 +1726,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 66
                             }
@@ -1752,7 +1752,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 67
                             }
@@ -1778,7 +1778,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 68
                             }
@@ -1804,7 +1804,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 69
                             }
@@ -1830,7 +1830,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 70
                             }
@@ -1856,7 +1856,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 71
                             }
@@ -1882,7 +1882,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 72
                             }
@@ -1908,7 +1908,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 73
                             }
@@ -1934,7 +1934,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 74
                             }
@@ -1960,7 +1960,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 75
                             }
@@ -1986,7 +1986,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 76
                             }
@@ -2012,7 +2012,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 77
                             }
@@ -2038,7 +2038,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 78
                             }
@@ -2064,7 +2064,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 79
                             }
@@ -2090,7 +2090,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 80
                             }
@@ -2116,7 +2116,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 81
                             }
@@ -2142,7 +2142,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 82
                             }
@@ -2168,7 +2168,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 83
                             }
@@ -2194,7 +2194,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 84
                             }
@@ -2220,7 +2220,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 85
                             }
@@ -2246,7 +2246,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 86
                             }
@@ -2272,7 +2272,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 87
                             }
@@ -2298,7 +2298,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 88
                             }
@@ -2324,7 +2324,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 89
                             }
@@ -2350,7 +2350,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 90
                             }
@@ -2376,7 +2376,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 91
                             }
@@ -2402,7 +2402,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 92
                             }
@@ -2428,7 +2428,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 93
                             }
@@ -2454,7 +2454,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 94
                             }
@@ -2480,7 +2480,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 95
                             }
@@ -2506,7 +2506,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 96
                             }
@@ -2532,7 +2532,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 97
                             }
@@ -2558,7 +2558,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 98
                             }
@@ -2584,7 +2584,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 99
                             }
@@ -2610,7 +2610,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 100
                             }
@@ -2636,7 +2636,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 101
                             }
@@ -2662,7 +2662,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 102
                             }
@@ -2688,7 +2688,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 103
                             }
@@ -2714,7 +2714,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 104
                             }
@@ -2740,7 +2740,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 105
                             }
@@ -2766,7 +2766,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 106
                             }
@@ -2792,7 +2792,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 107
                             }
@@ -2818,7 +2818,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 108
                             }
@@ -2844,7 +2844,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 109
                             }
@@ -2870,7 +2870,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 110
                             }
@@ -2896,7 +2896,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 111
                             }
@@ -2922,7 +2922,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 112
                             }
@@ -2948,7 +2948,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 113
                             }
@@ -2974,7 +2974,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 114
                             }
@@ -3000,7 +3000,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 115
                             }
@@ -3026,7 +3026,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 116
                             }
@@ -3052,7 +3052,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 117
                             }
@@ -3078,7 +3078,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 118
                             }
@@ -3104,7 +3104,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 119
                             }
@@ -3130,7 +3130,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 120
                             }
@@ -3156,7 +3156,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 121
                             }
@@ -3182,7 +3182,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 122
                             }
@@ -3208,7 +3208,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 123
                             }
@@ -3234,7 +3234,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 124
                             }
@@ -3260,7 +3260,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 125
                             }
@@ -3286,7 +3286,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 126
                             }
@@ -3312,7 +3312,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 127
                             }
@@ -3338,7 +3338,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 128
                             }
@@ -3364,7 +3364,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 129
                             }
@@ -3390,7 +3390,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 130
                             }
@@ -3416,7 +3416,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 131
                             }
@@ -3442,7 +3442,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 132
                             }
@@ -3468,7 +3468,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 133
                             }
@@ -3494,7 +3494,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 134
                             }
@@ -3520,7 +3520,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 135
                             }
@@ -3546,7 +3546,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 136
                             }
@@ -3572,7 +3572,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 137
                             }
@@ -3598,7 +3598,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 138
                             }
@@ -3624,7 +3624,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 139
                             }
@@ -3650,7 +3650,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 140
                             }
@@ -3676,7 +3676,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 141
                             }
@@ -3702,7 +3702,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 142
                             }
@@ -3728,7 +3728,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 143
                             }
@@ -3754,7 +3754,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 144
                             }
@@ -3780,7 +3780,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 145
                             }
@@ -3806,7 +3806,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 146
                             }
@@ -3832,7 +3832,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 147
                             }
@@ -3858,7 +3858,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 148
                             }
@@ -3884,7 +3884,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 149
                             }
@@ -3910,7 +3910,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 150
                             }
@@ -3936,7 +3936,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 151
                             }
@@ -3962,7 +3962,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 152
                             }
@@ -3988,7 +3988,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 153
                             }
@@ -4014,7 +4014,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 154
                             }
@@ -4040,7 +4040,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 155
                             }
@@ -4066,7 +4066,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 156
                             }
@@ -4092,7 +4092,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 157
                             }
@@ -4118,7 +4118,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 158
                             }
@@ -4144,7 +4144,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 159
                             }
@@ -4170,7 +4170,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 160
                             }
@@ -4196,7 +4196,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 161
                             }
@@ -4222,7 +4222,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 162
                             }
@@ -4248,7 +4248,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 163
                             }
@@ -4274,7 +4274,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 164
                             }
@@ -4300,7 +4300,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 165
                             }
@@ -4326,7 +4326,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 166
                             }
@@ -4352,7 +4352,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 167
                             }
@@ -4378,7 +4378,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 168
                             }
@@ -4404,7 +4404,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 169
                             }
@@ -4430,7 +4430,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 170
                             }
@@ -4456,7 +4456,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 171
                             }
@@ -4482,7 +4482,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 172
                             }
@@ -4508,7 +4508,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 173
                             }
@@ -4534,7 +4534,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 174
                             }
@@ -4560,7 +4560,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 175
                             }
@@ -4586,7 +4586,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 176
                             }
@@ -4612,7 +4612,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 177
                             }
@@ -4638,7 +4638,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 178
                             }
@@ -4664,7 +4664,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 179
                             }
@@ -4690,7 +4690,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 180
                             }
@@ -4716,7 +4716,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 181
                             }
@@ -4742,7 +4742,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 182
                             }
@@ -4768,7 +4768,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 183
                             }
@@ -4794,7 +4794,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 184
                             }
@@ -4820,7 +4820,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 185
                             }
@@ -4846,7 +4846,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 186
                             }
@@ -4872,7 +4872,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 187
                             }
@@ -4898,7 +4898,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 188
                             }
@@ -4924,7 +4924,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 189
                             }
@@ -4950,7 +4950,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 190
                             }
@@ -4976,7 +4976,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 191
                             }
@@ -5002,7 +5002,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 192
                             }
@@ -5028,7 +5028,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 193
                             }
@@ -5054,7 +5054,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 194
                             }
@@ -5080,7 +5080,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 195
                             }
@@ -5106,7 +5106,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 196
                             }
@@ -5132,7 +5132,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 197
                             }
@@ -5158,7 +5158,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 198
                             }
@@ -5184,7 +5184,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 199
                             }
@@ -5210,7 +5210,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 200
                             }
@@ -5236,7 +5236,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 201
                             }
@@ -5262,7 +5262,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 202
                             }
@@ -5288,7 +5288,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 203
                             }
@@ -5314,7 +5314,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 204
                             }
@@ -5340,7 +5340,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 205
                             }
@@ -5366,7 +5366,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 206
                             }
@@ -5392,7 +5392,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 207
                             }
@@ -5418,7 +5418,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 208
                             }
@@ -5444,7 +5444,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 209
                             }
@@ -5470,7 +5470,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 210
                             }
@@ -5496,7 +5496,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 211
                             }
@@ -5522,7 +5522,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 212
                             }
@@ -5548,7 +5548,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 213
                             }
@@ -5574,7 +5574,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 214
                             }
@@ -5600,7 +5600,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 215
                             }
@@ -5626,7 +5626,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 216
                             }
@@ -5652,7 +5652,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 217
                             }
@@ -5678,7 +5678,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 218
                             }
@@ -5704,7 +5704,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 219
                             }
@@ -5730,7 +5730,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 220
                             }
@@ -5756,7 +5756,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 221
                             }
@@ -5782,7 +5782,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 222
                             }
@@ -5808,7 +5808,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 223
                             }
@@ -5834,7 +5834,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 224
                             }
@@ -5860,7 +5860,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 225
                             }
@@ -5886,7 +5886,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 226
                             }
@@ -5912,7 +5912,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 227
                             }
@@ -5938,7 +5938,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 228
                             }
@@ -5964,7 +5964,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 229
                             }
@@ -5990,7 +5990,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 230
                             }
@@ -6016,7 +6016,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 231
                             }
@@ -6042,7 +6042,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 232
                             }
@@ -6068,7 +6068,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 233
                             }
@@ -6094,7 +6094,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 234
                             }
@@ -6120,7 +6120,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 235
                             }
@@ -6146,7 +6146,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 236
                             }
@@ -6172,7 +6172,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 237
                             }
@@ -6198,7 +6198,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 238
                             }
@@ -6224,7 +6224,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 239
                             }
@@ -6250,7 +6250,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 240
                             }
@@ -6276,7 +6276,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "spellid": 241
                             }

@@ -36,10 +36,13 @@
                 ],
                 "items": [
                     {
-                        "components": {
-                            "minecraft:enchantments": {
-                                "minecraft:silk_touch": 1
-                            },
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                  "enchantments": "minecraft:silk_touch",
+                                  "levels": 1
+                                }
+                              ],
                             "minecraft:custom_data": {
                                 "transformable": true,
                                 "shovel": true,

@@ -36,7 +36,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "divider_by_metal_pipe": true
                             }

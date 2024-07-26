@@ -245,8 +245,13 @@ scoreboard objectives add effect_timestop dummy
 scoreboard objectives add effect_chain_lightning dummy
 
 
-
-
+scoreboard objectives add effect_add_manamax dummy
+scoreboard objectives add effect_add_manaregen dummy
+scoreboard objectives add effect_add_mana dummy
+scoreboard objectives add effect_remove_mana dummy
+scoreboard objectives add effect_snus dummy
+scoreboard objectives add effect_boost_mana dummy
+scoreboard objectives add effect_gravity_curse dummy
 
 
 

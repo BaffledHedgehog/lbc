@@ -36,7 +36,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "struby_tiny": true
                             }
@@ -62,7 +62,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "stterra_tiny": true
                             }
@@ -88,7 +88,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "stelectro_tiny": true
                             }
@@ -114,7 +114,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "stair_tiny": true
                             }
@@ -140,7 +140,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "stacid_tiny": true
                             }
@@ -166,7 +166,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "stteleport_tiny": true
                             }
@@ -192,7 +192,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "ststone_tiny": true
                             }
@@ -218,7 +218,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "stfire_tiny": true
                             }
@@ -244,7 +244,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "stblind_tiny": true
                             }

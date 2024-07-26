@@ -1,4 +1,4 @@
-clear @s repeating_command_block[custom_data={"nexus_wire_black": true}] 1
+clear @s repeating_command_block[custom_data~{"nexus_wire_black": true}] 1
 tellraw @s {"translate":"black_wire_destroyed","color":"gray"}
 execute store result storage lbc.math x int 1 run random value -2000..2000
 execute store result storage lbc.math y int 1 run random value 0..319

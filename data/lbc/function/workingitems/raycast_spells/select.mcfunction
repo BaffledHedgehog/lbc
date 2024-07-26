@@ -1,22 +1,25 @@
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"lightning": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop16
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{tnts:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop9
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"tnts":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop9
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{creeperz:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop8
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"creeperz":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop8
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{wither1:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop11
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"wither1":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop11
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{heal1:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop12
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"heal1":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop12
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{arrows1:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop14
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"arrows1":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop14
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{lava1:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop13
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"lava1":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop13
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{anvils:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop15
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"anvils":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop15
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{skeletons:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop10
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"skeletons":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop10
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{trap2:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"trap2":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop
+
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"trap2":true}}}}] run clear @s carrot_on_a_stick[minecraft:custom_data~{"trap2":true}] 1
+
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"lightning_old":true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop16_old
 
@@ -38,7 +41,6 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"sk
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"trap2_old": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop_old
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{trap2:1}}}}] run scoreboard players set @s empty 1
 
 
 
@@ -65,6 +67,5 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"tr
 
 
 # Сбросить счёт RC_Raycast
-item replace entity @s[gamemode=!creative,scores={empty=1}] weapon.mainhand with air
 scoreboard players set @s empty 0
 scoreboard players set @s Distance 0

@@ -10,7 +10,7 @@
                 "items": [
                   "minecraft:ancient_debris"
                 ],
-                "components": {
+                "predicates": {
                   "minecraft:custom_data": {
                     "debriser": true
                   }

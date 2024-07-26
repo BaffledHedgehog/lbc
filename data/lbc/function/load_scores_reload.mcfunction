@@ -175,6 +175,13 @@ scoreboard objectives remove effect_vacuum
 scoreboard objectives remove effect_timestop
 scoreboard objectives remove effect_chain_lightning
 
+scoreboard objectives remove effect_add_manamax
+scoreboard objectives remove effect_add_manaregen
+scoreboard objectives remove effect_add_mana
+scoreboard objectives remove effect_remove_mana
+scoreboard objectives remove effect_snus
+scoreboard objectives remove effect_boost_mana
+scoreboard objectives remove effect_gravity_curse
 
 function lbc:load
 

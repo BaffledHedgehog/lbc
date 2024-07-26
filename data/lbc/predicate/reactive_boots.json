@@ -7,10 +7,10 @@
       "predicate": {
         "equipment": {
           "feet": {
-            "items": "minecraft:leather_boots",
-            "count": 1,
             "predicates": {
-              "minecraft:custom_data": {"technomk2":true}
+              "minecraft:custom_data": {
+                "technomk2": true
+              }
             }
           }
         }
@@ -22,10 +22,10 @@
       "predicate": {
         "equipment": {
           "feet": {
-            "items": "minecraft:leather_boots",
-            "count": 1,
             "predicates": {
-              "minecraft:custom_data": {"reactive":true}
+              "minecraft:custom_data": {
+                "reactive": true
+              }
             }
           }
         }

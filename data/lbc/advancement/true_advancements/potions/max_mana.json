@@ -4,9 +4,9 @@
             "id": "minecraft:potion",
             "components": {
                 "minecraft:potion_contents": {
-                  "custom_color": 328482
+                    "custom_color": 328482
                 }
-              }
+            }
         },
         "title": {
             "translate": "lbc.adv.potion.max_mana"
@@ -22,38 +22,7 @@
     "parent": "lbc:true_advancements/potions/explosive",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "nbt": "{playerGameType:3}"
-                            }
-                        }
-                    }
-                ],
-                "item": {
-                    "components": {
-                        "minecraft:potion_contents": {
-                          "custom_color": 328482,
-                          "custom_effects": [
-                            {
-                              "id": "minecraft:raid_omen",
-                              "amplifier": 17
-                            }
-                          ]
-                        },
-                        "minecraft:custom_data": {
-                          "transformable": true,
-                          "potion": true
-                        }
-                      }
-                }
-            }
+            "trigger": "minecraft:impossible"
         }
     }
 }

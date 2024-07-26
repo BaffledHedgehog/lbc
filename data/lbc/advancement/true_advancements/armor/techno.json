@@ -39,28 +39,28 @@
                         "predicate": {
                             "equipment": {
                                 "head": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "techno": true
                                         }
                                     }
                                 },
                                 "chest": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "techno": true
                                         }
                                     }
                                 },
                                 "legs": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "techno": true
                                         }
                                     }
                                 },
                                 "feet": {
-                                    "components": {
+                                    "predicates": {
                                         "minecraft:custom_data": {
                                             "techno": true
                                         }

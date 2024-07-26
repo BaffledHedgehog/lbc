@@ -34,7 +34,7 @@
         ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                               "upgraded": true,
                               "transformable": true,

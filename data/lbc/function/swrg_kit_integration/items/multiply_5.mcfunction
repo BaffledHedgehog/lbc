@@ -7,4 +7,4 @@ function lbc:workingitems/witch_gens/vanity_respawn_return_effects_pre_x5 with s
 
 
 
-clear @s carrot_on_a_stick[custom_data={multiply:5}] 1
+clear @s carrot_on_a_stick[custom_data~{multiply:5}] 1

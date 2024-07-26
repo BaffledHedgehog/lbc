@@ -148,8 +148,22 @@ scoreboard players set @s effect_timestop 0
 scoreboard players set @s effect_chain_lightning 0
 
 
-
-
-
-
+scoreboard players set @s effect_add_manamax 0
+scoreboard players set @s effect_add_manaregen 0
+scoreboard players set @s effect_add_mana 0
+scoreboard players set @s effect_remove_mana 0
+scoreboard players set @s effect_snus 0
+scoreboard players set @s effect_boost_mana 0
+attribute @s minecraft:generic.gravity modifier remove slamslamslaaaaaaamslaaam
+attribute @s generic.fall_damage_multiplier modifier remove gravity_curse
+attribute @s generic.gravity modifier remove gravity_curse
+attribute @s generic.step_height modifier remove gravity_curse
+attribute @s generic.safe_fall_distance modifier remove gravity_curse
+attribute @s minecraft:generic.jump_strength modifier remove gravity_curse
+attribute @s generic.movement_speed modifier remove gravity_curse
+scoreboard players set @s effect_gravity_curse 0
+tag @s remove have_lucky_effects
+tag @s remove have_lucky_effects_5t
+tag @s remove have_lucky_effects_1s
+effect clear @s
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/killed_by_player

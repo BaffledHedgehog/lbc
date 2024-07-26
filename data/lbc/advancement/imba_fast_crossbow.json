@@ -6,7 +6,7 @@
           "item": {
             "items": [
               "minecraft:crossbow"
-            ],"components": {
+            ],"predicates": {
               "minecraft:custom_data": {
                 "imba_fast_crossbow": true
               }

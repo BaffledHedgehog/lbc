@@ -36,7 +36,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "transformable": 1,
                                 "staff": 1,

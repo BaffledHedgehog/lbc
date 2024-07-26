@@ -37,7 +37,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "copypaster": true
                             }

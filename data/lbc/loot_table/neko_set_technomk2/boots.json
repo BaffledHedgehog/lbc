@@ -29,6 +29,13 @@
                                         "id": "jdgjdgjnyrcgfhjgfjgjg",
                                         "amount": 5,
                                         "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.fall_damage_multiplier",
+                                        "slot": "feet",
+                                        "id": "jdgjdgyvb6kij7fkgyhkfjgjg",
+                                        "amount": -1,
+                                        "operation": "add_multiplied_total"
                                     }
                                 ]
                             }

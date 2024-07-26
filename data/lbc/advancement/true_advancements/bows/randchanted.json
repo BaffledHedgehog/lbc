@@ -36,7 +36,7 @@
                 ],
                 "items": [
                     {
-                        "components": {
+                        "predicates": {
                             "minecraft:custom_data": {
                                 "transformable": true,
                                 "bow": true,

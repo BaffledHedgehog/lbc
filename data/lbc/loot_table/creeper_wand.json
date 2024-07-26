@@ -4,83 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {"minecraft:custom_model_data":635,"minecraft:custom_data":{"craftusable":true,"transformable":true,"staff":true,"magicwand":true,"stair":true}}
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "sauvojen_wand_air",
-                  "color":"light_purple",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore","mode":"replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "staff",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                [
-                  {
-                    "score": {
-                      "name": "stair_wand_mana_use",
-                      "objective": "lbc.math"
-                    },
-                    "italic":false,
-                    "color":"aqua"
-                  },
-                  {
-                    "translate": "mana_on_activate",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "sauvojen_wand_air.lore.1",
-                  "color": "gold",
-                  "italic": false
-                },
-                {
-                  "translate": "sauvojen_wand_air.lore.2",
-                  "color": "gold",
-                  "italic": false
-                },
-                {
-                  "translate": "sauvojen_wand_air.lore.3",
-                  "color": "gold",
-                  "italic": false
-                },
-                {
-                  "translate": "sauvojen_wand_air.lore.4",
-                  "color": "yellow",
-                  "italic": false
-                }
-              ]
-            }
-          ],
+          "type": "loot_table",
+          "value": "lbc:sauvojen_tuntija_air",
           "conditions": [
             {
               "condition": "random_chance",

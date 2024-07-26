@@ -36,12 +36,21 @@
                 ],
                 "items": [
                     {
-                        "components": {
-                            "minecraft:enchantments": {
-                                "minecraft:efficiency": 4,
-                                "minecraft:fortune": 3,
-                                "minecraft:unbreaking": 3
-                            },
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:efficiency",
+                                    "levels": 4
+                                },
+                                {
+                                    "enchantments": "minecraft:fortune",
+                                    "levels": 3
+                                },
+                                {
+                                    "enchantments": "minecraft:unbreaking",
+                                    "levels": 3
+                                }
+                            ],
                             "minecraft:custom_data": {
                                 "transformable": true,
                                 "axe": true,

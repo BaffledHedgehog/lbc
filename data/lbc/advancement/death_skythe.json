@@ -10,7 +10,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "components": {
+                  "predicates": {
                     "minecraft:custom_data": {
                       "death_skythe": true
                     }

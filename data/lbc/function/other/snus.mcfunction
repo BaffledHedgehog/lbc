@@ -16,7 +16,6 @@ effect clear @s slow_falling
 effect clear @s slowness
 effect clear @s resistance
 effect clear @s strength
-effect clear @s minecraft:raid_omen
 effect give @s speed 200 15
 effect give @s jump_boost 200 15
 effect give @s nausea 250 0
@@ -24,5 +23,4 @@ effect give @s mining_fatigue 250 2
 effect give @s hunger 400 0
 effect give @s hunger 16 10
 effect give @s night_vision 250 0
-advancement grant @s only lbc:true_advancements/potions/snus
 
