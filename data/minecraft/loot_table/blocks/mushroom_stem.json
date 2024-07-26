@@ -30,19 +30,23 @@
               "term": {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "components": {
-                    "minecraft:enchantments": {
-                      "levels": {
-                        "minecraft:silk_touch": 1
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
                       }
-                    }
+                    ]
                   }
                 }
               }
             }
           ],
           "functions": [
-            {"parameters":{},
+            {
+              "parameters": {},
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:ore_drops",
               "function": "minecraft:apply_bonus"
@@ -87,19 +91,23 @@
               "term": {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "components": {
-                    "minecraft:enchantments": {
-                      "levels": {
-                        "minecraft:silk_touch": 1
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
                       }
-                    }
+                    ]
                   }
                 }
               }
             }
           ],
           "functions": [
-            {"parameters":{},
+            {
+              "parameters": {},
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:ore_drops",
               "function": "minecraft:apply_bonus"
@@ -133,13 +141,13 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "components": {
-                      "minecraft:enchantments": {
-                        "levels": {
-                          "minecraft:silk_touch": 1
-                        }
-                      }
-                    }
+                    "predicates": {
+                    "minecraft:enchantments": [{
+                      
+                        "enchantments":"minecraft:silk_touch", "levels":{"min":1}
+                      
+                    }]
+                  }
                   }
                 }
               ]

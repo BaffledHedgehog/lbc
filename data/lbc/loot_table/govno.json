@@ -19,28 +19,8 @@
                   "craftusable": true,
                   "govnoq": true,
                   "randomgovno": true
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id": "ehc8ughfkidgsd",
-                  "amount": {
-                    "min": 1,
-                    "max": 100
-                  },
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:toggle_tooltips",
-              "toggles": {
-                "minecraft:attribute_modifiers": false
+                },
+                "minecraft:max_stack_size": 1
               }
             },
             {
@@ -69,28 +49,8 @@
                   "craftusable": true,
                   "govnoq": true,
                   "randomgovno": true
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id": "randshit2",
-                  "amount": {
-                    "min": 1,
-                    "max": 100
-                  },
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:toggle_tooltips",
-              "toggles": {
-                "minecraft:attribute_modifiers": false
+                },
+                "minecraft:max_stack_size": 1
               }
             },
             {
@@ -119,28 +79,8 @@
                   "craftusable": true,
                   "govnoq": true,
                   "randomgovno": true
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id": "shitrnd",
-                  "amount": {
-                    "min": 1,
-                    "max": 100
-                  },
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:toggle_tooltips",
-              "toggles": {
-                "minecraft:attribute_modifiers": false
+                },
+                "minecraft:max_stack_size": 1
               }
             },
             {

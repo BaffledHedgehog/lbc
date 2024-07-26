@@ -1,5 +1,5 @@
 tag @s add shatter
-$execute as @e[type=item_display,tag=ice_crystal,distance=..50,nbt={item:{components:{Owner:$(UUID)}}}] at @s run function lbc:workingitems/ice_wand/crystal/shatter
+$execute as @e[type=item_display,tag=ice_crystal,distance=..50,nbt={item:{components:{"minecraft:custom_data":{"Owner":$(UUID)}}}}] at @s run function lbc:workingitems/ice_wand/crystal/shatter
 execute as @e[type=#mobs,distance=..50,scores={frozen=1..}] at @s run function lbc:workingitems/ice_wand/shatter/run
 tag @s remove shatter
 scoreboard players operation @s[nbt={Inventory:[{Slot:100b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:101b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:102b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:103b,components: {"minecraft:custom_data":{"mage": true}}}]}] manamax += mage_set_bonus lbc.math

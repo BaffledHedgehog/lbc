@@ -23,7 +23,7 @@ execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integra
 execute if score @s y matches 14500000.. run function lbc:tp_nexus_rtp
 execute at @s[scores={dimensional_shifting=1..}] run function lbc:other/effect_shifting
 execute at @s[scores={void_resistance=1..}] run function lbc:other/effect_void_resistance
-execute unless score @s lbcID2 matches 1.. run function lbc:other/idgive
+execute unless score @s lbcID2 matches 5.. run function lbc:other/idgive
 effect give @s[tag=night_vision_active] night_vision 15 0 true
 execute if score @s lucky_block_count matches 1.. if score november lbc.math matches 1 run function lbc:other/event/november/give_sword
 execute at @s[tag=greed_cursed] align xyz run function lbc:other/greed/summon

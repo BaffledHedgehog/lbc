@@ -21,24 +21,9 @@
                   "randomgovno": true,
                   "eat_shit": true
                 },
-                "hide_additional_tooltip": {},
+                "minecraft:max_stack_size": 1,
                 "minecraft:custom_model_data": 1488
               }
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id": "govno_rnd",
-                  "amount": {
-                    "min": 1,
-                    "max": 100
-                  },
-                  "operation": "add_value",
-                  "slot": "mainhand"
-                }
-              ]
             },
             {
               "function": "minecraft:set_name",

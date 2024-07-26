@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "predicates": {
+            "components": {
                 "minecraft:custom_model_data": 556
             }
         },
