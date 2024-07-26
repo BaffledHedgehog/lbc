@@ -2,7 +2,6 @@ tellraw @s {"translate":"yum_scores"}
 
 scoreboard players add @s bow 1
 scoreboard players add @s jump1 1
-scoreboard players add @s empty 1
 scoreboard players add @s Distance 1
 scoreboard players add @s RC_Raycast 1
 scoreboard players add @s coldown1 1

@@ -15,6 +15,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "transformable": true,
                   "raycastspell": true,
@@ -82,6 +84,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "craftusable": true,
                   "transformable": true,
@@ -155,6 +159,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "craftusable": true,
                   "transformable": true,
@@ -229,6 +235,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "craftusable": true,
                   "transformable": true,
@@ -298,6 +306,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "transformable": true,
                   "spellitem": true,
@@ -365,6 +375,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "transformable": true,
                   "spellitem": true,
@@ -432,6 +444,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "transformable": true,
                   "spellitem": true,
@@ -499,6 +513,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "transformable": true,
                   "spellitem": true,
@@ -566,6 +582,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "transformable": true,
                   "spellitem": true,
@@ -628,6 +646,8 @@
             {
               "function": "set_components",
               "components": {
+                "minecraft:max_stack_size": 64,
+                "!minecraft:max_damage": {},
                 "minecraft:custom_data": {
                   "transformable": true,
                   "spellitem": true,

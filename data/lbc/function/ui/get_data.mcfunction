@@ -68,6 +68,10 @@ execute if score @s effect_gravity_curse matches 1.. run data modify storage lbc
 execute if score @s effect_small_explosion matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE163 ","extra":[{"score":{"name":"@s","objective":"effect_small_explosion"},"color":"red"}]}'
 execute if score @s effect_lightning_bolt matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE164 ","extra":[{"score":{"name":"@s","objective":"effect_lightning_bolt"},"color":"red"}]}'
 
+execute if score @s effect_rtp_1 matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_1"},"color":"white"}]}'
+execute if score @s effect_rtp_2 matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_2"},"color":"white"}]}'
+execute if score @s effect_rtp_3 matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_3"},"color":"white"}]}'
+
 execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"bucket_head": true}}}]}] run data modify storage lbc.math ui2 prepend value '{"text":"                                      \\uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}'
 execute if score @s skill_issue matches 1.. run data modify storage lbc.math ui2 append value '{"text":" \\uE130 "}'
 execute unless score legacy lbc.math matches 1 run title @s actionbar {"storage":"lbc.math","nbt":"ui[]","separator":"","interpret":true}

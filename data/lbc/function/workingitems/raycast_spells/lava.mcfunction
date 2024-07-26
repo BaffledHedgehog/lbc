@@ -15,5 +15,5 @@ summon ghast ~ ~30 ~15
 summon ghast ~ ~30 ~-15
 summon ghast ~15 ~30 ~
 summon ghast ~-15 ~30 ~
-scoreboard players set @s empty 1
+clear @s carrot_on_a_stick[minecraft:custom_data~{"lava1":true}] 1
 scoreboard players set @s Distance 300

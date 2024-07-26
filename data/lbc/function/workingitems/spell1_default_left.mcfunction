@@ -4,7 +4,7 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_da
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{enderwand:1}}}]}] mana >= ender_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/endcast_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{corrupter:1}}}]}] mana >= corruption_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/corrupter_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"corrupter": true}}}]}] mana >= corruption_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/corrupter_pre
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{lifestealer:1}}}]}] mana >= vampire_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/lifestealer_pre
 
@@ -22,9 +22,9 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_da
 
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"kfcgun": true}}}]}] coldown17 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/kfc
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{psychowand:1}}}]}] mana >= psycho_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/psychowand_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"psychowand": true}}}]}] mana >= psycho_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/psychowand_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{cyberkatana:1}}}]}] swordcharged1 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/cyberkatanaability
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"cyberkatana": true}}}]}] swordcharged1 matches 1.. unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/cyberkatanaability
 
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"supersethomer": true}}}]}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/teleporthome_left
 
@@ -34,9 +34,9 @@ execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custo
 
 execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"time_stopper": true}}}]}] coldown1 matches 1.. run function lbc:time_stop
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{omegaflag:1}}}]}] mana >= absurd_singularity_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/omegaflag_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"omegaflag": true}}}]}] mana >= absurd_singularity_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/omegaflag_pre
 
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{neutralmage:1}}}]}] mana >= neutral_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/neutralmage/select_pre
+execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"neutralmage": true}}}]}] mana >= neutral_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/neutralmage/select_pre
 
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"popit": true}}}]}] run function lbc:workingitems/popit
 
