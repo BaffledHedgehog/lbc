@@ -530,6 +530,6 @@ execute unless data storage lbc.math {item:"minecraft:acacia_boat"} unless data 
 particle totem_of_undying ~ ~.76 ~ 0 0 0 0.1 1 normal
 
 
-execute store result entity @s Item.Count byte 0.99999 run data get entity @s Item.Count 1
-execute store result score tmp lbc.math run data get entity @s Item.Count 1
+execute store result entity @s Item.count int 0.99999 run data get entity @s Item.count 1
+execute store result score tmp lbc.math run data get entity @s Item.count 1
 execute if score tmp lbc.math matches 1.. run function lbc:other/nexus/click/orb_gun/uncraft_f
