@@ -122,4 +122,3 @@ execute unless entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custo
 function lbc:other/speed_up
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/inventory_changed
 
-advancement revoke @s only lbc:penis
