@@ -17,9 +17,7 @@
                                     "reactive": true
                                 },
                                 "minecraft:custom_model_data": 6,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 500,
                                 "minecraft:dyed_color": {
                                     "rgb": 512,
                                     "show_in_tooltip": false
@@ -99,9 +97,7 @@
                                     "reactive": true
                                 },
                                 "minecraft:custom_model_data": 8,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 500,
                                 "minecraft:dyed_color": {
                                     "rgb": 512,
                                     "show_in_tooltip": false
@@ -186,9 +182,7 @@
                                     "reactive": true
                                 },
                                 "minecraft:custom_model_data": 3,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 500,
                                 "minecraft:dyed_color": {
                                     "rgb": 7,
                                     "show_in_tooltip": false
@@ -268,9 +262,7 @@
                                     "boots": true
                                 },
                                 "minecraft:custom_model_data": 2,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 500,
                                 "minecraft:dyed_color": {
                                     "rgb": 2,
                                     "show_in_tooltip": false
@@ -371,7 +363,7 @@
                                     "transformable": true,
                                     "craftusable": true
                                 },
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 500,
                                 "minecraft:enchantments": {
                                     "minecraft:feather_falling": 50
                                 },

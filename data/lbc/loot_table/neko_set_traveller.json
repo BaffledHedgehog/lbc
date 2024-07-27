@@ -16,7 +16,7 @@
                                     "jumpboost": true
                                 },
                                 "minecraft:custom_model_data": 7,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 400,
                                 "minecraft:dyed_color": {
                                     "rgb": 258,
                                     "show_in_tooltip": false
@@ -81,7 +81,7 @@
                                     "jumpboost": true
                                 },
                                 "minecraft:custom_model_data": 6,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 400,
                                 "minecraft:dyed_color": {
                                     "rgb": 257,
                                     "show_in_tooltip": false
@@ -146,7 +146,7 @@
                                     "jumpboost": true
                                 },
                                 "minecraft:custom_model_data": 1,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 400,
                                 "minecraft:dyed_color": {
                                     "rgb": 1,
                                     "show_in_tooltip": false
@@ -212,7 +212,7 @@
                                     "jumpboost": true
                                 },
                                 "minecraft:custom_model_data": 3,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 400,
                                 "minecraft:enchantments": {
                                     "minecraft:feather_falling": 10
                                 },

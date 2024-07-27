@@ -18,9 +18,7 @@
                                     "technomk2": true
                                 },
                                 "minecraft:custom_model_data": 12,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 9000,
                                 "minecraft:dyed_color": {
                                     "rgb": 30,
                                     "show_in_tooltip": false

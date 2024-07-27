@@ -16,7 +16,7 @@
                                     "paladin": true
                                 },
                                 "minecraft:custom_model_data": 9,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 4000,
                                 "minecraft:enchantments": {
                                     "minecraft:projectile_protection": 255,
                                     "minecraft:protection": 3
@@ -105,7 +105,7 @@
                                     "paladin": true
                                 },
                                 "minecraft:custom_model_data": 10,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 4000,
                                 "minecraft:enchantments": {
                                     "minecraft:blast_protection": 255,
                                     "minecraft:protection": 3
@@ -194,7 +194,7 @@
                                     "paladin": true
                                 },
                                 "minecraft:custom_model_data": 9,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 4000,
                                 "minecraft:enchantments": {
                                     "minecraft:fire_protection": 255,
                                     "minecraft:protection": 3
@@ -283,7 +283,7 @@
                                     "paladin": true
                                 },
                                 "minecraft:custom_model_data": 9,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 4000,
                                 "minecraft:enchantments": {
                                     "minecraft:feather_falling": 255,
                                     "minecraft:protection": 3

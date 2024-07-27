@@ -16,9 +16,7 @@
                                     "overload": true
                                 },
                                 "minecraft:custom_model_data": 24,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 900,
                                 "minecraft:dyed_color": {
                                     "rgb": 259,
                                     "show_in_tooltip": false

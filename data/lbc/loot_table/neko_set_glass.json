@@ -16,7 +16,7 @@
                                     "glass": true
                                 },
                                 "minecraft:custom_model_data": 20,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 150,
                                 "minecraft:dyed_color": {
                                     "rgb": 520,
                                     "show_in_tooltip": false
@@ -93,7 +93,7 @@
                                     "glass": true
                                 },
                                 "minecraft:custom_model_data": 20,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 150,
                                 "minecraft:dyed_color": {
                                     "rgb": 520,
                                     "show_in_tooltip": false
@@ -170,7 +170,7 @@
                                     "glass": true
                                 },
                                 "minecraft:custom_model_data": 20,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 150,
                                 "minecraft:dyed_color": {
                                     "rgb": 256,
                                     "show_in_tooltip": false
@@ -247,7 +247,7 @@
                                     "glass": true
                                 },
                                 "minecraft:custom_model_data": 20,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 150,
                                 "minecraft:dyed_color": {
                                     "rgb": 520,
                                     "show_in_tooltip": false

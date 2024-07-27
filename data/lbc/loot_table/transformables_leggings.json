@@ -128,7 +128,7 @@
                   "berserk": true
                 },
                 "minecraft:custom_model_data": 4,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 400,
                 "minecraft:dyed_color": {
                   "rgb": 8,
                   "show_in_tooltip": false
@@ -227,9 +227,7 @@
                   "leggings": true
                 },
                 "minecraft:custom_model_data": 5,
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
+                "minecraft:max_damage": 700,
                 "minecraft:dyed_color": {
                   "rgb": 3,
                   "show_in_tooltip": false
@@ -315,9 +313,7 @@
                   "mage": true
                 },
                 "minecraft:custom_model_data": 7,
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
+                "minecraft:max_damage": 300,
                 "minecraft:enchantments": {
                   "minecraft:fire_protection": 4,
                   "minecraft:blast_protection": 4,
@@ -402,7 +398,7 @@
                   "gownoleggings": true
                 },
                 "minecraft:custom_model_data": 2,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 300,
                 "minecraft:dyed_color": {
                   "rgb": 2,
                   "show_in_tooltip": false
@@ -474,7 +470,7 @@
                   "gownoleggings": true
                 },
                 "minecraft:custom_model_data": 2,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 300,
                 "minecraft:dyed_color": {
                   "rgb": 2,
                   "show_in_tooltip": false
@@ -546,9 +542,7 @@
                   "shulkshell": true
                 },
                 "minecraft:custom_model_data": 6,
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
+                "minecraft:max_damage": 900,
                 "minecraft:dyed_color": {
                   "rgb": 6,
                   "show_in_tooltip": false
@@ -650,9 +644,7 @@
                   "reactive": true
                 },
                 "minecraft:custom_model_data": 3,
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
+                "minecraft:max_damage": 500,
                 "minecraft:dyed_color": {
                   "rgb": 7,
                   "show_in_tooltip": false
@@ -736,9 +728,7 @@
                   "rgb": 4,
                   "show_in_tooltip": false
                 },
-                "minecraft:unbreakable": {
-                  "show_in_tooltip": false
-                },
+                "minecraft:max_damage": 600,
                 "minecraft:attribute_modifiers": [
                   {
                     "type": "minecraft:generic.armor",
@@ -856,7 +846,7 @@
                   "jumpboost": true
                 },
                 "minecraft:custom_model_data": 1,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 400,
                 "minecraft:dyed_color": {
                   "rgb": 1,
                   "show_in_tooltip": false
@@ -921,7 +911,7 @@
                   "assasin": true
                 },
                 "minecraft:custom_model_data": 10,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 500,
                 "minecraft:dyed_color": {
                   "rgb": 10,
                   "show_in_tooltip": false
@@ -999,7 +989,7 @@
                   "paladin": true
                 },
                 "minecraft:custom_model_data": 9,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 4000,
                 "minecraft:enchantments": {
                   "minecraft:fire_protection": 255,
                   "minecraft:protection": 3
@@ -1089,7 +1079,7 @@
                   "phantom": true
                 },
                 "minecraft:custom_model_data": 11,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 600,
                 "minecraft:dyed_color": {
                   "rgb": 9,
                   "show_in_tooltip": false
@@ -1178,7 +1168,7 @@
                   "flesh": true
                 },
                 "minecraft:custom_model_data": 21,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 6000,
                 "minecraft:dyed_color": {
                   "rgb": 258,
                   "show_in_tooltip": false
@@ -1240,7 +1230,7 @@
                   "glass": true
                 },
                 "minecraft:custom_model_data": 20,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 150,
                 "minecraft:dyed_color": {
                   "rgb": 256,
                   "show_in_tooltip": false
@@ -1317,7 +1307,7 @@
                   "nanobots": true
                 },
                 "minecraft:custom_model_data": 22,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 7000,
                 "minecraft:dyed_color": {
                   "rgb": 9,
                   "show_in_tooltip": false
@@ -1389,7 +1379,7 @@
                   "erosion": true
                 },
                 "minecraft:custom_model_data": 23,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 9000,
                 "minecraft:enchantments": {
                   "minecraft:protection": 180
                 },

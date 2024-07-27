@@ -1224,9 +1224,9 @@
                                                     "minecraft:enchantments": {
                                                         "vanishing_curse": 1
                                                     },
-                                                    "minecraft:enchantment_glint_override": false
-                                                },
-                                                "Unbreakable": 1
+                                                    "minecraft:enchantment_glint_override": false,
+                                                    "minecraft:unbreakable":{}
+                                                }
                                             }
                                         }
                                     ],

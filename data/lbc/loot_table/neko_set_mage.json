@@ -17,9 +17,7 @@
                                     "mage": true
                                 },
                                 "minecraft:custom_model_data": 3,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 300,
                                 "minecraft:enchantments": {
                                     "minecraft:fire_protection": 2,
                                     "minecraft:blast_protection": 2,
@@ -103,9 +101,7 @@
                                     "mage": true
                                 },
                                 "minecraft:custom_model_data": 3,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 300,
                                 "minecraft:enchantments": {
                                     "minecraft:fire_protection": 5,
                                     "minecraft:blast_protection": 5,
@@ -189,9 +185,7 @@
                                     "mage": true
                                 },
                                 "minecraft:custom_model_data": 7,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 300,
                                 "minecraft:enchantments": {
                                     "minecraft:fire_protection": 4,
                                     "minecraft:blast_protection": 4,
@@ -275,9 +269,7 @@
                                     "mage": true
                                 },
                                 "minecraft:custom_model_data": 4,
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 300,
                                 "minecraft:enchantments": {
                                     "minecraft:fire_protection": 2,
                                     "minecraft:blast_protection": 2,

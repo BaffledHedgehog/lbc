@@ -23,7 +23,7 @@
                                     "craftusable": true
                                 },
                                 "minecraft:custom_model_data": 13,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 500,
                                 "minecraft:enchantments": {
                                     "minecraft:feather_falling": 50
                                 },
@@ -80,7 +80,7 @@
                                     "moisei": true
                                 },
                                 "minecraft:custom_model_data": 12,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 600,
                                 "minecraft:dyed_color": {
                                     "rgb": 768,
                                     "show_in_tooltip": false

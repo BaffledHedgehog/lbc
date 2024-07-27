@@ -16,9 +16,7 @@
                                     "helmet": true,
                                     "chaoschestplate": true
                                 },
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 700,
                                 "minecraft:dyed_color": {
                                     "rgb": 257,
                                     "show_in_tooltip": false
@@ -103,9 +101,7 @@
                                     "chestplate": true,
                                     "chaoschestplate": true
                                 },
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 700,
                                 "minecraft:dyed_color": {
                                     "rgb": 256,
                                     "show_in_tooltip": false
@@ -190,9 +186,7 @@
                                     "leggings": true,
                                     "chaoschestplate": true
                                 },
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 700,
                                 "minecraft:dyed_color": {
                                     "rgb": 3,
                                     "show_in_tooltip": false
@@ -277,9 +271,7 @@
                                     "boots": true,
                                     "chaoschestplate": true
                                 },
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:max_damage": 700,
                                 "minecraft:dyed_color": {
                                     "rgb": 256,
                                     "show_in_tooltip": false

@@ -16,7 +16,7 @@
                                     "erosion": true
                                 },
                                 "minecraft:custom_model_data": 23,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 9000,
                                 "minecraft:enchantments": {
                                     "minecraft:protection": 120
                                 },
@@ -83,7 +83,7 @@
                                     "erosion": true
                                 },
                                 "minecraft:custom_model_data": 23,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 9000,
                                 "minecraft:enchantments": {
                                     "minecraft:protection": 255
                                 },
@@ -150,7 +150,7 @@
                                     "erosion": true
                                 },
                                 "minecraft:custom_model_data": 23,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 9000,
                                 "minecraft:enchantments": {
                                     "minecraft:protection": 180
                                 },
@@ -217,7 +217,7 @@
                                     "erosion": true
                                 },
                                 "minecraft:custom_model_data": 23,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 9000,
                                 "minecraft:enchantments": {
                                     "minecraft:protection": 100
                                 },

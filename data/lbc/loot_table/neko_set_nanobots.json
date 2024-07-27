@@ -16,7 +16,7 @@
                                     "nanobots": true
                                 },
                                 "minecraft:custom_model_data": 22,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 7000,
                                 "minecraft:dyed_color": {
                                     "rgb": 514,
                                     "show_in_tooltip": false
@@ -88,7 +88,7 @@
                                     "nanobots": true
                                 },
                                 "minecraft:custom_model_data": 22,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 7000,
                                 "minecraft:dyed_color": {
                                     "rgb": 514,
                                     "show_in_tooltip": false
@@ -160,7 +160,7 @@
                                     "nanobots": true
                                 },
                                 "minecraft:custom_model_data": 22,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 7000,
                                 "minecraft:dyed_color": {
                                     "rgb": 9,
                                     "show_in_tooltip": false
@@ -232,7 +232,7 @@
                                     "nanobots": true
                                 },
                                 "minecraft:custom_model_data": 22,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 7000,
                                 "minecraft:dyed_color": {
                                     "rgb": 514,
                                     "show_in_tooltip": false

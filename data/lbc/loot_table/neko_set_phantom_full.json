@@ -17,7 +17,7 @@
                                     "phantom": true
                                 },
                                 "minecraft:custom_model_data": 11,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 600,
                                 "minecraft:dyed_color": {
                                     "rgb": 514,
                                     "show_in_tooltip": false
@@ -112,7 +112,7 @@
                                     "phantom": true
                                 },
                                 "minecraft:custom_model_data": 12,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 600,
                                 "minecraft:dyed_color": {
                                     "rgb": 514,
                                     "show_in_tooltip": false
@@ -207,7 +207,7 @@
                                     "phantom": true
                                 },
                                 "minecraft:custom_model_data": 11,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 600,
                                 "minecraft:dyed_color": {
                                     "rgb": 9,
                                     "show_in_tooltip": false
@@ -302,7 +302,7 @@
                                     "phantom": true
                                 },
                                 "minecraft:custom_model_data": 11,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 600,
                                 "minecraft:dyed_color": {
                                     "rgb": 514,
                                     "show_in_tooltip": false

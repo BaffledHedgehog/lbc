@@ -18,7 +18,7 @@
                                     "gownoleggings": true
                                 },
                                 "minecraft:custom_model_data": 5,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 300,
                                 "minecraft:dyed_color": {
                                     "rgb": 259,
                                     "show_in_tooltip": false
@@ -92,7 +92,7 @@
                                     "gownoleggings": true
                                 },
                                 "minecraft:custom_model_data": 9,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 300,
                                 "minecraft:dyed_color": {
                                     "rgb": 258,
                                     "show_in_tooltip": false
@@ -166,7 +166,7 @@
                                     "gownoleggings": true
                                 },
                                 "minecraft:custom_model_data": 2,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 300,
                                 "minecraft:dyed_color": {
                                     "rgb": 2,
                                     "show_in_tooltip": false
@@ -240,7 +240,7 @@
                                     "gownoleggings": true
                                 },
                                 "minecraft:custom_model_data": 5,
-                                "minecraft:unbreakable": {},
+                                "minecraft:max_damage": 300,
                                 "minecraft:dyed_color": {
                                     "rgb": 258,
                                     "show_in_tooltip": false

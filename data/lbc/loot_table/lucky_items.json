@@ -902,7 +902,7 @@
                     "lucky_mob"
                   ],
                   "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}",
-                  "modifiers": [
+                  "attributes": [
                     {
                       "id": "minecraft:generic.max_health",
                       "base": 50
@@ -2318,7 +2318,7 @@
                   "dynamite": true
                 },
                 "minecraft:custom_model_data": 1,
-                "minecraft:unbreakable": {},
+                "minecraft:max_damage": 1200,
                 "minecraft:enchantments": {
                   "minecraft:blast_protection": 255
                 },
@@ -2822,12 +2822,12 @@
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 10,
+          "weight": 0,
           "value": "lbc:clocks"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 20,
+          "weight": 10,
           "value": "lbc:luckyblock_imba"
         }
       ]
