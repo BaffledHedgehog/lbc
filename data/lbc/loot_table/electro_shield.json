@@ -1,0 +1,116 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "craftusable": true,
+                                    "energy_shield": true,
+                                    "energyshield": true,
+                                    "transformable": true,
+                                    "shield": true
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:generic.movement_speed",
+                                            "slot": "mainhand",
+                                            "id": "gedghhtyjtyjtjspeed",
+                                            "amount": -0.5,
+                                            "operation": "add_multiplied_base"
+                                        },
+                                        {
+                                            "type": "minecraft:generic.movement_speed",
+                                            "slot": "offhand",
+                                            "id": "genekrjjy7cfkheed",
+                                            "amount": -0.5,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:base_color": "light_blue",
+                                "minecraft:banner_patterns": [
+                                    {
+                                        "color": "black",
+                                        "pattern": "curly_border"
+                                    },
+                                    {
+                                        "color": "white",
+                                        "pattern": "flower"
+                                    },
+                                    {
+                                        "color": "white",
+                                        "pattern": "rhombus"
+                                    },
+                                    {
+                                        "color": "light_blue",
+                                        "pattern": "circle"
+                                    },
+                                    {
+                                        "color": "blue",
+                                        "pattern": "triangles_bottom"
+                                    },
+                                    {
+                                        "color": "blue",
+                                        "pattern": "triangles_top"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "energy_shield",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "shield.lbc",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "energy_shield.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "lightning_wand.lore.6",
+                                    "color": "gold",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
