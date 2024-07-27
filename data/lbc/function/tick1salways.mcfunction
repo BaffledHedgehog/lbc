@@ -1,3 +1,5 @@
+schedule function lbc:tick1salways 1s
+
 execute if score time_stopped lbc.math matches 1.. run function lbc:tick1salways_timestop
 execute store result score #random_out lbc.math run random value -3..3
 execute if predicate lbc:chance50 store result score #random_out lbc.math run random value -30..30
@@ -12,4 +14,3 @@ execute if predicate lbc:chance1 store result score #random_out lbc.math run ran
 
 
 
-schedule function lbc:tick1salways 1s

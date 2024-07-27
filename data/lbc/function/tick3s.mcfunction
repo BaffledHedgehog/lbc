@@ -1,5 +1,5 @@
 
-
+schedule function lbc:tick3s 3s
 
 
 
@@ -20,4 +20,3 @@ execute as @e[type=wither_skeleton,tag=summoned_cultist,tag=strangeness] at @s i
 
 
 
-schedule function lbc:tick3s 3s

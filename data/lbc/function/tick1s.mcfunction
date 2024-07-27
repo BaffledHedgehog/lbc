@@ -1,3 +1,5 @@
+schedule function lbc:tick1s 1s
+
 execute as @e[type=#raycasters,tag=rc_1sec] at @s unless dimension minecraft:nexus run function lbc:raycasters_1s
 execute as @e[type=marker,tag=avarice_diamond] at @s unless dimension minecraft:nexus run function lbc:other/greed/avarice_diamond_near1
 kill @e[tag=killwhenonground,nbt={OnGround:1b}]
@@ -12,4 +14,3 @@ scoreboard players add #timer lbc.math 1
 execute if entity @e[type=#mobs,scores={target=1..},limit=1] unless dimension minecraft:nexus run function lbc:other/target_curse
 execute as @a[gamemode=!spectator] at @s if dimension minecraft:nexus run function lbc:other/nexus/tick_1s_player
 tag @a remove time_stopped
-schedule function lbc:tick1s 1s

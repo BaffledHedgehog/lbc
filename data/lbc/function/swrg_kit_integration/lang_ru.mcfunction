@@ -36,7 +36,7 @@ data modify storage swrg:lang lbclevelup.4 set value '{"text":"Потенция"
 data modify storage swrg:lang lore.lbclevelup.4 set value {Lore: ['{"text":"- +1.2 Урон","color":"gray","italic":false}']}
 
 data modify storage swrg:lang lbckit.3 set value '{"text":"Жизнь и смерть","color":"white","italic":false}'
-data modify storage swrg:lang lore.lbckit.3 set value {Lore: ['{"text":"- Взрывное зелье исцеления V x2","color":"gray","italic":false}', '{"text":"-фВзрывное зелье урона III x2","color":"gray","italic":false}', '{"text":"- Взрывное зелье урона II x2","color":"gray","italic":false}']}
+data modify storage swrg:lang lore.lbckit.3 set value {Lore: ['{"text":"- Взрывное зелье исцеления V x2","color":"gray","italic":false}', '{"text":"- Взрывное зелье урона III x2","color":"gray","italic":false}', '{"text":"- Взрывное зелье урона II x2","color":"gray","italic":false}']}
 
 data modify storage swrg:lang lbclevelup.5 set value '{"text":"Прайсидиум","color":"white","italic":false}'
 data modify storage swrg:lang lore.lbclevelup.5 set value {Lore: ['{"text":"- +6 Броня","color":"gray","italic":false}']}
