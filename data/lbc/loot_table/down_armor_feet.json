@@ -75,8 +75,7 @@
                                     },
                                     "operation": "add_value",
                                     "id": "71eaf80-0f9-4861-8a64-49ab1247121b",
-                                    "slot": "feet",
-                                    "add": false
+                                    "slot": "feet"
                                 },
                                 {
                                     "attribute": "minecraft:generic.armor_toughness",
@@ -91,11 +90,9 @@
                                     },
                                     "operation": "add_value",
                                     "id": "71af780-80f-4861-8a64-49ab1247121b",
-                                    "slot": "feet",
-                                    "add": false
+                                    "slot": "feet"
                                 }
-                            ],
-                            "add": false
+                            ]
                         }
                     ]
                 }
