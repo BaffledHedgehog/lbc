@@ -10,6 +10,11 @@ execute if score tmp lbc.math matches 19 run scoreboard players operation @s eff
 execute if score tmp lbc.math matches 20 run scoreboard players operation @s effect_remove_mana += dur lbc.math
 execute if score tmp lbc.math matches 74 run scoreboard players operation @s effect_snus += dur lbc.math
 
+execute if score tmp lbc.math matches 40 run scoreboard players operation @s effect_rtp_1 += dur lbc.math
+execute if score tmp lbc.math matches 41 run scoreboard players operation @s effect_rtp_2 += dur lbc.math
+execute if score tmp lbc.math matches 42 run scoreboard players operation @s effect_rtp_3 += dur lbc.math
+
+
 
 execute if score tmp lbc.math matches 101 run scoreboard players operation @s effect_small_explosion += dur lbc.math
 execute if score tmp lbc.math matches 102 run scoreboard players operation @s effect_evoker += dur lbc.math

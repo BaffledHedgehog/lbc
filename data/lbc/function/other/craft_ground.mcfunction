@@ -57,18 +57,18 @@ execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stair_tiny
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stair_tiny": true}}}}] if data entity @e[distance=0.001..1,type=item,limit=1] Thrower run function lbc:other/craft/crafted_booom
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stacid_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"stacid_tiny": true}}}}] run function lbc:other/craft/crafted_acid
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stacid_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"n": true}}}}] run function lbc:other/craft/crafted_
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stacid_tiny": true}}}}] if data entity @e[distance=0.001..1,type=item,limit=1] Thrower run function lbc:other/craft/crafted_dust
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stteleport_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"stteleport_tiny": true}}}}] run function lbc:other/craft/crafted_teleport
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stteleport_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"n": true}}}}] run function lbc:other/craft/crafted_
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stteleport_tiny": true}}}}] if data entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"transformable": true}}}}] Thrower run function lbc:other/craft/crafted_reforge
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"ststone_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"ststone_tiny": true}}}}] run function lbc:other/craft/crafted_stone
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"ststone_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"n": true}}}}] run function lbc:other/craft/crafted_
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"ststone_tiny": true}}}}] run data modify entity @e[distance=0.001..1,type=item,limit=1,nbt=!{Item:{components:{"minecraft:unbreakable":{}}}}] Item.components.minecraft:unbreakable set value {}
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stfire_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"stfire_tiny": true}}}}] run function lbc:other/craft/crafted_fire
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stfire_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"n": true}}}}] run function lbc:other/craft/crafted_
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stfire_tiny": true}}}}] if data entity @e[distance=0.001..1,type=item,limit=1] Thrower run function lbc:other/craft/crafted_mana
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stblind_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"stblind_tiny": true}}}}] run function lbc:other/craft/crafted_blind
-execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stblind_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"n": true}}}}] run function lbc:other/craft/crafted_
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"stblind_tiny": true}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{"id":"minecraft:glass_bottle"}}] run function lbc:other/craft/crafted_potion
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{"wall": true,upgraded:1b}}}}] if entity @e[distance=0.001..1,type=item,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"reactive_shish": true}}}}] run function lbc:other/craft/shish_wall_wand
