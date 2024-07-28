@@ -1,5 +1,4 @@
 execute at @s[tag=gaara_active] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:workingitems/gaara
-effect give @s[tag=jump_boost_active] jump_boost 2 3
 execute at @s[tag=save_platform_active] at @s at @s[y=-10,dy=-5000000] run function lbc:workingitems/platform
 execute at @s[tag=chaos_set_bonus_active] at @s at @s[y=-10,dy=-5000000] run function lbc:armor/chaos_set_bonus
 execute if entity @s[tag=magnet_active] run function lbc:workingitems/magnet

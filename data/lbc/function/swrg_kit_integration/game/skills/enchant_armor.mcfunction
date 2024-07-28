@@ -1,4 +1,4 @@
-execute unless data entity @s Inventory.[{Slot:100b}].tag.armory_upgraded run function lbc:swrg_kit_integration/game/skills/armory_upgrade_change_inv_feet
-execute unless data entity @s Inventory.[{Slot:101b}].tag.armory_upgraded run function lbc:swrg_kit_integration/game/skills/armory_upgrade_change_inv_legs
-execute unless data entity @s Inventory.[{Slot:102b}].tag.armory_upgraded run function lbc:swrg_kit_integration/game/skills/armory_upgrade_change_inv_chest
-execute unless data entity @s Inventory.[{Slot:103b}].tag.armory_upgraded run function lbc:swrg_kit_integration/game/skills/armory_upgrade_change_inv_head
+execute unless data entity @s Inventory.[{Slot:100b}].components.minecraft:custom_data.armory_upgraded run function lbc:swrg_kit_integration/game/skills/armory_upgrade_change_inv_feet
+execute unless data entity @s Inventory.[{Slot:101b}].components.minecraft:custom_data.armory_upgraded run function lbc:swrg_kit_integration/game/skills/armory_upgrade_change_inv_legs
+execute unless data entity @s Inventory.[{Slot:102b}].components.minecraft:custom_data.armory_upgraded run function lbc:swrg_kit_integration/game/skills/armory_upgrade_change_inv_chest
+execute unless data entity @s Inventory.[{Slot:103b}].components.minecraft:custom_data.armory_upgraded run function lbc:swrg_kit_integration/game/skills/armory_upgrade_change_inv_head

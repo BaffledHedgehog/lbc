@@ -1,5 +1,4 @@
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"gaara": true}}}]}] add gaara_active
-tag @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"jumpboost":true}}}]}] add jump_boost_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"save": true}}}]}] add save_platform_active
 tag @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"chaoschestplate":true}}},{Slot:101b,components:{"minecraft:custom_data":{"chaoschestplate":true}}},{Slot:102b,components:{"minecraft:custom_data":{"chaoschestplate":true}}},{Slot:103b,components:{"minecraft:custom_data":{"chaoschestplate":true}}}]}] add chaos_set_bonus_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"magnet": true}}}]}] add magnet_active
@@ -12,7 +11,6 @@ tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"nanobots": true}}}
 
 
 tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"gaara": true}}}]}] remove gaara_active
-tag @s[nbt=!{Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"jumpboost":true}}}]}] remove jump_boost_active
 tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"save": true}}}]}] remove save_platform_active
 tag @s[nbt=!{Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"chaoschestplate":true}}},{Slot:101b,components:{"minecraft:custom_data":{"chaoschestplate":true}}},{Slot:102b,components:{"minecraft:custom_data":{"chaoschestplate":true}}},{Slot:103b,components:{"minecraft:custom_data":{"chaoschestplate":true}}}]}] remove chaos_set_bonus_active
 tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"magnet": true}}}]}] remove magnet_active

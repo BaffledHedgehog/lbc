@@ -923,6 +923,20 @@
                     "id": "gtqwthrt7k67k7mkmor",
                     "amount": 3,
                     "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.jump_strength",
+                    "slot": "legs",
+                    "id": "gtqwt5535mkmor",
+                    "amount": 3,
+                    "operation": "add_value"
+                  },
+                  {
+                    "type": "minecraft:generic.safe_fall_distance",
+                    "slot": "legs",
+                    "id": "gtq432364k67k7mkmor",
+                    "amount": 3,
+                    "operation": "add_value"
                   }
                 ]
               }
