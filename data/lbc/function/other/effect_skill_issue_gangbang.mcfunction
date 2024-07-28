@@ -1,2 +1,2 @@
-damage @s 1 arrow
+damage @s 1 generic
 effect give @s blindness 2 0

@@ -112,7 +112,7 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_da
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"ststone_tiny": true}}}]}] mana >= tiny_stone_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/stone
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"stfire_tiny": true}}}]}] mana >= tiny_fire_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/fire
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"stblind_tiny": true}}}]}] mana >= tiny_blind_wand_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/blind
-execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{multiply:5}}}]}] run function lbc:swrg_kit_integration/items/multiply_5
+execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{multiply:5b}}}]}] run function lbc:swrg_kit_integration/items/multiply_5
 
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"grapping_hook": true}}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] at @s run function lbc:swrg_kit_integration/items/grapping_hook
 

@@ -1,5 +1,5 @@
 fill ~4 ~4.05 ~4 ~-4 ~-4.05 ~-4 air replace
-execute as @e[type=#mobs,tag=!curseowner,distance=..4,tag=!spectator] run damage @s 0.3 arrow
+execute as @e[type=#mobs,tag=!curseowner,distance=..4,tag=!spectator] run damage @s 0.3 generic
 tp @e[tag=!void_curse,type=!player,distance=..8,tag=!curseowner] @s
 
 particle squid_ink ~ ~1 ~ 2 2 2 0 4 force

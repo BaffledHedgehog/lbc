@@ -20,5 +20,5 @@ summon fireball ~ ~300 ~1 {ExplosionPower:2b,Motion:[0.0,-0.2,0.0]}
 summon fireball ~-1 ~325 ~ {ExplosionPower:2b,Motion:[0.0,-0.2,0.0]}
 summon fireball ~ ~350 ~-1 {ExplosionPower:2b,Motion:[0.0,-0.2,0.0]}
 summon fireball ~ ~375 ~ {ExplosionPower:4b,Motion:[0.0,-0.2,0.0]}
-execute if score @s Distance matches 180..200 if entity @e[type=#mobs,tag=!spectator,tag=!raycaster,distance=..5] run advancement grant @s only lbc:true_advancements/staffs/falling_stars
+execute if score @s Distance matches 150..200 if entity @e[type=#mobs,tag=!spectator,tag=!raycaster,distance=..5] run advancement grant @s only lbc:true_advancements/staffs/falling_stars
 scoreboard players set @s Distance 1000

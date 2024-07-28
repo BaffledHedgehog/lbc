@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "predicates": {"minecraft:custom_model_data":601}
+            "components": {"minecraft:custom_model_data":601}
         },
         "title": {
             "translate": "lbc.adv.legends.sins.envy"

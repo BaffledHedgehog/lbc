@@ -10,9 +10,9 @@ tag @s[nbt={Glowing: 1b}] add glowing
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"penis_bomb": true}}}}] add penis_bomb
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"copypaster":true}}}}] add copypaster
 
-tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 2}}}}] add multiply_item
-tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 3}}}}] add multiply_item
-tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 4}}}}] add multiply_item
+tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 2b}}}}] add multiply_item
+tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 3b}}}}] add multiply_item
+tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 4b}}}}] add multiply_item
 
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"drop":true}}}}] add working
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"fast": true}}}}] add working
@@ -23,6 +23,6 @@ tag @s[nbt={Item: {components: {"minecraft:custom_data":{"malevich": true}}}}] a
 tag @s[nbt={Glowing: 1b}] add working
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"penis_bomb": true}}}}] add working
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"copypaster":true}}}}] add working
-tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 2}}}}] add working
-tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 3}}}}] add working
-tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 4}}}}] add working
+tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 2b}}}}] add working
+tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 3b}}}}] add working
+tag @s[nbt={Item: {components: {"minecraft:custom_data":{multiply: 4b}}}}] add working

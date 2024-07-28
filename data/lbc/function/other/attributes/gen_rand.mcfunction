@@ -1,0 +1,1 @@
+$execute store result score #random_out lbc.math run random value 1..$(tmp)

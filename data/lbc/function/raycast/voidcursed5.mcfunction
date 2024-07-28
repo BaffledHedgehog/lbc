@@ -1,5 +1,5 @@
 place template lbc:air ~-24 ~-24 ~-24 none none 0.02
-execute as @e[type=#mobs,tag=!curseowner,distance=..24,tag=!spectator] run damage @s 0.4 arrow
+execute as @e[type=#mobs,tag=!curseowner,distance=..24,tag=!spectator] run damage @s 0.4 generic
 tp @e[tag=!void_curse,type=!player,distance=..30,tag=!curseowner] @s
 particle squid_ink ~ ~1 ~ 20 20 20 0 12 normal
 playsound entity.creeper.primed master @a ~ ~ ~ 7 2

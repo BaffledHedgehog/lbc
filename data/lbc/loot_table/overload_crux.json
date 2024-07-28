@@ -14,7 +14,16 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"minecraft:custom_data":{"craftusable": true,"magicwand": true,"overload_crux": true},"minecraft:custom_model_data":750}
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "craftusable": true,
+                                    "magicwand": true,
+                                    "overload_crux": true
+                                },
+                                "minecraft:custom_model_data": 750,
+                                "minecraft:max_stack_size": 99,
+                                "!minecraft:max_damage": {}
+                            }
                         },
                         {
                             "function": "set_name",
@@ -27,27 +36,30 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
-                                [{
-                                    "translate": "overload_crux.lore.6",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "score":{
-                                        "name":"overload_crux_mana_use",
-                                        "objective":"lbc.math"
+                                [
+                                    {
+                                        "translate": "overload_crux.lore.6",
+                                        "color": "white",
+                                        "italic": false
                                     },
-                                    "color":"white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "overload_crux.lore.7",
-                                    "color": "white",
-                                    "italic": false
-                                }],
+                                    {
+                                        "score": {
+                                            "name": "overload_crux_mana_use",
+                                            "objective": "lbc.math"
+                                        },
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "overload_crux.lore.7",
+                                        "color": "white",
+                                        "italic": false
+                                    }
+                                ],
                                 {
                                     "translate": "overload_crux.lore.8",
                                     "color": "white",
@@ -88,7 +100,6 @@
                                     "color": "#5724A4",
                                     "italic": true
                                 }
-                                
                             ]
                         }
                     ]

@@ -1,5 +1,4 @@
 execute store result score #random14 lbc.math run random value 1..14
-scoreboard players set #random14 lbc.math 13
 execute if score #lbcskill swrg.math matches 1 if score @s lbc.skill matches 3 run function lbc:swrg_kit_integration/game/skills/looper_explain_infinity
 
 execute if score #random14 lbc.math matches 1 run scoreboard players set @s manamax 100000000
