@@ -98,8 +98,7 @@ scoreboard players set @s nanobots_tier 0
 tag @s remove infinite_resistance
 tag @s remove infinite_heal
 tag @s remove infinite_saturation
-scoreboard players set #timer lbc.math 0
-scoreboard players set barrier_arcanum_mana_tick2 lbc.math 10
+
 scoreboard players set @s lolidefecation 0
 scoreboard players set @s greed_prestige 0
 scoreboard players set @s ray 0
