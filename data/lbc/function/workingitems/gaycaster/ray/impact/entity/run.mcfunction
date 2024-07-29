@@ -1,13 +1,13 @@
 execute if score @s h matches 360.. run scoreboard players operation @s h %= *360 const.rgb
 
-execute if score @s h matches 330..359 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/red
-execute if score @s h matches 0..20 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/red
-execute if score @s h matches 21..72 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/orange
-execute if score @s h matches 73..124 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/yellow
-execute if score @s h matches 125..175 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/green
-execute if score @s h matches 176..226 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/cyan
-execute if score @s h matches 227..278 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/blue
-execute if score @s h matches 278..329 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0] unless score @s lbcID2 = @a[tag=caster,limit=1] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/purple
+execute if score @s h matches 330..359 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,limit=1,tag=!spectator] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/red
+execute if score @s h matches 0..20 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,limit=1,tag=!spectator] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/red
+execute if score @s h matches 21..72 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,limit=1,tag=!spectator] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/orange
+execute if score @s h matches 73..124 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,limit=1,tag=!spectator] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/yellow
+execute if score @s h matches 125..175 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,limit=1,tag=!spectator] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/green
+execute if score @s h matches 176..226 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,limit=1,tag=!spectator] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/cyan
+execute if score @s h matches 227..278 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,limit=1,tag=!spectator] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/blue
+execute if score @s h matches 278..329 as @e[type=#mobs,distance=..5,dx=0,dy=0,dz=0,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,limit=1,tag=!spectator] lbcID2 at @s run function lbc:workingitems/gaycaster/ray/impact/entity/purple
 
 
 execute if score @s h matches 330..359 run advancement grant @s only lbc:true_advancements/staffs/gaycaster r
