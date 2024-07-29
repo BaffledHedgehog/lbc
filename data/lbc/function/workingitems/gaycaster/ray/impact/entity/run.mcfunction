@@ -21,6 +21,6 @@ execute if score @s h matches 278..329 run advancement grant @s only lbc:true_ad
 
 
 
-$particle dust $(r) $(g) $(b) 2 ~ ~ ~ 0.3 0.3 0.3 0 20 force
+$particle dust{color:[$(r),$(g),$(b)],scale:2} ~ ~ ~ 0.3 0.3 0.3 0 20 force
 #
 scoreboard players set @s Distance 0

@@ -38,34 +38,10 @@
               "components": {
                 "minecraft:custom_data": {
                   "magicwand": true,
-                  "supersethomer": true
+                  "supersethomer": true,
+                  "tpid":0
                 },
                 "minecraft:custom_model_data": 558
-              }
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:zombie.spawn_reinforcements",
-                  "id": "lbcid",
-                  "amount": {
-                    "type": "minecraft:score",
-                    "target": {
-                      "type": "minecraft:fixed",
-                      "name": "*id.cloud"
-                    },
-                    "score": "lbcID"
-                  },
-                  "operation": "add_value",
-                  "slot": "feet"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:toggle_tooltips",
-              "toggles": {
-                "minecraft:attribute_modifiers": false
               }
             }
           ]
