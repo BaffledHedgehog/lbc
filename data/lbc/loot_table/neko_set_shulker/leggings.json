@@ -1,0 +1,108 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:leather_leggings",
+                "functions": [
+                    {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "leggings": true,
+                                "shulkshell": true
+                            },
+                            "minecraft:custom_model_data": 6,
+                            "minecraft:max_damage": 900,
+                            "minecraft:dyed_color": {
+                                "rgb": 6,
+                                "show_in_tooltip": false
+                            },
+                            "minecraft:attribute_modifiers": [
+                                {
+                                    "type": "minecraft:generic.armor",
+                                    "slot": "legs",
+                                    "id": "genbnjmuiktftyvhmor",
+                                    "amount": 6,
+                                    "operation": "add_value"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_name",
+                        "name": [
+                            {
+                                "translate": "shulker_leggings",
+                                "color": "#8942B3",
+                                "italic": false
+                            }
+                        ]
+                    },
+                    {
+                        "function": "minecraft:set_lore",
+                        "mode": "replace_all",
+                        "lore": [
+                            [
+                                {
+                                    "translate": "type",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "leggings",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "set_bonus",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "set_bonus_shulker.1",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "set_bonus_shulker.2",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "set_bonus_shulker.3",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "set_bonus_shulker.4",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "shulker_leggings.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

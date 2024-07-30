@@ -1,0 +1,92 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:leather_helmet",
+                "functions": [
+                    {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_model_data": 8,
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "helmet": true,
+                                "chaoschestplate": true
+                            },
+                            "minecraft:max_damage": 700,
+                            "minecraft:dyed_color": {
+                                "rgb": 257,
+                                "show_in_tooltip": false
+                            },
+                            "minecraft:attribute_modifiers": [
+                                {
+                                    "type": "minecraft:generic.armor",
+                                    "slot": "head",
+                                    "id": "gevfg44t454tor",
+                                    "amount": 2,
+                                    "operation": "add_value"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_name",
+                        "name": [
+                            {
+                                "translate": "chaos_helmet",
+                                "color": "gold",
+                                "italic": false
+                            }
+                        ]
+                    },
+                    {
+                        "function": "minecraft:set_lore",
+                        "mode": "replace_all",
+                        "lore": [
+                            [
+                                {
+                                    "translate": "type",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "helmet",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            {
+                                "translate": "chaos_helmet.lore",
+                                "color": "yellow",
+                                "italic": false
+                            },
+                            [
+                                {
+                                    "translate": "set_bonus",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "set_bonus_chaos.1",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "set_bonus_chaos.2",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

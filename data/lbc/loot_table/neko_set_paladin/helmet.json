@@ -1,0 +1,98 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "helmet": true,
+                                    "paladin": true
+                                },
+                                "minecraft:custom_model_data": 9,
+                                "minecraft:max_damage": 4000,
+                                "minecraft:enchantments": {
+                                    "minecraft:projectile_protection": 255,
+                                    "minecraft:protection": 3
+                                },
+                                "minecraft:dyed_color": {
+                                    "rgb": 4,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "head",
+                                        "id": "genehfthxzdfggggor",
+                                        "amount": 8,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor_toughness",
+                                        "slot": "head",
+                                        "id": "generifjgniy_toughness",
+                                        "amount": 8,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.max_health",
+                                        "slot": "head",
+                                        "id": "generic145646lth",
+                                        "amount": -0.2,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "paladin_helmet",
+                                "color": "red",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "helmet",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "paladin_set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

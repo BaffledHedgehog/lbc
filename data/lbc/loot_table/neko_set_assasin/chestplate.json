@@ -1,0 +1,85 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:leather_chestplate",
+                "functions": [
+                    {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "chestplate": true,
+                                "assasin": true
+                            },
+                            "minecraft:custom_model_data": 11,
+                            "minecraft:max_damage": 500,
+                            "minecraft:dyed_color": {
+                                "rgb": 515,
+                                "show_in_tooltip": false
+                            },
+                            "minecraft:attribute_modifiers": [
+                                {
+                                    "type": "minecraft:generic.armor",
+                                    "slot": "chest",
+                                    "id": "gengjgjtjyklmor",
+                                    "amount": 4,
+                                    "operation": "add_value"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_name",
+                        "name": {
+                            "translate": "assasin_chestplate",
+                            "color": "red",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "set_lore",
+                        "mode": "replace_all",
+                        "lore": [
+                            [
+                                {
+                                    "translate": "type",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "chestplate",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "set_bonus",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "assasin_set_bonus.1",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "assasin_set_bonus.2",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:leather_leggings",
+                "functions": [
+                    {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "leggings": true,
+                                "erosion": true
+                            },
+                            "minecraft:custom_model_data": 23,
+                            "minecraft:max_damage": 9000,
+                            "minecraft:enchantments": {
+                                "minecraft:protection": 180
+                            },
+                            "minecraft:dyed_color": {
+                                "rgb": 257,
+                                "show_in_tooltip": false
+                            },
+                            "minecraft:attribute_modifiers": [
+                                {
+                                    "type": "minecraft:generic.armor",
+                                    "slot": "legs",
+                                    "id": "g5rgzgvhghjghjor",
+                                    "amount": 1,
+                                    "operation": "add_value"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_name",
+                        "name": {
+                            "translate": "erosion_leggings",
+                            "color": "green",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "set_lore",
+                        "mode": "replace_all",
+                        "lore": [
+                            [
+                                {
+                                    "translate": "type",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "leggings",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            [
+                                {
+                                    "translate": "erosion.lore",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ]
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

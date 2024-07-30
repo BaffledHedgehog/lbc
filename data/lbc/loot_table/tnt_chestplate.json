@@ -1,0 +1,90 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "chestplate": true,
+                                    "dynamite": true
+                                },
+                                "minecraft:custom_model_data": 1,
+                                "minecraft:max_damage": 1200,
+                                "minecraft:enchantments": {
+                                    "minecraft:blast_protection": 255
+                                },
+                                "minecraft:dyed_color": {
+                                    "rgb": 1,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "chest",
+                                        "id": "gendybnjmynjfhgor",
+                                        "amount": 15,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.knockback_resistance",
+                                        "slot": "chest",
+                                        "id": "genejyumkcdghfnce",
+                                        "amount": 15,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor_toughness",
+                                        "slot": "chest",
+                                        "id": "htuhnykiyfgthxdfghness",
+                                        "amount": 15,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "tnt_jacket",
+                                    "color": "dark_red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "chestplate",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "tnt_jacket.lore",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:iron_leggings",
+                "weight": 3,
+                "functions": [
+                  {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                      "translate": "randchanted_leggings",
+                      "italic": false
+                    }
+                  },
+                  {
+                    "function": "minecraft:enchant_with_levels",
+                    "levels": {
+                      "min": 1,
+                      "max": 30
+                    }
+                  },
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "randchanted": true,
+                        "transformable": true,
+                        "leggings": true
+                      }
+                    }
+                  },
+                  {
+                    "function": "set_lore",
+                    "mode": "replace_all",
+                    "lore": [
+                      [
+                        {
+                          "translate": "type",
+                          "italic": false,
+                          "color": "aqua"
+                        },
+                        {
+                          "translate": "leggings",
+                          "italic": false,
+                          "color": "aqua"
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:leather_chestplate",
+                "functions": [
+                    {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "chestplate": true,
+                                "flesh": true
+                            },
+                            "minecraft:custom_model_data": 21,
+                            "minecraft:max_damage": 6000,
+                            "minecraft:dyed_color": {
+                                "rgb": 264,
+                                "show_in_tooltip": false
+                            },
+                            "minecraft:attribute_modifiers": [
+                                {
+                                    "type": "minecraft:generic.max_health",
+                                    "slot": "chest",
+                                    "id": "getbub7kcrdtkjib6itgalth",
+                                    "amount": 10,
+                                    "operation": "add_value"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_name",
+                        "name": {
+                            "translate": "flesh_chestplate",
+                            "color": "red",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "set_lore",
+                        "mode": "replace_all",
+                        "lore": [
+                            [
+                                {
+                                    "translate": "type",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "chestplate",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            {
+                                "translate": "flesh.lore",
+                                "italic": false,
+                                "color": "aqua"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

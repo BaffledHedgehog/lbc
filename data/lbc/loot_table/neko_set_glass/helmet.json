@@ -1,0 +1,84 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:leather_helmet",
+                "functions": [
+                    {
+                        "function": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "transformable": true,
+                                "helmet": true,
+                                "glass": true
+                            },
+                            "minecraft:custom_model_data": 20,
+                            "minecraft:max_damage": 150,
+                            "minecraft:dyed_color": {
+                                "rgb": 520,
+                                "show_in_tooltip": false
+                            }
+                        }
+                    },
+                    {
+                        "function": "minecraft:set_name",
+                        "name": {
+                            "translate": "glass_helmet",
+                            "color": "white",
+                            "italic": false
+                        }
+                    },
+                    {
+                        "function": "set_lore",
+                        "mode": "replace_all",
+                        "lore": [
+                            [
+                                {
+                                    "translate": "type",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "helmet",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ],
+                            {
+                                "translate": "glass.lore",
+                                "italic": false,
+                                "color": "aqua"
+                            },
+                            {
+                                "translate": "glass.lore.2",
+                                "italic": false,
+                                "color": "aqua"
+                            }
+                        ]
+                    },
+                    {
+                        "function": "minecraft:set_attributes",
+                        "modifiers": [
+                            {
+                                "attribute": "minecraft:generic.armor",
+                                "amount": 40,
+                                "operation": "add_value",
+                                "id": "71e4f780-80f9-4861-8a64-49ab1247121b",
+                                "slot": "head"
+                            },
+                            {
+                                "attribute": "minecraft:generic.armor_toughness",
+                                "amount": 40,
+                                "operation": "add_value",
+                                "id": "71e4f780-80f9-4861-8a64-49ab1247121b",
+                                "slot": "head"
+                            }
+                        ]
+                    }
+                ]
+            }]
+        }
+    ]
+}

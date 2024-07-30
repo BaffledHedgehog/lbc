@@ -9,57 +9,13 @@
                     "weight": 18
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_boots",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "jumpboost": true,
-                                    "reactive": true,
-                                    "boots": true,
-                                    "craftusable": true
-                                },
-                                "minecraft:custom_model_data": 13,
-                                "minecraft:max_damage": 500,
-                                "minecraft:enchantments": {
-                                    "minecraft:feather_falling": 50
-                                },
-                                "minecraft:custom_name": "{\"translate\":\"flying_boots\",\"color\":\"green\",\"bold\":true,\"italic\":false}",
-                                "minecraft:lore": [
-                                    "[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"boots\",\"italic\": false,\"color\": \"aqua\"}]",
-                                    "{\"translate\": \"flying_boots.lore.1\",\"color\": \"white\",\"italic\": false}",
-                                    "{\"translate\": \"flying_boots.lore.2\",\"color\": \"white\",\"italic\": false}"
-                                ],
-                                "minecraft:dyed_color": {
-                                    "rgb": 6,
-                                    "show_in_tooltip": false
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.movement_speed",
-                                        "slot": "feet",
-                                        "id": "gthbjnkm8uoltwrd",
-                                        "amount": 0.75,
-                                        "operation": "add_multiplied_base"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "wybtnykiumkxergor",
-                                        "amount": 4,
-                                        "operation": "add_value"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                    "type": "loot_table",
+                    "value": "lbc:neko_set_steampunk/boots_spectral",
+                    "weight": 1
                 },
                 {
                     "type": "loot_table",
-                    "value": "lbc:nyauwu_boots",
+                    "value": "lbc:neko_set_femboy/boots",
                     "weight": 1
                 },
                 {
@@ -68,66 +24,9 @@
                     "weight": 1
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_boots",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "boots": true,
-                                    "moisei": true
-                                },
-                                "minecraft:custom_model_data": 12,
-                                "minecraft:max_damage": 600,
-                                "minecraft:dyed_color": {
-                                    "rgb": 768,
-                                    "show_in_tooltip": false
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "gehrththc55yyyyyharmor",
-                                        "amount": 2,
-                                        "operation": "add_value"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "translate": "moisei_boots",
-                                "color": "#632F19",
-                                "italic": false
-                            }
-                        },
-                        {
-                            "function": "set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                [
-                                    {
-                                        "translate": "type",
-                                        "italic": false,
-                                        "color": "white"
-                                    },
-                                    {
-                                        "translate": "boots",
-                                        "italic": false,
-                                        "color": "white"
-                                    }
-                                ],
-                                {
-                                    "translate": "moisei_boots.lore",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ]
-                        }
-                    ]
+                    "type": "loot_table",
+                    "value": "lbc:moisei_boots",
+                    "weight": 1
                 }
             ]
         }

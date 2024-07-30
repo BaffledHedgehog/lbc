@@ -1,0 +1,71 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "boots": true,
+                                    "moisei": true
+                                },
+                                "minecraft:custom_model_data": 12,
+                                "minecraft:max_damage": 600,
+                                "minecraft:dyed_color": {
+                                    "rgb": 768,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "feet",
+                                        "id": "gehrththc55yyyyyharmor",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "moisei_boots",
+                                "color": "#632F19",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "translate": "boots",
+                                        "italic": false,
+                                        "color": "white"
+                                    }
+                                ],
+                                {
+                                    "translate": "moisei_boots.lore",
+                                    "italic": false,
+                                    "color": "aqua"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

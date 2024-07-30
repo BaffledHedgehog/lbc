@@ -1,0 +1,72 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:golden_leggings",
+                "weight": 3,
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  },
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "multiplying": true,
+                        "transformable": true,
+                        "leggings": true
+                      },
+                      "minecraft:attribute_modifiers": [
+                        {
+                          "type": "minecraft:generic.armor",
+                          "slot": "legs",
+                          "id": "genedgjdgnbvr",
+                          "amount": 3,
+                          "operation": "add_multiplied_base"
+                        },
+                        {
+                          "type": "minecraft:generic.armor_toughness",
+                          "slot": "legs",
+                          "id": "whdrtgxgggggs",
+                          "amount": 3,
+                          "operation": "add_multiplied_base"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": [
+                      {
+                        "translate": "multiplying_leggings",
+                        "italic": false
+                      }
+                    ]
+                  },
+                  {
+                    "function": "set_lore",
+                    "mode": "replace_all",
+                    "lore": [
+                      [
+                        {
+                          "translate": "type",
+                          "italic": false,
+                          "color": "aqua"
+                        },
+                        {
+                          "translate": "leggings",
+                          "italic": false,
+                          "color": "aqua"
+                        }
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+        }
+    ]
+}
