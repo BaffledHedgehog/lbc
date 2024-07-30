@@ -26,7 +26,23 @@
                                 "minecraft:dyed_color": {
                                     "rgb": 774,
                                     "show_in_tooltip": false
-                                }
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.water_movement_efficiency",
+                                        "slot": "chest",
+                                        "id": "ghfh438juylhumhgfjmluilulkiohed",
+                                        "amount": 1,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "chest",
+                                        "id": "ghfhstgfhsgdthtyjtukukujkhed",
+                                        "amount": 9,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

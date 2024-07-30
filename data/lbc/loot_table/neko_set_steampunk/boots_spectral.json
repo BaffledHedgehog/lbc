@@ -18,7 +18,7 @@
                                     "transformable": true,
                                     "craftusable": true
                                 },
-                                "minecraft:max_damage": 500,
+                                "minecraft:max_damage": 900,
                                 "minecraft:custom_name": "{\"translate\":\"flying_boots\",\"color\":\"green\",\"bold\":true,\"italic\":false}",
                                 "minecraft:lore": [
                                     "[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"boots\",\"italic\": false,\"color\": \"aqua\"}]",
@@ -33,15 +33,15 @@
                                     {
                                         "type": "minecraft:generic.movement_speed",
                                         "slot": "feet",
-                                        "id": "genhtjhbthjgjghjd",
+                                        "id": "genhtjhbthj5h5hgjghjd",
                                         "amount": 0.75,
                                         "operation": "add_multiplied_base"
                                     },
                                     {
                                         "type": "minecraft:generic.armor",
                                         "slot": "feet",
-                                        "id": "gjgjgjjxh5htjk7",
-                                        "amount": 4,
+                                        "id": "gjgjgjjx5g5h5htjk7",
+                                        "amount": 6,
                                         "operation": "add_value"
                                     }
                                 ]

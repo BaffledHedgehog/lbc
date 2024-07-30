@@ -26,7 +26,23 @@
                                 "minecraft:dyed_color": {
                                     "rgb": 774,
                                     "show_in_tooltip": false
-                                }
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:player.sneaking_speed",
+                                        "slot": "head",
+                                        "id": "ghfh438jh5rfdfdfdfd6hhtkhed",
+                                        "amount": 1,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "head",
+                                        "id": "ghfherg6rjh6hjtujkhed",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

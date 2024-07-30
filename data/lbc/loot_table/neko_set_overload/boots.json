@@ -26,9 +26,17 @@
                                         "type": "minecraft:generic.armor",
                                         "slot": "feet",
                                         "id": "grbydjgjgjghjhjr",
+                                        "amount": 3,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor_toughness",
+                                        "slot": "feet",
+                                        "id": "grbydj53534546757hjhjr",
                                         "amount": 2,
                                         "operation": "add_value"
-                                    },{
+                                    },
+                                    {
                                         "type": "minecraft:generic.safe_fall_distance",
                                         "slot": "feet",
                                         "id": "grbydjgjgjghjhjtjtyyjjr",

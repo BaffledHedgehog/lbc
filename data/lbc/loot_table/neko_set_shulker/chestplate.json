@@ -27,6 +27,13 @@
                                     "id": "genvjmnilmukcdrcfr",
                                     "amount": 8,
                                     "operation": "add_value"
+                                },
+                                {
+                                    "type": "minecraft:generic.armor_toughness",
+                                    "slot": "chest",
+                                    "id": "genhvtrb534645754678rmor",
+                                    "amount": 3,
+                                    "operation": "add_value"
                                 }
                             ]
                         }

@@ -24,22 +24,22 @@
                                 {
                                     "type": "minecraft:generic.armor",
                                     "slot": "legs",
-                                    "id": "gtqwthrt7k67k7mkmor",
+                                    "id": "gtqwthrt7k67k7mkmghjor",
                                     "amount": 3,
                                     "operation": "add_value"
                                 },
                                 {
                                     "type": "minecraft:generic.jump_strength",
                                     "slot": "legs",
-                                    "id": "gtqwt5535mkmor",
-                                    "amount": 1,
+                                    "id": "gtqwt5535jghjmkmor",
+                                    "amount": 1.25,
                                     "operation": "add_multiplied_total"
                                 },
                                 {
                                     "type": "minecraft:generic.safe_fall_distance",
                                     "slot": "legs",
-                                    "id": "gtq432364k67k7mkmor",
-                                    "amount": 1,
+                                    "id": "gtq432364k67fghk7mkmor",
+                                    "amount": 2,
                                     "operation": "add_multiplied_total"
                                 }
                             ]

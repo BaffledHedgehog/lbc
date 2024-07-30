@@ -27,6 +27,13 @@
                                     "id": "genbnjmuiktftyvhmor",
                                     "amount": 6,
                                     "operation": "add_value"
+                                },
+                                {
+                                    "type": "minecraft:generic.armor_toughness",
+                                    "slot": "legs",
+                                    "id": "genhgdfhfvtrbh465475fdnrmor",
+                                    "amount": 3,
+                                    "operation": "add_value"
                                 }
                             ]
                         }

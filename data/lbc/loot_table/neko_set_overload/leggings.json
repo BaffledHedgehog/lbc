@@ -26,7 +26,14 @@
                                         "type": "minecraft:generic.armor",
                                         "slot": "legs",
                                         "id": "ghndftcxthumunyukr",
-                                        "amount": 4,
+                                        "amount": 6,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor_toughness",
+                                        "slot": "legs",
+                                        "id": "grbydj53534546757hjhyy5y5y5yfjr",
+                                        "amount": 2,
                                         "operation": "add_value"
                                     }
                                 ]

@@ -2,95 +2,97 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_boots",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "boots": true,
-                                "paladin": true
-                            },
-                            "minecraft:custom_model_data": 9,
-                            "minecraft:max_damage": 4000,
-                            "minecraft:enchantments": {
-                                "minecraft:feather_falling": 255,
-                                "minecraft:protection": 3
-                            },
-                            "minecraft:dyed_color": {
-                                "rgb": 4,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:attribute_modifiers": [
-                                {
-                                    "type": "minecraft:generic.armor",
-                                    "slot": "feet",
-                                    "id": "genehcjghjgjrmor",
-                                    "amount": 7,
-                                    "operation": "add_value"
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "transformable": true,
+                                    "boots": true,
+                                    "paladin": true
                                 },
-                                {
-                                    "type": "minecraft:generic.armor_toughness",
-                                    "slot": "feet",
-                                    "id": "generkkkkkkkkhness",
-                                    "amount": 7,
-                                    "operation": "add_value"
+                                "minecraft:custom_model_data": 9,
+                                "minecraft:max_damage": 4000,
+                                "minecraft:enchantments": {
+                                    "minecraft:feather_falling": 255,
+                                    "minecraft:protection": 3
                                 },
-                                {
-                                    "type": "minecraft:generic.max_health",
-                                    "slot": "feet",
-                                    "id": "gedcgfxcddddalth",
-                                    "amount": -0.1,
-                                    "operation": "add_multiplied_base"
-                                }
+                                "minecraft:dyed_color": {
+                                    "rgb": 4,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "feet",
+                                        "id": "genehcjghjgjrmor",
+                                        "amount": 7,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor_toughness",
+                                        "slot": "feet",
+                                        "id": "generkkkkkkkkhness",
+                                        "amount": 7,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.max_health",
+                                        "slot": "feet",
+                                        "id": "gedcgfxcddddalth",
+                                        "amount": -0.1,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "paladin_boots",
+                                "color": "red",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "boots",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "paladin_set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
                             ]
                         }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": {
-                            "translate": "paladin_boots",
-                            "color": "red",
-                            "italic": false
-                        }
-                    },
-                    {
-                        "function": "set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
-                                {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
-                                },
-                                {
-                                    "translate": "boots",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "paladin_set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ]
-                        ]
-                    }
-                ]
-            }]
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -27,8 +27,15 @@
                                     {
                                         "type": "minecraft:generic.armor",
                                         "slot": "head",
-                                        "id": "adggtbniyumnghdgor",
+                                        "id": "adggtbniyumnghgjdgor",
                                         "amount": 6,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor_toughness",
+                                        "slot": "head",
+                                        "id": "jdgjdggdhffdghjyrcgfhjgfjgjg",
+                                        "amount": 3,
                                         "operation": "add_value"
                                     }
                                 ]

@@ -32,11 +32,11 @@
                                         "operation": "add_value"
                                     },
                                     {
-                                        "type": "minecraft:generic.fall_damage_multiplier",
-                                        "slot": "feet",
-                                        "id": "jdgjdgyvb6kij7fkgyhkfjgjg",
-                                        "amount": -1,
-                                        "operation": "add_multiplied_total"
+                                        "type": "minecraft:generic.armor_toughness",
+                                        "slot": "chest",
+                                        "id": "jdgjdgjn53465465465fjgjg",
+                                        "amount": 3,
+                                        "operation": "add_value"
                                     }
                                 ]
                             }

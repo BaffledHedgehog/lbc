@@ -26,7 +26,23 @@
                                 "minecraft:dyed_color": {
                                     "rgb": 31,
                                     "show_in_tooltip": false
-                                }
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:generic.max_health",
+                                        "slot": "legs",
+                                        "id": "ghfh43534645646hhtkhed",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:generic.armor",
+                                        "slot": "legs",
+                                        "id": "ghfherg6rjtyu476978978yhued",
+                                        "amount": 7,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
