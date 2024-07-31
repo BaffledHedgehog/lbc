@@ -45,25 +45,25 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"tr
 
 
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"lightning_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop16_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_fehu": true}}}}] run function lbc:other/imba/runes/fehu_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"tnts_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop9_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_uruz": true}}}}] run function lbc:other/imba/runes/uruz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"creeperz_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop8_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_thurisaz": true}}}}] run function lbc:other/imba/runes/thurisaz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"wither1_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop11_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_ansuz": true}}}}] run function lbc:other/imba/runes/ansuz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"heal1_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop12_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_raido": true}}}}] run function lbc:other/imba/runes/raido_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"arrows1_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop14_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_kenaz": true}}}}] run function lbc:other/imba/runes/kenaz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"lava1_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop13_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_gifu": true}}}}] run function lbc:other/imba/runes/gifu_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"anvils_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop15_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_wunjo": true}}}}] run function lbc:other/imba/runes/wunjo_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"skeletons_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop10_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_hagalaz": true}}}}] run function lbc:other/imba/runes/hagalaz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"trap2_imba": true}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop_imba
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_nautiz": true}}}}] run function lbc:other/imba/runes/nautiz_cast
 
 
 # Сбросить счёт RC_Raycast

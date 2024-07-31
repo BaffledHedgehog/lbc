@@ -15,15 +15,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
                                     "transformable": true,
                                     "raycastspell": true,
                                     "spellitem": true,
-                                    "tnts_imba": true,
+                                    "rune_fehu": true,
                                     "spell": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 509
+                                "minecraft:custom_model_data": 751
                             }
                         },
                         {
@@ -43,17 +45,7 @@
                                     }
                                 ],
                                 {
-                                    "translate": "tnt_fountain_spell_imba.lore.1",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "tnt_fountain_spell_imba.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "tnt_fountain_spell_imba.lore.3",
+                                    "translate": "rune_fehu.lore.1",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -63,8 +55,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "tnt_fountain_spell_imba",
-                                    "color": "red",
+                                    "translate": "rune_fehu",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -83,16 +75,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
-                                    "craftusable": true,
                                     "transformable": true,
                                     "spellitem": true,
-                                    "lightning_imba": true,
+                                    "rune_uruz": true,
                                     "raycastspell": true,
                                     "spell": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 507
+                                "minecraft:custom_model_data": 752
                             }
                         },
                         {
@@ -112,22 +105,12 @@
                                     }
                                 ],
                                 {
-                                    "translate": "lightning_bolt_spell_imba.lore.1",
+                                    "translate": "rune_uruz.lore.1",
                                     "color": "white",
                                     "italic": false
                                 },
                                 {
-                                    "translate": "lightning_bolt_spell_imba.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "lightning_bolt_spell_imba.lore.3",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "lightning_bolt_spell_imba.lore.4",
+                                    "translate": "rune_uruz.lore.2",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -137,8 +120,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "lightning_bolt_spell_imba",
-                                    "color": "white",
+                                    "translate": "rune_uruz",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -157,17 +140,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
-                                    "craftusable": true,
                                     "transformable": true,
                                     "spellitem": true,
-                                    "creeperz_imba": true,
+                                    "rune_thurisaz": true,
                                     "raycastspell": true,
                                     "spell": true,
-                                    "cons_material": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 504
+                                "minecraft:custom_model_data": 753
                             }
                         },
                         {
@@ -187,23 +170,18 @@
                                     }
                                 ],
                                 {
-                                    "translate": "creeper_army_spell_imba.lore.1",
+                                    "translate": "rune_thurisaz.lore.1",
                                     "color": "white",
                                     "italic": false
                                 },
                                 {
-                                    "translate": "creeper_army_spell_imba.lore.2",
+                                    "translate": "rune_thurisaz.lore.2",
                                     "color": "white",
                                     "italic": false
                                 },
                                 {
-                                    "translate": "creeper_army_spell_imba.lore.3",
+                                    "translate": "rune_thurisaz.lore.3",
                                     "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "destroyer_spell_imba.lore.3",
-                                    "color": "gold",
                                     "italic": false
                                 }
                             ]
@@ -212,8 +190,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "creeper_army_spell_imba",
-                                    "color": "green",
+                                    "translate": "rune_thurisaz",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -232,17 +210,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
-                                    "craftusable": true,
                                     "transformable": true,
                                     "spellitem": true,
-                                    "trap2_imba": true,
+                                    "rune_ansuz": true,
                                     "raycastspell": true,
                                     "spell": true,
-                                    "cons_material": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 503
+                                "minecraft:custom_model_data": 754
                             }
                         },
                         {
@@ -262,7 +240,7 @@
                                     }
                                 ],
                                 {
-                                    "translate": "destroyer_spell_imba.lore.1",
+                                    "translate": "rune_ansuz.lore.1",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -272,8 +250,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "destroyer_spell_imba",
-                                    "color": "gray",
+                                    "translate": "rune_ansuz",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -292,15 +270,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
                                     "transformable": true,
                                     "spellitem": true,
-                                    "skeletons_imba": true,
+                                    "rune_raido": true,
                                     "raycastspell": true,
                                     "spell": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 508
+                                "minecraft:custom_model_data": 755
                             }
                         },
                         {
@@ -320,17 +300,12 @@
                                     }
                                 ],
                                 {
-                                    "translate": "skeleton_army_spell_imba.lore.1",
+                                    "translate": "rune_raido.lore.1",
                                     "color": "white",
                                     "italic": false
                                 },
                                 {
-                                    "translate": "skeleton_army_spell_imba.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "skeleton_army_spell_imba.lore.3",
+                                    "translate": "rune_raido.lore.2",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -340,8 +315,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "skeleton_army_spell_imba",
-                                    "color": "white",
+                                    "translate": "rune_raido",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -360,15 +335,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
                                     "transformable": true,
                                     "spellitem": true,
-                                    "wither1_imba": true,
+                                    "rune_kenaz": true,
                                     "raycastspell": true,
                                     "spell": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 510
+                                "minecraft:custom_model_data": 756
                             }
                         },
                         {
@@ -388,17 +365,7 @@
                                     }
                                 ],
                                 {
-                                    "translate": "wither_spell_imba.lore.1",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "wither_spell_imba.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "wither_spell_imba.lore.3",
+                                    "translate": "rune_kenaz.lore.1",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -408,8 +375,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "wither_spell_imba",
-                                    "color": "dark_gray",
+                                    "translate": "rune_kenaz",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -428,15 +395,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
                                     "transformable": true,
                                     "spellitem": true,
-                                    "heal1_imba": true,
+                                    "rune_gifu": true,
                                     "raycastspell": true,
                                     "spell": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 505
+                                "minecraft:custom_model_data": 757
                             }
                         },
                         {
@@ -456,12 +425,7 @@
                                     }
                                 ],
                                 {
-                                    "translate": "heal_spell_imba.lore.1",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "heal_spell_imba.lore.2",
+                                    "translate": "rune_gifu.lore.1",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -471,8 +435,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "heal_spell_imba",
-                                    "color": "red",
+                                    "translate": "rune_gifu",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -491,15 +455,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
                                     "transformable": true,
                                     "spellitem": true,
-                                    "arrows1_imba": true,
+                                    "rune_wunjo": true,
                                     "raycastspell": true,
                                     "spell": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 501
+                                "minecraft:custom_model_data": 758
                             }
                         },
                         {
@@ -519,17 +485,12 @@
                                     }
                                 ],
                                 {
-                                    "translate": "firestorm_spell_imba.lore.1",
+                                    "translate": "rune_wunjo.lore.1",
                                     "color": "white",
                                     "italic": false
                                 },
                                 {
-                                    "translate": "firestorm_spell_imba.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "firestorm_spell_imba.lore.3",
+                                    "translate": "rune_wunjo.lore.2",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -539,8 +500,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "firestorm_spell_imba",
-                                    "color": "gold",
+                                    "translate": "rune_wunjo",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -559,15 +520,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
                                     "transformable": true,
                                     "spellitem": true,
-                                    "lava1_imba": true,
+                                    "rune_hagalaz": true,
                                     "raycastspell": true,
                                     "spell": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 506
+                                "minecraft:custom_model_data": 759
                             }
                         },
                         {
@@ -587,12 +550,7 @@
                                     }
                                 ],
                                 {
-                                    "translate": "lava_spell_imba.lore.1",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "lava_spell_imba.lore.2",
+                                    "translate": "rune_hagalaz.lore.1",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -602,8 +560,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "lava_spell_imba",
-                                    "color": "red",
+                                    "translate": "rune_hagalaz",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
@@ -622,15 +580,17 @@
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {},
                                 "minecraft:custom_data": {
                                     "transformable": true,
                                     "spellitem": true,
-                                    "anvils_imba": true,
+                                    "rune_nautiz": true,
                                     "raycastspell": true,
                                     "spell": true,
                                     "imba": true
                                 },
-                                "minecraft:custom_model_data": 502
+                                "minecraft:custom_model_data": 760
                             }
                         },
                         {
@@ -650,17 +610,7 @@
                                     }
                                 ],
                                 {
-                                    "translate": "stone_rain_spell_imba.lore.1",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "stone_rain_spell_imba.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "stone_rain_spell_imba.lore.3",
+                                    "translate": "rune_nautiz.lore.1",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -670,8 +620,8 @@
                             "function": "set_name",
                             "name": [
                                 {
-                                    "translate": "stone_rain_spell_imba",
-                                    "color": "dark_gray",
+                                    "translate": "rune_nautiz",
+                                    "color": "#e66deb",
                                     "italic": false
                                 }
                             ]
