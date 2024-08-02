@@ -1,4 +1,2 @@
-execute store result storage lbc.math p1 int 1 run random value -1024..1024
-execute store result storage lbc.math p2 int 1 run random value 1..320
-execute store result storage lbc.math p3 int 1 run random value -1024..1024
-function lbc:tick_nexus_player_tp_2 with storage lbc.math
+execute unless score no_borders swrg.math matches 1 run function lbc:tick_nexus_player_tp_borders
+execute if score no_borders swrg.math matches 1 run function lbc:tick_nexus_player_tp_no_borders

@@ -14,23 +14,43 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "golden_apple",
-                    "count": 4
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
                 },
                 {
                     "type": "item",
-                    "name": "gold_ingot",
-                    "count": 32
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 32
+                        }
+                    ]
                 },
                 {
                     "type": "item",
-                    "name": "gold_block",
-                    "count": 16
+                    "name": "minecraft:gold_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        }
+                    ]
                 },
                 {
                     "type": "item",
-                    "name": "enchanted_golden_apple",
-                    "count": 1
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
                 }
             ]
         }

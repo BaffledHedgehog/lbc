@@ -286,150 +286,20 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "tag": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
                                 }
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "loot_table",
                     "weight": 10,
-                    "name": "minecraft:iron_sword",
+                    "value": "lbc:one_punch_glove",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": 1
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "one_punch": true
-                                },
-                                "minecraft:custom_model_data": 573,
-                                "minecraft:damage": 256,
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:generic.attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "ge5srwr5hdftghdfe",
-                                            "amount": -1,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:generic.attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "geneewxde5hxgfd",
-                                            "amount": 2147483647,
-                                            "operation": "add_value"
-                                        }
-                                    ],
-                                    "show_in_tooltip": false
-                                }
-                            }
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "translate": "one_punch_glove",
-                                    "color": "aqua",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "mode": "replace_all",
-                            "entity": "this",
-                            "lore": [
-                                [
-                                    {
-                                        "translate": "type",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    },
-                                    {
-                                        "translate": "sword",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    }
-                                ],
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": " ",
-                                        "italic": false,
-                                        "color": "dark_green"
-                                    },
-                                    {
-                                        "score": {
-                                            "name": "@p[gamemode=!spectator]",
-                                            "objective": "hplvl",
-                                            "color": "dark_green",
-                                            "italic": false
-                                        }
-                                    },
-                                    {
-                                        "text": " ",
-                                        "italic": false,
-                                        "color": "dark_green"
-                                    },
-                                    {
-                                        "translate": "attribute.name.generic.attack_damage",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "∞ ",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "attribute.name.generic.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "GONZO",
-                                        "color": "green",
-                                        "italic": false
-                                    },
-                                    {
-                                        "text": " Beta Server Harem event",
-                                        "color": "dark_gray",
-                                        "italic": false
-                                    }
-                                ]
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_attributes",
-                            "modifiers": [
-                                {
-                                    "attribute": "minecraft:generic.attack_damage",
-                                    "amount": {
-                                        "type": "minecraft:score",
-                                        "target": "this",
-                                        "score": "hplvl"
-                                    },
-                                    "operation": "add_value",
-                                    "id": "97a8d3d5-076f-42f7-874c-b94b838ed265",
-                                    "slot": "mainhand"
-                                }
-                            ]
                         }
                     ]
                 },
@@ -571,7 +441,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "tag": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
                                 }
                             }
                         }
@@ -641,7 +511,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "tag": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
                                 }
                             }
                         }
@@ -771,7 +641,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "tag": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
                                 }
                             }
                         }
@@ -841,7 +711,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "tag": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
                                 }
                             }
                         }
@@ -986,7 +856,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "tag": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
                                 }
                             }
                         }
@@ -1462,7 +1332,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "tag": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
                                 }
                             }
                         }
@@ -1521,7 +1391,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "tag": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
                                 }
                             }
                         }

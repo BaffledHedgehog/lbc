@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 27,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "lbc:transformables_accessory_all",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 64,
+                                "!max_damage": {}
+                            }
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:transformables_totem",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 64,
+                                "!max_damage": {}
+                            }
+                        },
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
