@@ -47,23 +47,23 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"tr
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_fehu": true}}}}] run function lbc:other/imba/runes/fehu_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_uruz": true}}}}] run function lbc:other/imba/runes/uruz_cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_uruz": true}}}}] at @s run function lbc:other/imba/runes/uruz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_thurisaz": true}}}}] run function lbc:other/imba/runes/thurisaz_cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_thurisaz": true}}}}] at @s run function lbc:other/imba/runes/thurisaz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_ansuz": true}}}}] run function lbc:other/imba/runes/ansuz_cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_ansuz": true}}}}] at @s run function lbc:other/imba/runes/ansuz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_raido": true}}}}] run function lbc:other/imba/runes/raido_cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_raido": true}}}}] at @s run function lbc:other/imba/runes/raido_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_kenaz": true}}}}] run function lbc:other/imba/runes/kenaz_cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_kenaz": true}}}}] at @s run function lbc:other/imba/runes/kenaz_cast
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_gifu": true}}}}] run function lbc:other/imba/runes/gifu_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_wunjo": true}}}}] run function lbc:other/imba/runes/wunjo_cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_wunjo": true}}}}] at @s run function lbc:other/imba/runes/wunjo_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_hagalaz": true}}}}] run function lbc:other/imba/runes/hagalaz_cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_hagalaz": true}}}}] at @s run function lbc:other/imba/runes/hagalaz_cast
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_nautiz": true}}}}] run function lbc:other/imba/runes/nautiz_cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"rune_nautiz": true}}}}] at @s run function lbc:other/imba/runes/nautiz_cast
 
 
 # Сбросить счёт RC_Raycast

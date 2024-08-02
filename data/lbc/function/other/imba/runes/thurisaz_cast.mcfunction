@@ -1,3 +1,5 @@
+
+execute as @e[distance=0.01..50,tag=!spectator,type=#mobs] at @s run function lbc:other/imba/runes/thurisaz_cast_others
 clear @s carrot_on_a_stick[minecraft:custom_data~{"rune_thurisaz":true}] 1
 attribute @s minecraft:generic.scale modifier add rune_thurisaz 1 add_multiplied_total
 attribute @s generic.attack_damage modifier add rune_thurisaz 1 add_multiplied_total
@@ -18,6 +20,5 @@ attribute @s minecraft:player.entity_interaction_range modifier add rune_thurisa
 attribute @s minecraft:player.mining_efficiency modifier add rune_thurisaz 1 add_multiplied_total
 attribute @s generic.gravity modifier add rune_thurisaz 1 add_multiplied_total
 
-execute as @e[distance=0.001..50,tag=!spectator,type=#mobs] run function lbc:other/imba/runes/thurisaz_cast_others
 
 tag @s add gigantic

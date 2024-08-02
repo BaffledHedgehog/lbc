@@ -20,6 +20,7 @@ scoreboard players remove @s[scores={nomagic=1..}] nomagic 1
 scoreboard players remove @s[scores={reverse_mana=1..}] reverse_mana 1
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/skills_tick_1s
 execute if score @s y matches 14500000.. run function lbc:tp_nexus_rtp
+execute if score bottom_nexus lbc.math matches 1 if score @s y matches ..-100 run function lbc:tp_nexus_rtp
 execute at @s[scores={dimensional_shifting=1..}] run function lbc:other/effect_shifting
 execute at @s[scores={void_resistance=1..}] run function lbc:other/effect_void_resistance
 execute unless score @s lbcID2 matches 5.. run function lbc:other/idgive

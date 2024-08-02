@@ -118,6 +118,8 @@ schedule clear lbc:items/win/win_2
 bossbar remove grimoire_boss
 stopsound @a * minecraft:lbcsounds.helicopter
 scoreboard players set #timer lbc.math 0
+scoreboard players set bottom_nexus lbc.math 0
 scoreboard players set barrier_arcanum_mana_tick2 lbc.math 10
+gamerule keepInventory false
 execute as @a at @s run function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
 tellraw @a [{"text":"Baffled Discord Server (click): ","color":"gold","italic":false,"clickEvent":{"action":"open_url","value":"https://discord.gg/kAXy99Wauw"}},{"text":"https://discord.gg/kAXy99Wauw","color":"blue","italic":false,"underlined":true,"clickEvent":{"action":"open_url","value":"https://discord.gg/kAXy99Wauw"}}]
