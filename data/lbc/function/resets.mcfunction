@@ -133,4 +133,42 @@ scoreboard players set @s cold_cd 0
 scoreboard players set @s swrg.roll_timer 0
 scoreboard players set @s swrg.roll 0
 
+tag @s remove submissive
+tag @s remove gigantic
+
+
+
+attribute @s minecraft:generic.scale modifier remove rune_thurisaz_negative
+attribute @s generic.attack_damage modifier remove rune_thurisaz_negative
+attribute @s generic.jump_strength modifier remove rune_thurisaz_negative
+attribute @s generic.max_health modifier remove rune_thurisaz_negative
+attribute @s generic.movement_speed modifier remove rune_thurisaz_negative
+attribute @s generic.step_height modifier remove rune_thurisaz_negative
+attribute @s minecraft:player.block_break_speed modifier remove rune_thurisaz_negative
+attribute @s minecraft:player.block_interaction_range modifier remove rune_thurisaz_negative
+attribute @s minecraft:player.entity_interaction_range modifier remove rune_thurisaz_negative
+attribute @s generic.gravity modifier remove rune_thurisaz_negative
+
+
+
+attribute @s minecraft:generic.scale modifier remove rune_thurisaz
+attribute @s generic.attack_damage modifier remove rune_thurisaz
+attribute @s generic.attack_knockback modifier remove rune_thurisaz
+attribute @s generic.explosion_knockback_resistance modifier remove rune_thurisaz
+attribute @s generic.fall_damage_multiplier modifier remove rune_thurisaz
+attribute @s generic.jump_strength modifier remove rune_thurisaz
+attribute @s generic.knockback_resistance modifier remove rune_thurisaz
+attribute @s generic.max_health modifier remove rune_thurisaz
+attribute @s generic.movement_efficiency modifier remove rune_thurisaz
+attribute @s generic.movement_speed modifier remove rune_thurisaz
+attribute @s generic.safe_fall_distance modifier remove rune_thurisaz
+attribute @s generic.step_height modifier remove rune_thurisaz
+attribute @s generic.water_movement_efficiency modifier remove rune_thurisaz
+attribute @s minecraft:player.block_break_speed modifier remove rune_thurisaz
+attribute @s minecraft:player.block_interaction_range modifier remove rune_thurisaz
+attribute @s minecraft:player.entity_interaction_range modifier remove rune_thurisaz
+attribute @s minecraft:player.mining_efficiency modifier remove rune_thurisaz
+attribute @s generic.gravity modifier remove rune_thurisaz
+attribute @s minecraft:generic.fall_damage_multiplier modifier remove rune_thurisaz_negative
+
 function lbc:leave_death

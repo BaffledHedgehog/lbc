@@ -1,5 +1,4 @@
-execute if entity @s[type=marker,tag=teleport_nearest_here] run tp @p[gamemode=!spectator,tag=time_stopped] @s
-execute if entity @s[type=marker,tag=teleport_nearest_here] unless entity @a[gamemode=!spectator,tag=time_stopped,distance=..2] run kill @s
+execute if entity @s[type=marker,tag=teleport_nearest_here] run function lbc:time_stopped_tickentity_timestop_marker
 
 execute if entity @s[type=!player,tag=!data_saved,type=!marker] run function lbc:time_stopped_tickentity_data_save
 execute if entity @s[type=!player,tag=data_saved,type=!marker] run function lbc:time_stopped_tickentity_delete

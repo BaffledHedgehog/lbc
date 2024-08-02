@@ -53,7 +53,6 @@ execute if score #random14 lbc.math matches 13 run attribute @s generic.gravity 
 
 execute if score #random14 lbc.math matches 14 run attribute @s generic.scale modifier add infinity_scale1 -0.9375 add_multiplied_total
 execute if score #random14 lbc.math matches 14 run attribute @s generic.safe_fall_distance modifier add infinity_scale1 10000 add_value
-execute if score #random14 lbc.math matches 14 run attribute @s generic.jump_strength modifier add infinity_scale1 -0.9375 add_multiplied_total
 execute if score #random14 lbc.math matches 14 run attribute @s generic.fall_damage_multiplier modifier add infinity_scale1 -1 add_multiplied_total
 execute if score #random14 lbc.math matches 14 run attribute @s generic.gravity modifier add infinity_scale -0.9375 add_multiplied_total
 
