@@ -34,6 +34,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -60,6 +71,17 @@
                                 {
                                     "translate": "unreal_heavy_sharp_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -89,6 +111,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -115,6 +148,17 @@
                                 {
                                     "translate": "very_heavy_sharp_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -147,6 +191,22 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "god_slab_imba.lore",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -163,6 +223,9 @@
                             "components": {
                                 "enchantments": {
                                     "minecraft:smite": 255
+                                },
+                                "minecraft:custom_data": {
+                                    "kara": true
                                 }
                             }
                         },
@@ -172,6 +235,17 @@
                                 {
                                     "translate": "not_decaying_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -190,6 +264,9 @@
                             "components": {
                                 "enchantments": {
                                     "minecraft:smite": 255
+                                },
+                                "minecraft:custom_data": {
+                                    "kara": true
                                 }
                             }
                         },
@@ -199,6 +276,17 @@
                                 {
                                     "translate": "not_decaying_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -228,6 +316,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -253,6 +352,17 @@
                                 {
                                     "translate": "decaying_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -282,6 +392,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -307,6 +428,17 @@
                                 {
                                     "translate": "decaying_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -336,6 +468,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -355,6 +498,36 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "just_imba_slab_lore",
+                                    "italic": false,
+                                    "color": "yellow"
+                                },
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 999,
+                                    "saturation": 999,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 10
+                                },
+                                "minecraft:custom_data": {
+                                    "eat_slab": true
+                                }
+                            }
                         }
                     ]
                 },
@@ -372,6 +545,17 @@
                                 {
                                     "translate": "just_a_white_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -401,6 +585,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -418,6 +613,17 @@
                                 {
                                     "translate": "just_a_red_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -447,6 +653,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -466,6 +683,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -483,6 +711,17 @@
                                 {
                                     "translate": "just_a_ender_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -512,6 +751,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -531,6 +781,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -548,6 +809,17 @@
                                 {
                                     "translate": "just_a_blue_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -575,6 +847,17 @@
                                 {
                                     "translate": "fire_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -605,6 +888,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -631,6 +925,17 @@
                                 {
                                     "translate": "heavy_sharp_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -661,6 +966,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -678,6 +994,17 @@
                                 {
                                     "translate": "just_a_black_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -707,6 +1034,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -724,6 +1062,17 @@
                                 {
                                     "translate": "very_black_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -751,6 +1100,17 @@
                                 {
                                     "translate": "very_sharp_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -781,6 +1141,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -806,6 +1177,17 @@
                                 {
                                     "translate": "heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -835,6 +1217,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -860,6 +1253,17 @@
                                 {
                                     "translate": "very_heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -889,6 +1293,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -914,6 +1329,17 @@
                                 {
                                     "translate": "unreal_heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -944,6 +1370,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -969,6 +1406,17 @@
                                 {
                                     "translate": "heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -999,6 +1447,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1024,6 +1483,17 @@
                                 {
                                     "translate": "heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1053,6 +1523,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1078,6 +1559,17 @@
                                 {
                                     "translate": "very_heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1108,6 +1600,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1133,6 +1636,17 @@
                                 {
                                     "translate": "heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1162,6 +1676,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1187,6 +1712,17 @@
                                 {
                                     "translate": "ancient_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1217,6 +1753,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1242,6 +1789,17 @@
                                 {
                                     "translate": "heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1283,6 +1841,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1310,6 +1879,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1335,6 +1915,17 @@
                                 {
                                     "translate": "emotional_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1365,6 +1956,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1391,6 +1993,17 @@
                                 {
                                     "translate": "boloto_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1432,6 +2045,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1469,6 +2093,17 @@
                                 {
                                     "translate": "bambo_megaslab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1510,6 +2145,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1535,6 +2181,17 @@
                                 {
                                     "translate": "heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }
@@ -1565,6 +2222,17 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1590,6 +2258,17 @@
                                 {
                                     "translate": "unreal_heavy_slab_imba",
                                     "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false,
+                                    "color": "dark_purple"
                                 }
                             ]
                         }

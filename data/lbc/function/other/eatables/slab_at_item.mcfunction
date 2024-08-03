@@ -1,0 +1,1 @@
+data modify entity @s Item.id set value "minecraft:brick_slab"

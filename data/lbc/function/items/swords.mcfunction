@@ -56,4 +56,6 @@ execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"wtf_item"
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"fevgalea_star": true}}}}] run function lbc:items/swords/fevgalea_star/hit
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"chaos_swo": true}}}}] run function lbc:items/swords/chaos_sword_imba_pre
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"triple_golden_sword": true}}}}] run function lbc:items/swords/triple_golden_sword/damage
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"kara": true}}}}] run function lbc:items/swords/imba_kara_slab/hit
+
 advancement revoke @s only lbc:gowno
