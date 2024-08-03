@@ -8,7 +8,7 @@ execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.mi
 # player replacer
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"randtp": true} unless entity @e[type=marker,limit=1,tag=stopper,distance=..24] run function lbc:projectiles/gadgets/swapper
 
-execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"rasengan": true} unless entity @e[type=marker,limit=1,tag=stopper_magic,distance=..24] unless entity @a[distance=..12,nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:2}}}]}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] positioned ~ ~1.62 ~ run function lbc:other/rasengan
+execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"rasengan": true} unless entity @e[type=marker,limit=1,tag=stopper_magic,distance=..24] unless entity @a[distance=..12,nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1b,type:2b}}}]}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20] positioned ~ ~1.62 ~ run function lbc:other/rasengan
 
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"superdice": true} run function lbc:projectiles/gadgets/superdice
 

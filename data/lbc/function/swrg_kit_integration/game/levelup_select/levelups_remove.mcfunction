@@ -84,3 +84,50 @@ attribute @s minecraft:player.entity_interaction_range modifier remove infinity_
 attribute @s minecraft:player.mining_efficiency modifier remove infinity_scale1
 attribute @s minecraft:player.sweeping_damage_ratio modifier remove infinity_scale1
 attribute @s generic.gravity modifier remove infinity_scale1
+
+
+
+attribute @s generic.armor modifier remove levelup_random_statup_1
+attribute @s generic.armor_toughness modifier remove levelup_random_statup_1
+attribute @s generic.attack_damage modifier remove levelup_random_statup_1
+attribute @s generic.attack_knockback modifier remove levelup_random_statup_1
+attribute @s generic.attack_speed modifier remove levelup_random_statup_1
+attribute @s generic.burning_time modifier remove levelup_random_statup_1
+attribute @s generic.explosion_knockback_resistance modifier remove levelup_random_statup_1
+attribute @s generic.fall_damage_multiplier modifier remove levelup_random_statup_1
+attribute @s generic.jump_strength modifier remove levelup_random_statup_1
+attribute @s generic.knockback_resistance modifier remove levelup_random_statup_1
+attribute @s generic.luck modifier remove levelup_random_statup_1
+attribute @s generic.max_health modifier remove levelup_random_statup_1
+attribute @s generic.movement_efficiency modifier remove levelup_random_statup_1
+attribute @s generic.movement_speed modifier remove levelup_random_statup_1
+attribute @s generic.safe_fall_distance modifier remove levelup_random_statup_1
+attribute @s generic.scale modifier remove levelup_random_statup_1
+attribute @s generic.step_height modifier remove levelup_random_statup_1
+attribute @s minecraft:player.block_break_speed modifier remove levelup_random_statup_1
+attribute @s minecraft:player.block_interaction_range modifier remove levelup_random_statup_1
+attribute @s minecraft:player.entity_interaction_range modifier remove levelup_random_statup_1
+attribute @s minecraft:player.sneaking_speed modifier remove levelup_random_statup_1
+attribute @s generic.armor modifier remove levelup_random_statup_2
+attribute @s generic.armor_toughness modifier remove levelup_random_statup_2
+attribute @s generic.attack_damage modifier remove levelup_random_statup_2
+attribute @s generic.attack_knockback modifier remove levelup_random_statup_2
+attribute @s generic.attack_speed modifier remove levelup_random_statup_2
+attribute @s generic.burning_time modifier remove levelup_random_statup_2
+attribute @s generic.explosion_knockback_resistance modifier remove levelup_random_statup_2
+attribute @s generic.fall_damage_multiplier modifier remove levelup_random_statup_2
+attribute @s generic.jump_strength modifier remove levelup_random_statup_2
+attribute @s generic.knockback_resistance modifier remove levelup_random_statup_2
+attribute @s generic.luck modifier remove levelup_random_statup_2
+attribute @s generic.max_health modifier remove levelup_random_statup_2
+attribute @s generic.movement_efficiency modifier remove levelup_random_statup_2
+attribute @s generic.movement_speed modifier remove levelup_random_statup_2
+attribute @s generic.safe_fall_distance modifier remove levelup_random_statup_2
+attribute @s generic.scale modifier remove levelup_random_statup_2
+attribute @s generic.step_height modifier remove levelup_random_statup_2
+attribute @s minecraft:player.block_break_speed modifier remove levelup_random_statup_2
+attribute @s minecraft:player.block_interaction_range modifier remove levelup_random_statup_2
+attribute @s minecraft:player.entity_interaction_range modifier remove levelup_random_statup_2
+attribute @s minecraft:player.sneaking_speed modifier remove levelup_random_statup_2
+
+

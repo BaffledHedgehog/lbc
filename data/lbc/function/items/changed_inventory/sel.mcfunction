@@ -25,7 +25,7 @@ tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"nanobots": true}}
 
 
 
-tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:4}}}]}] add no_arrows_active
+tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1b,type:4b}}}]}] add no_arrows_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"instantitem": true}}}]}] add instantitem_active
 tag @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:101b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:102b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:103b,components:{"minecraft:custom_data":{"shulkshell": true}}}]}] add shulker_setbonus_active
 tag @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"troll": true}}}]}] add trollmask_active
@@ -33,7 +33,7 @@ tag @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"assasin"
 tag @s[nbt={Inventory:[{components: {"minecraft:custom_data":{"techno": true}}}]}] add techno_tick_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"yellow_lightning": true}}}]}] add yellow_lightning
 
-tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"mystical":1,"type":4}}}]}] remove no_arrows_active
+tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"mystical":1b,"type":4b}}}]}] remove no_arrows_active
 tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"instantitem": true}}}]}] remove instantitem_active
 tag @s[nbt=!{Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:101b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:102b,components:{"minecraft:custom_data":{"shulkshell": true}}},{Slot:103b,components:{"minecraft:custom_data":{"shulkshell": true}}}]}] remove shulker_setbonus_active
 tag @s[nbt=!{Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"troll": true}}}]}] remove trollmask_active
@@ -42,12 +42,12 @@ tag @s[nbt=!{Inventory:[{components: {"minecraft:custom_data":{"techno": true}}}
 tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"yellow_lightning": true}}}]}] remove yellow_lightning
 
 
-tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:1}}}]}] add nomagic_active
-tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"mystical":1,"type":1}}}]}] remove nomagic_active
+tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1b,type:1b}}}]}] add nomagic_active
+tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"mystical":1b,"type":1b}}}]}] remove nomagic_active
 
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"phantomknifes": true}}}]}] add phantomknifes_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"razorpine": true}}}]}] add razorpine_active
-tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:2}}}]}] add notnt_active
+tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1b,type:2b}}}]}] add notnt_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"attack_helicopter": true}}}]}] add helicopter_active
 tag @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"shulkshell": true}}}]}] add shulkshell_active
 tag @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"reactive":true}}}]}] add reactivehelmet_active
@@ -55,7 +55,7 @@ tag @s[nbt={Inventory: [{Slot: 100b, components:{"minecraft:custom_data":{"react
 
 tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"phantomknifes": true}}}]}] remove phantomknifes_active
 tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"razorpine": true}}}]}] remove razorpine_active
-tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"mystical":1,"type":2}}}]}] remove notnt_active
+tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"mystical":1b,"type":2b}}}]}] remove notnt_active
 tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"attack_helicopter": true}}}]}] remove helicopter_active
 tag @s[nbt=!{Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"shulkshell": true}}}]}] remove shulkshell_active
 tag @s[nbt=!{Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"reactive":true}}}]}] remove reactivehelmet_active
@@ -64,7 +64,7 @@ tag @s[nbt={Inventory: [{Slot: 100b, components: {"minecraft:custom_data":{"tech
 
 
 
-tag @s[nbt={Inventory: [{components: {"minecraft:custom_data":{"mystical": 1}}}]}] add afkartifact5t_active
+tag @s[nbt={Inventory: [{components: {"minecraft:custom_data":{"mystical": 1b}}}]}] add afkartifact5t_active
 tag @s[nbt={Inventory: [{Slot: 100b, components:{"minecraft:custom_data":{"techno": true}}}]}] add techno_flame_active
 tag @s[nbt={SelectedItem: {components:{"minecraft:custom_data":{"hylian": true}}}}] add hylian_sword_active
 tag @s[nbt={Inventory: [{components:{"minecraft:custom_data":{"demonkishki": true}}}]}] add demonkishki_active
@@ -75,7 +75,7 @@ tag @s[nbt={Inventory: [{components:{"minecraft:custom_data":{"yellow_lightning"
 tag @s[nbt={Inventory: [{components:{"minecraft:custom_data":{"erosion": true}}}]}] add erosion_active
 
 
-tag @s[nbt=!{Inventory: [{components: {"minecraft:custom_data":{"mystical": 1}}}]}] remove afkartifact5t_active
+tag @s[nbt=!{Inventory: [{components: {"minecraft:custom_data":{"mystical": 1b}}}]}] remove afkartifact5t_active
 tag @s[nbt=!{Inventory: [{Slot: 100b, components:{"minecraft:custom_data":{"techno": true}}}]}] remove techno_flame_active
 tag @s[nbt=!{SelectedItem: {components:{"minecraft:custom_data":{"hylian": true}}}}] remove hylian_sword_active
 tag @s[nbt=!{Inventory: [{components:{"minecraft:custom_data":{"demonkishki": true}}}]}] remove demonkishki_active

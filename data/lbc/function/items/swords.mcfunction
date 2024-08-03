@@ -11,8 +11,8 @@ execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"vampire":
 # Ender sword
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"ender": true}}}}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..2,limit=10] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:workingitems/endersword
 # ARTIFACT
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical":2}}}]}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:other/artifact/ondamage
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical_old":2}}}]}] run function lbc:other/artifact/ondamage_old
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical":2b}}}]}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:other/artifact/ondamage
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical_old":2b}}}]}] run function lbc:other/artifact/ondamage_old
 # sand amulet
 execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"gaara": true}}}]}] unless entity @a[gamemode=!spectator,tag=nomagic_active,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] if entity @e[nbt={HurtTime:10s},distance=..10,tag=!spectator] run function lbc:workingitems/gaara1
 execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"gaara_old": true}}}]}] run function lbc:workingitems/gaara1_old

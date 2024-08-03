@@ -1,3 +1,3 @@
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:3,type:1}}}]},tag=!spectator] run function lbc:other/artifact/highspeed
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:3,type:2}}}]},tag=!spectator] run function lbc:other/artifact/bigjump
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:3,type:3}}}]},tag=!spectator] run function lbc:other/artifact/kombojump
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:3b,type:1b}}}]},tag=!spectator] run function lbc:other/artifact/highspeed
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:3b,type:2b}}}]},tag=!spectator] run function lbc:other/artifact/bigjump
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:3b,type:3b}}}]},tag=!spectator] run function lbc:other/artifact/kombojump

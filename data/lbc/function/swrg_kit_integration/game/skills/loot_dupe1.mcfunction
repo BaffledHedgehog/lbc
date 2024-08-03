@@ -1,1 +1,2 @@
 execute as @e[type=item,nbt={Age:0s}] at @s run function lbc:swrg_kit_integration/game/skills/loot_dupe_at
+execute as @e[type=item,nbt={Age:1s}] at @s run function lbc:swrg_kit_integration/game/skills/loot_dupe_at

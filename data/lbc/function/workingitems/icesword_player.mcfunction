@@ -9,7 +9,7 @@ execute if entity @s[nbt={active_effects:[{id:"minecraft:slowness",amplifier:4b}
 execute if entity @s[nbt={active_effects:[{id:"minecraft:slowness",amplifier:3b}]}] run function lbc:workingitems/icesword/3
 execute if entity @s[nbt={active_effects:[{id:"minecraft:slowness",amplifier:2b}]}] run function lbc:workingitems/icesword/2
 execute if entity @s[nbt={active_effects:[{id:"minecraft:slowness",amplifier:1b}]}] run function lbc:workingitems/icesword/1
-execute if entity @s[nbt={active_effects:[{id:"minecraft:slowness",amplifier:0b}]}] run function lbc:workingitems/icesword/0
+execute if entity @s[nbt={active_effects:[{id:"minecraft:slowness"}]}] run function lbc:workingitems/icesword/0
 
 execute unless entity @s[nbt={active_effects:[{id:"minecraft:slowness"}]}] run function lbc:workingitems/icesword/pre
 playsound minecraft:block.snow.fall master @a ~ ~ ~ 1 0

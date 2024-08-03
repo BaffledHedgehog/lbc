@@ -829,6 +829,18 @@
                     "weight": 10,
                     "quality": 10,
                     "value": "lbc:imba/spells"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "quality": 10,
+                    "value": "lbc:imba/potions"
+                },
+                {
+                  "type": "minecraft:loot_table",
+                  "weight": 10,
+                  "quality": 7,
+                  "value": "lbc:imba/slabs"
                 }
             ]
         }

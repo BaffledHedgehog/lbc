@@ -1,9 +1,18 @@
-execute if score tmp lbc.math matches 1 run attribute @s minecraft:generic.luck modifier add ee57f40f-8a9a-404b-8ceb-d8abf9259963 1 add_value
+execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
+execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
+execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
+execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
+execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
+execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
+execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] run tag @s add perk_random
+
+execute if score tmp lbc.math matches 1 run tag @s add rnd_statup
+
 execute if score tmp lbc.math matches 2 run tag @s add mana2
-execute if score tmp lbc.math matches 3 run attribute @s minecraft:generic.max_health modifier add a5e06574-2c94-4f2f-843c-55e25f5c4520 0.5 add_multiplied_total
+execute if score tmp lbc.math matches 3 run attribute @s minecraft:generic.max_health modifier add a5e06574-2c94-4f2f-843c-55e25f5c4520 0.25 add_multiplied_total
 execute if score tmp lbc.math matches 4 run attribute @s minecraft:generic.knockback_resistance modifier add c1b6809e-55c4-4a5e-b43d-2ee8f50b74f1 0.4 add_value
-execute if score tmp lbc.math matches 5 run attribute @s minecraft:generic.attack_damage modifier add c9eee15a-26f7-41a7-bab8-6511c6f3d764 1.2 add_value
-execute if score tmp lbc.math matches 6 run attribute @s minecraft:generic.armor modifier add 6c4edb0b-0497-4694-bddd-1b86bb588c00 6 add_value
+execute if score tmp lbc.math matches 5 run attribute @s minecraft:generic.attack_damage modifier add c9eee15a-26f7-41a7-bab8-6511c6f3d764 0.8 add_value
+execute if score tmp lbc.math matches 6 run attribute @s minecraft:generic.armor modifier add 6c4edb0b-0497-4694-bddd-1b86bb588c00 4 add_value
 
 execute if score tmp lbc.math matches 7 run attribute @s minecraft:generic.attack_damage modifier add fab7c3d2-7130-478a-b14f-091f52d55a74 0.5 add_multiplied_total
 execute if score tmp lbc.math matches 7 run attribute @s minecraft:generic.max_health modifier add 1951ef66-6b2a-4ced-91c1-1ffbce34f8ad -0.5 add_multiplied_total
@@ -19,8 +28,8 @@ execute if score tmp lbc.math matches 9 run attribute @s minecraft:generic.max_h
 execute if score tmp lbc.math matches 10 run attribute @s minecraft:generic.max_health modifier add 6df87481-a199-4207-9585-3b7b776aa370 8 add_value
 execute if score tmp lbc.math matches 11 run tag @s add perfe
 execute if score tmp lbc.math matches 12 run attribute @s minecraft:generic.movement_speed modifier add 82e6343f-453c-4c04-afad-340a75d16097 0.75 add_multiplied_total
-execute if score tmp lbc.math matches 13 run attribute @s minecraft:generic.attack_damage modifier add 68eabd5a-76f5-4e40-8743-996ee4194963 1.75 add_value
-execute if score tmp lbc.math matches 14 run attribute @s minecraft:generic.luck modifier add 986aa92b-7d25-4292-81d9-7e3414020d62 1 add_value
+execute if score tmp lbc.math matches 13 run attribute @s minecraft:generic.attack_damage modifier add 68eabd5a-76f5-4e40-8743-996ee4194963 1.25 add_value
+
 
 execute if score tmp lbc.math matches 15 run attribute @s minecraft:generic.max_health modifier add c42982a1-161d-4666-a70e-013255c70027 10 add_value
 execute if score tmp lbc.math matches 15 run attribute @s minecraft:generic.armor modifier add d79f67c3-a9c7-49aa-9b41-7076444fd9d7 -10 add_value
@@ -39,8 +48,8 @@ execute if score tmp lbc.math matches 20 run attribute @s minecraft:generic.move
 execute if score tmp lbc.math matches 20 run attribute @s minecraft:generic.attack_speed modifier add 48e5f381-5993-413d-8983-84654dace5fc 0.5 add_value
 
 
-execute if score tmp lbc.math matches 21 run attribute @s minecraft:generic.attack_damage modifier add 520ff3ae-0b51-4ac0-b756-d3f0966209ee 2 add_multiplied_total
-execute if score tmp lbc.math matches 21 run attribute @s minecraft:generic.attack_speed modifier add 00ef8539-4056-4352-9d3c-6179f8c7c85d -1.3 add_value
+execute if score tmp lbc.math matches 21 run attribute @s minecraft:generic.attack_damage modifier add 520ff3ae-0b51-4ac0-b756-d3f0966209ee 1 add_multiplied_total
+execute if score tmp lbc.math matches 21 run attribute @s minecraft:generic.attack_speed modifier add 00ef8539-4056-4352-9d3c-6179f8c7c85d -0.5 add_multiplied_total
 
 execute if score tmp lbc.math matches 22 run attribute @s minecraft:generic.movement_speed modifier add ad39dc9d-e3dc-4d13-a384-cc010d3e5f3b 0.12 add_value
 
@@ -53,7 +62,7 @@ execute if score tmp lbc.math matches 23 run attribute @s minecraft:generic.knoc
 execute if score tmp lbc.math matches 23 run attribute @s minecraft:generic.max_health modifier add 677ad544-066c-4b1d-8945-16ba84a98b0b 4 add_value
 
 execute if score tmp lbc.math matches 24 run attribute @s minecraft:generic.attack_damage modifier add f6df7d13-d5fa-4325-94b3-b8143199d457 -3 add_value
-execute if score tmp lbc.math matches 24 run attribute @s minecraft:generic.attack_speed modifier add faecddc3-8a77-45dc-bf46-c458e5dd70d9 2 add_value
+execute if score tmp lbc.math matches 24 run attribute @s minecraft:generic.attack_speed modifier add faecddc3-8a77-45dc-bf46-c458e5dd70d9 2.5 add_value
 
 execute if score tmp lbc.math matches 25 run tag @s add fast_charge
 execute if score tmp lbc.math matches 28 run tag @s add strong_charge
