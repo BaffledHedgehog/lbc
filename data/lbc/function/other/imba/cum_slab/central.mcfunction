@@ -1,0 +1,6 @@
+setblock ~ ~ ~ birch_slab[type=bottom]
+
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #airs unless entity @e[type=marker,distance=..0.8,tag=cum_slab] run summon marker ~ ~ ~ {Tags:["slowraycast","imba_rc","cum_slab","down"]}
+execute unless block ~ ~-1 ~ #airs run function lbc:other/imba/cum_slab/central_yes
+
+

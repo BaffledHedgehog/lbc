@@ -14,3 +14,4 @@ execute if score tmp lbc.math matches 119 run loot spawn ~ ~ ~ loot lbc:stand_ar
 execute if score tmp lbc.math matches 121 unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:other/nuke/nuke1_at
 execute if score tmp lbc.math matches 122 unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run tp @e[type=!player,distance=..100] ~ ~ ~ ~ ~
 execute if score tmp lbc.math matches 124 unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:other/imba/chain_lightning
+kill @s

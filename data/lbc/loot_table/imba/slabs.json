@@ -553,11 +553,24 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
+                                    "translate": "just_a_white_slab_imba.lore",
+                                    "italic": false,
+                                    "color": "yellow"
+                                },
+                                {
                                     "translate": "imba_version",
                                     "italic": false,
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "cum_slab": true
+                                }
+                            }
                         }
                     ]
                 },

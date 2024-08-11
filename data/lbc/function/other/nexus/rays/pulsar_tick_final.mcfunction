@@ -1,4 +1,4 @@
-fill ~ ~ ~ ~ ~ ~ air replace black_concrete
+fill ~ ~ ~ ~ ~ ~ air
 execute unless block ~ ~ ~ #black_concrete_air run function lbc:other/nexus/rays/pulsar_tick_final_2
 
 kill @e[type=marker,distance=0.001..1.7,tag=!selector]

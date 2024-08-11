@@ -1,5 +1,5 @@
 fill ~2 ~3.05 ~2 ~-2 ~-1.05 ~-2 air destroy
-execute as @e[type=#mobs,tag=!curseowner,distance=..2,tag=!spectator] run damage @s 0.25 arrow
+execute as @e[type=#mobs,tag=!curseowner,distance=..2,tag=!spectator] run damage @s 0.25 generic
 tp @e[tag=!void_curse,type=!player,distance=..4,tag=!curseowner] @s
 particle squid_ink ~ ~1 ~ 0.75 0.75 0.75 0 4 force
 playsound entity.creeper.primed master @a ~ ~ ~ 1.2 2
