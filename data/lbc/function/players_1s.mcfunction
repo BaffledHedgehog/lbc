@@ -15,7 +15,7 @@ scoreboard players remove @s[scores={metal_divider_cd=1..}] metal_divider_cd 1
 scoreboard players remove @s[scores={nexus_roadgun_cd=1..}] nexus_roadgun_cd 1
 scoreboard players remove @s[scores={nexus_corrupter_cd=1..}] nexus_corrupter_cd 1
 scoreboard players remove @s[scores={pulsar_cd=1..}] pulsar_cd 1
-
+scoreboard players add @s hook_cooldown 1
 scoreboard players remove @s[scores={nomagic=1..}] nomagic 1
 scoreboard players remove @s[scores={reverse_mana=1..}] reverse_mana 1
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/skills_tick_1s

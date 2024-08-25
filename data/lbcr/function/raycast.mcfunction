@@ -29,4 +29,5 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"in
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"stonekivi_wand":true}}}}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] if score @s mana >= stonekivi_wand_mana_use lbc.math anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/stonekivi/click
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"woodificator": true}}}}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_woodifier_loop
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"lightning_bolt": true}}}}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_lightning_bolt
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"cunny_slab": true}}}}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:other/imba/cunny_slab/cast
 tag @s remove raycaster

@@ -68,6 +68,12 @@
                                     "slot": "mainhand"
                                 }
                             ]
+                        },
+                        {
+                            "function": "toggle_tooltips",
+                            "toggles": {
+                                "attribute_modifiers": false
+                            }
                         }
                     ]
                 }

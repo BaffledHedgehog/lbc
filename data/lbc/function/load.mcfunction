@@ -253,6 +253,7 @@ scoreboard objectives add effect_snus dummy
 scoreboard objectives add effect_boost_mana dummy
 scoreboard objectives add effect_gravity_curse dummy
 
+scoreboard objectives add hook_cooldown dummy
 
 
 #

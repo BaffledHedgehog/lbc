@@ -5,3 +5,5 @@ execute if entity @s[tag=erecto_sniper_bruh] run function lbc:workingitems/awake
 execute if entity @s[tag=imba_most] if entity @a[gamemode=!spectator,distance=..200] run function lbc:other/imba/most_tick
 execute if entity @s[tag=imba_kara] run function lbc:items/swords/imba_kara_slab/tick_kara
 execute if entity @s[tag=cum_slab] run function lbc:other/imba/cum_slab/select
+execute if entity @s[tag=blood_slab] run function lbc:other/imba/blood_slab/tick
+execute if entity @s[tag=cunny_jungle] run function lbc:other/imba/cunny_slab/tick

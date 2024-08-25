@@ -13,6 +13,7 @@ scoreboard objectives remove coldown18b
 scoreboard objectives remove coldown16
 scoreboard objectives remove coldown17
 scoreboard objectives remove coldown25
+scoreboard objectives remove hook_cooldown
 scoreboard objectives remove bow_charge
 scoreboard objectives remove crossbow_charge
 scoreboard objectives remove nitro
