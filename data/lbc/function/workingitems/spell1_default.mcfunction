@@ -129,5 +129,5 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"gr
 
 execute at @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:101b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:102b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:103b,components:{"minecraft:custom_data":{"nyauwu": true}}}]}] run function lbc:workingitems/nyaaahuwuuw
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"overload_crux": true}}}}] anchored eyes positioned ^ ^ ^ unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:other/overload_crux/use
-
+execute if data entity @s SelectedItem.components.minecraft:custom_data.cunny run function lbc:workingitems/cunny_item/select
 

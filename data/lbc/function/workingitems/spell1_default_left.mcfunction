@@ -115,7 +115,7 @@ execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_da
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{multiply:5b}}}]}] run function lbc:swrg_kit_integration/items/multiply_5
 
 execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"grapping_hook": true}}}]}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] at @s run function lbc:swrg_kit_integration/items/grapping_hook
-
+execute if data entity @s Inventory[{Slot:-106b}].components.minecraft:custom_data.cunny run function lbc:workingitems/cunny_item/select_left
 
 
 

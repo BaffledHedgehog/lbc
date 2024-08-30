@@ -323,7 +323,8 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:custom_data": {
-                                    "eat_teleport:1b,enderset": true
+                                    "eat_teleport": true,
+                                    "enderset": true
                                 },
                                 "minecraft:custom_model_data": 301
                             }
