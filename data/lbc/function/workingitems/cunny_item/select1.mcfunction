@@ -1,0 +1,16 @@
+execute if score cunny lbc.math matches 1 run
+execute if score cunny lbc.math matches 2 run
+execute if score cunny lbc.math matches 3 run
+execute if score cunny lbc.math matches 4 run
+execute if score cunny lbc.math matches 5 run
+execute if score cunny lbc.math matches 6 run
+execute if score cunny lbc.math matches 7 run
+execute if score cunny lbc.math matches 8 run
+execute if score cunny lbc.math matches 9 run
+execute if score cunny lbc.math matches 10 run
+execute if score cunny lbc.math matches 11 run
+execute if score cunny lbc.math matches 12 run
+execute if score cunny lbc.math matches 13 run
+execute if score cunny lbc.math matches 14 run
+execute if score cunny lbc.math matches 15 run
+execute if score cunny lbc.math matches 16 run

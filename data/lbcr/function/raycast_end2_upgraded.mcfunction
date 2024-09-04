@@ -4,3 +4,4 @@ execute if score #mode lbc.math matches 1 run function lbcr:raycast_end2_mode_ve
 execute if score #mode lbc.math matches 2 run function lbcr:raycast_end2_mode_horizontal
 execute if score #mode lbc.math matches 3 run function lbcr:raycast_end2_mode_break
 execute if score #mode lbc.math matches 4 run function lbcr:raycast_end2_mode_stair
+execute if entity @a[gamemode=!spectator,tag=!raycaster,distance=..3] run advancement grant @s only lbc:true_advancements/staffs/wall

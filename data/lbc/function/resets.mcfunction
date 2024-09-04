@@ -124,6 +124,9 @@ function lbc:items/changed_inventory/sel
 function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
 execute unless score @s lbc.levelup matches 100000000.. run scoreboard players set @s lbc.levelup 100000000
 execute unless score @s lbc.levelup2 matches 0.. run scoreboard players set @s lbc.levelup2 0
+
+execute unless score @s lbc.trinket matches 100000000.. run scoreboard players set @s lbc.trinket 100000000
+execute unless score @s lbc.trinket2 matches 0.. run scoreboard players set @s lbc.trinket2 0
 scoreboard players set @s overload_jump 0
 scoreboard players set @s overload_slam 0
 tag @s remove overload_slam

@@ -1,0 +1,1 @@
+$execute if predicate {"condition":"minecraft:random_chance","chance":$(tmp)} anchored eyes positioned ^ ^ ^ run function lbc:items/trinket_effects/charge_penis

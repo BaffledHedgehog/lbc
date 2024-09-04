@@ -58,6 +58,7 @@ item replace entity @s[advancements={lbc:true_advancements/armor/technomk2=false
 item replace entity @s[advancements={lbc:true_advancements/axes/randchanted=false}] enderchest.13 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/bows/firework=false}] enderchest.14 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] enderchest.15 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] enderchest.16 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 lbc:swrg_unlocks/devilstomach
@@ -76,6 +77,7 @@ item modify entity @s[advancements={lbc:true_advancements/armor/technomk2=false}
 item modify entity @s[advancements={lbc:true_advancements/axes/randchanted=false}] enderchest.13 lbc:swrg_unlocks/randchanted_axe
 item modify entity @s[advancements={lbc:true_advancements/bows/firework=false}] enderchest.14 lbc:swrg_unlocks/firework
 item modify entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] enderchest.15 lbc:swrg_unlocks/op_hoe
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/acid_tuntija=false}] enderchest.16 lbc:swrg_unlocks/academy_acid_tuntija
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

@@ -1,49 +1,26 @@
 {
-    "display": {
-        "icon": {
-            "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":570}
-        },
-        "title": {
-            "translate": "lbc.adv.staff.unstable_book"
-        },
-        "description": {
-            "translate": "lbc.adv.staff.unstable_book.lore"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 570
+      }
     },
-    "parent": "lbc:true_advancements/staffs/blaze",
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
-            }
-          }
-        ],
-                "items": [
-                    {
-                        "predicates": {
-                            "minecraft:custom_data": {
-                              "transformable": true,
-                              "staff": true,
-                              "unstable_spellbook": true
-                            }
-                          }
-                    }
-                ]
-            }
-        }
+    "title": {
+      "translate": "lbc.adv.staff.unstable_book"
+    },
+    "description": {
+      "translate": "lbc.adv.staff.unstable_book.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "lbc:true_advancements/staffs/blaze",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
+  }
 }

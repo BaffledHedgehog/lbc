@@ -54,6 +54,7 @@ scoreboard players set 28 lbc.math 28
 scoreboard players set 30 lbc.math 30
 scoreboard players set 35 lbc.math 35
 scoreboard players set 40 lbc.math 40
+scoreboard players set 75 lbc.math 75
 scoreboard players set 100 lbc.math 100
 scoreboard players set 200 lbc.math 200
 scoreboard players set 300 lbc.math 300
@@ -207,6 +208,8 @@ scoreboard players set *id.cloud lbcID2 3
 scoreboard players set *id.cloud lbcID 3
 scoreboard objectives add lbc.levelup dummy
 scoreboard objectives add lbc.levelup2 dummy
+scoreboard objectives add lbc.trinket dummy
+scoreboard objectives add lbc.trinket2 dummy
 scoreboard objectives add lbc.kit dummy
 scoreboard objectives add lbc.skill dummy
 scoreboard objectives add sprint_cooldown dummy

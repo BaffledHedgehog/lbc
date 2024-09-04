@@ -54,3 +54,4 @@ execute if score #mode lbc.math matches 50 run tellraw @s [{"translate":"stoneki
 execute if score #mode lbc.math matches 51 run tellraw @s [{"translate":"gaycaster"}]
 execute if score #mode lbc.math matches 52 run tellraw @s [{"translate":"ice_wand"}]
 execute if score #mode lbc.math matches 53 run tellraw @s [{"translate":"danmaku_wand"}]
+execute if score #mode lbc.math matches 54 run tellraw @s [{"translate":"big_level_magic"}]

@@ -20,4 +20,5 @@ execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"penisgun"
 execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"imba_sniper_crossbow": true}}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:items/crossbow/imba_sniper_crossbow
 execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"imba_shotgun": true}}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:items/crossbow/imba_shotgun_crossbow
 execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"imba_super_shotgun": true}}}}] at @s unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:items/crossbow/imba_super_shotgun_crossbow
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/bows_get_trinket
 advancement revoke @s only lbc:crossbow

@@ -1,0 +1,1 @@
+$execute if predicate {"condition":"minecraft:random_chance","chance":$(tmp)} run function lbc:items/trinket_effects/charge_firework

@@ -1,0 +1,16 @@
+execute if entity @s[team=1] if entity @e[type=#mobs,distance=0.1..20,team=1] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=2] if entity @e[type=#mobs,distance=0.1..20,team=2] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=3] if entity @e[type=#mobs,distance=0.1..20,team=3] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=4] if entity @e[type=#mobs,distance=0.1..20,team=4] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=5] if entity @e[type=#mobs,distance=0.1..20,team=5] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=6] if entity @e[type=#mobs,distance=0.1..20,team=6] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=7] if entity @e[type=#mobs,distance=0.1..20,team=7] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=8] if entity @e[type=#mobs,distance=0.1..20,team=8] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=9] if entity @e[type=#mobs,distance=0.1..20,team=9] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=10] if entity @e[type=#mobs,distance=0.1..20,team=10] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=11] if entity @e[type=#mobs,distance=0.1..20,team=11] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=12] if entity @e[type=#mobs,distance=0.1..20,team=12] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=13] if entity @e[type=#mobs,distance=0.1..20,team=13] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=14] if entity @e[type=#mobs,distance=0.1..20,team=14] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=15] if entity @e[type=#mobs,distance=0.1..20,team=15] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=16] if entity @e[type=#mobs,distance=0.1..20,team=16] run advancement grant @s only lbc:true_advancements/staffs/vampire

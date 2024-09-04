@@ -20,32 +20,7 @@
     "parent": "lbc:true_advancements/staffs/ender_random",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "nbt": "{playerGameType:3}"
-                            }
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "staff": true,
-                                "lifestealer": true
-                            }
-                        }
-                    }
-                ]
-            }
+            "trigger": "minecraft:impossible"
         }
     }
 }

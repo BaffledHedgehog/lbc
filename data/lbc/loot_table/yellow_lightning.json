@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "yellow_lightning": true
+                                },
+                                "minecraft:custom_model_data": 618
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "yellow_lightning",
+                                    "italic": false,
+                                    "color": "yellow"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "yellow_lightning.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

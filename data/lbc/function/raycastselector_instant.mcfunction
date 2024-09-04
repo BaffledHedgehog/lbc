@@ -6,3 +6,4 @@ execute if entity @s[tag=nether_portal] run function lbc:workingitems/imba/nethe
 execute if entity @s[tag=nuke_old] run function lbc:other/nuke/nuket_old
 execute if entity @s[tag=explodein,scores={Lifetime=3}] run function lbc:other/shishfill
 execute if entity @s[tag=birch] run function lbc:other/spawn_birch
+execute if entity @s[tag=electropissardy] run function lbcr:raycast_molnia_cunny_2

@@ -6,4 +6,4 @@ execute if score tmp lbc.math matches 32.. run scoreboard players set tmp lbc.ma
 execute store result storage lbc.math timp int 1 run scoreboard players get tmp lbc.math
 execute store result storage lbc.math timp1 int 1 run scoreboard players get tmp1 lbc.math
 function lbc:workingitems/regeneration_belt_rec with storage lbc.math
-execute if score @s y matches ..-1900000 if score tmp lbc.math matches 5.. run advancement grant @s only lbc:true_advancements/accesories/regeneration_belt
+execute if score @s y matches ..-300000 if score tmp lbc.math matches 5.. run advancement grant @s only lbc:true_advancements/accesories/regeneration_belt

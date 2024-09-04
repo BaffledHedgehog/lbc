@@ -7,7 +7,7 @@ execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"onetnt": 
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"shulker": true}}}}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:workingitems/shulkerbow
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"railgun_bow": true}}}}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/railgun_bow
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"shish_gun":true}}}}] unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] run function lbc:workingitems/shish_bow
-
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/bows_get_trinket
 scoreboard players set @s bow 0
 scoreboard players set @s bow_charge 0
 scoreboard players set @s bow_charge_sub 0

@@ -61,7 +61,6 @@ item replace entity @s[advancements={lbc:true_advancements/bows/double=false}] e
 item replace entity @s[advancements={lbc:true_advancements/hoes/death_skytche=false}] enderchest.15 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/hoes/sickle=false}] enderchest.16 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/hoes/socializm=false}] enderchest.17 with repeating_command_block[custom_model_data=669]
-execute unless entity @s[advancements={lbc:true_advancements/staffs/acid=true,lbc:true_advancements/staffs/corruption=true,lbc:true_advancements/legends/academy/acid=true,lbc:true_advancements/legends/academy/acidacid=true,lbc:true_advancements/legends/academy/acidcorrupt=true,lbc:true_advancements/legends/academy/acid_tuntija=true,lbc:true_advancements/legends/tuntija_wands/acid=true,lbc:true_advancements/legends/tuntija_wands/acidacid=true,lbc:true_advancements/legends/tuntija_wands/acidcorrupt=true,lbc:true_advancements/legends/academy/corruption=true}] run item replace entity @s enderchest.19 with repeating_command_block[custom_model_data=669]
 
 
 
@@ -80,12 +79,11 @@ item modify entity @s[advancements={lbc:true_advancements/armor/shulker_full=fal
 item modify entity @s[advancements={lbc:true_advancements/armor/techno_full=false}] enderchest.10 lbc:swrg_unlocks/techno_full
 item modify entity @s[advancements={lbc:true_advancements/axes/banhammer=false}] enderchest.11 lbc:swrg_unlocks/banhammer
 item modify entity @s[advancements={lbc:true_advancements/axes/hammer=false}] enderchest.12 lbc:swrg_unlocks/hammer
-execute unless entity @s[advancements={lbc:true_advancements/bows/blaze=true,lbc:true_advancements/bows/ghast=true,lbc:true_advancements/bows/penis_gun=true,lbc:true_advancements/bows/minigun=true}] run item modify entity @s enderchest.13 lbc:swrg_unlocks/miniguns
+item modify entity @s[advancements={lbc:true_advancements/bows/minigun=false}] enderchest.13 lbc:swrg_unlocks/miniguns
 item modify entity @s[advancements={lbc:true_advancements/bows/double=false}] enderchest.14 lbc:swrg_unlocks/double
 item modify entity @s[advancements={lbc:true_advancements/hoes/death_skytche=false}] enderchest.15 lbc:swrg_unlocks/death_skytche
 item modify entity @s[advancements={lbc:true_advancements/hoes/sickle=false}] enderchest.16 lbc:swrg_unlocks/sickle
 item modify entity @s[advancements={lbc:true_advancements/hoes/socializm=false}] enderchest.17 lbc:swrg_unlocks/socializm
-execute unless entity @s[advancements={lbc:true_advancements/staffs/acid=true,lbc:true_advancements/staffs/corruption=true,lbc:true_advancements/legends/academy/acid=true,lbc:true_advancements/legends/academy/acidacid=true,lbc:true_advancements/legends/academy/acidcorrupt=true,lbc:true_advancements/legends/academy/acid_tuntija=true,lbc:true_advancements/legends/tuntija_wands/acid=true,lbc:true_advancements/legends/tuntija_wands/acidacid=true,lbc:true_advancements/legends/tuntija_wands/acidcorrupt=true,lbc:true_advancements/legends/academy/corruption=true}] run item modify entity @s enderchest.19 lbc:swrg_unlocks/acid_man
 
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
