@@ -16,6 +16,8 @@ scoreboard players set @s[scores={swrg.gui_select=14},advancements={lbc:true_adv
 scoreboard players set @s[scores={swrg.gui_select=15},advancements={lbc:true_advancements/hoes/death_skytche=true}] lbc.skill 16
 scoreboard players set @s[scores={swrg.gui_select=16},advancements={lbc:true_advancements/hoes/sickle=true}] lbc.skill 17
 scoreboard players set @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/hoes/socializm=true}] lbc.skill 18
+
+scoreboard players set @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/acidacid=true}] lbc.skill 19
 #
 
 tellraw @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/accesories/jaakivi=false}] {"translate": "lbc.adv.accessories.jaakivi.lore"}
@@ -36,6 +38,8 @@ tellraw @s[scores={swrg.gui_select=14},advancements={lbc:true_advancements/bows/
 tellraw @s[scores={swrg.gui_select=15},advancements={lbc:true_advancements/hoes/death_skytche=false}] {"translate": "lbc.adv.hoe.death_skytche.lore"}
 tellraw @s[scores={swrg.gui_select=16},advancements={lbc:true_advancements/hoes/sickle=false}] {"translate": "lbc.adv.hoe.sickle.lore"}
 tellraw @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/hoes/socializm=false}] {"translate": "lbc.adv.hoe.communism.lore"}
+
+tellraw @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/acidacid=false}] {"translate": "lbc.adv.upgraded_tuntija.acidacid.lore"}
 
 
 

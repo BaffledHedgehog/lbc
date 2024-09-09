@@ -17,7 +17,7 @@ loot replace entity @s enderchest.15 loot lbc:gui/page/10000/15
 loot replace entity @s enderchest.16 loot lbc:gui/page/10000/16
 loot replace entity @s enderchest.17 loot lbc:gui/page/10000/17
 
-#loot replace entity @s enderchest.19 loot lbc:gui/page/10000/19
+loot replace entity @s enderchest.19 loot lbc:gui/page/10000/19
 #
 item modify entity @s[scores={lbc.skill=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.skill=2}] enderchest.1 swrg:select
@@ -38,6 +38,7 @@ item modify entity @s[scores={lbc.skill=16}] enderchest.15 swrg:select
 item modify entity @s[scores={lbc.skill=17}] enderchest.16 swrg:select
 item modify entity @s[scores={lbc.skill=18}] enderchest.17 swrg:select
 
+item modify entity @s[scores={lbc.skill=19}] enderchest.19 swrg:select
 item modify entity @s[scores={lbc.skill=20}] enderchest.19 swrg:select
 item modify entity @s[scores={lbc.skill=21}] enderchest.20 swrg:select
 item modify entity @s[scores={lbc.skill=22}] enderchest.21 swrg:select
@@ -62,6 +63,8 @@ item replace entity @s[advancements={lbc:true_advancements/hoes/death_skytche=fa
 item replace entity @s[advancements={lbc:true_advancements/hoes/sickle=false}] enderchest.16 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/hoes/socializm=false}] enderchest.17 with repeating_command_block[custom_model_data=669]
 
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/acidacid=false}] enderchest.19 with repeating_command_block[custom_model_data=669]
+
 
 
 
@@ -84,6 +87,8 @@ item modify entity @s[advancements={lbc:true_advancements/bows/double=false}] en
 item modify entity @s[advancements={lbc:true_advancements/hoes/death_skytche=false}] enderchest.15 lbc:swrg_unlocks/death_skytche
 item modify entity @s[advancements={lbc:true_advancements/hoes/sickle=false}] enderchest.16 lbc:swrg_unlocks/sickle
 item modify entity @s[advancements={lbc:true_advancements/hoes/socializm=false}] enderchest.17 lbc:swrg_unlocks/socializm
+
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/acidacid=false}] enderchest.19 lbc:swrg_unlocks/academy_acidacid
 
 
 loot replace entity @s enderchest.18 loot swrg:gui/back

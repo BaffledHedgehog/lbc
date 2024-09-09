@@ -1,0 +1,1 @@
+$attribute @s minecraft:generic.oxygen_bonus base set $(tmp)

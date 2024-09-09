@@ -1,0 +1,1 @@
+$attribute @s minecraft:player.submerged_mining_speed base set $(tmp)

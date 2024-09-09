@@ -1,0 +1,1 @@
+$attribute @s minecraft:player.block_break_speed base set $(tmp)

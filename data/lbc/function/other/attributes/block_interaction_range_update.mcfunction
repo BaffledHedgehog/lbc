@@ -1,0 +1,1 @@
+$attribute @s minecraft:player.block_interaction_range base set $(tmp)

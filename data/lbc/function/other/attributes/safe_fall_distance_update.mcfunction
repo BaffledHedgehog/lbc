@@ -1,0 +1,1 @@
+$attribute @s minecraft:generic.safe_fall_distance base set $(tmp)

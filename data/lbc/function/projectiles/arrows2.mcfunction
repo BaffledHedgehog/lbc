@@ -44,6 +44,8 @@ execute if score tmp lbc.math matches 124 run scoreboard players operation @s ef
 execute if score tmp lbc.math matches -22 run damage @s 4 lava
 execute if score tmp lbc.math matches -21 run effect give @s poison 10 4
 
+execute if score #lbcskill swrg.math matches 1 if score @s lbc.skill matches 19 run function lbc:projectiles/arrows2_nodebuff
+
 tag @s add have_lucky_effects
 tag @s add have_lucky_effects_1s
 tag @s add have_lucky_effects_5t

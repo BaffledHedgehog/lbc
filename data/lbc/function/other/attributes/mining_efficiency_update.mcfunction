@@ -1,0 +1,1 @@
+$attribute @s minecraft:player.mining_efficiency base set $(tmp)
