@@ -14,6 +14,7 @@ loot replace entity @s enderchest.12 loot lbc:gui/page/9000/12
 loot replace entity @s enderchest.13 loot lbc:gui/page/9000/13
 loot replace entity @s enderchest.14 loot lbc:gui/page/9000/14
 loot replace entity @s enderchest.15 loot lbc:gui/page/9000/15
+loot replace entity @s enderchest.16 loot lbc:gui/page/9000/16
 #
 item modify entity @s[scores={lbc.kit=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.kit=2}] enderchest.1 swrg:select

@@ -41,6 +41,9 @@ execute if score tmp lbc.math matches 122 run scoreboard players operation @s ef
 execute if score tmp lbc.math matches 123 run scoreboard players operation @s effect_timestop += dur lbc.math
 execute if score tmp lbc.math matches 124 run scoreboard players operation @s effect_chain_lightning += dur lbc.math
 
+execute if score tmp lbc.math matches -22 run damage @s 4 lava
+execute if score tmp lbc.math matches -21 run effect give @s poison 10 4
+
 tag @s add have_lucky_effects
 tag @s add have_lucky_effects_1s
 tag @s add have_lucky_effects_5t

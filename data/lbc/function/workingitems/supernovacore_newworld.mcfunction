@@ -60,7 +60,7 @@ execute if score #random56 lbc.math matches 54 run function swrg:maploader/map/5
 execute if score #random56 lbc.math matches 55 run function swrg:maploader/map/55
 execute if score #random56 lbc.math matches 56 run function swrg:maploader/map/56
 fill -5 126 -5 5 127 5 air
-kill @e[type=area_effect_cloud,tag=swrg.lobby,predicate=!lbc:nexus]
+kill @e[tag=swrg.lobby,predicate=!lbc:nexus]
 title @a[predicate=!lbc:nexus] title ""
 title @a[predicate=!lbc:nexus] subtitle {"translate":"end_respawn"}
 effect clear @a[gamemode=!spectator] levitation

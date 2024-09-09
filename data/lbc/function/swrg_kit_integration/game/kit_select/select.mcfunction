@@ -14,3 +14,4 @@ loot give @s[scores={lbc.kit=13}] loot lbc:kit/hook
 loot give @s[scores={lbc.kit=14}] loot lbc:kit/key
 loot give @s[scores={lbc.kit=15}] loot lbc:kit/dynamite
 loot give @s[scores={lbc.kit=16}] loot lbc:kit/key_luck
+loot give @s[scores={lbc.kit=17}] loot lbc:kit/brbad
