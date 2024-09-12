@@ -16,4 +16,5 @@ execute if entity @s[team=14] run team join 14 @e[type=#mobs,distance=..15,dx=0,
 execute if entity @s[team=15] run team join 15 @e[type=#mobs,distance=..15,dx=0,dy=0,dz=0,type=!player]
 execute if entity @s[team=16] run team join 16 @e[type=#mobs,distance=..15,dx=0,dy=0,dz=0,type=!player]
 playsound entity.villager.trade master @a ~ ~ ~ 1 1
+scoreboard players operation @e[type=#mobs,distance=..15,dx=0,dy=0,dz=0,type=!player] lbcID2 = @s lbcID2
 execute if entity @e[type=#mobs,distance=..15,dx=0,dy=0,dz=0,type=ghast,tag=sauvojen_tuntija] run tag @s add friendly_tuntija

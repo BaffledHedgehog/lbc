@@ -1,3 +1,5 @@
+
+
 tag @s add tagged
 execute if score #lbcskill swrg.math matches 1 run function lbc:items_tick_tag_2
 tag @s[nbt={Item: {components: {"minecraft:custom_data":{"drop":true}}}}] add drop

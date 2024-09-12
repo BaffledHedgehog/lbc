@@ -18,6 +18,7 @@ scoreboard players set @s[scores={swrg.gui_select=16},advancements={lbc:true_adv
 scoreboard players set @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/hoes/socializm=true}] lbc.skill 18
 
 scoreboard players set @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/acidacid=true}] lbc.skill 19
+scoreboard players set @s[scores={swrg.gui_select=20},advancements={lbc:true_advancements/legends/academy/acidcorrupt=true}] lbc.skill 20
 #
 
 tellraw @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/accesories/jaakivi=false}] {"translate": "lbc.adv.accessories.jaakivi.lore"}
@@ -40,6 +41,7 @@ tellraw @s[scores={swrg.gui_select=16},advancements={lbc:true_advancements/hoes/
 tellraw @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/hoes/socializm=false}] {"translate": "lbc.adv.hoe.communism.lore"}
 
 tellraw @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/acidacid=false}] {"translate": "lbc.adv.upgraded_tuntija.acidacid.lore"}
+tellraw @s[scores={swrg.gui_select=20},advancements={lbc:true_advancements/legends/academy/acidcorrupt=false}] {"translate": "lbc.adv.upgraded_tuntija.acidcorrupt.lore"}
 
 
 

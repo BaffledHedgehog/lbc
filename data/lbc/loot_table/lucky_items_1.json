@@ -13,18 +13,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -39,18 +33,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -65,18 +53,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -91,18 +73,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -117,18 +93,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -143,18 +113,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -169,18 +133,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -195,18 +153,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -221,18 +173,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -247,18 +193,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -273,18 +213,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -299,18 +233,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -325,18 +253,12 @@
                                 "min": 1,
                                 "max": 64
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "lbc:lucky_items",
-                    "functions": [
+                        },
                         {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 64
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
@@ -350,6 +272,273 @@
                             "count": {
                                 "min": 1,
                                 "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "value": "lbc:lucky_items",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 64,
+                                "!minecraft:max_damage": {}
                             }
                         }
                     ]
