@@ -1,0 +1,90 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 678,
+                                "minecraft:custom_data": {
+                                    "phd": true
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "phd",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "phd.lore.1",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "phd.lore.2",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "phd.lore.3",
+                                    "italic": false,
+                                    "color": "white"
+                                },
+                                {
+                                    "translate": "phd.lore.4",
+                                    "italic": true,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone_meal",
+                    "functions": [
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "compost",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "compost.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

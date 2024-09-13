@@ -1,0 +1,57 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 678
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "lbckit.17",
+                                "italic": false,
+                                "color": "white"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "lbckit.17.lore.0",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lbckit.17.lore.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lbckit.17.lore.2",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lbckit.17.lore.3",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

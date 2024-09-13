@@ -15,6 +15,7 @@ scoreboard players set @s[scores={swrg.gui_select=13},advancements={lbc:true_adv
 scoreboard players set @s[scores={swrg.gui_select=14},advancements={lbc:true_advancements/bows/firework=true}] lbc.kit 15
 scoreboard players set @s[scores={swrg.gui_select=15},advancements={lbc:true_advancements/hoes/op_hoe=true}] lbc.kit 16
 scoreboard players set @s[scores={swrg.gui_select=16},advancements={lbc:true_advancements/legends/academy/acid_tuntija=true}] lbc.kit 17
+scoreboard players set @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/legends/academy/badwiki=true}] lbc.kit 18
 #
 
 
@@ -35,6 +36,7 @@ tellraw @s[scores={swrg.gui_select=13},advancements={lbc:true_advancements/axes/
 tellraw @s[scores={swrg.gui_select=14},advancements={lbc:true_advancements/bows/firework=false}] {"translate":"lbc.adv.bow.firework.lore"}
 tellraw @s[scores={swrg.gui_select=15},advancements={lbc:true_advancements/hoes/op_hoe=false}] {"translate":"lbc.adv.hoe.op_hoe.lore"}
 tellraw @s[scores={swrg.gui_select=16},advancements={lbc:true_advancements/legends/academy/acid_tuntija=false}] {"translate":"lbc.adv.upgraded_tuntija.acid.lore"}
+tellraw @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/legends/academy/badwiki=false}] {"translate":"lbc.adv.upgraded_staff.badwiki.lore"}
 
 
 

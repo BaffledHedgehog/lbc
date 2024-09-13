@@ -80,10 +80,10 @@
                             "components": {
                                 "minecraft:custom_data": {
                                     "transformable": true,
-                                    "minecraft:custom_model_data": 500,
                                     "bow": true,
                                     "penisgun": true
                                 },
+                                "minecraft:custom_model_data": 500,
                                 "minecraft:enchantments": {
                                     "minecraft:quick_charge": 2
                                 },
