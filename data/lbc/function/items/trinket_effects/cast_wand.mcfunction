@@ -1,0 +1,2 @@
+execute store result score tmp lbc.math run clear @s repeating_command_block[minecraft:custom_data~{trinket:"blood_anal_boom"}] 0
+execute if score tmp lbc.math matches 1.. run function lbc:items/trinket_effects/tnt

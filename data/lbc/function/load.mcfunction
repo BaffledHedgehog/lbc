@@ -50,10 +50,13 @@ scoreboard players set 16 lbc.math 16
 scoreboard players set 18 lbc.math 18
 scoreboard players set 20 lbc.math 20
 scoreboard players set 22 lbc.math 22
+scoreboard players set 25 lbc.math 25
 scoreboard players set 28 lbc.math 28
 scoreboard players set 30 lbc.math 30
 scoreboard players set 35 lbc.math 35
 scoreboard players set 40 lbc.math 40
+scoreboard players set 50 lbc.math 50
+scoreboard players set 70 lbc.math 70
 scoreboard players set 75 lbc.math 75
 scoreboard players set 100 lbc.math 100
 scoreboard players set 200 lbc.math 200

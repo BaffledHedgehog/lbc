@@ -2,6 +2,7 @@ loot replace entity @s enderchest.0 loot lbc:gui/page/11000/0
 loot replace entity @s enderchest.1 loot lbc:gui/page/11000/1
 loot replace entity @s enderchest.2 loot lbc:gui/page/11000/2
 loot replace entity @s enderchest.3 loot lbc:gui/page/11000/3
+loot replace entity @s enderchest.4 loot lbc:gui/page/11000/4
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.trinket
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
@@ -58,12 +59,14 @@ item replace entity @s[advancements={lbc:true_advancements/bows/blaze=false}] en
 item replace entity @s[advancements={lbc:true_advancements/bows/ghast=false}] enderchest.1 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/bows/penis_gun=false}] enderchest.2 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/acid=false}] enderchest.3 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/air=false}] enderchest.4 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 lbc:swrg_unlocks/blaze
 item modify entity @s[advancements={lbc:true_advancements/bows/ghast=false}] enderchest.1 lbc:swrg_unlocks/ghast
 item modify entity @s[advancements={lbc:true_advancements/bows/penis_gun=false}] enderchest.2 lbc:swrg_unlocks/penis_gun
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/acid=false}] enderchest.3 lbc:swrg_unlocks/academy_acid
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/air=false}] enderchest.4 lbc:swrg_unlocks/academy_air
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

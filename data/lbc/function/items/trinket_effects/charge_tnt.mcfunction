@@ -1,0 +1,3 @@
+execute anchored eyes positioned ^ ^ ^ run summon tnt ~ ~ ~ {Tags:["can_deleted","meowmurnya","dynamite","groundbam"],fuse:1000s}
+execute anchored eyes positioned ^ ^ ^ at @e[type=tnt,limit=1,distance=..0.01,tag=meowmurnya] rotated as @s as @e[type=tnt,limit=1,distance=..0.01,tag=meowmurnya] run function lbc:raycast_vpered_slow_obfuscated
+execute anchored eyes positioned ^ ^ ^ run scoreboard players operation @e[type=tnt,limit=1,distance=..0.01,tag=meowmurnya] lbcID2 = @s lbcID2
