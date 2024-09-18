@@ -54,3 +54,8 @@ execute store success score tmp1 lbc.math run data modify storage lbc.math tmp s
 execute unless score tmp1 lbc.math matches 0 run function lbc:swrg_kit_integration/game/kits/phd_hash
 execute store success score tmp1 lbc.math run data modify storage lbc.math tmp set string block 10241024 94 10241024 Items[3].id 36 37
 execute unless score tmp1 lbc.math matches 0 run function lbc:swrg_kit_integration/game/kits/phd_hash
+
+execute store result score count_temp lbc.math run data get block 10241024 94 10241024 Items[3].count 1
+execute if score count_temp lbc.math matches 1 run data remove block 10241024 94 10241024 Items[3]
+execute unless score count_temp lbc.math matches 1 store result block 10241024 94 10241024 Items[3].count int 0.9999 run data get block 10241024 94 10241024 Items[3].count 1
+item replace entity @s player.crafting.3 from block 10241024 94 10241024 container.3

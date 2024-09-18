@@ -15,9 +15,15 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:custom_data": {
-                                    "pill": "damage_up"
+                                    "pill": "0"
                                 },
-                                "minecraft:custom_model_data": 572
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 100
                             }
                         },
                         {
@@ -35,7 +41,7 @@
                             "mode": "replace_all",
                             "lore": [
                                 {
-                                    "translate": "pill",
+                                    "translate": "pill.lore",
                                     "color": "white",
                                     "italic": false
                                 }
@@ -55,6 +61,3605 @@
                                 "scale": 1
                             },
                             "range": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "1"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 101
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "2"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 102
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "3"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 103
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "4"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 104
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "5"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 105
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "6"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 106
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 6
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "7"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 107
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 7
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "8"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 108
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "9"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 109
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 9
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "10"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 110
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "11"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 111
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 11
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "12"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 112
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 12
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "13"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 113
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 13
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "14"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 114
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 14
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "15"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 115
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 15
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "16"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 116
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "17"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 117
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 17
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "18"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 118
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 18
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "19"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 119
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 19
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "20"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 120
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 20
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "21"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 121
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 21
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "22"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 122
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 22
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "23"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 123
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 23
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "24"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 124
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 24
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "25"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 125
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 25
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "26"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 126
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 26
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "27"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 127
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 27
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "28"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 128
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 28
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "29"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 129
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 29
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "30"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 130
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "31"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 131
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 31
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "32"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 132
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 32
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "33"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 133
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 33
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "34"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 134
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 34
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "35"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 135
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 35
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "36"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 136
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 36
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "37"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 137
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 37
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "38"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 138
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 38
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "39"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 139
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 39
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "40"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 140
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 40
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "41"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 141
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 41
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "42"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 142
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 42
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "43"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 143
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 43
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "44"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 144
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 44
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "45"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 145
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 45
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "46"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 146
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 46
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "47"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 147
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 47
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "48"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 148
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 48
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "49"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 149
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 49
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "50"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 150
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 50
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "51"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 151
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 51
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "52"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 152
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 52
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "53"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 153
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 53
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "54"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 154
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 54
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "55"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 155
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 55
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "56"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 156
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 56
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "57"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 157
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 57
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "58"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 158
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 58
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "pill": "59"
+                                },
+                                "minecraft:food": {
+                                    "nutrition": 1,
+                                    "saturation": 1,
+                                    "can_always_eat": true,
+                                    "eat_seconds": 0.2
+                                },
+                                "minecraft:custom_model_data": 159
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "pill",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "pill.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "hash"
+                                },
+                                "score": "lbc.math",
+                                "scale": 1
+                            },
+                            "range": 59
                         }
                     ]
                 }

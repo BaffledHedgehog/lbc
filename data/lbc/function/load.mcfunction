@@ -56,6 +56,7 @@ scoreboard players set 30 lbc.math 30
 scoreboard players set 35 lbc.math 35
 scoreboard players set 40 lbc.math 40
 scoreboard players set 50 lbc.math 50
+scoreboard players set 59 lbc.math 59
 scoreboard players set 70 lbc.math 70
 scoreboard players set 75 lbc.math 75
 scoreboard players set 100 lbc.math 100
@@ -270,6 +271,7 @@ forceload add -1 -1 1 1
 forceload add 10241024 10241024
 setblock 10241024 100 10241024 yellow_shulker_box
 setblock 10241024 71 10241024 yellow_shulker_box
+setblock 10241024 94 10241024 yellow_shulker_box
 function lbc:tick5s
 function lbc:tick2s
 function lbc:tick3s
