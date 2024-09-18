@@ -22,3 +22,4 @@ execute in overworld run function lbc:reset_gamerules
 execute in the_nether run function lbc:reset_gamerules
 execute in the_end run function lbc:reset_gamerules
 execute if score november lbc.math matches 1 run schedule function lbc:start_nov_event_pre 1s
+execute store result score #game_seed lbc.math run random value 1..10000000

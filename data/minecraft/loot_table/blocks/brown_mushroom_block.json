@@ -50,6 +50,10 @@
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:ore_drops",
               "function": "minecraft:apply_bonus"
+            },
+            {
+              "function": "limit_count",
+              "limit": 99
             }
           ]
         }
@@ -111,6 +115,10 @@
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:ore_drops",
               "function": "minecraft:apply_bonus"
+            },
+            {
+              "function": "limit_count",
+              "limit": 99
             }
           ]
         }
@@ -142,12 +150,15 @@
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "predicates": {
-                    "minecraft:enchantments": [{
-                      
-                        "enchantments":"minecraft:silk_touch", "levels":{"min":1}
-                      
-                    }]
-                  }
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
                   }
                 }
               ]
@@ -178,13 +189,6 @@
                   "count": {
                     "min": -6,
                     "max": 2
-                  }
-                },
-                {
-                  "function": "minecraft:limit_count",
-                  "limit": {
-                    "min": 0,
-                    "max": 0
                   }
                 },
                 {
