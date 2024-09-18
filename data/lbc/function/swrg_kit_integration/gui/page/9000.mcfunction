@@ -34,15 +34,15 @@ item modify entity @s[scores={lbc.kit=14}] enderchest.13 swrg:select
 item modify entity @s[scores={lbc.kit=15}] enderchest.14 swrg:select
 item modify entity @s[scores={lbc.kit=16}] enderchest.15 swrg:select
 item modify entity @s[scores={lbc.kit=17}] enderchest.16 swrg:select
+item modify entity @s[scores={lbc.kit=18}] enderchest.17 swrg:select
 
-item modify entity @s[scores={lbc.kit=19}] enderchest.18 swrg:select
-item modify entity @s[scores={lbc.kit=20}] enderchest.19 swrg:select
-item modify entity @s[scores={lbc.kit=21}] enderchest.20 swrg:select
-item modify entity @s[scores={lbc.kit=22}] enderchest.21 swrg:select
-item modify entity @s[scores={lbc.kit=23}] enderchest.22 swrg:select
-item modify entity @s[scores={lbc.kit=24}] enderchest.23 swrg:select
-item modify entity @s[scores={lbc.kit=25}] enderchest.24 swrg:select
-item modify entity @s[scores={lbc.kit=26}] enderchest.25 swrg:select
+item modify entity @s[scores={lbc.kit=19}] enderchest.19 swrg:select
+item modify entity @s[scores={lbc.kit=20}] enderchest.20 swrg:select
+item modify entity @s[scores={lbc.kit=21}] enderchest.21 swrg:select
+item modify entity @s[scores={lbc.kit=22}] enderchest.22 swrg:select
+item modify entity @s[scores={lbc.kit=23}] enderchest.23 swrg:select
+item modify entity @s[scores={lbc.kit=24}] enderchest.24 swrg:select
+item modify entity @s[scores={lbc.kit=25}] enderchest.25 swrg:select
 #
 item replace entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/accesories/popit=false}] enderchest.1 with repeating_command_block[custom_model_data=669]

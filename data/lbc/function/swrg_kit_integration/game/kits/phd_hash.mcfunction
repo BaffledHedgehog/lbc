@@ -26,3 +26,5 @@ execute if data storage lbc.math {tmp:"y"} run scoreboard players set currhash l
 execute if data storage lbc.math {tmp:"z"} run scoreboard players set currhash lbc.math 26
 execute if data storage lbc.math {tmp:"_"} run scoreboard players set currhash lbc.math 27
 scoreboard players operation hash lbc.math += currhash lbc.math
+#tellraw @a {"score": {"objective": "lbc.math","name": "currhash"}}
+data remove storage lbc.math tmp
