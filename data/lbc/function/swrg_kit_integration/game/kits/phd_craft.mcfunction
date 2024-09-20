@@ -5,5 +5,5 @@ execute if items entity @s player.crafting.1 #bioitems run function lbc:swrg_kit
 execute if items entity @s player.crafting.2 #bioitems run function lbc:swrg_kit_integration/game/kits/phd_hash_2
 execute if items entity @s player.crafting.3 #bioitems run function lbc:swrg_kit_integration/game/kits/phd_hash_3
 
-scoreboard players operation hash lbc.math %= 59 lbc.math
+scoreboard players operation hash lbc.math %= 144 lbc.math
 loot give @s loot lbc:kit/pill
