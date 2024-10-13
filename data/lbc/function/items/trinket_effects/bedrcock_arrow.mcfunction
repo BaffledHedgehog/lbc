@@ -1,0 +1,1 @@
+execute at @s anchored eyes positioned ^ ^ ^ run tag @e[type=#arrows,distance=..1] add bedrock_arrow

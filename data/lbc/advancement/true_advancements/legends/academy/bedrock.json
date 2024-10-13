@@ -2,7 +2,9 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":668}
+            "components": {
+                "minecraft:custom_model_data": 668
+            }
         },
         "title": {
             "translate": "lbc.adv.upgraded_tuntija.bedrock"
@@ -36,15 +38,18 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "upgraded": true,
-                              "transformable": true,
-                              "staff": true,
-                              "bedrock_wand": true
+                                "upgraded": true,
+                                "transformable": true,
+                                "staff": true,
+                                "bedrock_wand": true
                             }
-                          }
+                        }
                     }
                 ]
             }
         }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/trinket"
     }
 }

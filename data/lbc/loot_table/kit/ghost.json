@@ -14,31 +14,20 @@
                                     "custom_color": 14737663,
                                     "custom_effects": [
                                         {
-                                            "id": "minecraft:speed",
-                                            "amplifier": 9,
-                                            "duration": 200,
-                                            "show_particles": false
-                                        },
-                                        {
-                                            "id": "minecraft:jump_boost",
-                                            "amplifier": 4,
-                                            "duration": 200,
-                                            "show_particles": false
-                                        },
-                                        {
                                             "id": "minecraft:invisibility",
                                             "amplifier": 1,
-                                            "duration": 200,
+                                            "duration": 100,
                                             "show_particles": false
                                         },
                                         {
                                             "id": "minecraft:strength",
                                             "amplifier": 1,
-                                            "duration": 200,
+                                            "duration": 100,
                                             "show_particles": false
                                         }
                                     ]
-                                }
+                                },
+                                "max_stack_size": 4
                             }
                         },
                         {

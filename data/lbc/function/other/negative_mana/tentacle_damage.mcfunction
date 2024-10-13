@@ -1,4 +1,2 @@
 $damage @s $(dmg) outside_border by @a[tag=caster,limit=1]
-effect give @a[tag=caster,tag=overload_full_active,limit=1] saturation 1 0 true
-effect give @a[tag=caster,tag=overload_full_active,limit=1,predicate=lbc:chance0_5] instant_health 1 0 true
-scoreboard players add @a[tag=caster,tag=overload_full_active,limit=1] mana 30
+execute as @a[tag=caster,tag=overload_full_active,limit=1] at @s run function lbc:other/negative_mana/tentacle_damage_restore_hp

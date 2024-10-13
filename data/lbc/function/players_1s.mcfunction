@@ -36,5 +36,6 @@ execute at @s[tag=techno_active] unless entity @e[type=marker,tag=stopper,limit=
 execute at @s[tag=death_compass_active] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:other/death_compass_check
 effect give @s[tag=paladin_full_active] resistance 3 3
 execute if entity @s[scores={sprint_cooldown=1..}] run function lbc:players_1s_sprinted
+advancement grant @s only lbc:penis
 
 execute at @s[tag=nanobots_active] run function lbc:armor/nanobots/tick1s

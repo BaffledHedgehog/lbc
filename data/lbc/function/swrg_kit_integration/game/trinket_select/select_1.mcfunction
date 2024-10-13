@@ -5,3 +5,4 @@ execute if score tmp lbc.math matches 3 run loot give @s loot lbc:trinket/penis_
 execute if score tmp lbc.math matches 4 run loot give @s loot lbc:trinket/drojjevoe_odealo
 execute if score tmp lbc.math matches 5 run loot give @s loot lbc:trinket/blood_anal_boom
 execute if score tmp lbc.math matches 6 run loot give @s loot lbc:trinket/mandoahuet
+execute if score tmp lbc.math matches 7 run loot give @s loot lbc:trinket/bedrcock
