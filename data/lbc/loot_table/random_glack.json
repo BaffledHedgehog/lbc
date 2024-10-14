@@ -13,6 +13,13 @@
                                 "min": 1,
                                 "max": 64
                             }
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 99,
+                                "!minecraft:max_damage": {}
+                            }
                         }
                     ]
                 }
