@@ -26,4 +26,4 @@ playsound entity.vex.ambient master @a ~ ~ ~ 1 1
 playsound entity.vex.ambient master @a ~ ~ ~ 1 1
 tag @s remove caster
 
-
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:swrg_kit_integration/game/trinkets/on_summon

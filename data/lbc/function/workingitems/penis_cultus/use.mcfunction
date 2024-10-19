@@ -4,3 +4,4 @@ execute at @a[gamemode=!spectator,tag=!caster] run function lbc:workingitems/pen
 
 
 scoreboard players operation @s mana -= penis_cultus_mana_use lbc.math
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:swrg_kit_integration/game/trinkets/on_summon

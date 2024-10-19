@@ -10,7 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 688
+                                "minecraft:custom_model_data": 680,
+                                "minecraft:custom_data": {
+                                    "trinket": "nether_plug"
+                                },
+                                "minecraft:max_stack_size": 99
                             }
                         },
                         {
