@@ -16,6 +16,8 @@ loot replace entity @s enderchest.14 loot lbc:gui/page/9000/14
 loot replace entity @s enderchest.15 loot lbc:gui/page/9000/15
 loot replace entity @s enderchest.16 loot lbc:gui/page/9000/16
 loot replace entity @s enderchest.17 loot lbc:gui/page/9000/17
+
+loot replace entity @s enderchest.19 loot lbc:gui/page/9000/18
 #
 item modify entity @s[scores={lbc.kit=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.kit=2}] enderchest.1 swrg:select
@@ -62,6 +64,7 @@ item replace entity @s[advancements={lbc:true_advancements/bows/firework=false}]
 item replace entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] enderchest.15 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/acid_tuntija=false}] enderchest.16 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/badwiki=false}] enderchest.17 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=false}] enderchest.19 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 lbc:swrg_unlocks/devilstomach
@@ -82,6 +85,7 @@ item modify entity @s[advancements={lbc:true_advancements/bows/firework=false}] 
 item modify entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] enderchest.15 lbc:swrg_unlocks/op_hoe
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/acid_tuntija=false}] enderchest.16 lbc:swrg_unlocks/academy_acid_tuntija
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/badwiki=false}] enderchest.17 lbc:swrg_unlocks/academy_badwiki
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=false}] enderchest.19 lbc:swrg_unlocks/academy_blazefire
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset
