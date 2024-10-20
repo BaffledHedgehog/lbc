@@ -7,6 +7,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"te
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"banhammer": true}}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged7"},"color":"white"}," [",{"score":{"name":"@s","objective":"swordcharging7"},"color":"#41BBE0"},{"text":"/"},{"text":"15§f]","color":"#41BBE0"}]}'
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"fevgalea_star": true}}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"fevgalea_charge"},"color":"#41BBE0"}]}'
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"triple_golden_sword": true}}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged8"},"color":"gold"}]}'
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"blazefire_sword": true}}}}] run data modify storage lbc.math ui append value '{"text":"    \\uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged9"},"color":"gold"}]}'
 
 
 

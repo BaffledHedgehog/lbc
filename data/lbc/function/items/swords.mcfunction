@@ -57,6 +57,7 @@ execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"fevgalea_
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"chaos_swo": true}}}}] run function lbc:items/swords/chaos_sword_imba_pre
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"triple_golden_sword": true}}}}] run function lbc:items/swords/triple_golden_sword/damage
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"kara": true}}}}] run function lbc:items/swords/imba_kara_slab/hit
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"blazefire_sword": true}}}}] run scoreboard players add @s swordcharged9 1
 
 execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/swords_get_trinket
 

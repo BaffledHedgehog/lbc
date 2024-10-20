@@ -131,3 +131,4 @@ attribute @s minecraft:player.entity_interaction_range modifier remove levelup_r
 attribute @s minecraft:player.sneaking_speed modifier remove levelup_random_statup_2
 
 
+attribute @s minecraft:generic.max_health modifier remove 8fy489ygkdj89gysd89byvgko8fsyb7ftgddkc8s9p

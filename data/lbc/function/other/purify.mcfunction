@@ -55,6 +55,7 @@ scoreboard players set @s swordcharged5 0
 scoreboard players set @s swordcharged6 0
 scoreboard players set @s swordcharged7 0
 scoreboard players set @s swordcharged8 0
+scoreboard players set @s swordcharged9 0
 scoreboard players set @s swordcharging1 0
 scoreboard players set @s swordcharging2 0
 scoreboard players set @s swordcharging3 0

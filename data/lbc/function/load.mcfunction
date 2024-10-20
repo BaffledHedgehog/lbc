@@ -109,6 +109,7 @@ scoreboard objectives add swordcharging6 dummy
 scoreboard objectives add swordcharged7 dummy
 scoreboard objectives add swordcharging7 dummy
 scoreboard objectives add swordcharged8 dummy
+scoreboard objectives add swordcharged9 dummy
 scoreboard objectives add team_number dummy
 scoreboard objectives add luck_amount dummy
 scoreboard objectives remove shit_amount

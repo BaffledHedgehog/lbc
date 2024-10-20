@@ -17,3 +17,4 @@ execute at @s[tag=reactiveboots_active] unless entity @e[type=marker,tag=stopper
 execute if score @s twitching matches 1.. unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/twitching
 execute if score @s death_timer matches 1.. run function lbc:other/death
 execute if score @s gatling_fovos matches 1.. anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/blind_loop_gatling
+execute if entity @s[tag=firefarting] run function lbc:items/swords/blazefire_sword/tick_5t
