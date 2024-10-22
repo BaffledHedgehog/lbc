@@ -44,6 +44,19 @@
                                             "name": "#bonus_academy#$&#$&#$&#$&#$&$#%G"
                                         }
                                     }
+                                ],
+                                [
+                                    {
+                                        "translate": "lbctweak.lore.all.1",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "score": {
+                                            "objective": "lbc.tokens",
+                                            "name": "@s"
+                                        }
+                                    }
                                 ]
                             ]
                         }

@@ -1,7 +1,4 @@
-execute if entity @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/legends/academy/root=true}] run scoreboard players add #bonus_academy#$&#$&#$&#$&#$&$#%G lbcID2 1
-#
-
-tellraw @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/legends/academy/root=false}] {"translate": "lbc.adv.academy_upgraded.lore"}
+execute if score #lbc.tweaks swrg.math matches 1 run function lbc:swrg_kit_integration/gui/select/12000_enabled
 
 
 
