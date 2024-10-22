@@ -2,7 +2,9 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "components": {"minecraft:custom_model_data":621}
+            "components": {
+                "minecraft:custom_model_data": 621
+            }
         },
         "title": {
             "translate": "lbc.adv.academy_upgraded"
@@ -36,9 +38,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "upgraded": true
+                                "upgraded": true
                             }
-                          }
+                        }
                     }
                 ]
             }
