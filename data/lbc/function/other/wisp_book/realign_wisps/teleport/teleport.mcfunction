@@ -1,0 +1,1 @@
+$execute rotated ~$(tmp) ~ positioned ^ ^ ^1.5 rotated as @a[tag=check_id,limit=1] rotated ~ 0 run tp @s ~ ~ ~ ~ ~

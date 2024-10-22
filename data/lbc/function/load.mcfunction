@@ -55,6 +55,7 @@ scoreboard players set 28 lbc.math 28
 scoreboard players set 30 lbc.math 30
 scoreboard players set 35 lbc.math 35
 scoreboard players set 40 lbc.math 40
+scoreboard players set 45 lbc.math 45
 scoreboard players set 50 lbc.math 50
 scoreboard players set 59 lbc.math 59
 scoreboard players set 70 lbc.math 70
@@ -223,6 +224,7 @@ scoreboard objectives add overload_slam dummy
 scoreboard objectives add cold dummy
 scoreboard objectives add cold_cd dummy
 scoreboard objectives add frozen dummy
+scoreboard objectives add wisp dummy
 #effect!
 
 scoreboard objectives add effect_rtp_1 dummy
