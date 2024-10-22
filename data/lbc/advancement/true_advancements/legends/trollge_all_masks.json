@@ -39,7 +39,7 @@
                         "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
-                                "trollmask": 1
+                                "trollmask": "1"
                             }
                         }
                     }
@@ -66,7 +66,7 @@
                         "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
-                                "trollmask": 2
+                                "trollmask": "2"
                             }
                         }
                     }
@@ -93,7 +93,7 @@
                         "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
-                                "trollmask": 3
+                                "trollmask": "3"
                             }
                         }
                     }
@@ -120,7 +120,7 @@
                         "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
-                                "trollmask": 4
+                                "trollmask": "4"
                             }
                         }
                     }
@@ -147,7 +147,7 @@
                         "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
-                                "trollmask": 5
+                                "trollmask": "5"
                             }
                         }
                     }
@@ -174,7 +174,7 @@
                         "predicates": {
                             "minecraft:custom_data": {
                                 "troll": true,
-                                "trollmask": 6
+                                "trollmask": "6"
                             }
                         }
                     }

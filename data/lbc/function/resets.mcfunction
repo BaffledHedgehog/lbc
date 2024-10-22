@@ -13,6 +13,7 @@ scoreboard players set @s swordcharging6 0
 scoreboard players set @s swordcharged7 0
 scoreboard players set @s swordcharging7 0
 scoreboard players set @s swordcharged8 0
+scoreboard players set @s swordcharged9 0
 scoreboard players set @s scared 0
 scoreboard players set @s lookback 0
 scoreboard players set @s shock 0

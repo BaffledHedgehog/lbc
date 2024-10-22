@@ -5,3 +5,4 @@ execute if score #random4 lbc.math matches 3 rotated ~ 0 positioned ^2 ^ ^ run f
 execute if score #random4 lbc.math matches 4 rotated ~ 0 positioned ^-2 ^ ^ run function lbc:workingitems/summoner/psychovex_spawn
 scoreboard players operation @s mana -= psychovex_wand_mana_use lbc.math
 scoreboard players operation @s mana -= psychovex_wand_mana_use lbc.math
+

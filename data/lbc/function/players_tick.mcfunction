@@ -46,6 +46,7 @@ execute if entity @s[scores={overload_jump=1..}] run function lbc:armor/overload
 execute if entity @s[tag=overload_boots_active,predicate=lbc:sneak,scores={overload_jump=..0,overload_slam=0},nbt={OnGround:0b}] if blocks ~ ~ ~ ~ ~-8 ~ 10241023 127 10241023 all run function lbc:armor/overload/boots/slam
 execute if entity @s[tag=overload_slam] run function lbc:armor/overload/boots/tick
 execute if entity @s[tag=gigantic] run function lbc:other/imba/runes/thurisaz_gigant_tick
+execute if items entity @s player.crafting.* repeating_command_block[minecraft:custom_data~{phd:1b}] run function lbc:swrg_kit_integration/game/kits/changed_inventory_phd
 advancement revoke @s only lbc:penis
 
 

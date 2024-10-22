@@ -1,10 +1,6 @@
-execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
-execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
-execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
-execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
-execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
-execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] store result score tmp lbc.math run random value 1..30
-execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] run tag @s add perk_random
+execute if score tmp lbc.math matches 14 unless entity @s[tag=perk_random] run function lbc:swrg_kit_integration/game/levelup_select/select_random_perk
+#НЕ ЗАБЫВАТЬ МЕНЯТЬ ХУЙНЮ СВЕРХУ ПО ДОБАВЛЕНИЮ НОВЫХ ЛЕВЕЛАПОВ!!! ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 execute if score tmp lbc.math matches 1 run tag @s add rnd_statup
 
@@ -68,4 +64,8 @@ execute if score tmp lbc.math matches 25 run tag @s add fast_charge
 execute if score tmp lbc.math matches 28 run tag @s add strong_charge
 execute if score tmp lbc.math matches 29 run tag @s add strong_charge_1
 execute if score tmp lbc.math matches 30 run tag @s add gravitas
+
+execute if score tmp lbc.math matches 31 run tag @s add sanguis_magicae
+execute if score tmp lbc.math matches 31 run attribute @s minecraft:generic.max_health modifier add 8fy489ygkdj89gysd89byvgko8fsyb7ftgddkc8s9p -16 add_value
+
 #tellraw @a [{"text":"tmp: }}]}]

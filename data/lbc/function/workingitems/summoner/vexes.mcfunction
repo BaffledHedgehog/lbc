@@ -40,4 +40,4 @@ scoreboard players operation @s mana -= vex_soul_mana_use lbc.math
 particle soul_fire_flame ~ ~1 ~ 5 5 5 0 300 normal
 playsound minecraft:entity.wither.spawn master @a ~ ~ ~ 1 1
 
-
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:swrg_kit_integration/game/trinkets/on_summon
