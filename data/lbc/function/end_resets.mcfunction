@@ -122,5 +122,5 @@ scoreboard players set bottom_nexus lbc.math 0
 scoreboard players set barrier_arcanum_mana_tick2 lbc.math 10
 gamerule keepInventory false
 execute as @a at @s run function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
-scoreboard players set #bonus_academy#$&#$&#$&#$&#$&$#%G lbcID2 0
+
 tellraw @a [{"text":"Baffled Discord Server (click): ","color":"gold","italic":false,"clickEvent":{"action":"open_url","value":"https://discord.gg/RVqrP3ZaYV"}},{"text":"https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true,"clickEvent":{"action":"open_url","value":"https://discord.gg/RVqrP3ZaYV"}}]

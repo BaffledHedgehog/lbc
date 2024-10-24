@@ -45,5 +45,8 @@
                 ]
             }
         }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/tweak"
     }
 }
