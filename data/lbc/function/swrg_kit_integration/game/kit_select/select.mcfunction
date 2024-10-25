@@ -17,3 +17,4 @@ loot give @s[scores={lbc.kit=16}] loot lbc:kit/key_luck
 loot give @s[scores={lbc.kit=17}] loot lbc:kit/brbad
 loot give @s[scores={lbc.kit=18}] loot lbc:kit/phd
 loot give @s[scores={lbc.kit=19}] loot lbc:kit/blazefire
+loot give @s[scores={lbc.kit=20}] loot lbc:kit/clown

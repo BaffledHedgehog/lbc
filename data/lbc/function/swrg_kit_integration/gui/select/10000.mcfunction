@@ -20,6 +20,8 @@ scoreboard players set @s[scores={swrg.gui_select=17},advancements={lbc:true_adv
 scoreboard players set @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/acidacid=true}] lbc.skill 19
 scoreboard players set @s[scores={swrg.gui_select=20},advancements={lbc:true_advancements/legends/academy/acidcorrupt=true}] lbc.skill 20
 scoreboard players set @s[scores={swrg.gui_select=21},advancements={lbc:true_advancements/legends/academy/big_stone=true}] lbc.skill 21
+scoreboard players set @s[scores={swrg.gui_select=22},advancements={lbc:true_advancements/legends/academy/boltbolt=true}] lbc.skill 22
+scoreboard players set @s[scores={swrg.gui_select=23},advancements={lbc:true_advancements/legends/academy/consuming=true}] lbc.skill 23
 #
 
 tellraw @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/accesories/jaakivi=false}] {"translate": "lbc.adv.accessories.jaakivi.lore"}
@@ -44,6 +46,8 @@ tellraw @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/hoes/
 tellraw @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/acidacid=false}] {"translate": "lbc.adv.upgraded_tuntija.acidacid.lore"}
 tellraw @s[scores={swrg.gui_select=20},advancements={lbc:true_advancements/legends/academy/acidcorrupt=false}] {"translate": "lbc.adv.upgraded_tuntija.acidcorrupt.lore"}
 tellraw @s[scores={swrg.gui_select=21},advancements={lbc:true_advancements/legends/academy/big_stone=false}] {"translate": "lbc.adv.upgraded_tuntija.big_stone.lore"}
+tellraw @s[scores={swrg.gui_select=22},advancements={lbc:true_advancements/legends/academy/boltbolt=false}] {"translate": "lbc.adv.upgraded_tuntija.boltbolt.lore"}
+tellraw @s[scores={swrg.gui_select=23},advancements={lbc:true_advancements/legends/academy/consuming=false}] {"translate": "lbc.adv.upgraded_tuntija.consuming.lore"}
 
 
 

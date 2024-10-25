@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 779
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "lbcskill.22",
+                                "italic": false,
+                                "color": "white"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "lbcskill.22.lore.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lbcskill.22.lore.2",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

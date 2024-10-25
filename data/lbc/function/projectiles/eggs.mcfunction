@@ -33,5 +33,7 @@ execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.mi
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"govno_raskid": true} run function lbc:swrg_kit_integration/items/govno_raskid
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{steampunk_rocket:1b} run function lbc:swrg_kit_integration/items/steampunk_rocket
 
+execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{false_tumba:1b} run function lbc:swrg_kit_integration/items/false_tumba
+
 # remove egg
 kill @e[type=snowball,limit=1,sort=nearest,distance=..10,nbt={Item:{components:{"minecraft:custom_data":{"gadget": true}}}}]

@@ -27,6 +27,9 @@ execute if data entity @s Item.components.minecraft:custom_data{"spike_impulse":
 execute if data entity @s Item.components.minecraft:custom_data{"throwable_metal_pipe": true} run summon item ^ ^ ^ {PickupDelay:10s,Item:{id:"minecraft:spyglass",count:1,components:{"minecraft:attribute_modifiers":[{type:"minecraft:generic.attack_damage",slot:"mainhand",id:"metalpaipdaerisass",amount:10,operation:"add_value"},{type:"minecraft:generic.attack_speed",slot:"mainhand",id:"ifi9wdijif",amount:-3.1,operation:"add_value"}],"minecraft:custom_name":'{"translate":"metal_pipe","italic": false}',lore:['{ "translate": "type", "italic": false, "color": "aqua"}','{ "translate": "sword", "italic": false, "color": "aqua"}','{ "translate":"craft_with_divider", "italic": false, "color": "yellow"}'],"minecraft:custom_model_data":594,custom_data:{"metal_pipe": true,"craftusable": true,"transformable":true,"sword": true}}},Tags:["edited"]}
 execute if data entity @s Item.components.minecraft:custom_data{"ender_pernul": true} run summon ender_pearl ^ ^ ^ {Tags:["edited4"]}
 execute if data entity @s Item.components.minecraft:custom_data{"dynamite": true} run summon tnt ^ ^ ^ {Tags:["edited6","can_deleted","groundbam","dynamite"],fuse:1000s}
+execute if data entity @s Item.components.minecraft:custom_data{"smoke_bomb": true} run summon arrow ^ ^ ^ {damage:0.01d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:97b,duration:20}]}}}}
+
+
 data modify entity @e[tag=edited,limit=1,sort=nearest,distance=..4] Motion set from entity @s Motion
 execute store result entity @e[tag=edited6,limit=1,sort=nearest,distance=..4] Motion[0] double 0.0001 run data get entity @s Motion[0] 10000
 execute store result entity @e[tag=edited6,limit=1,sort=nearest,distance=..4] Motion[1] double 0.0001 run data get entity @s Motion[1] 10000

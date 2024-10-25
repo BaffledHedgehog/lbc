@@ -20,6 +20,8 @@ loot replace entity @s enderchest.17 loot lbc:gui/page/10000/17
 loot replace entity @s enderchest.19 loot lbc:gui/page/10000/19
 loot replace entity @s enderchest.20 loot lbc:gui/page/10000/20
 loot replace entity @s enderchest.21 loot lbc:gui/page/10000/21
+loot replace entity @s enderchest.22 loot lbc:gui/page/10000/22
+loot replace entity @s enderchest.23 loot lbc:gui/page/10000/23
 #
 item modify entity @s[scores={lbc.skill=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.skill=2}] enderchest.1 swrg:select
@@ -68,6 +70,8 @@ item replace entity @s[advancements={lbc:true_advancements/hoes/socializm=false}
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/acidacid=false}] enderchest.19 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/acidcorrupt=false}] enderchest.20 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/big_stone=false}] enderchest.21 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/boltbolt=false}] enderchest.22 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/consuming=false}] enderchest.23 with repeating_command_block[custom_model_data=669]
 
 
 
@@ -95,6 +99,8 @@ item modify entity @s[advancements={lbc:true_advancements/hoes/socializm=false}]
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/acidacid=false}] enderchest.19 lbc:swrg_unlocks/academy_acidacid
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/acidcorrupt=false}] enderchest.20 lbc:swrg_unlocks/academy_acidcorrupt
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/big_stone=false}] enderchest.21 lbc:swrg_unlocks/academy_big_stone
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/boltbolt=false}] enderchest.22 lbc:swrg_unlocks/academy_boltbolt
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/consuming=false}] enderchest.23 lbc:swrg_unlocks/academy_consuming
 
 
 loot replace entity @s enderchest.18 loot swrg:gui/back

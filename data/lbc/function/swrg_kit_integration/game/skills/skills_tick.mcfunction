@@ -5,3 +5,4 @@ execute if entity @s[tag=gravitas] anchored eyes positioned ^ ^ ^ run data modif
 execute if score @s lbc.skill matches 17 run function lbc:swrg_kit_integration/game/skills/four
 execute if score @s lbc.skill matches 20 run function lbc:swrg_kit_integration/game/skills/simbiont_tick
 execute if score @s lbc.skill matches 21 run function lbc:swrg_kit_integration/game/skills/planetoid_tick
+execute if score @s lbc.skill matches 23 run function lbc:swrg_kit_integration/game/skills/god_claw_tick

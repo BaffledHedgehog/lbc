@@ -18,6 +18,7 @@ loot replace entity @s enderchest.16 loot lbc:gui/page/9000/16
 loot replace entity @s enderchest.17 loot lbc:gui/page/9000/17
 
 loot replace entity @s enderchest.19 loot lbc:gui/page/9000/18
+loot replace entity @s enderchest.20 loot lbc:gui/page/9000/19
 #
 item modify entity @s[scores={lbc.kit=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.kit=2}] enderchest.1 swrg:select
@@ -65,6 +66,7 @@ item replace entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] e
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/acid_tuntija=false}] enderchest.16 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/badwiki=false}] enderchest.17 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=false}] enderchest.19 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/confuse=false}] enderchest.20 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 lbc:swrg_unlocks/devilstomach
@@ -86,6 +88,7 @@ item modify entity @s[advancements={lbc:true_advancements/hoes/op_hoe=false}] en
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/acid_tuntija=false}] enderchest.16 lbc:swrg_unlocks/academy_acid_tuntija
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/badwiki=false}] enderchest.17 lbc:swrg_unlocks/academy_badwiki
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=false}] enderchest.19 lbc:swrg_unlocks/academy_blazefire
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/confuse=false}] enderchest.20 lbc:swrg_unlocks/academy_confuse
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

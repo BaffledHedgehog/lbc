@@ -266,6 +266,7 @@ scoreboard objectives add effect_gravity_curse dummy
 
 scoreboard objectives add hook_cooldown dummy
 scoreboard objectives add lbc.tokens dummy
+scoreboard objectives add god_claw_cd dummy
 
 
 #
