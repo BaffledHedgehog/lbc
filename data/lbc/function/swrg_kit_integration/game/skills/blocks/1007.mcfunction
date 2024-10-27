@@ -1,0 +1,1 @@
+setblock ~ ~ ~ lightning_rod

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ moving_piston

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ waxed_weathered_copper_trapdoor

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ tuff_wall

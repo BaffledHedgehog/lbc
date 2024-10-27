@@ -1,0 +1,1 @@
+setblock ~ ~ ~ dead_bush

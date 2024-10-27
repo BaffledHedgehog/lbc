@@ -1,0 +1,1 @@
+setblock ~ ~ ~ cyan_stained_glass

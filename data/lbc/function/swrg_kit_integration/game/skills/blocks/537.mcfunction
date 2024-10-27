@@ -1,0 +1,1 @@
+setblock ~ ~ ~ chiseled_red_sandstone

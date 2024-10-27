@@ -1,0 +1,1 @@
+setblock ~ ~ ~ mossy_cobblestone_slab

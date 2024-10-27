@@ -1,0 +1,1 @@
+setblock ~ ~ ~ dried_kelp_block

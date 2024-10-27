@@ -1,0 +1,1 @@
+setblock ~ ~ ~ spruce_hanging_sign

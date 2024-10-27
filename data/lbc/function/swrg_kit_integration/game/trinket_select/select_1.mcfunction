@@ -8,3 +8,4 @@ execute if score tmp lbc.math matches 6 run loot give @s loot lbc:trinket/mandoa
 execute if score tmp lbc.math matches 7 run loot give @s loot lbc:trinket/bedrcock
 execute if score tmp lbc.math matches 8 run loot give @s loot lbc:trinket/nether_plug
 execute if score tmp lbc.math matches 9 run loot give @s loot lbc:trinket/volos
+execute if score tmp lbc.math matches 10 run loot give @s loot lbc:trinket/intercal

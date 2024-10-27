@@ -1,0 +1,1 @@
+setblock ~ ~ ~ daylight_detector

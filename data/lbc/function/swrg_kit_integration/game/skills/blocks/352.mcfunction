@@ -1,0 +1,1 @@
+setblock ~ ~ ~ command_block

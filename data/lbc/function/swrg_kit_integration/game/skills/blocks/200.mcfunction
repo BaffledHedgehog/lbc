@@ -1,0 +1,1 @@
+setblock ~ ~ ~ oak_wall_sign

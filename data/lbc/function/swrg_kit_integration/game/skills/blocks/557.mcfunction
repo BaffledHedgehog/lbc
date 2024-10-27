@@ -1,0 +1,1 @@
+setblock ~ ~ ~ stone_brick_slab

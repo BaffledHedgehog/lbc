@@ -1,0 +1,1 @@
+setblock ~ ~ ~ deepslate_iron_ore

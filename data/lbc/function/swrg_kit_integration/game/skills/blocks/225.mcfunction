@@ -1,0 +1,1 @@
+setblock ~ ~ ~ jungle_wall_hanging_sign

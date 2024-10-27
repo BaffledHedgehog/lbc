@@ -1,0 +1,1 @@
+setblock ~ ~ ~ light_blue_banner

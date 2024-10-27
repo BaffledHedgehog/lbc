@@ -1,0 +1,1 @@
+setblock ~ ~ ~ powered_rail

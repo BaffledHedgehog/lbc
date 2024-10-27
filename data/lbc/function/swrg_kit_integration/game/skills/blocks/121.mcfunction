@@ -1,0 +1,1 @@
+setblock ~ ~ ~ detector_rail

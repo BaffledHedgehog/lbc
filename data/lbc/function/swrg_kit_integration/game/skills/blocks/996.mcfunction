@@ -1,0 +1,1 @@
+setblock ~ ~ ~ waxed_exposed_copper_grate

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ lava_cauldron

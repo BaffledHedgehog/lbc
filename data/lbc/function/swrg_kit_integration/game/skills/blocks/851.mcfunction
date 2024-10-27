@@ -1,0 +1,1 @@
+setblock ~ ~ ~ blackstone_stairs

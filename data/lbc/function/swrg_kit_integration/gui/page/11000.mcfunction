@@ -7,6 +7,7 @@ loot replace entity @s enderchest.5 loot lbc:gui/page/11000/5
 loot replace entity @s enderchest.6 loot lbc:gui/page/11000/6
 loot replace entity @s enderchest.7 loot lbc:gui/page/11000/7
 loot replace entity @s enderchest.8 loot lbc:gui/page/11000/8
+loot replace entity @s enderchest.9 loot lbc:gui/page/11000/9
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.trinket
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
@@ -68,6 +69,7 @@ item replace entity @s[advancements={lbc:true_advancements/legends/academy/bass=
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/bedrock=false}] enderchest.6 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/blaze=false}] enderchest.7 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/blind=false}] enderchest.8 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/corruption=false}] enderchest.9 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 lbc:swrg_unlocks/blaze
@@ -79,6 +81,7 @@ item modify entity @s[advancements={lbc:true_advancements/legends/academy/bass=f
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/bedrock=false}] enderchest.6 lbc:swrg_unlocks/academy_bedrock
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/blaze=false}] enderchest.7 lbc:swrg_unlocks/academy_blaze
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/blind=false}] enderchest.8 lbc:swrg_unlocks/academy_blind
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/corruption=false}] enderchest.9 lbc:swrg_unlocks/academy_corruption
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

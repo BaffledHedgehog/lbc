@@ -1,0 +1,1 @@
+setblock ~ ~ ~ raw_gold_block

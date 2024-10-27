@@ -1,0 +1,1 @@
+setblock ~ ~ ~ mangrove_pressure_plate

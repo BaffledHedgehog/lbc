@@ -1,0 +1,1 @@
+setblock ~ ~ ~ budding_amethyst

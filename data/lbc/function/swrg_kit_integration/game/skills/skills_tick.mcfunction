@@ -6,3 +6,4 @@ execute if score @s lbc.skill matches 17 run function lbc:swrg_kit_integration/g
 execute if score @s lbc.skill matches 20 run function lbc:swrg_kit_integration/game/skills/simbiont_tick
 execute if score @s lbc.skill matches 21 run function lbc:swrg_kit_integration/game/skills/planetoid_tick
 execute if score @s lbc.skill matches 23 run function lbc:swrg_kit_integration/game/skills/god_claw_tick
+execute if score @s lbc.skill matches 24 run function lbc:swrg_kit_integration/game/skills/expansion_tick

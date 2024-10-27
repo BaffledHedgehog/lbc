@@ -1,0 +1,1 @@
+setblock ~ ~ ~ blue_wall_banner

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ cherry_wood

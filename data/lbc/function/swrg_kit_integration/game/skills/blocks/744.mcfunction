@@ -1,0 +1,1 @@
+setblock ~ ~ ~ red_nether_brick_stairs

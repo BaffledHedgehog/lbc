@@ -1,0 +1,1 @@
+setblock ~ ~ ~ deepslate_emerald_ore

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ trapped_chest

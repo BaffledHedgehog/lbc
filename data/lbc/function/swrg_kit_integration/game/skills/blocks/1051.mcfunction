@@ -1,0 +1,1 @@
+setblock ~ ~ ~ ochre_froglight

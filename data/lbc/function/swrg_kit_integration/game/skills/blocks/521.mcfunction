@@ -1,0 +1,1 @@
+setblock ~ ~ ~ orange_wall_banner

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ bone_block

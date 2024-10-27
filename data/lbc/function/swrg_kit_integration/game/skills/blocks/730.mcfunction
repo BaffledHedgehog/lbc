@@ -1,0 +1,1 @@
+setblock ~ ~ ~ void_air

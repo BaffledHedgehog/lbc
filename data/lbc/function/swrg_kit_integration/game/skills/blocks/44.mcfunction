@@ -1,0 +1,1 @@
+setblock ~ ~ ~ coal_ore

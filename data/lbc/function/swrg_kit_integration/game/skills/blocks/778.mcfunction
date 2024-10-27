@@ -1,0 +1,1 @@
+setblock ~ ~ ~ cartography_table

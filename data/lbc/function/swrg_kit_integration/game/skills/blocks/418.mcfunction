@@ -1,0 +1,1 @@
+setblock ~ ~ ~ nether_quartz_ore

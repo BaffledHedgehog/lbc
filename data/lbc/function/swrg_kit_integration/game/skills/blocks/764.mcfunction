@@ -1,0 +1,1 @@
+setblock ~ ~ ~ granite_wall

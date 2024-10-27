@@ -1,0 +1,1 @@
+setblock ~ ~ ~ cobbled_deepslate_stairs

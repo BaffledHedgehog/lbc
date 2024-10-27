@@ -1,0 +1,1 @@
+setblock ~ ~ ~ fletching_table

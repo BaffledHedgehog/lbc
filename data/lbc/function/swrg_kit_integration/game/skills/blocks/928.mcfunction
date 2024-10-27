@@ -1,0 +1,1 @@
+setblock ~ ~ ~ calibrated_sculk_sensor

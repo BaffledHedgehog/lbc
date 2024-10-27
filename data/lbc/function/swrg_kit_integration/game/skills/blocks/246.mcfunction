@@ -1,0 +1,1 @@
+setblock ~ ~ ~ redstone_wall_torch

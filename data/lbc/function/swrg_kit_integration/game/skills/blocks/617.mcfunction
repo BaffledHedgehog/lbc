@@ -1,0 +1,1 @@
+setblock ~ ~ ~ magenta_shulker_box

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ red_mushroom

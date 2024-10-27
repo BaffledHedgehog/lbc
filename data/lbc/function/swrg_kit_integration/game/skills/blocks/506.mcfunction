@@ -1,0 +1,1 @@
+setblock ~ ~ ~ magenta_banner

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ wall_torch

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ light_gray_candle_cake

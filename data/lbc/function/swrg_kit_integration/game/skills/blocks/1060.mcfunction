@@ -1,0 +1,1 @@
+setblock ~ ~ ~ heavy_core

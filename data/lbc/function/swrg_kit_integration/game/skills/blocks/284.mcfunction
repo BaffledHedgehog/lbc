@@ -1,0 +1,1 @@
+setblock ~ ~ ~ black_stained_glass

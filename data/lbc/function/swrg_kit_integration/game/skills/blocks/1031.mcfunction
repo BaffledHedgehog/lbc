@@ -1,0 +1,1 @@
+setblock ~ ~ ~ polished_deepslate_slab

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ spore_blossom

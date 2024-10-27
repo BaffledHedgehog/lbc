@@ -1,0 +1,1 @@
+setblock ~ ~ ~ potted_mangrove_propagule

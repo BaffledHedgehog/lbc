@@ -1,0 +1,1 @@
+setblock ~ ~ ~ jack_o_lantern

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ magma_block

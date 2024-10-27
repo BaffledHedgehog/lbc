@@ -1,0 +1,1 @@
+setblock ~ ~ ~ carved_pumpkin

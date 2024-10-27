@@ -1,0 +1,1 @@
+setblock ~ ~ ~ sculk_shrieker

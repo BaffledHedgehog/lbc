@@ -1,0 +1,1 @@
+setblock ~ ~ ~ stripped_mangrove_wood

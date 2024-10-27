@@ -1,0 +1,1 @@
+setblock ~ ~ ~ black_glazed_terracotta

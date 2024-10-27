@@ -1,0 +1,1 @@
+setblock ~ ~ ~ cut_red_sandstone_slab

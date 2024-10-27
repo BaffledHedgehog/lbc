@@ -1,0 +1,1 @@
+setblock ~ ~ ~ pink_bed

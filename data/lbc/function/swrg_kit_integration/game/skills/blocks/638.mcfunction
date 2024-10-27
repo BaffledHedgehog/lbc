@@ -1,0 +1,1 @@
+setblock ~ ~ ~ gray_glazed_terracotta

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ verdant_froglight

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ yellow_glazed_terracotta

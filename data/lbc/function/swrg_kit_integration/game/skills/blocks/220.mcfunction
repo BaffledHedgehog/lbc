@@ -1,0 +1,1 @@
+setblock ~ ~ ~ oak_wall_hanging_sign

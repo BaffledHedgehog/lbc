@@ -1,0 +1,1 @@
+setblock ~ ~ ~ stripped_cherry_log

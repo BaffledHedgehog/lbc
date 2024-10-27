@@ -1,0 +1,1 @@
+setblock ~ ~ ~ cut_copper_stairs

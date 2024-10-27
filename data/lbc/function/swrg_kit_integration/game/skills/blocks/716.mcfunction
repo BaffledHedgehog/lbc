@@ -1,0 +1,1 @@
+setblock ~ ~ ~ dead_bubble_coral_wall_fan

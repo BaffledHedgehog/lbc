@@ -1,0 +1,1 @@
+setblock ~ ~ ~ dark_oak_wall_hanging_sign

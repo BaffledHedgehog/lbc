@@ -1,0 +1,1 @@
+setblock ~ ~ ~ chiseled_quartz_block

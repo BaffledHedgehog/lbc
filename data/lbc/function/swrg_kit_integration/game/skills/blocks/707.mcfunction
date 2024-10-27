@@ -1,0 +1,1 @@
+setblock ~ ~ ~ dead_fire_coral_fan

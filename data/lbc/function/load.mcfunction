@@ -267,7 +267,7 @@ scoreboard objectives add effect_gravity_curse dummy
 scoreboard objectives add hook_cooldown dummy
 scoreboard objectives add lbc.tokens dummy
 scoreboard objectives add god_claw_cd dummy
-
+scoreboard objectives add expansion_cd dummy
 
 #
 execute unless score cfg_lucky_modifier swrg.math matches 0..100 run scoreboard players set cfg_lucky_modifier swrg.math 0

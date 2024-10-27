@@ -1,0 +1,1 @@
+setblock ~ ~ ~ damaged_anvil

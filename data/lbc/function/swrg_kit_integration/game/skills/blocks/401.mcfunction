@@ -1,0 +1,1 @@
+setblock ~ ~ ~ player_head

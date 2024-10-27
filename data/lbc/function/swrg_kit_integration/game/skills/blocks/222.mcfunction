@@ -1,0 +1,1 @@
+setblock ~ ~ ~ birch_wall_hanging_sign

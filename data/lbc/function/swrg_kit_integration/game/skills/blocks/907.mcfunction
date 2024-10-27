@@ -1,0 +1,1 @@
+setblock ~ ~ ~ large_amethyst_bud

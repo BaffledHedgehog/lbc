@@ -1,0 +1,1 @@
+setblock ~ ~ ~ polished_blackstone_brick_wall

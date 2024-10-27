@@ -1,0 +1,1 @@
+setblock ~ ~ ~ emerald_block

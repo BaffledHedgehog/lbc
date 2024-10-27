@@ -1,0 +1,1 @@
+setblock ~ ~ ~ birch_fence_gate

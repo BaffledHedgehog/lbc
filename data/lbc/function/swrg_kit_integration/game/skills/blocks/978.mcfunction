@@ -1,0 +1,1 @@
+setblock ~ ~ ~ weathered_copper_door
