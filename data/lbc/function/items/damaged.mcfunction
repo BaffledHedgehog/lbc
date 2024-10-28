@@ -22,6 +22,7 @@ effect give @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"mystical_o
 scoreboard players add @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:101b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:102b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:103b,components:{"minecraft:custom_data":{"nyauwu": true}}}]}] twitching 10
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{"gaara_tikva": true}}}]}] run function lbc:swrg_kit_integration/items/gaara_tikva
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/damaged
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/damaged_get_trinket
 scoreboard players set @s blocked_damage 0
 
 schedule function lbc:items/damaged_scheduled 2t

@@ -8,6 +8,8 @@ loot replace entity @s enderchest.6 loot lbc:gui/page/11000/6
 loot replace entity @s enderchest.7 loot lbc:gui/page/11000/7
 loot replace entity @s enderchest.8 loot lbc:gui/page/11000/8
 loot replace entity @s enderchest.9 loot lbc:gui/page/11000/9
+loot replace entity @s enderchest.10 loot lbc:gui/page/11000/10
+loot replace entity @s enderchest.11 loot lbc:gui/page/11000/11
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.trinket
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
@@ -70,6 +72,8 @@ item replace entity @s[advancements={lbc:true_advancements/legends/academy/bedro
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/blaze=false}] enderchest.7 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/blind=false}] enderchest.8 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/corruption=false}] enderchest.9 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/electro=false}] enderchest.10 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=false}] enderchest.11 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 lbc:swrg_unlocks/blaze
@@ -82,6 +86,8 @@ item modify entity @s[advancements={lbc:true_advancements/legends/academy/bedroc
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/blaze=false}] enderchest.7 lbc:swrg_unlocks/academy_blaze
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/blind=false}] enderchest.8 lbc:swrg_unlocks/academy_blind
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/corruption=false}] enderchest.9 lbc:swrg_unlocks/academy_corruption
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/electro=false}] enderchest.10 lbc:swrg_unlocks/academy_electro
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=false}] enderchest.11 lbc:swrg_unlocks/academy_ender_random
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

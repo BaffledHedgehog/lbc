@@ -9,6 +9,8 @@ execute if score @s swrg.gui_select matches 6 if entity @s[advancements={lbc:tru
 execute if score @s swrg.gui_select matches 7 if entity @s[advancements={lbc:true_advancements/legends/academy/blaze=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 8 if entity @s[advancements={lbc:true_advancements/legends/academy/blind=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 9 if entity @s[advancements={lbc:true_advancements/legends/academy/corruption=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 10 if entity @s[advancements={lbc:true_advancements/legends/academy/electro=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 11 if entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 
 #
 
@@ -22,6 +24,8 @@ execute if score @s swrg.gui_select matches 6 run tellraw @s[advancements={lbc:t
 execute if score @s swrg.gui_select matches 7 run tellraw @s[advancements={lbc:true_advancements/legends/academy/blaze=false}] {"translate":"lbc.adv.upgraded_staff.blaze.lore"}
 execute if score @s swrg.gui_select matches 8 run tellraw @s[advancements={lbc:true_advancements/legends/academy/blind=false}] {"translate":"lbc.adv.upgraded_tuntija.blind.lore"}
 execute if score @s swrg.gui_select matches 9 run tellraw @s[advancements={lbc:true_advancements/legends/academy/corruption=false}] {"translate":"lbc.adv.upgraded_staff.corruption.lore"}
+execute if score @s swrg.gui_select matches 10 run tellraw @s[advancements={lbc:true_advancements/legends/academy/electro=false}] {"translate":"lbc.adv.upgraded_tuntija.electro.lore"}
+execute if score @s swrg.gui_select matches 11 run tellraw @s[advancements={lbc:true_advancements/legends/academy/ender_random=false}] {"translate":"lbc.adv.upgraded_staff.ender_random.lore"}
 
 
 
