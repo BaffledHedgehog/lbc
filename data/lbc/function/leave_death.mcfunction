@@ -168,5 +168,6 @@ tag @s remove have_lucky_effects_1s
 scoreboard players set @s god_claw_cd 0
 scoreboard players set @s hook_cooldown 0
 scoreboard players set @s expansion_cd 0
+scoreboard players set @s deus_cd 0
 effect clear @s
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/killed_by_player

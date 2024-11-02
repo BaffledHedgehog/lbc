@@ -19,6 +19,7 @@ loot replace entity @s enderchest.17 loot lbc:gui/page/9000/17
 
 loot replace entity @s enderchest.19 loot lbc:gui/page/9000/18
 loot replace entity @s enderchest.20 loot lbc:gui/page/9000/19
+loot replace entity @s enderchest.21 loot lbc:gui/page/9000/20
 #
 item modify entity @s[scores={lbc.kit=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.kit=2}] enderchest.1 swrg:select
@@ -67,6 +68,7 @@ item replace entity @s[advancements={lbc:true_advancements/legends/academy/acid_
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/badwiki=false}] enderchest.17 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=false}] enderchest.19 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/confuse=false}] enderchest.20 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/erecto=false}] enderchest.21 with repeating_command_block[custom_model_data=669]
 
 
 item modify entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 lbc:swrg_unlocks/devilstomach
@@ -89,6 +91,7 @@ item modify entity @s[advancements={lbc:true_advancements/legends/academy/acid_t
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/badwiki=false}] enderchest.17 lbc:swrg_unlocks/academy_badwiki
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=false}] enderchest.19 lbc:swrg_unlocks/academy_blazefire
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/confuse=false}] enderchest.20 lbc:swrg_unlocks/academy_confuse
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/erecto=false}] enderchest.21 lbc:swrg_unlocks/academy_erecto
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

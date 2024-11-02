@@ -1,4 +1,4 @@
-execute if entity @s[scores={swrg.gui_select=0,lbc.tokens=1..},advancements={lbc:true_advancements/legends/academy/root=true}] run scoreboard players add #bonus_academy#$&#$&#$&#$&#$&$#%G lbcID2 1
+execute if entity @s[scores={swrg.gui_select=0,lbc.tokens=1..},advancements={lbc:true_advancements/legends/academy/root=true}] run scoreboard players add #bonus_academy swrg.math 1
 scoreboard players remove @s[scores={swrg.gui_select=0,lbc.tokens=1..},advancements={lbc:true_advancements/legends/academy/root=true}] lbc.tokens 1
 
 #

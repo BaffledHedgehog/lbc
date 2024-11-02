@@ -19,6 +19,7 @@ scoreboard players set @s[scores={swrg.gui_select=17},advancements={lbc:true_adv
 
 scoreboard players set @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/blazefire=true}] lbc.kit 19
 scoreboard players set @s[scores={swrg.gui_select=20},advancements={lbc:true_advancements/legends/academy/confuse=true}] lbc.kit 20
+scoreboard players set @s[scores={swrg.gui_select=21},advancements={lbc:true_advancements/legends/academy/erecto=true}] lbc.kit 21
 #
 
 
@@ -43,6 +44,7 @@ tellraw @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/legen
 
 tellraw @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/blazefire=false}] {"translate":"lbc.adv.upgraded_tuntija.blazefire.lore"}
 tellraw @s[scores={swrg.gui_select=20},advancements={lbc:true_advancements/legends/academy/confuse=false}] {"translate":"lbc.adv.upgraded_staff.confuse.lore"}
+tellraw @s[scores={swrg.gui_select=21},advancements={lbc:true_advancements/legends/academy/erecto=false}] {"translate":"lbc.adv.upgraded_tuntija.erecto.lore"}
 
 
 

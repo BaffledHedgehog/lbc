@@ -70,6 +70,7 @@ execute if score @s effect_lightning_bolt matches 1.. run data modify storage lb
 execute if score @s effect_boost_mana matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE165 ","extra":[{"score":{"name":"@s","objective":"effect_boost_mana"},"color":"green"}]}'
 execute if score @s god_claw_cd matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE166 ","extra":[{"score":{"name":"@s","objective":"god_claw_cd"},"color":"dark_purple"}]}'
 execute if score @s expansion_cd matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE167 ","extra":[{"score":{"name":"@s","objective":"expansion_cd"},"color":"gold"}]}'
+execute if score @s deus_cd matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE168 ","extra":[{"score":{"name":"@s","objective":"deus_cd"},"color":"gold"}]}'
 
 execute if score @s effect_rtp_1 matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_1"},"color":"white"}]}'
 execute if score @s effect_rtp_2 matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_2"},"color":"white"}]}'

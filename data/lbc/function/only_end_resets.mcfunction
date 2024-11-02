@@ -1,3 +1,3 @@
 
-scoreboard players set #bonus_academy#$&#$&#$&#$&#$&$#%G lbcID2 0
+scoreboard players set #bonus_academy swrg.math 0
 save-all

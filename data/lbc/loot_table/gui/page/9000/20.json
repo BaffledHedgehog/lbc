@@ -5,19 +5,19 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:repeating_command_block",
+                    "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 678
+                                "minecraft:custom_model_data": 780
                             }
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "translate": "lbckit.17",
+                                "translate": "lbckit.20",
                                 "italic": false,
                                 "color": "white"
                             }
@@ -28,22 +28,17 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "translate": "lbckit.17.lore.0",
+                                    "translate": "lbckit.20.lore.1",
                                     "italic": false,
                                     "color": "gray"
                                 },
                                 {
-                                    "translate": "lbckit.17.lore.1",
+                                    "translate": "lbckit.20.lore.2",
                                     "italic": false,
                                     "color": "gray"
                                 },
                                 {
-                                    "translate": "lbckit.17.lore.2",
-                                    "italic": false,
-                                    "color": "gray"
-                                },
-                                {
-                                    "translate": "lbckit.17.lore.3",
+                                    "translate": "lbckit.20.lore.3",
                                     "italic": false,
                                     "color": "gray"
                                 }
