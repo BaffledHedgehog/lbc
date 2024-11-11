@@ -61,6 +61,7 @@ scoreboard players set 59 lbc.math 59
 scoreboard players set 70 lbc.math 70
 scoreboard players set 75 lbc.math 75
 scoreboard players set 100 lbc.math 100
+scoreboard players set 144 lbc.math 144
 scoreboard players set 200 lbc.math 200
 scoreboard players set 300 lbc.math 300
 scoreboard players set 360 lbc.math 360
@@ -109,6 +110,7 @@ scoreboard objectives add swordcharging6 dummy
 scoreboard objectives add swordcharged7 dummy
 scoreboard objectives add swordcharging7 dummy
 scoreboard objectives add swordcharged8 dummy
+scoreboard objectives add swordcharged9 dummy
 scoreboard objectives add team_number dummy
 scoreboard objectives add luck_amount dummy
 scoreboard objectives remove shit_amount

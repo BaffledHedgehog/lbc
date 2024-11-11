@@ -56,9 +56,12 @@ scoreboard players remove @s[tag=perfe] manamax 2500
 scoreboard players remove @s[tag=perfe] mana 2500
 scoreboard players add @s[tag=huesos] manamax 1500
 scoreboard players add @s[tag=huesos] manaregen 4
+scoreboard players add @s[tag=sanguis_magicae] manamax 5000
+scoreboard players add @s[tag=sanguis_magicae] manaregen 20
 execute if entity @s[tag=rnd_statup] run function lbc:swrg_kit_integration/game/levelup_select/select_random_statup
 tag @s remove mana2
 tag @s remove perfe
 tag @s remove huesos
 tag @s remove rnd_statup
 tag @s remove perk_random
+tag @s remove sanguis_magicae

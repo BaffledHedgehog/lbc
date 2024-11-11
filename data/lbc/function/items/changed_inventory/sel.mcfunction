@@ -119,5 +119,4 @@ execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_da
 execute unless entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"flesh": true}}},{Slot:101b,components:{"minecraft:custom_data":{"flesh": true}}},{Slot:102b,components:{"minecraft:custom_data":{"flesh": true}}},{Slot:103b,components:{"minecraft:custom_data":{"flesh": true}}}]}] run function lbc:armor/flesh_set_bonus_remove
 function lbc:other/speed_up
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/inventory_changed
-execute if items entity @s player.crafting.* repeating_command_block[custom_data~{"phd":true}] run function lbc:swrg_kit_integration/game/kits/changed_inventory_phd
 

@@ -2,6 +2,7 @@
 loot replace entity @s enderchest.0 loot lbc:gui/page/8000/27
 loot replace entity @s enderchest.1 loot lbc:gui/page/8000/28
 loot replace entity @s enderchest.2 loot lbc:gui/page/8000/29
+loot replace entity @s enderchest.3 loot lbc:gui/page/8000/30
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.levelup
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
@@ -57,12 +58,14 @@ execute if score #lbclevelupmax swrg.math matches 9 run function lbc:swrg_kit_in
 item replace entity @s[advancements={lbc:true_advancements/bows/railshish=false}] enderchest.0 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/bows/randchanted=false}] enderchest.1 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/bows/shulker=false}] enderchest.2 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/blood=false}] enderchest.3 with repeating_command_block[custom_model_data=669]
 
 
 
 item modify entity @s[advancements={lbc:true_advancements/bows/railshish=false}] enderchest.0 lbc:swrg_unlocks/railshish
 item modify entity @s[advancements={lbc:true_advancements/bows/randchanted=false}] enderchest.1 lbc:swrg_unlocks/randchanted_bow
 item modify entity @s[advancements={lbc:true_advancements/bows/shulker=false}] enderchest.2 lbc:swrg_unlocks/shulker_bow
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/blood=false}] enderchest.3 lbc:swrg_unlocks/blood_academy
 
 
 

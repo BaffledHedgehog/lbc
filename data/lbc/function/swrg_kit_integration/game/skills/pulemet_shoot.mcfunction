@@ -1,4 +1,5 @@
 summon arrow ^ ^ ^ {Tags:["pule_arrow","killedarrow"]}
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/bows_get_trinket
 data modify entity @e[type=arrow,limit=1,distance=..0.01,tag=pule_arrow] Owner set from entity @s UUID
 scoreboard players operation tmp4 lbc.math = @s bow_charge
 scoreboard players add tmp4 lbc.math 200

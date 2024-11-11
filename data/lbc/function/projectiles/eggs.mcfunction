@@ -22,6 +22,8 @@ execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.mi
 
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"kill_rand": true} unless entity @e[type=marker,limit=1,tag=stopper,distance=..24] run function lbc:other/kill_rand_hihihiha
 
+
+
 execute anchored eyes positioned ^ ^ ^ if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"kapusta": true} run function lbc:other/kapusta/throw
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"gayradar": true} run function lbc:other/gayradar/click
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"bucks": true} run function lbc:other/bucks/rc
@@ -30,5 +32,6 @@ execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.mi
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"most_imba": true} run function lbc:other/imba/most_spawn
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{"govno_raskid": true} run function lbc:swrg_kit_integration/items/govno_raskid
 execute if data entity @e[type=snowball,limit=1,sort=nearest] Item.components.minecraft:custom_data{steampunk_rocket:1b} run function lbc:swrg_kit_integration/items/steampunk_rocket
+
 # remove egg
 kill @e[type=snowball,limit=1,sort=nearest,distance=..10,nbt={Item:{components:{"minecraft:custom_data":{"gadget": true}}}}]

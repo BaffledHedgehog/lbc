@@ -1,7 +1,6 @@
 execute if entity @s[tag=afkartifact5t_active] run function lbc:other/artifact/afkartifact5t
 execute if entity @s[tag=techno_flame_active] run particle soul_fire_flame ~ ~ ~ 0.3 0.1 0.3 0.01 2 normal
 execute if entity @s[tag=hylian_sword_active] if entity @e[type=#monsters,distance=..7] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run effect give @s strength 2 2
-
 scoreboard players remove @s coldown16 5
 scoreboard players remove @s coldown25 5
 scoreboard players remove @s coldown17 5

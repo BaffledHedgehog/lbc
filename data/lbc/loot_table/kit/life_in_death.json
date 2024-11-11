@@ -1,7 +1,7 @@
 {
     "pools": [
         {
-            "rolls": 2,
+            "rolls": 3,
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -15,10 +15,11 @@
                                     "custom_effects": [
                                         {
                                             "id": "minecraft:instant_health",
-                                            "amplifier": 4
+                                            "amplifier": 0
                                         }
                                     ]
-                                }
+                                },
+                                "max_stack_size": 3
                             }
                         },
                         {
@@ -35,7 +36,7 @@
             ]
         },
         {
-            "rolls": 2,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -80,7 +81,8 @@
                             "components": {
                                 "minecraft:potion_contents": {
                                     "potion": "minecraft:strong_harming"
-                                }
+                                },
+                                "max_stack_size": 2
                             }
                         }
                     ]

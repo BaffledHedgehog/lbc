@@ -118,8 +118,8 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{mul
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"penis_cultus": true}}}}] mana >= penis_cultus_mana_use lbc.math unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/penis_cultus/use
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"grapping_hook": true}}}}] unless entity @e[type=marker,tag=stopper,distance=..20,limit=1] at @s run function lbc:swrg_kit_integration/items/grapping_hook
-
-
+execute if data entity @s SelectedItem.components.minecraft:custom_data.cunny run function lbc:workingitems/cunny_item/select
+execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{blazefire_sword:1b}}}}] swordcharged9 matches 5.. run function lbc:items/swords/blazefire_sword/click
 
 
 
@@ -129,5 +129,5 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"gr
 
 execute at @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:101b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:102b,components:{"minecraft:custom_data":{"nyauwu": true}}},{Slot:103b,components:{"minecraft:custom_data":{"nyauwu": true}}}]}] run function lbc:workingitems/nyaaahuwuuw
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"overload_crux": true}}}}] anchored eyes positioned ^ ^ ^ unless entity @e[type=marker,tag=stopper_magic,distance=..20,limit=1] run function lbc:other/overload_crux/use
-execute if data entity @s SelectedItem.components.minecraft:custom_data.cunny run function lbc:workingitems/cunny_item/select
+
 

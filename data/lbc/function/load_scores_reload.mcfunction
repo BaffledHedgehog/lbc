@@ -48,6 +48,7 @@ scoreboard objectives remove swordcharging6
 scoreboard objectives remove swordcharged7
 scoreboard objectives remove swordcharging7
 scoreboard objectives remove swordcharged8
+scoreboard objectives remove swordcharged9
 scoreboard objectives remove team_number
 scoreboard objectives remove luck_amount
 scoreboard objectives remove falltimer

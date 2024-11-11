@@ -19,6 +19,7 @@ loot replace entity @s enderchest.17 loot lbc:gui/page/10000/17
 
 loot replace entity @s enderchest.19 loot lbc:gui/page/10000/19
 loot replace entity @s enderchest.20 loot lbc:gui/page/10000/20
+loot replace entity @s enderchest.21 loot lbc:gui/page/10000/21
 #
 item modify entity @s[scores={lbc.skill=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.skill=2}] enderchest.1 swrg:select
@@ -58,7 +59,7 @@ item replace entity @s[advancements={lbc:true_advancements/armor/shulker_full=fa
 item replace entity @s[advancements={lbc:true_advancements/armor/techno_full=false}] enderchest.10 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/axes/banhammer=false}] enderchest.11 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/axes/hammer=false}] enderchest.12 with repeating_command_block[custom_model_data=669]
-execute unless entity @s[advancements={lbc:true_advancements/bows/blaze=true,lbc:true_advancements/bows/ghast=true,lbc:true_advancements/bows/penis_gun=true,lbc:true_advancements/bows/minigun=true}] run item replace entity @s enderchest.13 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/bows/minigun=false}] enderchest.13 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/bows/double=false}] enderchest.14 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/hoes/death_skytche=false}] enderchest.15 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/hoes/sickle=false}] enderchest.16 with repeating_command_block[custom_model_data=669]
@@ -66,6 +67,7 @@ item replace entity @s[advancements={lbc:true_advancements/hoes/socializm=false}
 
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/acidacid=false}] enderchest.19 with repeating_command_block[custom_model_data=669]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/acidcorrupt=false}] enderchest.20 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/big_stone=false}] enderchest.21 with repeating_command_block[custom_model_data=669]
 
 
 
@@ -92,6 +94,7 @@ item modify entity @s[advancements={lbc:true_advancements/hoes/socializm=false}]
 
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/acidacid=false}] enderchest.19 lbc:swrg_unlocks/academy_acidacid
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/acidcorrupt=false}] enderchest.20 lbc:swrg_unlocks/academy_acidcorrupt
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/big_stone=false}] enderchest.21 lbc:swrg_unlocks/academy_big_stone
 
 
 loot replace entity @s enderchest.18 loot swrg:gui/back

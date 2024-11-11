@@ -16,6 +16,8 @@ scoreboard players set @s[scores={swrg.gui_select=14},advancements={lbc:true_adv
 scoreboard players set @s[scores={swrg.gui_select=15},advancements={lbc:true_advancements/hoes/op_hoe=true}] lbc.kit 16
 scoreboard players set @s[scores={swrg.gui_select=16},advancements={lbc:true_advancements/legends/academy/acid_tuntija=true}] lbc.kit 17
 scoreboard players set @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/legends/academy/badwiki=true}] lbc.kit 18
+
+scoreboard players set @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/blazefire=true}] lbc.kit 19
 #
 
 
@@ -38,6 +40,7 @@ tellraw @s[scores={swrg.gui_select=15},advancements={lbc:true_advancements/hoes/
 tellraw @s[scores={swrg.gui_select=16},advancements={lbc:true_advancements/legends/academy/acid_tuntija=false}] {"translate":"lbc.adv.upgraded_tuntija.acid.lore"}
 tellraw @s[scores={swrg.gui_select=17},advancements={lbc:true_advancements/legends/academy/badwiki=false}] {"translate":"lbc.adv.upgraded_staff.badwiki.lore"}
 
+tellraw @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legends/academy/blazefire=false}] {"translate":"lbc.adv.upgraded_tuntija.blazefire.lore"}
 
 
 

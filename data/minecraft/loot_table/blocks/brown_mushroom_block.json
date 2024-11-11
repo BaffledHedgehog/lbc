@@ -50,10 +50,6 @@
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:ore_drops",
               "function": "minecraft:apply_bonus"
-            },
-            {
-              "function": "limit_count",
-              "limit": 99
             }
           ]
         }
@@ -118,7 +114,9 @@
             },
             {
               "function": "limit_count",
-              "limit": 99
+              "limit": {
+                "max": 99
+              }
             }
           ]
         }

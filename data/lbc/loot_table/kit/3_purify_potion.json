@@ -5,7 +5,15 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "lbc:purifypotion_1"
+                    "value": "lbc:purifypotion_1",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 3
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -14,12 +22,20 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:milk_bucket"
+                    "name": "minecraft:milk_bucket",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 3
+                            }
+                        }
+                    ]
                 }
             ]
         },
         {
-            "rolls": 3,
+            "rolls": 4,
             "entries": [
                 {
                     "type": "minecraft:item",
@@ -29,9 +45,25 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:potion_contents": {
-                                    "potion": "minecraft:strong_healing"
-                                }
+                                    "custom_color": 16739179,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:instant_health",
+                                            "amplifier": 5
+                                        }
+                                    ]
+                                },
+                                "max_stack_size": 4
                             }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "item.minecraft.splash_potion.effect.healing",
+                                    "italic": false
+                                }
+                            ]
                         }
                     ]
                 }
