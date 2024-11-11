@@ -1,0 +1,1 @@
+setblock ~ ~ ~ blast_furnace

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ waxed_oxidized_cut_copper

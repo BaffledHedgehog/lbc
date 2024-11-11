@@ -1,0 +1,1 @@
+setblock ~ ~ ~ creeper_wall_head

@@ -10,7 +10,7 @@ effect give @s health_boost infinite 127
 effect give @s minecraft:raid_omen infinite 5
 effect give @s hunger infinite 255
 effect give @s instant_damage infinite 127
-effect give @s instant_health infinite 127
+effect give @s instant_health infinite 99
 effect give @s invisibility infinite 127 true
 effect give @s jump_boost infinite 127
 effect give @s levitation infinite 127

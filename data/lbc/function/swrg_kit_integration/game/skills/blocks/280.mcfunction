@@ -1,0 +1,1 @@
+setblock ~ ~ ~ blue_stained_glass

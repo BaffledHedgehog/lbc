@@ -1,0 +1,1 @@
+setblock ~ ~ ~ cracked_nether_bricks

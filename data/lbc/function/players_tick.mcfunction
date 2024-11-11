@@ -18,6 +18,7 @@ execute if score @s all_seeing_eye matches 1.. run function lbc:other/effect_all
 execute if score @s living_legend matches 1.. run function lbc:other/effect_living_legend
 execute if score @s skill_issue matches 1.. run function lbc:other/effect_skill_issue
 execute if score @s gigaponos matches 1.. run function lbc:other/effect_gigaponos
+execute if score @s deus_cd matches 1.. run function lbc:swrg_kit_integration/game/kits/deus_tick
 execute if entity @s[nbt=!{OnGround:1b}] run function lbc:items/on_falling
 execute if entity @s[nbt={OnGround:1b}] run function lbc:items/on_ground
 execute if entity @s[tag=sin_greed] run function lbc:workingitems/witch_gens/greed_tick

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ enchanting_table

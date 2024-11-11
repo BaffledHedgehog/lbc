@@ -1,0 +1,1 @@
+setblock ~ ~ ~ cyan_wall_banner

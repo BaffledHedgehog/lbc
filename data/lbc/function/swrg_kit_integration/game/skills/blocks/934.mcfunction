@@ -1,0 +1,1 @@
+setblock ~ ~ ~ exposed_copper

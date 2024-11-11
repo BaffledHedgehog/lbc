@@ -1,0 +1,1 @@
+setblock ~ ~ ~ chain_command_block

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ dirt_path

@@ -1,1 +1,1 @@
-execute if predicate lbc:chance25 if entity @a[distance=..80] if score @s Lifetime matches 50.. run function lbc:projectiles/arrows/evoker_rand
+execute if predicate lbc:chance25 if entity @a[distance=..80] if score @s Lifetime matches 120.. run function lbc:projectiles/arrows/evoker_rand

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ sandstone_slab

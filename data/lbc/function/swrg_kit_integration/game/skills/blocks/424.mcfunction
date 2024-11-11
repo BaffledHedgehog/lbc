@@ -1,0 +1,1 @@
+setblock ~ ~ ~ activator_rail

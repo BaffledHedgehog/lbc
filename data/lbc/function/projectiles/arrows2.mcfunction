@@ -15,6 +15,7 @@ execute if score tmp lbc.math matches 42 run scoreboard players operation @s eff
 
 execute if score tmp lbc.math matches 74 run scoreboard players operation @s effect_snus += dur lbc.math
 
+execute if score tmp lbc.math matches 97 run summon arrow ~ ~ ~ {Motion:[0.0,-10.0,0.0],damage:0.001d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:97b,duration:20}]},intangible_projectile:{}}},pickup:0b}
 
 execute if score tmp lbc.math matches 101 run scoreboard players operation @s effect_small_explosion += dur lbc.math
 execute if score tmp lbc.math matches 102 run scoreboard players operation @s effect_evoker += dur lbc.math

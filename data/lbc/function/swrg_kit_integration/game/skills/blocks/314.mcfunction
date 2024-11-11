@@ -1,0 +1,1 @@
+setblock ~ ~ ~ attached_pumpkin_stem

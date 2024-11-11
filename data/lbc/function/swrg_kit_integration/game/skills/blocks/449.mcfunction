@@ -1,0 +1,1 @@
+setblock ~ ~ ~ gray_stained_glass_pane

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ red_wall_banner

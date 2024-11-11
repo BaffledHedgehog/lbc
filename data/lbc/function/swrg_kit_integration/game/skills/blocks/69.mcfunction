@@ -1,0 +1,1 @@
+setblock ~ ~ ~ birch_wood

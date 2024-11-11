@@ -1,0 +1,1 @@
+setblock ~ ~ ~ repeating_command_block

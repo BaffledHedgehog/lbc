@@ -1,0 +1,1 @@
+setblock ~ ~ ~ mangrove_wall_hanging_sign

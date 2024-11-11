@@ -187,7 +187,9 @@ scoreboard objectives remove effect_remove_mana
 scoreboard objectives remove effect_snus
 scoreboard objectives remove effect_boost_mana
 scoreboard objectives remove effect_gravity_curse
-
+scoreboard objectives remove god_claw_cd
+scoreboard objectives remove expansion_cd
+scoreboard objectives remove deus_cd
 function lbc:load
 
 

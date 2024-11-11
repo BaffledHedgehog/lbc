@@ -1,0 +1,1 @@
+setblock ~ ~ ~ potted_flowering_azalea_bush

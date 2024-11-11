@@ -1,0 +1,1 @@
+setblock ~ ~ ~ amethyst_block

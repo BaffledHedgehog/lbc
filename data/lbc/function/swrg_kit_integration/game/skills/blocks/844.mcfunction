@@ -1,0 +1,1 @@
+setblock ~ ~ ~ respawn_anchor

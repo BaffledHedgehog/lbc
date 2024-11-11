@@ -1,0 +1,1 @@
+setblock ~ ~ ~ smooth_stone

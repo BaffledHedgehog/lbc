@@ -1,0 +1,1 @@
+setblock ~ ~ ~ light_weighted_pressure_plate

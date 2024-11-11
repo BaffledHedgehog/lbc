@@ -1,0 +1,1 @@
+setblock ~ ~ ~ glow_lichen

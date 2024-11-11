@@ -1,0 +1,1 @@
+setblock ~ ~ ~ wet_sponge

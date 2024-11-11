@@ -1,0 +1,1 @@
+setblock ~ ~ ~ pearlescent_froglight

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ iron_block

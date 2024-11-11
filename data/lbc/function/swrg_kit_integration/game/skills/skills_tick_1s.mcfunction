@@ -1,1 +1,2 @@
 execute if score @s lbc.skill matches 3 run function lbc:swrg_kit_integration/game/skills/looper_tick
+execute if score @s lbc.skill matches 22 if predicate lbc:chance50 run function lbc:swrg_kit_integration/game/skills/boltbolt_zeus

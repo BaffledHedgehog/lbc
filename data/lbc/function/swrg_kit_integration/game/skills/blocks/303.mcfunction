@@ -1,0 +1,1 @@
+setblock ~ ~ ~ infested_mossy_stone_bricks

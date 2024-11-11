@@ -1,0 +1,1 @@
+setblock ~ ~ ~ acacia_wall_hanging_sign

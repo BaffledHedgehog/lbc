@@ -1,0 +1,1 @@
+setblock ~ ~ ~ sticky_piston

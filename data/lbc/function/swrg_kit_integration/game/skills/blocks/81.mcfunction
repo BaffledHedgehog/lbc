@@ -1,0 +1,1 @@
+setblock ~ ~ ~ stripped_dark_oak_wood

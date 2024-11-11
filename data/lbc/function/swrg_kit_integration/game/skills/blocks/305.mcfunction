@@ -1,0 +1,1 @@
+setblock ~ ~ ~ infested_chiseled_stone_bricks

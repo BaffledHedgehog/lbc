@@ -118,7 +118,7 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_d
 execute if data entity @s Inventory[{Slot:-106b}].components.minecraft:custom_data.cunny run function lbc:workingitems/cunny_item/select_left
 
 execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{blazefire_sword:1b}}}]}] swordcharged9 matches 5.. run function lbc:items/swords/blazefire_sword/click
-
+execute unless score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{deus:1b}}}]}] deus_cd matches 1.. run scoreboard players set @s deus_cd 260
 
 
 

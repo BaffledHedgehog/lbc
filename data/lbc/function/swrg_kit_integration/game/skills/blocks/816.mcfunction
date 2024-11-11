@@ -1,0 +1,1 @@
+setblock ~ ~ ~ warped_pressure_plate

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ end_stone_brick_wall

@@ -12,3 +12,6 @@ execute if score tmp lbc.math matches 1.. run function lbc:items/trinket_effects
 
 execute store result score tmp lbc.math run clear @s repeating_command_block[minecraft:custom_data~{trinket:"volos"}] 0
 execute if score tmp lbc.math matches 1.. run function lbc:items/trinket_effects/volos
+
+execute store result score tmp lbc.math run clear @s repeating_command_block[minecraft:custom_data~{trinket:"cocktail"}] 0
+execute if score tmp lbc.math matches 1.. run function lbc:items/trinket_effects/cocktail

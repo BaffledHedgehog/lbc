@@ -1,0 +1,1 @@
+setblock ~ ~ ~ chiseled_stone_bricks

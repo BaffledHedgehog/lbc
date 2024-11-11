@@ -1,0 +1,1 @@
+setblock ~ ~ ~ purple_glazed_terracotta

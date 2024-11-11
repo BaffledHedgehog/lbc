@@ -1,0 +1,1 @@
+setblock ~ ~ ~ stripped_birch_wood

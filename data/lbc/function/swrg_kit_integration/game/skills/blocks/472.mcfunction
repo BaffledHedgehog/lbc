@@ -1,0 +1,1 @@
+setblock ~ ~ ~ prismarine_brick_stairs

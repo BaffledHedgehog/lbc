@@ -1,0 +1,1 @@
+setblock ~ ~ ~ purple_banner

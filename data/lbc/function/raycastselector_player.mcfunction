@@ -32,3 +32,5 @@ execute if entity @s[tag=thromn_sword] run function lbc:items/swords/triple_gold
 execute if entity @s[tag=triplesword_portal] run function lbc:other/grimoire_dungeon/mobs/golden_skeleton/portal_tick
 execute if entity @s[tag=nano_trapik] run function lbc:swrg_kit_integration/items/nanotrapik_tick
 execute if entity @s[tag=govno_poprigun] run function lbc:swrg_kit_integration/items/govno_poprigun
+execute if entity @s[tag=god_claw] run function lbc:swrg_kit_integration/game/skills/god_claw_tick_marker
+execute if entity @s[tag=expansion] run function lbc:swrg_kit_integration/game/skills/expansion_tick_marker

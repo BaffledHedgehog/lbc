@@ -1,0 +1,1 @@
+setblock ~ ~ ~ mushroom_stem

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ trial_spawner

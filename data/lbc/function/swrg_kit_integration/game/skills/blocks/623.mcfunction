@@ -1,0 +1,1 @@
+setblock ~ ~ ~ light_gray_shulker_box

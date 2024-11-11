@@ -1,0 +1,1 @@
+setblock ~ ~ ~ red_sandstone_wall

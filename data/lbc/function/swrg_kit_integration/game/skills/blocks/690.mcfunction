@@ -1,0 +1,1 @@
+setblock ~ ~ ~ brain_coral_block

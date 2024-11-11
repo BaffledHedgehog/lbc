@@ -1,0 +1,1 @@
+setblock ~ ~ ~ acacia_fence_gate

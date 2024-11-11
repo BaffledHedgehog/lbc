@@ -1,0 +1,1 @@
+setblock ~ ~ ~ dead_horn_coral_wall_fan

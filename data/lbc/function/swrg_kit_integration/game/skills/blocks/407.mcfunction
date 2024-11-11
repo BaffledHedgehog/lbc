@@ -1,0 +1,1 @@
+setblock ~ ~ ~ piglin_head

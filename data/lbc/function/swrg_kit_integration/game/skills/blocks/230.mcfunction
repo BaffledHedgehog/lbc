@@ -1,0 +1,1 @@
+setblock ~ ~ ~ bamboo_wall_hanging_sign

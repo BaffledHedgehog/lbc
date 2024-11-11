@@ -279,6 +279,66 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#bonus_academy"
+        },
+        "score": "swrg.math",
+        "scale": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "magic_academy": true,
+                  "drop": true
+                },
+                "minecraft:custom_model_data": 657
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "drop_academy",
+                  "italic": false,
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "trap_desc",
+                  "italic": false,
+                  "color": "white"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.004
+            }
+          ]
+        }
+      ]
     }
   ]
 }

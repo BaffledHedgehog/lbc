@@ -4,7 +4,7 @@ execute unless data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[
 execute if data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[{id:"minecraft:haste"}] run effect give @s haste 2 127
 execute unless data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[{id:"minecraft:mining_fatigue"}] run effect clear @s mining_fatigue
 execute if data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[{id:"minecraft:strength"}] run effect give @s strength 2 9
-execute if data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[{id:"minecraft:instant_health"}] run effect give @s instant_health 2 127
+execute if data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[{id:"minecraft:instant_health"}] run effect give @s instant_health 2 99
 execute unless data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[{id:"minecraft:instant_damage"}] run effect clear @s instant_damage
 execute if data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[{id:"minecraft:jump_boost"}] run effect give @s jump_boost 2 2
 execute unless data entity @p[gamemode=!spectator,tag=!sin_envy] active_effects[{id:"minecraft:nausea"}] run effect clear @s nausea

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ magenta_stained_glass_pane

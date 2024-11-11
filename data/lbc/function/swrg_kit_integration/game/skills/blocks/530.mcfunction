@@ -1,0 +1,1 @@
+setblock ~ ~ ~ purple_wall_banner

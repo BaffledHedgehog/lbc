@@ -1,0 +1,1 @@
+setblock ~ ~ ~ chipped_anvil

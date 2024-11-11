@@ -1,0 +1,1 @@
+setblock ~ ~ ~ birch_hanging_sign

@@ -2,6 +2,7 @@ data modify storage swrg:lang page0.s20 set value {Name: '{"text":"Lucky-Три�
 data modify storage swrg:lang page0.s21 set value {Name: '{"text":"Lucky-Улучшение персонажа","color":"green","italic":false}'}
 data modify storage swrg:lang page0.s22 set value {Name: '{"text":"Доп. Lucky-Набор","color":"gold","italic":false}'}
 data modify storage swrg:lang page0.s23 set value {Name: '{"text":"Выбор Lucky-Таланта","color":"light_purple","italic":false}'}
+data modify storage swrg:lang page0.s24 set value {Name: '{"text":"Подкрутка","color":"light_purple","italic":false}'}
 
 data modify storage swrg:lang lbckit.0 set value '{"text":"Единственное спасение","color":"white","italic":false}'
 data modify storage swrg:lang lore.lbckit.0 set value {Lore: ['{"text":"- Сломанный тотем","color":"gray","italic":false}', '{"text":" *Немного ослабленный тотем бессмертия","color":"gray","italic":false}']}

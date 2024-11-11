@@ -1,0 +1,1 @@
+setblock ~ ~ ~ waxed_cut_copper_slab

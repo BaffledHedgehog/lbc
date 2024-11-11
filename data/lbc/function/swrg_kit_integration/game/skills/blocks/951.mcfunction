@@ -1,0 +1,1 @@
+setblock ~ ~ ~ oxidized_cut_copper_stairs

@@ -1,0 +1,1 @@
+setblock ~ ~ ~ quartz_stairs
