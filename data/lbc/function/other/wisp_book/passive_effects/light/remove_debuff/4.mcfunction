@@ -12,7 +12,6 @@ scoreboard players set @s effect_kiuaskivi 0
 scoreboard players set @s effect_lightarrow 0
 scoreboard players set @s effect_evokerarrow 0
 scoreboard players set @s effect_dimshifting 0
-scoreboard players set @s piss 0
 scoreboard players set @s effect_witch_gens_reset 0
 scoreboard players set @s effect_hedgehog_boom 0
 scoreboard players set @s delayed_death 0

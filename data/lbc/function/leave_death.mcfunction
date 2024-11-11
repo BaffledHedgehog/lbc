@@ -161,6 +161,10 @@ attribute @s generic.step_height modifier remove gravity_curse
 attribute @s generic.safe_fall_distance modifier remove gravity_curse
 attribute @s minecraft:generic.jump_strength modifier remove gravity_curse
 attribute @s generic.movement_speed modifier remove gravity_curse
+
+attribute @s generic.attack_damage modifier remove fire_wisp
+attribute @s generic.max_health modifier remove water_wisp
+
 scoreboard players set @s effect_gravity_curse 0
 tag @s remove have_lucky_effects
 tag @s remove have_lucky_effects_5t

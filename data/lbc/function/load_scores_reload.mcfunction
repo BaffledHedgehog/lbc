@@ -137,6 +137,9 @@ scoreboard objectives remove overload_slam
 scoreboard objectives remove frozen
 scoreboard objectives remove cold
 scoreboard objectives remove cold_cd
+scoreboard objectives remove wisp
+scoreboard objectives remove nature_wisp_chance
+scoreboard objectives remove light_wisp_count
 
 
 scoreboard objectives remove swrg.hp_display

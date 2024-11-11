@@ -12,3 +12,4 @@ execute if score @s target matches 1.. run advancement grant @s only lbc:true_ad
 execute if score @s nomagic matches 1.. run advancement grant @s only lbc:true_advancements/potions/effect_no_magic
 execute if score @s scared matches 1.. run advancement grant @s only lbc:true_advancements/potions/effect_scared
 execute if score @s lookback matches 1.. run advancement grant @s only lbc:true_advancements/potions/effect_lookback
+execute if score @s light_wisp_count matches 1.. run function lbc:other/wisp_book/passive_effects/light/run

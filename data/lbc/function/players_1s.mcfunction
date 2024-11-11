@@ -39,3 +39,5 @@ execute if entity @s[scores={sprint_cooldown=1..}] run function lbc:players_1s_s
 advancement grant @s only lbc:penis
 
 execute at @s[tag=nanobots_active] run function lbc:armor/nanobots/tick1s
+
+execute at @s[scores={nature_wisp_chance=1..}] run function lbc:other/wisp_book/passive_effects/nature/run

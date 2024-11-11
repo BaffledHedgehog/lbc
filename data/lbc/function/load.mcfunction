@@ -227,6 +227,8 @@ scoreboard objectives add cold dummy
 scoreboard objectives add cold_cd dummy
 scoreboard objectives add frozen dummy
 scoreboard objectives add wisp dummy
+scoreboard objectives add nature_wisp_chance dummy
+scoreboard objectives add light_wisp_count dummy
 #effect!
 
 scoreboard objectives add effect_rtp_1 dummy
@@ -254,7 +256,6 @@ scoreboard objectives add effect_nuking dummy
 scoreboard objectives add effect_vacuum dummy
 scoreboard objectives add effect_timestop dummy
 scoreboard objectives add effect_chain_lightning dummy
-
 
 scoreboard objectives add effect_add_manamax dummy
 scoreboard objectives add effect_add_manaregen dummy

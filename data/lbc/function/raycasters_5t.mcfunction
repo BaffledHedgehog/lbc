@@ -10,5 +10,6 @@ execute at @s[tag=evoker_fang_spawner] run summon evoker_fangs ~ ~-0.25 ~
 execute at @s[tag=erecto_sphere] run function lbc:workingitems/awaken_tuntija_wands/erecto/click_upgraded_2_mode_sphere_tick5t
 execute at @s[tag=raycastmolnia_chain] run function lbcr:raycast_molnia_chain
 execute at @s[tag=snow_cloud] run function lbc:workingitems/snow_wand/tick
+execute at @s[tag=wisp] run function lbc:other/wisp_book/passive_effects/tick
 execute store result score lifetime_tmp lbc.math run data get entity @s data.lifetime 1
 execute if score lifetime_tmp lbc.math matches 1.. if score @s Lifetime >= lifetime_tmp lbc.math run kill @s

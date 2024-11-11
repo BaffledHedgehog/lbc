@@ -47,6 +47,7 @@ execute if entity @s[tag=overload_boots_active,predicate=lbc:sneak,scores={overl
 execute if entity @s[tag=overload_slam] run function lbc:armor/overload/boots/tick
 execute if entity @s[tag=gigantic] run function lbc:other/imba/runes/thurisaz_gigant_tick
 execute if items entity @s player.crafting.* repeating_command_block[minecraft:custom_data~{phd:1b}] run function lbc:swrg_kit_integration/game/kits/changed_inventory_phd
+execute if entity @s[tag=has_wisps] run function lbc:other/wisp_book/realign_wisps/teleport/run
 advancement revoke @s only lbc:penis
 
 
