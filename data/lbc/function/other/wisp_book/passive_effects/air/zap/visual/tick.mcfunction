@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=done,tag=lightning_ray] at @s unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/wisp_book/passive_effects/air/zap/visual/run
