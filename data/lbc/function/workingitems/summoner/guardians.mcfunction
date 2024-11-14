@@ -35,6 +35,8 @@ execute if entity @s[team=13] run team join 13 @e[type=guardian,limit=4,tag=summ
 execute if entity @s[team=14] run team join 14 @e[type=guardian,limit=4,tag=summguardians,tag=!summactivated,sort=nearest]
 execute if entity @s[team=15] run team join 15 @e[type=guardian,limit=4,tag=summguardians,tag=!summactivated,sort=nearest]
 execute if entity @s[team=16] run team join 16 @e[type=guardian,limit=4,tag=summguardians,tag=!summactivated,sort=nearest]
+
+scoreboard players operation @e[type=guardian,limit=4,tag=summguardians,tag=!summactivated,sort=nearest] lbcID2 = @s lbcID2
 tag @e[type=guardian,limit=4,tag=summguardians,tag=!summactivated,sort=nearest] add summactivated
 scoreboard players operation @s mana -= guardian_soul_mana_use lbc.math
 particle soul_fire_flame ~ ~1 ~ 5 5 5 0 300 normal

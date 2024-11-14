@@ -34,23 +34,25 @@ summon skeleton ~3 ~ ~ {HandItems:[{},{id:"minecraft:golden_sword",count:1}],Han
 summon skeleton ~ ~ ~3 {HandItems:[{},{id:"minecraft:golden_sword",count:1}],HandDropChances:[0.000F,0.000F],DeathLootTable:"empty",Health:2f,Tags:["summskeleton"],ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",count:1,components:{"minecraft:unbreakable":{}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],attributes:[{id:"minecraft:generic.max_health",base:2},{id:"minecraft:generic.movement_speed",base:0.3},{id:"minecraft:generic.follow_range",base:200}]}
 summon skeleton ~-3 ~ ~ {HandItems:[{},{id:"minecraft:golden_sword",count:1}],HandDropChances:[0.000F,0.000F],DeathLootTable:"empty",Health:2f,Tags:["summskeleton"],ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",count:1,components:{"minecraft:unbreakable":{}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],attributes:[{id:"minecraft:generic.max_health",base:2},{id:"minecraft:generic.movement_speed",base:0.3},{id:"minecraft:generic.follow_range",base:200}]}
 summon skeleton ~ ~ ~-3 {HandItems:[{},{id:"minecraft:golden_sword",count:1}],HandDropChances:[0.000F,0.000F],DeathLootTable:"empty",Health:2f,Tags:["summskeleton"],ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",count:1,components:{"minecraft:unbreakable":{}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],attributes:[{id:"minecraft:generic.max_health",base:2},{id:"minecraft:generic.movement_speed",base:0.3},{id:"minecraft:generic.follow_range",base:200}]}
-execute if entity @s[team=1] run team join 1 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=2] run team join 2 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=3] run team join 3 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=4] run team join 4 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=5] run team join 5 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=6] run team join 6 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=7] run team join 7 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=8] run team join 8 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=9] run team join 9 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=10] run team join 10 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=11] run team join 11 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=12] run team join 12 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=13] run team join 13 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=14] run team join 14 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=15] run team join 15 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-execute if entity @s[team=16] run team join 16 @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
-tag @e[distance=..3,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest] add summactivated
+execute if entity @s[team=1] run team join 1 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=2] run team join 2 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=3] run team join 3 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=4] run team join 4 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=5] run team join 5 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=6] run team join 6 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=7] run team join 7 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=8] run team join 8 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=9] run team join 9 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=10] run team join 10 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=11] run team join 11 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=12] run team join 12 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=13] run team join 13 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=14] run team join 14 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=15] run team join 15 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+execute if entity @s[team=16] run team join 16 @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest]
+
+scoreboard players operation @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest] lbcID2 = @s lbcID2
+tag @e[distance=..4,type=skeleton,limit=20,tag=summskeleton,tag=!summactivated,sort=nearest] add summactivated
 scoreboard players operation @s mana -= skeleton_soul_mana_use lbc.math
 particle soul_fire_flame ~ ~1 ~ 5 5 5 0 300 normal
 playsound minecraft:entity.wither.spawn master @a ~ ~ ~ 1 1

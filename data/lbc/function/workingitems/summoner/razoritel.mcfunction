@@ -32,6 +32,8 @@ execute if entity @s[team=13] run team join 13 @e[type=ravager,limit=1,tag=summr
 execute if entity @s[team=14] run team join 14 @e[type=ravager,limit=1,tag=summravager,tag=!summactivated,sort=nearest]
 execute if entity @s[team=15] run team join 15 @e[type=ravager,limit=1,tag=summravager,tag=!summactivated,sort=nearest]
 execute if entity @s[team=16] run team join 16 @e[type=ravager,limit=1,tag=summravager,tag=!summactivated,sort=nearest]
+
+scoreboard players operation @e[type=ravager,limit=1,tag=summravager,tag=!summactivated,sort=nearest] lbcID2 = @s lbcID2
 tag @e[type=ravager,limit=1,tag=summravager,tag=!summactivated,sort=nearest] add summactivated
 scoreboard players operation @s mana -= ravager_soul_mana_use lbc.math
 particle soul_fire_flame ~ ~1 ~ 5 5 5 0 300 normal

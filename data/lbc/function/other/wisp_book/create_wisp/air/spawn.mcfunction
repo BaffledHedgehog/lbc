@@ -6,6 +6,6 @@ particle gust ~ ~ ~ 0 0 0 0.3 1
 
 tag @e[limit=1,type=item_display,tag=new,tag=wisp] remove new
 tag @s add has_wisps
-#function lbc:other/wisp_book/passive_effects/air/count
+function lbc:other/wisp_book/passive_effects/air/count
 
 function lbc:other/wisp_book/realign_wisps/start
