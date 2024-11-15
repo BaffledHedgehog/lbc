@@ -231,6 +231,7 @@ scoreboard objectives add nature_wisp_chance dummy
 scoreboard objectives add light_wisp_count dummy
 scoreboard objectives add air_wisp_count dummy
 scoreboard objectives add air_wisp_charge dummy
+scoreboard objectives add air_wisp_chains dummy
 #effect!
 
 scoreboard objectives add effect_rtp_1 dummy
