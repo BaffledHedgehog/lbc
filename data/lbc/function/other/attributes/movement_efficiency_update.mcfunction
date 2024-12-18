@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.movement_efficiency base set $(tmp)
+$attribute @s minecraft:movement_efficiency base set $(tmp)

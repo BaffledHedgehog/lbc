@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.gravity modifier add gravity_mk2armor_fix2 $(tmp) add_value
+$attribute @s minecraft:gravity modifier add gravity_mk2armor_fix2 $(tmp) add_value

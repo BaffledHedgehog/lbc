@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.water_movement_efficiency base set $(tmp)
+$attribute @s minecraft:water_movement_efficiency base set $(tmp)

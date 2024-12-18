@@ -176,7 +176,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "translate": "attribute.name.generic.attack_damage"
+                                        "translate": "attribute.name.attack_damage"
                                     }
                                 ],
                                 [
@@ -187,7 +187,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "translate": "attribute.name.generic.attack_speed",
+                                        "translate": "attribute.name.attack_speed",
                                         "color": "dark_green",
                                         "italic": false
                                     }

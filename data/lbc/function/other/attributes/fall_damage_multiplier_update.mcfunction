@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.fall_damage_multiplier base set $(tmp)
+$attribute @s minecraft:fall_damage_multiplier base set $(tmp)

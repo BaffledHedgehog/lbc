@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.burning_time base set $(tmp)
+$attribute @s minecraft:burning_time base set $(tmp)

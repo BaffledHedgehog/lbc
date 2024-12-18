@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.jump_strength base set $(tmp)
+$attribute @s minecraft:jump_strength base set $(tmp)

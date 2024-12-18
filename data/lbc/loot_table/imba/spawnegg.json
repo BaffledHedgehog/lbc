@@ -23,15 +23,15 @@
                                     "CustomName": "{\"text\":\"Sauvojen Tuntija\",\"color\":\"blue\",\"bold\":true,\"italic\":false}",
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 100024
                                         },
                                         {
-                                            "id": "minecraft:generic.follow_range",
+                                            "id": "minecraft:follow_range",
                                             "base": 256
                                         },
                                         {
-                                            "id": "minecraft:generic.knockback_resistance",
+                                            "id": "minecraft:knockback_resistance",
                                             "base": 256
                                         }
                                     ]
@@ -210,7 +210,7 @@
                                     ],
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.follow_range",
+                                            "id": "minecraft:follow_range",
                                             "base": 400
                                         }
                                     ]
@@ -325,8 +325,8 @@
                                                 },
                                                 "attribute_modifiers": [
                                                     {
-                                                        "type": "minecraft:generic.knockback_resistance",
-                                                        "id": "minecraft:generic.knockback_resistance",
+                                                        "type": "minecraft:knockback_resistance",
+                                                        "id": "minecraft:knockback_resistance",
                                                         "base": 1000,
                                                         "operation": "add_value",
                                                         "slot": "feet"
@@ -355,8 +355,8 @@
                                                 },
                                                 "attribute_modifiers": [
                                                     {
-                                                        "type": "minecraft:generic.movement_speed",
-                                                        "id": "minecraft:generic.movement_speed",
+                                                        "type": "minecraft:movement_speed",
+                                                        "id": "minecraft:movement_speed",
                                                         "base": 0.5,
                                                         "Operation": 1,
                                                         "slot": "legs"
@@ -385,8 +385,8 @@
                                                 },
                                                 "attribute_modifiers": [
                                                     {
-                                                        "type": "minecraft:generic.max_health",
-                                                        "id": "minecraft:generic.max_health",
+                                                        "type": "minecraft:max_health",
+                                                        "id": "minecraft:max_health",
                                                         "base": 40,
                                                         "operation": "add_value",
                                                         "slot": "chest"
@@ -481,7 +481,7 @@
                                                 },
                                                 "attribute_modifiers": [
                                                     {
-                                                        "type": "minecraft:generic.attack_damage",
+                                                        "type": "minecraft:attack_damage",
                                                         "id": "dghdynukbvghfhjge",
                                                         "base": 7,
                                                         "operation": "add_value",
@@ -604,19 +604,19 @@
                                     ],
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.movement_speed",
+                                            "id": "minecraft:movement_speed",
                                             "base": 0.6
                                         },
                                         {
-                                            "id": "minecraft:generic.armor",
+                                            "id": "minecraft:armor",
                                             "base": 20
                                         },
                                         {
-                                            "id": "minecraft:generic.attack_knockback",
+                                            "id": "minecraft:attack_knockback",
                                             "base": 100
                                         },
                                         {
-                                            "id": "minecraft:generic.armor_toughness",
+                                            "id": "minecraft:armor_toughness",
                                             "base": 5
                                         }
                                     ]
@@ -714,7 +714,7 @@
                                     "Health": 1,
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 1
                                         }
                                     ]
@@ -871,11 +871,11 @@
                                     ],
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 30
                                         },
                                         {
-                                            "id": "minecraft:generic.attack_knockback",
+                                            "id": "minecraft:attack_knockback",
                                             "base": 1
                                         }
                                     ],
@@ -1258,11 +1258,11 @@
                                     ],
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 500
                                         },
                                         {
-                                            "id": "minecraft:generic.follow_range",
+                                            "id": "minecraft:follow_range",
                                             "base": 100
                                         }
                                     ],
@@ -1408,11 +1408,11 @@
                                     ],
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 500
                                         },
                                         {
-                                            "id": "minecraft:generic.knockback_resistance",
+                                            "id": "minecraft:knockback_resistance",
                                             "base": 100
                                         }
                                     ]
@@ -1548,31 +1548,31 @@
                                     ],
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 10
                                         },
                                         {
-                                            "id": "minecraft:generic.follow_range",
+                                            "id": "minecraft:follow_range",
                                             "base": 50
                                         },
                                         {
-                                            "id": "minecraft:generic.movement_speed",
+                                            "id": "minecraft:movement_speed",
                                             "base": 0.25
                                         },
                                         {
-                                            "id": "minecraft:generic.attack_damage",
+                                            "id": "minecraft:attack_damage",
                                             "base": 3
                                         },
                                         {
-                                            "id": "minecraft:generic.armor",
+                                            "id": "minecraft:armor",
                                             "base": 5
                                         },
                                         {
-                                            "id": "minecraft:generic.armor_toughness",
+                                            "id": "minecraft:armor_toughness",
                                             "base": 5
                                         },
                                         {
-                                            "id": "minecraft:zombie.spawn_reinforcements",
+                                            "id": "minecraft:spawn_reinforcements",
                                             "base": 100
                                         }
                                     ]
@@ -1725,27 +1725,27 @@
                                     ],
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 30
                                         },
                                         {
-                                            "id": "minecraft:generic.follow_range",
+                                            "id": "minecraft:follow_range",
                                             "base": 100
                                         },
                                         {
-                                            "id": "minecraft:generic.knockback_resistance",
+                                            "id": "minecraft:knockback_resistance",
                                             "base": 10
                                         },
                                         {
-                                            "id": "minecraft:generic.attack_damage",
+                                            "id": "minecraft:attack_damage",
                                             "base": 10
                                         },
                                         {
-                                            "id": "minecraft:generic.armor",
+                                            "id": "minecraft:armor",
                                             "base": 10
                                         },
                                         {
-                                            "id": "minecraft:generic.armor_toughness",
+                                            "id": "minecraft:armor_toughness",
                                             "base": 10
                                         }
                                     ]
@@ -1815,23 +1815,23 @@
                                     ],
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 45
                                         },
                                         {
-                                            "id": "minecraft:generic.follow_range",
+                                            "id": "minecraft:follow_range",
                                             "base": 100
                                         },
                                         {
-                                            "id": "minecraft:generic.attack_damage",
+                                            "id": "minecraft:attack_damage",
                                             "base": 17
                                         },
                                         {
-                                            "id": "minecraft:generic.armor",
+                                            "id": "minecraft:armor",
                                             "base": 1
                                         },
                                         {
-                                            "id": "minecraft:generic.armor_toughness",
+                                            "id": "minecraft:armor_toughness",
                                             "base": 1
                                         }
                                     ]

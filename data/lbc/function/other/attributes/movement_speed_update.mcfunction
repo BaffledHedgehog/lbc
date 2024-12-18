@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.movement_speed base set $(tmp)
+$attribute @s minecraft:movement_speed base set $(tmp)

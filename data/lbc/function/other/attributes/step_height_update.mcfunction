@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.step_height base set $(tmp)
+$attribute @s minecraft:step_height base set $(tmp)

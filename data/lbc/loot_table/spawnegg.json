@@ -322,11 +322,11 @@
                                     "CustomName": "{\"translate\":\"giant\"}",
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.attack_damage",
+                                            "id": "minecraft:attack_damage",
                                             "base": 10
                                         },
                                         {
-                                            "id": "minecraft:generic.attack_knockback",
+                                            "id": "minecraft:attack_knockback",
                                             "base": 5
                                         }
                                     ]

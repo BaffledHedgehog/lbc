@@ -32,7 +32,7 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "chest",
-                                            "id": "generic.attack_damage",
+                                            "id": "attack_damage",
                                             "amount": 5,
                                             "operation": "add_value"
                                         },

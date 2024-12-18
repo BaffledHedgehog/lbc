@@ -103,7 +103,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "translate": "attribute.name.generic.attack_damage"
+                                        "translate": "attribute.name.attack_damage"
                                     }
                                 ],
                                 [
@@ -114,7 +114,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "translate": "attribute.name.generic.attack_speed",
+                                        "translate": "attribute.name.attack_speed",
                                         "color": "dark_green",
                                         "italic": false
                                     }
@@ -153,8 +153,8 @@
                                     "{\"translate\":\"techrunner_katana_lore_3\",\"italic\":false,\"color\":\"white\"}",
                                     "{\"text\":\"\"}",
                                     "{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}",
-                                    "{\"text\":\" \",\"extra\":[{\"text\":\"8 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"dark_green\",\"italic\":false}]}",
-                                    "{\"text\":\" \",\"extra\":[{\"text\":\"1.6 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_speed\",\"color\":\"dark_green\",\"italic\":false}]}"
+                                    "{\"text\":\" \",\"extra\":[{\"text\":\"8 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.attack_damage\",\"color\":\"dark_green\",\"italic\":false}]}",
+                                    "{\"text\":\" \",\"extra\":[{\"text\":\"1.6 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.attack_speed\",\"color\":\"dark_green\",\"italic\":false}]}"
                                 ],
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
@@ -267,7 +267,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "translate": "attribute.name.generic.attack_damage"
+                                        "translate": "attribute.name.attack_damage"
                                     }
                                 ],
                                 [
@@ -278,7 +278,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "translate": "attribute.name.generic.attack_speed",
+                                        "translate": "attribute.name.attack_speed",
                                         "color": "dark_green",
                                         "italic": false
                                     }
@@ -326,8 +326,8 @@
                                     "{\"translate\": \"RCability\",\"color\": \"white\",\"italic\": false}",
                                     "{\"translate\": \"shit_katana.lore.2\",\"color\": \"gold\",\"italic\": false}",
                                     "{\"translate\": \"item.modifiers.mainhand\",\"color\": \"gray\",\"italic\": false}",
-                                    "[{\"text\": \"5 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\": \"attribute.name.generic.attack_damage\"}]",
-                                    "[{\"text\": \"1.8 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\": \"attribute.name.generic.attack_speed\",\"color\": \"dark_green\",\"italic\": false}]",
+                                    "[{\"text\": \"5 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\": \"attribute.name.attack_damage\"}]",
+                                    "[{\"text\": \"1.8 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\": \"attribute.name.attack_speed\",\"color\": \"dark_green\",\"italic\": false}]",
                                     "{\"translate\": \"shit_katana.lore.3\",\"color\": \"white\",\"italic\": false}"
                                 ],
                                 "minecraft:attribute_modifiers": {
@@ -444,7 +444,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "translate": "attribute.name.generic.attack_damage"
+                                        "translate": "attribute.name.attack_damage"
                                     }
                                 ],
                                 [
@@ -455,7 +455,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "translate": "attribute.name.generic.attack_speed",
+                                        "translate": "attribute.name.attack_speed",
                                         "color": "dark_green",
                                         "italic": false
                                     }

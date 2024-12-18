@@ -1,1 +1,1 @@
-$attribute @s minecraft:player.sweeping_damage_ratio base set $(tmp)
+$attribute @s minecraft:sweeping_damage_ratio base set $(tmp)

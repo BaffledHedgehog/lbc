@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.armor_toughness base set $(tmp)
+$attribute @s minecraft:armor_toughness base set $(tmp)

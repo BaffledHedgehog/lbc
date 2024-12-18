@@ -1,1 +1,1 @@
-$attribute @s minecraft:player.sneaking_speed base set $(tmp)
+$attribute @s minecraft:sneaking_speed base set $(tmp)

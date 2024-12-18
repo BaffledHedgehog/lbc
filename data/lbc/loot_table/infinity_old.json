@@ -7245,7 +7245,7 @@
                                     "CustomName": "{\"text\":\"\u042d\u043d\u0434\u0435\u0440 \u0414\u0440\u0430\u043a\u043e\u043d\"}",
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 15
                                         }
                                     ]
@@ -7283,7 +7283,7 @@
                                     "CustomName": "{\"text\":\"\u0418\u0441\u0441\u0443\u0448\u0438\u0442\u0435\u043b\u044c\"}",
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.max_health",
+                                            "id": "minecraft:max_health",
                                             "base": 20
                                         }
                                     ]
@@ -7324,11 +7324,11 @@
                                     "CustomName": "{\"text\":\"\u0413\u0438\u0433\u0430\u043d\u0442\"}",
                                     "attributes": [
                                         {
-                                            "id": "minecraft:generic.attack_damage",
+                                            "id": "minecraft:attack_damage",
                                             "base": 10
                                         },
                                         {
-                                            "id": "minecraft:generic.attack_knockback",
+                                            "id": "minecraft:attack_knockback",
                                             "base": 5
                                         }
                                     ]

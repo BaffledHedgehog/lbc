@@ -426,11 +426,11 @@
                                     "NoAI": false,
                                     "attributes": [
                                         {
-                                            "Name": "generic.attack_damage",
+                                            "Name": "attack_damage",
                                             "base": 10
                                         },
                                         {
-                                            "Name": "generic.attack_knockback",
+                                            "Name": "attack_knockback",
                                             "base": 5
                                         }
                                     ]

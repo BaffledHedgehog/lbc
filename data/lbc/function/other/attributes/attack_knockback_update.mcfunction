@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.attack_knockback base set $(tmp)
+$attribute @s minecraft:attack_knockback base set $(tmp)

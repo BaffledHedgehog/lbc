@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.knockback_resistance base set $(knockback)
+$attribute @s minecraft:knockback_resistance base set $(knockback)

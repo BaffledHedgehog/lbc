@@ -1,1 +1,1 @@
-$attribute @s minecraft:generic.gravity base set $(tmp)
+$attribute @s minecraft:gravity base set $(tmp)
