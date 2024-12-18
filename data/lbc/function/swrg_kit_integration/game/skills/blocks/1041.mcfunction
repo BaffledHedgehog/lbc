@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chiseled_deepslate
+setblock ~ ~ ~ minecraft:chiseled_deepslate

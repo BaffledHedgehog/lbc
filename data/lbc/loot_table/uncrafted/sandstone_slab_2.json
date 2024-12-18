@@ -8,8 +8,8 @@
                     "name": "minecraft:sandstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
-                            "count":2
+                            "function": "minecraft:set_count",
+                            "count": 2
                         }
                     ]
                 }

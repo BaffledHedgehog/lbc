@@ -1,1 +1,1 @@
-setblock ~ ~ ~ moss_block
+setblock ~ ~ ~ minecraft:moss_block

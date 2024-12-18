@@ -1,1 +1,1 @@
-setblock ~ ~ ~ comparator
+setblock ~ ~ ~ minecraft:comparator

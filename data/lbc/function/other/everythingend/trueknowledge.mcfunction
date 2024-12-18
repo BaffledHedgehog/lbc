@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chest{LootTable:"lbc:lucky_items_1"}
+setblock ~ ~ ~ minecraft:chest{LootTable:"lbc:lucky_items_1"}

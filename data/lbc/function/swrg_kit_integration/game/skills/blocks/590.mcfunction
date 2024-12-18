@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_door
+setblock ~ ~ ~ minecraft:mangrove_door

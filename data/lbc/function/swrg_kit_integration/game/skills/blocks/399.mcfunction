@@ -1,1 +1,1 @@
-setblock ~ ~ ~ zombie_head
+setblock ~ ~ ~ minecraft:zombie_head

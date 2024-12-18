@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cobbled_deepslate_slab
+setblock ~ ~ ~ minecraft:cobbled_deepslate_slab

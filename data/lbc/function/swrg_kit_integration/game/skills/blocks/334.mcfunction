@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lava_cauldron
+setblock ~ ~ ~ minecraft:lava_cauldron

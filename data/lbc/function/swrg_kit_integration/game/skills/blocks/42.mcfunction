@@ -1,1 +1,1 @@
-setblock ~ ~ ~ iron_ore
+setblock ~ ~ ~ minecraft:iron_ore

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ yellow_wool
+setblock ~ ~ ~ minecraft:yellow_wool

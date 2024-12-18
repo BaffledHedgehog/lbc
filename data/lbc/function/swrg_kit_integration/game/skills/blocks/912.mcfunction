@@ -1,1 +1,1 @@
-setblock ~ ~ ~ tuff_stairs
+setblock ~ ~ ~ minecraft:tuff_stairs

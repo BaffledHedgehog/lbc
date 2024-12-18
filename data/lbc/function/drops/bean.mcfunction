@@ -1,4 +1,4 @@
-fill ~1 ~ ~1 ~-1 ~ ~-1 oak_wood
+fill ~1 ~ ~1 ~-1 ~ ~-1 minecraft:oak_wood
 execute store result score #pos_x lbc.math run data get entity @s Pos[0]
 execute store result score #pos_y lbc.math run data get entity @s Pos[1]
 execute store result score #pos_z lbc.math run data get entity @s Pos[2]

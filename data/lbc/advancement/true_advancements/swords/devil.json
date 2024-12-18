@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:wooden_sword",
-            "components": {"minecraft:custom_model_data":522}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        522.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.sword.devil"

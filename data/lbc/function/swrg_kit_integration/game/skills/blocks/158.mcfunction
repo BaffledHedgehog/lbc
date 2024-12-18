@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oxeye_daisy
+setblock ~ ~ ~ minecraft:oxeye_daisy

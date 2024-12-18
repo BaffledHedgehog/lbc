@@ -1,53 +1,56 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "weight": 10,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "magicwand": true,
-                  "homing_lightning": true,
-                  "spellwithcooldown": true
-                },
-                "minecraft:custom_model_data": 714
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "homing_lightning",
-                  "color": "aqua",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        714.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "homing_lightning",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "homing_lightning.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magicwand:1,homing_lightning:1,spellwithcooldown:1}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                {
-                  "translate": "homing_lightning.lore",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

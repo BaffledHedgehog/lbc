@@ -2,7 +2,14 @@
     "display": {
         "icon": {
             "id": "minecraft:leather_helmet",
-            "components": {"minecraft:custom_model_data":5,"minecraft:enchantment_glint_override": true}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        5.0
+                    ]
+                },
+                "minecraft:enchantment_glint_override": true
+            }
         },
         "title": {
             "translate": "lbc.adv.armor.shitty_full"
@@ -39,28 +46,28 @@
                                 "head": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "gownoleggings": true
+                                            "gownoleggings":1
                                         }
                                     }
                                 },
                                 "chest": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "gownoleggings": true
+                                            "gownoleggings":1
                                         }
                                     }
                                 },
                                 "legs": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "gownoleggings": true
+                                            "gownoleggings":1
                                         }
                                     }
                                 },
                                 "feet": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "gownoleggings": true
+                                            "gownoleggings":1
                                         }
                                     }
                                 }
@@ -72,20 +79,20 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "shooter": true,
-                              "govnomet": true
+                                "transformable":1,
+                                "shooter":1,
+                                "govnomet":1
                             }
-                          }
+                        }
                     },
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "sword": true,
-                              "shit_katana": true
+                                "transformable":1,
+                                "sword":1,
+                                "shit_katana":1
                             }
-                          }
+                        }
                     }
                 ]
             }

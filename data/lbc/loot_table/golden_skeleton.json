@@ -4,7 +4,7 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:triple_golden_sword"
                 }
             ]
@@ -13,41 +13,41 @@
             "rolls": 8,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 4
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:gold_ingot",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 32
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:gold_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:enchanted_golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         }
                     ]

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_shulker_box
+setblock ~ ~ ~ minecraft:lime_shulker_box

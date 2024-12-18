@@ -1,1 +1,1 @@
-execute at @e[type=falling_block,nbt={BlockState:{Name:"minecraft:netherite_block"}}] run summon minecraft:lightning_bolt ~ ~-4 ~
+execute at @e[type=minecraft:falling_block,nbt={BlockState:{Name:"minecraft:netherite_block"}}] run summon minecraft:lightning_bolt ~ ~-4 ~

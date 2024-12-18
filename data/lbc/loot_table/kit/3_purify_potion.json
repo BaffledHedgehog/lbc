@@ -8,9 +8,9 @@
                     "value": "lbc:purifypotion_1",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "max_stack_size": 3
+                                "minecraft:max_stack_size": 3
                             }
                         }
                     ]
@@ -25,9 +25,9 @@
                     "name": "minecraft:milk_bucket",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "max_stack_size": 3
+                                "minecraft:max_stack_size": 3
                             }
                         }
                     ]
@@ -42,7 +42,7 @@
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:potion_contents": {
                                     "custom_color": 16739179,
@@ -53,11 +53,11 @@
                                         }
                                     ]
                                 },
-                                "max_stack_size": 4
+                                "minecraft:max_stack_size": 4
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "item.minecraft.splash_potion.effect.healing",

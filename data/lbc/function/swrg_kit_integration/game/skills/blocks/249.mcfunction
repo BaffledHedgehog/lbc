@@ -1,1 +1,1 @@
-setblock ~ ~ ~ ice
+setblock ~ ~ ~ minecraft:ice

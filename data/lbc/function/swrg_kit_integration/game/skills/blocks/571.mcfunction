@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_fence_gate
+setblock ~ ~ ~ minecraft:acacia_fence_gate

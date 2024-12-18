@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:repeating_command_block",
             "components": {
-                "minecraft:custom_model_data": 556
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        556.0
+                    ]
+                }
             }
         },
         "title": {

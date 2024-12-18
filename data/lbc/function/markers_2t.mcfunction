@@ -1,8 +1,8 @@
 scoreboard players add @s Lifetime 2
 execute if entity @s[tag=stopper] run function lbc:other/stopper
-execute if entity @s[tag=stopper,tag=activated] unless block ~ ~ ~ lightning_rod run function lbc:other/stopperbreaked
+execute if entity @s[tag=stopper,tag=activated] unless block ~ ~ ~ minecraft:lightning_rod run function lbc:other/stopperbreaked
 execute if entity @s[tag=stopper_magic] run function lbc:other/stopper_magic
-execute if entity @s[tag=stopper_magic,tag=activated] unless block ~ ~ ~ lightning_rod run function lbc:other/stopperbreaked_magic
+execute if entity @s[tag=stopper_magic,tag=activated] unless block ~ ~ ~ minecraft:lightning_rod run function lbc:other/stopperbreaked_magic
 execute if entity @s[tag=nuke,tag=!nuke1] run function lbc:other/nuke/nuke
 execute if entity @s[tag=nuke_bruh,tag=!nuke1] run function lbc:other/nuke/nuke_bruh
 execute if entity @s[tag=nuke_old,tag=!nuke1_old] run function lbc:other/nuke/nuke_old

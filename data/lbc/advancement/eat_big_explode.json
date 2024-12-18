@@ -1,34 +1,33 @@
 {
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "item": {
-            "predicates": {
-              "minecraft:custom_data": {
-                "eat_big_explode": true
-              }
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "eat_big_explode":1
+                        }
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
+                    }
+                ]
             }
-          },
-          "player": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "dimension": "minecraft:nexus"
-                  }
-                }
-              }
-            }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "lbc:other/eatables/big_explode"
+        "function": "lbc:other/eatables/big_explode"
     }
-  }
-  
+}

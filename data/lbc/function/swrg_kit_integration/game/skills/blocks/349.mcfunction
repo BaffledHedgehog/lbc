@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_stairs
+setblock ~ ~ ~ minecraft:spruce_stairs

@@ -8,13 +8,14 @@
                     "name": "minecraft:glass",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 7
                         }
                     ]
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -22,7 +23,8 @@
                     "name": "minecraft:ender_eye"
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {

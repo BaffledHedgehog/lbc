@@ -1,1 +1,1 @@
-execute if score @e[type=#minecraft:raycasters_projectiles,distance=..4,limit=1,nbt=!{inGround:1b}] lbcID2 matches -2147483648..2147483647 unless score @e[type=#raycasters_projectiles,distance=..4,limit=1,nbt=!{inGround:1b}] lbcID2 = @s lbcID2 run spreadplayers ~ ~ 0 10 false @s
+execute if score @e[type=#minecraft:raycasters_projectiles,distance=..4,limit=1,nbt=!{inGround:1b}] lbcID2 matches -2147483648..2147483647 unless score @e[type=#minecraft:raycasters_projectiles,distance=..4,limit=1,nbt=!{inGround:1b}] lbcID2 = @s lbcID2 run spreadplayers ~ ~ 0 10 false @s

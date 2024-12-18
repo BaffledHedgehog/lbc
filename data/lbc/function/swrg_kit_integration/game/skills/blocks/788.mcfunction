@@ -1,1 +1,1 @@
-setblock ~ ~ ~ soul_campfire
+setblock ~ ~ ~ minecraft:soul_campfire

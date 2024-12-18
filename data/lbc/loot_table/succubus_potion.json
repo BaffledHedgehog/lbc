@@ -4,21 +4,16 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "potion": true,
-                                    "succubus": true
-                                },
                                 "minecraft:potion_contents": {
                                     "custom_color": 16777215,
                                     "custom_effects": [
@@ -37,7 +32,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "succubus_potion",
@@ -46,7 +41,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -67,6 +62,10 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,potion:1,succubus:1}"
                         }
                     ]
                 }

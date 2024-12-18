@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oxidized_chiseled_copper
+setblock ~ ~ ~ minecraft:oxidized_chiseled_copper

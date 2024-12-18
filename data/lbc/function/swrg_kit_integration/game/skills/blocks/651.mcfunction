@@ -1,1 +1,1 @@
-setblock ~ ~ ~ yellow_concrete
+setblock ~ ~ ~ minecraft:yellow_concrete

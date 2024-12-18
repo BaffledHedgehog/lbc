@@ -1,10 +1,10 @@
-tp @s @e[type=skeleton,limit=1,sort=random,tag=indolence_finger]
-item replace entity @s armor.head with leather_helmet[dyed_color=768,attribute_modifiers=[{type:"minecraft:generic.armor",slot:"head",id:"cumeiruhweqw",amount:5,operation:"add_value"},{type:"minecraft:generic.movement_speed",slot:"head",id:"932489wuefiouberf",amount:0.25,operation:"add_multiplied_base"}]]
-item replace entity @s armor.chest with leather_chestplate[dyed_color=515,attribute_modifiers=[{type:"minecraft:generic.armor",slot:"head",id:"cumindaerisneiwqd783yr7",amount:5,operation:"add_value"},{type:"minecraft:generic.movement_speed",slot:"head",id:"ferwdfgrreg",amount:0.25,operation:"add_multiplied_base"}]]
-item replace entity @s armor.legs with leather_leggings[dyed_color=515,attribute_modifiers=[{type:"minecraft:generic.armor",slot:"head",id:"ffdopldfpoopd",amount:5,operation:"add_value"},{type:"minecraft:generic.movement_speed",slot:"head",id:"giuaosidoaodperfer",amount:0.25,operation:"add_multiplied_base"}]]
-item replace entity @s armor.feet with leather_boots[dyed_color=515,attribute_modifiers=[{type:"minecraft:generic.armor",slot:"head",id:"jweiuf78qwqqqecvf",amount:5,operation:"add_value"},{type:"minecraft:generic.movement_speed",slot:"head",id:"fflpor3iuwd78",amount:0.25,operation:"add_multiplied_base"}]]
-give @s bow
-give @s arrow 64
+tp @s @e[type=minecraft:skeleton,tag=indolence_finger,sort=random,limit=1]
+item replace entity @s armor.head with minecraft:leather_helmet[minecraft:dyed_color={rgb:768},minecraft:attribute_modifiers={modifiers:[{type:"minecraft:armor",slot:"head",id:"cumeiruhweqw",amount:5,operation:"add_value"},{type:"minecraft:movement_speed",slot:"head",id:"932489wuefiouberf",amount:0.25,operation:"add_multiplied_base"}]}]
+item replace entity @s armor.chest with minecraft:leather_chestplate[minecraft:dyed_color={rgb:515},minecraft:attribute_modifiers={modifiers:[{type:"minecraft:armor",slot:"head",id:"cumindaerisneiwqd783yr7",amount:5,operation:"add_value"},{type:"minecraft:movement_speed",slot:"head",id:"ferwdfgrreg",amount:0.25,operation:"add_multiplied_base"}]}]
+item replace entity @s armor.legs with minecraft:leather_leggings[minecraft:dyed_color={rgb:515},minecraft:attribute_modifiers={modifiers:[{type:"minecraft:armor",slot:"head",id:"ffdopldfpoopd",amount:5,operation:"add_value"},{type:"minecraft:movement_speed",slot:"head",id:"giuaosidoaodperfer",amount:0.25,operation:"add_multiplied_base"}]}]
+item replace entity @s armor.feet with minecraft:leather_boots[minecraft:dyed_color={rgb:515},minecraft:attribute_modifiers={modifiers:[{type:"minecraft:armor",slot:"head",id:"jweiuf78qwqqqecvf",amount:5,operation:"add_value"},{type:"minecraft:movement_speed",slot:"head",id:"fflpor3iuwd78",amount:0.25,operation:"add_multiplied_base"}]}]
+give @s minecraft:bow
+give @s minecraft:arrow 64
 loot give @s loot lbc:indolence_claw
 tag @s add kill_one_skeleton
 tag @s remove indolence_active

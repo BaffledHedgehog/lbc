@@ -6,8 +6,8 @@ scoreboard players remove @s coldown_vampire 5
 scoreboard players remove @s coldown_foxus 5
 scoreboard players remove @s coldown_blood 5
 scoreboard players remove @s coldown_wiki 5
-execute at @s[nbt={Inventory:[{id:"minecraft:leather_helmet",Slot:103b,components:{"minecraft:custom_data":{magichat_old:1b}}}]}] run function lbc:other/new_game/magic_boost_hat
-execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{manabelt_old:1b}}}]}] run function lbc:other/new_game/magic_boost_belt
-execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1b,type:2b}}}]}] run function lbc:other/artifact/nomagic_old
-execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1b,type:5b}}}]}] run function lbc:other/artifact/notnt_old
-execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1b,type:6b}}}]}] run function lbc:other/artifact/nofluid_old
+execute at @s[nbt={Inventory:[{id:"minecraft:leather_helmet",components:{"minecraft:custom_data":{magichat_old:1}},Slot:103b}]}] run function lbc:other/new_game/magic_boost_hat
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{manabelt_old:1}}}]}] run function lbc:other/new_game/magic_boost_belt
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:2}}}]}] run function lbc:other/artifact/nomagic_old
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:5}}}]}] run function lbc:other/artifact/notnt_old
+execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:6}}}]}] run function lbc:other/artifact/nofluid_old

@@ -1,7 +1,7 @@
 
-execute if entity @s[type=minecraft:axolotl] run summon axolotl ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=minecraft:bat] run summon bat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=minecraft:bee] run summon bee ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:axolotl] run summon minecraft:axolotl ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bat] run summon minecraft:bat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bee] run summon minecraft:bee ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:blaze] run summon minecraft:blaze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:cat] run summon minecraft:cat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:cave_spider] run summon minecraft:cave_spider ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
@@ -72,24 +72,24 @@ execute if entity @s[type=minecraft:zombie] run summon minecraft:zombie ~ ~ ~ {T
 execute if entity @s[type=minecraft:zombie_horse] run summon minecraft:zombie_horse ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:zombie_villager] run summon minecraft:zombie_villager ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:zombified_piglin] run summon minecraft:zombified_piglin ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=warden] run summon warden ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=allay] run summon allay ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=frog] run summon frog ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=tadpole] run summon tadpole ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=camel] run summon camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=sniffer] run summon sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=breeze] run summon breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=wind_charge] run summon wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=armadillo] run summon armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=bogged] run summon bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:warden] run summon minecraft:warden ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:allay] run summon minecraft:allay ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:frog] run summon minecraft:frog ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:tadpole] run summon minecraft:tadpole ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:camel] run summon minecraft:camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:sniffer] run summon minecraft:sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:breeze] run summon minecraft:breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:wind_charge] run summon minecraft:wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:armadillo] run summon minecraft:armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bogged] run summon minecraft:bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 
 
 
-execute if entity @s[type=minecraft:axolotl] run summon axolotl ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=minecraft:bat] run summon bat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=minecraft:bee] run summon bee ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:axolotl] run summon minecraft:axolotl ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bat] run summon minecraft:bat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bee] run summon minecraft:bee ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:blaze] run summon minecraft:blaze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:cat] run summon minecraft:cat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:cave_spider] run summon minecraft:cave_spider ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
@@ -160,24 +160,24 @@ execute if entity @s[type=minecraft:zombie] run summon minecraft:zombie ~ ~ ~ {T
 execute if entity @s[type=minecraft:zombie_horse] run summon minecraft:zombie_horse ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:zombie_villager] run summon minecraft:zombie_villager ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:zombified_piglin] run summon minecraft:zombified_piglin ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=warden] run summon warden ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=allay] run summon allay ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=frog] run summon frog ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=tadpole] run summon tadpole ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=camel] run summon camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=sniffer] run summon sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=breeze] run summon breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=wind_charge] run summon wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=armadillo] run summon armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=bogged] run summon bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:warden] run summon minecraft:warden ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:allay] run summon minecraft:allay ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:frog] run summon minecraft:frog ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:tadpole] run summon minecraft:tadpole ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:camel] run summon minecraft:camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:sniffer] run summon minecraft:sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:breeze] run summon minecraft:breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:wind_charge] run summon minecraft:wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:armadillo] run summon minecraft:armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bogged] run summon minecraft:bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 
 
 
-execute if entity @s[type=minecraft:axolotl] run summon axolotl ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=minecraft:bat] run summon bat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=minecraft:bee] run summon bee ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:axolotl] run summon minecraft:axolotl ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bat] run summon minecraft:bat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bee] run summon minecraft:bee ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:blaze] run summon minecraft:blaze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:cat] run summon minecraft:cat ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:cave_spider] run summon minecraft:cave_spider ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
@@ -248,16 +248,16 @@ execute if entity @s[type=minecraft:zombie] run summon minecraft:zombie ~ ~ ~ {T
 execute if entity @s[type=minecraft:zombie_horse] run summon minecraft:zombie_horse ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:zombie_villager] run summon minecraft:zombie_villager ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:zombified_piglin] run summon minecraft:zombified_piglin ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=warden] run summon warden ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=allay] run summon allay ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=frog] run summon frog ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=tadpole] run summon tadpole ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=camel] run summon camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=sniffer] run summon sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=breeze] run summon breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=wind_charge] run summon wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=armadillo] run summon armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
-execute if entity @s[type=bogged] run summon bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:warden] run summon minecraft:warden ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:allay] run summon minecraft:allay ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:frog] run summon minecraft:frog ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:tadpole] run summon minecraft:tadpole ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:camel] run summon minecraft:camel ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:sniffer] run summon minecraft:sniffer ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:breeze] run summon minecraft:breeze ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:wind_charge] run summon minecraft:wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:armadillo] run summon minecraft:armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:bogged] run summon minecraft:bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 

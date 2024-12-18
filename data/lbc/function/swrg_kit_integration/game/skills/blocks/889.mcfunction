@@ -1,1 +1,1 @@
-setblock ~ ~ ~ orange_candle_cake
+setblock ~ ~ ~ minecraft:orange_candle_cake

@@ -4,29 +4,26 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "shooter": true,
-                                    "spellwithcooldown": true,
-                                    "magicwand": true,
-                                    "boss_helicopter": true
-                                },
-                                "minecraft:custom_model_data": 715
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        715.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "boss_helicopter",
@@ -36,7 +33,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -55,7 +52,8 @@
                                     {
                                         "text": "30 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "recharge_time",
@@ -82,15 +80,21 @@
                                     {
                                         "text": "Akim04ka",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Beta Server Harem event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,shooter:1,spellwithcooldown:1,magicwand:1,boss_helicopter:1}"
                         }
                     ]
                 }

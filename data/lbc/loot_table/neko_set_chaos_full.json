@@ -4,7 +4,7 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_chaos/helmet"
                 }
             ]
@@ -13,7 +13,7 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_chaos/chestplate"
                 }
             ]
@@ -22,7 +22,7 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_chaos/leggings"
                 }
             ]
@@ -31,7 +31,7 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_chaos/boots"
                 }
             ]

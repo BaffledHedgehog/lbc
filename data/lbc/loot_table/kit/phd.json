@@ -8,16 +8,17 @@
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 678,
-                                "minecraft:custom_data": {
-                                    "phd": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        678.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "phd",
@@ -26,7 +27,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -50,6 +51,10 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{phd:1}"
                         }
                     ]
                 }
@@ -63,7 +68,7 @@
                     "name": "minecraft:bone_meal",
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "compost",
@@ -72,7 +77,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {

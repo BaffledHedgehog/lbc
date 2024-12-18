@@ -1,1 +1,1 @@
-setblock ~ ~ ~ horn_coral_block
+setblock ~ ~ ~ minecraft:horn_coral_block

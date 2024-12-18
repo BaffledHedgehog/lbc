@@ -10,41 +10,41 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "boots": true,
-                                    "technomk2": true,
-                                    "techno": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        14.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 14,
                                 "minecraft:max_damage": 9000,
                                 "minecraft:dyed_color": {
                                     "rgb": 773,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "jdgjdgjnyrcgfhjgfjgjg",
-                                        "amount": 5,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "feet",
-                                        "id": "jdgjdgjntertrgfdhgfhjgfjgjg",
-                                        "amount": 3,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.fall_damage_multiplier",
-                                        "slot": "feet",
-                                        "id": "jdgjdgyvb6kij7fkgyhkfjgjg",
-                                        "amount": -1,
-                                        "operation": "add_multiplied_total"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "feet",
+                                            "id": "jdgjdgjnyrcgfhjgfjgjg",
+                                            "amount": 5,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "feet",
+                                            "id": "jdgjdgjntertrgfdhgfhjgfjgjg",
+                                            "amount": 3,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:fall_damage_multiplier",
+                                            "slot": "feet",
+                                            "id": "jdgjdgyvb6kij7fkgyhkfjgjg",
+                                            "amount": -1,
+                                            "operation": "add_multiplied_total"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -131,6 +131,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,boots:1,technomk2:1,techno:1}"
                         }
                     ]
                 }

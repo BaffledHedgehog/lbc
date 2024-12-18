@@ -1,1 +1,1 @@
-setblock ~ ~ ~ poppy
+setblock ~ ~ ~ minecraft:poppy

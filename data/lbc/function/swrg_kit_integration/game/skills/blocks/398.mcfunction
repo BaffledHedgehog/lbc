@@ -1,1 +1,1 @@
-setblock ~ ~ ~ wither_skeleton_wall_skull
+setblock ~ ~ ~ minecraft:wither_skeleton_wall_skull

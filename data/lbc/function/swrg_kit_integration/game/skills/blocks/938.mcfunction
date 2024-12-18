@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_copper_ore
+setblock ~ ~ ~ minecraft:deepslate_copper_ore

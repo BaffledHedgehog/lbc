@@ -1,1 +1,1 @@
-setblock ~ ~ ~ zombie_wall_head
+setblock ~ ~ ~ minecraft:zombie_wall_head

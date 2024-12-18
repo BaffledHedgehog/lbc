@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_button
+setblock ~ ~ ~ minecraft:cherry_button

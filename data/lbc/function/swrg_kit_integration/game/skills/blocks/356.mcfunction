@@ -1,1 +1,1 @@
-setblock ~ ~ ~ flower_pot
+setblock ~ ~ ~ minecraft:flower_pot

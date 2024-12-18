@@ -41,9 +41,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "hoe": true,
-                                            "op_hoe": true
+                                            "transformable":1,
+                                            "hoe":1,
+                                            "op_hoe":1
                                         }
                                     }
                                 }

@@ -1,3 +1,3 @@
-effect clear @s strength
-effect clear @s invisibility
+effect clear @s minecraft:strength
+effect clear @s minecraft:invisibility
 tag @s remove phantomset

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ creeper_wall_head
+setblock ~ ~ ~ minecraft:creeper_wall_head

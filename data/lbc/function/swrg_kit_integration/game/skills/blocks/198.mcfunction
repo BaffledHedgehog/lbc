@@ -1,1 +1,1 @@
-setblock ~ ~ ~ rail
+setblock ~ ~ ~ minecraft:rail

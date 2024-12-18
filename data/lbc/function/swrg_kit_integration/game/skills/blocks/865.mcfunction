@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_blackstone_button
+setblock ~ ~ ~ minecraft:polished_blackstone_button

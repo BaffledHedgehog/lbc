@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_trapdoor
+setblock ~ ~ ~ minecraft:warped_trapdoor

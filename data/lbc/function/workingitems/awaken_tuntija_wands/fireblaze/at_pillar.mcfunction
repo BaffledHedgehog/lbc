@@ -1,1 +1,1 @@
-summon marker ~ ~ ~ {Tags:["lava_pillar"]}
+summon minecraft:marker ~ ~ ~ {Tags:["lava_pillar"]}

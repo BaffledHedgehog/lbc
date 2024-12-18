@@ -1,1 +1,1 @@
-setblock ~ ~ ~ suspicious_sand
+setblock ~ ~ ~ minecraft:suspicious_sand

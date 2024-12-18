@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_jungle_sapling
+setblock ~ ~ ~ minecraft:potted_jungle_sapling

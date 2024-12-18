@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_wood
+setblock ~ ~ ~ minecraft:oak_wood

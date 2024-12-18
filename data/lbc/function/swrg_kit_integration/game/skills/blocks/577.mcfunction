@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_fence
+setblock ~ ~ ~ minecraft:birch_fence

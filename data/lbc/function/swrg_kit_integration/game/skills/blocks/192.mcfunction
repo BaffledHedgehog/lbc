@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_sign
+setblock ~ ~ ~ minecraft:jungle_sign

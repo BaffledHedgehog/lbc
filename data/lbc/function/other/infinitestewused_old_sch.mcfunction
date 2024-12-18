@@ -1,2 +1,2 @@
-item replace entity @a[tag=scheduled_eating] weapon.mainhand with rabbit_stew[minecraft:custom_name='{"translate":"horn","color":"white","italic":false}',lore=['{"translate":"horn.lore","color":"white","italic":false}'],custom_data={inf_old:1b}] 1
+item replace entity @a[tag=scheduled_eating] weapon.mainhand with minecraft:rabbit_stew[minecraft:custom_name='{"color":"white","italic":false,"translate":"horn"}',minecraft:lore=['{"translate":"horn.lore","color":"white","italic":false}'],minecraft:custom_data={inf_old:1}] 1
 tag @a remove scheduled_eating

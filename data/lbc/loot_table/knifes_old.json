@@ -3,29 +3,30 @@
         {
             "rolls": {
                 "min": 5,
-                "max": 16
+                "max": 16,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 514,
-                                "minecraft:custom_data": {
-                                    "special": true,
-                                    "confuse": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        514.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "ender_dart",
@@ -35,7 +36,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -44,29 +45,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,confuse:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 515,
-                                "minecraft:custom_data": {
-                                    "special": true,
-                                    "blind": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        515.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "blind_dart",
@@ -74,29 +79,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,blind:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 516,
-                                "minecraft:custom_data": {
-                                    "special": true,
-                                    "boom": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        516.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "explosive_dart",
@@ -104,58 +113,66 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,boom:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 517,
-                                "minecraft:custom_data": {
-                                    "special": true,
-                                    "standart": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        517.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "dart",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,standart:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 518,
-                                "minecraft:custom_data": {
-                                    "special": true,
-                                    "wither": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        518.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "wither_dart",
@@ -163,29 +180,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,wither:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 519,
-                                "minecraft:custom_data": {
-                                    "special": true,
-                                    "poison": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        519.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "poison_dart",
@@ -193,6 +214,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,poison:1}"
                         }
                     ]
                 }

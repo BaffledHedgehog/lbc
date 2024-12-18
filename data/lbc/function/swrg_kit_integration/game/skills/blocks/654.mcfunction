@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gray_concrete
+setblock ~ ~ ~ minecraft:gray_concrete

@@ -4,15 +4,21 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"special": true,"spike_confuse": true},"minecraft:custom_model_data":592}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        592.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "ender_spike",
@@ -22,7 +28,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "ender_spike.lore",
@@ -30,19 +37,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,spike_confuse:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"special": true,"spike_blind": true},"minecraft:custom_model_data":593}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        593.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "blind_spike",
@@ -52,7 +69,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "blind_spike.lore",
@@ -60,19 +78,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,spike_blind:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"special": true,"spike_boom": true},"minecraft:custom_model_data":594}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        594.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "explosive_spike",
@@ -82,7 +110,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "explosive_spike.lore",
@@ -90,19 +119,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,spike_boom:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"special": true,"spike_standart": true},"minecraft:custom_model_data":595}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        595.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "spike",
@@ -111,7 +150,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "spike.lore",
@@ -119,19 +159,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,spike_standart:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"special": true,"spike_wither": true},"minecraft:custom_model_data":596}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        596.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "wither_spike",
@@ -141,7 +191,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "wither_spike.lore",
@@ -149,19 +200,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,spike_wither:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"special": true,"spike_poison": true},"minecraft:custom_model_data":597}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        597.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "poison_spike",
@@ -171,7 +232,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "poison_spike.lore",
@@ -179,19 +241,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,spike_poison:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"special": true,"spike_impulse": true},"minecraft:custom_model_data":598}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        598.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "impulse_spike",
@@ -201,7 +273,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "impulse_spike.lore",
@@ -209,6 +282,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,spike_impulse:1}"
                         }
                     ]
                 }

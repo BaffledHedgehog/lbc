@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dragon_egg
+setblock ~ ~ ~ minecraft:dragon_egg

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lapis_ore
+setblock ~ ~ ~ minecraft:lapis_ore

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cave_vines
+setblock ~ ~ ~ minecraft:cave_vines

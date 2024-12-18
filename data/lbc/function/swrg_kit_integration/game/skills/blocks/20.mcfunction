@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_oak_planks
+setblock ~ ~ ~ minecraft:dark_oak_planks

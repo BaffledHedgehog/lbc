@@ -4,19 +4,19 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_phantom/helmet"
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_phantom/chestplate"
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_phantom/leggings"
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_phantom/boots"
                 }
             ]

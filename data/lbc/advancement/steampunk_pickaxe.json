@@ -8,7 +8,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{\"steampunk_pickaxe\":true}}}}"
+                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{steampunk_pickaxe:1}}}}"
                         }
                     },
                     {
@@ -38,6 +38,6 @@
         }
     },
     "rewards": {
-      "function": "lbc:swrg_kit_integration/items/steampunk_pickaxe_use"
+        "function": "lbc:swrg_kit_integration/items/steampunk_pickaxe_use"
     }
 }

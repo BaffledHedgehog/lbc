@@ -1,16 +1,16 @@
 
-effect give @s resistance 30 4 true
-effect give @s blindness infinite
-effect give @s darkness infinite
-effect give @s hunger infinite
-effect give @s instant_damage infinite 127
-effect give @s nausea infinite
-effect give @s poison infinite
-effect give @s slowness infinite
-effect give @s weakness infinite
-effect give @s wither infinite
+effect give @s minecraft:resistance 30 4 true
+effect give @s minecraft:blindness infinite
+effect give @s minecraft:darkness infinite
+effect give @s minecraft:hunger infinite
+effect give @s minecraft:instant_damage infinite 127
+effect give @s minecraft:nausea infinite
+effect give @s minecraft:poison infinite
+effect give @s minecraft:slowness infinite
+effect give @s minecraft:weakness infinite
+effect give @s minecraft:wither infinite
 
-particle dust{color:[0.051, 0.2, 0.176],scale:0.365} ~ ~10 ~ .3 10 .3 1000 15 force
+particle minecraft:dust{color:[0.051,0.2,0.176],scale:0.365f} ~ ~10 ~ .3 10 .3 1000 15 force
 
 
 

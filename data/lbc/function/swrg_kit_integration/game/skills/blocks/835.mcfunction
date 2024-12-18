@@ -1,1 +1,1 @@
-setblock ~ ~ ~ composter
+setblock ~ ~ ~ minecraft:composter

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ red_nether_bricks
+setblock ~ ~ ~ minecraft:red_nether_bricks

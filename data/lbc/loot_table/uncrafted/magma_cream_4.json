@@ -8,7 +8,7 @@
                     "name": "minecraft:magma_cream",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 4
                         }
                     ]

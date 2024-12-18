@@ -8,16 +8,17 @@
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 666,
-                                "minecraft:custom_data": {
-                                    "multiply": 2
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        666.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "multiply_by_2",
@@ -26,7 +27,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -38,6 +39,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{multiply:2}"
                         }
                     ]
                 }
@@ -51,16 +56,17 @@
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 667,
-                                "minecraft:custom_data": {
-                                    "multiply": 3
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        667.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "multiply_by_3",
@@ -69,7 +75,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -81,6 +87,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{multiply:3}"
                         }
                     ]
                 }
@@ -94,16 +104,17 @@
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 668,
-                                "minecraft:custom_data": {
-                                    "multiply": 4
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        668.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "multiply_by_4",
@@ -112,7 +123,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -124,6 +135,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{multiply:4}"
                         }
                     ]
                 }
@@ -137,17 +152,17 @@
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 745,
-                                "minecraft:custom_data": {
-                                    "multiply": 5,
-                                    "magicwand": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        745.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "multiply_by_5",
@@ -156,7 +171,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -168,6 +183,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{multiply:5,magicwand:1}"
                         }
                     ]
                 }

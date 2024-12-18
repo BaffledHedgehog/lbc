@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cobblestone_stairs
+setblock ~ ~ ~ minecraft:cobblestone_stairs

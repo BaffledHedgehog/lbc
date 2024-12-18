@@ -174,6 +174,6 @@ place template lbc:sun/sun-14up4 ~-48 ~240 ~48
 place template lbc:sun/sun-15up4 ~ ~240 ~48
 place template lbc:sun/sun-16up4 ~48 ~240 ~48
 
-playsound block.deepslate_bricks.break master @a ~ ~ ~ 7 1
-playsound block.deepslate_bricks.break master @a ~ ~ ~ 7 0
+playsound minecraft:block.deepslate_bricks.break master @a ~ ~ ~ 7 1
+playsound minecraft:block.deepslate_bricks.break master @a ~ ~ ~ 7 0
 scoreboard players set @s Distance 10000

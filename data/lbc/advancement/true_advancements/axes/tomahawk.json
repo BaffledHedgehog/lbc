@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:golden_axe"
+            "id": "minecraft:golden_axe",
+            "components": null
         },
         "title": {
             "translate": "lbc.adv.axe.tomahawk"
@@ -28,9 +29,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "axe": true,
-                                            "tomahawk": true
+                                            "transformable":1,
+                                            "axe":1,
+                                            "tomahawk":1
                                         }
                                     }
                                 }

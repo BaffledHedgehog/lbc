@@ -1,55 +1,59 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:carrot_on_a_stick",
-      "components": {
-        "minecraft:custom_model_data": 548
-      }
-    },
-    "title": {
-      "translate": "lbc.adv.upgraded_staff.confuse"
-    },
-    "description": {
-      "translate": "lbc.adv.upgraded_staff.confuse.lore"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "parent": "lbc:true_advancements/legends/academy/vampire",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
+    "display": {
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        548.0
+                    ]
+                }
             }
-          }
-        ],
-        "items": [
-          {
-            "predicates": {
-              "minecraft:custom_data": {
-                "upgraded": true,
-                "transformable": true,
-                "staff": true,
-                "foxusing": true
-              }
+        },
+        "title": {
+            "translate": "lbc.adv.upgraded_staff.confuse"
+        },
+        "description": {
+            "translate": "lbc.adv.upgraded_staff.confuse.lore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "lbc:true_advancements/legends/academy/vampire",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "upgraded":1,
+                                "transformable":1,
+                                "staff":1,
+                                "foxusing":1
+                            }
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
+        }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/kit"
     }
-  },
-  "rewards": {
-      "function": "lbc:swrg_kit_integration/gain/kit"
-  }
 }

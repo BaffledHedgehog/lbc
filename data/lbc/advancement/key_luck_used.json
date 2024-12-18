@@ -8,7 +8,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{\"luck_key\": true}}}}"
+                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
                         }
                     },
                     {
@@ -26,6 +26,6 @@
         }
     },
     "rewards": {
-      "function": "lbc:swrg_kit_integration/items/break_luck_key"
+        "function": "lbc:swrg_kit_integration/items/break_luck_key"
     }
 }

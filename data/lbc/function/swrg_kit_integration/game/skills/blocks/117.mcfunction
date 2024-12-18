@@ -1,1 +1,1 @@
-setblock ~ ~ ~ green_bed
+setblock ~ ~ ~ minecraft:green_bed

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ orange_stained_glass
+setblock ~ ~ ~ minecraft:orange_stained_glass

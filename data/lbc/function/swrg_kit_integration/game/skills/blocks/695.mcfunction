@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dead_brain_coral
+setblock ~ ~ ~ minecraft:dead_brain_coral

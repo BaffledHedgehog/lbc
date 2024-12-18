@@ -1,1 +1,1 @@
-setblock ~ ~ ~ quartz_block
+setblock ~ ~ ~ minecraft:quartz_block

@@ -22,10 +22,10 @@ clone from nexus ^8 ^-8 ^8 ^5 ^-5 ^5 to overworld ^5 ^-5 ^-5
 clone from nexus ^-8 ^8 ^-8 ^-5 ^5 ^-5 to overworld ^5 ^5 ^-5
 function lbc:workingitems/awaken_tuntija_wands/avarice/rand_from_dim_remove with storage minecraft:lbc.math
 
-execute facing entity @e[type=marker,limit=1,tag=dublicating_2] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^ ^ ^14
-execute facing entity @e[type=marker,limit=1,tag=dublicating_2] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^14 ^ ^14
-execute facing entity @e[type=marker,limit=1,tag=dublicating_2] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^-14 ^ ^14
-execute facing entity @e[type=marker,limit=1,tag=dublicating_2] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^ ^14 ^14
-execute facing entity @e[type=marker,limit=1,tag=dublicating_2] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^ ^-14 ^14
+execute facing entity @e[type=minecraft:marker,tag=dublicating_2,limit=1] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^ ^ ^14
+execute facing entity @e[type=minecraft:marker,tag=dublicating_2,limit=1] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^14 ^ ^14
+execute facing entity @e[type=minecraft:marker,tag=dublicating_2,limit=1] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^-14 ^ ^14
+execute facing entity @e[type=minecraft:marker,tag=dublicating_2,limit=1] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^ ^14 ^14
+execute facing entity @e[type=minecraft:marker,tag=dublicating_2,limit=1] eyes run clone ~7 ~7 ~7 ~-7 ~-7 ~-7 ^ ^-14 ^14
 
 kill @s

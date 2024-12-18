@@ -1,1 +1,1 @@
-setblock ~ ~ ~ melon
+setblock ~ ~ ~ minecraft:melon

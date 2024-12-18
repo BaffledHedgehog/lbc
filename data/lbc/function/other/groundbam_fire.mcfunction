@@ -1,1 +1,1 @@
-fill ~5 ~5 ~5 ~-5 ~-5 ~-5 fire replace #airs
+fill ~5 ~5 ~5 ~-5 ~-5 ~-5 minecraft:fire replace #minecraft:airs

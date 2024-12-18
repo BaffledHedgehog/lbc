@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sandstone
+setblock ~ ~ ~ minecraft:sandstone

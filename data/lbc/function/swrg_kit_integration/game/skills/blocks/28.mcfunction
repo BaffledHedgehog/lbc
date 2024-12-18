@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_sapling
+setblock ~ ~ ~ minecraft:acacia_sapling

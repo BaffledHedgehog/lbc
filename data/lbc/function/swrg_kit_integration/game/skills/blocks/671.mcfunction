@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light_gray_concrete_powder
+setblock ~ ~ ~ minecraft:light_gray_concrete_powder

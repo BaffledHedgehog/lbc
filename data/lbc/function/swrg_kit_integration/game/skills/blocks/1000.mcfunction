@@ -1,1 +1,1 @@
-setblock ~ ~ ~ exposed_copper_bulb
+setblock ~ ~ ~ minecraft:exposed_copper_bulb

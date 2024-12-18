@@ -1,1 +1,1 @@
-setblock ~ ~ ~ weeping_vines_plant
+setblock ~ ~ ~ minecraft:weeping_vines_plant

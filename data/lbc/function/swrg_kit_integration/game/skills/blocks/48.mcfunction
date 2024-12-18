@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_log
+setblock ~ ~ ~ minecraft:spruce_log

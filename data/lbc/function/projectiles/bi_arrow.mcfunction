@@ -1,3 +1,3 @@
-fill ~.5 ~.5 ~.5 ~-.5 ~-.5 ~-.5 bedrock destroy
-playsound block.stone.place
+fill ~.5 ~.5 ~.5 ~-.5 ~-.5 ~-.5 minecraft:bedrock destroy
+playsound minecraft:block.stone.place
 kill @s

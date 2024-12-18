@@ -2,95 +2,104 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_chestplate",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "chestplate": true,
-                                "paladin": true
-                            },
-                            "minecraft:custom_model_data": 10,
-                            "minecraft:max_damage": 4000,
-                            "minecraft:enchantments": {
-                                "minecraft:blast_protection": 255,
-                                "minecraft:protection": 3
-                            },
-                            "minecraft:dyed_color": {
-                                "rgb": 4,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:attribute_modifiers": [
-                                {
-                                    "type": "minecraft:generic.armor",
-                                    "slot": "chest",
-                                    "id": "gegbrtvhjygj",
-                                    "amount": 15,
-                                    "operation": "add_value"
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        10.0
+                                    ]
                                 },
-                                {
-                                    "type": "minecraft:generic.armor_toughness",
-                                    "slot": "chest",
-                                    "id": "gxdrdhthnghjghness",
-                                    "amount": 15,
-                                    "operation": "add_value"
+                                "minecraft:max_damage": 4000,
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:blast_protection": 255,
+                                        "minecraft:protection": 3
+                                    }
                                 },
-                                {
-                                    "type": "minecraft:generic.max_health",
-                                    "slot": "chest",
-                                    "id": "genemlilgvfyhkhh",
-                                    "amount": -0.3,
-                                    "operation": "add_multiplied_base"
+                                "minecraft:dyed_color": {
+                                    "rgb": 4,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "chest",
+                                            "id": "gegbrtvhjygj",
+                                            "amount": 15,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "chest",
+                                            "id": "gxdrdhthnghjghness",
+                                            "amount": 15,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:max_health",
+                                            "slot": "chest",
+                                            "id": "genemlilgvfyhkhh",
+                                            "amount": -0.3,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
                                 }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "paladin_chestplate",
+                                "color": "red",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "chestplate",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "paladin_set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,chestplate:1,paladin:1}"
                         }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": {
-                            "translate": "paladin_chestplate",
-                            "color": "red",
-                            "italic": false
-                        }
-                    },
-                    {
-                        "function": "set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
-                                {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
-                                },
-                                {
-                                    "translate": "chestplate",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "paladin_set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ]
-                        ]
-                    }
-                ]
-            }]
+                    ]
+                }
+            ]
         }
     ]
 }

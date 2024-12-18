@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_hanging_sign
+setblock ~ ~ ~ minecraft:jungle_hanging_sign

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pointed_dripstone
+setblock ~ ~ ~ minecraft:pointed_dripstone

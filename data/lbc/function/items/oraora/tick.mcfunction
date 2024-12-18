@@ -1,5 +1,5 @@
 execute store result score tmp lbc.math run random value 1..10
-effect give @s resistance 1 4 true
+effect give @s minecraft:resistance 1 4 true
 tag @s add owner
 execute if score tmp lbc.math matches 1 positioned ^2 ^ ^ run function lbc:items/oraora/projectile_create
 execute if score tmp lbc.math matches 2 positioned ^-2 ^ ^ run function lbc:items/oraora/projectile_create

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ attached_pumpkin_stem
+setblock ~ ~ ~ minecraft:attached_pumpkin_stem

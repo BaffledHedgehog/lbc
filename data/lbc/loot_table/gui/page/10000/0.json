@@ -1,41 +1,41 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snow_block",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "translate": "lbcskill.0",
-                "italic": false,
-                "color": "white"
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "lore.lbcskill.0.0",
-                  "italic": false,
-                  "color": "gray"
-                },
-                {
-                  "translate": "lore.lbcskill.0.1",
-                  "italic": false,
-                  "color": "gray"
+                    "type": "minecraft:item",
+                    "name": "minecraft:snow_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "lbcskill.0",
+                                "italic": false,
+                                "color": "white"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "lore.lbcskill.0.0",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbcskill.0.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

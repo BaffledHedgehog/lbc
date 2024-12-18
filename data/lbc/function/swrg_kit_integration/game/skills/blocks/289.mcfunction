@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_trapdoor
+setblock ~ ~ ~ minecraft:acacia_trapdoor

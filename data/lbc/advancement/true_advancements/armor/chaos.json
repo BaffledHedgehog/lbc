@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:leather_chestplate",
             "components": {
-                "minecraft:custom_model_data": 4
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        4.0
+                    ]
+                }
             }
         },
         "title": {
@@ -41,28 +45,28 @@
                                 "head": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "chaoschestplate": true
+                                            "chaoschestplate":1
                                         }
                                     }
                                 },
                                 "chest": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "chaoschestplate": true
+                                            "chaoschestplate":1
                                         }
                                     }
                                 },
                                 "legs": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "chaoschestplate": true
+                                            "chaoschestplate":1
                                         }
                                     }
                                 },
                                 "feet": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "chaoschestplate": true
+                                            "chaoschestplate":1
                                         }
                                     }
                                 }

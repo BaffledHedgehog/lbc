@@ -1,1 +1,1 @@
-setblock ~ ~ ~ candle_cake
+setblock ~ ~ ~ minecraft:candle_cake

@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:leather_helmet",
             "components": {
-                "minecraft:custom_model_data": 4,
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        4.0
+                    ]
+                },
                 "minecraft:enchantment_glint_override": true
             }
         },
@@ -42,28 +46,28 @@
                                 "head": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "shulkshell": true
+                                            "shulkshell":1
                                         }
                                     }
                                 },
                                 "chest": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "shulkshell": true
+                                            "shulkshell":1
                                         }
                                     }
                                 },
                                 "legs": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "shulkshell": true
+                                            "shulkshell":1
                                         }
                                     }
                                 },
                                 "feet": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "shulkshell": true
+                                            "shulkshell":1
                                         }
                                     }
                                 }
@@ -75,27 +79,27 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "ender": true
+                                "transformable":1,
+                                "sword":1,
+                                "ender":1
                             }
                         }
                     },
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "bow": true,
-                                "shulker": true
+                                "transformable":1,
+                                "bow":1,
+                                "shulker":1
                             }
                         }
                     },
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "staff": true,
-                                "enderset": true
+                                "transformable":1,
+                                "staff":1,
+                                "enderset":1
                             }
                         }
                     }

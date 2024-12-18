@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_nylium
+setblock ~ ~ ~ minecraft:warped_nylium

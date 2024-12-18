@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_jungle_wood
+setblock ~ ~ ~ minecraft:stripped_jungle_wood

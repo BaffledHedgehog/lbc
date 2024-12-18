@@ -1,1 +1,1 @@
-setblock ~ ~ ~ packed_mud
+setblock ~ ~ ~ minecraft:packed_mud

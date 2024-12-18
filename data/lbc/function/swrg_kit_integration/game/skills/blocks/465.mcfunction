@@ -1,1 +1,1 @@
-setblock ~ ~ ~ barrier
+setblock ~ ~ ~ minecraft:barrier

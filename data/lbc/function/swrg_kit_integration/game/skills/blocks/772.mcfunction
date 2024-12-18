@@ -1,1 +1,1 @@
-setblock ~ ~ ~ diorite_wall
+setblock ~ ~ ~ minecraft:diorite_wall

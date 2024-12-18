@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mossy_stone_brick_stairs
+setblock ~ ~ ~ minecraft:mossy_stone_brick_stairs

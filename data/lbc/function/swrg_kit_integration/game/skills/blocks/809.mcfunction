@@ -1,1 +1,1 @@
-setblock ~ ~ ~ twisting_vines_plant
+setblock ~ ~ ~ minecraft:twisting_vines_plant

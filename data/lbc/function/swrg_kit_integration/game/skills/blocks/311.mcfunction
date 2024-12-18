@@ -1,1 +1,1 @@
-setblock ~ ~ ~ glass_pane
+setblock ~ ~ ~ minecraft:glass_pane

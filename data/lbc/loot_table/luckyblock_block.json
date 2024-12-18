@@ -19,12 +19,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "drop": true,
-                                    "adv_check_lbc": true
-                                },
-                                "custom_model_data": 656
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        656.0
+                                    ]
+                                }
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{drop:1,adv_check_lbc:1}"
                         }
                     ]
                 }

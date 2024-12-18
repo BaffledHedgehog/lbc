@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_wall_banner
+setblock ~ ~ ~ minecraft:lime_wall_banner

@@ -18,17 +18,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "craftusable": true,
-                                    "magicwand": true,
-                                    "greed_greed": true,
-                                    "spellwithcooldown": true
-                                },
-                                "minecraft:custom_model_data": 647
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        647.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -47,6 +45,10 @@
                                     "color": "yellow"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,magicwand:1,greed_greed:1,spellwithcooldown:1}"
                         }
                     ]
                 }

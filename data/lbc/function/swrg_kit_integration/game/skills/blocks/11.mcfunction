@@ -1,1 +1,1 @@
-setblock ~ ~ ~ coarse_dirt
+setblock ~ ~ ~ minecraft:coarse_dirt

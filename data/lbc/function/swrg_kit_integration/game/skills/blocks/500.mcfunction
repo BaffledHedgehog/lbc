@@ -1,1 +1,1 @@
-setblock ~ ~ ~ rose_bush
+setblock ~ ~ ~ minecraft:rose_bush

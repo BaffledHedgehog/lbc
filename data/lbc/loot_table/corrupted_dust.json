@@ -14,7 +14,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 587,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        587.0
+                                    ]
+                                },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -104,7 +108,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 591,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        591.0
+                                    ]
+                                },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -194,7 +202,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 592,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        592.0
+                                    ]
+                                },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -284,7 +296,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 593,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        593.0
+                                    ]
+                                },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [

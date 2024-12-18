@@ -4,30 +4,25 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "staff": true,
-                                    "magicwand": true,
-                                    "uniwand": true,
-                                    "mana": 0,
-                                    "spellcount": 0,
-                                    "spellwithcooldown": true
-                                },
-                                "minecraft:custom_model_data": 728
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        728.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "uniwand",
@@ -37,7 +32,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -77,10 +72,15 @@
                                     {
                                         "text": "0",
                                         "color": "aqua",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,staff:1,magicwand:1,uniwand:1,mana:0,spellcount:0,spellwithcooldown:1}"
                         }
                     ]
                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ reinforced_deepslate
+setblock ~ ~ ~ minecraft:reinforced_deepslate

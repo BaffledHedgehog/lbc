@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lightning_rod
+setblock ~ ~ ~ minecraft:lightning_rod

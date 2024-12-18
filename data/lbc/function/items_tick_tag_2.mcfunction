@@ -1,1 +1,1 @@
-execute if entity @s[nbt={Item: {components: {"minecraft:custom_data":{"imba": true}}}}] run function lbc:items_tick_tag_3
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{imba:1}}}}] run function lbc:items_tick_tag_3

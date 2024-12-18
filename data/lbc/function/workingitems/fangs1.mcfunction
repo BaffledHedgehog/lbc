@@ -1,5 +1,5 @@
-summon evoker_fangs ~1.2 ~ ~
-summon evoker_fangs ~ ~ ~1.2
-summon evoker_fangs ~-1.2 ~ ~
-summon evoker_fangs ~ ~ ~-1.2
-summon evoker_fangs ~ ~ ~
+summon minecraft:evoker_fangs ~1.2 ~ ~
+summon minecraft:evoker_fangs ~ ~ ~1.2
+summon minecraft:evoker_fangs ~-1.2 ~ ~
+summon minecraft:evoker_fangs ~ ~ ~-1.2
+summon minecraft:evoker_fangs ~ ~ ~

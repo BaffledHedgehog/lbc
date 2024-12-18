@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magma_block
+setblock ~ ~ ~ minecraft:magma_block

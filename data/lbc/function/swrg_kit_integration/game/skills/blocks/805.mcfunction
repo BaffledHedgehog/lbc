@@ -1,1 +1,1 @@
-setblock ~ ~ ~ shroomlight
+setblock ~ ~ ~ minecraft:shroomlight

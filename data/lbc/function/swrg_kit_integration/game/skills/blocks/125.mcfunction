@@ -1,1 +1,1 @@
-setblock ~ ~ ~ fern
+setblock ~ ~ ~ minecraft:fern

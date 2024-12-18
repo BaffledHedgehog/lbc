@@ -11,24 +11,27 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 26,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        26.0
+                                    ]
+                                },
                                 "minecraft:dyed_color": {
                                     "rgb": 513,
                                     "show_in_tooltip": false
                                 },
-                                "max_damage": 25,
-                                "custom_data": {
-                                    "clown_mask": true
-                                },
-                                "attribute_modifiers": [
-                                    {
-                                        "id": "fisjgidsjg4givibhjeswh",
-                                        "amount": 3,
-                                        "operation": "add_value",
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "head"
-                                    }
-                                ]
+                                "minecraft:max_damage": 25,
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "fisjgidsjg4givibhjeswh",
+                                            "amount": 3,
+                                            "operation": "add_value",
+                                            "type": "minecraft:armor",
+                                            "slot": "head"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -56,6 +59,10 @@
                                     "color": "gray"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{clown_mask:1}"
                         }
                     ]
                 }
@@ -71,10 +78,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 707,
-                                "custom_data": {
-                                    "smoke_bomb": true,
-                                    "special": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        707.0
+                                    ]
                                 }
                             }
                         },
@@ -100,8 +107,12 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 4
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{smoke_bomb:1,special:1}"
                         }
                     ]
                 }
@@ -117,10 +128,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 708,
-                                "custom_data": {
-                                    "false_tumba": true,
-                                    "gadget": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        708.0
+                                    ]
                                 }
                             }
                         },
@@ -149,6 +160,10 @@
                                     "color": "gray"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{false_tumba:1,gadget:1}"
                         }
                     ]
                 }

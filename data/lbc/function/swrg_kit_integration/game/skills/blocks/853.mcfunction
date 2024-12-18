@@ -1,1 +1,1 @@
-setblock ~ ~ ~ blackstone_slab
+setblock ~ ~ ~ minecraft:blackstone_slab

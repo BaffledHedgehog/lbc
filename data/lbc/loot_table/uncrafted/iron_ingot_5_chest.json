@@ -8,13 +8,14 @@
                     "name": "minecraft:iron_ingot",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 5
                         }
                     ]
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {

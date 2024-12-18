@@ -1,4 +1,4 @@
-effect give @s resistance 1 3 true
-particle block_marker{"block_state":"barrier"} ~ ~0.5 ~
-particle block_marker{"block_state":"barrier"} ~ ~1.5 ~
-playsound block.anvil.use master @a ~ ~ ~ 1 2
+effect give @s minecraft:resistance 1 3 true
+particle minecraft:block_marker{block_state:{Name:"minecraft:barrier"}} ~ ~0.5 ~
+particle minecraft:block_marker{block_state:{Name:"minecraft:barrier"}} ~ ~1.5 ~
+playsound minecraft:block.anvil.use master @a ~ ~ ~ 1 2

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_stairs
+setblock ~ ~ ~ minecraft:jungle_stairs

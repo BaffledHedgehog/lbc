@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cracked_deepslate_tiles
+setblock ~ ~ ~ minecraft:cracked_deepslate_tiles

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ honeycomb_block
+setblock ~ ~ ~ minecraft:honeycomb_block

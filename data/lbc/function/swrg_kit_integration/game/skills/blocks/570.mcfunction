@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_fence_gate
+setblock ~ ~ ~ minecraft:jungle_fence_gate

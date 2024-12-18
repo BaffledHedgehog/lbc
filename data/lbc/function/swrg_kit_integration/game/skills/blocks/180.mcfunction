@@ -1,1 +1,1 @@
-setblock ~ ~ ~ diamond_ore
+setblock ~ ~ ~ minecraft:diamond_ore

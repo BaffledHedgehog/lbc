@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gold_block
+setblock ~ ~ ~ minecraft:gold_block

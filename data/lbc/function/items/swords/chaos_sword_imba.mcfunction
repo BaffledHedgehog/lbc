@@ -1,4 +1,4 @@
-summon item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0f,shadow_strength:0f,teleport_duration:1,item_display:"fixed",transformation:[0f,0f,2.5000f,0f,1.7678f,-1.7678f,0f,0f,1.7678f,1.7678f,0f,0f,0f,0f,0f,3f],item:{id:"minecraft:golden_sword",count:1},Tags:["homing_sword","slowraycast","imba_rc","magic"]}
-execute as @e[type=item_display,limit=1,distance=..0.01,tag=!actived,tag=homing_sword] at @s run function lbc:random_rot
-scoreboard players operation @e[type=item_display,limit=1,distance=..0.01,tag=!actived,tag=homing_sword] lbcID2 = @s lbcID2
-tag @e[type=item_display,limit=1,distance=..0.01,tag=!actived,tag=homing_sword] add actived
+summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0.0f,shadow_strength:0.0f,teleport_duration:1,item_display:"fixed",transformation:[0.0f,0.0f,2.5f,0.0f,1.7678f,-1.7678f,0.0f,0.0f,1.7678f,1.7678f,0.0f,0.0f,0.0f,0.0f,0.0f,3.0f],item:{id:"minecraft:golden_sword",count:1},Tags:["homing_sword","slowraycast","imba_rc","magic"]}
+execute as @e[type=minecraft:item_display,distance=..0.01,tag=homing_sword,tag=!actived,limit=1] at @s run function lbc:random_rot
+scoreboard players operation @e[type=minecraft:item_display,distance=..0.01,tag=homing_sword,tag=!actived,limit=1] lbcID2 = @s lbcID2
+tag @e[type=minecraft:item_display,distance=..0.01,tag=homing_sword,tag=!actived,limit=1] add actived

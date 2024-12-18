@@ -1,1 +1,1 @@
-setblock ~ ~ ~ fletching_table
+setblock ~ ~ ~ minecraft:fletching_table

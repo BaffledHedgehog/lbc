@@ -1,2 +1,2 @@
-execute as @e[type=item,distance=0.001..1] at @s run data modify entity @s Item.id set value "minecraft:spruce_leaves"
-execute as @e[type=item,distance=0.001..1] at @s run data remove entity @s Item.components
+execute as @e[type=minecraft:item,distance=0.001..1] at @s run data modify entity @s Item.id set value "minecraft:spruce_leaves"
+execute as @e[type=minecraft:item,distance=0.001..1] at @s run data remove entity @s Item.components

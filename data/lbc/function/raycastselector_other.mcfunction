@@ -5,7 +5,7 @@ execute if entity @s[tag=falling_nuke] run function lbc:workingitems/awaken_tunt
 execute if entity @s[tag=bedrock_room_regen] run function lbc:workingitems/awaken_tuntija_wands/bedrock/click_upgraded_mode_regen_tick
 execute if entity @s[tag=blazestorm] run function lbc:other/blazestorm
 execute if entity @s[tag=destiny] run function lbc:workingitems/awaken_tuntija_wands/exahoming_click_upgraded_mode_destiny_tick
-execute if entity @s[tag=railroad] if entity @a[distance=..75,gamemode=!spectator,limit=1] run function lbc:other/railroad/tick
+execute if entity @s[tag=railroad] if entity @a[gamemode=!spectator,distance=..75,limit=1] run function lbc:other/railroad/tick
 execute if entity @s[tag=lightarrowtrail] run function lbc:projectiles/arrows/inairtrail
 execute if entity @s[tag=trappertrail] run function lbc:projectiles/arrows/inairtrappertrail
 execute if entity @s[tag=black_snake] run function lbc:workingitems/witch_gens/snake_tick

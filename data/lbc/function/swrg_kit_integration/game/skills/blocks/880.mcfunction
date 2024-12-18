@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cyan_candle
+setblock ~ ~ ~ minecraft:cyan_candle

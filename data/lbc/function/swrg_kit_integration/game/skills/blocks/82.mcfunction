@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_mangrove_wood
+setblock ~ ~ ~ minecraft:stripped_mangrove_wood

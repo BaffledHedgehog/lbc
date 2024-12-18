@@ -1,1 +1,1 @@
-setblock ~ ~ ~ red_concrete
+setblock ~ ~ ~ minecraft:red_concrete

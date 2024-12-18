@@ -1,1 +1,1 @@
-setblock ~ ~ ~ respawn_anchor
+setblock ~ ~ ~ minecraft:respawn_anchor

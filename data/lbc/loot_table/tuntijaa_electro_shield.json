@@ -4,27 +4,25 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "accessory": true,
-                                    "electroblocker": true,
-                                    "instantitem": true
-                                },
-                                "minecraft:custom_model_data": 615
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        615.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "electroblocker",
@@ -34,7 +32,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -61,6 +59,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,electroblocker:1,instantitem:1}"
                         }
                     ]
                 }

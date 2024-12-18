@@ -4,25 +4,25 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "raycastspell": true,
-                                    "infbolt_wand": true
-                                },
-                                "minecraft:custom_model_data": 667
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        667.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "infbolt_wand",
@@ -32,7 +32,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -67,6 +67,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{raycastspell:1,infbolt_wand:1}"
                         }
                     ]
                 }

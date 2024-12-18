@@ -1,1 +1,1 @@
-setblock ~ ~ ~ blast_furnace
+setblock ~ ~ ~ minecraft:blast_furnace

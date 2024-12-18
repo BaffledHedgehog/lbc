@@ -1,1 +1,1 @@
-setblock ~ ~ ~ smooth_stone_slab
+setblock ~ ~ ~ minecraft:smooth_stone_slab

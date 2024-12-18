@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_leaves
+setblock ~ ~ ~ minecraft:birch_leaves

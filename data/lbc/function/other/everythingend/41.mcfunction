@@ -1,2 +1,2 @@
-execute at @e[type=#mobs,tag=!spectator,limit=8,sort=random] run summon marker ~20 ~ ~ {Tags:["slowraycast","raycastruby","tuntija","can_deleted","magic"],data:{lifetime:50},Rotation:[90F,0F]}
+execute at @e[type=#minecraft:mobs,tag=!spectator,sort=random,limit=8] run summon minecraft:marker ~20 ~ ~ {Tags:["slowraycast","raycastruby","tuntija","can_deleted","magic"],data:{lifetime:50},Rotation:[90.0f,0.0f]}
 schedule function lbc:other/everythingend/42 10t

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ carved_pumpkin
+setblock ~ ~ ~ minecraft:carved_pumpkin

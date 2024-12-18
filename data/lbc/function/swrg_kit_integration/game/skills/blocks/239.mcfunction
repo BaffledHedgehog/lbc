@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_pressure_plate
+setblock ~ ~ ~ minecraft:cherry_pressure_plate

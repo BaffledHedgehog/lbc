@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_slab
+setblock ~ ~ ~ minecraft:spruce_slab

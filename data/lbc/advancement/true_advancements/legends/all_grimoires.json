@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:snowball",
             "components": {
-                "minecraft:custom_model_data": 636
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        636.0
+                    ]
+                }
             }
         },
         "title": {

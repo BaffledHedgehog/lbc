@@ -1,4 +1,4 @@
-attribute @s generic.attack_damage modifier remove fire_wisp
+attribute @s minecraft:attack_damage modifier remove minecraft:fire_wisp
 
 $attribute @s generic.attack_damage modifier add fire_wisp $(tmp) add_value
 

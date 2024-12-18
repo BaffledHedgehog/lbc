@@ -1,4 +1,4 @@
-execute unless entity @e[tag=stooper,distance=..10] run fill ~1 ~ ~1 ~-1 ~ ~-1 netherite_block
-execute unless entity @e[tag=stooper,distance=..10] run fill ~ ~3 ~ ~ 319 ~ air
-execute unless entity @e[tag=stooper,distance=..10] run setblock ~ ~1 ~ beacon
-execute unless entity @e[tag=stooper,distance=..10] run setblock ~ ~2 ~ red_stained_glass_pane
+execute unless entity @e[distance=..10,tag=stooper] run fill ~1 ~ ~1 ~-1 ~ ~-1 minecraft:netherite_block
+execute unless entity @e[distance=..10,tag=stooper] run fill ~ ~3 ~ ~ 319 ~ minecraft:air
+execute unless entity @e[distance=..10,tag=stooper] run setblock ~ ~1 ~ minecraft:beacon
+execute unless entity @e[distance=..10,tag=stooper] run setblock ~ ~2 ~ minecraft:red_stained_glass_pane

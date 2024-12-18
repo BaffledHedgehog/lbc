@@ -1,1 +1,1 @@
-setblock ~ ~ ~ yellow_wall_banner
+setblock ~ ~ ~ minecraft:yellow_wall_banner

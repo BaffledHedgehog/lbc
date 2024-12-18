@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cobbled_deepslate_stairs
+setblock ~ ~ ~ minecraft:cobbled_deepslate_stairs

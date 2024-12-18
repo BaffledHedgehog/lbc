@@ -1,1 +1,1 @@
-setblock ~ ~ ~ trial_spawner
+setblock ~ ~ ~ minecraft:trial_spawner

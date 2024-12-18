@@ -1,1 +1,1 @@
-setblock ~ ~ ~ water
+setblock ~ ~ ~ minecraft:water

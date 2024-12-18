@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_leaves
+setblock ~ ~ ~ minecraft:jungle_leaves

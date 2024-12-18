@@ -8,7 +8,7 @@
                     "name": "minecraft:spruce_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 7
                         }
                     ]

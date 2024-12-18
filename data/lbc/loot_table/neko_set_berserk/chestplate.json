@@ -2,105 +2,112 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_chestplate",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "chestplate": true,
-                                "berserk": true
-                            },
-                            "minecraft:custom_model_data": 5,
-                            "minecraft:max_damage": 400,
-                            "minecraft:dyed_color": {
-                                "rgb": 513,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:attribute_modifiers": [
-                                {
-                                    "type": "minecraft:generic.armor",
-                                    "slot": "chest",
-                                    "id": "yiyiyiyir",
-                                    "amount": -8,
-                                    "operation": "add_value"
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        5.0
+                                    ]
                                 },
-                                {
-                                    "type": "minecraft:generic.attack_damage",
-                                    "slot": "chest",
-                                    "id": "generic.attack_damage",
-                                    "amount": 5,
-                                    "operation": "add_value"
+                                "minecraft:max_damage": 400,
+                                "minecraft:dyed_color": {
+                                    "rgb": 513,
+                                    "show_in_tooltip": false
                                 },
-                                {
-                                    "type": "minecraft:generic.armor_toughness",
-                                    "slot": "chest",
-                                    "id": "genericiyic6kilighness",
-                                    "amount": -4,
-                                    "operation": "add_value"
-                                },
-                                {
-                                    "type": "minecraft:generic.attack_speed",
-                                    "slot": "chest",
-                                    "id": "jycfgcdhdfjgjvckdyj",
-                                    "amount": 0.15,
-                                    "operation": "add_multiplied_base"
-                                },
-                                {
-                                    "type": "minecraft:generic.movement_speed",
-                                    "slot": "chest",
-                                    "id": "hxdfghntuspeed",
-                                    "amount": 0.05,
-                                    "operation": "add_multiplied_base"
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "chest",
+                                            "id": "yiyiyiyir",
+                                            "amount": -8,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "chest",
+                                            "id": "generic.attack_damage",
+                                            "amount": 5,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "chest",
+                                            "id": "genericiyic6kilighness",
+                                            "amount": -4,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "chest",
+                                            "id": "jycfgcdhdfjgjvckdyj",
+                                            "amount": 0.15,
+                                            "operation": "add_multiplied_base"
+                                        },
+                                        {
+                                            "type": "minecraft:movement_speed",
+                                            "slot": "chest",
+                                            "id": "hxdfghntuspeed",
+                                            "amount": 0.05,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
                                 }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "berserker_chestplate",
+                                "color": "red",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "chestplate",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus_berserker",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,chestplate:1,berserk:1}"
                         }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": {
-                            "translate": "berserker_chestplate",
-                            "color": "red",
-                            "italic": false
-                        }
-                    },
-                    {
-                        "function": "set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
-                                {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
-                                },
-                                {
-                                    "translate": "chestplate",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "set_bonus_berserker",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ]
-                        ]
-                    }
-                ]
-            }]
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -10,12 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "helmet": true,
-                                    "glass": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        20.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 20,
                                 "minecraft:max_damage": 150,
                                 "minecraft:dyed_color": {
                                     "rgb": 520,
@@ -32,7 +31,7 @@
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -63,7 +62,7 @@
                             "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
-                                    "attribute": "minecraft:generic.armor",
+                                    "attribute": "minecraft:armor",
                                     "amount": {
                                         "type": "minecraft:score",
                                         "target": {
@@ -74,11 +73,11 @@
                                         "scale": 0.00095
                                     },
                                     "operation": "add_value",
-                                    "id": "71eaf780-80f9-4861-8a64-4ab1247121b",
+                                    "id": "minecraft:71eaf780-80f9-4861-8a64-4ab1247121b",
                                     "slot": "head"
                                 },
                                 {
-                                    "attribute": "minecraft:generic.armor_toughness",
+                                    "attribute": "minecraft:armor_toughness",
                                     "amount": {
                                         "type": "minecraft:score",
                                         "target": {
@@ -89,10 +88,14 @@
                                         "scale": 0.00095
                                     },
                                     "operation": "add_value",
-                                    "id": "71eaf780-80f9-4861-8a64-49a1247121b",
+                                    "id": "minecraft:71eaf780-80f9-4861-8a64-49a1247121b",
                                     "slot": "head"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,helmet:1,glass:1}"
                         }
                     ]
                 }

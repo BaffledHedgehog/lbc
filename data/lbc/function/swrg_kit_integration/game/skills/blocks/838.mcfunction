@@ -1,1 +1,1 @@
-setblock ~ ~ ~ beehive
+setblock ~ ~ ~ minecraft:beehive

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ ender_chest
+setblock ~ ~ ~ minecraft:ender_chest

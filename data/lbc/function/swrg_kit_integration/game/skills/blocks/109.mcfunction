@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_bed
+setblock ~ ~ ~ minecraft:lime_bed

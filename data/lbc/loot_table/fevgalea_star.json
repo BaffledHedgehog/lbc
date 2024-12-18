@@ -4,36 +4,33 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "swordwithability": true,
-                                    "transformable": true,
-                                    "sword": true,
-                                    "magicwand": true,
-                                    "fevgalea_star": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        717.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 717,
                                 "minecraft:max_damage": 4000,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "fevgalea",
                                             "amount": 13,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "fevgalea1",
                                             "amount": -2.2,
@@ -45,7 +42,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fevgalea_star",
@@ -55,7 +52,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -135,7 +132,8 @@
                                     {
                                         "text": "14 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -145,7 +143,8 @@
                                     {
                                         "text": "1.8 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -154,6 +153,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{swordwithability:1,transformable:1,sword:1,magicwand:1,fevgalea_star:1}"
                         }
                     ]
                 }

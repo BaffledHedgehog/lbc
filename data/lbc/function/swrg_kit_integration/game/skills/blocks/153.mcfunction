@@ -1,1 +1,1 @@
-setblock ~ ~ ~ azure_bluet
+setblock ~ ~ ~ minecraft:azure_bluet

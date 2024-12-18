@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":639}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        639.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.upgraded_tuntija.fire"
@@ -34,14 +40,14 @@
                 ],
                 "items": [
                     {
-                        "predicates":{
+                        "predicates": {
                             "minecraft:custom_data": {
-                              "upgraded": true,
-                              "transformable": true,
-                              "staff": true,
-                              "stfire": true
+                                "upgraded":1,
+                                "transformable":1,
+                                "staff":1,
+                                "stfire":1
                             }
-                          }
+                        }
                     }
                 ]
             }

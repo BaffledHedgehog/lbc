@@ -10,13 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "helmet": true,
-                                    "bucket_head": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        25.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 25,
                                 "minecraft:max_damage": 200,
                                 "minecraft:dyed_color": {
                                     "rgb": 775,
@@ -54,6 +52,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,helmet:1,bucket_head:1,imba:1}"
                         }
                     ]
                 }

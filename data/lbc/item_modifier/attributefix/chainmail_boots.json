@@ -3,13 +3,13 @@
         "function": "minecraft:set_attributes",
         "modifiers": [
             {
-                "attribute": "minecraft:generic.armor",               
+                "attribute": "minecraft:armor",
                 "amount": {
                     "type": "minecraft:constant",
                     "value": 1
                 },
                 "operation": "add_value",
-                "id": "bafd952e-692a-41ed-9b61-c7d604d107c9",
+                "id": "minecraft:bafd952e-692a-41ed-9b61-c7d604d107c9",
                 "slot": "feet"
             }
         ]

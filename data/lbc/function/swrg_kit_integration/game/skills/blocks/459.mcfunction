@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_stairs
+setblock ~ ~ ~ minecraft:cherry_stairs

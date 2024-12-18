@@ -1,1 +1,1 @@
-setblock ~ ~ ~ andesite
+setblock ~ ~ ~ minecraft:andesite

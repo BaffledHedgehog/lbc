@@ -1,10 +1,10 @@
-execute anchored eyes run summon arrow ^ ^ ^-.2 {SoundEvent:"block.azalea_leaves.break",damage:1.0d,Tags:["razorpine","prestart2","killedarrow"]}
-execute anchored eyes positioned ^ ^ ^0.5 run data modify entity @e[type=arrow,limit=1,tag=prestart2,distance=..3] Owner set from entity @s UUID
+execute anchored eyes run summon minecraft:arrow ^ ^ ^-.2 {SoundEvent:"block.azalea_leaves.break",damage:1.0d,Tags:["razorpine","prestart2","killedarrow"]}
+execute anchored eyes positioned ^ ^ ^0.5 run data modify entity @e[type=minecraft:arrow,distance=..3,tag=prestart2,limit=1] Owner set from entity @s UUID
 
-execute positioned 0.0 0.0 0.0 run summon marker ^ ^ ^1 {Tags:["reikast"]}
-execute store result score #pos0 lbc.math run data get entity @e[type=marker,tag=reikast,limit=1] Pos[0] 5000
-execute store result score #pos1 lbc.math run data get entity @e[type=marker,tag=reikast,limit=1] Pos[1] 5000
-execute store result score #pos2 lbc.math run data get entity @e[type=marker,tag=reikast,limit=1] Pos[2] 5000
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["reikast"]}
+execute store result score #pos0 lbc.math run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[0] 5000
+execute store result score #pos1 lbc.math run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[1] 5000
+execute store result score #pos2 lbc.math run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[2] 5000
 
 execute store result score #rand lbc.math run random value -300..300
 scoreboard players operation #pos0 lbc.math += #rand lbc.math
@@ -13,20 +13,20 @@ scoreboard players operation #pos1 lbc.math += #rand lbc.math
 execute store result score #rand lbc.math run random value -300..300
 scoreboard players operation #pos2 lbc.math += #rand lbc.math
 
-execute store result entity @e[type=arrow,tag=razorpine,tag=prestart2,distance=..3,limit=1] Motion[0] double 0.001 run scoreboard players get #pos0 lbc.math
-execute store result entity @e[type=arrow,tag=razorpine,tag=prestart2,distance=..3,limit=1] Motion[1] double 0.001 run scoreboard players get #pos1 lbc.math
-execute store result entity @e[type=arrow,tag=razorpine,tag=prestart2,distance=..3,limit=1] Motion[2] double 0.001 run scoreboard players get #pos2 lbc.math
+execute store result entity @e[type=minecraft:arrow,distance=..3,tag=razorpine,tag=prestart2,limit=1] Motion[0] double 0.001 run scoreboard players get #pos0 lbc.math
+execute store result entity @e[type=minecraft:arrow,distance=..3,tag=razorpine,tag=prestart2,limit=1] Motion[1] double 0.001 run scoreboard players get #pos1 lbc.math
+execute store result entity @e[type=minecraft:arrow,distance=..3,tag=razorpine,tag=prestart2,limit=1] Motion[2] double 0.001 run scoreboard players get #pos2 lbc.math
 
-kill @e[type=marker,tag=reikast]
+kill @e[type=minecraft:marker,tag=reikast]
 tag @e remove prestart2
 
-execute anchored eyes run summon arrow ^ ^ ^-.2 {SoundEvent:"block.azalea_leaves.break",damage:1.0d,Tags:["razorpine","prestart2","killedarrow"]}
-execute anchored eyes positioned ^ ^ ^0.5 run data modify entity @e[type=arrow,limit=1,tag=prestart2,distance=..3] Owner set from entity @s UUID
+execute anchored eyes run summon minecraft:arrow ^ ^ ^-.2 {SoundEvent:"block.azalea_leaves.break",damage:1.0d,Tags:["razorpine","prestart2","killedarrow"]}
+execute anchored eyes positioned ^ ^ ^0.5 run data modify entity @e[type=minecraft:arrow,distance=..3,tag=prestart2,limit=1] Owner set from entity @s UUID
 
-execute positioned 0.0 0.0 0.0 run summon marker ^ ^ ^1 {Tags:["reikast"]}
-execute store result score #pos0 lbc.math run data get entity @e[type=marker,tag=reikast,limit=1] Pos[0] 5000
-execute store result score #pos1 lbc.math run data get entity @e[type=marker,tag=reikast,limit=1] Pos[1] 5000
-execute store result score #pos2 lbc.math run data get entity @e[type=marker,tag=reikast,limit=1] Pos[2] 5000
+execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["reikast"]}
+execute store result score #pos0 lbc.math run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[0] 5000
+execute store result score #pos1 lbc.math run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[1] 5000
+execute store result score #pos2 lbc.math run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[2] 5000
 
 execute store result score #rand lbc.math run random value -300..300
 scoreboard players operation #pos0 lbc.math += #rand lbc.math
@@ -35,11 +35,11 @@ scoreboard players operation #pos1 lbc.math += #rand lbc.math
 execute store result score #rand lbc.math run random value -300..300
 scoreboard players operation #pos2 lbc.math += #rand lbc.math
 
-execute store result entity @e[type=arrow,tag=razorpine,tag=prestart2,distance=..3,limit=1] Motion[0] double 0.001 run scoreboard players get #pos0 lbc.math
-execute store result entity @e[type=arrow,tag=razorpine,tag=prestart2,distance=..3,limit=1] Motion[1] double 0.001 run scoreboard players get #pos1 lbc.math
-execute store result entity @e[type=arrow,tag=razorpine,tag=prestart2,distance=..3,limit=1] Motion[2] double 0.001 run scoreboard players get #pos2 lbc.math
+execute store result entity @e[type=minecraft:arrow,distance=..3,tag=razorpine,tag=prestart2,limit=1] Motion[0] double 0.001 run scoreboard players get #pos0 lbc.math
+execute store result entity @e[type=minecraft:arrow,distance=..3,tag=razorpine,tag=prestart2,limit=1] Motion[1] double 0.001 run scoreboard players get #pos1 lbc.math
+execute store result entity @e[type=minecraft:arrow,distance=..3,tag=razorpine,tag=prestart2,limit=1] Motion[2] double 0.001 run scoreboard players get #pos2 lbc.math
 
-kill @e[type=marker,tag=reikast]
+kill @e[type=minecraft:marker,tag=reikast]
 tag @e remove prestart2
 
 

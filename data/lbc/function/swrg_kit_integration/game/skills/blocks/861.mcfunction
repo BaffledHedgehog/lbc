@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gilded_blackstone
+setblock ~ ~ ~ minecraft:gilded_blackstone

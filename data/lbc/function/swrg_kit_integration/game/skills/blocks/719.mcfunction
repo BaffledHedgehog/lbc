@@ -1,1 +1,1 @@
-setblock ~ ~ ~ tube_coral_wall_fan
+setblock ~ ~ ~ minecraft:tube_coral_wall_fan

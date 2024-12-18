@@ -3,4 +3,4 @@ scoreboard players remove @s[scores={swrg.gui_select=0,lbc.tokens=1..},advanceme
 
 #
 
-tellraw @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/legends/academy/root=false}] {"translate": "lbc.adv.academy_upgraded.lore"}
+tellraw @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/legends/academy/root=false}] {"translate":"lbc.adv.academy_upgraded.lore"}

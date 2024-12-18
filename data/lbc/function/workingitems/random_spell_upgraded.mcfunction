@@ -1,4 +1,4 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
+execute store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
 tag @s add raycaster
 scoreboard players set @s Distance 0
 
@@ -62,5 +62,5 @@ execute if score #mode lbc.math matches 54 run function lbc:workingitems/random_
 playsound minecraft:item.book.page_turn master @s ~ ~ ~ 10
 tag @s remove raycaster
 scoreboard players operation @s mana -= unstable_spellbook_mana_use lbc.math
-scoreboard players operation @s[nbt={Inventory:[{Slot:100b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:101b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:102b,components: {"minecraft:custom_data":{"mage": true}}},{Slot:103b,components: {"minecraft:custom_data":{"mage": true}}}]}] manamax += mage_set_bonus lbc.math
+scoreboard players operation @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mage:1}},Slot:100b},{components:{"minecraft:custom_data":{mage:1}},Slot:101b},{components:{"minecraft:custom_data":{mage:1}},Slot:102b},{components:{"minecraft:custom_data":{mage:1}},Slot:103b}]}] manamax += mage_set_bonus lbc.math
 execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/trinket_effects/cast_wand

@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:golden_sword",
-            "components": {"minecraft:custom_model_data":581}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        581.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.sword.evolution_1000"
@@ -31,31 +37,31 @@
                         }
                     },
                     {
-                        "condition":"minecraft:entity_properties",
+                        "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                          "equipment": {
-                            "mainhand": {
-                              "predicates": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "evolution": true
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:custom_data": {
+                                            "transformable":1,
+                                            "sword":1,
+                                            "evolution":1
+                                        }
+                                    }
                                 }
                             }
-                            }
-                          }
                         }
                     }
                 ],
                 "damage": {
-                  "dealt": {
-                    "min": 1000
-                  },
-                  "taken": {
-                    "min": 1000
-                  },
-                  "blocked": false
+                    "dealt": {
+                        "min": 1000
+                    },
+                    "taken": {
+                        "min": 1000
+                    },
+                    "blocked": false
                 }
             }
         }

@@ -4,7 +4,7 @@ function lbc:workingitems/witch_gens/yes_gens
 tag @a remove sin_indolence
 tag @a remove indolence_active
 tag @s add sin_indolence
-execute at @e[type=!player,limit=20,sort=random] run summon skeleton ~ ~ ~ {PersistenceRequired:1b ,DeathLootTable:"empty",Tags:["indolence_finger"],Silent:1b,HandItems:[{id:"minecraft:bow",count:1},{}],ArmorItems:[{id:"minecraft:leather_boots",count:1,components:{"minecraft:unbreakable":{},dyed_color:515}},{id:"leather_leggings",count:1,components:{"minecraft:unbreakable":{},dyed_color:515}},{id:"leather_chestplate",count:1,components:{"minecraft:unbreakable":{},dyed_color:515}},{id:"leather_helmet",count:1,components:{"minecraft:unbreakable":{},dyed_color:768}}],HandDropChances:[0.000f,0.000f],ArmorDropChances:[0.000f,0.000f,0.000f,0.000f]}
-execute at @e[type=skeleton,tag=indolence_finger] run function lbcr:podchinenie
+execute at @e[type=!minecraft:player,sort=random,limit=20] run summon minecraft:skeleton ~ ~ ~ {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["indolence_finger"],Silent:1b,HandItems:[{id:"minecraft:bow",count:1},{}],ArmorItems:[{id:"minecraft:leather_boots",components:{"minecraft:unbreakable":{},"minecraft:dyed_color":{rgb:515}},count:1},{id:"minecraft:leather_leggings",components:{"minecraft:unbreakable":{},"minecraft:dyed_color":{rgb:515}},count:1},{id:"minecraft:leather_chestplate",components:{"minecraft:unbreakable":{},"minecraft:dyed_color":{rgb:515}},count:1},{id:"minecraft:leather_helmet",components:{"minecraft:unbreakable":{},"minecraft:dyed_color":{rgb:768}},count:1}],HandDropChances:[0.0f,0.0f],ArmorDropChances:[0.0f,0.0f,0.0f,0.0f]}
+execute at @e[type=minecraft:skeleton,tag=indolence_finger] run function lbcr:podchinenie
 loot spawn ~ ~ ~ loot lbc:indolence_claw
 advancement grant @s only lbc:true_advancements/legends/sins/indolence

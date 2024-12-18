@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_wool
+setblock ~ ~ ~ minecraft:lime_wool

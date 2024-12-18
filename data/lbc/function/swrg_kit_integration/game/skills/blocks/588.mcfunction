@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_door
+setblock ~ ~ ~ minecraft:cherry_door

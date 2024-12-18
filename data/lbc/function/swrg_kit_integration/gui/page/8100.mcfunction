@@ -55,10 +55,10 @@ execute if score #lbclevelupmax swrg.math matches 9 run function lbc:swrg_kit_in
 
 
 
-item replace entity @s[advancements={lbc:true_advancements/bows/railshish=false}] enderchest.0 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/bows/randchanted=false}] enderchest.1 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/bows/shulker=false}] enderchest.2 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/blood=false}] enderchest.3 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/bows/railshish=false}] enderchest.0 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/bows/randchanted=false}] enderchest.1 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/bows/shulker=false}] enderchest.2 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/blood=false}] enderchest.3 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
 
 
 

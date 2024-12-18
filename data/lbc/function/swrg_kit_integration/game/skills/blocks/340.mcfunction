@@ -1,1 +1,1 @@
-setblock ~ ~ ~ redstone_lamp
+setblock ~ ~ ~ minecraft:redstone_lamp

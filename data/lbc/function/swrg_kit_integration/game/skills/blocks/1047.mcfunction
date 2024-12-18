@@ -1,1 +1,1 @@
-setblock ~ ~ ~ raw_copper_block
+setblock ~ ~ ~ minecraft:raw_copper_block

@@ -1,10 +1,11 @@
 {
-    "type": "chest",
+    "type": "minecraft:chest",
     "pools": [
         {
             "rolls": {
                 "min": 10,
-                "max": 20
+                "max": 20,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
@@ -15,12 +16,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "ender_pernul": true,
-                                    "special": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 600
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        600.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -41,6 +41,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{ender_pernul:1,special:1,imba:1}"
                         }
                     ]
                 },
@@ -51,12 +55,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "eat_teleport2": true,
-                                    "imba": true
-                                }
-                            }
+                            "components": {}
                         },
                         {
                             "function": "minecraft:set_lore",
@@ -67,6 +66,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_teleport2:1,imba:1}"
                         }
                     ]
                 },
@@ -78,10 +81,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        582.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 582,
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -110,6 +114,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
@@ -121,10 +129,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        583.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 583,
                                 "minecraft:entity_data": {
                                     "id": "minecraft:end_crystal"
                                 }
@@ -148,6 +157,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
@@ -159,10 +172,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        584.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 584,
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -191,6 +205,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 }

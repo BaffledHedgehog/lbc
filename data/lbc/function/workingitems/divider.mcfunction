@@ -28,8 +28,8 @@ clone ~-12 ~-12 ~-12 ~12 ~12 ~12 ~13 ~-37 ~-12
 clone ~-12 ~-12 ~-12 ~12 ~12 ~12 ~13 ~-37 ~13
 clone ~-12 ~-12 ~-12 ~12 ~12 ~12 ~-12 ~-37 ~13
 
-playsound block.anvil.use master @a ~ ~ ~ 4 0
-playsound block.anvil.use master @a ~ ~ ~ 4 0.2
-playsound block.anvil.use master @a ~ ~ ~ 4 0.5
-playsound block.anvil.use master @a ~ ~ ~ 4 0.13
+playsound minecraft:block.anvil.use master @a ~ ~ ~ 4 0
+playsound minecraft:block.anvil.use master @a ~ ~ ~ 4 0.2
+playsound minecraft:block.anvil.use master @a ~ ~ ~ 4 0.5
+playsound minecraft:block.anvil.use master @a ~ ~ ~ 4 0.13
 scoreboard players set @s divider_cd 30

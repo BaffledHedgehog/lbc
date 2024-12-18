@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_stem
+setblock ~ ~ ~ minecraft:warped_stem

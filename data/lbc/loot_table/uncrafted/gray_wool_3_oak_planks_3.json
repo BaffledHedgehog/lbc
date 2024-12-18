@@ -8,13 +8,14 @@
                     "name": "minecraft:gray_wool",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 3
                         }
                     ]
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -22,7 +23,7 @@
                     "name": "minecraft:oak_planks",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 3
                         }
                     ]

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_trapdoor
+setblock ~ ~ ~ minecraft:jungle_trapdoor

@@ -1,1 +1,1 @@
-effect give @e[distance=..2.5,type=#mobs,tag=!nodamage,tag=!spectator,tag=!muravei] poison 15 0
+effect give @e[type=#minecraft:mobs,distance=..2.5,tag=!nodamage,tag=!spectator,tag=!muravei] minecraft:poison 15 0

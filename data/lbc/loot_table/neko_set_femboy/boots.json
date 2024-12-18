@@ -10,39 +10,41 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "boots": true,
-                                    "nyauwu": true,
-                                    "mage": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        19.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 19,
                                 "minecraft:max_damage": 1800,
                                 "minecraft:enchantments": {
-                                    "minecraft:fire_protection": 5,
-                                    "minecraft:blast_protection": 5,
-                                    "minecraft:projectile_protection": 5
+                                    "levels": {
+                                        "minecraft:fire_protection": 5,
+                                        "minecraft:blast_protection": 5,
+                                        "minecraft:projectile_protection": 5
+                                    }
                                 },
                                 "minecraft:dyed_color": {
                                     "rgb": 774,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.movement_speed",
-                                        "slot": "feet",
-                                        "id": "ghfhstgfhjymnjkhed",
-                                        "amount": 0.2,
-                                        "operation": "add_multiplied_base"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "ghfhstgfhjymnjjujujkhed",
-                                        "amount": 3,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:movement_speed",
+                                            "slot": "feet",
+                                            "id": "ghfhstgfhjymnjkhed",
+                                            "amount": 0.2,
+                                            "operation": "add_multiplied_base"
+                                        },
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "feet",
+                                            "id": "ghfhstgfhjymnjjujujkhed",
+                                            "amount": 3,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -123,6 +125,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,boots:1,nyauwu:1,mage:1}"
                         }
                     ]
                 }

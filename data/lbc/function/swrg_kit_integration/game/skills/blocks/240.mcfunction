@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_oak_pressure_plate
+setblock ~ ~ ~ minecraft:dark_oak_pressure_plate

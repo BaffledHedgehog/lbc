@@ -1,3 +1,3 @@
-execute as @e[type=#mobs,type=!player,distance=..5,tag=!sin_greed_have_heart,limit=1] at @s if predicate lbc:chance40 run function lbc:workingitems/witch_gens/greed_apply_heart
-execute as @a[gamemode=!spectator,tag=!sin_greed,distance=..5,tag=!sin_greed_have_heart,limit=1] at @s if predicate lbc:chance0_015625 run function lbc:workingitems/witch_gens/greed_apply_heart
-execute at @e[type=#mobs,tag=!spectator,distance=..5,tag=sin_greed_have_heart] run particle soul ~ ~2 ~ 0.3 0.3 0.3 0 10 normal @a[tag=sin_greed]
+execute as @e[type=#minecraft:mobs,type=!minecraft:player,distance=..5,tag=!sin_greed_have_heart,limit=1] at @s if predicate lbc:chance40 run function lbc:workingitems/witch_gens/greed_apply_heart
+execute as @a[gamemode=!spectator,distance=..5,tag=!sin_greed,tag=!sin_greed_have_heart,limit=1] at @s if predicate lbc:chance0_015625 run function lbc:workingitems/witch_gens/greed_apply_heart
+execute at @e[type=#minecraft:mobs,distance=..5,tag=sin_greed_have_heart,tag=!spectator] run particle minecraft:soul ~ ~2 ~ 0.3 0.3 0.3 0 10 normal @a[tag=sin_greed]

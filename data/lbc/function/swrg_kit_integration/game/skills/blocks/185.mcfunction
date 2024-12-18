@@ -1,1 +1,1 @@
-setblock ~ ~ ~ farmland
+setblock ~ ~ ~ minecraft:farmland

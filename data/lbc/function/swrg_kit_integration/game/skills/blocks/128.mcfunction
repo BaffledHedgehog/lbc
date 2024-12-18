@@ -1,1 +1,1 @@
-setblock ~ ~ ~ tall_seagrass
+setblock ~ ~ ~ minecraft:tall_seagrass

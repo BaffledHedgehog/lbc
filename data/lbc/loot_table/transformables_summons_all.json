@@ -4,16 +4,16 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:transformables_summons",
                     "weight": 8
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:tuntijaa_blind_vex"
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:penis_cultus"
                 }
             ]

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purpur_slab
+setblock ~ ~ ~ minecraft:purpur_slab

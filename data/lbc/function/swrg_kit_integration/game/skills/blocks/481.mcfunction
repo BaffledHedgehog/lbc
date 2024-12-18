@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_carpet
+setblock ~ ~ ~ minecraft:magenta_carpet

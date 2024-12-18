@@ -17,10 +17,17 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_data":{"magicwand": true,"divider_by_metal_pipe": true,"spellwithcooldown": true},"minecraft:custom_model_data":716}
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        716.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "divider_by_metal_pipe.lore.1",
@@ -33,6 +40,10 @@
                                     "color": "gold"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magicwand:1,divider_by_metal_pipe:1,spellwithcooldown:1}"
                         }
                     ]
                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ quartz_stairs
+setblock ~ ~ ~ minecraft:quartz_stairs

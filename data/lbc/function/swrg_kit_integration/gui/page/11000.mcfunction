@@ -62,18 +62,18 @@ execute if score #lbctrinket swrg.math matches 9 run function lbc:swrg_kit_integ
 
 
 #
-item replace entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/bows/ghast=false}] enderchest.1 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/bows/penis_gun=false}] enderchest.2 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/acid=false}] enderchest.3 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/air=false}] enderchest.4 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/bass=false}] enderchest.5 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/bedrock=false}] enderchest.6 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/blaze=false}] enderchest.7 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/blind=false}] enderchest.8 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/corruption=false}] enderchest.9 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/electro=false}] enderchest.10 with repeating_command_block[custom_model_data=669]
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=false}] enderchest.11 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/bows/ghast=false}] enderchest.1 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/bows/penis_gun=false}] enderchest.2 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/acid=false}] enderchest.3 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/air=false}] enderchest.4 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/bass=false}] enderchest.5 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/bedrock=false}] enderchest.6 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/blaze=false}] enderchest.7 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/blind=false}] enderchest.8 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/corruption=false}] enderchest.9 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/electro=false}] enderchest.10 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=false}] enderchest.11 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
 
 
 item modify entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 lbc:swrg_unlocks/blaze

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_candle_cake
+setblock ~ ~ ~ minecraft:magenta_candle_cake

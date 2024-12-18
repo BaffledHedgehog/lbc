@@ -2,71 +2,76 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_helmet",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "helmet": true,
-                                "jumpboost": true
-                            },
-                            "minecraft:custom_model_data": 7,
-                            "minecraft:max_damage": 400,
-                            "minecraft:dyed_color": {
-                                "rgb": 258,
-                                "show_in_tooltip": false
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 400,
+                                "minecraft:dyed_color": {
+                                    "rgb": 258,
+                                    "show_in_tooltip": false
+                                }
                             }
-                        }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": [
-                            {
-                                "translate": "travel_helmet",
-                                "color": "green",
-                                "italic": false
-                            }
-                        ]
-                    },
-                    {
-                        "function": "minecraft:set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
                                 {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
+                                    "translate": "travel_helmet",
+                                    "color": "green",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "helmet",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "travel_helmet.lore",
+                                    "color": "#FFBFBF",
+                                    "italic": false
                                 },
                                 {
-                                    "translate": "helmet",
-                                    "italic": false,
-                                    "color": "aqua"
+                                    "translate": "set_bonus",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "set_bonus_traveller",
+                                    "color": "white",
+                                    "italic": false
                                 }
-                            ],
-                            {
-                                "translate": "travel_helmet.lore",
-                                "color": "#FFBFBF",
-                                "italic": false
-                            },
-                            {
-                                "translate": "set_bonus",
-                                "color": "white",
-                                "italic": false
-                            },
-                            {
-                                "translate": "set_bonus_traveller",
-                                "color": "white",
-                                "italic": false
-                            }
-                        ]
-                    }
-                ]
-            }]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,helmet:1,jumpboost:1}"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

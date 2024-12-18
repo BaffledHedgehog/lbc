@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_cherry_log
+setblock ~ ~ ~ minecraft:stripped_cherry_log

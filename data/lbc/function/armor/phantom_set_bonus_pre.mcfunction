@@ -1,2 +1,2 @@
-execute unless entity @a[distance=0.01..8,gamemode=!spectator] unless entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:armor/phantom_set_bonus
-execute if entity @e[type=marker,tag=stopper_magic,limit=1,distance=..20] run function lbc:armor/phantom_set_bonus_clear
+execute unless entity @a[gamemode=!spectator,distance=0.01..8] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:armor/phantom_set_bonus
+execute if entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:armor/phantom_set_bonus_clear

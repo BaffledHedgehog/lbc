@@ -1,1 +1,1 @@
-setblock ~ ~ ~ tuff
+setblock ~ ~ ~ minecraft:tuff

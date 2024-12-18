@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:repeating_command_block",
             "components": {
-                "minecraft:custom_model_data": 577
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        577.0
+                    ]
+                }
             }
         },
         "title": {
@@ -38,18 +42,18 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "arcanum": true,
-                                "healing_arcanum": true
+                                "transformable":1,
+                                "arcanum":1,
+                                "healing_arcanum":1
                             }
                         }
                     },
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "arcanum": true,
-                                "barrier_arcanum": true
+                                "transformable":1,
+                                "arcanum":1,
+                                "barrier_arcanum":1
                             }
                         }
                     }

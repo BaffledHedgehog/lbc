@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":588}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        588.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.sword.terra"
@@ -29,9 +35,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "sword": true,
-                                            "terrasword": true
+                                            "transformable":1,
+                                            "sword":1,
+                                            "terrasword":1
                                         }
                                     }
                                 }

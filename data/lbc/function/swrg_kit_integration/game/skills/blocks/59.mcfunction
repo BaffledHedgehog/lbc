@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_birch_log
+setblock ~ ~ ~ minecraft:stripped_birch_log

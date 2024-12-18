@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dragon_head
+setblock ~ ~ ~ minecraft:dragon_head

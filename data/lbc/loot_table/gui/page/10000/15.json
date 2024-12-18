@@ -9,7 +9,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":704}
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        704.0
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -29,15 +35,18 @@
                                     "translate": "lore.lbcskill.15.0",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.15.1",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.15.2",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.15.3",
                                     "italic": false,
                                     "color": "gray"

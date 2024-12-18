@@ -1,1 +1,1 @@
-setblock ~ ~ ~ soul_sand
+setblock ~ ~ ~ minecraft:soul_sand

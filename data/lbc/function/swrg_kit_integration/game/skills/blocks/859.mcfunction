@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_blackstone_brick_stairs
+setblock ~ ~ ~ minecraft:polished_blackstone_brick_stairs

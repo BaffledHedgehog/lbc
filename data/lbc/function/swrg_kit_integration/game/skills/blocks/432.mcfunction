@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pink_terracotta
+setblock ~ ~ ~ minecraft:pink_terracotta

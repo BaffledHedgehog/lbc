@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pink_bed
+setblock ~ ~ ~ minecraft:pink_bed

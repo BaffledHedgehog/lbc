@@ -1,98 +1,104 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:leather_helmet",
-      "components": {"minecraft:custom_model_data":16}
+    "display": {
+        "icon": {
+            "id": "minecraft:leather_helmet",
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        16.0
+                    ]
+                }
+            }
+        },
+        "title": {
+            "translate": "lbc.adv.legends.trollge_killer"
+        },
+        "description": {
+            "translate": "lbc.adv.legends.trollge_killer.lore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
     },
-    "title": {
-      "translate": "lbc.adv.legends.trollge_killer"
-    },
-    "description": {
-      "translate": "lbc.adv.legends.trollge_killer.lore"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true
-  },
-  "parent": "lbc:true_advancements/legends/trollge_all_masks",
-  "criteria": {
-    "req_1": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
+    "parent": "lbc:true_advancements/legends/trollge_all_masks",
+    "criteria": {
+        "req_1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"trollge_hunter\"]}"
+                        }
+                    }
+                ]
             }
-          }
-        ],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"trollge_hunter\"]}"
+        },
+        "req_2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"stone_man\"]}"
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
-    },
-    "req_2": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
+        },
+        "req_3": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"void_man\"]}"
+                        }
+                    }
+                ]
             }
-          }
-        ],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"stone_man\"]}"
-            }
-          }
-        ]
-      }
-    },
-    "req_3": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
-            }
-          }
-        ],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"void_man\"]}"
-            }
-          }
-        ]
-      }
+        }
     }
-  }
 }

@@ -1,2 +1,2 @@
-execute at @e[sort=random,limit=64,tag=!spectator] run summon fireball ~ ~ ~20 {ExplosionPower:2,Motion:[0.0,0.0,-1.0]}
+execute at @e[tag=!spectator,sort=random,limit=64] run summon minecraft:fireball ~ ~ ~20 {ExplosionPower:2,Motion:[0.0d,0.0d,-1.0d]}
 schedule function lbc:other/everythingend/52 10t

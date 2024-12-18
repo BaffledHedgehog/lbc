@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_slab
+setblock ~ ~ ~ minecraft:oak_slab

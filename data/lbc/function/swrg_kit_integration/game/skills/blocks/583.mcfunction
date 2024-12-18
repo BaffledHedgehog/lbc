@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_fence
+setblock ~ ~ ~ minecraft:bamboo_fence

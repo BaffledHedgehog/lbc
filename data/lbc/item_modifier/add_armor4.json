@@ -2,18 +2,21 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:attribute_modifiers": [
-                {
-                    "type": "minecraft:generic.armor_toughness",
-                    "slot": "head",
-                    "id": "jjfjgfjfjyfjyfjyfjyfjs",
-                    "amount": 1.5,
-                    "operation": "add_value"
-                }
-            ],
-            "minecraft:custom_data": {
-                "tanner_upgraded": true
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:armor_toughness",
+                        "slot": "head",
+                        "id": "jjfjgfjfjyfjyfjyfjyfjs",
+                        "amount": 1.5,
+                        "operation": "add_value"
+                    }
+                ]
             }
         }
+    },
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": "{tanner_upgraded:1}"
     }
 ]

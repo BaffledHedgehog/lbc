@@ -38,9 +38,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "bow": true,
-                                "fastexplode": true
+                                "transformable":1,
+                                "bow":1,
+                                "fastexplode":1
                             }
                         }
                     }

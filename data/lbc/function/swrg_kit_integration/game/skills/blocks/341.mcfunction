@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cocoa
+setblock ~ ~ ~ minecraft:cocoa

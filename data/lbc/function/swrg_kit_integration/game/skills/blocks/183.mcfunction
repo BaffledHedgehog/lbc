@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crafting_table
+setblock ~ ~ ~ minecraft:crafting_table

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cobblestone
+setblock ~ ~ ~ minecraft:cobblestone

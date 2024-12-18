@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cornflower
+setblock ~ ~ ~ minecraft:cornflower

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ turtle_egg
+setblock ~ ~ ~ minecraft:turtle_egg

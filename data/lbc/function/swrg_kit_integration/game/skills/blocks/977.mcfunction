@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oxidized_copper_door
+setblock ~ ~ ~ minecraft:oxidized_copper_door

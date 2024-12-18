@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stone_pressure_plate
+setblock ~ ~ ~ minecraft:stone_pressure_plate

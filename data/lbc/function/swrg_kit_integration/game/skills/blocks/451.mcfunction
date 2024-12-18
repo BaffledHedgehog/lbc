@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cyan_stained_glass_pane
+setblock ~ ~ ~ minecraft:cyan_stained_glass_pane

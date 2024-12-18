@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_banner
+setblock ~ ~ ~ minecraft:magenta_banner

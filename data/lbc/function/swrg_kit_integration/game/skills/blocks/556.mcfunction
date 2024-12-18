@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brick_slab
+setblock ~ ~ ~ minecraft:brick_slab

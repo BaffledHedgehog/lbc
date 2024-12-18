@@ -1,1 +1,1 @@
-setblock ~ ~ ~ blue_shulker_box
+setblock ~ ~ ~ minecraft:blue_shulker_box

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ tripwire
+setblock ~ ~ ~ minecraft:tripwire

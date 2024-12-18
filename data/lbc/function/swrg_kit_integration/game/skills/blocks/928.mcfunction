@@ -1,1 +1,1 @@
-setblock ~ ~ ~ calibrated_sculk_sensor
+setblock ~ ~ ~ minecraft:calibrated_sculk_sensor

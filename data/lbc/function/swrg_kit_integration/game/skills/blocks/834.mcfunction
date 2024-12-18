@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jigsaw
+setblock ~ ~ ~ minecraft:jigsaw

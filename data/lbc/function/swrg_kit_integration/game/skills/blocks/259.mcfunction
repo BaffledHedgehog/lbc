@@ -1,1 +1,1 @@
-setblock ~ ~ ~ basalt
+setblock ~ ~ ~ minecraft:basalt

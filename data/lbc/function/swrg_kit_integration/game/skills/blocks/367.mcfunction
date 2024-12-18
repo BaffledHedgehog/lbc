@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_dandelion
+setblock ~ ~ ~ minecraft:potted_dandelion

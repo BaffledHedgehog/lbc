@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_button
+setblock ~ ~ ~ minecraft:jungle_button

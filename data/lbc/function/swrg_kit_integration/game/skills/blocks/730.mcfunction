@@ -1,1 +1,1 @@
-setblock ~ ~ ~ void_air
+setblock ~ ~ ~ minecraft:void_air

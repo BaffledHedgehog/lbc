@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pink_wool
+setblock ~ ~ ~ minecraft:pink_wool

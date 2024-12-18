@@ -4,11 +4,11 @@
             "rolls": 27,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:transformables_summons_all"
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:transformables_arcanum_all"
                 }
             ]

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brown_wool
+setblock ~ ~ ~ minecraft:brown_wool

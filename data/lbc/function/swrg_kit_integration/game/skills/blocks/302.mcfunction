@@ -1,1 +1,1 @@
-setblock ~ ~ ~ infested_stone_bricks
+setblock ~ ~ ~ minecraft:infested_stone_bricks

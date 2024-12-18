@@ -4,9 +4,9 @@
             "id": "minecraft:potion",
             "components": {
                 "minecraft:potion_contents": {
-                  "custom_color": 11380991
+                    "custom_color": 11380991
                 }
-              }
+            }
         },
         "title": {
             "translate": "lbc.adv.potion.mana_temp"

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ end_stone
+setblock ~ ~ ~ minecraft:end_stone

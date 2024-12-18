@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chiseled_tuff
+setblock ~ ~ ~ minecraft:chiseled_tuff

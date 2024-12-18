@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_acacia_log
+setblock ~ ~ ~ minecraft:stripped_acacia_log

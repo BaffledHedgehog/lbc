@@ -4,42 +4,41 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:transformables_shooter",
                     "weight": 7
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "shooter": true,
-                                    "magicwand": true,
-                                    "ak47": true
-                                },
-                                "minecraft:custom_model_data": 619
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        619.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "text": "AK-47",
-                                    "italic": false
+                                    "italic": false,
+                                    "type": "text"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -58,15 +57,21 @@
                                     {
                                         "text": "morgenshtern ",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": "Beta Server Harem event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,shooter:1,magicwand:1,ak47:1}"
                         }
                     ]
                 },
@@ -78,15 +83,12 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "shooter": true,
-                                    "magnum": true,
-                                    "mode": 0,
-                                    "raycastspell": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        656.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 656,
-                                "minecraft:custom_name": "{\"translate\":\"magnum_mode_standard\",\"italic\":false}",
+                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_standard\"}",
                                 "minecraft:lore": [
                                     "[{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\"},{\"translate\":\"shooter\",\"italic\":false,\"color\":\"aqua\"}]",
                                     "{\"translate\":\"magnum_lore_1\",\"italic\":false,\"color\":\"white\"}",
@@ -94,39 +96,39 @@
                                     "{\"translate\":\"magnum_lore_3\",\"italic\":false,\"color\":\"aqua\"}"
                                 ]
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,shooter:1,magnum:1,mode:0,raycastspell:1}"
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:tuntijaa_terra_razor",
                     "weight": 1
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "govnoq": true,
-                                    "transformable": true,
-                                    "shooter": true,
-                                    "magicwand": true,
-                                    "craftusable": true,
-                                    "govnomet": true
-                                },
-                                "minecraft:custom_model_data": 618
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        618.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shit_cannon",
@@ -135,7 +137,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -164,24 +166,30 @@
                                     {
                                         "text": "Nightmare_23",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Beta Server Harem event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{govnoq:1,transformable:1,shooter:1,magicwand:1,craftusable:1,govnomet:1}"
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:helicopter_boss"
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:slr"
                 }
             ]

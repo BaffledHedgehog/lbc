@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=curr_wall] at @s run function lbc:workingitems/awaken_tuntija_wands/bedrock/break_room_at
+execute as @e[type=minecraft:marker,tag=curr_wall] at @s run function lbc:workingitems/awaken_tuntija_wands/bedrock/break_room_at

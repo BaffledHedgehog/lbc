@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_wall_hanging_sign
+setblock ~ ~ ~ minecraft:crimson_wall_hanging_sign

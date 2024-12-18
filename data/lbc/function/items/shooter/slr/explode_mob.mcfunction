@@ -1,1 +1,1 @@
-damage @s 5 cactus by @a[tag=caster,limit=1,gamemode=!spectator]
+damage @s 5 cactus by @a[gamemode=!spectator,tag=caster,limit=1]

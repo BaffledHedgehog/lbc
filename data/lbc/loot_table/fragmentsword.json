@@ -4,30 +4,27 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 0
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -37,7 +34,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -58,34 +55,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:0}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 1
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -95,7 +93,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -116,34 +114,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 2
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -153,7 +152,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -174,34 +173,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:2}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 3
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -211,7 +211,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -232,34 +232,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:3}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 4
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -269,7 +270,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -290,34 +291,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:4}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 5
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -327,7 +329,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -348,34 +350,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:5}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 6
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -385,7 +388,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -406,34 +409,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:6}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 7
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -443,7 +447,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -464,34 +468,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:7}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 8
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -501,7 +506,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -522,34 +527,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:8}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 9
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -559,7 +565,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -580,34 +586,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:9}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 10
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -617,7 +624,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -638,34 +645,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:10}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 11
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -675,7 +683,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -696,34 +704,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:11}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 12
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -733,7 +742,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -754,34 +763,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:12}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 13
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -791,7 +801,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -812,34 +822,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:13}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 14
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -849,7 +860,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -870,34 +881,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:14}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 15
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -907,7 +919,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -928,34 +940,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:15}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 549,
-                                "minecraft:max_damage": 600,
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "fragmentsword": true,
-                                    "unresolved_fragment": true,
-                                    "cooltype": 16
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        549.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 600
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fragment_sword",
@@ -965,7 +978,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -986,6 +999,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,fragmentsword:1,unresolved_fragment:1,cooltype:16}"
                         }
                     ]
                 }

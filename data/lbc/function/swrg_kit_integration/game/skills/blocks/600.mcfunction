@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pitcher_crop
+setblock ~ ~ ~ minecraft:pitcher_crop

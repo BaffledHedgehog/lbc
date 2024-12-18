@@ -1,1 +1,1 @@
-setblock ~ ~ ~ soul_wall_torch
+setblock ~ ~ ~ minecraft:soul_wall_torch

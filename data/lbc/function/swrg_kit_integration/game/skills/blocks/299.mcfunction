@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mud_bricks
+setblock ~ ~ ~ minecraft:mud_bricks

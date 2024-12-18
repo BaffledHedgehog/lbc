@@ -1,1 +1,1 @@
-setblock ~ ~ ~ vault
+setblock ~ ~ ~ minecraft:vault

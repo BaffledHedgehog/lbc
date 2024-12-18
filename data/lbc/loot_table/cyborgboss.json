@@ -1,62 +1,67 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:panda_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_name": "{\"translate\":\"supply_beacon\",\"italic\":false,\"color\":\"yellow\"}",
-                "minecraft:entity_data": {
-                  "Tags": [
-                    "supply_drop",
-                    "new",
-                    "rc_1sec"
-                  ],
-                  "transformation": {
-                    "translation": [
-                      0,
-                      0.5,
-                      0
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:panda_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"translate\":\"supply_beacon\"}",
+                                "minecraft:entity_data": {
+                                    "Tags": [
+                                        "supply_drop",
+                                        "new",
+                                        "rc_1sec"
+                                    ],
+                                    "transformation": {
+                                        "translation": [
+                                            0,
+                                            0.5,
+                                            0
+                                        ]
+                                    },
+                                    "Rotation": [
+                                        0,
+                                        0
+                                    ],
+                                    "id": "item_display",
+                                    "item": {
+                                        "id": "panda_spawn_egg",
+                                        "\u0421ount": 1,
+                                        "components": {
+                                            "minecraft:custom_model_data": 574
+                                        }
+                                    }
+                                },
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        574.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{supply_beacon:1}"
+                        }
                     ]
-                  },
-                  "Rotation": [
-                    0,
-                    0
-                  ],
-                  "id": "item_display",
-                  "item": {
-                    "id": "panda_spawn_egg",
-                    "Сount": 1,
-                    "components": {
-                      "minecraft:custom_model_data": 574
-                    }
-                  }
-                },
-                "minecraft:custom_model_data": 574,
-                "minecraft:custom_data": {
-                  "supply_beacon": 1
                 }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            ]
+        },
         {
-          "type": "loot_table",
-          "weight": 1,
-          "value": "lbc:sauvojen_tuntija_electro"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "lbc:sauvojen_tuntija_electro"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

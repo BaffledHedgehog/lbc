@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_mosaic_stairs
+setblock ~ ~ ~ minecraft:bamboo_mosaic_stairs

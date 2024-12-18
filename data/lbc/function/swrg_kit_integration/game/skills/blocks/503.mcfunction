@@ -1,1 +1,1 @@
-setblock ~ ~ ~ large_fern
+setblock ~ ~ ~ minecraft:large_fern

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_mangrove_log
+setblock ~ ~ ~ minecraft:stripped_mangrove_log

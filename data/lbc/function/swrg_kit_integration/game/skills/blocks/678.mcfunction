@@ -1,1 +1,1 @@
-setblock ~ ~ ~ black_concrete_powder
+setblock ~ ~ ~ minecraft:black_concrete_powder

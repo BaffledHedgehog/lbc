@@ -1,1 +1,1 @@
-setblock ~ ~ ~ raw_iron_block
+setblock ~ ~ ~ minecraft:raw_iron_block

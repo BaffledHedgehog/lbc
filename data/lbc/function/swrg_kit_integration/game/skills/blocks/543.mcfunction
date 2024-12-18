@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_slab
+setblock ~ ~ ~ minecraft:jungle_slab

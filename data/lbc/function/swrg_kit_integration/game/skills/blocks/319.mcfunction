@@ -1,1 +1,1 @@
-setblock ~ ~ ~ glow_lichen
+setblock ~ ~ ~ minecraft:glow_lichen

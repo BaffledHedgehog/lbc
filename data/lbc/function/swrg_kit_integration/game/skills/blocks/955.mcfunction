@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oxidized_cut_copper_slab
+setblock ~ ~ ~ minecraft:oxidized_cut_copper_slab

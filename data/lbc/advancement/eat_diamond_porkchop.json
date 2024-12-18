@@ -1,34 +1,33 @@
 {
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "item": {
-            "predicates": {
-              "minecraft:custom_data": {
-                "diamond_porkchop": true
-              }
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "diamond_porkchop":1
+                        }
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
+                    }
+                ]
             }
-          },
-          "player": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "dimension": "minecraft:nexus"
-                  }
-                }
-              }
-            }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "lbc:other/eatables/diamond_porkchop"
+        "function": "lbc:other/eatables/diamond_porkchop"
     }
-  }
-  
+}

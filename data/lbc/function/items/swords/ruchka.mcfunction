@@ -1,2 +1,2 @@
-execute as @p[nbt={HurtTime:10s},distance=..7,gamemode=!spectator,sort=furthest] at @s run function lbc:projectiles/gadgets/ruchka_pl
-clear @s snowball[minecraft:custom_model_data=589] 1
+execute as @p[gamemode=!spectator,distance=..7,sort=furthest,nbt={HurtTime:10s}] at @s run function lbc:projectiles/gadgets/ruchka_pl
+clear @s minecraft:snowball[minecraft:custom_model_data={floats:[589.0f]}] 1

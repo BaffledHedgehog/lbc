@@ -1,3 +1,3 @@
-summon item ~ ~ ~ {Item:{count:1,id:"minecraft:stone"},Tags:["modifyitem"],PickupDelay:40}
-data modify entity @e[type=item,limit=1,distance=..0.001,tag=modifyitem] Item set from entity @s Inventory.[{Slot:0b}]
-tag @e[type=item,limit=1,distance=..0.001,tag=modifyitem] remove modifyitem
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:stone",count:1},Tags:["modifyitem"],PickupDelay:40}
+data modify entity @e[type=minecraft:item,distance=..0.001,tag=modifyitem,limit=1] Item set from entity @s Inventory[{Slot:0b}]
+tag @e[type=minecraft:item,distance=..0.001,tag=modifyitem,limit=1] remove modifyitem

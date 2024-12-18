@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brown_mushroom
+setblock ~ ~ ~ minecraft:brown_mushroom

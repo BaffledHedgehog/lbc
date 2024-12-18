@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_gold_ore
+setblock ~ ~ ~ minecraft:deepslate_gold_ore

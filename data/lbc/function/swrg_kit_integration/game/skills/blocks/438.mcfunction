@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brown_terracotta
+setblock ~ ~ ~ minecraft:brown_terracotta

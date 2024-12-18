@@ -1,1 +1,1 @@
-setblock ~ ~ ~ redstone_ore
+setblock ~ ~ ~ minecraft:redstone_ore

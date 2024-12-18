@@ -1,2 +1,2 @@
-execute at @e[tag=swrg.look] run fill ~12 ~12 ~12 ~-12 ~-12 ~-12 air
+execute at @e[tag=swrg.look] run fill ~12 ~12 ~12 ~-12 ~-12 ~-12 minecraft:air
 schedule function lbc:other/everythingend/13 2t

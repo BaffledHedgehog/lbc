@@ -4,12 +4,12 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:transformables_hoe",
                     "weight": 2
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "weight": 1,
                     "value": "lbc:death_loot"
                 }

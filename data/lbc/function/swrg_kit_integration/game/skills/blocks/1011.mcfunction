@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cave_vines_plant
+setblock ~ ~ ~ minecraft:cave_vines_plant

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_button
+setblock ~ ~ ~ minecraft:spruce_button

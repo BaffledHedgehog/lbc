@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_sapling
+setblock ~ ~ ~ minecraft:jungle_sapling

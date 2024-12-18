@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chest
+setblock ~ ~ ~ minecraft:chest

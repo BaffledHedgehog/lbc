@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_oak_fence
+setblock ~ ~ ~ minecraft:dark_oak_fence

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lily_pad
+setblock ~ ~ ~ minecraft:lily_pad

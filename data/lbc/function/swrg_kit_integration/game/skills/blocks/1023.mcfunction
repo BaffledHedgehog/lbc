@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mud
+setblock ~ ~ ~ minecraft:mud

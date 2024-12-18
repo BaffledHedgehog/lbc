@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brown_concrete
+setblock ~ ~ ~ minecraft:brown_concrete

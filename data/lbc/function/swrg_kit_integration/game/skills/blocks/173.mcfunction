@@ -1,1 +1,1 @@
-setblock ~ ~ ~ wall_torch
+setblock ~ ~ ~ minecraft:wall_torch

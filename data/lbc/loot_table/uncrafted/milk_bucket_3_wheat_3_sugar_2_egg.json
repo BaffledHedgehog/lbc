@@ -8,13 +8,14 @@
                     "name": "minecraft:milk_bucket",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 3
                         }
                     ]
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -22,13 +23,14 @@
                     "name": "minecraft:wheat",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 3
                         }
                     ]
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -36,13 +38,14 @@
                     "name": "minecraft:sugar",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 2
                         }
                     ]
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {

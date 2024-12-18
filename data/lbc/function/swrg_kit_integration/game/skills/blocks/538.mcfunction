@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cut_red_sandstone
+setblock ~ ~ ~ minecraft:cut_red_sandstone

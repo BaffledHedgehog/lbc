@@ -1,1 +1,1 @@
-setblock ~ ~ ~ piglin_wall_head
+setblock ~ ~ ~ minecraft:piglin_wall_head

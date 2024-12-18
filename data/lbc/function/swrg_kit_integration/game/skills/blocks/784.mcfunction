@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bell
+setblock ~ ~ ~ minecraft:bell

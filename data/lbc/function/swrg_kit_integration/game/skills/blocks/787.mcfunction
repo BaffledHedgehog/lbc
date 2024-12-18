@@ -1,1 +1,1 @@
-setblock ~ ~ ~ campfire
+setblock ~ ~ ~ minecraft:campfire

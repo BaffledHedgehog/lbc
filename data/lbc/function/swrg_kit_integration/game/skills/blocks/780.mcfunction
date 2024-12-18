@@ -1,1 +1,1 @@
-setblock ~ ~ ~ grindstone
+setblock ~ ~ ~ minecraft:grindstone

@@ -1,36 +1,36 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:using_item",
-      "conditions": {
-        "item": {
-          "items": [
-            "minecraft:shield"
-          ],
-          "predicates": {
-            "minecraft:custom_data": {
-              "holyshield": true
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:shield"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "holyshield":1
+                        }
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
+                    }
+                ]
             }
-          }
-        },
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "dimension": "minecraft:nexus"
-                }
-              }
-            }
-          }
-        ]
-      }
+        }
+    },
+    "rewards": {
+        "function": "lbc:items/shields/holyshield"
     }
-  },
-  "rewards": {
-    "function": "lbc:items/shields/holyshield"
-  }
 }

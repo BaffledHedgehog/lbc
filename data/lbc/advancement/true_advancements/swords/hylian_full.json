@@ -4,7 +4,11 @@
             "id": "minecraft:netherite_sword",
             "components": {
                 "minecraft:enchantment_glint_override": true,
-                "minecraft:custom_model_data": 501
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        501.0
+                    ]
+                }
             }
         },
         "title": {
@@ -39,18 +43,18 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "hylian": true
+                                "transformable":1,
+                                "sword":1,
+                                "hylian":1
                             }
                         }
                     },
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "shield": true,
-                                "hylianshield": true
+                                "transformable":1,
+                                "shield":1,
+                                "hylianshield":1
                             }
                         }
                     }

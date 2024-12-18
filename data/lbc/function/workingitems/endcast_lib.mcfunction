@@ -1,4 +1,4 @@
-effect give @s slow_falling 3 0 true
+effect give @s minecraft:slow_falling 3 0 true
 playsound minecraft:entity.enderman.teleport master @a[distance=..16] ~ ~ ~ 2
 playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ 200
 particle minecraft:portal ~ ~ ~1 0.2 0.5 0.2 0.5 100 force

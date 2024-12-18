@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_coal_ore
+setblock ~ ~ ~ minecraft:deepslate_coal_ore

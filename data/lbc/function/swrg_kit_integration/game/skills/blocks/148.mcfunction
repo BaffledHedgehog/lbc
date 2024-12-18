@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dandelion
+setblock ~ ~ ~ minecraft:dandelion

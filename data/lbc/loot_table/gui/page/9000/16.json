@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "potion_contents": {
+                                "minecraft:potion_contents": {
                                     "custom_color": 2688004
                                 }
                             }

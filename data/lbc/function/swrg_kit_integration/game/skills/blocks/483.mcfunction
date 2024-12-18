@@ -1,1 +1,1 @@
-setblock ~ ~ ~ yellow_carpet
+setblock ~ ~ ~ minecraft:yellow_carpet

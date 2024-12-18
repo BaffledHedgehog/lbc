@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_pressure_plate
+setblock ~ ~ ~ minecraft:spruce_pressure_plate

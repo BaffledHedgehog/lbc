@@ -1,1 +1,1 @@
-setblock ~ ~ ~ blackstone_stairs
+setblock ~ ~ ~ minecraft:blackstone_stairs

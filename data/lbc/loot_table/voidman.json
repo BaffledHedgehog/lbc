@@ -1,67 +1,72 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:repeating_command_block",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 576,
-                "minecraft:custom_data": {
-                  "liquidvoid": true
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "liquid_abyss",
-                  "italic": false,
-                  "color": "dark_purple"
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        576.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "liquid_abyss",
+                                    "italic": false,
+                                    "color": "dark_purple"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "liquid_abyss.lore",
+                                    "color": "dark_purple",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{liquidvoid:1}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate": "liquid_abyss.lore",
-                  "color": "dark_purple",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            ]
+        },
         {
-          "type": "loot_table",
-          "weight": 10,
-          "quality": 8,
-          "value": "lbc:sauvojen_tuntija_blind",
-          "conditions": [
-            {
-              "condition": "random_chance",
-              "chance": 0.1
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "quality": 8,
+                    "value": "lbc:sauvojen_tuntija_blind",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

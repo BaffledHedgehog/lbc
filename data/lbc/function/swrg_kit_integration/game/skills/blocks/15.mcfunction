@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_planks
+setblock ~ ~ ~ minecraft:spruce_planks

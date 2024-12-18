@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pink_petals
+setblock ~ ~ ~ minecraft:pink_petals

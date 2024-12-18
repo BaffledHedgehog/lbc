@@ -1,1 +1,1 @@
-setblock ~ ~ ~ emerald_ore
+setblock ~ ~ ~ minecraft:emerald_ore

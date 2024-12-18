@@ -16,4 +16,4 @@ execute if entity @s[team=15] run data modify storage lbc.math tmp set value 15
 execute if entity @s[team=16] run data modify storage lbc.math tmp set value 16
 execute if entity @s[scores={november=1}] run function lbc:start_nov_event_jedi with storage lbc.math
 execute if entity @s[scores={november=2}] run function lbc:start_nov_event_sith with storage lbc.math
-tellraw @s[scores={november=1..2}] [{"translate":"november_stat","color": "yellow"},{"translate":"jedi","color": "aqua"},{"score":{"name": "jedi","objective": "lbc.math"}},{"translate":"sith","color": "red"},{"score":{"name": "sith","objective": "lbc.math"}}]
+tellraw @s[scores={november=1..2}] [{"translate":"november_stat","color":"yellow"},{"translate":"jedi","color":"aqua"},{"score":{"name":"jedi","objective":"lbc.math"},"type":"score"},{"translate":"sith","color":"red"},{"score":{"name":"sith","objective":"lbc.math"},"type":"score"}]

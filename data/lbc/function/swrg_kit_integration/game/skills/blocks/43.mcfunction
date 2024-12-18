@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_iron_ore
+setblock ~ ~ ~ minecraft:deepslate_iron_ore

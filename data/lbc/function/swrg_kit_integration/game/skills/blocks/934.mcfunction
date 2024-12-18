@@ -1,1 +1,1 @@
-setblock ~ ~ ~ exposed_copper
+setblock ~ ~ ~ minecraft:exposed_copper

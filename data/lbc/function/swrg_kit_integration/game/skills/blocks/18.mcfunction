@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_planks
+setblock ~ ~ ~ minecraft:acacia_planks

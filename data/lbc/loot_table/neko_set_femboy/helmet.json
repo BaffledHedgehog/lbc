@@ -10,39 +10,41 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "helmet": true,
-                                    "nyauwu": true,
-                                    "mage": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        19.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 19,
                                 "minecraft:max_damage": 1800,
                                 "minecraft:enchantments": {
-                                    "minecraft:fire_protection": 5,
-                                    "minecraft:blast_protection": 5,
-                                    "minecraft:projectile_protection": 5
+                                    "levels": {
+                                        "minecraft:fire_protection": 5,
+                                        "minecraft:blast_protection": 5,
+                                        "minecraft:projectile_protection": 5
+                                    }
                                 },
                                 "minecraft:dyed_color": {
                                     "rgb": 774,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:player.sneaking_speed",
-                                        "slot": "head",
-                                        "id": "ghfh438jh5rfdfdfdfd6hhtkhed",
-                                        "amount": 1,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "head",
-                                        "id": "ghfherg6rjh6hjtujkhed",
-                                        "amount": 4,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:sneaking_speed",
+                                            "slot": "head",
+                                            "id": "ghfh438jh5rfdfdfdfd6hhtkhed",
+                                            "amount": 1,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "head",
+                                            "id": "ghfherg6rjh6hjtujkhed",
+                                            "amount": 4,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -123,6 +125,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,helmet:1,nyauwu:1,mage:1}"
                         }
                     ]
                 }

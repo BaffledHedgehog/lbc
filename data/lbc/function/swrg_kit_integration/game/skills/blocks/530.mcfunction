@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purple_wall_banner
+setblock ~ ~ ~ minecraft:purple_wall_banner

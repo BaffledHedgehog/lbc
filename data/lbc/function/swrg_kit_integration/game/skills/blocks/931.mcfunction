@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sculk_catalyst
+setblock ~ ~ ~ minecraft:sculk_catalyst

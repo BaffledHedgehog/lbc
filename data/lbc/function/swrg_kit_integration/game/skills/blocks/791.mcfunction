@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_warped_stem
+setblock ~ ~ ~ minecraft:stripped_warped_stem

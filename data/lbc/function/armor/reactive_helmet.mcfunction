@@ -1,3 +1,3 @@
-effect clear @s blindness
-effect clear @s darkness
-effect clear @s nausea
+effect clear @s minecraft:blindness
+effect clear @s minecraft:darkness
+effect clear @s minecraft:nausea

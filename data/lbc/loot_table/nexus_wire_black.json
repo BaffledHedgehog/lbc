@@ -4,26 +4,26 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "nexus_wire_black": true,
-                                    "instantitem": true
-                                },
-                                "minecraft:custom_model_data": 649
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        649.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "nexus_wire_black",
@@ -52,6 +52,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{nexus_wire_black:1,instantitem:1}"
                         }
                     ]
                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purple_stained_glass_pane
+setblock ~ ~ ~ minecraft:purple_stained_glass_pane

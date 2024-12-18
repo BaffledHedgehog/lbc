@@ -1,1 +1,1 @@
-setblock ~ ~ ~ iron_door
+setblock ~ ~ ~ minecraft:iron_door

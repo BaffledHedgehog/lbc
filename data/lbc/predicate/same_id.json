@@ -1,45 +1,44 @@
 [
     {
-      "condition": "minecraft:entity_scores",
-      "entity": "this",
-      "scores": {
-        "lbcID2": {
-          "min": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "*temp"
-            },
-            "score": "lbcID2"
-          },
-          "max": {
-            "type": "minecraft:score",
-            "target": {
-              "type": "minecraft:fixed",
-              "name": "*temp"
-            },
-            "score": "lbcID2"
-          }
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "lbcID2": {
+                "min": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "*temp"
+                    },
+                    "score": "lbcID2"
+                },
+                "max": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "*temp"
+                    },
+                    "score": "lbcID2"
+                }
+            }
         }
-      }
     },
     {
-      "condition": "minecraft:entity_scores",
-      "entity": "this",
-      "scores": {
-        "lbcID2": {
-          "min": {
-            "type": "minecraft:score",
-            "target": "this",
-            "score": "lbcID2"
-          },
-          "max": {
-            "type": "minecraft:score",
-            "target": "this",
-            "score": "lbcID2"
-          }
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "lbcID2": {
+                "min": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "lbcID2"
+                },
+                "max": {
+                    "type": "minecraft:score",
+                    "target": "this",
+                    "score": "lbcID2"
+                }
+            }
         }
-      }
     }
-  ]
-  
+]

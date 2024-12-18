@@ -1,8 +1,8 @@
-particle cloud ~ ~ ~ 0 0 0 0 1 force
-particle sculk_soul ~ ~ ~ 0 0 0 0 1 normal
+particle minecraft:cloud ~ ~ ~ 0 0 0 0 1 force
+particle minecraft:sculk_soul ~ ~ ~ 0 0 0 0 1 normal
 execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator] lbcID2 = @s lbcID2 run tag @p[gamemode=!spectator] add nodamage
-execute unless entity @e[type=#mobs,tag=!spectator,tag=!nodamage,distance=..15] facing entity @e[type=#mobs,tag=!spectator,sort=nearest,tag=!nodamage,limit=1] eyes run tp @s ^ ^ ^.5
-execute if entity @e[type=#mobs,tag=!spectator,tag=!nodamage,distance=..15] run tp @s @e[type=#mobs,tag=!spectator,sort=random,tag=!nodamage,distance=..25,limit=1]
+execute unless entity @e[type=#minecraft:mobs,distance=..15,tag=!spectator,tag=!nodamage] facing entity @e[type=#minecraft:mobs,tag=!spectator,tag=!nodamage,sort=nearest,limit=1] eyes run tp @s ^ ^ ^.5
+execute if entity @e[type=#minecraft:mobs,distance=..15,tag=!spectator,tag=!nodamage] run tp @s @e[type=#minecraft:mobs,distance=..25,tag=!spectator,tag=!nodamage,sort=random,limit=1]
 
 
 

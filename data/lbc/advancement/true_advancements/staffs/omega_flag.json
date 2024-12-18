@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":590}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        590.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.staff.omega_flag"
@@ -29,11 +35,11 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                          "transformable": true,
-                                          "staff": true,
-                                          "omegaflag": true
+                                            "transformable":1,
+                                            "staff":1,
+                                            "omegaflag":1
                                         }
-                                      }
+                                    }
                                 }
                             }
                         }

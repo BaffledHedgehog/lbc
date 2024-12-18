@@ -4,29 +4,26 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "craftusable": true,
-                                    "transformable": true,
-                                    "staff": true,
-                                    "magicwand": true,
-                                    "stblind": true
-                                },
-                                "minecraft:custom_model_data": 640
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        640.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "sauvojen_wand_blind",
@@ -36,7 +33,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -59,7 +56,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -88,6 +86,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,transformable:1,staff:1,magicwand:1,stblind:1}"
                         }
                     ]
                 }

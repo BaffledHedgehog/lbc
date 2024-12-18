@@ -1,36 +1,35 @@
 {
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:player_killed_entity",
-        "conditions": {
-          "entity": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type": "minecraft:player"
-              }
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player"
+                        }
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
+                    }
+                ]
             }
-          ],
-          "player": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "dimension": "minecraft:nexus"
-                  }
-                }
-              }
-            }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "lbc:items/player_killed_player"
+        "function": "lbc:items/player_killed_player"
     }
-  }
-  
+}

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chain_command_block
+setblock ~ ~ ~ minecraft:chain_command_block

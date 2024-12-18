@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light_gray_banner
+setblock ~ ~ ~ minecraft:light_gray_banner

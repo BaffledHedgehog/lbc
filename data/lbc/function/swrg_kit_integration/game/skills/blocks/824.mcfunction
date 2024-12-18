@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_stairs
+setblock ~ ~ ~ minecraft:warped_stairs

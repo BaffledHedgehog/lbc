@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_azure_bluet
+setblock ~ ~ ~ minecraft:potted_azure_bluet

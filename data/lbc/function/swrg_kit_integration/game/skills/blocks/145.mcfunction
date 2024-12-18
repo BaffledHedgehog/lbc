@@ -1,1 +1,1 @@
-setblock ~ ~ ~ red_wool
+setblock ~ ~ ~ minecraft:red_wool

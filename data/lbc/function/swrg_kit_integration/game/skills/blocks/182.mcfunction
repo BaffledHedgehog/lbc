@@ -1,1 +1,1 @@
-setblock ~ ~ ~ diamond_block
+setblock ~ ~ ~ minecraft:diamond_block

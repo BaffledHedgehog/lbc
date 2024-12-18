@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_pressure_plate
+setblock ~ ~ ~ minecraft:crimson_pressure_plate

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cut_copper_stairs
+setblock ~ ~ ~ minecraft:cut_copper_stairs

@@ -9,7 +9,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":685}
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        685.0
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -29,31 +35,38 @@
                                     "translate": "lore.lbckit.7.0",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbckit.7.1",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbckit.7.2",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbckit.7.3",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbckit.7.4",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbckit.7.5",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbckit.7.6",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbckit.7.7",
                                     "italic": false,
                                     "color": "gray"

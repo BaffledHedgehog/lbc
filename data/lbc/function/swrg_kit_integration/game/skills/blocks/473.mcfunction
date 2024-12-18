@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_prismarine_stairs
+setblock ~ ~ ~ minecraft:dark_prismarine_stairs

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_stairs
+setblock ~ ~ ~ minecraft:crimson_stairs

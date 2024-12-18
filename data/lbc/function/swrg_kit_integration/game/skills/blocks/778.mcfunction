@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cartography_table
+setblock ~ ~ ~ minecraft:cartography_table

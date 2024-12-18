@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potatoes
+setblock ~ ~ ~ minecraft:potatoes

@@ -4,30 +4,35 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 },
-                                "minecraft:custom_name": "{\"translate\":\"infinite_lucky_block\",\"color\":\"yellow\",\"italic\":false}",
+                                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"translate\":\"infinite_lucky_block\"}",
                                 "minecraft:lore": [
                                     "{\"translate\":\"infinite_lucky_block.lore\",\"color\":\"yellow\",\"italic\":false}"
                                 ],
-                                "minecraft:custom_data": {
-                                    "magicwand": 1,
-                                    "luckyblockwand": 1,
-                                    "craftusable": 1
-                                },
-                                "minecraft:custom_model_data": 605
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        605.0
+                                    ]
+                                }
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magicwand:1,luckyblockwand:1,craftusable:1}"
                         }
                     ]
                 }

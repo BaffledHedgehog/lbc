@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":632}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        632.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.tuntija.ruby"
@@ -36,7 +42,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "struby": true
+                                "struby":1
                             }
                         }
                     }

@@ -4,11 +4,11 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:random_sauvojen_wand",
                     "conditions": [
                         {
-                            "condition": "random_chance",
+                            "condition": "minecraft:random_chance",
                             "chance": 1
                         }
                     ]
@@ -19,31 +19,31 @@
             "rolls": 5,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bone",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 32
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bone_meal",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 64
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bone_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         }
                     ]
@@ -54,98 +54,102 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "bone",
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 1
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "id": "minughv8irghvdeg",
-                                        "type": "minecraft:generic.attack_damage",
-                                        "amount": 7,
-                                        "operation": "add_value",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:generic.attack_speed",
-                                        "amount": -3,
-                                        "operation": "add_value",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:generic.knockback_resistance",
-                                        "amount": 1,
-                                        "operation": "add_value",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:generic.movement_speed",
-                                        "amount": -0.7,
-                                        "operation": "add_multiplied_total",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:generic.scale",
-                                        "amount": 0.5,
-                                        "operation": "add_multiplied_total",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:generic.step_height",
-                                        "amount": 1,
-                                        "operation": "add_value",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:generic.fall_damage_multiplier",
-                                        "amount": -0.1,
-                                        "operation": "add_multiplied_total",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:generic.safe_fall_distance",
-                                        "amount": 3,
-                                        "operation": "add_value",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:generic.jump_strength",
-                                        "amount": 0.5,
-                                        "operation": "add_multiplied_total",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:player.block_interaction_range",
-                                        "amount": 0.5,
-                                        "operation": "add_multiplied_total",
-                                        "slot": "mainhand"
-                                    },
-                                    {
-                                        "id": "minughv8irghgegvrvdeg",
-                                        "type": "minecraft:player.entity_interaction_range",
-                                        "amount": 0.5,
-                                        "operation": "add_multiplied_total",
-                                        "slot": "mainhand"
+                                    "levels": {
+                                        "minecraft:knockback": 1
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "id": "minughv8irghvdeg",
+                                            "type": "minecraft:attack_damage",
+                                            "amount": 7,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:attack_speed",
+                                            "amount": -3,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:knockback_resistance",
+                                            "amount": 1,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:movement_speed",
+                                            "amount": -0.7,
+                                            "operation": "add_multiplied_total",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:scale",
+                                            "amount": 0.5,
+                                            "operation": "add_multiplied_total",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:step_height",
+                                            "amount": 1,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:fall_damage_multiplier",
+                                            "amount": -0.1,
+                                            "operation": "add_multiplied_total",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:safe_fall_distance",
+                                            "amount": 3,
+                                            "operation": "add_value",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:jump_strength",
+                                            "amount": 0.5,
+                                            "operation": "add_multiplied_total",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:block_interaction_range",
+                                            "amount": 0.5,
+                                            "operation": "add_multiplied_total",
+                                            "slot": "mainhand"
+                                        },
+                                        {
+                                            "id": "minughv8irghgegvrvdeg",
+                                            "type": "minecraft:entity_interaction_range",
+                                            "amount": 0.5,
+                                            "operation": "add_multiplied_total",
+                                            "slot": "mainhand"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "omega_bone",
@@ -155,7 +159,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [

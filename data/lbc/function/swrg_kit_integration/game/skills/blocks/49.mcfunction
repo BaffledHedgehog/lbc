@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_log
+setblock ~ ~ ~ minecraft:birch_log

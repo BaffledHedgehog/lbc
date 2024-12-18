@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sugar_cane
+setblock ~ ~ ~ minecraft:sugar_cane

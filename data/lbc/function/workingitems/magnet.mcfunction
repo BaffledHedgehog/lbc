@@ -1,5 +1,5 @@
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"magnet": true}}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
-execute at @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"magnet": true}}}]}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"magnet": true}}}}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
-execute at @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"magnet": true}}}]}] unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run tp @e[type=item,distance=..30] @s
-execute if entity @e[type=item,distance=..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{"penis_bomb":true}}}}] run advancement grant @s only lbc:true_advancements/accesories/magnet
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{magnet:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=minecraft:item,distance=..30] @s
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{magnet:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=minecraft:item,distance=..30] @s
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{magnet:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=minecraft:item,distance=..30] @s
+execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{magnet:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=minecraft:item,distance=..30] @s
+execute if entity @e[type=minecraft:item,distance=..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{penis_bomb:1}}}}] run advancement grant @s only lbc:true_advancements/accesories/magnet

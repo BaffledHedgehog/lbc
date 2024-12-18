@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_spruce_wood
+setblock ~ ~ ~ minecraft:stripped_spruce_wood

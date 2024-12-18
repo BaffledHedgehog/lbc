@@ -1,1 +1,1 @@
-setblock ~ ~ ~ torchflower_crop
+setblock ~ ~ ~ minecraft:torchflower_crop

@@ -1,2 +1,2 @@
-fill ~.3 ~.3 ~.3 ~-.3 ~-.3 ~-.3 air destroy
+fill ~.3 ~.3 ~.3 ~-.3 ~-.3 ~-.3 minecraft:air destroy
 kill @s

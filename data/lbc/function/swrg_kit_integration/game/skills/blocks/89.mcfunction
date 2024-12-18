@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_oak_leaves
+setblock ~ ~ ~ minecraft:dark_oak_leaves

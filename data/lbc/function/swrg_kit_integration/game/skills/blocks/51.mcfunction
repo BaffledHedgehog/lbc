@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_log
+setblock ~ ~ ~ minecraft:acacia_log

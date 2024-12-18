@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_stairs
+setblock ~ ~ ~ minecraft:mangrove_stairs

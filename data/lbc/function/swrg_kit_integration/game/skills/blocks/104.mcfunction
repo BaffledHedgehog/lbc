@@ -1,1 +1,1 @@
-setblock ~ ~ ~ white_bed
+setblock ~ ~ ~ minecraft:white_bed

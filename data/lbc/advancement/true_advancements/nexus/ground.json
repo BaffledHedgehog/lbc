@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "components": {"minecraft:custom_model_data":660}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        660.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.nexus.ground"
@@ -22,7 +28,7 @@
             "conditions": {
                 "player": [
                     {
-                        "condition": "all_of",
+                        "condition": "minecraft:all_of",
                         "terms": [
                             {
                                 "condition": "minecraft:inverted",
@@ -35,7 +41,7 @@
                                 }
                             },
                             {
-                                "condition": "entity_properties",
+                                "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
                                     "nbt": "{OnGround:1b}",

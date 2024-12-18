@@ -1,5 +1,5 @@
 execute store result score #random8 lbc.math run random value 1..8
-playsound entity.arrow.shoot master @a ~ ~ ~ 1
+playsound minecraft:entity.arrow.shoot master @a ~ ~ ~ 1
 execute if score #random8 lbc.math matches 1 run function lbc:other/phantomarrows/1
 execute if score #random8 lbc.math matches 2 run function lbc:other/phantomarrows/2
 execute if score #random8 lbc.math matches 3 run function lbc:other/phantomarrows/3

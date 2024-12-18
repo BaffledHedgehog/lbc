@@ -1,1 +1,1 @@
-effect give @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"kiuaskivi":true}}}}] fire_resistance 1 2 true
+effect give @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{kiuaskivi:1}}}}] minecraft:fire_resistance 1 2 true

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ terracotta
+setblock ~ ~ ~ minecraft:terracotta

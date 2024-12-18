@@ -1,2 +1,2 @@
-effect give @e[distance=..5,type=#mobs,tag=!nodamage,tag=!spectator] poison 50 10
-effect give @e[distance=..5,type=#mobs,tag=!nodamage,tag=!spectator] wither 10 10
+effect give @e[type=#minecraft:mobs,distance=..5,tag=!nodamage,tag=!spectator] minecraft:poison 50 10
+effect give @e[type=#minecraft:mobs,distance=..5,tag=!nodamage,tag=!spectator] minecraft:wither 10 10

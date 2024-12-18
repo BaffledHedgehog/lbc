@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mossy_cobblestone
+setblock ~ ~ ~ minecraft:mossy_cobblestone

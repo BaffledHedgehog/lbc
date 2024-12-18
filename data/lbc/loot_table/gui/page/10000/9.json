@@ -9,7 +9,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":688}
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        688.0
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -29,7 +35,8 @@
                                     "translate": "lore.lbcskill.9.0",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.9.1",
                                     "italic": false,
                                     "color": "gray"

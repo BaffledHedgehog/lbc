@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "components": {"minecraft:custom_model_data":571}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        571.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.arcanums.barrier"
@@ -32,18 +38,18 @@
                         }
                     },
                     {
-                        "condition": "entity_properties",
+                        "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                          "transformable": true,
-                                          "arcanum": true,
-                                          "barrier_arcanum": true
+                                            "transformable":1,
+                                            "arcanum":1,
+                                            "barrier_arcanum":1
                                         }
-                                      }
+                                    }
                                 }
                             }
                         }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ orange_concrete
+setblock ~ ~ ~ minecraft:orange_concrete

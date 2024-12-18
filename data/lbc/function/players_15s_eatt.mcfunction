@@ -1,2 +1,2 @@
-effect give @s saturation 1 1
+effect give @s minecraft:saturation 1 1
 scoreboard players add @s food_count 1

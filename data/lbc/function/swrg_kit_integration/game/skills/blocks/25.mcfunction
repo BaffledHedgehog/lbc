@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_sapling
+setblock ~ ~ ~ minecraft:spruce_sapling

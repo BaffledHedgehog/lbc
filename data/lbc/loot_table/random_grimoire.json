@@ -4,14 +4,15 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:spells_library",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 6
+                                "max": 6,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]

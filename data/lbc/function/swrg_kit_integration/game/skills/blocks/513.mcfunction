@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cyan_banner
+setblock ~ ~ ~ minecraft:cyan_banner

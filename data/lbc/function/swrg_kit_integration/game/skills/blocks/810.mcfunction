@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_roots
+setblock ~ ~ ~ minecraft:crimson_roots

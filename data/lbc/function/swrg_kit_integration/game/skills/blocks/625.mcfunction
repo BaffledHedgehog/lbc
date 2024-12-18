@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purple_shulker_box
+setblock ~ ~ ~ minecraft:purple_shulker_box

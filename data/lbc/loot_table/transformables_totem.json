@@ -1,138 +1,141 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "loot_table",
-          "weight": 10,
-          "quality": 8,
-          "value": "lbc:infinite_totem"
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 7,
-          "name": "minecraft:totem_of_undying",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "totem": true,
-                  "deviltotem": true
-                },
-                "minecraft:custom_model_data": 557
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "devil_totem.name.1",
-                  "color": "dark_red",
-                  "bold": false,
-                  "italic": false
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "quality": 8,
+                    "value": "lbc:infinite_totem"
                 },
                 {
-                  "translate": "devil_totem.name.2",
-                  "color": "dark_red",
-                  "bold": true,
-                  "italic": false,
-                  "obfuscated": true
-                },
-                {
-                  "translate": "devil_totem.name.3",
-                  "color": "dark_red",
-                  "bold": false,
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.name.4",
-                  "color": "dark_red",
-                  "bold": true,
-                  "italic": false,
-                  "obfuscated": true
-                },
-                {
-                  "translate": "devil_totem.name.5",
-                  "color": "dark_red",
-                  "bold": false,
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 7,
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        557.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "devil_totem.name.1",
+                                    "color": "dark_red",
+                                    "bold": false,
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.name.2",
+                                    "color": "dark_red",
+                                    "bold": true,
+                                    "italic": false,
+                                    "obfuscated": true
+                                },
+                                {
+                                    "translate": "devil_totem.name.3",
+                                    "color": "dark_red",
+                                    "bold": false,
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.name.4",
+                                    "color": "dark_red",
+                                    "bold": true,
+                                    "italic": false,
+                                    "obfuscated": true
+                                },
+                                {
+                                    "translate": "devil_totem.name.5",
+                                    "color": "dark_red",
+                                    "bold": false,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "totem",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "devil_totem.lore.1",
+                                    "color": "dark_red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.lore.2",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.lore.3",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.lore.4",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.lore.5",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.lore.6",
+                                    "color": "dark_red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.lore.7",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.lore.8",
+                                    "color": "red",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "devil_totem.lore.9",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,totem:1,deviltotem:1}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "totem",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "devil_totem.lore.1",
-                  "color": "dark_red",
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.lore.2",
-                  "color": "red",
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.lore.3",
-                  "color": "red",
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.lore.4",
-                  "color": "red",
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.lore.5",
-                  "color": "red",
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.lore.6",
-                  "color": "dark_red",
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.lore.7",
-                  "color": "red",
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.lore.8",
-                  "color": "red",
-                  "italic": false
-                },
-                {
-                  "translate": "devil_totem.lore.9",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

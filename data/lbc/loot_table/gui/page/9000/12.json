@@ -9,7 +9,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_model_data":747}
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        747.0
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_tile_slab
+setblock ~ ~ ~ minecraft:deepslate_tile_slab

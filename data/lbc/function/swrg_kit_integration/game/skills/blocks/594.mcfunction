@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chorus_flower
+setblock ~ ~ ~ minecraft:chorus_flower

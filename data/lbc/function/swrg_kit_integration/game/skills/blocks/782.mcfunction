@@ -1,1 +1,1 @@
-setblock ~ ~ ~ smithing_table
+setblock ~ ~ ~ minecraft:smithing_table

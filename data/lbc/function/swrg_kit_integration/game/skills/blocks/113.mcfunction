@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cyan_bed
+setblock ~ ~ ~ minecraft:cyan_bed

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stone_brick_stairs
+setblock ~ ~ ~ minecraft:stone_brick_stairs

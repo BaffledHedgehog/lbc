@@ -1,1 +1,1 @@
-setblock ~ ~ ~ coal_block
+setblock ~ ~ ~ minecraft:coal_block

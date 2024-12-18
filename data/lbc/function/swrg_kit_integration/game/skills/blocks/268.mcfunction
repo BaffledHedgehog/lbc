@@ -1,1 +1,1 @@
-setblock ~ ~ ~ repeater
+setblock ~ ~ ~ minecraft:repeater

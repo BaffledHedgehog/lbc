@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_tuff
+setblock ~ ~ ~ minecraft:polished_tuff

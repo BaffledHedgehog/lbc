@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_stairs
+setblock ~ ~ ~ minecraft:birch_stairs

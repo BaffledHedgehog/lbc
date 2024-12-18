@@ -1,10 +1,10 @@
 gamerule doTileDrops false
 gamerule doMobLoot false
 gamerule doEntityDrops false
-tp @e[type=!player,tag=!supernovacore] 0 -600000 0
-kill @e[type=!player,tag=!supernovacore]
-kill @e[type=!player,tag=!supernovacore]
-kill @e[type=!player,tag=!supernovacore]
+tp @e[type=!minecraft:player,tag=!supernovacore] 0 -600000 0
+kill @e[type=!minecraft:player,tag=!supernovacore]
+kill @e[type=!minecraft:player,tag=!supernovacore]
+kill @e[type=!minecraft:player,tag=!supernovacore]
 clear @a
 effect clear @a
 
@@ -111,8 +111,8 @@ execute as @a run function swrg:gui/clear
 execute as @a run function swrg:core/player/reset_attributes
 #
 tp @a 0 128 0
-execute as @e[tag=swrg.spawn,sort=random] at @s unless entity @p[distance=..1,gamemode=!spectator] run tp @r[x=0,y=128,z=0,distance=..20,gamemode=!spectator] @s
-execute as @a[gamemode=!spectator] at @s run tp @s ~ ~1 ~ facing entity @e[type=marker,tag=swrg.look,limit=1]
+execute as @e[tag=swrg.spawn,sort=random] at @s unless entity @p[gamemode=!spectator,distance=..1] run tp @r[gamemode=!spectator,x=0,y=128,z=0,distance=..20] @s
+execute as @a[gamemode=!spectator] at @s run tp @s ~ ~1 ~ facing entity @e[type=minecraft:marker,tag=swrg.look,limit=1]
 function swrg:game/chests/fill
 playsound minecraft:lbcsounds.burning_balance master @a 0 1000000 0 1 1 1
 playsound minecraft:lbcsounds.burning_balance master @a 0 -1000000 0 1 1 1
@@ -129,9 +129,9 @@ scoreboard objectives add coldown_vampire dummy
 scoreboard objectives add coldown_foxus dummy
 scoreboard objectives add coldown_blood dummy
 scoreboard objectives add coldown_wiki dummy
-effect give @a resistance 5 4 true
-effect give @a instant_health 5 4 true
-effect give @a saturation 5 40 true
+effect give @a minecraft:resistance 5 4 true
+effect give @a minecraft:instant_health 5 4 true
+effect give @a minecraft:saturation 5 40 true
 gamerule doTileDrops true
 gamerule doMobLoot true
 gamerule doEntityDrops true

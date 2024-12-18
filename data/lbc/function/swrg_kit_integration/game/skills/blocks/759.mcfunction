@@ -1,1 +1,1 @@
-setblock ~ ~ ~ diorite_slab
+setblock ~ ~ ~ minecraft:diorite_slab

@@ -1,2 +1,2 @@
-summon text_display ~.5 ~-.5 ~.5 {shadow_radius:0f,shadow_strength:0f,glow_color_override:0b,billboard:"fixed",line_width:150,text_opacity:255,default_background:0b,shadow:0b,see_through:0b,alignment:"center",Rotation:[180F,0F],brightness:{sky:15,block:15},text:'{"translate":"welcome_to_academy","color":"aqua","italic":false}',background:16777215}
-execute align xyz run summon interaction ~5 ~ ~5 {width:10f,height:6f,response:1b,Tags:["magic_academy"]}
+summon minecraft:text_display ~.5 ~-.5 ~.5 {shadow_radius:0.0f,shadow_strength:0.0f,glow_color_override:0b,billboard:"fixed",line_width:150,text_opacity:255,default_background:0b,shadow:0b,see_through:0b,alignment:"center",Rotation:[180.0f,0.0f],brightness:{sky:15,block:15},text:'{"translate":"welcome_to_academy","color":"aqua","italic":false}',background:16777215}
+execute align xyz run summon minecraft:interaction ~5 ~ ~5 {width:10.0f,height:6.0f,response:1b,Tags:["magic_academy"]}

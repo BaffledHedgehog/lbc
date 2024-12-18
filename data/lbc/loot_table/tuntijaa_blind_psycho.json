@@ -4,29 +4,36 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"staff": true,"magicwand": true,"psychoblind_wand":true},"minecraft:custom_model_data":671}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        671.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "psychoblind_wand",
                                     "italic": false,
-                                    "color":"aqua"
+                                    "color": "aqua"
                                 }
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 [
@@ -48,7 +55,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -67,6 +75,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,staff:1,magicwand:1,psychoblind_wand:1}"
                         }
                     ]
                 }

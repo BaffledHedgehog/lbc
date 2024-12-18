@@ -1,1 +1,1 @@
-setblock ~ ~ ~ orange_concrete_powder
+setblock ~ ~ ~ minecraft:orange_concrete_powder

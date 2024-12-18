@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_mosaic_slab
+setblock ~ ~ ~ minecraft:bamboo_mosaic_slab

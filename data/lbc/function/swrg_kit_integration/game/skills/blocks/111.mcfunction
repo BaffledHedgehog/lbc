@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gray_bed
+setblock ~ ~ ~ minecraft:gray_bed

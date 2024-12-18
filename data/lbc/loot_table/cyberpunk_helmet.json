@@ -10,28 +10,27 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "helmet": true,
-                                    "techno": true,
-                                    "reactive": true,
-                                    "technomk2": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        18.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 18,
                                 "minecraft:max_damage": 600,
                                 "minecraft:dyed_color": {
                                     "rgb": 773,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "head",
-                                        "id": "cyberpunk_helmet",
-                                        "amount": 6,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "head",
+                                            "id": "cyberpunk_helmet",
+                                            "amount": 6,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -118,6 +117,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,helmet:1,techno:1,reactive:1,technomk2:1}"
                         }
                     ]
                 }

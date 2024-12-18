@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mossy_stone_bricks
+setblock ~ ~ ~ minecraft:mossy_stone_bricks

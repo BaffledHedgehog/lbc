@@ -1,1 +1,1 @@
-setblock ~ ~ ~ ancient_debris
+setblock ~ ~ ~ minecraft:ancient_debris

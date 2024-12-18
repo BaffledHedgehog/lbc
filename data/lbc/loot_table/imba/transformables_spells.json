@@ -4,32 +4,28 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "raycastspell": true,
-                                    "spellitem": true,
-                                    "rune_fehu": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 751
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        751.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -57,44 +53,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_fehu",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,raycastspell:1,spellitem:1,rune_fehu:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_uruz": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 752
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        752.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -127,44 +123,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_uruz",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_uruz:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_thurisaz": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 753
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        753.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -202,44 +198,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_thurisaz",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_thurisaz:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_ansuz": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 754
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        754.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -267,44 +263,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_ansuz",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_ansuz:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_raido": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 755
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        755.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -337,44 +333,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_raido",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_raido:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_kenaz": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 756
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        756.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -402,44 +398,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_kenaz",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_kenaz:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_gifu": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 757
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        757.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -467,44 +463,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_gifu",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_gifu:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_wunjo": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 758
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        758.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -537,44 +533,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_wunjo",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_wunjo:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_hagalaz": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 759
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        759.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -602,44 +598,44 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_hagalaz",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_hagalaz:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "spellitem": true,
-                                    "rune_nautiz": true,
-                                    "raycastspell": true,
-                                    "spell": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 760
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        760.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -667,14 +663,18 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "rune_nautiz",
-                                    "color": "#e66deb",
+                                    "color": "#E66DEB",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,spellitem:1,rune_nautiz:1,raycastspell:1,spell:1,imba:1}"
                         }
                     ]
                 }

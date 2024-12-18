@@ -1,1 +1,1 @@
-setblock ~ ~ ~ weathered_cut_copper_slab
+setblock ~ ~ ~ minecraft:weathered_cut_copper_slab

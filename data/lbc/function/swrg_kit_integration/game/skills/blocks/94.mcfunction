@@ -1,1 +1,1 @@
-setblock ~ ~ ~ wet_sponge
+setblock ~ ~ ~ minecraft:wet_sponge

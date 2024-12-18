@@ -10,7 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 520,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        520.0
+                                    ]
+                                },
                                 "minecraft:block_state": {
                                     "up": "false",
                                     "down": "false",
@@ -27,7 +31,8 @@
                                 {
                                     "text": "Lucky Block",
                                     "color": "yellow",
-                                    "italic": false
+                                    "italic": false,
+                                    "type": "text"
                                 }
                             ]
                         },
@@ -38,12 +43,14 @@
                                 {
                                     "text": "Made by: FaffledHedgehog, Scuferis,",
                                     "color": "gray",
-                                    "italic": false
+                                    "italic": false,
+                                    "type": "text"
                                 },
                                 {
                                     "text": "Swagrumm9690_, JastSh2sh",
                                     "color": "gray",
-                                    "italic": false
+                                    "italic": false,
+                                    "type": "text"
                                 }
                             ]
                         }

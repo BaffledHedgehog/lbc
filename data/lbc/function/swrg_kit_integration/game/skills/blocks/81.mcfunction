@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_dark_oak_wood
+setblock ~ ~ ~ minecraft:stripped_dark_oak_wood

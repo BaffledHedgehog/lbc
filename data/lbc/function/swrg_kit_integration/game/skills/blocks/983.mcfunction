@@ -1,1 +1,1 @@
-setblock ~ ~ ~ copper_trapdoor
+setblock ~ ~ ~ minecraft:copper_trapdoor

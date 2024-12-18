@@ -14,29 +14,29 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "metal_pipe": true,
-                                    "craftusable": true,
-                                    "transformable": true,
-                                    "sword": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        594.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 594,
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "genej7cj6jxge",
-                                        "amount": 10,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "fffffffffdaerisdaerosed",
-                                        "amount": -3.1,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "genej7cj6jxge",
+                                            "amount": 10,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "fffffffffdaerisdaerosed",
+                                            "amount": -3.1,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -49,7 +49,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -70,6 +70,10 @@
                                     "color": "yellow"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{metal_pipe:1,craftusable:1,transformable:1,sword:1}"
                         }
                     ]
                 }

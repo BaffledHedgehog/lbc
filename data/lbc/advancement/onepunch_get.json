@@ -1,41 +1,41 @@
 {
     "criteria": {
-      "requirement": {
-        "trigger": "tick",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "predicates": {
-                      "minecraft:custom_data": {
-                        "one_punch": true
-                      }
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:custom_data": {
+                                            "one_punch":1
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
                     }
-                  }
-                }
-              }
-            },{
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "dimension": "minecraft:nexus"
-                  }
-                }
-              }
+                ]
             }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "lbc:workingitems/one_punch_get_damage"
+        "function": "lbc:workingitems/one_punch_get_damage"
     }
-  }
-  
+}

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sniffer_egg
+setblock ~ ~ ~ minecraft:sniffer_egg

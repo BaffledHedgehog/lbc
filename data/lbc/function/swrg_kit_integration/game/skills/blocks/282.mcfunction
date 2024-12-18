@@ -1,1 +1,1 @@
-setblock ~ ~ ~ green_stained_glass
+setblock ~ ~ ~ minecraft:green_stained_glass

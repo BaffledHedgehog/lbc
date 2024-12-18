@@ -1,1 +1,1 @@
-setblock ~ ~ ~ slime_block
+setblock ~ ~ ~ minecraft:slime_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ horn_coral_wall_fan
+setblock ~ ~ ~ minecraft:horn_coral_wall_fan

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ big_dripleaf
+setblock ~ ~ ~ minecraft:big_dripleaf

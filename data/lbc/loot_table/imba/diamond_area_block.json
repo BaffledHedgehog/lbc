@@ -14,9 +14,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 579,
-                                "minecraft:custom_data": {
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        579.0
+                                    ]
                                 },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -51,6 +52,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 }

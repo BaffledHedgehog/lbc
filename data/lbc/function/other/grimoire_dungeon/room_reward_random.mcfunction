@@ -11,4 +11,4 @@ execute if score tmp lbc.math matches 9 run function lbc:other/grimoire_dungeon/
 execute if score tmp lbc.math matches 10 run function lbc:other/grimoire_dungeon/room_rewards/luckyblock_mobs
 execute if score tmp lbc.math matches 11 run function lbc:other/grimoire_dungeon/room_rewards/luckyblocks
 execute if score tmp lbc.math matches 12 run function lbc:other/grimoire_dungeon/room_rewards/mine
-kill @s[type=marker]
+kill @s[type=minecraft:marker]

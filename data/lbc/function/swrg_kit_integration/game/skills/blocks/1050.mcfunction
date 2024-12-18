@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_flowering_azalea_bush
+setblock ~ ~ ~ minecraft:potted_flowering_azalea_bush

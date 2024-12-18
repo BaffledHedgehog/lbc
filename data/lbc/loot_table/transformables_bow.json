@@ -21,21 +21,16 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 40
+                                "max": 40,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "randchanted": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -51,28 +46,31 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,randchanted:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 10,
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "explosive": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        542.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 542,
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:feather_falling": 1
@@ -82,7 +80,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "firework.lbc",
@@ -92,7 +90,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -118,11 +116,15 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,explosive:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -140,24 +142,23 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10000,
                     "quality": 10,
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "explosive": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        542.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 542,
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:feather_falling": 1
@@ -167,7 +168,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "firework.lbc",
@@ -177,7 +178,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -203,6 +204,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,explosive:1}"
                         }
                     ],
                     "conditions": [
@@ -222,28 +227,27 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 5,
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "double": true
-                                },
-                                "minecraft:custom_model_data": 539
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        539.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "double_bow",
@@ -252,7 +256,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -273,33 +277,34 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,double:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "fast": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:quick_charge": 5
+                                    "levels": {
+                                        "minecraft:quick_charge": 5
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -327,7 +332,7 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "minigun",
@@ -335,32 +340,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,fast:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 5,
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "shulker": true
-                                },
-                                "minecraft:custom_model_data": 533
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        533.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shulker_bow",
@@ -370,7 +378,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -391,32 +399,34 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,shulker:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:quick_charge": 5
+                                    "levels": {
+                                        "minecraft:quick_charge": 5
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "very_fast_crossbow",
@@ -425,7 +435,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -441,32 +451,34 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:piercing": 10
+                                    "levels": {
+                                        "minecraft:piercing": 10
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "sniper_crossbow",
@@ -475,7 +487,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -491,32 +503,34 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:multishot": 1
+                                    "levels": {
+                                        "minecraft:multishot": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shotgun",
@@ -525,7 +539,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -541,34 +555,36 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:multishot": 1,
-                                    "minecraft:piercing": 1,
-                                    "minecraft:quick_charge": 2
+                                    "levels": {
+                                        "minecraft:multishot": 1,
+                                        "minecraft:piercing": 1,
+                                        "minecraft:quick_charge": 2
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "super_shotgun",
@@ -577,7 +593,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -593,32 +609,34 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:quick_charge": 2
+                                    "levels": {
+                                        "minecraft:quick_charge": 2
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fast_crossbow",
@@ -627,7 +645,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -643,34 +661,36 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:multishot": 1,
-                                    "minecraft:piercing": 1,
-                                    "minecraft:quick_charge": 5
+                                    "levels": {
+                                        "minecraft:multishot": 1,
+                                        "minecraft:piercing": 1,
+                                        "minecraft:quick_charge": 5
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "gatlingator",
@@ -679,7 +699,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -695,6 +715,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1}"
                         }
                     ]
                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ amethyst_block
+setblock ~ ~ ~ minecraft:amethyst_block

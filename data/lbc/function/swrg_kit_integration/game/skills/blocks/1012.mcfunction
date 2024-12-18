@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spore_blossom
+setblock ~ ~ ~ minecraft:spore_blossom

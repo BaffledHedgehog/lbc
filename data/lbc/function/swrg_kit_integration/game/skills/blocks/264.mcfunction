@@ -1,1 +1,1 @@
-setblock ~ ~ ~ nether_portal
+setblock ~ ~ ~ minecraft:nether_portal

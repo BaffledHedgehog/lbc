@@ -3,25 +3,26 @@
         {
             "rolls": {
                 "min": 1,
-                "max": 64
+                "max": 64,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 581,
-                                "minecraft:custom_data": {
-                                    "diamond_apple": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        581.0
+                                    ]
                                 }
                             }
                         },
@@ -43,25 +44,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_apple:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 582,
-                                "minecraft:custom_data": {
-                                    "golden_stew": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        582.0
+                                    ]
                                 }
                             }
                         },
@@ -83,25 +88,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_stew:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 583,
-                                "minecraft:custom_data": {
-                                    "golden_bread": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        583.0
+                                    ]
                                 }
                             }
                         },
@@ -123,25 +132,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_bread:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 584,
-                                "minecraft:custom_data": {
-                                    "golden_porkchop": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        584.0
+                                    ]
                                 }
                             }
                         },
@@ -163,25 +176,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_porkchop:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 585,
-                                "minecraft:custom_data": {
-                                    "diamond_porkchop": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        585.0
+                                    ]
                                 }
                             }
                         },
@@ -203,25 +220,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_porkchop:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 586,
-                                "minecraft:custom_data": {
-                                    "netherite_apple": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        586.0
+                                    ]
                                 }
                             }
                         },
@@ -243,25 +264,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{netherite_apple:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 587,
-                                "minecraft:custom_data": {
-                                    "bedrock_apple": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        587.0
+                                    ]
                                 }
                             }
                         },
@@ -283,45 +308,53 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bedrock_apple:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 588,
-                                "minecraft:custom_data": {
-                                    "golden_fish": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        588.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 2
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "generic.ahhethhmage",
-                                        "amount": 4,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "genghghghghgck_speed",
-                                        "amount": -1.5,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:knockback": 2
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "generic.ahhethhmage",
+                                            "amount": 4,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "genghghghghgck_speed",
+                                            "amount": -1.5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -342,47 +375,55 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_fish:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 589,
-                                "minecraft:custom_data": {
-                                    "diamond_fish": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        589.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 5,
-                                    "minecraft:bane_of_arthropods": 5,
-                                    "minecraft:lure": 5
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "gfhnhnfykjykamage",
-                                        "amount": 8,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "genejynm8kkmfghjhjhpeed",
-                                        "amount": -1.5,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:knockback": 5,
+                                        "minecraft:bane_of_arthropods": 5,
+                                        "minecraft:lure": 5
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "gfhnhnfykjykamage",
+                                            "amount": 8,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "genejynm8kkmfghjhjhpeed",
+                                            "amount": -1.5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -403,47 +444,55 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_fish:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 590,
-                                "minecraft:custom_data": {
-                                    "netherite_fish": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        590.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 255,
-                                    "minecraft:bane_of_arthropods": 255,
-                                    "minecraft:smite": 255
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "gensdhs5hbyukmyhumkage",
-                                        "amount": 14,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "genericed6bnu7tmkukbhjed",
-                                        "amount": -1.5,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:knockback": 255,
+                                        "minecraft:bane_of_arthropods": 255,
+                                        "minecraft:smite": 255
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "gensdhs5hbyukmyhumkage",
+                                            "amount": 14,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "genericed6bnu7tmkukbhjed",
+                                            "amount": -1.5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -464,47 +513,55 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{netherite_fish:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 591,
-                                "minecraft:custom_data": {
-                                    "netherstar_fish": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        591.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 255,
-                                    "minecraft:bane_of_arthropods": 255,
-                                    "minecraft:smite": 255
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "gegytunyikibhuge",
-                                        "amount": 15,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "gentnoiikhjkhjjhed",
-                                        "amount": -1.5,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:knockback": 255,
+                                        "minecraft:bane_of_arthropods": 255,
+                                        "minecraft:smite": 255
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "gegytunyikibhuge",
+                                            "amount": 15,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "gentnoiikhjkhjjhed",
+                                            "amount": -1.5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -525,47 +582,55 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{netherstar_fish:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 592,
-                                "minecraft:custom_data": {
-                                    "transdimensional_fish": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        592.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 255,
-                                    "minecraft:bane_of_arthropods": 255,
-                                    "minecraft:smite": 255
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "gedjgfynmj8knrc6rege",
-                                        "amount": 16,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "gvumtujucfyhghghed",
-                                        "amount": -1.5,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:knockback": 255,
+                                        "minecraft:bane_of_arthropods": 255,
+                                        "minecraft:smite": 255
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "gedjgfynmj8knrc6rege",
+                                            "amount": 16,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "gvumtujucfyhghghed",
+                                            "amount": -1.5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -586,47 +651,55 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transdimensional_fish:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 593,
-                                "minecraft:custom_data": {
-                                    "multiverse_fish": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        593.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 255,
-                                    "minecraft:bane_of_arthropods": 255,
-                                    "minecraft:smite": 255
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "hdbthfdchbdfhmage",
-                                        "amount": 40,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "genernjt78kitcrheyhthhd",
-                                        "amount": -1.5,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:knockback": 255,
+                                        "minecraft:bane_of_arthropods": 255,
+                                        "minecraft:smite": 255
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "hdbthfdchbdfhmage",
+                                            "amount": 40,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "genernjt78kitcrheyhthhd",
+                                            "amount": -1.5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -647,25 +720,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{multiverse_fish:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 594,
-                                "minecraft:custom_data": {
-                                    "golden_cake": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        594.0
+                                    ]
                                 }
                             }
                         },
@@ -687,25 +764,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_cake:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 595,
-                                "minecraft:custom_data": {
-                                    "golden_cookie": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        595.0
+                                    ]
                                 }
                             }
                         },
@@ -727,25 +808,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_cookie:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 596,
-                                "minecraft:custom_data": {
-                                    "golden_melon": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        596.0
+                                    ]
                                 }
                             }
                         },
@@ -767,25 +852,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_melon:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 597,
-                                "minecraft:custom_data": {
-                                    "golden_kelp": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        597.0
+                                    ]
                                 }
                             }
                         },
@@ -807,25 +896,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_kelp:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 598,
-                                "minecraft:custom_data": {
-                                    "golden_beef": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        598.0
+                                    ]
                                 }
                             }
                         },
@@ -847,25 +940,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_beef:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 599,
-                                "minecraft:custom_data": {
-                                    "diamond_beef": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        599.0
+                                    ]
                                 }
                             }
                         },
@@ -887,25 +984,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_beef:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 600,
-                                "minecraft:custom_data": {
-                                    "golden_chicken": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        600.0
+                                    ]
                                 }
                             }
                         },
@@ -927,25 +1028,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_chicken:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 601,
-                                "minecraft:custom_data": {
-                                    "diamond_chicken": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        601.0
+                                    ]
                                 }
                             }
                         },
@@ -967,25 +1072,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_chicken:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 602,
-                                "minecraft:custom_data": {
-                                    "human_flesh": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        602.0
+                                    ]
                                 }
                             }
                         },
@@ -1007,25 +1116,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{human_flesh:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 603,
-                                "minecraft:custom_data": {
-                                    "human_eye": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        603.0
+                                    ]
                                 }
                             }
                         },
@@ -1047,25 +1160,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{human_eye:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 604,
-                                "minecraft:custom_data": {
-                                    "golden_chorus": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        604.0
+                                    ]
                                 }
                             }
                         },
@@ -1087,25 +1204,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_chorus:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 605,
-                                "minecraft:custom_data": {
-                                    "golden_berries": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        605.0
+                                    ]
                                 }
                             }
                         },
@@ -1127,25 +1248,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_berries:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 606,
-                                "minecraft:custom_data": {
-                                    "diamond_carrot": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        606.0
+                                    ]
                                 }
                             }
                         },
@@ -1167,25 +1292,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_carrot:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 607,
-                                "minecraft:custom_data": {
-                                    "netherite_carrot": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        607.0
+                                    ]
                                 }
                             }
                         },
@@ -1207,25 +1336,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{netherite_carrot:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 608,
-                                "minecraft:custom_data": {
-                                    "golden_potato": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        608.0
+                                    ]
                                 }
                             }
                         },
@@ -1247,25 +1380,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_potato:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 609,
-                                "minecraft:custom_data": {
-                                    "diamond_potato": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        609.0
+                                    ]
                                 }
                             }
                         },
@@ -1287,25 +1424,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_potato:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 610,
-                                "minecraft:custom_data": {
-                                    "netherite_potato": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        610.0
+                                    ]
                                 }
                             }
                         },
@@ -1327,25 +1468,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{netherite_potato:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 611,
-                                "minecraft:custom_data": {
-                                    "golden_pie": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        611.0
+                                    ]
                                 }
                             }
                         },
@@ -1367,25 +1512,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_pie:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 612,
-                                "minecraft:custom_data": {
-                                    "golden_rabbit": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        612.0
+                                    ]
                                 }
                             }
                         },
@@ -1407,25 +1556,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_rabbit:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 613,
-                                "minecraft:custom_data": {
-                                    "diamond_rabbit": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        613.0
+                                    ]
                                 }
                             }
                         },
@@ -1447,25 +1600,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_rabbit:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 614,
-                                "minecraft:custom_data": {
-                                    "diamond_stew": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        614.0
+                                    ]
                                 }
                             }
                         },
@@ -1487,25 +1644,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_stew:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 615,
-                                "minecraft:custom_data": {
-                                    "golden_mutton": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        615.0
+                                    ]
                                 }
                             }
                         },
@@ -1527,25 +1688,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_mutton:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 616,
-                                "minecraft:custom_data": {
-                                    "diamond_mutton": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        616.0
+                                    ]
                                 }
                             }
                         },
@@ -1567,25 +1732,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_mutton:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 617,
-                                "minecraft:custom_data": {
-                                    "golden_beetroot": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        617.0
+                                    ]
                                 }
                             }
                         },
@@ -1607,25 +1776,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{golden_beetroot:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 618,
-                                "minecraft:custom_data": {
-                                    "netherite_stew": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        618.0
+                                    ]
                                 }
                             }
                         },
@@ -1647,25 +1820,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{netherite_stew:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 619,
-                                "minecraft:custom_data": {
-                                    "diamond_berries": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        619.0
+                                    ]
                                 }
                             }
                         },
@@ -1687,25 +1864,29 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{diamond_berries:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 620,
-                                "minecraft:custom_data": {
-                                    "yellow_lightings_bottle": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        620.0
+                                    ]
                                 }
                             }
                         },
@@ -1727,6 +1908,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{yellow_lightings_bottle:1,imba:1}"
                         }
                     ]
                 }

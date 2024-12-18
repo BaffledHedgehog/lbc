@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":726}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        726.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.nexus.pulsar"
@@ -36,9 +42,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "nexus_pulsar": true
+                                "nexus_pulsar":1
                             }
-                          }
+                        }
                     }
                 ]
             }

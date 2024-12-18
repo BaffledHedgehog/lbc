@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_bamboo
+setblock ~ ~ ~ minecraft:potted_bamboo

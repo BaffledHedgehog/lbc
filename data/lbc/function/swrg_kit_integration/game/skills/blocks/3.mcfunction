@@ -1,1 +1,1 @@
-setblock ~ ~ ~ granite
+setblock ~ ~ ~ minecraft:granite

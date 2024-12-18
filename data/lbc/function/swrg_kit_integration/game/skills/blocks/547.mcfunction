@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_slab
+setblock ~ ~ ~ minecraft:mangrove_slab

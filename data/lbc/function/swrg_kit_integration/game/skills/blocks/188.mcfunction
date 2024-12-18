@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_sign
+setblock ~ ~ ~ minecraft:spruce_sign

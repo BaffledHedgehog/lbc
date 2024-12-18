@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mycelium
+setblock ~ ~ ~ minecraft:mycelium

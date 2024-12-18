@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=strange_destroyer] at @s run function lbc:workingitems/summoner/cultists/stranger_3splus1at
+execute as @e[type=minecraft:marker,tag=strange_destroyer] at @s run function lbc:workingitems/summoner/cultists/stranger_3splus1at

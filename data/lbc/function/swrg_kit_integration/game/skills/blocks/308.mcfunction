@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mushroom_stem
+setblock ~ ~ ~ minecraft:mushroom_stem

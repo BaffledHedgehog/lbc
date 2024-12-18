@@ -14,9 +14,9 @@
                                     "feet": {
                                         "predicates": {
                                             "minecraft:custom_data": {
-                                              "technomk2": true
+                                                "technomk2":1
                                             }
-                                          }
+                                        }
                                     }
                                 }
                             }
@@ -28,18 +28,19 @@
                         "predicate": {
                             "nbt": "{Tags:[\"technomk2fly\"]}"
                         }
-                    },{
+                    },
+                    {
                         "condition": "minecraft:inverted",
                         "term": {
-                          "condition": "minecraft:entity_properties",
-                          "entity": "this",
-                          "predicate": {
-                            "location": {
-                              "dimension": "minecraft:nexus"
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
                             }
-                          }
                         }
-                      }
+                    }
                 ]
             }
         }

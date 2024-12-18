@@ -1,2 +1,2 @@
-execute as @a[scores={laser_minigun_cd=1..}] at @s unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/techno/laser_minigun/shoot/run
-execute as @a[scores={laser_minigun_spin=1..,laser_minigun_cd=0}] at @s unless entity @e[type=marker,tag=stopper,limit=1,distance=..20] run function lbc:other/techno/laser_minigun/shoot/run
+execute as @a[scores={laser_minigun_cd=1..}] at @s unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:other/techno/laser_minigun/shoot/run
+execute as @a[scores={laser_minigun_spin=1..,laser_minigun_cd=0}] at @s unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:other/techno/laser_minigun/shoot/run

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jukebox
+setblock ~ ~ ~ minecraft:jukebox

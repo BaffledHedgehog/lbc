@@ -8,7 +8,7 @@
                     "name": "minecraft:obsidian",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         }
                     ]
@@ -32,7 +32,7 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:potion_contents": {
                                     "custom_color": 16750848,
@@ -46,7 +46,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "item.minecraft.potion.effect.fire_resistance",

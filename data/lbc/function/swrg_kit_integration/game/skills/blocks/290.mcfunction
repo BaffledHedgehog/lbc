@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_trapdoor
+setblock ~ ~ ~ minecraft:cherry_trapdoor

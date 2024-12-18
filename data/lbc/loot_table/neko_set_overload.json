@@ -4,22 +4,21 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type":"loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_overload/helmet"
                 },
                 {
-                    "type":"loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_overload/chestplate"
                 },
                 {
-                    "type":"loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_overload/leggings"
                 },
                 {
-                    "type":"loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:neko_set_overload/boots"
                 }
-                
             ]
         }
     ]

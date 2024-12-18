@@ -10,7 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 679
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        679.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -37,23 +41,28 @@
                                     "translate": "lore.lbcskill.4.0",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.4.1",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.4.2",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.4.3",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.4.4",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbcskill.4.5",
                                     "italic": false,
                                     "color": "gray"

@@ -8,7 +8,7 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{\"chaos_pic\":true}}}}"
+                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{chaos_pic:1}}}}"
                         }
                     },
                     {
@@ -38,6 +38,6 @@
         }
     },
     "rewards": {
-      "function": "lbc:other/imba/chaos_pic_use"
+        "function": "lbc:other/imba/chaos_pic_use"
     }
 }

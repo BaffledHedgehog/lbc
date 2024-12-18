@@ -1,1 +1,1 @@
-setblock ~ ~ ~ short_grass
+setblock ~ ~ ~ minecraft:short_grass

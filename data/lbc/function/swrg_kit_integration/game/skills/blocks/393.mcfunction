@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_button
+setblock ~ ~ ~ minecraft:mangrove_button

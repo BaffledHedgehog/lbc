@@ -1,1 +1,1 @@
-setblock ~ ~ ~ red_bed
+setblock ~ ~ ~ minecraft:red_bed

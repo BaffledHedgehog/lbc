@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chiseled_quartz_block
+setblock ~ ~ ~ minecraft:chiseled_quartz_block

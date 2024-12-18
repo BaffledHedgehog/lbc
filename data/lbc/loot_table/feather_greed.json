@@ -18,16 +18,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "magicwand": true,
-                                    "feather_greed": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        646.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 646,
-                                "enchantment_glint_override": true
+                                "minecraft:enchantment_glint_override": true
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -38,6 +38,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magicwand:1,feather_greed:1}"
                         }
                     ]
                 }

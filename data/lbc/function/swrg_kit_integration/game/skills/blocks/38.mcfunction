@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gravel
+setblock ~ ~ ~ minecraft:gravel

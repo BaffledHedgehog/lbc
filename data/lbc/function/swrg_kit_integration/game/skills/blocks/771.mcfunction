@@ -1,1 +1,1 @@
-setblock ~ ~ ~ end_stone_brick_wall
+setblock ~ ~ ~ minecraft:end_stone_brick_wall

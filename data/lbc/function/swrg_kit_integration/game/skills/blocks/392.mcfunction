@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_oak_button
+setblock ~ ~ ~ minecraft:dark_oak_button

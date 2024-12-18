@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cobblestone_wall
+setblock ~ ~ ~ minecraft:cobblestone_wall

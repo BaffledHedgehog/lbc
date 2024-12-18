@@ -1,1 +1,1 @@
-setblock ~ ~ ~ beetroots
+setblock ~ ~ ~ minecraft:beetroots

@@ -4,41 +4,38 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:transformables_axe",
                     "weight": 4
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "swordwithability": true,
-                                    "transformable": true,
-                                    "axe": true,
-                                    "banhammer": true,
-                                    "magicwand": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        711.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 711,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "gxcvbgfbgfdamage",
                                             "amount": 11,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "genebeth6thbgnhd",
                                             "amount": -2.8,
@@ -50,7 +47,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "banhammer",
@@ -60,7 +57,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -89,7 +86,8 @@
                                     {
                                         "text": "12 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -99,7 +97,8 @@
                                     {
                                         "text": "1.2 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -111,15 +110,21 @@
                                     {
                                         "text": "JustSh1sh_",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " No Nut November 2023 Event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{swordwithability:1,transformable:1,axe:1,banhammer:1,magicwand:1}"
                         }
                     ]
                 }

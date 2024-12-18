@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cauldron
+setblock ~ ~ ~ minecraft:cauldron

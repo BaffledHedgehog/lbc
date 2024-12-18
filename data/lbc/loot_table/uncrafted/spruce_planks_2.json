@@ -8,13 +8,12 @@
                     "name": "minecraft:spruce_planks",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 2
                         }
                     ]
                 }
             ]
         }
-        
     ]
 }

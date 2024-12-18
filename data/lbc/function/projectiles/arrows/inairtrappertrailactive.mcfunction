@@ -1,1 +1,1 @@
-summon evoker_fangs
+summon minecraft:evoker_fangs

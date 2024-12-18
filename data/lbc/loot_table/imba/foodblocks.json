@@ -3,7 +3,8 @@
         {
             "rolls": {
                 "min": 25,
-                "max": 45
+                "max": 45,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
@@ -13,12 +14,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "kapusta": true,
-                                    "gadget": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 618
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        618.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -45,6 +45,10 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{kapusta:1,gadget:1,imba:1}"
                         }
                     ]
                 },
@@ -55,12 +59,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "tikva": true,
-                                    "projegadget": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 620
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        620.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -92,6 +95,10 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{tikva:1,projegadget:1,imba:1}"
                         }
                     ]
                 },
@@ -102,9 +109,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 585,
-                                "minecraft:custom_data": {
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        585.0
+                                    ]
                                 },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -139,6 +147,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
@@ -149,12 +161,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "bucks": true,
-                                    "gadget": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 622
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        622.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -181,6 +192,10 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bucks:1,gadget:1,imba:1}"
                         }
                     ]
                 },
@@ -191,12 +206,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "honew": true,
-                                    "projegadget": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 621
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        621.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -223,6 +237,10 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{honew:1,projegadget:1,imba:1}"
                         }
                     ]
                 }

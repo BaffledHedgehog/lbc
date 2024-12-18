@@ -1,1 +1,1 @@
-setblock ~ ~ ~ green_carpet
+setblock ~ ~ ~ minecraft:green_carpet

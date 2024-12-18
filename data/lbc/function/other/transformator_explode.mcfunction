@@ -1,4 +1,4 @@
-summon fireball ~ ~2 ~ {Motion:[0.0,-10.0,0.0],ExplosionPower:12}
-setblock ~ ~-1 ~ dirt
-kill @e[type=text_display,tag=tr_text,distance=..10]
+summon minecraft:fireball ~ ~2 ~ {Motion:[0.0d,-10.0d,0.0d],ExplosionPower:12}
+setblock ~ ~-1 ~ minecraft:dirt
+kill @e[type=minecraft:text_display,distance=..10,tag=tr_text]
 kill @s

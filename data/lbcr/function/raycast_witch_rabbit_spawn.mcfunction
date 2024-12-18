@@ -1,2 +1,2 @@
-summon rabbit ~ ~ ~ {Tags:["grand_rabbit"],PersistenceRequired:1b,RabbitType:99,attributes:[{id:"minecraft:generic.follow_range",base:100},{id:"minecraft:generic.movement_speed",base:1}]}
+summon minecraft:rabbit ~ ~ ~ {Tags:["grand_rabbit"],PersistenceRequired:1b,RabbitType:99,attributes:[{id:"minecraft:follow_range",base:100},{id:"minecraft:movement_speed",base:1}]}
 scoreboard players set @s Distance 400

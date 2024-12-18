@@ -1,345 +1,349 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "weight": 10,
-          "quality": 5,
-          "name": "minecraft:iron_axe",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "translate": "randchanted_axe",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 1,
-                "max": 30
-              }
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "axe": true,
-                  "randchanted": true
-                }
-              }
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "axe",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "name": "minecraft:golden_axe",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "axe": true,
-                  "tomahawk": true
-                },
-                "minecraft:max_damage": 300,
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "type": "minecraft:generic.attack_damage",
-                      "id": "genszrvgdfgbjghfage",
-                      "amount": 4.5,
-                      "operation": "add_value"
-                    },
-                    {
-                      "type": "minecraft:generic.attack_speed",
-                      "id": "generigmdgyhkxrhd",
-                      "amount": -1.6,
-                      "operation": "add_value"
-                    }
-                  ],
-                  "show_in_tooltip": false
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "tomahawk",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "axe",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "item.modifiers.mainhand",
-                  "color": "gray",
-                  "italic": false
-                },
-                [
-                  {
-                    "text": "5.5 ",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "translate": "attribute.name.generic.attack_damage"
-                  }
-                ],
-                [
-                  {
-                    "text": "2.4 ",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "translate": "attribute.name.generic.attack_speed",
-                    "color": "dark_green",
-                    "italic": false
-                  }
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "name": "minecraft:netherite_axe",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "poleaxe": true,
-                  "axe": true
-                },
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "type": "minecraft:generic.attack_damage",
-                      "id": "geshxzrntikyukmjhage",
-                      "amount": 14,
-                      "operation": "add_value"
-                    },
-                    {
-                      "type": "minecraft:generic.attack_speed",
-                      "id": "hs5zxynktyukcghhfhj",
-                      "amount": -3.55,
-                      "operation": "add_value"
-                    }
-                  ],
-                  "show_in_tooltip": false
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "poleaxe",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "axe",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "item.modifiers.mainhand",
-                  "color": "gray",
-                  "italic": false
-                },
-                [
-                  {
-                    "text": "15 ",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "translate": "attribute.name.generic.attack_damage"
-                  }
-                ],
-                [
-                  {
-                    "text": "0.45 ",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "translate": "attribute.name.generic.attack_speed",
-                    "color": "dark_green",
-                    "italic": false
-                  }
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "name": "minecraft:iron_axe",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "craftusable": true,
-                  "hammer": true,
-                  "socializm": true,
-                  "transformable": true,
-                  "axe": true
-                },
-                "minecraft:custom_model_data": 592,
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "type": "minecraft:generic.attack_damage",
-                      "id": "ghxthnykuykxzfgmage",
-                      "amount": 5,
-                      "operation": "add_value"
-                    },
-                    {
-                      "type": "minecraft:generic.attack_speed",
-                      "id": "he6ytynkhkghfkpeed",
-                      "amount": -2.4,
-                      "operation": "add_value"
-                    }
-                  ],
-                  "show_in_tooltip": false
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "hammer",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "axe",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "hammer.lore",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 5,
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "randchanted_axe",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 1,
+                                "max": 30,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "axe",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,axe:1,randchanted:1}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "item.modifiers.mainhand",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:golden_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_damage": 300,
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "id": "genszrvgdfgbjghfage",
+                                            "amount": 4.5,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "id": "generigmdgyhkxrhd",
+                                            "amount": -1.6,
+                                            "operation": "add_value"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "tomahawk",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "axe",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "5.5 ",
+                                        "color": "dark_green",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "2.4 ",
+                                        "color": "dark_green",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,axe:1,tomahawk:1}"
+                        }
+                    ]
                 },
-                [
-                  {
-                    "text": "6 ",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "translate": "attribute.name.generic.attack_damage"
-                  }
-                ],
-                [
-                  {
-                    "text": "1.6 ",
-                    "color": "dark_green",
-                    "italic": false
-                  },
-                  {
-                    "translate": "attribute.name.generic.attack_speed",
-                    "color": "dark_green",
-                    "italic": false
-                  }
-                ]
-              ]
-            }
-          ]
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:netherite_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "id": "geshxzrntikyukmjhage",
+                                            "amount": 14,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "id": "hs5zxynktyukcghhfhj",
+                                            "amount": -3.55,
+                                            "operation": "add_value"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "poleaxe",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "axe",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "15 ",
+                                        "color": "dark_green",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "0.45 ",
+                                        "color": "dark_green",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,poleaxe:1,axe:1}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:iron_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        592.0
+                                    ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "id": "ghxthnykuykxzfgmage",
+                                            "amount": 5,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "id": "he6ytynkhkghfkpeed",
+                                            "amount": -2.4,
+                                            "operation": "add_value"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "hammer",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "axe",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "hammer.lore",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "item.modifiers.mainhand",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "text": "6 ",
+                                        "color": "dark_green",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_damage"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "1.6 ",
+                                        "color": "dark_green",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "translate": "attribute.name.generic.attack_speed",
+                                        "color": "dark_green",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,hammer:1,socializm:1,transformable:1,axe:1}"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

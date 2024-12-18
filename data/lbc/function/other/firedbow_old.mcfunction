@@ -1,5 +1,5 @@
-summon item ~ ~ ~ {Health:1000,Motion:[0.0,0.5,0.0],Item:{id:"minecraft:crossbow",count:1,components:{"minecraft:enchantments":{"minecraft:quick_charge":5},"minecraft:custom_name":"{\"translate\":\"blaze_crossbow_old\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}","minecraft:charged_projectiles":[{id:"minecraft:arrow"}],"minecraft:custom_data":{fastfired_old:1b}}}}
-summon lightning_bolt ~ ~-5 ~
-particle flame ~ ~1 ~ 1 1 1 1 200 force
-fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace fire
+summon minecraft:item ~ ~ ~ {Health:1000,Motion:[0.0d,0.5d,0.0d],Item:{id:"minecraft:crossbow",components:{"minecraft:enchantments":{levels:{"minecraft:quick_charge":5}},"minecraft:custom_name":'{"bold":true,"color":"yellow","italic":false,"translate":"blaze_crossbow_old"}',"minecraft:charged_projectiles":[{id:"minecraft:arrow"}],"minecraft:custom_data":{fastfired_old:1}},count:1}}
+summon minecraft:lightning_bolt ~ ~-5 ~
+particle minecraft:flame ~ ~1 ~ 1 1 1 1 200 force
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:air replace minecraft:fire
 kill @s

@@ -1,3 +1,3 @@
-execute if score @s Lifetime matches 15..25 run fill ~15 ~15 ~15 ~-15 ~-15 ~-15 diamond_block replace #tannerkivi
-particle block{block_state:"diamond_block"} ~ ~ ~ 1 1 1 0 30 normal
-execute as @e[type=!player,tag=!diamondificator,distance=..15,nbt=!{Item:{id:"minecraft:diamond"}},nbt=!{Item:{id:"minecraft:diamond_block"}},nbt=!{Item:{components:{"minecraft:entity_data":{Tags:["diamondificator"]}}}}] at @s run function lbc:workingitems/imba/diamond_area_tick_1s_mob
+execute if score @s Lifetime matches 15..25 run fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:diamond_block replace #minecraft:tannerkivi
+particle minecraft:block{block_state:{Name:"minecraft:diamond_block"}} ~ ~ ~ 1 1 1 0 30 normal
+execute as @e[type=!minecraft:player,distance=..15,tag=!diamondificator,nbt=!{Item:{id:"minecraft:diamond"}},nbt=!{Item:{id:"minecraft:diamond_block"}},nbt=!{Item:{components:{"minecraft:entity_data":{Tags:["diamondificator"]}}}}] at @s run function lbc:workingitems/imba/diamond_area_tick_1s_mob

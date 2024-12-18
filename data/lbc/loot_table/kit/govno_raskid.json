@@ -8,17 +8,17 @@
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 687,
-                                "minecraft:custom_data": {
-                                    "gadget": true,
-                                    "govno_raskid": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        687.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "govno_raskid",
@@ -27,8 +27,12 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gadget:1,govno_raskid:1}"
                         }
                     ]
                 }

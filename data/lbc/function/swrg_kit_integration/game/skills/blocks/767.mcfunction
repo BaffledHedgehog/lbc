@@ -1,1 +1,1 @@
-setblock ~ ~ ~ nether_brick_wall
+setblock ~ ~ ~ minecraft:nether_brick_wall

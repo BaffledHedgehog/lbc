@@ -1,1 +1,1 @@
-setblock ~ ~ ~ blue_orchid
+setblock ~ ~ ~ minecraft:blue_orchid

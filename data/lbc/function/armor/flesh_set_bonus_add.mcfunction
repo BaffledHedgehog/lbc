@@ -1,1 +1,1 @@
-attribute @s minecraft:generic.max_health modifier add 44a8aa48-d53d-42c0-b229-4557d3c581b1 2 add_multiplied_total
+attribute @s minecraft:max_health modifier add minecraft:44a8aa48-d53d-42c0-b229-4557d3c581b1 2 add_multiplied_total

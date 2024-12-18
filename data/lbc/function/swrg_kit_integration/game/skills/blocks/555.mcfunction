@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cobblestone_slab
+setblock ~ ~ ~ minecraft:cobblestone_slab

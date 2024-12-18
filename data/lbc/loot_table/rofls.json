@@ -4,24 +4,25 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_evoker": true
-                                },
-                                "minecraft:custom_model_data": 302
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        302.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "evoker_wand",
@@ -30,7 +31,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -50,7 +51,8 @@
                                     {
                                         "text": "6 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -65,7 +67,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -77,7 +80,8 @@
                                     {
                                         "text": "1-20 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -91,28 +95,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_evoker:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_weakness": true
-                                },
-                                "minecraft:custom_model_data": 300
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        300.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "bass_wand",
@@ -121,7 +130,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -141,7 +150,8 @@
                                     {
                                         "text": "4 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "wand_effect_count",
@@ -156,7 +166,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -168,7 +179,8 @@
                                     {
                                         "text": "25 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -197,28 +209,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_weakness:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_wither": true
-                                },
-                                "minecraft:custom_model_data": 303
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        303.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "corruption_wand",
@@ -227,7 +244,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -247,7 +264,8 @@
                                     {
                                         "text": "0-6 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -262,7 +280,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -274,7 +293,8 @@
                                     {
                                         "text": "15 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -308,29 +328,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_wither:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_teleport": true,
-                                    "enderset": true
-                                },
-                                "minecraft:custom_model_data": 301
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        301.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "ender_wand",
@@ -339,7 +363,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -362,7 +386,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -374,7 +399,8 @@
                                     {
                                         "text": "60 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -388,28 +414,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_teleport:1,enderset:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_regeneration": true
-                                },
-                                "minecraft:custom_model_data": 304
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        304.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "vampire_wand",
@@ -418,7 +449,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -438,7 +469,8 @@
                                     {
                                         "text": "1 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -453,7 +485,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -465,7 +498,8 @@
                                     {
                                         "text": "20 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -494,28 +528,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_regeneration:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_buffs": true
-                                },
-                                "minecraft:custom_model_data": 306
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        306.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "confuse_wand",
@@ -524,7 +563,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -547,7 +586,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -559,7 +599,8 @@
                                     {
                                         "text": "0-10 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -588,30 +629,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_buffs:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_damage": true,
-                                    "eat_poison": true,
-                                    "eat_wither": true
-                                },
-                                "minecraft:custom_model_data": 305
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        305.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "blood_wand",
@@ -620,7 +664,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -640,7 +684,8 @@
                                     {
                                         "text": "~20 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -655,7 +700,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -667,7 +713,8 @@
                                     {
                                         "text": "10 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -696,28 +743,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_damage:1,eat_poison:1,eat_wither:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_book": true
-                                },
-                                "minecraft:custom_model_data": 307
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        307.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "bad_wiki",
@@ -726,7 +778,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -749,7 +801,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -778,28 +831,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_book:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_damage": true
-                                },
-                                "minecraft:custom_model_data": 309
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        309.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "wall_wand",
@@ -808,7 +866,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -831,7 +889,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -843,7 +902,8 @@
                                     {
                                         "text": "100 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -877,28 +937,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_damage:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_teleport": true
-                                },
-                                "minecraft:custom_model_data": 308
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        308.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "advanced_ender_wand",
@@ -908,7 +973,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -928,7 +993,8 @@
                                     {
                                         "text": "(6) ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -943,7 +1009,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -955,7 +1022,8 @@
                                     {
                                         "text": "200 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -989,28 +1057,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_teleport:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_explode": true
-                                },
-                                "minecraft:custom_model_data": 310
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        310.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "falling_stars_wand",
@@ -1020,7 +1093,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1040,7 +1113,8 @@
                                     {
                                         "text": "24 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "explosive_damage",
@@ -1052,7 +1126,8 @@
                                     {
                                         "text": "5 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_count",
@@ -1067,7 +1142,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -1079,7 +1155,8 @@
                                     {
                                         "text": "200 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -1113,28 +1190,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_explode:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_glowing": true
-                                },
-                                "minecraft:custom_model_data": 312
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        312.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "unstable_prism",
@@ -1144,7 +1226,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1164,7 +1246,8 @@
                                     {
                                         "text": "8 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -1179,7 +1262,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -1191,7 +1275,8 @@
                                     {
                                         "text": "100 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -1225,6 +1310,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_glowing:1}"
                         }
                     ]
                 },
@@ -1233,7 +1322,7 @@
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "blaze_wand",
@@ -1243,7 +1332,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1266,7 +1355,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -1297,13 +1387,18 @@
                             ]
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_fire": true
-                                },
-                                "minecraft:custom_model_data": 311
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        311.0
+                                    ]
+                                }
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_fire:1}"
                         }
                     ]
                 },
@@ -1312,7 +1407,7 @@
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "unstable_spellbook",
@@ -1322,7 +1417,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1342,7 +1437,8 @@
                                     {
                                         "text": "29 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "wand_effect_count",
@@ -1354,7 +1450,8 @@
                                     {
                                         "text": "? ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -1366,7 +1463,8 @@
                                     {
                                         "text": "? ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "projectile_damage",
@@ -1378,7 +1476,8 @@
                                     {
                                         "text": "? ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "explosive_damage",
@@ -1390,7 +1489,8 @@
                                     {
                                         "text": "? ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "fire_damage",
@@ -1402,7 +1502,8 @@
                                     {
                                         "text": "? ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_count",
@@ -1417,7 +1518,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -1429,7 +1531,8 @@
                                     {
                                         "text": "? ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -1441,7 +1544,8 @@
                                     {
                                         "text": "? ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -1467,35 +1571,41 @@
                             ]
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_book": true
-                                },
-                                "minecraft:custom_model_data": 313
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        313.0
+                                    ]
+                                }
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_book:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_damage": true
-                                },
-                                "minecraft:custom_model_data": 314
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        314.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "hedgehog_wand",
@@ -1504,7 +1614,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1524,7 +1634,8 @@
                                     {
                                         "text": "6 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -1536,7 +1647,8 @@
                                     {
                                         "text": "4 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "projectile_damage",
@@ -1548,7 +1660,8 @@
                                     {
                                         "text": "1 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_count",
@@ -1563,7 +1676,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -1575,7 +1689,8 @@
                                     {
                                         "text": "200 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -1604,28 +1719,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_damage:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_polymorph": true
-                                },
-                                "minecraft:custom_model_data": 315
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        315.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "sheep_wand",
@@ -1634,7 +1754,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1652,9 +1772,10 @@
                                 ],
                                 [
                                     {
-                                        "text": "∞ ",
+                                        "text": "\u221e ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -1669,7 +1790,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -1681,7 +1803,8 @@
                                     {
                                         "text": "200 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -1700,28 +1823,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_polymorph:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_psycho": true
-                                },
-                                "minecraft:custom_model_data": 316
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        316.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "psycho_wand",
@@ -1730,7 +1858,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1750,7 +1878,8 @@
                                     {
                                         "text": "3 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "wand_effect_count",
@@ -1765,7 +1894,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -1777,7 +1907,8 @@
                                     {
                                         "text": "30 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -1816,28 +1947,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_psycho:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_lightning": true
-                                },
-                                "minecraft:custom_model_data": 317
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        317.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lightning_wand",
@@ -1847,7 +1983,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1867,7 +2003,8 @@
                                     {
                                         "text": "6 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -1879,7 +2016,8 @@
                                     {
                                         "text": "4 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_count",
@@ -1894,7 +2032,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -1906,7 +2045,8 @@
                                     {
                                         "text": "90 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -1945,28 +2085,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_lightning:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_poison": true
-                                },
-                                "minecraft:custom_model_data": 318
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        318.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "acid_wand",
@@ -1976,7 +2121,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -1996,7 +2141,8 @@
                                     {
                                         "text": "1 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -2008,7 +2154,8 @@
                                     {
                                         "text": "6 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_count",
@@ -2023,7 +2170,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -2035,7 +2183,8 @@
                                     {
                                         "text": "30 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -2069,28 +2218,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_poison:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_damage_all": true
-                                },
-                                "minecraft:custom_model_data": 319
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        319.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "omega_flag",
@@ -2100,7 +2254,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -2120,7 +2274,8 @@
                                     {
                                         "text": "6 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -2135,7 +2290,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -2145,9 +2301,10 @@
                                 ],
                                 [
                                     {
-                                        "text": "∞ ",
+                                        "text": "\u221e ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_radius",
@@ -2166,28 +2323,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_damage_all:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_chaos_explode": true
-                                },
-                                "minecraft:custom_model_data": 320
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        320.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "neutral_wand",
@@ -2197,7 +2359,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -2217,7 +2379,8 @@
                                     {
                                         "text": "5 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "wand_effect_count",
@@ -2229,7 +2392,8 @@
                                     {
                                         "text": "10; 5 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -2241,7 +2405,8 @@
                                     {
                                         "text": "24; 4; 13 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "explosive_damage",
@@ -2253,7 +2418,8 @@
                                     {
                                         "text": "5 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "fire_damage",
@@ -2265,7 +2431,8 @@
                                     {
                                         "text": "1; 3; 3; 3; 3 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_count",
@@ -2280,7 +2447,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -2292,7 +2460,8 @@
                                     {
                                         "text": "50-500 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -2316,28 +2485,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_chaos_explode:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_lightning": true
-                                },
-                                "minecraft:custom_model_data": 321
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        321.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lightning_bolt_wand",
@@ -2347,7 +2521,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -2367,7 +2541,8 @@
                                     {
                                         "text": "6 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -2379,7 +2554,8 @@
                                     {
                                         "text": "1+1*n ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_count",
@@ -2394,7 +2570,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -2406,7 +2583,8 @@
                                     {
                                         "text": "100 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -2425,28 +2603,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_lightning:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_big_explode": true
-                                },
-                                "minecraft:custom_model_data": 322
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        322.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "megumin_wand",
@@ -2456,7 +2639,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -2476,7 +2659,8 @@
                                     {
                                         "text": "...?! ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "explosive_damage",
@@ -2491,7 +2675,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -2503,7 +2688,8 @@
                                     {
                                         "text": "200 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "cast_distance",
@@ -2522,37 +2708,44 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_big_explode:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_strength": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        325.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 325,
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "sdfhhykijgujmgbhnpeed",
-                                        "amount": -2.8,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "sdfhhykijgujmgbhnpeed",
+                                            "amount": -2.8,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "item.minecraft.diamond_sword",
@@ -2562,12 +2755,13 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 {
-                                    "text": ""
+                                    "text": "",
+                                    "type": "text"
                                 },
                                 {
                                     "translate": "item.modifiers.mainhand",
@@ -2577,7 +2771,8 @@
                                 [
                                     {
                                         "text": " ",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage",
@@ -2587,13 +2782,15 @@
                                     {
                                         "text": ": 7",
                                         "italic": false,
-                                        "color": "dark_green"
+                                        "color": "dark_green",
+                                        "type": "text"
                                     }
                                 ],
                                 [
                                     {
                                         "text": " ",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -2603,41 +2800,49 @@
                                     {
                                         "text": ": 1.6",
                                         "italic": false,
-                                        "color": "dark_green"
+                                        "color": "dark_green",
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_strength:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_haste": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        323.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 323,
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "gfyjcdbjghffkhkg",
-                                        "amount": -2.4,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "gfyjcdbjghffkhkg",
+                                            "amount": -2.4,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "item.minecraft.diamond_pickaxe",
@@ -2647,12 +2852,13 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 {
-                                    "text": ""
+                                    "text": "",
+                                    "type": "text"
                                 },
                                 {
                                     "translate": "item.modifiers.mainhand",
@@ -2662,7 +2868,8 @@
                                 [
                                     {
                                         "text": " ",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage",
@@ -2672,13 +2879,15 @@
                                     {
                                         "text": ": 5",
                                         "italic": false,
-                                        "color": "dark_green"
+                                        "color": "dark_green",
+                                        "type": "text"
                                     }
                                 ],
                                 [
                                     {
                                         "text": " ",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -2688,48 +2897,56 @@
                                     {
                                         "text": ": 1.2",
                                         "italic": false,
-                                        "color": "dark_green"
+                                        "color": "dark_green",
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_haste:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_haste": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        324.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 324,
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "gednyndyfmkmulmage",
-                                        "amount": 8,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.attack_speed",
-                                        "slot": "mainhand",
-                                        "id": "gkukt8t8tktrcgbbed",
-                                        "amount": -3,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "gednyndyfmkmulmage",
+                                            "amount": 8,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "gkukt8t8tktrcgbbed",
+                                            "amount": -3,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "item.minecraft.diamond_axe",
@@ -2739,12 +2956,13 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 {
-                                    "text": ""
+                                    "text": "",
+                                    "type": "text"
                                 },
                                 {
                                     "translate": "item.modifiers.mainhand",
@@ -2754,7 +2972,8 @@
                                 [
                                     {
                                         "text": " ",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage",
@@ -2764,13 +2983,15 @@
                                     {
                                         "text": ": 9",
                                         "italic": false,
-                                        "color": "dark_green"
+                                        "color": "dark_green",
+                                        "type": "text"
                                     }
                                 ],
                                 [
                                     {
                                         "text": " ",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -2780,42 +3001,50 @@
                                     {
                                         "text": ": 1",
                                         "italic": false,
-                                        "color": "dark_green"
+                                        "color": "dark_green",
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_haste:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "quality": 8,
                     "name": "minecraft:golden_apple",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "eat_danmaku": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        621.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 621,
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.movement_speed",
-                                        "slot": "offhand",
-                                        "id": "genir7gjymouiudxextgfd",
-                                        "amount": -0.75,
-                                        "operation": "add_multiplied_base"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:movement_speed",
+                                            "slot": "offhand",
+                                            "id": "genir7gjymouiudxextgfd",
+                                            "amount": -0.75,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "danmaku_wand",
@@ -2825,7 +3054,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -2848,7 +3077,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -2892,6 +3122,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{eat_danmaku:1}"
                         }
                     ]
                 }

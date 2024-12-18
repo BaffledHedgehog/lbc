@@ -10,7 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 688
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        688.0
+                                    ]
+                                }
                             }
                         },
                         {

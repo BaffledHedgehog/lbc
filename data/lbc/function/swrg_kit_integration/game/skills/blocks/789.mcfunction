@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sweet_berry_bush
+setblock ~ ~ ~ minecraft:sweet_berry_bush

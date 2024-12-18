@@ -1,1 +1,1 @@
-setblock ~ ~ ~ orange_tulip
+setblock ~ ~ ~ minecraft:orange_tulip

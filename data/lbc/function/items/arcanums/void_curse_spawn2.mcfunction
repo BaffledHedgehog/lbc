@@ -1,7 +1,7 @@
-playsound entity.evoker.cast_spell master @a ~ ~ ~ 1 1
-particle end_rod ~ ~1 ~ 1 1 1 0 20 normal
+playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 1 1
+particle minecraft:end_rod ~ ~1 ~ 1 1 1 0 20 normal
 scoreboard players operation @s mana -= void_arcanum_mana_activate lbc.math
-summon marker ^ ^ ^4 {Tags:["void_curse","slowraycast","magic","player"]}
-execute positioned ^ ^ ^4 run scoreboard players operation @e[type=marker,limit=1,distance=..0.01,tag=!hasID,tag=void_curse] lbcID2 = @s lbcID2
-execute positioned ^ ^ ^4 run tag @e[type=marker,limit=1,distance=..0.01,tag=!hasID,tag=void_curse] add hasID
+summon minecraft:marker ^ ^ ^4 {Tags:["void_curse","slowraycast","magic","player"]}
+execute positioned ^ ^ ^4 run scoreboard players operation @e[type=minecraft:marker,distance=..0.01,tag=void_curse,tag=!hasID,limit=1] lbcID2 = @s lbcID2
+execute positioned ^ ^ ^4 run tag @e[type=minecraft:marker,distance=..0.01,tag=void_curse,tag=!hasID,limit=1] add hasID
 tag @s add voidactive2

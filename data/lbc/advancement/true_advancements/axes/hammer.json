@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:iron_axe",
             "components": {
-                "minecraft:custom_model_data": 592
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        592.0
+                    ]
+                }
             }
         },
         "title": {
@@ -31,9 +35,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "axe": true,
-                                            "hammer": true
+                                            "transformable":1,
+                                            "axe":1,
+                                            "hammer":1
                                         }
                                     }
                                 }

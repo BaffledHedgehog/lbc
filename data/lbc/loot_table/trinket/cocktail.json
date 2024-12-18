@@ -10,9 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 695,
-                                "minecraft:custom_data": {
-                                    "trinket": "cocktail"
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        695.0
+                                    ]
                                 },
                                 "minecraft:max_stack_size": 99
                             }
@@ -42,6 +43,10 @@
                                     "color": "gray"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{trinket:\"cocktail\"}"
                         }
                     ]
                 }

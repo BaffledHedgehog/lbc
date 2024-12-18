@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_stem
+setblock ~ ~ ~ minecraft:crimson_stem

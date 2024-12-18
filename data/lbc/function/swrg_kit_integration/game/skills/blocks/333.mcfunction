@@ -1,1 +1,1 @@
-setblock ~ ~ ~ water_cauldron
+setblock ~ ~ ~ minecraft:water_cauldron

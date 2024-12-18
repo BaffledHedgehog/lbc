@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lava
+setblock ~ ~ ~ minecraft:lava

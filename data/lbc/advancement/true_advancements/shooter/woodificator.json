@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":707}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        707.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.shooter.woodificator"
@@ -36,11 +42,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "shooter": true,
-                              "woodificator": true
+                                "transformable":1,
+                                "shooter":1,
+                                "woodificator":1
                             }
-                          }
+                        }
                     }
                 ]
             }

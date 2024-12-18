@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light_blue_candle
+setblock ~ ~ ~ minecraft:light_blue_candle

@@ -1,4 +1,4 @@
-particle end_rod ~ ~1 ~ 0.4 0.5 0.4 0 10
+particle minecraft:end_rod ~ ~1 ~ 0.4 0.5 0.4 0 10
 playsound minecraft:block.amethyst_block.resonate master @a ~ ~ ~ 1 2
 
 execute if score @s light_wisp_count matches 1.. run function lbc:other/wisp_book/passive_effects/light/remove_debuff/1

@@ -8,7 +8,7 @@
                     "name": "minecraft:ice",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 9
                         }
                     ]

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crying_obsidian
+setblock ~ ~ ~ minecraft:crying_obsidian

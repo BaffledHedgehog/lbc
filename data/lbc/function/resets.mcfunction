@@ -104,11 +104,11 @@ scoreboard players set @s lolidefecation 0
 scoreboard players set @s greed_prestige 0
 scoreboard players set @s ray 0
 scoreboard players set @s acid_rifle 0
-attribute @s minecraft:generic.attack_damage modifier remove 06147f7f-a452-4a39-b278-fb0f57b00f22
-attribute @s minecraft:generic.attack_damage modifier remove e916adfe-014b-4ff5-82f1-af6ec9226d21
-attribute @s minecraft:generic.knockback_resistance modifier remove e916adfe-014b-4ff5-82f1-af6ec9226d21
-attribute @s minecraft:generic.movement_speed modifier remove 916c89e6-ae62-4b11-91d7-10e7e57c726d
-attribute @s minecraft:generic.max_health modifier remove 44a8aa48-d53d-42c0-b229-4557d3c581b1
+attribute @s minecraft:attack_damage modifier remove minecraft:06147f7f-a452-4a39-b278-fb0f57b00f22
+attribute @s minecraft:attack_damage modifier remove minecraft:e916adfe-014b-4ff5-82f1-af6ec9226d21
+attribute @s minecraft:knockback_resistance modifier remove minecraft:e916adfe-014b-4ff5-82f1-af6ec9226d21
+attribute @s minecraft:movement_speed modifier remove minecraft:916c89e6-ae62-4b11-91d7-10e7e57c726d
+attribute @s minecraft:max_health modifier remove minecraft:44a8aa48-d53d-42c0-b229-4557d3c581b1
 advancement revoke @s only lbc:remove_boots
 scoreboard players set @s lucky_block_count 0
 advancement revoke @s only lbc:sith_killed_jedi
@@ -142,37 +142,37 @@ tag @s remove gigantic
 
 
 
-attribute @s minecraft:generic.scale modifier remove rune_thurisaz_negative
-attribute @s generic.attack_damage modifier remove rune_thurisaz_negative
-attribute @s generic.jump_strength modifier remove rune_thurisaz_negative
-attribute @s generic.max_health modifier remove rune_thurisaz_negative
-attribute @s generic.movement_speed modifier remove rune_thurisaz_negative
-attribute @s generic.step_height modifier remove rune_thurisaz_negative
-attribute @s minecraft:player.block_break_speed modifier remove rune_thurisaz_negative
-attribute @s minecraft:player.block_interaction_range modifier remove rune_thurisaz_negative
-attribute @s minecraft:player.entity_interaction_range modifier remove rune_thurisaz_negative
-attribute @s generic.gravity modifier remove rune_thurisaz_negative
+attribute @s minecraft:scale modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:attack_damage modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:jump_strength modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:max_health modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:movement_speed modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:step_height modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:block_break_speed modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:block_interaction_range modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:entity_interaction_range modifier remove minecraft:rune_thurisaz_negative
+attribute @s minecraft:gravity modifier remove minecraft:rune_thurisaz_negative
 
 
 
-attribute @s minecraft:generic.scale modifier remove rune_thurisaz
-attribute @s generic.attack_damage modifier remove rune_thurisaz
-attribute @s generic.attack_knockback modifier remove rune_thurisaz
-attribute @s generic.explosion_knockback_resistance modifier remove rune_thurisaz
-attribute @s generic.fall_damage_multiplier modifier remove rune_thurisaz
-attribute @s generic.jump_strength modifier remove rune_thurisaz
-attribute @s generic.knockback_resistance modifier remove rune_thurisaz
-attribute @s generic.max_health modifier remove rune_thurisaz
-attribute @s generic.movement_efficiency modifier remove rune_thurisaz
-attribute @s generic.movement_speed modifier remove rune_thurisaz
-attribute @s generic.safe_fall_distance modifier remove rune_thurisaz
-attribute @s generic.step_height modifier remove rune_thurisaz
-attribute @s generic.water_movement_efficiency modifier remove rune_thurisaz
-attribute @s minecraft:player.block_break_speed modifier remove rune_thurisaz
-attribute @s minecraft:player.block_interaction_range modifier remove rune_thurisaz
-attribute @s minecraft:player.entity_interaction_range modifier remove rune_thurisaz
-attribute @s minecraft:player.mining_efficiency modifier remove rune_thurisaz
-attribute @s generic.gravity modifier remove rune_thurisaz
-attribute @s minecraft:generic.fall_damage_multiplier modifier remove rune_thurisaz_negative
+attribute @s minecraft:scale modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:attack_damage modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:attack_knockback modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:explosion_knockback_resistance modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:fall_damage_multiplier modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:jump_strength modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:knockback_resistance modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:max_health modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:movement_efficiency modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:movement_speed modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:safe_fall_distance modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:step_height modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:water_movement_efficiency modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:block_break_speed modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:block_interaction_range modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:entity_interaction_range modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:mining_efficiency modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:gravity modifier remove minecraft:rune_thurisaz
+attribute @s minecraft:fall_damage_multiplier modifier remove minecraft:rune_thurisaz_negative
 
 function lbc:leave_death

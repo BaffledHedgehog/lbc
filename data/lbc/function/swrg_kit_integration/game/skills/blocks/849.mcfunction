@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lodestone
+setblock ~ ~ ~ minecraft:lodestone

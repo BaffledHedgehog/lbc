@@ -1,1 +1,1 @@
-setblock ~ ~ ~ rooted_dirt
+setblock ~ ~ ~ minecraft:rooted_dirt

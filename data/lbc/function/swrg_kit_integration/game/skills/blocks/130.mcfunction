@@ -1,1 +1,1 @@
-setblock ~ ~ ~ piston_head
+setblock ~ ~ ~ minecraft:piston_head

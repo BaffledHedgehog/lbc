@@ -1,1 +1,1 @@
-data modify entity @s Item set from entity @e[type=item,limit=1,distance=..1,sort=nearest,tag=!booom,tag=!exepted] Item
+data modify entity @s Item set from entity @e[type=minecraft:item,distance=..1,tag=!booom,tag=!exepted,sort=nearest,limit=1] Item

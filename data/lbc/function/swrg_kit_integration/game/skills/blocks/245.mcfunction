@@ -1,1 +1,1 @@
-setblock ~ ~ ~ redstone_torch
+setblock ~ ~ ~ minecraft:redstone_torch

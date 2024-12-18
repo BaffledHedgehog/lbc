@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_log
+setblock ~ ~ ~ minecraft:mangrove_log

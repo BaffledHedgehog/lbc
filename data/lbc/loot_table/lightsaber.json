@@ -4,34 +4,32 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "lightsaberrc": true,
-                                    "magicwand": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        688.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 688,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "gdexrhrtyhfdhbftb",
                                             "amount": 0,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "fuwyr7fyk8gsur8gdd",
                                             "amount": -1.5,
@@ -43,7 +41,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lightsaber_no_color",
@@ -53,7 +51,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -87,7 +85,8 @@
                                     {
                                         "text": "1 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -97,7 +96,8 @@
                                     {
                                         "text": "2.5 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -106,17 +106,21 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,lightsaberrc:1,magicwand:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
                                     "type": "minecraft:score",
                                     "target": {
-                                        "type": "context",
+                                        "type": "minecraft:context",
                                         "target": "this"
                                     },
                                     "score": "november",
@@ -131,33 +135,32 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:shield",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "lightsaber": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        100.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 100,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "7cjxrtyh5thjxgfdj",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "ewzthfyjny7iyfg",
                                             "amount": -1.5,
@@ -169,7 +172,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lightsaber_blue",
@@ -179,7 +182,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -213,7 +216,8 @@
                                     {
                                         "text": "8 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -223,7 +227,8 @@
                                     {
                                         "text": "2.5 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -232,6 +237,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,lightsaber:1}"
                         }
                     ],
                     "conditions": [
@@ -240,7 +249,7 @@
                             "value": {
                                 "type": "minecraft:score",
                                 "target": {
-                                    "type": "context",
+                                    "type": "minecraft:context",
                                     "target": "this"
                                 },
                                 "score": "november",
@@ -251,33 +260,32 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:shield",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "lightsaber": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        101.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 101,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "genegfhdghbzhgrtxzds",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "gener5rxd5thx5rhzdfgspeed",
                                             "amount": -1.5,
@@ -289,7 +297,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lightsaber_red",
@@ -299,7 +307,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -333,7 +341,8 @@
                                     {
                                         "text": "8 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -343,7 +352,8 @@
                                     {
                                         "text": "2.5 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -352,6 +362,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,lightsaber:1}"
                         }
                     ],
                     "conditions": [
@@ -360,7 +374,7 @@
                             "value": {
                                 "type": "minecraft:score",
                                 "target": {
-                                    "type": "context",
+                                    "type": "minecraft:context",
                                     "target": "this"
                                 },
                                 "score": "november",

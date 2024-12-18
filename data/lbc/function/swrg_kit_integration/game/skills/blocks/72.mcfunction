@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_wood
+setblock ~ ~ ~ minecraft:cherry_wood

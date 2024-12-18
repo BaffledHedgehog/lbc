@@ -1,1 +1,1 @@
-setblock ~ ~ ~ tnt
+setblock ~ ~ ~ minecraft:tnt

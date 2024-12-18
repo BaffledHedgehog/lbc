@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_roots
+setblock ~ ~ ~ minecraft:mangrove_roots

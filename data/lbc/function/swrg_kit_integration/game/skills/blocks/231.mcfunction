@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lever
+setblock ~ ~ ~ minecraft:lever

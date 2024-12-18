@@ -8,7 +8,7 @@
                     "name": "minecraft:copper_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 2
                         }
                     ]

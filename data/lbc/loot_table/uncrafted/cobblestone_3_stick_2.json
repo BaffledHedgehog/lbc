@@ -8,7 +8,7 @@
                     "name": "minecraft:cobblestone",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 3
                         }
                     ]
@@ -23,7 +23,7 @@
                     "name": "minecraft:stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 2
                         }
                     ]

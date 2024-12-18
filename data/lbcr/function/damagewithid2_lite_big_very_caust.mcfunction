@@ -1,1 +1,1 @@
-effect give @e[distance=..15,type=#mobs,tag=!nodamage,tag=!spectator] poison 120 10
+effect give @e[type=#minecraft:mobs,distance=..15,tag=!nodamage,tag=!spectator] minecraft:poison 120 10

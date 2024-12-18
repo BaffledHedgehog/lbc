@@ -1,1 +1,1 @@
-setblock ~ ~ ~ conduit
+setblock ~ ~ ~ minecraft:conduit

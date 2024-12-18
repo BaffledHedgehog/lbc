@@ -1,1 +1,1 @@
-setblock ~ ~ ~ ochre_froglight
+setblock ~ ~ ~ minecraft:ochre_froglight

@@ -1,2 +1,2 @@
-tp @s @e[type=ravager,tag=helicopter_boss_hitbox,limit=1,tag=current]
+tp @s @e[type=minecraft:ravager,tag=helicopter_boss_hitbox,tag=current,limit=1]
 execute at @s run tp @s ~ ~3 ~

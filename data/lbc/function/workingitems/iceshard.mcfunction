@@ -7,4 +7,4 @@ execute unless score @s frozen matches 1.. run scoreboard players set @s cold_cd
 function lbc:other/freeze/check
 
 execute if entity @s[scores={frozen=1..}] run advancement grant @s only lbc:true_advancements/accesories/jaakivi
-execute if entity @s[scores={frozen=1..}] run effect give @s resistance 25 4
+execute if entity @s[scores={frozen=1..}] run effect give @s minecraft:resistance 25 4

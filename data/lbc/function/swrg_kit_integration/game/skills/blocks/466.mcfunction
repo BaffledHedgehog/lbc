@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light
+setblock ~ ~ ~ minecraft:light

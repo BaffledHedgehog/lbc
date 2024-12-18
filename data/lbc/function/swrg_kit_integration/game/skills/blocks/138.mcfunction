@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gray_wool
+setblock ~ ~ ~ minecraft:gray_wool

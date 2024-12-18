@@ -4,8 +4,8 @@
 #place template lbc:air21x21x21 ~-10 0 ~-10
 
 #disable nexus
-fill ~2 0 ~2 ~-2 255 ~-2 air
-fill ~2 256 ~2 ~-2 319 ~-2 air
+fill ~2 0 ~2 ~-2 255 ~-2 minecraft:air
+fill ~2 256 ~2 ~-2 319 ~-2 minecraft:air
 
-summon lightning_bolt
-execute unless entity @e[type=marker,tag=supernovacore] run kill @s
+summon minecraft:lightning_bolt
+execute unless entity @e[type=minecraft:marker,tag=supernovacore] run kill @s

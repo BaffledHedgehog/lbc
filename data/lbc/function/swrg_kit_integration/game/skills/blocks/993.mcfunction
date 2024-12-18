@@ -1,1 +1,1 @@
-setblock ~ ~ ~ weathered_copper_grate
+setblock ~ ~ ~ minecraft:weathered_copper_grate

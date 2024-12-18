@@ -10,5 +10,5 @@ execute if entity @s[nbt={active_effects:[{id:"minecraft:strength",amplifier:1b}
 
 execute if entity @s[nbt={active_effects:[{id:"minecraft:strength"}]}] run function lbc:workingitems/devilswordattacks/2
 
-execute if entity @s[nbt={SelectedItem:{components: {"minecraft:custom_data":{"heal": true}}}}] unless entity @s[nbt={active_effects:[{id:"minecraft:strength"}]}] run function lbc:workingitems/devilswordattacks/1
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{heal:1}}}}] unless entity @s[nbt={active_effects:[{id:"minecraft:strength"}]}] run function lbc:workingitems/devilswordattacks/1
 

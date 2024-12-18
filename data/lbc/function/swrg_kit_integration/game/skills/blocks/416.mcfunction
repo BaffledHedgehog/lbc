@@ -1,1 +1,1 @@
-setblock ~ ~ ~ daylight_detector
+setblock ~ ~ ~ minecraft:daylight_detector

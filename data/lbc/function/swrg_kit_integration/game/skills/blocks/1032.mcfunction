@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_deepslate_wall
+setblock ~ ~ ~ minecraft:polished_deepslate_wall

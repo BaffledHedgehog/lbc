@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pink_stained_glass_pane
+setblock ~ ~ ~ minecraft:pink_stained_glass_pane

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_wall_sign
+setblock ~ ~ ~ minecraft:warped_wall_sign

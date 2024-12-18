@@ -1,1 +1,1 @@
-setblock ~ ~ ~ verdant_froglight
+setblock ~ ~ ~ minecraft:verdant_froglight

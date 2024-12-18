@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_emerald_ore
+setblock ~ ~ ~ minecraft:deepslate_emerald_ore

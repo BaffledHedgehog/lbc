@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purple_carpet
+setblock ~ ~ ~ minecraft:purple_carpet

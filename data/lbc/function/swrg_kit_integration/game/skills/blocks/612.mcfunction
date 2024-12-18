@@ -1,1 +1,1 @@
-setblock ~ ~ ~ structure_void
+setblock ~ ~ ~ minecraft:structure_void

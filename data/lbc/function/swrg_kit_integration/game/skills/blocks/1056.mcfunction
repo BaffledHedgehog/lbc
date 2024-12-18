@@ -1,1 +1,1 @@
-setblock ~ ~ ~ decorated_pot
+setblock ~ ~ ~ minecraft:decorated_pot

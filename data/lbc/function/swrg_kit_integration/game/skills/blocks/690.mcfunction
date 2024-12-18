@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brain_coral_block
+setblock ~ ~ ~ minecraft:brain_coral_block

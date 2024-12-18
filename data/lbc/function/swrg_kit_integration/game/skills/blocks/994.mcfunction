@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oxidized_copper_grate
+setblock ~ ~ ~ minecraft:oxidized_copper_grate

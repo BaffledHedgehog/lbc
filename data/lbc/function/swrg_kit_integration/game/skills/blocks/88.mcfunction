@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_leaves
+setblock ~ ~ ~ minecraft:cherry_leaves

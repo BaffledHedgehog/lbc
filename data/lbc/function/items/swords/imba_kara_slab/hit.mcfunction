@@ -1,2 +1,2 @@
-execute anchored eyes rotated ~ 0 positioned ^ ^ ^1.5 run summon marker ~ ~ ~ {Tags:["slowraycast","imba_rc","imba_kara","central"]}
-execute anchored eyes rotated ~ 0 positioned ^ ^ ^1.5 as @e[type=marker,limit=1,distance=..0.01] run tp @s ~ ~ ~ ~ ~
+execute anchored eyes rotated ~ 0 positioned ^ ^ ^1.5 run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","imba_kara","central"]}
+execute anchored eyes rotated ~ 0 positioned ^ ^ ^1.5 as @e[type=minecraft:marker,distance=..0.01,limit=1] run tp @s ~ ~ ~ ~ ~

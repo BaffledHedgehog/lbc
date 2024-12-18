@@ -1,13 +1,13 @@
 {
     "replace": false,
     "values": [
-        "#mineable/axe",
-        "#mineable/hoe",
+        "#minecraft:mineable/axe",
+        "#minecraft:mineable/hoe",
         "#minecraft:replaceable",
-        "#flowers",
-        "#saplings",
-        "#wool",
+        "#minecraft:flowers",
+        "#minecraft:saplings",
+        "#minecraft:wool",
         "#minecraft:campfires",
-        "#wool_carpets"
+        "#minecraft:wool_carpets"
     ]
 }

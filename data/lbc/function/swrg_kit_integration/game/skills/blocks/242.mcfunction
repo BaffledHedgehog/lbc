@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_pressure_plate
+setblock ~ ~ ~ minecraft:bamboo_pressure_plate

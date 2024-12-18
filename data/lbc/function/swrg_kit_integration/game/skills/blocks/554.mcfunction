@@ -1,1 +1,1 @@
-setblock ~ ~ ~ petrified_oak_slab
+setblock ~ ~ ~ minecraft:petrified_oak_slab

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ green_concrete
+setblock ~ ~ ~ minecraft:green_concrete

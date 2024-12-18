@@ -1,3 +1,3 @@
-execute at @e[type=#mobs,tag=!spectator,distance=0.001..30] positioned ~ ~1 ~ run function lbc:workingitems/awaken_tuntija_wands/fireblaze/at_random_fireball
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{"upgradable": true}}}},predicate=lbc:sneak] run function lbc:workingitems/awaken_tuntija_wands/fireblaze/click2_upgrade
-playsound item.firecharge.use master @a ~ ~ ~ 1 1
+execute at @e[type=#minecraft:mobs,distance=0.001..30,tag=!spectator] positioned ~ ~1 ~ run function lbc:workingitems/awaken_tuntija_wands/fireblaze/at_random_fireball
+execute if entity @s[predicate=lbc:sneak,nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1}}}}] run function lbc:workingitems/awaken_tuntija_wands/fireblaze/click2_upgrade
+playsound minecraft:item.firecharge.use master @a ~ ~ ~ 1 1

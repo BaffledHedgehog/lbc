@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_planks
+setblock ~ ~ ~ minecraft:birch_planks

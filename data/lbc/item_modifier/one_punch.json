@@ -25,7 +25,8 @@
                 {
                     "text": " ",
                     "italic": false,
-                    "color": "dark_green"
+                    "color": "dark_green",
+                    "type": "text"
                 },
                 {
                     "score": {
@@ -33,12 +34,14 @@
                         "objective": "hplvl"
                     },
                     "color": "dark_green",
-                    "italic": false
+                    "italic": false,
+                    "type": "score"
                 },
                 {
                     "text": " ",
                     "italic": false,
-                    "color": "dark_green"
+                    "color": "dark_green",
+                    "type": "text"
                 },
                 {
                     "translate": "attribute.name.generic.attack_damage",
@@ -48,9 +51,10 @@
             ],
             [
                 {
-                    "text": "∞ ",
+                    "text": "\u221e ",
                     "color": "dark_green",
-                    "italic": false
+                    "italic": false,
+                    "type": "text"
                 },
                 {
                     "translate": "attribute.name.generic.attack_speed",
@@ -62,12 +66,14 @@
                 {
                     "text": "GONZO",
                     "color": "green",
-                    "italic": false
+                    "italic": false,
+                    "type": "text"
                 },
                 {
                     "text": " Beta Server Harem event",
                     "color": "dark_gray",
-                    "italic": false
+                    "italic": false,
+                    "type": "text"
                 }
             ]
         ]
@@ -76,7 +82,7 @@
         "function": "minecraft:set_attributes",
         "modifiers": [
             {
-                "attribute": "minecraft:generic.attack_damage",
+                "attribute": "minecraft:attack_damage",
                 "amount": {
                     "type": "minecraft:score",
                     "target": "this",
@@ -84,7 +90,7 @@
                     "scale": 1
                 },
                 "operation": "add_value",
-                "id": "6d11865d-ed3d-4f0e-b892-ed5b0d216b9e",
+                "id": "minecraft:6d11865d-ed3d-4f0e-b892-ed5b0d216b9e",
                 "slot": "mainhand"
             }
         ]

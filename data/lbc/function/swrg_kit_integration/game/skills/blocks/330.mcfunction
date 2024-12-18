@@ -1,1 +1,1 @@
-setblock ~ ~ ~ enchanting_table
+setblock ~ ~ ~ minecraft:enchanting_table

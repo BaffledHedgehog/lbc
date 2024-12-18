@@ -10,9 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 689,
-                                "minecraft:custom_data": {
-                                    "trinket": "volos"
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        689.0
+                                    ]
                                 },
                                 "minecraft:max_stack_size": 99
                             }
@@ -42,6 +43,10 @@
                                     "color": "gray"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{trinket:\"volos\"}"
                         }
                     ]
                 }

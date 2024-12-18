@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light_blue_carpet
+setblock ~ ~ ~ minecraft:light_blue_carpet

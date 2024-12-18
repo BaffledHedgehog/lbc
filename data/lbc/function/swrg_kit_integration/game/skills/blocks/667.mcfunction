@@ -1,1 +1,1 @@
-setblock ~ ~ ~ yellow_concrete_powder
+setblock ~ ~ ~ minecraft:yellow_concrete_powder

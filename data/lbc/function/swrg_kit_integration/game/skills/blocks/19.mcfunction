@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_planks
+setblock ~ ~ ~ minecraft:cherry_planks

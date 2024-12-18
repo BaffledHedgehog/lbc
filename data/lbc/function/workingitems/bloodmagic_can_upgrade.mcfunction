@@ -1,5 +1,5 @@
-effect give @s poison infinite 4
-effect give @s wither infinite 4
+effect give @s minecraft:poison infinite 4
+effect give @s minecraft:wither infinite 4
 
 
 

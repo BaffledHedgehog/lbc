@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sunflower
+setblock ~ ~ ~ minecraft:sunflower

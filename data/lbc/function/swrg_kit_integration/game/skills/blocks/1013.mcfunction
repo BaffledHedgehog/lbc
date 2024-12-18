@@ -1,1 +1,1 @@
-setblock ~ ~ ~ azalea
+setblock ~ ~ ~ minecraft:azalea

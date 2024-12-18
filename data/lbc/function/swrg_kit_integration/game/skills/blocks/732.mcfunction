@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bubble_column
+setblock ~ ~ ~ minecraft:bubble_column

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cyan_concrete
+setblock ~ ~ ~ minecraft:cyan_concrete

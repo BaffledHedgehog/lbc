@@ -1,42 +1,41 @@
 {
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:placed_block",
-        "conditions": {
-          "location": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "items": [
-                  "minecraft:ancient_debris"
+        "requirement": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:ancient_debris"
+                            ],
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "debriser":1
+                                }
+                            }
+                        }
+                    }
                 ],
-                "predicates": {
-                  "minecraft:custom_data": {
-                    "debriser": true
-                  }
-                }
-              }
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
+                    }
+                ]
             }
-          ],
-          "player": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "dimension": "minecraft:nexus"
-                  }
-                }
-              }
-            }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "lbc:workingitems/imba/place_swastika"
+        "function": "lbc:workingitems/imba/place_swastika"
     }
-  }
-  
+}

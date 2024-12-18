@@ -14,7 +14,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 630
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        630.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -24,7 +28,8 @@
                                 {
                                     "text": "Daeris_: ",
                                     "italic": false,
-                                    "color": "dark_gray"
+                                    "color": "dark_gray",
+                                    "type": "text"
                                 },
                                 {
                                     "translate": "mom",
@@ -33,7 +38,8 @@
                                 },
                                 {
                                     "selector": "@p[gamemode=!spectator]",
-                                    "italic": false
+                                    "italic": false,
+                                    "type": "selector"
                                 }
                             ]
                         }

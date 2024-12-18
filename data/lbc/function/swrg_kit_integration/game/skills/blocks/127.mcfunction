@@ -1,1 +1,1 @@
-setblock ~ ~ ~ seagrass
+setblock ~ ~ ~ minecraft:seagrass

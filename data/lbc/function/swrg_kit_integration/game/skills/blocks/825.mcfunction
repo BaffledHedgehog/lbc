@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_button
+setblock ~ ~ ~ minecraft:crimson_button

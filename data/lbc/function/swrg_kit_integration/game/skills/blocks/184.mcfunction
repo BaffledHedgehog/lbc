@@ -1,1 +1,1 @@
-setblock ~ ~ ~ wheat
+setblock ~ ~ ~ minecraft:wheat

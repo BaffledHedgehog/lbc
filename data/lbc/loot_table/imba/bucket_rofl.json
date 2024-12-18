@@ -10,12 +10,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "bucket": true,
-                                    "projegadget": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 601
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        601.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -42,6 +41,10 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bucket:1,projegadget:1,imba:1}"
                         }
                     ]
                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_pressure_plate
+setblock ~ ~ ~ minecraft:birch_pressure_plate

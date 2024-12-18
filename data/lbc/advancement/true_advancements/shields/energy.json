@@ -5,32 +5,32 @@
             "components": {
                 "minecraft:base_color": "light_blue",
                 "minecraft:banner_patterns": [
-                  {
-                    "color": "black",
-                    "pattern": "curly_border"
-                  },
-                  {
-                    "color": "white",
-                    "pattern": "flower"
-                  },
-                  {
-                    "color": "white",
-                    "pattern": "rhombus"
-                  },
-                  {
-                    "color": "light_blue",
-                    "pattern": "circle"
-                  },
-                  {
-                    "color": "blue",
-                    "pattern": "triangles_bottom"
-                  },
-                  {
-                    "color": "blue",
-                    "pattern": "triangles_top"
-                  }
+                    {
+                        "color": "black",
+                        "pattern": "curly_border"
+                    },
+                    {
+                        "color": "white",
+                        "pattern": "flower"
+                    },
+                    {
+                        "color": "white",
+                        "pattern": "rhombus"
+                    },
+                    {
+                        "color": "light_blue",
+                        "pattern": "circle"
+                    },
+                    {
+                        "color": "blue",
+                        "pattern": "triangles_bottom"
+                    },
+                    {
+                        "color": "blue",
+                        "pattern": "triangles_top"
+                    }
                 ]
-              }
+            }
         },
         "title": {
             "translate": "lbc.adv.shield.energy"
@@ -60,9 +60,9 @@
                                         "mainhand": {
                                             "predicates": {
                                                 "minecraft:custom_data": {
-                                                  "energy_shield": true
+                                                    "energy_shield":1
                                                 }
-                                              }
+                                            }
                                         }
                                     }
                                 }
@@ -75,9 +75,9 @@
                                         "offhand": {
                                             "predicates": {
                                                 "minecraft:custom_data": {
-                                                  "energy_shield": true
+                                                    "energy_shield":1
                                                 }
-                                              }
+                                            }
                                         }
                                     }
                                 }

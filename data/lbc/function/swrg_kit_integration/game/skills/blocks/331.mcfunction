@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brewing_stand
+setblock ~ ~ ~ minecraft:brewing_stand

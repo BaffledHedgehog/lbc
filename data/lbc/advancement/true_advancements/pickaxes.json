@@ -1,14 +1,13 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:golden_pickaxe"
+            "id": "minecraft:golden_pickaxe",
+            "components": null
         },
         "title": {
             "translate": "lbc.adv.pickaxes"
         },
-        "description": 
-            ""
-        ,
+        "description": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
@@ -20,23 +19,23 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
-            }
-          }
-        ],
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
                 "items": [
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "pickaxe": true
+                                "transformable":1,
+                                "pickaxe":1
                             }
                         }
                     }

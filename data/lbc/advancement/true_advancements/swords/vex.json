@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":643}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        643.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.sword.vex"
@@ -36,9 +42,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "vexsword": true
+                                "transformable":1,
+                                "sword":1,
+                                "vexsword":1
                             }
                         }
                     }

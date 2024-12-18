@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stone_button
+setblock ~ ~ ~ minecraft:stone_button

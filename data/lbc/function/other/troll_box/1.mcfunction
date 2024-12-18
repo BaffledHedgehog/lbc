@@ -1,4 +1,4 @@
-give @s leather_helmet[minecraft:unbreakable={},minecraft:custom_name='{"translate":"mask_1","color":"dark_red","italic":false}',dyed_color={rgb:5,show_in_tooltip:0b},attribute_modifiers=[{type:"minecraft:generic.max_health",slot:"head",id:"dhfiue98pensudwyr893",amount:4,operation:"add_multiplied_base"},{type:"minecraft:generic.movement_speed",slot:"head",id:"8fre90uiert09iuresf",amount:4,operation:"add_multiplied_base"}],custom_data={troll:1b,trollmask:"1"},minecraft:custom_model_data=12] 1
+give @s minecraft:leather_helmet[minecraft:unbreakable={},minecraft:custom_name='{"color":"dark_red","italic":false,"translate":"mask_1"}',minecraft:dyed_color={rgb:5,show_in_tooltip:0b},minecraft:attribute_modifiers={modifiers:[{type:"minecraft:max_health",slot:"head",id:"dhfiue98pensudwyr893",amount:4,operation:"add_multiplied_base"},{type:"minecraft:movement_speed",slot:"head",id:"8fre90uiert09iuresf",amount:4,operation:"add_multiplied_base"}]},minecraft:custom_data={troll:1,trollmask:"1"},minecraft:custom_model_data={floats:[12.0f]}] 1
 title @a title ""
 title @a subtitle {"translate":"beware_1"}
 scoreboard players set trollhunter lbc.math 1

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dead_fire_coral_fan
+setblock ~ ~ ~ minecraft:dead_fire_coral_fan

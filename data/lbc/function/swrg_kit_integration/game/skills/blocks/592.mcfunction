@@ -1,1 +1,1 @@
-setblock ~ ~ ~ end_rod
+setblock ~ ~ ~ minecraft:end_rod

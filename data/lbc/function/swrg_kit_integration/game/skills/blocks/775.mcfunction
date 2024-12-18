@@ -1,1 +1,1 @@
-setblock ~ ~ ~ barrel
+setblock ~ ~ ~ minecraft:barrel

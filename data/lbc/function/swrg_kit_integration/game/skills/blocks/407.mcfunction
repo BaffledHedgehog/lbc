@@ -1,1 +1,1 @@
-setblock ~ ~ ~ piglin_head
+setblock ~ ~ ~ minecraft:piglin_head

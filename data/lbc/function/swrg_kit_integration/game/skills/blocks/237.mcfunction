@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_pressure_plate
+setblock ~ ~ ~ minecraft:jungle_pressure_plate

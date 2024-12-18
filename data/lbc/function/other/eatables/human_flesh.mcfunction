@@ -1,10 +1,10 @@
-effect give @s nausea 1 1
-effect give @s hunger 1 1
-effect give @s blindness 1 1
+effect give @s minecraft:nausea 1 1
+effect give @s minecraft:hunger 1 1
+effect give @s minecraft:blindness 1 1
 
-summon marker ~ ~ ~ {Tags:["replacer"]}
+summon minecraft:marker ~ ~ ~ {Tags:["replacer"]}
 tag @s add owner
-tag @a[gamemode=!spectator,tag=!owner,limit=1,sort=random] add tp
+tag @a[gamemode=!spectator,tag=!owner,sort=random,limit=1] add tp
 tp @s @a[tag=tp,limit=1]
 tp @a[tag=tp,limit=1] @e[tag=replacer,limit=1]
 tag @a remove tp

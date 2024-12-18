@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:leather_chestplate",
             "components": {
-                "minecraft:custom_model_data": 21
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        21.0
+                    ]
+                }
             }
         },
         "title": {
@@ -41,28 +45,28 @@
                                 "head": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "flesh": true
+                                            "flesh":1
                                         }
                                     }
                                 },
                                 "chest": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "flesh": true
+                                            "flesh":1
                                         }
                                     }
                                 },
                                 "legs": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "flesh": true
+                                            "flesh":1
                                         }
                                     }
                                 },
                                 "feet": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "flesh": true
+                                            "flesh":1
                                         }
                                     }
                                 }

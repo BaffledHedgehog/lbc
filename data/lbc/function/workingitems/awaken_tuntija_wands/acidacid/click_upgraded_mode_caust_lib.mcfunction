@@ -1,5 +1,5 @@
-summon marker ^ ^ ^ {data:{lifetime:500},Tags:["great_acid_caust","rare","slowraycast","magic"]}
+summon minecraft:marker ^ ^ ^ {data:{lifetime:500},Tags:["great_acid_caust","rare","slowraycast","magic"]}
 playsound minecraft:entity.zombie_villager.cure master @a ~ ~ ~ 1 2
-data modify entity @e[type=marker,tag=great_acid_caust,limit=1,distance=..0.0001,tag=!actived] Rotation set from entity @s Rotation
-scoreboard players operation @e[type=marker,tag=great_acid_caust,limit=1,distance=..0.0001,tag=!actived] lbcID2 = @s lbcID2
-tag @e[type=marker,tag=great_acid_caust,limit=1,distance=..0.0001,tag=!actived] add actived
+data modify entity @e[type=minecraft:marker,distance=..0.0001,tag=great_acid_caust,tag=!actived,limit=1] Rotation set from entity @s Rotation
+scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=great_acid_caust,tag=!actived,limit=1] lbcID2 = @s lbcID2
+tag @e[type=minecraft:marker,distance=..0.0001,tag=great_acid_caust,tag=!actived,limit=1] add actived

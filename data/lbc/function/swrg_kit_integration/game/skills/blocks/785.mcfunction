@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lantern
+setblock ~ ~ ~ minecraft:lantern

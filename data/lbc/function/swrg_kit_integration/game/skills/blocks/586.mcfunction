@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_door
+setblock ~ ~ ~ minecraft:jungle_door

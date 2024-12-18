@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_brick_wall
+setblock ~ ~ ~ minecraft:deepslate_brick_wall

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ calcite
+setblock ~ ~ ~ minecraft:calcite

@@ -8,17 +8,17 @@
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 700,
-                                "minecraft:custom_data": {
-                                    "dynamite": true,
-                                    "special": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        700.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "dynamite",
@@ -27,7 +27,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -37,8 +37,12 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dynamite:1,special:1}"
                         }
                     ]
                 }

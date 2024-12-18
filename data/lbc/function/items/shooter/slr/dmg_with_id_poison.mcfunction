@@ -1,1 +1,1 @@
-execute as @e[tag=!caster,distance=..15,dx=0,dy=0,dz=0] run function lbc:items/shooter/slr/poison
+execute as @e[dx=0,dy=0,dz=0,distance=..15,tag=!caster] run function lbc:items/shooter/slr/poison

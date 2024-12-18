@@ -8,7 +8,7 @@
                     "name": "minecraft:waxed_weathered_copper",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 2
                         }
                     ]

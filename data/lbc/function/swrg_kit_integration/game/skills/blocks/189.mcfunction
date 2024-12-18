@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_sign
+setblock ~ ~ ~ minecraft:birch_sign

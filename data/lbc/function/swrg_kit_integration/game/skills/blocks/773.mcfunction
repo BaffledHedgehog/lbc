@@ -1,1 +1,1 @@
-setblock ~ ~ ~ scaffolding
+setblock ~ ~ ~ minecraft:scaffolding

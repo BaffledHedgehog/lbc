@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "components": {"minecraft:custom_model_data":630}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        630.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.potion.effect_target"

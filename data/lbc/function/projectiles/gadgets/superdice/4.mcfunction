@@ -1,11 +1,11 @@
-tellraw @a [{"selector":"@s"},{"translate":"super_dice.event.4","color": "yellow"}]
-tellraw @s [{"translate":"super_dice.event.grant"},{"text":" 4!"}]
-effect give @s fire_resistance infinite 0
-effect give @s haste infinite 0
-effect give @s jump_boost infinite 0
-effect give @s invisibility infinite 0
-effect give @s speed infinite 0
-effect give @s slow_falling infinite 0
-effect give @s night_vision infinite 0
-effect give @s resistance infinite 0
-effect give @s water_breathing infinite 0
+tellraw @a [{"selector":"@s","type":"selector"},{"translate":"super_dice.event.4","color":"yellow"}]
+tellraw @s [{"translate":"super_dice.event.grant"},{"text":" 4!","type":"text"}]
+effect give @s minecraft:fire_resistance infinite 0
+effect give @s minecraft:haste infinite 0
+effect give @s minecraft:jump_boost infinite 0
+effect give @s minecraft:invisibility infinite 0
+effect give @s minecraft:speed infinite 0
+effect give @s minecraft:slow_falling infinite 0
+effect give @s minecraft:night_vision infinite 0
+effect give @s minecraft:resistance infinite 0
+effect give @s minecraft:water_breathing infinite 0

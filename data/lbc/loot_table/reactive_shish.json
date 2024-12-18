@@ -1,121 +1,127 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "craftusable": true,
-                  "magicwand": true,
-                  "reactive_shish": true,
-                  "spellwithcooldown": true
-                },
-                "minecraft:custom_model_data": 641
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "reactive_shish",
-                  "color": "dark_green",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        641.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "reactive_shish",
+                                    "color": "dark_green",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "reactive_shish.lore",
+                                    "color": "green",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "reactive_shish.lore.1",
+                                    "color": "green",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "craft_with_upgraded_wall_wand.1",
+                                    "color": "gold",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "craft_with_upgraded_wall_wand.2",
+                                    "color": "gold",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,magicwand:1,reactive_shish:1,spellwithcooldown:1}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                {
-                  "translate": "reactive_shish.lore",
-                  "color": "green",
-                  "italic": false
-                },
-                {
-                  "translate": "reactive_shish.lore.1",
-                  "color": "green",
-                  "italic": false
-                },
-                {
-                  "translate": "craft_with_upgraded_wall_wand.1",
-                  "color": "gold",
-                  "italic": false
-                },
-                {
-                  "translate": "craft_with_upgraded_wall_wand.2",
-                  "color": "gold",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:snowball",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "gadget": true,
-                  "shish_of_everything": true
-                },
-                "minecraft:custom_model_data": 591
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "shish_of_everything",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        591.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "shish_of_everything",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "end_of_everything.lore",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gadget:1,shish_of_everything:1}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.05
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                {
-                  "translate": "end_of_everything.lore",
-                  "color": "aqua",
-                  "italic": false
-                }
-              ]
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

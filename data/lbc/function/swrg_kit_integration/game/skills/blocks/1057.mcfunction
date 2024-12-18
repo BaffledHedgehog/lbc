@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crafter
+setblock ~ ~ ~ minecraft:crafter

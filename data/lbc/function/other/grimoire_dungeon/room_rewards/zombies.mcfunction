@@ -1,3 +1,3 @@
-summon zombie ~ ~ ~ {Tags:["dungeon_mob"],PersistenceRequired:1b}
-summon husk ~ ~ ~ {Tags:["dungeon_mob"],PersistenceRequired:1b}
-summon drowned ~ ~ ~ {Tags:["dungeon_mob"],PersistenceRequired:1b}
+summon minecraft:zombie ~ ~ ~ {Tags:["dungeon_mob"],PersistenceRequired:1b}
+summon minecraft:husk ~ ~ ~ {Tags:["dungeon_mob"],PersistenceRequired:1b}
+summon minecraft:drowned ~ ~ ~ {Tags:["dungeon_mob"],PersistenceRequired:1b}

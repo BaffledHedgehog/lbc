@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cake
+setblock ~ ~ ~ minecraft:cake

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_concrete
+setblock ~ ~ ~ minecraft:lime_concrete

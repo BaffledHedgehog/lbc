@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_planks
+setblock ~ ~ ~ minecraft:crimson_planks

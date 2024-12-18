@@ -1,1 +1,1 @@
-setblock ~ ~ ~ trapped_chest
+setblock ~ ~ ~ minecraft:trapped_chest

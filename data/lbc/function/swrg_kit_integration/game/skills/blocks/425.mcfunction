@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dropper
+setblock ~ ~ ~ minecraft:dropper

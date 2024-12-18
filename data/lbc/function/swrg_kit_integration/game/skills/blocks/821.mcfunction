@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_fence_gate
+setblock ~ ~ ~ minecraft:crimson_fence_gate

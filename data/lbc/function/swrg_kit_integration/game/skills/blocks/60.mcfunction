@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_jungle_log
+setblock ~ ~ ~ minecraft:stripped_jungle_log

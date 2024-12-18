@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=diamond_spawn] at @s run function lbc:other/greed/avarice_diamond_rand_pos_coldwn2
+execute as @e[type=minecraft:marker,tag=diamond_spawn] at @s run function lbc:other/greed/avarice_diamond_rand_pos_coldwn2

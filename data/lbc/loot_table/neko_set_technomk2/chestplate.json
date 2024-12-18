@@ -10,35 +10,34 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "chestplate": true,
-                                    "techno": true,
-                                    "reactive": true,
-                                    "technomk2": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        13.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 13,
                                 "minecraft:max_damage": 9000,
                                 "minecraft:dyed_color": {
                                     "rgb": 773,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "chest",
-                                        "id": "ggbrytyjghmnjgjhgjhr",
-                                        "amount": 8,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "chest",
-                                        "id": "jdgjdgjn53465465465fjgjg",
-                                        "amount": 3,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "chest",
+                                            "id": "ggbrytyjghmnjgjhgjhr",
+                                            "amount": 8,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "chest",
+                                            "id": "jdgjdgjn53465465465fjgjg",
+                                            "amount": 3,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -128,6 +127,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,chestplate:1,techno:1,reactive:1,technomk2:1}"
                         }
                     ]
                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sticky_piston
+setblock ~ ~ ~ minecraft:sticky_piston

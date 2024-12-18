@@ -1,1 +1,1 @@
-setblock ~ ~ ~ anvil
+setblock ~ ~ ~ minecraft:anvil

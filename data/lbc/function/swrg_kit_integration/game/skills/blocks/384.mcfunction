@@ -1,1 +1,1 @@
-setblock ~ ~ ~ carrots
+setblock ~ ~ ~ minecraft:carrots

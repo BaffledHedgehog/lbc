@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_pressure_plate
+setblock ~ ~ ~ minecraft:oak_pressure_plate

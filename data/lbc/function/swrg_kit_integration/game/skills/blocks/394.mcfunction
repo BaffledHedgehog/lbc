@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_button
+setblock ~ ~ ~ minecraft:bamboo_button

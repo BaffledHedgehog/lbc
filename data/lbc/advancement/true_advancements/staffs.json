@@ -1,14 +1,13 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:blaze_rod"
+            "id": "minecraft:blaze_rod",
+            "components": null
         },
         "title": {
             "translate": "lbc.adv.staffs"
         },
-        "description": 
-            ""
-        ,
+        "description": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
@@ -20,23 +19,23 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
-            }
-          }
-        ],
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
                 "items": [
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "staff": true
+                                "transformable":1,
+                                "staff":1
                             }
                         }
                     }

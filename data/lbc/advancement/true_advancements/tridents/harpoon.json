@@ -31,9 +31,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "trident": true,
-                                            "harpoon": true
+                                            "transformable":1,
+                                            "trident":1,
+                                            "harpoon":1
                                         }
                                     }
                                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light_gray_stained_glass_pane
+setblock ~ ~ ~ minecraft:light_gray_stained_glass_pane

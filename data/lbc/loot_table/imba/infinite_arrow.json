@@ -4,28 +4,26 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:arrow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "infinite_arrow": true,
-                                    "imba": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "infinite_arrow",
@@ -43,6 +41,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{infinite_arrow:1,imba:1}"
                         }
                     ]
                 }

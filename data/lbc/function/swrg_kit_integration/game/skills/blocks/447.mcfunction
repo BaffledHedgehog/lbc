@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_stained_glass_pane
+setblock ~ ~ ~ minecraft:lime_stained_glass_pane

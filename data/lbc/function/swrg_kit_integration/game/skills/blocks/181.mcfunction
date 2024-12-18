@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_diamond_ore
+setblock ~ ~ ~ minecraft:deepslate_diamond_ore

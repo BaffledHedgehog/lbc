@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_dead_bush
+setblock ~ ~ ~ minecraft:potted_dead_bush

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pumpkin
+setblock ~ ~ ~ minecraft:pumpkin

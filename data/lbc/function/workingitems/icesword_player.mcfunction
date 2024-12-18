@@ -13,4 +13,4 @@ execute if entity @s[nbt={active_effects:[{id:"minecraft:slowness"}]}] run funct
 
 execute unless entity @s[nbt={active_effects:[{id:"minecraft:slowness"}]}] run function lbc:workingitems/icesword/pre
 playsound minecraft:block.snow.fall master @a ~ ~ ~ 1 0
-particle dust{color:[1.0,1.0,1.0],scale:1} ~ ~0.81 ~ 0.5 0.5 0.5 0.01 20 normal
+particle minecraft:dust{color:[1.0,1.0,1.0],scale:1.0f} ~ ~0.81 ~ 0.5 0.5 0.5 0.01 20 normal

@@ -4,18 +4,18 @@
             "rolls": 27,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:random_glack_1",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "max_stack_size": 99,
-                                "!max_damage": {}
+                                "minecraft:max_stack_size": 99,
+                                "!minecraft:max_damage": {}
                             }
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 99
                         }
                     ]

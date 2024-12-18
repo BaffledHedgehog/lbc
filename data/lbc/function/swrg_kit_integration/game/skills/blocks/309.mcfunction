@@ -1,1 +1,1 @@
-setblock ~ ~ ~ iron_bars
+setblock ~ ~ ~ minecraft:iron_bars

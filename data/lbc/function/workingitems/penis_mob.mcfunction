@@ -1,4 +1,4 @@
-execute at @e[type=#mobs,type=!player,limit=1,sort=nearest,tag=!no_penis,distance=..1.2] run function lbc:other/penises/select
+execute at @e[type=#minecraft:mobs,type=!minecraft:player,distance=..1.2,tag=!no_penis,sort=nearest,limit=1] run function lbc:other/penises/select
 
 
 kill @s[nbt={Item:{count:1}}]

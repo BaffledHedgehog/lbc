@@ -1,1 +1,1 @@
-execute positioned ~-30 ~-30 ~-30 at @e[type=#mobs,limit=5,sort=random,dx=60,dy=35,dz=60,tag=!spectator,nbt=!{Inventory:[{components: {"minecraft:custom_data":{"vexsword": true}}}]}] run function lbc:other/phantomarrows/select
+execute positioned ~-30 ~-30 ~-30 at @e[type=#minecraft:mobs,dx=60,dy=35,dz=60,tag=!spectator,sort=random,limit=5,nbt=!{Inventory:[{components:{"minecraft:custom_data":{vexsword:1}}}]}] run function lbc:other/phantomarrows/select

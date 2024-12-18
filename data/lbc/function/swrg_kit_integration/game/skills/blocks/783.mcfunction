@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stonecutter
+setblock ~ ~ ~ minecraft:stonecutter

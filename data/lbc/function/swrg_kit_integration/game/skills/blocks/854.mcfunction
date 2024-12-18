@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_blackstone
+setblock ~ ~ ~ minecraft:polished_blackstone

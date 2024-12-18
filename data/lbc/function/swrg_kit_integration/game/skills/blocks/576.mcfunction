@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_fence
+setblock ~ ~ ~ minecraft:spruce_fence

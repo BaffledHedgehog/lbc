@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sea_lantern
+setblock ~ ~ ~ minecraft:sea_lantern

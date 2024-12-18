@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_button
+setblock ~ ~ ~ minecraft:warped_button

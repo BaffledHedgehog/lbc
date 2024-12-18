@@ -1,3 +1,3 @@
-execute at @s[nbt={active_effects:[{id:"minecraft:fire_resistance",amplifier:1b}]},tag=!spectator] run fill ~ ~ ~ ~ ~ ~ fire replace #airs
-execute at @s[nbt={active_effects:[{id:"minecraft:fire_resistance",amplifier:2b}]},tag=!spectator] run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 fire replace #airs
-execute at @s[type=player,gamemode=!spectator] run function lbc:players_2t
+execute at @s[tag=!spectator,nbt={active_effects:[{id:"minecraft:fire_resistance",amplifier:1b}]}] run fill ~ ~ ~ ~ ~ ~ minecraft:fire replace #minecraft:airs
+execute at @s[tag=!spectator,nbt={active_effects:[{id:"minecraft:fire_resistance",amplifier:2b}]}] run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:fire replace #minecraft:airs
+execute at @s[type=minecraft:player,gamemode=!spectator] run function lbc:players_2t

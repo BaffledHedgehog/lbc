@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_log
+setblock ~ ~ ~ minecraft:oak_log

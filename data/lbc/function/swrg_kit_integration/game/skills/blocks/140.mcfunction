@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cyan_wool
+setblock ~ ~ ~ minecraft:cyan_wool

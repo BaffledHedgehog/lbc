@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_leaves
+setblock ~ ~ ~ minecraft:acacia_leaves

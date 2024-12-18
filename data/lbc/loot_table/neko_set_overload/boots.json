@@ -10,40 +10,41 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "leggings": true,
-                                    "overload": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        24.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 24,
                                 "minecraft:max_damage": 900,
                                 "minecraft:dyed_color": {
                                     "rgb": 776,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "grbydjgjgjghjhjr",
-                                        "amount": 3,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "feet",
-                                        "id": "grbydj53534546757hjhjr",
-                                        "amount": 2,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.safe_fall_distance",
-                                        "slot": "feet",
-                                        "id": "grbydjgjgjghjhjtjtyyjjr",
-                                        "amount": 16,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "feet",
+                                            "id": "grbydjgjgjghjhjr",
+                                            "amount": 3,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "feet",
+                                            "id": "grbydj53534546757hjhjr",
+                                            "amount": 2,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:safe_fall_distance",
+                                            "slot": "feet",
+                                            "id": "grbydjgjgjghjhjtjtyyjjr",
+                                            "amount": 16,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -93,7 +94,8 @@
                                     "italic": false
                                 },
                                 {
-                                    "text": " "
+                                    "text": " ",
+                                    "type": "text"
                                 },
                                 [
                                     {
@@ -136,6 +138,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,leggings:1,overload:1}"
                         }
                     ]
                 }

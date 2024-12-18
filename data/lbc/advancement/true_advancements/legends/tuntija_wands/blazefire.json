@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":670}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        670.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.tuntija.blazefire"
@@ -36,11 +42,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "staff": true,
-                              "fireblaze_wand": true
+                                "transformable":1,
+                                "staff":1,
+                                "fireblaze_wand":1
                             }
-                          }
+                        }
                     }
                 ]
             }

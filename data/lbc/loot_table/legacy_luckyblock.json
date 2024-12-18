@@ -19,7 +19,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -40,7 +41,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -61,7 +63,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -82,7 +85,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -103,7 +107,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -124,7 +129,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -145,7 +151,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -166,7 +173,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -187,7 +195,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -208,7 +217,8 @@
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 1,
-                                "max": 30
+                                "max": 30,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -295,12 +305,11 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "drop": true,
-                                    "explode": true
-                                }
-                            }
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{drop:1,explode:1}"
                         }
                     ]
                 },
@@ -314,12 +323,11 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "drop": true,
-                                    "korrosion_old": true
-                                }
-                            }
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{drop:1,korrosion_old:1}"
                         }
                     ]
                 },
@@ -333,29 +341,25 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "drop": true,
-                                    "creepers_old": true
-                                }
-                            }
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{drop:1,creepers_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "explosive": true
-                                },
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:feather_falling": 1
@@ -365,7 +369,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "firework.lbc",
@@ -375,7 +379,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -389,6 +393,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{explosive:1}"
                         }
                     ]
                 },
@@ -402,12 +410,11 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "lightning_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{lightning_old:1,drop:1}"
                         }
                     ]
                 },
@@ -423,7 +430,9 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:sharpness": 1
+                                    "levels": {
+                                        "minecraft:sharpness": 1
+                                    }
                                 }
                             }
                         },
@@ -480,17 +489,21 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:silk_touch": 10
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "silkespixaxe",
-                                        "amount": 2,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:silk_touch": 10
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "silkespixaxe",
+                                            "amount": 2,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -562,22 +575,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "head",
-                                        "id": "multihelmestt",
-                                        "amount": 0.5,
-                                        "operation": "add_multiplied_base"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "head",
-                                        "id": "multuiofjdufhduhudghvdhgudhgud",
-                                        "amount": 0.5,
-                                        "operation": "add_multiplied_base"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "head",
+                                            "id": "multihelmestt",
+                                            "amount": 0.5,
+                                            "operation": "add_multiplied_base"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "head",
+                                            "id": "multuiofjdufhduhudghvdhgudhgud",
+                                            "amount": 0.5,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -602,22 +617,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "chest",
-                                        "id": "digh8yug8rrfgfgf",
-                                        "amount": 1,
-                                        "operation": "add_multiplied_base"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "chest",
-                                        "id": "qwertyuiopdfghjklj",
-                                        "amount": 1,
-                                        "operation": "add_multiplied_base"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "chest",
+                                            "id": "digh8yug8rrfgfgf",
+                                            "amount": 1,
+                                            "operation": "add_multiplied_base"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "chest",
+                                            "id": "qwertyuiopdfghjklj",
+                                            "amount": 1,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -642,22 +659,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "legs",
-                                        "id": "daerischandevocjkawaifu",
-                                        "amount": 0.8,
-                                        "operation": "add_multiplied_base"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "legs",
-                                        "id": "eriserisedkidaeris",
-                                        "amount": 0.8,
-                                        "operation": "add_multiplied_base"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "legs",
+                                            "id": "daerischandevocjkawaifu",
+                                            "amount": 0.8,
+                                            "operation": "add_multiplied_base"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "legs",
+                                            "id": "eriserisedkidaeris",
+                                            "amount": 0.8,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -682,22 +701,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "jastshishkaisf",
-                                        "amount": 0.4,
-                                        "operation": "add_multiplied_base"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "feet",
-                                        "id": "nyauwumewdaerisshiiish",
-                                        "amount": 0.4,
-                                        "operation": "add_multiplied_base"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "feet",
+                                            "id": "jastshishkaisf",
+                                            "amount": 0.4,
+                                            "operation": "add_multiplied_base"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "feet",
+                                            "id": "nyauwumewdaerisshiiish",
+                                            "amount": 0.4,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -775,7 +796,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 541,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        541.0
+                                    ]
+                                },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:tnt",
                                     "fuse": 40,
@@ -809,7 +834,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 576,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        576.0
+                                    ]
+                                },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:lightning_bolt"
                                 }
@@ -925,7 +954,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 530,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        530.0
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_color": 16777215,
                                     "custom_effects": [
@@ -986,7 +1019,9 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 2
+                                    "levels": {
+                                        "minecraft:knockback": 2
+                                    }
                                 }
                             }
                         }
@@ -1016,7 +1051,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 32
+                                "max": 32,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -1029,7 +1065,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 32
+                                "max": 32,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -1042,7 +1079,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 32
+                                "max": 32,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -1055,7 +1093,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 32
+                                "max": 32,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -1068,7 +1107,8 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 32
+                                "max": 32,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -1081,84 +1121,81 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 32
+                                "max": 32,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "yama_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{yama_old:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "lookupanvil": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{lookupanvil:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "lookuplava": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{lookuplava:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "bob_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bob_old:1,drop:1}"
                         }
                     ]
                 },
@@ -1171,40 +1208,38 @@
                     "value": "lbc:buckets_old"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "library": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{library:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "skeleton_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{skeleton_old:1,drop:1}"
                         }
                     ]
                 },
@@ -1213,51 +1248,54 @@
                     "value": "lbc:wool"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "applepig": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{applepig:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:flint_and_steel",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:fire_aspect": 20
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "daeriswaifu800yearschan",
-                                        "amount": -0.99,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:fire_aspect": 20
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "daeriswaifu800yearschan",
+                                            "amount": -0.99,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "op_flint",
@@ -1273,27 +1311,24 @@
                     "value": "lbc:food_old"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_leggings",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:dyed_color": {
                                     "rgb": 655104,
                                     "show_in_tooltip": false
-                                },
-                                "minecraft:custom_data": {
-                                    "jumpboost": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "frog_leggings",
@@ -1303,7 +1338,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1312,37 +1347,44 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{jumpboost:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:wooden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 522,
-                                "minecraft:custom_data": {
-                                    "heal": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        522.0
+                                    ]
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "edkoedkoedkodaerisaiwisjfijf",
-                                        "amount": 0,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "edkoedkoedkodaerisaiwisjfijf",
+                                            "amount": 0,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "devil_sword",
@@ -1352,7 +1394,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1371,101 +1413,100 @@
                                     "color": "red"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{heal:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "end_city": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{end_city:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "village": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{village:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "bonus_chest": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bonus_chest:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "bastion": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bastion:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "treasure": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{treasure:1,drop:1}"
                         }
                     ]
                 },
@@ -1474,21 +1515,20 @@
                     "value": "lbc:foodblocks"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "bees": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bees:1,drop:1}"
                         }
                     ]
                 },
@@ -1497,43 +1537,43 @@
                     "value": "lbc:elytra_old"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "vex_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{vex_old:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 538,
-                                "minecraft:custom_data": {
-                                    "gaara_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        538.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "sand_amulet",
@@ -1543,7 +1583,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1562,25 +1602,28 @@
                                     "color": "yellow"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gaara_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "obsidiantrap": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{obsidiantrap:1,drop:1}"
                         }
                     ]
                 },
@@ -1601,24 +1644,25 @@
                     "value": "lbc:goldentools"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:iron_boots",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 534,
-                                "minecraft:custom_data": {
-                                    "reactive_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        534.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "reactive_boots",
@@ -1628,7 +1672,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1642,6 +1686,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{reactive_old:1}"
                         }
                     ]
                 },
@@ -1650,33 +1698,36 @@
                     "value": "lbc:irontools"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 532,
-                                "minecraft:custom_data": {
-                                    "vampire": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        532.0
+                                    ]
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "vu89qjduxlsodkiogaisrepog",
-                                        "amount": 1,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "vu89qjduxlsodkiogaisrepog",
+                                            "amount": 1,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "vampire_fang",
@@ -1686,7 +1737,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1700,6 +1751,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{vampire:1}"
                         }
                     ]
                 },
@@ -1712,17 +1767,21 @@
                     "value": "lbc:spawnegg_old"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:panda_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 552,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        552.0
+                                    ]
+                                },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -1733,7 +1792,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "omega_tnt_old",
@@ -1749,17 +1808,21 @@
                     "value": "lbc:weapons"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:panda_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 551,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        551.0
+                                    ]
+                                },
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -1772,7 +1835,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "nuke",
@@ -1785,25 +1848,25 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 526,
-                                "minecraft:custom_data": {
-                                    "most": true,
-                                    "projegadget": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        526.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "bridge_builder",
@@ -1813,7 +1876,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1827,29 +1890,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{most:1,projegadget:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 8
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 523,
-                                "minecraft:custom_data": {
-                                    "teleport1": true,
-                                    "gadget": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        523.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "teleporter",
@@ -1859,7 +1926,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1873,6 +1940,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{teleport1:1,gadget:1}"
                         }
                     ]
                 },
@@ -1893,24 +1964,25 @@
                     "value": "lbc:knifes_old"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 539,
-                                "minecraft:custom_data": {
-                                    "double_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        539.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "double_bow",
@@ -1919,7 +1991,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1928,23 +2000,24 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{double_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_chestplate",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "custom_data": {
-                                    "dynamite": true
-                                },
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:blast_protection": 255
@@ -1958,21 +2031,21 @@
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.armor",
+                                            "type": "minecraft:armor",
                                             "slot": "chest",
                                             "id": "gcnghmcghmghm",
                                             "amount": 3,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.knockback_resistance",
+                                            "type": "minecraft:knockback_resistance",
                                             "slot": "chest",
                                             "id": "hgmcghmhmbcv",
                                             "amount": 0,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.armor_toughness",
+                                            "type": "minecraft:armor_toughness",
                                             "slot": "chest",
                                             "id": "gfcmghfhmgfhmcfhmcghf",
                                             "amount": 1,
@@ -1984,7 +2057,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "tnt_jacket",
@@ -1994,7 +2067,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2003,29 +2076,34 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{dynamite:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 531,
-                                "minecraft:unbreakable": {},
-                                "minecraft:custom_data": {
-                                    "cool_old": true
-                                }
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        531.0
+                                    ]
+                                },
+                                "minecraft:unbreakable": {}
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "epic_sword",
@@ -2035,7 +2113,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2044,30 +2122,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{cool_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:crossbow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "fast_old": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:quick_charge": 5
+                                    "levels": {
+                                        "minecraft:quick_charge": 5
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2083,7 +2164,7 @@
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "minigun",
@@ -2091,6 +2172,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{fast_old:1}"
                         }
                     ]
                 },
@@ -2099,20 +2184,20 @@
                     "value": "lbc:stews_old"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 528,
-                                "minecraft:custom_data": {
-                                    "gadget": true,
-                                    "rasengan": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        528.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
                                     "levels": {
@@ -2120,109 +2205,110 @@
                                     },
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:custom_name": "{\"translate\":\"rasengan\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}",
+                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"rasengan\"}",
                                 "minecraft:lore": [
                                     "{\"translate\":\"rasengan_old.lore\",\"color\":\"white\",\"italic\":false}"
                                 ]
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gadget:1,rasengan:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "lbh": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{lbh:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "luckyspawner_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{luckyspawner_old:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "badspawner_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{badspawner_old:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "droppertnt_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{droppertnt_old:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:wooden_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 521,
-                                "minecraft:custom_data": {
-                                    "feeding": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        521.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "steak_sword",
@@ -2232,7 +2318,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2241,58 +2327,66 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{feeding:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 527,
-                                "minecraft:custom_data": {
-                                    "special": true,
-                                    "smoke_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        527.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "smoke_grenade",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,smoke_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 524,
-                                "minecraft:custom_data": {
-                                    "randtp": true,
-                                    "gadget": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        524.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "swapper",
@@ -2302,7 +2396,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2316,29 +2410,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{randtp:1,gadget:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 525,
-                                "minecraft:custom_data": {
-                                    "islandtp": true,
-                                    "gadget": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        525.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "island_teleporter",
@@ -2348,7 +2446,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2357,57 +2455,59 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{islandtp:1,gadget:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "bullets": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bullets:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "skrimmer_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{skrimmer_old:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:splash_potion",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:potion_contents": {
                                     "custom_color": 16753151,
@@ -2424,7 +2524,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "confuse_potion",
@@ -2434,7 +2534,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2452,19 +2552,19 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:pig_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 4
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:pig",
-                                    "CustomNameVisible": true,
+                                    "CustomNameVisible":1,
                                     "Health": 50,
                                     "Tags": [
                                         "fakepig",
@@ -2481,7 +2581,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "Fake lucky pig",
@@ -2491,7 +2591,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2509,19 +2609,20 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 537,
-                                "minecraft:custom_data": {
-                                    "save": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        537.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
                                     "levels": {
@@ -2532,7 +2633,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "save_platform",
@@ -2542,7 +2643,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2551,19 +2652,23 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{save:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_boots",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "levels": {
@@ -2575,19 +2680,21 @@
                                     "rgb": 917301,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.movement_speed",
-                                        "slot": "feet",
-                                        "id": "hermeshermes",
-                                        "amount": 0.5,
-                                        "operation": "add_multiplied_base"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:movement_speed",
+                                            "slot": "feet",
+                                            "id": "hermeshermes",
+                                            "amount": 0.5,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "hermes_boots",
@@ -2599,23 +2706,25 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:totem_of_undying",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "not_infinite_totem",
@@ -2626,32 +2735,36 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:trident",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:riptide": 10
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "genericsea.attack_damage",
-                                        "amount": 5,
-                                        "operation": "add_value"
+                                    "levels": {
+                                        "minecraft:riptide": 10
                                     }
-                                ]
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:attack_damage",
+                                            "slot": "mainhand",
+                                            "id": "genericsea.attack_damage",
+                                            "amount": 5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "sea_legend_old",
@@ -2663,18 +2776,20 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:shield",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "minecraft:unbreaking": 10
+                                    "levels": {
+                                        "minecraft:unbreaking": 10
+                                    }
                                 },
                                 "minecraft:hide_additional_tooltip": {},
                                 "minecraft:base_color": "blue",
@@ -2707,7 +2822,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "hylian_shield",
@@ -2719,55 +2834,57 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "slab_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{slab_old:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "clone_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{clone_old:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 529,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        529.0
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_color": 5731155,
                                     "custom_effects": [
@@ -2817,7 +2934,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lbc.adv.potion.snus",
@@ -2828,7 +2945,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2841,28 +2958,30 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 513,
-                                "minecraft:custom_data": {
-                                    "magicwand": true,
-                                    "evocator_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        513.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 },
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.movement_speed",
+                                            "type": "minecraft:movement_speed",
                                             "id": "suvhd7sdjgvbbf",
                                             "amount": -10,
                                             "operation": "add_multiplied_base"
@@ -2873,7 +2992,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "evoker_wand",
@@ -2882,7 +3001,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2891,19 +3010,23 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magicwand:1,evocator_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:potion_contents": {
                                     "custom_color": 16777215,
@@ -2923,7 +3046,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "succubus_potion",
@@ -2934,43 +3057,43 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "portall": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{portall:1,drop:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:netherite_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 500,
-                                "minecraft:custom_data": {
-                                    "ender": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        500.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "ender_sword",
@@ -2980,7 +3103,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -2994,32 +3117,38 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{ender:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 511,
-                                "minecraft:custom_data": {
-                                    "magicwand": true,
-                                    "bassboost_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        511.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "bass_wand",
@@ -3028,7 +3157,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3052,32 +3181,38 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magicwand:1,bassboost_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 542,
-                                "minecraft:custom_data": {
-                                    "magicwand": true,
-                                    "corrupter_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        542.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "corruption_wand",
@@ -3086,7 +3221,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3110,32 +3245,38 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magicwand:1,corrupter_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 512,
-                                "minecraft:custom_data": {
-                                    "magicwand": true,
-                                    "enderwand_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        512.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "ender_wand",
@@ -3144,7 +3285,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3153,6 +3294,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magicwand:1,enderwand_old:1}"
                         }
                     ]
                 },
@@ -3161,19 +3306,20 @@
                     "value": "lbc:artifact_old"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 536,
-                                "minecraft:custom_data": {
-                                    "heall_old": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        536.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
                                     "levels": {
@@ -3184,7 +3330,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "regeneration_belt",
@@ -3194,7 +3340,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3208,39 +3354,42 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{heall_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip": false
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:fire_protection": 5,
-                                    "minecraft:blast_protection": 5,
-                                    "minecraft:projectile_protection": 5
+                                    "levels": {
+                                        "minecraft:fire_protection": 5,
+                                        "minecraft:blast_protection": 5,
+                                        "minecraft:projectile_protection": 5
+                                    }
                                 },
                                 "minecraft:dyed_color": {
                                     "rgb": 16739302,
                                     "show_in_tooltip": false
-                                },
-                                "minecraft:custom_data": {
-                                    "magichat_old": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "mage_hat",
@@ -3249,7 +3398,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3263,34 +3412,39 @@
                                     "color": "aqua"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magichat_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 535,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        535.0
+                                    ]
+                                },
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:efficiency": 1
                                     },
                                     "show_in_tooltip": false
-                                },
-                                "minecraft:custom_data": {
-                                    "manabelt_old": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "mana_belt",
@@ -3300,7 +3454,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3314,19 +3468,23 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{manabelt_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:black_shulker_box",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:container_loot": {
                                     "loot_table": "lbc:infinity_old"
@@ -3334,7 +3492,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "infinite_shulker",
@@ -3345,23 +3503,19 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:rabbit_stew",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "inf_old": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "horn",
@@ -3371,7 +3525,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3380,28 +3534,33 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{inf_old:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 533,
-                                "minecraft:custom_data": {
-                                    "shulker": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        533.0
+                                    ]
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shulker_bow",
@@ -3411,7 +3570,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3420,27 +3579,27 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{shulker:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:turtle_helmet",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "shulkshell": 1
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shulker_helmet",
@@ -3450,7 +3609,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3464,25 +3623,28 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{shulkshell:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:barrier",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "opanvil_old": true,
-                                    "drop": true
-                                }
-                            }
+                            "function": "minecraft:set_components",
+                            "components": {}
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{opanvil_old:1,drop:1}"
                         }
                     ]
                 },
@@ -3491,28 +3653,30 @@
                     "value": "lbc:imitator"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 546,
-                                "minecraft:custom_data": {
-                                    "lifestealer_old": true,
-                                    "magicwand": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        546.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "vampire_wand",
@@ -3521,7 +3685,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3545,32 +3709,38 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{lifestealer_old:1,magicwand:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 548,
-                                "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        548.0
+                                    ]
                                 },
-                                "minecraft:custom_data": {
-                                    "foxusing_old": true,
-                                    "magicwand": true
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "confuse_wand",
@@ -3579,7 +3749,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3603,32 +3773,38 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{foxusing_old:1,magicwand:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 547,
-                                "minecraft:custom_data": {
-                                    "bloodmagic_old": true,
-                                    "magicwand": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        547.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "blood_wand",
@@ -3637,7 +3813,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3661,32 +3837,38 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{bloodmagic_old:1,magicwand:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 550,
-                                "minecraft:custom_data": {
-                                    "badwiki_old": true,
-                                    "magicwand": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        550.0
+                                    ]
                                 },
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "bad_wiki",
@@ -3695,7 +3877,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3719,6 +3901,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{badwiki_old:1,magicwand:1}"
                         }
                     ]
                 },
@@ -3731,24 +3917,25 @@
                     "value": "lbc:redstone_old"
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "magnet": true
-                                },
-                                "minecraft:custom_model_data": 554
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        554.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "magnet_item",
@@ -3757,7 +3944,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -3776,6 +3963,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{magnet:1}"
                         }
                     ]
                 }

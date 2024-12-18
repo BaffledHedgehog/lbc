@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_terracotta
+setblock ~ ~ ~ minecraft:lime_terracotta

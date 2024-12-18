@@ -1,8 +1,8 @@
 [
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:unbreakable": {}
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:unbreakable": {}
+        }
     }
-  }
 ]

@@ -8,7 +8,7 @@
                     "name": "minecraft:raw_gold",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 9
                         }
                     ]

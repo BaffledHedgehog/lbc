@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_nylium
+setblock ~ ~ ~ minecraft:crimson_nylium

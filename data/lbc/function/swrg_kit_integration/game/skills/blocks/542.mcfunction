@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_slab
+setblock ~ ~ ~ minecraft:birch_slab

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ smooth_basalt
+setblock ~ ~ ~ minecraft:smooth_basalt

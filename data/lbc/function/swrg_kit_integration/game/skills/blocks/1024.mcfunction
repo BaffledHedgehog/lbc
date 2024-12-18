@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate
+setblock ~ ~ ~ minecraft:deepslate

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chipped_anvil
+setblock ~ ~ ~ minecraft:chipped_anvil

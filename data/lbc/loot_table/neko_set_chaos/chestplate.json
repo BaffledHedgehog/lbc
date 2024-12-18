@@ -2,91 +2,98 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_chestplate",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_model_data": 4,
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "chestplate": true,
-                                "chaoschestplate": true
-                            },
-                            "minecraft:max_damage": 700,
-                            "minecraft:dyed_color": {
-                                "rgb": 256,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:attribute_modifiers": [
-                                {
-                                    "type": "minecraft:generic.armor",
-                                    "slot": "chest",
-                                    "id": "geverzsdhrvfhrmor",
-                                    "amount": 5,
-                                    "operation": "add_value"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": [
-                            {
-                                "translate": "chaos_chestplate",
-                                "color": "gold",
-                                "italic": false
-                            }
-                        ]
-                    },
-                    {
-                        "function": "minecraft:set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
-                                {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        4.0
+                                    ]
                                 },
-                                {
-                                    "translate": "chestplate",
-                                    "italic": false,
-                                    "color": "aqua"
+                                "minecraft:max_damage": 700,
+                                "minecraft:dyed_color": {
+                                    "rgb": 256,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "chest",
+                                            "id": "geverzsdhrvfhrmor",
+                                            "amount": 5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
                                 }
-                            ],
-                            {
-                                "translate": "chaos_chestplate.lore",
-                                "color": "yellow",
-                                "italic": false
-                            },
-                            [
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
                                 {
-                                    "translate": "set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "set_bonus_chaos.1",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "set_bonus_chaos.2",
-                                    "italic": false,
-                                    "color": "aqua"
+                                    "translate": "chaos_chestplate",
+                                    "color": "gold",
+                                    "italic": false
                                 }
                             ]
-                        ]
-                    }
-                ]
-            }]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "chestplate",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "chaos_chestplate.lore",
+                                    "color": "yellow",
+                                    "italic": false
+                                },
+                                [
+                                    {
+                                        "translate": "set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus_chaos.1",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus_chaos.2",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,chestplate:1,chaoschestplate:1}"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

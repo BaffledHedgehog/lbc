@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_diorite
+setblock ~ ~ ~ minecraft:polished_diorite

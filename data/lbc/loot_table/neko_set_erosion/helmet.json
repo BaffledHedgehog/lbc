@@ -2,73 +2,82 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_helmet",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "helmet": true,
-                                "erosion": true
-                            },
-                            "minecraft:custom_model_data": 23,
-                            "minecraft:max_damage": 9000,
-                            "minecraft:enchantments": {
-                                "minecraft:protection": 120
-                            },
-                            "minecraft:dyed_color": {
-                                "rgb": 8,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:attribute_modifiers": [
-                                {
-                                    "type": "minecraft:generic.armor",
-                                    "slot": "head",
-                                    "id": "armorhelmet",
-                                    "amount": 1,
-                                    "operation": "add_value"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": {
-                            "translate": "erosion_helmet",
-                            "color": "green",
-                            "italic": false
-                        }
-                    },
-                    {
-                        "function": "set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
-                                {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        23.0
+                                    ]
                                 },
-                                {
-                                    "translate": "helmet",
-                                    "italic": false,
-                                    "color": "aqua"
+                                "minecraft:max_damage": 9000,
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:protection": 120
+                                    }
+                                },
+                                "minecraft:dyed_color": {
+                                    "rgb": 8,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "head",
+                                            "id": "armorhelmet",
+                                            "amount": 1,
+                                            "operation": "add_value"
+                                        }
+                                    ]
                                 }
-                            ],
-                            [
-                                {
-                                    "translate": "erosion.lore",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "erosion_helmet",
+                                "color": "green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "helmet",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "erosion.lore",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
                             ]
-                        ]
-                    }
-                ]
-            }]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,helmet:1,erosion:1}"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

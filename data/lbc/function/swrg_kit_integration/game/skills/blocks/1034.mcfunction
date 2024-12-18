@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_tile_stairs
+setblock ~ ~ ~ minecraft:deepslate_tile_stairs

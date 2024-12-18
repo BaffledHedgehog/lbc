@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_wall_sign
+setblock ~ ~ ~ minecraft:oak_wall_sign

@@ -1,3 +1,3 @@
-summon lightning_bolt
-tag @e[distance=..3,tag=!spectator,type=!lightning_bolt,tag=!raycaster] add lightningist
+summon minecraft:lightning_bolt
+tag @e[type=!minecraft:lightning_bolt,distance=..3,tag=!spectator,tag=!raycaster] add lightningist
 scoreboard players set @s Distance 1000

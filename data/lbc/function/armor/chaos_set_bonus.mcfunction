@@ -1,4 +1,4 @@
-effect give @s resistance 1 4
+effect give @s minecraft:resistance 1 4
 
 execute unless score no_borders swrg.math matches 0 run spreadplayers ~ ~ 0 190 under 125 false @s[predicate=lbc:the_nether]
 execute unless score no_borders swrg.math matches 0 run spreadplayers ~ ~ 0 190 false @s[predicate=!lbc:the_nether]

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_slab
+setblock ~ ~ ~ minecraft:warped_slab

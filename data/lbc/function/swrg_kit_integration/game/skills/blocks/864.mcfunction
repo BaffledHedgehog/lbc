@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_blackstone_pressure_plate
+setblock ~ ~ ~ minecraft:polished_blackstone_pressure_plate

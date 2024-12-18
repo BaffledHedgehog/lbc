@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_fence
+setblock ~ ~ ~ minecraft:cherry_fence

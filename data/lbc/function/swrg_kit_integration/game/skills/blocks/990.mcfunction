@@ -1,1 +1,1 @@
-setblock ~ ~ ~ waxed_weathered_copper_trapdoor
+setblock ~ ~ ~ minecraft:waxed_weathered_copper_trapdoor

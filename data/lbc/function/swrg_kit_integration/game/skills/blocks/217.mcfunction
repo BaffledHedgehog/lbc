@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_hanging_sign
+setblock ~ ~ ~ minecraft:warped_hanging_sign

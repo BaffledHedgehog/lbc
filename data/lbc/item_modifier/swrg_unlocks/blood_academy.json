@@ -12,7 +12,8 @@
         ]
     },
     {
-        "function": "minecraft:set_lore","mode":"replace_all",
+        "function": "minecraft:set_lore",
+        "mode": "replace_all",
         "entity": "this",
         "lore": [
             {

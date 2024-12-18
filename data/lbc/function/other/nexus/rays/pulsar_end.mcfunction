@@ -1,2 +1,2 @@
 
-kill @e[type=marker,tag=pulsar,tag=!final,tag=!selector]
+kill @e[type=minecraft:marker,tag=pulsar,tag=!final,tag=!selector]

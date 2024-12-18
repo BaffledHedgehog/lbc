@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_bamboo_block
+setblock ~ ~ ~ minecraft:stripped_bamboo_block

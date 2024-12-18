@@ -8,26 +8,25 @@
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 778,
-                                "minecraft:custom_data": {
-                                    "swordwithability": true,
-                                    "blazefire_sword": true,
-                                    "magicwand": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        778.0
+                                    ]
                                 },
                                 "minecraft:max_damage": 600,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "fevg36463456a",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "fevg54867879a1",
                                             "amount": -2.4,
@@ -39,7 +38,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lbckit.18",
@@ -48,28 +47,28 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
                                     "translate": "lbckit.18.lore.1",
                                     "italic": true,
-                                    "color":"#a6f0e6"
+                                    "color": "#A6F0E6"
                                 },
                                 {
                                     "translate": "lbckit.18.lore.2",
                                     "italic": false,
-                                    "color":"white"
+                                    "color": "white"
                                 },
                                 {
                                     "translate": "lbckit.18.lore.3",
                                     "italic": false,
-                                    "color":"white"
+                                    "color": "white"
                                 },
                                 {
                                     "translate": "lbckit.18.lore.4",
                                     "italic": false,
-                                    "color":"white"
+                                    "color": "white"
                                 },
                                 {
                                     "translate": "item.modifiers.mainhand",
@@ -80,7 +79,8 @@
                                     {
                                         "text": "8 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -90,7 +90,8 @@
                                     {
                                         "text": "1.6 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -99,6 +100,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{swordwithability:1,blazefire_sword:1,magicwand:1}"
                         }
                     ]
                 }

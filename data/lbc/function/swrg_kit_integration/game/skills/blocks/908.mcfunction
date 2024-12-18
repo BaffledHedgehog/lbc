@@ -1,1 +1,1 @@
-setblock ~ ~ ~ medium_amethyst_bud
+setblock ~ ~ ~ minecraft:medium_amethyst_bud

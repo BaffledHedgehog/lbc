@@ -1,1 +1,1 @@
-setblock ~ ~ ~ exposed_copper_door
+setblock ~ ~ ~ minecraft:exposed_copper_door

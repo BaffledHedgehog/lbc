@@ -1,8 +1,8 @@
 tag @s add god_claw_owner
-execute as @e[type=marker,tag=god_claw] if score @s lbcID2 = @a[tag=god_claw_owner,limit=1] lbcID2 run tag @s add my_godclaw
-execute store result score tmp1 lbc.math if entity @e[type=marker,tag=my_godclaw]
+execute as @e[type=minecraft:marker,tag=god_claw] if score @s lbcID2 = @a[tag=god_claw_owner,limit=1] lbcID2 run tag @s add my_godclaw
+execute store result score tmp1 lbc.math if entity @e[type=minecraft:marker,tag=my_godclaw]
 execute if score tmp1 lbc.math matches 0 run function lbc:swrg_kit_integration/game/skills/god_claw_end
-tag @e[type=marker,tag=god_claw] remove my_godclaw
+tag @e[type=minecraft:marker,tag=god_claw] remove my_godclaw
 tag @s remove god_claw_owner
 execute store result score tmp lbc.math run random value 1..26
 execute if score tmp lbc.math matches 1 run function lbc:other/attributes/armor_up_godclaw
@@ -31,6 +31,6 @@ execute if score tmp lbc.math matches 23 run function lbc:other/attributes/minin
 execute if score tmp lbc.math matches 24 run function lbc:other/attributes/sneaking_speed_up_godclaw
 execute if score tmp lbc.math matches 25 run function lbc:other/attributes/submerged_mining_speed_up_godclaw
 execute if score tmp lbc.math matches 26 run function lbc:other/attributes/sweeping_damage_ratio_up_godclaw
-particle portal ~ ~1 ~ 0.1 0.3 0.1 1 30 force @a
+particle minecraft:portal ~ ~1 ~ 0.1 0.3 0.1 1 30 force @a
 
 execute if score @s god_claw_cd matches 120 run function lbc:swrg_kit_integration/game/skills/god_claw_end

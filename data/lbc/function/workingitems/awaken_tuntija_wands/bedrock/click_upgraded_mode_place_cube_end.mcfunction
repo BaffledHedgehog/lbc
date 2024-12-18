@@ -1,5 +1,5 @@
-summon marker ~ ~ ~ {Tags:["bedrock_block"]}
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 bedrock
+summon minecraft:marker ~ ~ ~ {Tags:["bedrock_block"]}
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:bedrock
 
 scoreboard players set @s Distance 1000
-playsound block.stone.place master @a ~ ~ ~ 1 1
+playsound minecraft:block.stone.place master @a ~ ~ ~ 1 1

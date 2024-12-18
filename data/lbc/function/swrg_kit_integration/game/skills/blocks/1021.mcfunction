@@ -1,1 +1,1 @@
-setblock ~ ~ ~ hanging_roots
+setblock ~ ~ ~ minecraft:hanging_roots

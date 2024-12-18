@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_wall_hanging_sign
+setblock ~ ~ ~ minecraft:birch_wall_hanging_sign

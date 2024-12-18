@@ -1,2 +1,2 @@
-fill ^ ^ ^ ^ ^1 ^ oak_wood
+fill ^ ^ ^ ^ ^1 ^ minecraft:oak_wood
 kill @s

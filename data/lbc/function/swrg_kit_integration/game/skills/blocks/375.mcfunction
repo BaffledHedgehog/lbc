@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_pink_tulip
+setblock ~ ~ ~ minecraft:potted_pink_tulip

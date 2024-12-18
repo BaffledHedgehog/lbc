@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_cherry_sapling
+setblock ~ ~ ~ minecraft:potted_cherry_sapling

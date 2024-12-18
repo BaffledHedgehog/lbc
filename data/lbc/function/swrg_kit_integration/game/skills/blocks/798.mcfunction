@@ -1,1 +1,1 @@
-setblock ~ ~ ~ nether_sprouts
+setblock ~ ~ ~ minecraft:nether_sprouts

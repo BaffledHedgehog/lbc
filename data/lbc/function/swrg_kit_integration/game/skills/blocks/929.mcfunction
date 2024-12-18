@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sculk
+setblock ~ ~ ~ minecraft:sculk

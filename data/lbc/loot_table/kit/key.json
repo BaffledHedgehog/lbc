@@ -8,17 +8,23 @@
                     "name": "minecraft:golden_axe",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 41522,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        41522.0
+                                    ]
+                                },
                                 "minecraft:max_damage": 1,
                                 "minecraft:enchantments": {
-                                    "minecraft:fortune": 64
+                                    "levels": {
+                                        "minecraft:fortune": 64
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "key",

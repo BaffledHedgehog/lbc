@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:golden_sword",
-            "components": {"minecraft:custom_model_data":549}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        549.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.sword.fragment"
@@ -36,9 +42,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 0
                             }
                         }
@@ -65,9 +71,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 1
                             }
                         }
@@ -94,9 +100,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 2
                             }
                         }
@@ -123,9 +129,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 3
                             }
                         }
@@ -152,9 +158,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 4
                             }
                         }
@@ -181,9 +187,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 5
                             }
                         }
@@ -210,9 +216,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 6
                             }
                         }
@@ -239,9 +245,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 7
                             }
                         }
@@ -268,9 +274,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 8
                             }
                         }
@@ -297,9 +303,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 9
                             }
                         }
@@ -326,9 +332,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 10
                             }
                         }
@@ -355,9 +361,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 11
                             }
                         }
@@ -384,9 +390,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 12
                             }
                         }
@@ -413,9 +419,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 13
                             }
                         }
@@ -442,9 +448,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 14
                             }
                         }
@@ -471,9 +477,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 15
                             }
                         }
@@ -500,9 +506,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "sword": true,
-                                "fragmentsword": true,
+                                "transformable":1,
+                                "sword":1,
+                                "fragmentsword":1,
                                 "cooltype": 16
                             }
                         }

@@ -1,3 +1,3 @@
-particle firework ~ ~1 ~ 0.5 1 0.5 1 100 normal
-playsound entity.firework_rocket.twinkle_far master @a ~ ~ ~ 1 1
-effect give @s speed 30 1
+particle minecraft:firework ~ ~1 ~ 0.5 1 0.5 1 100 normal
+playsound minecraft:entity.firework_rocket.twinkle_far master @a ~ ~ ~ 1 1
+effect give @s minecraft:speed 30 1

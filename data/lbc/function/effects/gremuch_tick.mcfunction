@@ -1,2 +1,2 @@
-summon tnt
+summon minecraft:tnt
 kill @s

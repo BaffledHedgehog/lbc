@@ -1,7 +1,7 @@
 loot replace entity @s enderchest.0 loot lbc:gui/page/12000/0
 
 
-item replace entity @s[advancements={lbc:true_advancements/legends/academy/root=false}] enderchest.0 with repeating_command_block[custom_model_data=669]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/root=false}] enderchest.0 with minecraft:repeating_command_block[minecraft:custom_model_data={floats:[669.0f]}]
 
 
 

@@ -1,3 +1,3 @@
-summon marker ^ ^ ^14 {data:{lifetime:100},Tags:["dublicating_2","rare","slowraycast","magic"]}
-execute positioned ^ ^ ^14 run data modify entity @e[type=marker,tag=dublicating_2,limit=1,distance=..0.001,tag=!actived] Rotation set from entity @s Rotation
-execute positioned ^ ^ ^14 run tag @e[type=marker,tag=dublicating_2,limit=1,distance=..0.001,tag=!actived] add actived
+summon minecraft:marker ^ ^ ^14 {data:{lifetime:100},Tags:["dublicating_2","rare","slowraycast","magic"]}
+execute positioned ^ ^ ^14 run data modify entity @e[type=minecraft:marker,distance=..0.001,tag=dublicating_2,tag=!actived,limit=1] Rotation set from entity @s Rotation
+execute positioned ^ ^ ^14 run tag @e[type=minecraft:marker,distance=..0.001,tag=dublicating_2,tag=!actived,limit=1] add actived

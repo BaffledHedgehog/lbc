@@ -10,15 +10,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 26,
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        26.0
+                                    ]
+                                },
                                 "minecraft:dyed_color": {
                                     "rgb": 513,
                                     "show_in_tooltip": false
                                 },
-                                "max_damage": 25,
-                                "custom_data": {
-                                    "clown_mask": true
-                                }
+                                "minecraft:max_damage": 25
                             }
                         },
                         {
@@ -51,6 +52,10 @@
                                     "color": "gray"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{clown_mask:1}"
                         }
                     ]
                 }

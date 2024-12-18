@@ -4,34 +4,33 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "crowbar": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        572.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 572,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "generi23rgeadgdfge",
                                             "amount": 8,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "gderghb6hxdfth",
                                             "amount": -2.4,
@@ -43,7 +42,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "crowbar",
@@ -53,7 +52,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -77,7 +76,8 @@
                                     {
                                         "text": "9 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -87,7 +87,8 @@
                                     {
                                         "text": "1.6 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -99,20 +100,26 @@
                                     {
                                         "text": "Rexi_31",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Beta Server Harem event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,crowbar:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -130,31 +137,27 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 0,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "govnoq": true,
-                                    "transformable": true,
-                                    "shooter": true,
-                                    "magicwand": true,
-                                    "craftusable": true,
-                                    "govnomet": true
-                                },
-                                "minecraft:custom_model_data": 618
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        618.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shit_cannon",
@@ -163,7 +166,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -192,20 +195,26 @@
                                     {
                                         "text": "Nightmare_23",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Beta Server Harem event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{govnoq:1,transformable:1,shooter:1,magicwand:1,craftusable:1,govnomet:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -234,15 +243,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "levitation": true,
-                                    "drop": true
-                                },
-                                "minecraft:custom_model_data": 656
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        656.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "drop_enzan",
@@ -252,7 +261,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -261,11 +270,15 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{levitation:1,drop:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -286,47 +299,45 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                 }
                             }
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "weight": 10,
                     "value": "lbc:one_punch_glove",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 8,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "craftusable": true,
-                                    "spellwithcooldown": true,
-                                    "magicwand": true,
-                                    "time_stopper": true
-                                },
-                                "minecraft:custom_model_data": 617
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        617.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "time_clocks",
@@ -336,14 +347,15 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
                                     {
                                         "text": "60 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "recharge_time",
@@ -365,15 +377,21 @@
                                     {
                                         "text": "DraumLord",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Beta Server Harem event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,spellwithcooldown:1,magicwand:1,time_stopper:1}"
                         }
                     ]
                 },
@@ -389,15 +407,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "stalin": true,
-                                    "drop": true
-                                },
-                                "minecraft:custom_model_data": 658
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        658.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "drop_stalin",
@@ -407,7 +425,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -416,11 +434,15 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{stalin:1,drop:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -441,7 +463,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                 }
                             }
                         }
@@ -459,15 +481,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "mom": true,
-                                    "drop": true
-                                },
-                                "minecraft:custom_model_data": 656
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        656.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "drop_mom",
@@ -477,7 +499,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -486,11 +508,15 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{mom:1,drop:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -511,19 +537,19 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                 }
                             }
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:railgun",
                     "weight": 10,
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -541,27 +567,27 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 8,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "raycastspell": true,
-                                    "shetka": true
-                                },
-                                "minecraft:custom_model_data": 645
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        645.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shetka",
@@ -571,7 +597,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -583,20 +609,26 @@
                                     {
                                         "text": "Nightmare_23",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Chess Winner",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{raycastspell:1,shetka:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -614,13 +646,13 @@
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "weight": 10,
                     "quality": 8,
                     "value": "lbc:malevich_rnd",
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -641,7 +673,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                 }
                             }
                         }
@@ -659,15 +691,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformator": true,
-                                    "drop": true
-                                },
-                                "minecraft:custom_model_data": 656
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        656.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "drop_transformator",
@@ -677,7 +709,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -686,11 +718,15 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformator:1,drop:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -711,7 +747,7 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                 }
                             }
                         }
@@ -725,26 +761,27 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "boots": true,
-                                    "moisei": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        12.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 12,
                                 "minecraft:max_damage": 600,
                                 "minecraft:dyed_color": {
                                     "rgb": 768,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "gfhshzs5hgfharmor",
-                                        "amount": 2,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "feet",
+                                            "id": "gfhshzs5hgfharmor",
+                                            "amount": 2,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -756,7 +793,7 @@
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -780,15 +817,21 @@
                                     {
                                         "text": "Nightmare_23",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Baffled Lifestory Event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,boots:1,moisei:1}"
                         }
                     ]
                 },
@@ -804,15 +847,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "otchim": true,
-                                    "drop": true
-                                },
-                                "minecraft:custom_model_data": 656
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        656.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "drop_otchim",
@@ -822,7 +865,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -831,11 +874,15 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{otchim:1,drop:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -856,34 +903,34 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                 }
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 8,
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "gadget": true,
-                                    "kill_rand": true
-                                },
-                                "minecraft:custom_model_data": 590
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        590.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "kill_button",
@@ -893,7 +940,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -905,20 +952,26 @@
                                     {
                                         "text": "Daeris_",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Baffled Lifestory Event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gadget:1,kill_rand:1}"
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "inverted",
+                            "condition": "minecraft:inverted",
                             "term": {
                                 "condition": "minecraft:value_check",
                                 "value": {
@@ -936,37 +989,38 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "antimagic": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        575.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 575,
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 255
+                                    "levels": {
+                                        "minecraft:knockback": 255
+                                    }
                                 },
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "ge65dytxjghfj_damage",
                                             "amount": 4,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "generxjy6xghgfed",
                                             "amount": -2,
@@ -978,7 +1032,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "antimagic_stick",
@@ -988,7 +1042,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -1017,7 +1071,8 @@
                                     {
                                         "text": "5 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -1027,7 +1082,8 @@
                                     {
                                         "text": "2.0 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -1039,40 +1095,46 @@
                                     {
                                         "text": "nischtosnektem",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Happy Birthday 14.10.2023!",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,antimagic:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 8,
                     "name": "minecraft:snowball",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "gadget": true,
-                                    "gayradar": true
-                                },
-                                "minecraft:custom_model_data": 619
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        619.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "gayradar",
@@ -1082,7 +1144,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1099,49 +1161,52 @@
                                     {
                                         "text": "Firtozius",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " No Nut November 2023 Event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gadget:1,gayradar:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "swordwithability": true,
-                                    "transformable": true,
-                                    "axe": true,
-                                    "banhammer": true,
-                                    "magicwand": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        711.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 711,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "generxzherhhhhhhhamage",
                                             "amount": 11,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "gezr4gbfbncghmkhued",
                                             "amount": -2.8,
@@ -1153,7 +1218,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "banhammer",
@@ -1163,7 +1228,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -1192,7 +1257,8 @@
                                     {
                                         "text": "12 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -1202,7 +1268,8 @@
                                     {
                                         "text": "1.2 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -1214,43 +1281,50 @@
                                     {
                                         "text": "JustSh1sh_",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " No Nut November 2023 Event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{swordwithability:1,transformable:1,axe:1,banhammer:1,magicwand:1}"
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:stand_arrow",
                     "weight": 10
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wtf_item": true
-                                },
-                                "minecraft:custom_model_data": 640
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        640.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "wtf_item",
@@ -1260,7 +1334,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1272,15 +1346,21 @@
                                     {
                                         "text": "Tinkist",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " No Nut November 2023 Event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wtf_item:1}"
                         }
                     ]
                 },
@@ -1296,15 +1376,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "helicopter_boss": true,
-                                    "drop": true
-                                },
-                                "minecraft:custom_model_data": 658
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        658.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "drop_helicopter",
@@ -1314,7 +1394,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1323,6 +1403,10 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{helicopter_boss:1,drop:1}"
                         }
                     ],
                     "conditions": [
@@ -1332,14 +1416,14 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                 }
                             }
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:slr",
                     "weight": 10
                 },
@@ -1355,15 +1439,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "muravei": true,
-                                    "drop": true
-                                },
-                                "minecraft:custom_model_data": 656
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        656.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "drop_muravei",
@@ -1373,7 +1457,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1382,6 +1466,10 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{muravei:1,drop:1}"
                         }
                     ],
                     "conditions": [
@@ -1391,34 +1479,34 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory: [{components: {\"minecraft:custom_data\":{\"zaika\": true}}}]}"
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                 }
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 0,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "zaika": true,
-                                    "magicwand": true
-                                },
-                                "minecraft:custom_model_data": 1488
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        1488.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "admin_zaika",
@@ -1427,7 +1515,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1449,15 +1537,21 @@
                                     {
                                         "text": "JustSh1sh_",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Happy Birthday 11.12.2024!",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{zaika:1,magicwand:1}"
                         }
                     ]
                 }

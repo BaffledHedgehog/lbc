@@ -1,1 +1,1 @@
-setblock ~ ~ ~ iron_trapdoor
+setblock ~ ~ ~ minecraft:iron_trapdoor

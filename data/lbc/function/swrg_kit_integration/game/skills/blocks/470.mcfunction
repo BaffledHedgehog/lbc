@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_prismarine
+setblock ~ ~ ~ minecraft:dark_prismarine

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sea_pickle
+setblock ~ ~ ~ minecraft:sea_pickle

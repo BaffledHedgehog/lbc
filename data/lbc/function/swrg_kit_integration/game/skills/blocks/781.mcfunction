@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lectern
+setblock ~ ~ ~ minecraft:lectern

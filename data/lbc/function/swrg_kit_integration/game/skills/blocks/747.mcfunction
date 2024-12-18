@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_granite_slab
+setblock ~ ~ ~ minecraft:polished_granite_slab

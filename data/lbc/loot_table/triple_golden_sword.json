@@ -4,36 +4,33 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "swordwithability": true,
-                                    "transformable": true,
-                                    "sword": true,
-                                    "magicwand": true,
-                                    "triple_golden_sword": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        727.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 727,
                                 "minecraft:max_damage": 900,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "genhrtjrdxjtyjutk67ke",
                                             "amount": 8,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "getnkygukhhlkjd",
                                             "amount": -2.4,
@@ -45,7 +42,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "triple_golden_sword",
@@ -55,7 +52,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -90,7 +87,8 @@
                                     {
                                         "text": "9 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -100,7 +98,8 @@
                                     {
                                         "text": "1.6 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -109,6 +108,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{swordwithability:1,transformable:1,sword:1,magicwand:1,triple_golden_sword:1}"
                         }
                     ]
                 }

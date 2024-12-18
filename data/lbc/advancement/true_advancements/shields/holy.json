@@ -5,20 +5,20 @@
             "components": {
                 "minecraft:base_color": "light_blue",
                 "minecraft:banner_patterns": [
-                  {
-                    "color": "yellow",
-                    "pattern": "stripe_middle"
-                  },
-                  {
-                    "color": "yellow",
-                    "pattern": "stripe_center"
-                  },
-                  {
-                    "color": "yellow",
-                    "pattern": "flower"
-                  }
+                    {
+                        "color": "yellow",
+                        "pattern": "stripe_middle"
+                    },
+                    {
+                        "color": "yellow",
+                        "pattern": "stripe_center"
+                    },
+                    {
+                        "color": "yellow",
+                        "pattern": "flower"
+                    }
                 ]
-              }
+            }
         },
         "title": {
             "translate": "lbc.adv.shield.holy"

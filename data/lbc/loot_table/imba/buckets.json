@@ -16,10 +16,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7878,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7878.0
+                                    ]
                                 }
                             }
                         },
@@ -41,6 +41,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,imba:1}"
                         }
                     ]
                 },
@@ -52,11 +56,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7884,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "imba": true,
-                                    "lava_bucket": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7884.0
+                                    ]
                                 }
                             }
                         },
@@ -78,6 +81,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,imba:1,lava_bucket:1}"
                         }
                     ]
                 },
@@ -89,11 +96,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7887,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "eat_cum": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7887.0
+                                    ]
                                 }
                             }
                         },
@@ -115,6 +121,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,eat_cum:1,imba:1}"
                         }
                     ]
                 },
@@ -126,11 +136,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7885,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "imba": true,
-                                    "snow_bucket": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7885.0
+                                    ]
                                 }
                             }
                         },
@@ -152,6 +161,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,imba:1,snow_bucket:1}"
                         }
                     ]
                 },
@@ -163,10 +176,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7882,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7882.0
+                                    ]
                                 }
                             }
                         },
@@ -188,6 +201,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,imba:1}"
                         }
                     ]
                 },
@@ -199,11 +216,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7881,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "eat_poison": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7881.0
+                                    ]
                                 }
                             }
                         },
@@ -225,6 +241,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,eat_poison:1,imba:1}"
                         }
                     ]
                 },
@@ -236,10 +256,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7879,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7879.0
+                                    ]
                                 }
                             }
                         },
@@ -261,6 +281,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,imba:1}"
                         }
                     ]
                 },
@@ -272,10 +296,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7880,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7880.0
+                                    ]
                                 }
                             }
                         },
@@ -297,6 +321,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,imba:1}"
                         }
                     ]
                 },
@@ -308,10 +336,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7886,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7886.0
+                                    ]
                                 }
                             }
                         },
@@ -333,6 +361,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,imba:1}"
                         }
                     ]
                 },
@@ -344,10 +376,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 7883,
-                                "minecraft:custom_data": {
-                                    "gain_bucket": true,
-                                    "imba": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        7883.0
+                                    ]
                                 }
                             }
                         },
@@ -369,6 +401,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gain_bucket:1,imba:1}"
                         }
                     ]
                 }

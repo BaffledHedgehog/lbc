@@ -4,39 +4,36 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:transformables_sword",
                     "weight": 18
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:tuntijaa_terra_awakened",
                     "weight": 1
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "vexsword": true,
-                                    "magicwand": true,
-                                    "swordwithability": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        643.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 643,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "geh5tht6j6t7jytjhgamage",
                                             "amount": 2,
@@ -48,7 +45,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "vex_sword",
@@ -58,7 +55,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -102,7 +99,8 @@
                                     {
                                         "text": "3 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -112,7 +110,8 @@
                                     {
                                         "text": "4.0 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -121,11 +120,15 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,vexsword:1,magicwand:1,swordwithability:1}"
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:one_punch_glove",
                     "weight": 1
                 },
@@ -137,15 +140,12 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "techrunner_katana": true,
-                                    "magicwand": true,
-                                    "sword": true,
-                                    "transformable": true,
-                                    "swordwithability": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        655.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 655,
-                                "minecraft:custom_name": "{\"translate\":\"techrunner_katana\",\"italic\":false}",
+                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"techrunner_katana\"}",
                                 "minecraft:lore": [
                                     "{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\",\"extra\":[{\"translate\":\"sword\"}]}",
                                     "{\"translate\":\"techrunner_katana_lore_1\",\"italic\":false,\"color\":\"white\"}",
@@ -159,21 +159,21 @@
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "generijyguk8vyjhe",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.movement_speed",
+                                            "type": "minecraft:movement_speed",
                                             "slot": "mainhand",
                                             "id": "genxgfbhnjjhj",
                                             "amount": 0.05,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "generug5nubyvkctued",
                                             "amount": -2.4,
@@ -183,38 +183,41 @@
                                     "show_in_tooltip": false
                                 }
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{techrunner_katana:1,magicwand:1,sword:1,transformable:1,swordwithability:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "crowbar": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        572.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 572,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "genedbxtghnjgyjymjryhudamage",
                                             "amount": 8,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "geyejejyumkyutkjyrer56uteyj",
                                             "amount": -2.4,
@@ -226,7 +229,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "crowbar",
@@ -236,7 +239,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -260,7 +263,8 @@
                                     {
                                         "text": "9 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -270,7 +274,8 @@
                                     {
                                         "text": "1.6 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -282,15 +287,21 @@
                                     {
                                         "text": "Rexi_31",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Beta Server Harem event",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,crowbar:1}"
                         }
                     ]
                 },
@@ -302,16 +313,12 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "craftusable": true,
-                                    "transformable": true,
-                                    "sword": true,
-                                    "shit_katana": true,
-                                    "magicwand": true,
-                                    "swordwithability": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        644.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 644,
-                                "minecraft:custom_name": "{\"translate\":\"shit_katana\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}",
+                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"translate\":\"shit_katana\"}",
                                 "minecraft:lore": [
                                     "[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"sword\",\"italic\": false,\"color\": \"aqua\"}]",
                                     "{\"translate\": \"on_damage\",\"color\": \"white\",\"italic\": false}",
@@ -326,14 +333,14 @@
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "gennfyjntfjmnykmrkyuamage",
                                             "amount": 4,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "generijryujn6ymkukytpeed",
                                             "amount": -2.2,
@@ -343,41 +350,46 @@
                                     "show_in_tooltip": false
                                 }
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,transformable:1,sword:1,shit_katana:1,magicwand:1,swordwithability:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_sword",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "sword": true,
-                                    "antimagic": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        575.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 575,
                                 "minecraft:enchantments": {
-                                    "minecraft:knockback": 255
+                                    "levels": {
+                                        "minecraft:knockback": 255
+                                    }
                                 },
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "genbdrtjnrt6jrtjamage",
                                             "amount": 4,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "generiyjutu6756565656peed",
                                             "amount": -2,
@@ -389,7 +401,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "antimagic_stick",
@@ -399,7 +411,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -428,7 +440,8 @@
                                     {
                                         "text": "5 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -438,7 +451,8 @@
                                     {
                                         "text": "2.0 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -450,25 +464,31 @@
                                     {
                                         "text": "nischtosnektem",
                                         "color": "green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "text": " Happy Birthday 14.10.2023!",
                                         "color": "dark_gray",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,sword:1,antimagic:1}"
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:fevgalea_star",
                     "weight": 1
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:triple_golden_sword",
                     "weight": 1
                 }

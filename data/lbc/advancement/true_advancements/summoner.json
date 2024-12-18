@@ -1,14 +1,13 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:phantom_spawn_egg"
+            "id": "minecraft:phantom_spawn_egg",
+            "components": null
         },
         "title": {
             "translate": "lbc.adv.summoner"
         },
-        "description": 
-            ""
-        ,
+        "description": "",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": false,
@@ -20,23 +19,23 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
-            }
-          }
-        ],
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
                 "items": [
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "summoner": true
+                                "transformable":1,
+                                "summoner":1
                             }
                         }
                     }

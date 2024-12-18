@@ -2,95 +2,104 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_leggings",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "leggings": true,
-                                "paladin": true
-                            },
-                            "minecraft:custom_model_data": 9,
-                            "minecraft:max_damage": 4000,
-                            "minecraft:enchantments": {
-                                "minecraft:fire_protection": 255,
-                                "minecraft:protection": 3
-                            },
-                            "minecraft:dyed_color": {
-                                "rgb": 11,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:attribute_modifiers": [
-                                {
-                                    "type": "minecraft:generic.armor",
-                                    "slot": "legs",
-                                    "id": "gcgjdfcghic.arjmor",
-                                    "amount": 10,
-                                    "operation": "add_value"
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        9.0
+                                    ]
                                 },
-                                {
-                                    "type": "minecraft:generic.armor_toughness",
-                                    "slot": "legs",
-                                    "id": "generukbufess",
-                                    "amount": 10,
-                                    "operation": "add_value"
+                                "minecraft:max_damage": 4000,
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:fire_protection": 255,
+                                        "minecraft:protection": 3
+                                    }
                                 },
-                                {
-                                    "type": "minecraft:generic.max_health",
-                                    "slot": "legs",
-                                    "id": "geneyycyjalth",
-                                    "amount": -0.3,
-                                    "operation": "add_multiplied_base"
+                                "minecraft:dyed_color": {
+                                    "rgb": 11,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "legs",
+                                            "id": "gcgjdfcghic.arjmor",
+                                            "amount": 10,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "legs",
+                                            "id": "generukbufess",
+                                            "amount": 10,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:max_health",
+                                            "slot": "legs",
+                                            "id": "geneyycyjalth",
+                                            "amount": -0.3,
+                                            "operation": "add_multiplied_base"
+                                        }
+                                    ]
                                 }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "paladin_leggings",
+                                "color": "red",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "leggings",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "paladin_set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,leggings:1,paladin:1}"
                         }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": {
-                            "translate": "paladin_leggings",
-                            "color": "red",
-                            "italic": false
-                        }
-                    },
-                    {
-                        "function": "set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
-                                {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
-                                },
-                                {
-                                    "translate": "leggings",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "paladin_set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ]
-                        ]
-                    }
-                ]
-            }]
+                    ]
+                }
+            ]
         }
     ]
 }

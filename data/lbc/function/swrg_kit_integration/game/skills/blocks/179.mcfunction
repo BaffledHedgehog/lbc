@@ -1,1 +1,1 @@
-setblock ~ ~ ~ redstone_wire
+setblock ~ ~ ~ minecraft:redstone_wire

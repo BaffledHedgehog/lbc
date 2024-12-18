@@ -1,1 +1,1 @@
-summon trident ~ ~ ~ {Tags:["babylon_charge"]}
+summon minecraft:trident ~ ~ ~ {Tags:["babylon_charge"]}

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_sign
+setblock ~ ~ ~ minecraft:crimson_sign

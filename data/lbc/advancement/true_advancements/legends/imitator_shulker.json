@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:repeating_command_block",
             "components": {
-                "minecraft:custom_model_data": 543,
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        543.0
+                    ]
+                },
                 "minecraft:enchantment_glint_override": true
             }
         },
@@ -39,7 +43,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "copypaster": true
+                                "copypaster":1
                             }
                         },
                         "count": 64

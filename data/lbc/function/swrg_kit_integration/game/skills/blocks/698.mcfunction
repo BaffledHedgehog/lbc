@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dead_horn_coral
+setblock ~ ~ ~ minecraft:dead_horn_coral

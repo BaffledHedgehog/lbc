@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gray_wall_banner
+setblock ~ ~ ~ minecraft:gray_wall_banner

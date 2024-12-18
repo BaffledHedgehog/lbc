@@ -1,4 +1,4 @@
-scoreboard players operation @s lbcID2 = @e[type=marker,limit=1,sort=nearest,tag=hard_acid_ball] lbcID2
+scoreboard players operation @s lbcID2 = @e[type=minecraft:marker,tag=hard_acid_ball,sort=nearest,limit=1] lbcID2
 
 execute store result score pos_temp0 lbc.math run data get entity @s Pos[0] 1
 execute store result score pos_temp1 lbc.math run data get entity @s Pos[1] 1

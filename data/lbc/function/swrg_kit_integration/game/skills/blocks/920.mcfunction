@@ -1,1 +1,1 @@
-setblock ~ ~ ~ tuff_brick_slab
+setblock ~ ~ ~ minecraft:tuff_brick_slab

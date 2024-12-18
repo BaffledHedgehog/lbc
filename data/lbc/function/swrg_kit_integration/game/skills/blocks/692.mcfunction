@@ -1,1 +1,1 @@
-setblock ~ ~ ~ fire_coral_block
+setblock ~ ~ ~ minecraft:fire_coral_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_cactus
+setblock ~ ~ ~ minecraft:potted_cactus

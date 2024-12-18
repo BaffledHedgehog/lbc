@@ -39,14 +39,14 @@
                         "predicates": {
                             "minecraft:enchantments": [
                                 {
-                                  "enchantments": "minecraft:silk_touch",
-                                  "levels": 1
+                                    "enchantments": "minecraft:silk_touch",
+                                    "levels": 1
                                 }
-                              ],
+                            ],
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "shovel": true,
-                                "randchanted": true
+                                "transformable":1,
+                                "shovel":1,
+                                "randchanted":1
                             }
                         }
                     }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cactus
+setblock ~ ~ ~ minecraft:cactus

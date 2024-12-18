@@ -1,28 +1,29 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "score": {
-                    "name": "blaze_soul_mana_use",
-                    "objective": "lbc.math"
-                  }
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "score": {
+                                        "name": "blaze_soul_mana_use",
+                                        "objective": "lbc.math"
+                                    },
+                                    "type": "score"
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chiseled_bookshelf
+setblock ~ ~ ~ minecraft:chiseled_bookshelf

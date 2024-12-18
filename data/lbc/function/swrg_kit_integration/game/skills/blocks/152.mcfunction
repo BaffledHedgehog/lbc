@@ -1,1 +1,1 @@
-setblock ~ ~ ~ allium
+setblock ~ ~ ~ minecraft:allium

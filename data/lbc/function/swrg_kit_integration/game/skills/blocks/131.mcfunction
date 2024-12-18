@@ -1,1 +1,1 @@
-setblock ~ ~ ~ white_wool
+setblock ~ ~ ~ minecraft:white_wool

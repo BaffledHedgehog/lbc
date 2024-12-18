@@ -1,4 +1,4 @@
-data modify entity @s Rotation set from entity @p[tag=sin_indolence,gamemode=!spectator] Rotation
+data modify entity @s Rotation set from entity @p[gamemode=!spectator,tag=sin_indolence] Rotation
 execute store result score #rot_0 lbc.math run data get entity @s Rotation[0] 1
 execute store result score #rot_1 lbc.math run data get entity @s Rotation[1] 1
 execute store result score #rand lbc.math run random value -5..5

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dead_horn_coral_wall_fan
+setblock ~ ~ ~ minecraft:dead_horn_coral_wall_fan

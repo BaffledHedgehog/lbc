@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purpur_stairs
+setblock ~ ~ ~ minecraft:purpur_stairs

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ hay_block
+setblock ~ ~ ~ minecraft:hay_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_trapdoor
+setblock ~ ~ ~ minecraft:spruce_trapdoor

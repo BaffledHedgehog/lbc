@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lapis_block
+setblock ~ ~ ~ minecraft:lapis_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dead_tube_coral_block
+setblock ~ ~ ~ minecraft:dead_tube_coral_block

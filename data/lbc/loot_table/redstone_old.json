@@ -3,47 +3,51 @@
         {
             "rolls": {
                 "min": 3,
-                "max": 9
+                "max": 9,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 8,
                     "name": "minecraft:redstone",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 16,
-                                "max": 32
+                                "max": 32,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 5,
                     "name": "minecraft:redstone_torch",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 8,
-                                "max": 24
+                                "max": 24,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 3,
                     "name": "minecraft:redstone_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
-                                "max": 16
+                                "max": 16,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -53,33 +57,36 @@
         {
             "rolls": {
                 "min": 2,
-                "max": 4
+                "max": 4,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:repeater",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 8,
-                                "max": 16
+                                "max": 16,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:comparator",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
-                                "max": 8
+                                "max": 8,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -89,33 +96,36 @@
         {
             "rolls": {
                 "min": 2,
-                "max": 4
+                "max": 4,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:slime_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
-                                "max": 16
+                                "max": 16,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:honey_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
-                                "max": 16
+                                "max": 16,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -125,33 +135,36 @@
         {
             "rolls": {
                 "min": 2,
-                "max": 4
+                "max": 4,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:piston",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
-                                "max": 8
+                                "max": 8,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:sticky_piston",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
-                                "max": 8
+                                "max": 8,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -161,44 +174,47 @@
         {
             "rolls": {
                 "min": 3,
-                "max": 6
+                "max": 6,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:sculk_sensor",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 8,
-                                "max": 16
+                                "max": 16,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:tripwire_hook",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 2
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:string",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 16,
-                                "max": 32
+                                "max": 32,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -209,12 +225,12 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:water_bucket",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 2
                         }
                     ]
@@ -224,33 +240,36 @@
         {
             "rolls": {
                 "min": 3,
-                "max": 5
+                "max": 5,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:dispenser",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 8,
-                                "max": 16
+                                "max": 16,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:observer",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 4,
-                                "max": 8
+                                "max": 8,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -261,15 +280,16 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:tnt",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 32,
-                                "max": 64
+                                "max": 64,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
@@ -279,61 +299,66 @@
         {
             "rolls": {
                 "min": 4,
-                "max": 8
+                "max": 8,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:oak_pressure_plate",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
-                                "max": 4
+                                "max": 4,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:stone_pressure_plate",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
-                                "max": 4
+                                "max": 4,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:stone_button",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
-                                "max": 4
+                                "max": 4,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:oak_button",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
-                                "max": 4
+                                "max": 4,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]

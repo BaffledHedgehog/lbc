@@ -1,4 +1,4 @@
 function lbcr:dmgwithid_un_playeronly
-execute if score @s Lifetime matches 30.. if entity @e[distance=..10,dx=0,dy=0,dz=0,type=#mobs,tag=!nodamage,tag=!spectator,limit=1] at @a[gamemode=!spectator,nbt={SelectedItem:{components:{"minecraft:custom_data":{"erecto_wand":true,"upgradable": true}}}}] if score @a[gamemode=!spectator,limit=1,distance=..0.001,nbt=!{SelectedItem:{components:{"minecraft:custom_data":{"upgrade_available": true}}}}] lbcID2 = @s lbcID2 as @a[gamemode=!spectator,limit=1,distance=..0.001] at @s run function lbc:other/magic_academy/can_upgrade
-execute as @e[distance=..10,dx=0,dy=0,dz=0,type=#mobs,tag=!nodamage,tag=!spectator,limit=2] run damage @s 1 generic
+execute if score @s Lifetime matches 30.. if entity @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..10,tag=!nodamage,tag=!spectator,limit=1] at @a[gamemode=!spectator,nbt={SelectedItem:{components:{"minecraft:custom_data":{erecto_wand:1,upgradable:1}}}}] if score @a[gamemode=!spectator,distance=..0.001,limit=1,nbt=!{SelectedItem:{components:{"minecraft:custom_data":{upgrade_available:1}}}}] lbcID2 = @s lbcID2 as @a[gamemode=!spectator,distance=..0.001,limit=1] at @s run function lbc:other/magic_academy/can_upgrade
+execute as @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..10,tag=!nodamage,tag=!spectator,limit=2] run damage @s 1 generic
 tag @a remove nodamage

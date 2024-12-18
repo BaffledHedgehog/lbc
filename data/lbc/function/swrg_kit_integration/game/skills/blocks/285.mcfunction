@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_trapdoor
+setblock ~ ~ ~ minecraft:oak_trapdoor

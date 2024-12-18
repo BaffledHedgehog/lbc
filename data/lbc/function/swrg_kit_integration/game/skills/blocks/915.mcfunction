@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_tuff_slab
+setblock ~ ~ ~ minecraft:polished_tuff_slab

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_hyphae
+setblock ~ ~ ~ minecraft:warped_hyphae

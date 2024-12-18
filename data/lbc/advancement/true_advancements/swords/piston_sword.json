@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":722}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        722.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.sword.piston_sword"
@@ -29,9 +35,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "sword": true,
-                                            "piston_sword": true
+                                            "transformable":1,
+                                            "sword":1,
+                                            "piston_sword":1
                                         }
                                     }
                                 }

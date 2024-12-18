@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
-            "components": {"minecraft:custom_model_data":647}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        647.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.legends.avarice_divider"
@@ -21,24 +27,24 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
-            }
-          }
-        ],
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
                 "items": [
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "greed_greed": true
+                                "greed_greed":1
                             }
-                          }
+                        }
                     }
                 ]
             }

@@ -1,2 +1,2 @@
 tag @s remove kill_one_skeleton
-kill @e[type=skeleton,tag=indolence_finger,limit=1,sort=nearest]
+kill @e[type=minecraft:skeleton,tag=indolence_finger,sort=nearest,limit=1]

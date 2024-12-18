@@ -1,1 +1,1 @@
-setblock ~ ~ ~ beacon
+setblock ~ ~ ~ minecraft:beacon

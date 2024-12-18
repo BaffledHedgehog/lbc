@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purple_bed
+setblock ~ ~ ~ minecraft:purple_bed

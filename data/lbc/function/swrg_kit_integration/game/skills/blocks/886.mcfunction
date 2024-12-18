@@ -1,1 +1,1 @@
-setblock ~ ~ ~ black_candle
+setblock ~ ~ ~ minecraft:black_candle

@@ -7,7 +7,6 @@
                     "type": "minecraft:item",
                     "name": "minecraft:lime_dye",
                     "functions": [
-                        
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",

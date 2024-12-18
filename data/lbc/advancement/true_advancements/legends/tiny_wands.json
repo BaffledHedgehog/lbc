@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
             "components": {
-                "minecraft:custom_model_data": 738
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        738.0
+                    ]
+                }
             }
         },
         "title": {
@@ -38,7 +42,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "struby_tiny": true
+                                "struby_tiny":1
                             }
                         }
                     }
@@ -64,7 +68,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "stterra_tiny": true
+                                "stterra_tiny":1
                             }
                         }
                     }
@@ -90,7 +94,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "stelectro_tiny": true
+                                "stelectro_tiny":1
                             }
                         }
                     }
@@ -116,7 +120,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "stair_tiny": true
+                                "stair_tiny":1
                             }
                         }
                     }
@@ -142,7 +146,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "stacid_tiny": true
+                                "stacid_tiny":1
                             }
                         }
                     }
@@ -168,7 +172,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "stteleport_tiny": true
+                                "stteleport_tiny":1
                             }
                         }
                     }
@@ -194,7 +198,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "ststone_tiny": true
+                                "ststone_tiny":1
                             }
                         }
                     }
@@ -220,7 +224,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "stfire_tiny": true
+                                "stfire_tiny":1
                             }
                         }
                     }
@@ -246,7 +250,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "stblind_tiny": true
+                                "stblind_tiny":1
                             }
                         }
                     }

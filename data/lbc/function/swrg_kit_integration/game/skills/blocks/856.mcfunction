@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cracked_polished_blackstone_bricks
+setblock ~ ~ ~ minecraft:cracked_polished_blackstone_bricks

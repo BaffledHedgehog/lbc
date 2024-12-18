@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_acacia_sapling
+setblock ~ ~ ~ minecraft:potted_acacia_sapling

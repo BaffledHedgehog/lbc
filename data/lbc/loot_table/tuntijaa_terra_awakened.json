@@ -4,36 +4,33 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "craftusable": true,
-                                    "transformable": true,
-                                    "sword": true,
-                                    "magicwand": true,
-                                    "true_terra": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        659.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 659,
                                 "minecraft:max_damage": 9000,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.attack_damage",
+                                            "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
                                             "id": "cjfygcfumhkfgjgyjmage",
                                             "amount": 9,
                                             "operation": "add_value"
                                         },
                                         {
-                                            "type": "minecraft:generic.attack_speed",
+                                            "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
                                             "id": "genenukghncgfbyhed",
                                             "amount": -2.5,
@@ -45,7 +42,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "true_terra",
@@ -55,7 +52,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -75,7 +72,8 @@
                                     {
                                         "text": "7 / 0.5 ",
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "magic_damage",
@@ -90,7 +88,8 @@
                                             "objective": "lbc.math"
                                         },
                                         "italic": false,
-                                        "color": "aqua"
+                                        "color": "aqua",
+                                        "type": "score"
                                     },
                                     {
                                         "translate": "mana_on_activate",
@@ -122,7 +121,8 @@
                                     {
                                         "text": "10 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_damage"
@@ -132,7 +132,8 @@
                                     {
                                         "text": "1.5 ",
                                         "color": "dark_green",
-                                        "italic": false
+                                        "italic": false,
+                                        "type": "text"
                                     },
                                     {
                                         "translate": "attribute.name.generic.attack_speed",
@@ -146,6 +147,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,transformable:1,sword:1,magicwand:1,true_terra:1}"
                         }
                     ]
                 }

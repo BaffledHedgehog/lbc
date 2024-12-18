@@ -1,1 +1,1 @@
-damage @e[type=#mobs,tag=!nodmg,distance=..5,dx=0,dy=0,dz=0,limit=1] 0.1 generic
+damage @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..5,tag=!nodmg,limit=1] 0.1 generic

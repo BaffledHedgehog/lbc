@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_brown_mushroom
+setblock ~ ~ ~ minecraft:potted_brown_mushroom

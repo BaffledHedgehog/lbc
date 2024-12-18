@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:iron_sword",
             "components": {
-                "minecraft:custom_model_data": 572
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        572.0
+                    ]
+                }
             }
         },
         "title": {
@@ -31,9 +35,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "sword": true,
-                                            "crowbar": true
+                                            "transformable":1,
+                                            "sword":1,
+                                            "crowbar":1
                                         }
                                     }
                                 }

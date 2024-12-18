@@ -1,1 +1,1 @@
-setblock ~ ~ ~ glowstone
+setblock ~ ~ ~ minecraft:glowstone

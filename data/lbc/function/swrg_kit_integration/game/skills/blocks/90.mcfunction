@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_leaves
+setblock ~ ~ ~ minecraft:mangrove_leaves

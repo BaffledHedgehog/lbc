@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dispenser
+setblock ~ ~ ~ minecraft:dispenser

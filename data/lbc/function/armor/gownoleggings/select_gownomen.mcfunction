@@ -1,4 +1,4 @@
-execute if entity @s[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"gownoleggings": true}}}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"gownoleggings": true}}}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{"gownoleggings": true}}}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{"gownoleggings": true}}}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gownoleggings:1}},Slot:100b}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gownoleggings:1}},Slot:101b}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gownoleggings:1}},Slot:102b}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gownoleggings:1}},Slot:103b}]}] run scoreboard players add shit_amount_temp lbc.math 1

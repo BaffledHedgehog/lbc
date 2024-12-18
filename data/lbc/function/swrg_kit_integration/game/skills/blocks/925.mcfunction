@@ -1,1 +1,1 @@
-setblock ~ ~ ~ tinted_glass
+setblock ~ ~ ~ minecraft:tinted_glass

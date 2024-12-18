@@ -1,5 +1,5 @@
-tellraw @a [{"selector":"@s"},{"translate":"super_dice.event.5","color": "yellow"}]
-tellraw @s [{"translate":"super_dice.event.grant"},{"text":" 5!"}]
+tellraw @a [{"selector":"@s","type":"selector"},{"translate":"super_dice.event.5","color":"yellow"}]
+tellraw @s [{"translate":"super_dice.event.grant"},{"text":" 5!","type":"text"}]
 function lbc:other/attributes/armor
 function lbc:other/attributes/armor
 function lbc:other/attributes/armor

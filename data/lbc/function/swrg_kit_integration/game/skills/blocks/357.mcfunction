@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_torchflower
+setblock ~ ~ ~ minecraft:potted_torchflower

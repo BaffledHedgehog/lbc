@@ -1,1 +1,1 @@
-setblock ~ ~ ~ note_block
+setblock ~ ~ ~ minecraft:note_block

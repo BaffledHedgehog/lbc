@@ -1,3 +1,3 @@
-summon item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0f,shadow_strength:0f,teleport_duration:1,item_display:"fixed",transformation:[0f,0f,1f,0f,1f,0f,0f,0f,0f,1f,0f,0f,0f,0f,0f,1f],item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_model_data":568}},Tags:["boss_prism","slowraycast","other","boss_piece"]}
+summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0.0f,shadow_strength:0.0f,teleport_duration:1,item_display:"fixed",transformation:[0.0f,0.0f,1.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,0.0f,1.0f],item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_model_data":{floats:[568.0f]}},count:1},Tags:["boss_prism","slowraycast","other","boss_piece"]}
 $execute rotated $(rot) ~ run tp @e[type=item_display,limit=1,distance=..0.01,tag=!actived,tag=boss_prism] ~ ~ ~ ~ ~
-tag @e[type=item_display,limit=1,distance=..0.01,tag=!actived,tag=boss_prism] add actived
+tag @e[type=minecraft:item_display,distance=..0.01,tag=boss_prism,tag=!actived,limit=1] add actived

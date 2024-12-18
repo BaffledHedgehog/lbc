@@ -38,11 +38,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "summoner": true,
-                              "summonerblaze": true
+                                "transformable":1,
+                                "summoner":1,
+                                "summonerblaze":1
                             }
-                          }
+                        }
                     }
                 ]
             }
@@ -66,13 +66,12 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "summoner": true,
-                              "summonereliteskeletons": true
+                                "transformable":1,
+                                "summoner":1,
+                                "summonereliteskeletons":1
                             }
-                          }
                         }
-                    
+                    }
                 ]
             }
         },
@@ -95,11 +94,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "summoner": true,
-                              "summonerghast": true
+                                "transformable":1,
+                                "summoner":1,
+                                "summonerghast":1
                             }
-                          }
+                        }
                     }
                 ]
             }
@@ -123,11 +122,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "summoner": true,
-                              "summonerghostrider": true
+                                "transformable":1,
+                                "summoner":1,
+                                "summonerghostrider":1
                             }
-                          }
+                        }
                     }
                 ]
             }
@@ -151,11 +150,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "summoner": true,
-                              "summonerguardians": true
+                                "transformable":1,
+                                "summoner":1,
+                                "summonerguardians":1
                             }
-                          }
+                        }
                     }
                 ]
             }
@@ -179,11 +178,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "summoner": true,
-                              "summonerrazoritel": true
+                                "transformable":1,
+                                "summoner":1,
+                                "summonerrazoritel":1
                             }
-                          }
+                        }
                     }
                 ]
             }
@@ -207,11 +206,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "summoner": true,
-                              "summonerskeletons": true
+                                "transformable":1,
+                                "summoner":1,
+                                "summonerskeletons":1
                             }
-                          }
+                        }
                     }
                 ]
             }
@@ -235,11 +234,11 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                              "transformable": true,
-                              "summoner": true,
-                              "summonervexes": true
+                                "transformable":1,
+                                "summoner":1,
+                                "summonervexes":1
                             }
-                          }
+                        }
                     }
                 ]
             }

@@ -8,7 +8,8 @@
                     "name": "minecraft:iron_ingot"
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -16,7 +17,7 @@
                     "name": "minecraft:stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 2
                         }
                     ]

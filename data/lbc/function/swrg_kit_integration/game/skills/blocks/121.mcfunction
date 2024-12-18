@@ -1,1 +1,1 @@
-setblock ~ ~ ~ detector_rail
+setblock ~ ~ ~ minecraft:detector_rail

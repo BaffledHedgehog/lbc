@@ -1,1 +1,1 @@
-setblock ~ ~ ~ andesite_wall
+setblock ~ ~ ~ minecraft:andesite_wall

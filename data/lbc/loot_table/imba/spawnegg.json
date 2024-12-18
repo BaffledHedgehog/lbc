@@ -4,16 +4,16 @@
             "rolls": 32,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:ghast_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:ghast",
                                     "DeathLootTable": "lbc:sauvojen_tuntija",
-                                    "PersistenceRequired": true,
+                                    "PersistenceRequired":1,
                                     "Health": 100024,
                                     "ExplosionPower": 3,
                                     "Tags": [
@@ -35,14 +35,11 @@
                                             "base": 256
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "tuntija_spawn_egg",
@@ -52,7 +49,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -61,15 +58,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:zombie_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
@@ -77,9 +78,9 @@
                                         "bob"
                                     ],
                                     "DeathLootTable": "lbc:bob",
-                                    "CustomNameVisible": true,
-                                    "PersistenceRequired": true,
-                                    "IsBaby": false,
+                                    "CustomNameVisible":1,
+                                    "PersistenceRequired":1,
+                                    "IsBaby": 0,
                                     "CustomName": "{\"translate\":\"bob\",\"color\":\"green\",\"italic\":false}",
                                     "HandItems": [
                                         {
@@ -88,7 +89,7 @@
                                             "components": {
                                                 "custom_name": {
                                                     "translate": "bob_sword",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:sharpness": 5,
@@ -109,14 +110,14 @@
                                             "components": {
                                                 "custom_name": {
                                                     "translate": "bob_apple",
-                                                    "italic": false
+                                                    "italic": 0
                                                 }
                                             }
                                         }
                                     ],
                                     "HandDropChances": [
-                                        0.000,
-                                        0.000
+                                        0.0,
+                                        0.0
                                     ],
                                     "ArmorItems": [
                                         {
@@ -124,7 +125,7 @@
                                             "components": {
                                                 "custom_name": {
                                                     "translate": "bob_boots",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
@@ -147,7 +148,7 @@
                                             "components": {
                                                 "custom_name": {
                                                     "translate": "bob_leggings",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
@@ -166,7 +167,7 @@
                                             "components": {
                                                 "custom_name": {
                                                     "translate": "bob_chestplate",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
@@ -185,7 +186,7 @@
                                             "components": {
                                                 "custom_name": {
                                                     "translate": "bob_helmet",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
@@ -202,10 +203,10 @@
                                         }
                                     ],
                                     "ArmorDropChances": [
-                                        0.000,
-                                        0.000,
-                                        0.000,
-                                        0.000
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
                                     ],
                                     "attributes": [
                                         {
@@ -213,14 +214,11 @@
                                             "base": 400
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "bob_spawn_egg",
@@ -230,7 +228,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -239,15 +237,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:skeleton_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:skeleton",
@@ -255,7 +257,7 @@
                                         "aimbob"
                                     ],
                                     "DeathLootTable": "lbc:aimbob",
-                                    "PersistenceRequired": true,
+                                    "PersistenceRequired":1,
                                     "active_effects": [
                                         {
                                             "id": "minecraft:instant_damage",
@@ -272,7 +274,7 @@
                                                 "custom_name": {
                                                     "translate": "aimbob_bow",
                                                     "color": "gold",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:unbreaking": 3,
@@ -294,8 +296,8 @@
                                         }
                                     ],
                                     "HandDropChances": [
-                                        0.000,
-                                        0.000
+                                        0.0,
+                                        0.0
                                     ],
                                     "ArmorItems": [
                                         {
@@ -305,7 +307,7 @@
                                                 "custom_name": {
                                                     "translate": "aimbob_boots",
                                                     "color": "gold",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
@@ -339,7 +341,7 @@
                                                 "custom_name": {
                                                     "translate": "aimbob_leggings",
                                                     "color": "gold",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
@@ -369,7 +371,7 @@
                                                 "custom_name": {
                                                     "translate": "aimbob_chestplate",
                                                     "color": "gold",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
@@ -399,7 +401,7 @@
                                                 "custom_name": {
                                                     "translate": "aimbob_helmet",
                                                     "color": "gold",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
@@ -417,19 +419,16 @@
                                         }
                                     ],
                                     "ArmorDropChances": [
-                                        0.000,
-                                        0.000,
-                                        0.000,
-                                        0.000
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "aimbob_spawn_egg",
@@ -439,7 +438,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -448,22 +447,26 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:zombie_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
-                                    "PersistenceRequired": true,
+                                    "PersistenceRequired":1,
                                     "DeathLootTable": "none",
-                                    "IsBaby": true,
-                                    "Silent": true,
+                                    "IsBaby": 1,
+                                    "Silent":1,
                                     "ArmorItems": [
                                         {},
                                         {},
@@ -474,7 +477,7 @@
                                             "components": {
                                                 "custom_name": {
                                                     "translate": "agressive_slab",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "attribute_modifiers": [
                                                     {
@@ -502,14 +505,11 @@
                                             "show_particles": false
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "slab_spawn_egg",
@@ -519,7 +519,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -528,15 +528,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:skeleton_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:skeleton",
@@ -544,8 +548,8 @@
                                         "fat_skeleton"
                                     ],
                                     "DeathLootTable": "lbc:fatskeleton",
-                                    "PersistenceRequired": true,
-                                    "CustomNameVisible": true,
+                                    "PersistenceRequired":1,
+                                    "CustomNameVisible":1,
                                     "CustomName": "{\"translate\":\"fat_skeleton\",\"italic\":false}",
                                     "HandItems": [
                                         {
@@ -554,7 +558,7 @@
                                             "components": {
                                                 "custom_name": {
                                                     "translate": "omega_bone",
-                                                    "italic": false
+                                                    "italic": 0
                                                 },
                                                 "minecraft:enchantments": {
                                                     "minecraft:knockback": 1,
@@ -616,14 +620,11 @@
                                             "base": 5
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "fat_skeleton_spawn_egg",
@@ -633,7 +634,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -642,15 +643,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snow_golem_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item",
@@ -666,14 +671,11 @@
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "otchim_spawn_egg",
@@ -683,7 +685,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -692,15 +694,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:vex_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:vex",
@@ -712,14 +718,11 @@
                                             "base": 1
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "low_vex_spawn_egg",
@@ -729,7 +732,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -738,28 +741,29 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:creeper_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:creeper",
                                     "ExplosionRadius": 1,
                                     "DeathLootTable": "lbc:creeper_wand"
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "sarvatra_creeper_spawn_egg",
@@ -769,7 +773,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -778,15 +782,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:zombie_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item",
@@ -802,14 +810,11 @@
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shahid_spawn_egg",
@@ -819,7 +824,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -828,23 +833,27 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:zombie_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
-                                    "CustomNameVisible": true,
+                                    "CustomNameVisible":1,
                                     "DeathLootTable": "lbc:reactive_shish",
-                                    "PersistenceRequired": true,
+                                    "PersistenceRequired":1,
                                     "Health": 30,
-                                    "IsBaby": true,
+                                    "IsBaby": 1,
                                     "CustomName": "{\"translate\":\"reactive_shish\",\"color\":\"green\",\"italic\":false}",
                                     "active_effects": [
                                         {
@@ -889,16 +898,13 @@
                                         0.085,
                                         0.085,
                                         0.085,
-                                        0.000
+                                        0.0
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "shish_spawn_egg",
@@ -908,7 +914,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -917,22 +923,26 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:husk_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:husk",
                                     "CustomNameVisible": false,
                                     "CustomName": "{\"text\":\"Lucky Block\",\"color\":\"yellow\",\"italic\":false}",
-                                    "IsBaby": true,
-                                    "Silent": true,
+                                    "IsBaby": 1,
+                                    "Silent":1,
                                     "DeathLootTable": "lbc:luckyblock",
                                     "ArmorItems": [
                                         {},
@@ -961,7 +971,7 @@
                                                     "minecraft:enchantments": {
                                                         "vanishing_curse": 1
                                                     },
-                                                    "minecraft:enchantment_glint_override": false
+                                                    "minecraft:enchantment_glint_override": 0
                                                 }
                                             }
                                         }
@@ -970,7 +980,7 @@
                                         0.085,
                                         0.085,
                                         0.085,
-                                        0.000
+                                        0.0
                                     ],
                                     "active_effects": [
                                         {
@@ -980,14 +990,11 @@
                                             "show_particles": false
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lucky_block_spawn_egg",
@@ -997,7 +1004,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1006,15 +1013,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bat_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item",
@@ -1024,20 +1035,17 @@
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
                                             "minecraft:custom_data": {
-                                                "droppertnt": true,
-                                                "drop": true
+                                                "droppertnt": 1,
+                                                "drop": 1
                                             },
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "hohol_spawn_egg",
@@ -1047,7 +1055,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1056,29 +1064,30 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:pig_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:pig",
-                                    "CustomNameVisible": true,
+                                    "CustomNameVisible":1,
                                     "DeathLootTable": "lbc:applepig",
                                     "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}"
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "lucky_pig_spawn_egg",
@@ -1088,7 +1097,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1097,28 +1106,29 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:bee_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:bee",
                                     "DeathLootTable": "lbc:honey",
-                                    "HasNectar": true
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
+                                    "HasNectar": 1
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "honey_bee_spawn_egg",
@@ -1128,7 +1138,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1137,21 +1147,25 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:zombified_piglin_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombified_piglin",
-                                    "Silent": true,
-                                    "CustomNameVisible": true,
-                                    "PersistenceRequired": true,
+                                    "Silent":1,
+                                    "CustomNameVisible":1,
+                                    "PersistenceRequired":1,
                                     "Health": 500,
                                     "Tags": [
                                         "stalin",
@@ -1169,8 +1183,8 @@
                                         {}
                                     ],
                                     "HandDropChances": [
-                                        0.000,
-                                        0.000
+                                        0.0,
+                                        0.0
                                     ],
                                     "ArmorItems": [
                                         {
@@ -1184,7 +1198,7 @@
                                                     "minecraft:enchantments": {
                                                         "vanishing_curse": 1
                                                     },
-                                                    "minecraft:enchantment_glint_override": false
+                                                    "minecraft:enchantment_glint_override": 0
                                                 }
                                             }
                                         },
@@ -1209,7 +1223,7 @@
                                                     "minecraft:enchantments": {
                                                         "vanishing_curse": 1
                                                     },
-                                                    "minecraft:enchantment_glint_override": false
+                                                    "minecraft:enchantment_glint_override": 0
                                                 }
                                             }
                                         },
@@ -1224,7 +1238,7 @@
                                                     "minecraft:enchantments": {
                                                         "vanishing_curse": 1
                                                     },
-                                                    "minecraft:enchantment_glint_override": false,
+                                                    "minecraft:enchantment_glint_override": 0,
                                                     "minecraft:unbreakable": {}
                                                 }
                                             }
@@ -1253,20 +1267,17 @@
                                         }
                                     ],
                                     "ArmorDropChances": [
-                                        0.000,
-                                        0.000,
-                                        0.000,
-                                        0.000
+                                        0.0,
+                                        0.0,
+                                        0.0,
+                                        0.0
                                     ],
                                     "DeathLootTable": "lbc:stalin"
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "stalin_spawn_egg",
@@ -1276,7 +1287,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1285,15 +1296,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:pig_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item",
@@ -1309,14 +1324,11 @@
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "mom_spawn_egg",
@@ -1326,7 +1338,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1335,26 +1347,30 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:zombie_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
                                     "NoGravity": false,
-                                    "Silent": true,
+                                    "Silent":1,
                                     "Invulnerable": false,
-                                    "CustomNameVisible": true,
-                                    "PersistenceRequired": true,
-                                    "NoAI": true,
+                                    "CustomNameVisible":1,
+                                    "PersistenceRequired":1,
+                                    "NoAI":1,
                                     "Health": 500,
-                                    "IsBaby": false,
+                                    "IsBaby": 0,
                                     "Tags": [
                                         "transformator",
                                         "lucky_mob"
@@ -1380,7 +1396,7 @@
                                         0.085,
                                         0.085,
                                         0.085,
-                                        0.000
+                                        0.0
                                     ],
                                     "active_effects": [
                                         {
@@ -1400,14 +1416,11 @@
                                             "base": 100
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "transformator_spawn_egg",
@@ -1417,7 +1430,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1426,15 +1439,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:snow_golem_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item",
@@ -1450,14 +1467,11 @@
                                             "minecraft:custom_model_data": 658
                                         }
                                     }
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "helicopter_spawn_egg",
@@ -1467,7 +1481,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1476,29 +1490,33 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:zombie_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
-                                    "Silent": true,
+                                    "Silent":1,
                                     "DeathLootTable": "lbc:muravei",
-                                    "PersistenceRequired": true,
+                                    "PersistenceRequired":1,
                                     "ArmorDropChances": [
                                         0.085,
                                         0.085,
                                         0.085,
-                                        0.000
+                                        0.0
                                     ],
                                     "Health": 10,
-                                    "IsBaby": true,
+                                    "IsBaby": 1,
                                     "Tags": [
                                         "muravei",
                                         "lucky_mob"
@@ -1558,14 +1576,11 @@
                                             "base": 100
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "muravei_spawn_egg",
@@ -1575,7 +1590,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1584,15 +1599,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:cat_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -1601,14 +1620,11 @@
                                         "grimoire_dungeon",
                                         "spawn_monument"
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "monument_spawn_egg",
@@ -1618,7 +1634,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1627,15 +1643,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:skeleton_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:skeleton",
@@ -1646,7 +1666,7 @@
                                     ],
                                     "CustomName": "{\"translate\":\"golden_skeleton\",\"color\":\"gold\",\"italic\":false}",
                                     "DeathLootTable": "lbc:golden_skeleton",
-                                    "PersistenceRequired": true,
+                                    "PersistenceRequired":1,
                                     "Health": 30,
                                     "HandItems": [
                                         {
@@ -1729,14 +1749,11 @@
                                             "base": 10
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "golden_skeleton_spawn_egg",
@@ -1746,7 +1763,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1755,15 +1772,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:skeleton_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:skeleton",
@@ -1774,7 +1795,7 @@
                                     ],
                                     "CustomName": "{\"translate\":\"tiny_skeleton\",\"color\":\"gold\",\"italic\":false}",
                                     "DeathLootTable": "lbc:tiny_skeleton",
-                                    "PersistenceRequired": true,
+                                    "PersistenceRequired":1,
                                     "Health": 45,
                                     "HandItems": [
                                         {
@@ -1786,7 +1807,7 @@
                                                     "minecraft:enchantments": {
                                                         "vanishing_curse": 1
                                                     },
-                                                    "minecraft:enchantment_glint_override": false
+                                                    "minecraft:enchantment_glint_override": 0
                                                 }
                                             }
                                         },
@@ -1814,14 +1835,11 @@
                                             "base": 1
                                         }
                                     ]
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "tiny_skeleton_spawn_egg",
@@ -1831,7 +1849,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1840,15 +1858,19 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:warden_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:warden",
@@ -1865,14 +1887,11 @@
                                             }
                                         }
                                     }
-                                },
-                                "minecraft:custom_data": {
-                                    "imba": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "death_warden_spawn_egg",
@@ -1882,7 +1901,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -1891,6 +1910,10 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{imba:1}"
                         }
                     ]
                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lilac
+setblock ~ ~ ~ minecraft:lilac

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ soul_lantern
+setblock ~ ~ ~ minecraft:soul_lantern

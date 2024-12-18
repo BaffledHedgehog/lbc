@@ -1,1 +1,1 @@
-setblock ~ ~ ~ heavy_core
+setblock ~ ~ ~ minecraft:heavy_core

@@ -1,170 +1,234 @@
 [
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 681
-    },
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "components": {
-                "minecraft:custom_model_data": 680
-              }
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    681.0
+                ]
             }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 682
-    },
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "components": {
-                "minecraft:custom_model_data": 681
-              }
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        680.0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
             }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 683
+        ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "components": {
-                "minecraft:custom_model_data": 682
-              }
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    682.0
+                ]
             }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 684
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        681.0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "components": {
-                "minecraft:custom_model_data": 683
-              }
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    683.0
+                ]
             }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 685
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        682.0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "components": {
-                "minecraft:custom_model_data": 684
-              }
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    684.0
+                ]
             }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 686
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        683.0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "components": {
-                "minecraft:custom_model_data": 685
-              }
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    685.0
+                ]
             }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 687
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        684.0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "components": {
-                "minecraft:custom_model_data": 686
-              }
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    686.0
+                ]
             }
-          }
-        }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_components",
-    "components": {
-      "minecraft:custom_model_data": 680
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        685.0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
     },
-    "conditions": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "components": {
-                "minecraft:custom_model_data": 687
-              }
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    687.0
+                ]
             }
-          }
-        }
-      }
-    ]
-  }
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        686.0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:custom_model_data": {
+                "floats": [
+                    680.0
+                ]
+            }
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        687.0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
 ]

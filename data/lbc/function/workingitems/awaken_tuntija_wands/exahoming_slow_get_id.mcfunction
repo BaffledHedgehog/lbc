@@ -1,2 +1,2 @@
-scoreboard players operation @e[type=fireball,limit=1,tag=homing_fireball_slow,tag=!active,sort=nearest] lbcID2 = @s lbcID2
-tag @e[type=fireball,limit=1,tag=homing_fireball_slow,tag=!active,sort=nearest] add active
+scoreboard players operation @e[type=minecraft:fireball,tag=homing_fireball_slow,tag=!active,sort=nearest,limit=1] lbcID2 = @s lbcID2
+tag @e[type=minecraft:fireball,tag=homing_fireball_slow,tag=!active,sort=nearest,limit=1] add active

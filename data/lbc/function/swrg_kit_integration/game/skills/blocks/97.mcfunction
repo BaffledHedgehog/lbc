@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_lapis_ore
+setblock ~ ~ ~ minecraft:deepslate_lapis_ore

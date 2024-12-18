@@ -1,1 +1,1 @@
-setblock ~ ~ ~ nether_wart
+setblock ~ ~ ~ minecraft:nether_wart

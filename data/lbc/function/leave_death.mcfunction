@@ -102,19 +102,19 @@ scoreboard players set @s frozen 0
 scoreboard players set @s cold_cd 0
 scoreboard players set @s overload_jump 0
 scoreboard players set @s overload_slam 0
-attribute @s minecraft:generic.movement_speed modifier remove c1cda724-0ea2-460a-98b8-9631eafd2515
-attribute @s minecraft:generic.attack_damage modifier remove 585f98b8-a8b8-4e4c-838a-f2e124831040
-attribute @s minecraft:generic.gravity modifier remove gravity_mk2armor_fix1
-attribute @s minecraft:generic.gravity modifier remove gravity_mk2armor_fix2
+attribute @s minecraft:movement_speed modifier remove minecraft:c1cda724-0ea2-460a-98b8-9631eafd2515
+attribute @s minecraft:attack_damage modifier remove minecraft:585f98b8-a8b8-4e4c-838a-f2e124831040
+attribute @s minecraft:gravity modifier remove minecraft:gravity_mk2armor_fix1
+attribute @s minecraft:gravity modifier remove minecraft:gravity_mk2armor_fix2
 
 tag @s remove time_stopped_lol
 
-stopsound @s * lbcsounds.penis_bossfight
-stopsound @s * lbcsounds.helicopter
+stopsound @s * minecraft:lbcsounds.penis_bossfight
+stopsound @s * minecraft:lbcsounds.helicopter
 tag @s remove shef_hated
 tag @s add checker
-execute as @e[type=marker,tag=exoperso] if score @s lbcID2 = @a[tag=checker,limit=1] lbcID2 run function lbc:leave_death_kest
-execute as @e[type=marker,tag=exoperso_upg] if score @s lbcID2 = @a[tag=checker,limit=1] lbcID2 run function lbc:leave_death_kest
+execute as @e[type=minecraft:marker,tag=exoperso] if score @s lbcID2 = @a[tag=checker,limit=1] lbcID2 run function lbc:leave_death_kest
+execute as @e[type=minecraft:marker,tag=exoperso_upg] if score @s lbcID2 = @a[tag=checker,limit=1] lbcID2 run function lbc:leave_death_kest
 tag @s remove checker
 
 
@@ -154,16 +154,16 @@ scoreboard players set @s effect_add_mana 0
 scoreboard players set @s effect_remove_mana 0
 scoreboard players set @s effect_snus 0
 scoreboard players set @s effect_boost_mana 0
-attribute @s minecraft:generic.gravity modifier remove slamslamslaaaaaaamslaaam
-attribute @s generic.fall_damage_multiplier modifier remove gravity_curse
-attribute @s generic.gravity modifier remove gravity_curse
-attribute @s generic.step_height modifier remove gravity_curse
-attribute @s generic.safe_fall_distance modifier remove gravity_curse
-attribute @s minecraft:generic.jump_strength modifier remove gravity_curse
-attribute @s generic.movement_speed modifier remove gravity_curse
+attribute @s minecraft:gravity modifier remove minecraft:slamslamslaaaaaaamslaaam
+attribute @s minecraft:fall_damage_multiplier modifier remove minecraft:gravity_curse
+attribute @s minecraft:gravity modifier remove minecraft:gravity_curse
+attribute @s minecraft:step_height modifier remove minecraft:gravity_curse
+attribute @s minecraft:safe_fall_distance modifier remove minecraft:gravity_curse
+attribute @s minecraft:jump_strength modifier remove minecraft:gravity_curse
+attribute @s minecraft:movement_speed modifier remove minecraft:gravity_curse
 
-attribute @s generic.attack_damage modifier remove fire_wisp
-attribute @s generic.max_health modifier remove water_wisp
+attribute @s minecraft:attack_damage modifier remove minecraft:fire_wisp
+attribute @s minecraft:max_health modifier remove minecraft:water_wisp
 
 scoreboard players set @s effect_gravity_curse 0
 tag @s remove have_lucky_effects

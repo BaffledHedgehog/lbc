@@ -1,1 +1,1 @@
-setblock ~ ~ ~ azalea_leaves
+setblock ~ ~ ~ minecraft:azalea_leaves

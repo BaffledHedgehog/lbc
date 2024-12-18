@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_andesite_slab
+setblock ~ ~ ~ minecraft:polished_andesite_slab

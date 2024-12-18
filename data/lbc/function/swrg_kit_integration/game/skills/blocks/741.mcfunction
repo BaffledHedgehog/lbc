@@ -1,1 +1,1 @@
-setblock ~ ~ ~ smooth_quartz_stairs
+setblock ~ ~ ~ minecraft:smooth_quartz_stairs

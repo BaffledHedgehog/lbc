@@ -1,11 +1,11 @@
 {
     "replace": false,
     "values": [
-        "water",
-        "#snow",
-        "#ice",
-        "water_cauldron",
-        "powder_snow_cauldron",
-        "cobweb"
+        "minecraft:water",
+        "#minecraft:snow",
+        "#minecraft:ice",
+        "minecraft:water_cauldron",
+        "minecraft:powder_snow_cauldron",
+        "minecraft:cobweb"
     ]
 }

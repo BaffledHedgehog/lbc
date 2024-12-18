@@ -1,1 +1,1 @@
-setblock ~ ~ ~ waxed_exposed_copper_grate
+setblock ~ ~ ~ minecraft:waxed_exposed_copper_grate

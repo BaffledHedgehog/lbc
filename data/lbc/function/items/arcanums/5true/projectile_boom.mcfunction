@@ -1,2 +1,2 @@
-setblock ~ ~ ~ lava
+setblock ~ ~ ~ minecraft:lava
 kill @s

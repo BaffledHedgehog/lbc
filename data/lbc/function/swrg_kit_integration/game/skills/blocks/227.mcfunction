@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_wall_hanging_sign
+setblock ~ ~ ~ minecraft:mangrove_wall_hanging_sign

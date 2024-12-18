@@ -1,1 +1,1 @@
-setblock ~ ~ ~ repeating_command_block
+setblock ~ ~ ~ minecraft:repeating_command_block

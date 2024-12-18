@@ -1,1 +1,1 @@
-setblock ~ ~ ~ andesite_stairs
+setblock ~ ~ ~ minecraft:andesite_stairs

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_block
+setblock ~ ~ ~ minecraft:bamboo_block

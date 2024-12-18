@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_sapling
+setblock ~ ~ ~ minecraft:bamboo_sapling

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ weathered_copper
+setblock ~ ~ ~ minecraft:weathered_copper

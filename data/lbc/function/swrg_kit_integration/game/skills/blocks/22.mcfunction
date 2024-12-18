@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_planks
+setblock ~ ~ ~ minecraft:bamboo_planks

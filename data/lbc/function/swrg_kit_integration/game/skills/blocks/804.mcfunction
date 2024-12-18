@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_fungus
+setblock ~ ~ ~ minecraft:crimson_fungus

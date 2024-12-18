@@ -1,1 +1,1 @@
-setblock ~ ~ ~ black_wool
+setblock ~ ~ ~ minecraft:black_wool

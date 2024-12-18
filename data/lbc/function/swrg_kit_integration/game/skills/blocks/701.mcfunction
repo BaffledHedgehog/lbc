@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bubble_coral
+setblock ~ ~ ~ minecraft:bubble_coral

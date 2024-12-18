@@ -1,1 +1,1 @@
-setblock ~ ~ ~ emerald_block
+setblock ~ ~ ~ minecraft:emerald_block

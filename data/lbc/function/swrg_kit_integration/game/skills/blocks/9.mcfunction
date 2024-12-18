@@ -1,1 +1,1 @@
-setblock ~ ~ ~ grass_block
+setblock ~ ~ ~ minecraft:grass_block

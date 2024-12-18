@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_fern
+setblock ~ ~ ~ minecraft:potted_fern

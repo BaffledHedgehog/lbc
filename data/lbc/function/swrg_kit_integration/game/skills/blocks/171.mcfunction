@@ -1,1 +1,1 @@
-setblock ~ ~ ~ obsidian
+setblock ~ ~ ~ minecraft:obsidian

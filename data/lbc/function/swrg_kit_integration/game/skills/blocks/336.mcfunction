@@ -1,1 +1,1 @@
-setblock ~ ~ ~ end_portal
+setblock ~ ~ ~ minecraft:end_portal

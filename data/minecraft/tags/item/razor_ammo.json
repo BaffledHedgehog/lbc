@@ -1,18 +1,18 @@
 {
     "values": [
-        "#leaves",
-        "moss_block",
-        "moss_carpet",
-        "#saplings",
-        "melon_seeds",
-        "wheat_seeds",
-        "pumpkin_seeds",
-        "beetroot_seeds",
-        "torchflower_seeds",
-        "#flowers",
-        "short_grass",
-        "fern",
-        "large_fern",
-        "tall_grass"
+        "#minecraft:leaves",
+        "minecraft:moss_block",
+        "minecraft:moss_carpet",
+        "#minecraft:saplings",
+        "minecraft:melon_seeds",
+        "minecraft:wheat_seeds",
+        "minecraft:pumpkin_seeds",
+        "minecraft:beetroot_seeds",
+        "minecraft:torchflower_seeds",
+        "#tag_replacements:flowers",
+        "minecraft:short_grass",
+        "minecraft:fern",
+        "minecraft:large_fern",
+        "minecraft:tall_grass"
     ]
 }

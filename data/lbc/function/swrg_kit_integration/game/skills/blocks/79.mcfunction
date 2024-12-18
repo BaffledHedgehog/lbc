@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stripped_acacia_wood
+setblock ~ ~ ~ minecraft:stripped_acacia_wood

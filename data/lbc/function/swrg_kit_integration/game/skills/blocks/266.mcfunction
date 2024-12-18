@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jack_o_lantern
+setblock ~ ~ ~ minecraft:jack_o_lantern

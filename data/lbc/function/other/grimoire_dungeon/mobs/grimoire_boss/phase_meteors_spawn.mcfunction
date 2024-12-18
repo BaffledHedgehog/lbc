@@ -1,2 +1,2 @@
-summon marker ~ ~ ~ {Tags:["stone_rain_tmp"]}
-execute as @e[type=marker,limit=1,distance=..0.01,tag=stone_rain_tmp] at @s run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_meteors_spawn_marker
+summon minecraft:marker ~ ~ ~ {Tags:["stone_rain_tmp"]}
+execute as @e[type=minecraft:marker,distance=..0.01,tag=stone_rain_tmp,limit=1] at @s run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_meteors_spawn_marker

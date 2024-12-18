@@ -4,7 +4,7 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:transformables_bow",
                     "weight": 11
                 },
@@ -16,16 +16,12 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "fastfired": true,
-                                    "craftusable": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:quick_charge": 5
+                                    "levels": {
+                                        "minecraft:quick_charge": 5
+                                    }
                                 },
-                                "minecraft:custom_name": "{\"translate\":\"blaze_crossbow\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}",
+                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"translate\":\"blaze_crossbow\"}",
                                 "minecraft:lore": [
                                     "{\"translate\":\"blaze_crossbow.lore\",\"color\": \"gold\",\"italic\":false}"
                                 ],
@@ -36,6 +32,10 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,fastfired:1,craftusable:1}"
                         }
                     ]
                 },
@@ -47,16 +47,12 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "fastexplode": true,
-                                    "craftusable": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:quick_charge": 5
+                                    "levels": {
+                                        "minecraft:quick_charge": 5
+                                    }
                                 },
-                                "minecraft:custom_name": "{\"translate\":\"ghast_crossbow\",\"color\":\"red\",\"bold\":true,\"italic\":false}",
+                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"red\",\"italic\":false,\"translate\":\"ghast_crossbow\"}",
                                 "minecraft:lore": [
                                     "{\"translate\":\"ghast_crossbow.lore\",\"color\": \"gold\",\"italic\":false}"
                                 ],
@@ -67,6 +63,10 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,fastexplode:1,craftusable:1}"
                         }
                     ]
                 },
@@ -78,16 +78,17 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "bow": true,
-                                    "penisgun": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        500.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 500,
                                 "minecraft:enchantments": {
-                                    "minecraft:quick_charge": 2
+                                    "levels": {
+                                        "minecraft:quick_charge": 2
+                                    }
                                 },
-                                "minecraft:custom_name": "{\"translate\":\"dildomet\",\"color\":\"#FF0099\",\"bold\":true,\"italic\":false}",
+                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FF0099\",\"italic\":false,\"translate\":\"dildomet\"}",
                                 "minecraft:charged_projectiles": [
                                     {
                                         "id": "minecraft:arrow",
@@ -95,11 +96,15 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,bow:1,penisgun:1}"
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:railgun",
                     "weight": 1
                 },
@@ -111,22 +116,26 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "craftusable": true,
-                                    "transformable": true,
-                                    "bow": true,
-                                    "shish_gun": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        541.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 541,
                                 "minecraft:enchantments": {
-                                    "minecraft:infinity": 1
+                                    "levels": {
+                                        "minecraft:infinity": 1
+                                    }
                                 },
-                                "minecraft:custom_name": "{\"translate\":\"shish_bow\",\"color\":\"green\",\"bold\":true,\"italic\":false}",
+                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"shish_bow\"}",
                                 "minecraft:lore": [
                                     "[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"bow.lbc\",\"italic\": false,\"color\": \"aqua\"}]",
                                     "{\"translate\": \"shish_bow.lore\",\"color\": \"gold\",\"italic\": false}"
                                 ]
                             }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,transformable:1,bow:1,shish_gun:1}"
                         }
                     ]
                 }

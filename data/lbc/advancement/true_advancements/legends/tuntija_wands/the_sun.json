@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "components": {"minecraft:custom_model_data":616}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        616.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.tuntija.the_sun"
@@ -36,7 +42,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "sun_arcanum": true
+                                "sun_arcanum":1
                             }
                         }
                     }

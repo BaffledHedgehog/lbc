@@ -1,3 +1,3 @@
 function lbc:other/idgive
-scoreboard players operation @e[type=ravager,limit=1,tag=!identified,tag=helicopter_boss_hitbox,distance=..5] lbcID2 = @s lbcID2
-tag @e[type=ravager,limit=1,tag=!identified,tag=helicopter_boss_hitbox,distance=..5] add identified
+scoreboard players operation @e[type=minecraft:ravager,distance=..5,tag=helicopter_boss_hitbox,tag=!identified,limit=1] lbcID2 = @s lbcID2
+tag @e[type=minecraft:ravager,distance=..5,tag=helicopter_boss_hitbox,tag=!identified,limit=1] add identified

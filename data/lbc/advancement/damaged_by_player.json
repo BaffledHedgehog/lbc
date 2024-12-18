@@ -1,38 +1,38 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:entity_hurt_player",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{\"mystical\":4b, \"type\":1b}}}]}"
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{mystical:4,type:1}}}]}"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "damage": {
+                    "source_entity": {
+                        "type": "#minecraft:attacks"
+                    }
+                }
             }
-          },
-          {
-              "condition": "minecraft:inverted",
-              "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                      "location": {
-                          "dimension": "minecraft:nexus"
-                      }
-                  }
-              }
-          }
-        ],
-        "damage": {
-          "source_entity": {
-            "type": "#minecraft:attacks"
-          }
         }
-      }
+    },
+    "rewards": {
+        "function": "lbc:items/damaged_by_player"
     }
-  },
-  "rewards": {
-    "function": "lbc:items/damaged_by_player"
-  }
 }

@@ -1,2 +1,2 @@
-tp @s @e[type=warden,tag=grimoire_boss_hitbox,limit=1,distance=..0.001]
+tp @s @e[type=minecraft:warden,distance=..0.001,tag=grimoire_boss_hitbox,limit=1]
 execute at @s run tp @s ~ ~6 ~ ~ 0

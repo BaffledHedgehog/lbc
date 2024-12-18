@@ -1,32 +1,31 @@
 {
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:effects_changed",
-        "conditions": {
-          "effects": {
-            "minecraft:raid_omen": {
-              "amplifier": 43
+        "requirement": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:raid_omen": {
+                        "amplifier": 43
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
+                    }
+                ]
             }
-          },
-          "player": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "location": {
-                    "dimension": "minecraft:nexus"
-                  }
-                }
-              }
-            }
-          ]
         }
-      }
     },
     "rewards": {
-      "function": "lbc:other/purify"
+        "function": "lbc:other/purify"
     }
-  }
-  
+}

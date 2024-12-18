@@ -1,1 +1,1 @@
-setblock ~ ~ ~ packed_ice
+setblock ~ ~ ~ minecraft:packed_ice

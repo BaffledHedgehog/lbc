@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sculk_vein
+setblock ~ ~ ~ minecraft:sculk_vein

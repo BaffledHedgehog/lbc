@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pink_carpet
+setblock ~ ~ ~ minecraft:pink_carpet

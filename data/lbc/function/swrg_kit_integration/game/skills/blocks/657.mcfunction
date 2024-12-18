@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purple_concrete
+setblock ~ ~ ~ minecraft:purple_concrete

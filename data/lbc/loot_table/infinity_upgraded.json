@@ -4,23 +4,19 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:black_shulker_box",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:container_loot": {
                                     "loot_table": "lbc:infinity_upgraded"
-                                },
-                                "minecraft:custom_data": {
-                                    "craftusable": true,
-                                    "inf_inf_shulker": true
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "infinite_shulker_upgraded",
@@ -29,7 +25,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -38,6 +34,10 @@
                                     "color": "yellow"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,inf_inf_shulker:1}"
                         }
                     ]
                 }
@@ -47,15 +47,15 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:infinity_no_shulker",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 64
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {}

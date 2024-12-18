@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_poppy
+setblock ~ ~ ~ minecraft:potted_poppy

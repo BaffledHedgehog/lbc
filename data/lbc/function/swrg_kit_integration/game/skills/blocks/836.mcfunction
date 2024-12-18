@@ -1,1 +1,1 @@
-setblock ~ ~ ~ target
+setblock ~ ~ ~ minecraft:target

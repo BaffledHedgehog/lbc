@@ -1,1 +1,1 @@
-setblock ~ ~ ~ big_dripleaf_stem
+setblock ~ ~ ~ minecraft:big_dripleaf_stem

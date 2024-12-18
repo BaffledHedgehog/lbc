@@ -1,1 +1,1 @@
-setblock ~ ~ ~ snow_block
+setblock ~ ~ ~ minecraft:snow_block

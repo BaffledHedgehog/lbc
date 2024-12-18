@@ -4,12 +4,12 @@
             "rolls": 64,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -18,19 +18,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "black": true,
-                                    "projegadget": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 602
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        602.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -48,16 +46,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,black:1,projegadget:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -66,19 +68,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "blue": true,
-                                    "projegadget": true,
-                                    "imba": true
-                                },
-                                "minecraft:custom_model_data": 603
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        603.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -96,16 +96,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,blue:1,projegadget:1,imba:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -114,19 +118,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "brown": true
-                                },
-                                "minecraft:custom_model_data": 604
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        604.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -144,16 +146,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,brown:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -162,19 +168,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "cyan": true
-                                },
-                                "minecraft:custom_model_data": 605
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        605.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -192,16 +196,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,cyan:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -210,19 +218,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "gray": true
-                                },
-                                "minecraft:custom_model_data": 606
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        606.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -240,16 +246,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,gray:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -258,19 +268,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "green": true
-                                },
-                                "minecraft:custom_model_data": 607
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        607.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -288,16 +296,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,green:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -306,19 +318,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "light_blue": true
-                                },
-                                "minecraft:custom_model_data": 608
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        608.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -336,16 +346,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,light_blue:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -354,19 +368,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "light_gray": true
-                                },
-                                "minecraft:custom_model_data": 609
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        609.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -384,16 +396,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,light_gray:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -402,19 +418,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "lime": true
-                                },
-                                "minecraft:custom_model_data": 610
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        610.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -432,16 +446,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,lime:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -450,19 +468,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "magenta": true
-                                },
-                                "minecraft:custom_model_data": 611
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        611.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -480,16 +496,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,magenta:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -498,19 +518,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "orange": true
-                                },
-                                "minecraft:custom_model_data": 612
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        612.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -528,16 +546,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,orange:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -546,19 +568,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "pink": true
-                                },
-                                "minecraft:custom_model_data": 613
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        613.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -576,16 +596,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,pink:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -594,19 +618,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "purple": true
-                                },
-                                "minecraft:custom_model_data": 614
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        614.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -624,16 +646,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,purple:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -642,19 +668,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "red": true
-                                },
-                                "minecraft:custom_model_data": 615
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        615.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -672,16 +696,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,red:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -690,19 +718,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "white": true
-                                },
-                                "minecraft:custom_model_data": 616
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        616.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -720,16 +746,20 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,white:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "snowball",
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -738,19 +768,17 @@
                             ]
                         },
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 16
                         },
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "wool": true,
-                                    "projegadget": true,
-                                    "imba": true,
-                                    "yellow": true
-                                },
-                                "minecraft:custom_model_data": 617
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        617.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -768,6 +796,10 @@
                                     "color": "dark_purple"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{wool:1,projegadget:1,imba:1,yellow:1}"
                         }
                     ]
                 }

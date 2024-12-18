@@ -1,1 +1,1 @@
-execute as @e[type=item_display,tag=done,tag=test_ray] run function lbc:other/techno/test_ray/visual/run
+execute as @e[type=minecraft:item_display,tag=done,tag=test_ray] run function lbc:other/techno/test_ray/visual/run

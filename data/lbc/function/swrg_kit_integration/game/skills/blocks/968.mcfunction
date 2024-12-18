@@ -1,1 +1,1 @@
-setblock ~ ~ ~ waxed_weathered_cut_copper_stairs
+setblock ~ ~ ~ minecraft:waxed_weathered_cut_copper_stairs

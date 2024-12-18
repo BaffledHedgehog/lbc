@@ -1,4 +1,4 @@
-execute store result score tmp lbc.math run attribute @s minecraft:player.sweeping_damage_ratio base get 20
+execute store result score tmp lbc.math run attribute @s minecraft:sweeping_damage_ratio base get 20
 scoreboard players add tmp lbc.math 1
 execute store result storage lbcmath tmp double 0.05 run scoreboard players get tmp lbc.math
 

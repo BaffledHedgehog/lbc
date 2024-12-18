@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bubble_coral_fan
+setblock ~ ~ ~ minecraft:bubble_coral_fan

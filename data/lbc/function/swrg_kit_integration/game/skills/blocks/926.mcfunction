@@ -1,1 +1,1 @@
-setblock ~ ~ ~ powder_snow
+setblock ~ ~ ~ minecraft:powder_snow

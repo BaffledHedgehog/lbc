@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
             "components": {
-                "minecraft:custom_model_data": 716
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        716.0
+                    ]
+                }
             }
         },
         "title": {
@@ -38,7 +42,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "divider_by_metal_pipe": true
+                                "divider_by_metal_pipe":1
                             }
                         }
                     }

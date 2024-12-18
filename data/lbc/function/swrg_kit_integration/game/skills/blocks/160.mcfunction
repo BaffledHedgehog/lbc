@@ -1,1 +1,1 @@
-setblock ~ ~ ~ wither_rose
+setblock ~ ~ ~ minecraft:wither_rose

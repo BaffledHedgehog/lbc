@@ -10,43 +10,46 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "chestplate": true,
-                                    "dynamite": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        1.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 1,
                                 "minecraft:max_damage": 1200,
                                 "minecraft:enchantments": {
-                                    "minecraft:blast_protection": 255
+                                    "levels": {
+                                        "minecraft:blast_protection": 255
+                                    }
                                 },
                                 "minecraft:dyed_color": {
                                     "rgb": 1,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "chest",
-                                        "id": "gendybnjmynjfhgor",
-                                        "amount": 15,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.knockback_resistance",
-                                        "slot": "chest",
-                                        "id": "genejyumkcdghfnce",
-                                        "amount": 15,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "chest",
-                                        "id": "htuhnykiyfgthxdfghness",
-                                        "amount": 15,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "chest",
+                                            "id": "gendybnjmynjfhgor",
+                                            "amount": 15,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:knockback_resistance",
+                                            "slot": "chest",
+                                            "id": "genejyumkcdghfnce",
+                                            "amount": 15,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "chest",
+                                            "id": "htuhnykiyfgthxdfghness",
+                                            "amount": 15,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -81,6 +84,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,chestplate:1,dynamite:1}"
                         }
                     ]
                 }

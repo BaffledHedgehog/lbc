@@ -1,1 +1,1 @@
-setblock ~ ~ ~ attached_melon_stem
+setblock ~ ~ ~ minecraft:attached_melon_stem

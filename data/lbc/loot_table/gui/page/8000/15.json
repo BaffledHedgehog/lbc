@@ -7,7 +7,6 @@
                     "type": "minecraft:item",
                     "name": "minecraft:glass",
                     "functions": [
-                        
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
@@ -26,7 +25,8 @@
                                     "translate": "lore.lbclevelup.15.0",
                                     "italic": false,
                                     "color": "gray"
-                                },{
+                                },
+                                {
                                     "translate": "lore.lbclevelup.15.1",
                                     "italic": false,
                                     "color": "gray"

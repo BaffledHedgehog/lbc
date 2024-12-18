@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_sapling
+setblock ~ ~ ~ minecraft:oak_sapling

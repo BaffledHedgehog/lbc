@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_oak_log
+setblock ~ ~ ~ minecraft:dark_oak_log

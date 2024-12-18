@@ -1,2 +1,2 @@
-execute as @e[type=item_display,tag=grimoire_boss_visual] at @s run stopsound @a[distance=..60] * lbcsounds.penis_bossfight
-execute as @e[type=item_display,tag=grimoire_boss_visual] at @s run playsound lbcsounds.penis_bossfight master @a[distance=..60] ~ ~ ~ 0.5 1 0.1
+execute as @e[type=minecraft:item_display,tag=grimoire_boss_visual] at @s run stopsound @a[distance=..60] * minecraft:lbcsounds.penis_bossfight
+execute as @e[type=minecraft:item_display,tag=grimoire_boss_visual] at @s run playsound minecraft:lbcsounds.penis_bossfight master @a[distance=..60] ~ ~ ~ 0.5 1 0.1

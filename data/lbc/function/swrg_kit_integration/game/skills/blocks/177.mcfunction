@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_stairs
+setblock ~ ~ ~ minecraft:oak_stairs

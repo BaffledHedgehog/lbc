@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:bow",
             "components": {
-                "minecraft:custom_model_data": 533
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        533.0
+                    ]
+                }
             }
         },
         "title": {
@@ -31,9 +35,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "bow": true,
-                                            "shulker": true
+                                            "transformable":1,
+                                            "bow":1,
+                                            "shulker":1
                                         }
                                     }
                                 }
@@ -51,9 +55,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "bow": true,
-                                            "shulker": true
+                                            "transformable":1,
+                                            "bow":1,
+                                            "shulker":1
                                         }
                                     }
                                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ red_tulip
+setblock ~ ~ ~ minecraft:red_tulip

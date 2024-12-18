@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purple_wool
+setblock ~ ~ ~ minecraft:purple_wool

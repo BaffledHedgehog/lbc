@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_stained_glass
+setblock ~ ~ ~ minecraft:magenta_stained_glass

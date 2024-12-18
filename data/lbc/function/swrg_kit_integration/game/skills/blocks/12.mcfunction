@@ -1,1 +1,1 @@
-setblock ~ ~ ~ podzol
+setblock ~ ~ ~ minecraft:podzol

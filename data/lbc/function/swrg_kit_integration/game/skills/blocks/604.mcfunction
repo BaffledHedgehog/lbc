@@ -1,1 +1,1 @@
-setblock ~ ~ ~ end_gateway
+setblock ~ ~ ~ minecraft:end_gateway

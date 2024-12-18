@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_planks
+setblock ~ ~ ~ minecraft:mangrove_planks

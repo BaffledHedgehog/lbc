@@ -1,1 +1,1 @@
-setblock ~ ~ ~ blue_ice
+setblock ~ ~ ~ minecraft:blue_ice

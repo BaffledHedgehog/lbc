@@ -1,1 +1,1 @@
-setblock ~ ~ ~ copper_ore
+setblock ~ ~ ~ minecraft:copper_ore

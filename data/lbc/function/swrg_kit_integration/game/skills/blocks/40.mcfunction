@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gold_ore
+setblock ~ ~ ~ minecraft:gold_ore

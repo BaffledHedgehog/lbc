@@ -1,2 +1,2 @@
-execute facing entity @e[type=#mobs,tag=!spectator,limit=1,sort=furthest] eyes positioned as @s run tp @s ~ ~ ~ ~ ~
+execute facing entity @e[type=#minecraft:mobs,tag=!spectator,sort=furthest,limit=1] eyes positioned as @s run tp @s ~ ~ ~ ~ ~
 scoreboard players add @s mana 1100

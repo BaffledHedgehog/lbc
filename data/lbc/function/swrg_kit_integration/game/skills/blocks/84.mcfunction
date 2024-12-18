@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spruce_leaves
+setblock ~ ~ ~ minecraft:spruce_leaves

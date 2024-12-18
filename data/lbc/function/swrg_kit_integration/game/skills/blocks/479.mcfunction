@@ -1,1 +1,1 @@
-setblock ~ ~ ~ white_carpet
+setblock ~ ~ ~ minecraft:white_carpet

@@ -8,7 +8,7 @@
                     "name": "minecraft:dirt",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 64
                         }
                     ]

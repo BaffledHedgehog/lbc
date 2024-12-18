@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gray_stained_glass
+setblock ~ ~ ~ minecraft:gray_stained_glass

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_planks
+setblock ~ ~ ~ minecraft:jungle_planks

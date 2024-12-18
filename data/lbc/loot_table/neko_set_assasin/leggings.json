@@ -2,84 +2,91 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_leggings",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "transformable": true,
-                                "leggings": true,
-                                "assasin": true
-                            },
-                            "minecraft:custom_model_data": 10,
-                            "minecraft:max_damage": 500,
-                            "minecraft:dyed_color": {
-                                "rgb": 10,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:attribute_modifiers": [
-                                {
-                                    "type": "minecraft:generic.armor",
-                                    "slot": "legs",
-                                    "id": "genediigdaerisfggarmor",
-                                    "amount": 4,
-                                    "operation": "add_value"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": {
-                            "translate": "assasin_leggings",
-                            "color": "red",
-                            "italic": false
-                        }
-                    },
-                    {
-                        "function": "set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
-                                {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        10.0
+                                    ]
                                 },
-                                {
-                                    "translate": "leggings",
-                                    "italic": false,
-                                    "color": "aqua"
+                                "minecraft:max_damage": 500,
+                                "minecraft:dyed_color": {
+                                    "rgb": 10,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "legs",
+                                            "id": "genediigdaerisfggarmor",
+                                            "amount": 4,
+                                            "operation": "add_value"
+                                        }
+                                    ]
                                 }
-                            ],
-                            [
-                                {
-                                    "translate": "set_bonus",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "assasin_set_bonus.1",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
-                            ],
-                            [
-                                {
-                                    "translate": "assasin_set_bonus.2",
-                                    "italic": false,
-                                    "color": "aqua"
-                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "assasin_leggings",
+                                "color": "red",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "leggings",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "set_bonus",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "assasin_set_bonus.1",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "translate": "assasin_set_bonus.2",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ]
                             ]
-                        ]
-                    }
-                ]
-            }]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,leggings:1,assasin:1}"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

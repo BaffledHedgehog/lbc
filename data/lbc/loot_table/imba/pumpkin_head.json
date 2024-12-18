@@ -10,13 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "helmet": true,
-                                    "imba": true
-                                },
                                 "minecraft:enchantments": {
-                                    "minecraft:binding_curse": 1
+                                    "levels": {
+                                        "minecraft:binding_curse": 1
+                                    }
                                 }
                             }
                         },
@@ -50,6 +47,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,helmet:1,imba:1}"
                         }
                     ]
                 }

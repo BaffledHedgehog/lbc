@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_sign
+setblock ~ ~ ~ minecraft:acacia_sign

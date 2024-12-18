@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dark_oak_hanging_sign
+setblock ~ ~ ~ minecraft:dark_oak_hanging_sign

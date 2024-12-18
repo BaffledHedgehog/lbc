@@ -1,1 +1,1 @@
-setblock ~ ~ ~ fire_coral_wall_fan
+setblock ~ ~ ~ minecraft:fire_coral_wall_fan

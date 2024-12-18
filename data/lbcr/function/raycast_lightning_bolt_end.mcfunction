@@ -1,2 +1,2 @@
-summon lightning_bolt
+summon minecraft:lightning_bolt
 scoreboard players set @s Distance 1000

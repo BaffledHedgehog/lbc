@@ -1,1 +1,1 @@
-setblock ~ ~ ~ nether_quartz_ore
+setblock ~ ~ ~ minecraft:nether_quartz_ore

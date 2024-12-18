@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_wool
+setblock ~ ~ ~ minecraft:magenta_wool

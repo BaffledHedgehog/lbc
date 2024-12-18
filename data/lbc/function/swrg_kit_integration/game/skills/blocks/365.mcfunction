@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_mangrove_propagule
+setblock ~ ~ ~ minecraft:potted_mangrove_propagule

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dirt
+setblock ~ ~ ~ minecraft:dirt

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ command_block
+setblock ~ ~ ~ minecraft:command_block

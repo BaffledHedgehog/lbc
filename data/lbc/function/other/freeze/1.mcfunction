@@ -1,2 +1,2 @@
-effect give @s slowness 2 0 true
+effect give @s minecraft:slowness 2 0 true
 

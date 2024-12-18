@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:potion",
             "components": {
-                "minecraft:custom_model_data": 529,
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        529.0
+                    ]
+                },
                 "minecraft:potion_contents": {
                     "custom_color": 5731155
                 }

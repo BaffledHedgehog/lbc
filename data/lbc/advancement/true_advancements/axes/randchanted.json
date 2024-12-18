@@ -52,9 +52,9 @@
                                 }
                             ],
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "axe": true,
-                                "randchanted": true
+                                "transformable":1,
+                                "axe":1,
+                                "randchanted":1
                             }
                         }
                     }

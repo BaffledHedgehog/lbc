@@ -1,4 +1,4 @@
 execute store result score whale_hp_temp lbc.math run data get entity @s Health 1
-execute if score whale_hp_temp lbc.math matches 3001..5000 if predicate lbc:chance5 facing entity @e[type=#mobs,limit=1,sort=random,tag=!white_whale,tag=!white_whale_clone,tag=!spectator,tag=!sin_gluttony,tag=!sin_wrath] eyes run function lbc:raycast_vpered_big
-execute if score whale_hp_temp lbc.math matches 3001..4000 if predicate lbc:chance10 facing entity @e[type=#mobs,limit=1,sort=random,tag=!white_whale,tag=!white_whale_clone,tag=!spectator,tag=!sin_gluttony,tag=!sin_wrath] eyes run function lbc:workingitems/witch_gens/whale_spawn_fog
+execute if score whale_hp_temp lbc.math matches 3001..5000 if predicate lbc:chance5 facing entity @e[type=#minecraft:mobs,tag=!white_whale,tag=!white_whale_clone,tag=!spectator,tag=!sin_gluttony,tag=!sin_wrath,sort=random,limit=1] eyes run function lbc:raycast_vpered_big
+execute if score whale_hp_temp lbc.math matches 3001..4000 if predicate lbc:chance10 facing entity @e[type=#minecraft:mobs,tag=!white_whale,tag=!white_whale_clone,tag=!spectator,tag=!sin_gluttony,tag=!sin_wrath,sort=random,limit=1] eyes run function lbc:workingitems/witch_gens/whale_spawn_fog
 execute if score whale_hp_temp lbc.math matches ..3000 if entity @s[tag=!cloned] run function lbc:workingitems/witch_gens/whale_run_away

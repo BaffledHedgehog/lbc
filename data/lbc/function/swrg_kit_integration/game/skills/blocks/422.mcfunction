@@ -1,1 +1,1 @@
-setblock ~ ~ ~ quartz_pillar
+setblock ~ ~ ~ minecraft:quartz_pillar

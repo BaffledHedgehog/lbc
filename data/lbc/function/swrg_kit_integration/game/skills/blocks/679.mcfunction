@@ -1,1 +1,1 @@
-setblock ~ ~ ~ kelp
+setblock ~ ~ ~ minecraft:kelp

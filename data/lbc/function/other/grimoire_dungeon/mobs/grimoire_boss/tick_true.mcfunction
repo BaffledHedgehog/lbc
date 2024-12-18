@@ -1,5 +1,5 @@
-execute store result bossbar grimoire_boss value run data get entity @e[type=warden,tag=grimoire_boss_hitbox,distance=..1,limit=1] Health 1
-execute if entity @e[type=warden,tag=grimoire_boss_hitbox,distance=..1,limit=1,nbt={HurtTime:10s}] run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/hit
+execute store result bossbar grimoire_boss value run data get entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1] Health 1
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,nbt={HurtTime:10s}] run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/hit
 execute if entity @s[tag=phase_idle] if predicate lbc:chance1 run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/random_phase_select
 execute at @s if entity @s[tag=phase_laser,scores={Lifetime=..69}] run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_laser_pre
 execute at @s if entity @s[tag=phase_laser,scores={Lifetime=70..}] run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_laser_start

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lily_of_the_valley
+setblock ~ ~ ~ minecraft:lily_of_the_valley

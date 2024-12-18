@@ -1,1 +1,1 @@
-particle flame ~ ~ ~ 0.1 0.1 0.1 0 1
+particle minecraft:flame ~ ~ ~ 0.1 0.1 0.1 0 1

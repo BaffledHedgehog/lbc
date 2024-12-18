@@ -1,1 +1,1 @@
-setblock ~ ~ ~ nether_gold_ore
+setblock ~ ~ ~ minecraft:nether_gold_ore

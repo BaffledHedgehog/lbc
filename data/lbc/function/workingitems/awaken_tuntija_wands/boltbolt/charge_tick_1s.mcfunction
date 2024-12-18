@@ -1,1 +1,1 @@
-summon lightning_bolt
+summon minecraft:lightning_bolt

@@ -8,32 +8,39 @@
                     "name": "minecraft:golden_axe",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": 41523,
-                                "minecraft:custom_data": {
-                                    "luck_key": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        41523.0
+                                    ]
                                 },
                                 "minecraft:max_damage": 1,
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.luck",
-                                        "slot": "mainhand",
-                                        "id": "95839458394634644tghgh",
-                                        "operation": "add_value",
-                                        "amount": 64
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:luck",
+                                            "slot": "mainhand",
+                                            "id": "95839458394634644tghgh",
+                                            "operation": "add_value",
+                                            "amount": 64
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "key_luck",
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{luck_key:1}"
                         }
                     ]
                 }

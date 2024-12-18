@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_roots
+setblock ~ ~ ~ minecraft:warped_roots

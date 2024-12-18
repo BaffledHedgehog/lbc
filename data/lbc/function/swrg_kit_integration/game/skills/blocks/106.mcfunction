@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_bed
+setblock ~ ~ ~ minecraft:magenta_bed

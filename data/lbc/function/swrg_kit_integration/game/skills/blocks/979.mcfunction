@@ -1,1 +1,1 @@
-setblock ~ ~ ~ waxed_copper_door
+setblock ~ ~ ~ minecraft:waxed_copper_door

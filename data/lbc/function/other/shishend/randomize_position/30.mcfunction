@@ -11,8 +11,8 @@ scoreboard players operation #randy lbc.math += #tmp lbc.math
 execute store result score #tmp lbc.math run random value -30..30
 scoreboard players operation #randz lbc.math += #tmp lbc.math
 
-execute store result entity @s Pos[0] double 1 run scoreboard players get #randx lbc.math 
-execute store result entity @s Pos[1] double 1 run scoreboard players get #randy lbc.math 
-execute store result entity @s Pos[2] double 1 run scoreboard players get #randz lbc.math 
+execute store result entity @s Pos[0] double 1 run scoreboard players get #randx lbc.math
+execute store result entity @s Pos[1] double 1 run scoreboard players get #randy lbc.math
+execute store result entity @s Pos[2] double 1 run scoreboard players get #randz lbc.math
 
 

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_deepslate_stairs
+setblock ~ ~ ~ minecraft:polished_deepslate_stairs

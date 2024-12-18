@@ -1,1 +1,1 @@
-setblock ~ ~ ~ netherite_block
+setblock ~ ~ ~ minecraft:netherite_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_birch_sapling
+setblock ~ ~ ~ minecraft:potted_birch_sapling

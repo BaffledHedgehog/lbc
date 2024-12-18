@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chiseled_stone_bricks
+setblock ~ ~ ~ minecraft:chiseled_stone_bricks

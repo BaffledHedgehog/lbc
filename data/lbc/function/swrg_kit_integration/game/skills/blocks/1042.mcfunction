@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cracked_deepslate_bricks
+setblock ~ ~ ~ minecraft:cracked_deepslate_bricks

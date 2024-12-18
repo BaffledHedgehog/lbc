@@ -10,27 +10,27 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "boots": true,
-                                    "technomk2": true,
-                                    "techno": true
-                                },
                                 "minecraft:max_damage": 600,
                                 "minecraft:dyed_color": {
                                     "rgb": 773,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "cyberpunk_boots",
-                                        "amount": 5,
-                                        "operation": "add_value"
-                                    }
-                                ],
-                                "minecraft:custom_model_data": 14
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "feet",
+                                            "id": "cyberpunk_boots",
+                                            "amount": 5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                },
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        14.0
+                                    ]
+                                }
                             }
                         },
                         {
@@ -117,6 +117,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,boots:1,technomk2:1,techno:1}"
                         }
                     ]
                 }

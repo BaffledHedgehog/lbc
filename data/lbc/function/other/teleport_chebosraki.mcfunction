@@ -1,4 +1,4 @@
-kill @s[type=marker]
+kill @s[type=minecraft:marker]
 execute store result storage lbc.math tmpx int 1 run random value -4000..4000
 execute store result storage lbc.math tmpy int 1 run random value 10..1980
 execute store result storage lbc.math tmpz int 1 run random value -4000..4000

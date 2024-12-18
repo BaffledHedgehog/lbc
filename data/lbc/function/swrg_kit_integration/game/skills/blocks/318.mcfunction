@@ -1,1 +1,1 @@
-setblock ~ ~ ~ vine
+setblock ~ ~ ~ minecraft:vine

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ fire
+setblock ~ ~ ~ minecraft:fire

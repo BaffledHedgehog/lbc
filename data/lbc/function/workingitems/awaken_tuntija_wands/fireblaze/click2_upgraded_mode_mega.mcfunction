@@ -1,2 +1,2 @@
-execute at @e[type=#mobs,tag=!spectator,distance=1..100] positioned ~ ~1 ~ run function lbc:workingitems/awaken_tuntija_wands/fireblaze/at_random_big_fireball
-playsound item.firecharge.use master @a ~ ~ ~ 1 1
+execute at @e[type=#minecraft:mobs,distance=1..100,tag=!spectator] positioned ~ ~1 ~ run function lbc:workingitems/awaken_tuntija_wands/fireblaze/at_random_big_fireball
+playsound minecraft:item.firecharge.use master @a ~ ~ ~ 1 1

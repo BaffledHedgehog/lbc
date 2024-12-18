@@ -10,26 +10,27 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "boots": true,
-                                    "assasin": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        10.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 10,
                                 "minecraft:max_damage": 500,
                                 "minecraft:dyed_color": {
                                     "rgb": 515,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "feet",
-                                        "id": "gendaerisshishkarichsidfr",
-                                        "amount": 2,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "feet",
+                                            "id": "gendaerisshishkarichsidfr",
+                                            "amount": 2,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -41,7 +42,7 @@
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -78,6 +79,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,boots:1,assasin:1}"
                         }
                     ]
                 }

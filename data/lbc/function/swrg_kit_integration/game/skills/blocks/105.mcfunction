@@ -1,1 +1,1 @@
-setblock ~ ~ ~ orange_bed
+setblock ~ ~ ~ minecraft:orange_bed

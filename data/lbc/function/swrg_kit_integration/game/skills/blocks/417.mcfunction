@@ -1,1 +1,1 @@
-setblock ~ ~ ~ redstone_block
+setblock ~ ~ ~ minecraft:redstone_block

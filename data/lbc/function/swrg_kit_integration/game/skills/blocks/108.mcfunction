@@ -1,1 +1,1 @@
-setblock ~ ~ ~ yellow_bed
+setblock ~ ~ ~ minecraft:yellow_bed

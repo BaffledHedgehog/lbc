@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_carpet
+setblock ~ ~ ~ minecraft:lime_carpet

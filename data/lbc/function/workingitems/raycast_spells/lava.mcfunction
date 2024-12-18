@@ -1,19 +1,19 @@
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 crimson_nylium replace #to_nylium
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 crimson_hyphae replace #logs
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 nether_wart_block replace #leaves
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 shroomlight replace #to_shroomlight
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 soul_sand replace #to_soulsand
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 magma_block replace #to_magma
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 netherrack replace #to_netherrack
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 obsidian replace #fluids
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 fire replace #airs_to_fire
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 lava replace #to_lava
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:crimson_nylium replace #minecraft:to_nylium
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:crimson_hyphae replace #minecraft:logs
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:nether_wart_block replace #minecraft:leaves
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:shroomlight replace #minecraft:to_shroomlight
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:soul_sand replace #minecraft:to_soulsand
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:magma_block replace #minecraft:to_magma
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:netherrack replace #minecraft:to_netherrack
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:obsidian replace #minecraft:fluids
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:fire replace #minecraft:airs_to_fire
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:lava replace #minecraft:to_lava
 place template lbc:sourcelava ~-15 ~-15 ~-15 none none 0.0001
 
-fill ~ 1 ~ ~ 126 ~ lava[level=1]
-summon ghast ~ ~30 ~15
-summon ghast ~ ~30 ~-15
-summon ghast ~15 ~30 ~
-summon ghast ~-15 ~30 ~
-clear @s carrot_on_a_stick[minecraft:custom_data~{"lava1":true}] 1
+fill ~ 1 ~ ~ 126 ~ minecraft:lava[level=1]
+summon minecraft:ghast ~ ~30 ~15
+summon minecraft:ghast ~ ~30 ~-15
+summon minecraft:ghast ~15 ~30 ~
+summon minecraft:ghast ~-15 ~30 ~
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_data~{lava1:1b}] 1
 scoreboard players set @s Distance 300

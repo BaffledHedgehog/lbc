@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bedrock
+setblock ~ ~ ~ minecraft:bedrock

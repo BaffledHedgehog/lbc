@@ -1,1 +1,1 @@
-setblock ~ ~ ~ waxed_chiseled_copper
+setblock ~ ~ ~ minecraft:waxed_chiseled_copper

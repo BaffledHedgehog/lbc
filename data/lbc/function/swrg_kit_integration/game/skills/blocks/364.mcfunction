@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_dark_oak_sapling
+setblock ~ ~ ~ minecraft:potted_dark_oak_sapling

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brown_bed
+setblock ~ ~ ~ minecraft:brown_bed

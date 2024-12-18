@@ -1,1 +1,1 @@
-setblock ~ ~ ~ player_head
+setblock ~ ~ ~ minecraft:player_head

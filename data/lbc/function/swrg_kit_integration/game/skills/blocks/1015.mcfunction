@@ -1,1 +1,1 @@
-setblock ~ ~ ~ moss_carpet
+setblock ~ ~ ~ minecraft:moss_carpet

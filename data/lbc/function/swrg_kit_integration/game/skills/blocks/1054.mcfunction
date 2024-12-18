@@ -1,1 +1,1 @@
-setblock ~ ~ ~ frogspawn
+setblock ~ ~ ~ minecraft:frogspawn

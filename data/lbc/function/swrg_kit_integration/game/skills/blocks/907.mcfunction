@@ -1,1 +1,1 @@
-setblock ~ ~ ~ large_amethyst_bud
+setblock ~ ~ ~ minecraft:large_amethyst_bud

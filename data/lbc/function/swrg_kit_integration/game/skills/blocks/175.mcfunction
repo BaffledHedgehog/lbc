@@ -1,1 +1,1 @@
-setblock ~ ~ ~ soul_fire
+setblock ~ ~ ~ minecraft:soul_fire

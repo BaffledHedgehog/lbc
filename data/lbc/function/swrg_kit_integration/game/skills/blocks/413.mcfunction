@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light_weighted_pressure_plate
+setblock ~ ~ ~ minecraft:light_weighted_pressure_plate

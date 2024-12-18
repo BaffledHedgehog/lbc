@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_button
+setblock ~ ~ ~ minecraft:acacia_button

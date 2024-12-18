@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light_gray_candle
+setblock ~ ~ ~ minecraft:light_gray_candle

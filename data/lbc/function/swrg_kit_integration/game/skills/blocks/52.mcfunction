@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_log
+setblock ~ ~ ~ minecraft:cherry_log

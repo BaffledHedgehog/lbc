@@ -3,11 +3,12 @@
         {
             "rolls": {
                 "min": 1,
-                "max": 7
+                "max": 7,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:imba/transformables_spells"
                 }
             ]

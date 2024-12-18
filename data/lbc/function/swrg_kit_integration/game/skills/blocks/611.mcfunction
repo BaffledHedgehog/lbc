@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bone_block
+setblock ~ ~ ~ minecraft:bone_block

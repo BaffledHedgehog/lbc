@@ -1,51 +1,51 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:firework_rocket",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:fireworks": {
-                  "explosions": [
-                    {
-                      "shape": "large_ball",
-                      "colors": [
-                        16772608
-                      ],
-                      "fade_colors": [
-                        16748800
-                      ]
-                    }
-                  ],
-                  "flight_duration": 9
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:fireworks": {
+                                    "explosions": [
+                                        {
+                                            "shape": "large_ball",
+                                            "colors": [
+                                                16772608
+                                            ],
+                                            "fade_colors": [
+                                                16748800
+                                            ]
+                                        }
+                                    ],
+                                    "flight_duration": 9
+                                }
+                            }
+                        }
+                    ]
                 }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            ]
+        },
         {
-          "type": "item",
-          "name": "minecraft:elytra",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:damage": 427
-              }
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:damage": 427
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

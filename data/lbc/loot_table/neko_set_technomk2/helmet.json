@@ -10,35 +10,34 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "transformable": true,
-                                    "helmet": true,
-                                    "techno": true,
-                                    "reactive": true,
-                                    "technomk2": true
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        18.0
+                                    ]
                                 },
-                                "minecraft:custom_model_data": 18,
                                 "minecraft:max_damage": 9000,
                                 "minecraft:dyed_color": {
                                     "rgb": 773,
                                     "show_in_tooltip": false
                                 },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:generic.armor",
-                                        "slot": "head",
-                                        "id": "adggtbniyumnghgjdgor",
-                                        "amount": 6,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:generic.armor_toughness",
-                                        "slot": "head",
-                                        "id": "jdgjdggdhffdghjyrcgfhjgfjgjg",
-                                        "amount": 3,
-                                        "operation": "add_value"
-                                    }
-                                ]
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "head",
+                                            "id": "adggtbniyumnghgjdgor",
+                                            "amount": 6,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "minecraft:armor_toughness",
+                                            "slot": "head",
+                                            "id": "jdgjdggdhffdghjyrcgfhjgfjgjg",
+                                            "amount": 3,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
                             }
                         },
                         {
@@ -125,6 +124,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,helmet:1,techno:1,reactive:1,technomk2:1}"
                         }
                     ]
                 }

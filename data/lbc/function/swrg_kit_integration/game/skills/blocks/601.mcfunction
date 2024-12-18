@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pitcher_plant
+setblock ~ ~ ~ minecraft:pitcher_plant

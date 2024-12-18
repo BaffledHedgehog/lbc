@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_concrete_powder
+setblock ~ ~ ~ minecraft:magenta_concrete_powder

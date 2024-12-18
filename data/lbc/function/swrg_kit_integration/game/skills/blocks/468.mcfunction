@@ -1,1 +1,1 @@
-setblock ~ ~ ~ prismarine
+setblock ~ ~ ~ minecraft:prismarine

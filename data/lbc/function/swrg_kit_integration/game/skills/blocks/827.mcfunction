@@ -1,1 +1,1 @@
-setblock ~ ~ ~ crimson_door
+setblock ~ ~ ~ minecraft:crimson_door

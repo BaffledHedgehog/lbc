@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cave_air
+setblock ~ ~ ~ minecraft:cave_air

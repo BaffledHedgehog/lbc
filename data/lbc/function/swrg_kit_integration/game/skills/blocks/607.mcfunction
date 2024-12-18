@@ -1,1 +1,1 @@
-setblock ~ ~ ~ frosted_ice
+setblock ~ ~ ~ minecraft:frosted_ice

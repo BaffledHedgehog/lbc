@@ -1,2 +1,2 @@
-execute at @e[type=#mobs,tag=!spectator,distance=2.2..10] run function lbc:workingitems/gaara1_31
-execute if entity @e[type=#mobs,tag=!spectator,distance=0.01..2.2] run function lbc:workingitems/gaara1_32
+execute at @e[type=#minecraft:mobs,distance=2.2..10,tag=!spectator] run function lbc:workingitems/gaara1_31
+execute if entity @e[type=#minecraft:mobs,distance=0.01..2.2,tag=!spectator] run function lbc:workingitems/gaara1_32

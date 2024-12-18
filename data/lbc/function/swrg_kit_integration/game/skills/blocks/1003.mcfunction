@@ -1,1 +1,1 @@
-setblock ~ ~ ~ waxed_copper_bulb
+setblock ~ ~ ~ minecraft:waxed_copper_bulb

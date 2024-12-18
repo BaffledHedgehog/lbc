@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bee_nest
+setblock ~ ~ ~ minecraft:bee_nest

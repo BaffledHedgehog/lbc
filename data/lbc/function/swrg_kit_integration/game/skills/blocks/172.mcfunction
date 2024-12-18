@@ -1,1 +1,1 @@
-setblock ~ ~ ~ torch
+setblock ~ ~ ~ minecraft:torch

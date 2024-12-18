@@ -1,1 +1,1 @@
-setblock ~ ~ ~ spawner
+setblock ~ ~ ~ minecraft:spawner

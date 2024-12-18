@@ -7,7 +7,7 @@ execute store result storage lbc.math tmp1 int 0.05 run scoreboard players get @
 execute store result storage lbc.math tmp2 int 0.1 run scoreboard players get @s overload_slam
 
 function lbc:armor/overload/boots/impact_2 with storage lbc.math
-attribute @s minecraft:generic.gravity modifier remove slamslamslaaaaaaamslaaam
+attribute @s minecraft:gravity modifier remove minecraft:slamslamslaaaaaaamslaaam
 scoreboard players set @s overload_slam 0
 tag @s remove overload_slam
 #tellraw @a {"score":{"name":"*slam","objective":"lbc.math"}}

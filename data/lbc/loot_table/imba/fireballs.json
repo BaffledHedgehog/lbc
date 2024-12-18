@@ -1,187 +1,200 @@
 {
-  "pools": [
-    {
-      "rolls": 2,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:snowball",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 8,
-                "max": 16
-              }
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 544,
-                "minecraft:custom_data": {
-                  "special": true,
-                  "smallfireball_imba": true,
-                  "imba": true
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 2,
+            "entries": [
                 {
-                  "translate": "small_throwable_fireball",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 16,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        544.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "small_throwable_fireball",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "small_throwable_fireball.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,smallfireball_imba:1,imba:1}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate": "small_throwable_fireball.lore",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate": "imba_version",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 2,
-      "entries": [
+            ]
+        },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:snowball",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 4
-              }
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 545,
-                "minecraft:custom_data": {
-                  "special": true,
-                  "fireball_imba": true,
-                  "imba": true
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 2,
+            "entries": [
                 {
-                  "translate": "big_throwable_fireball",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 4,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        545.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "big_throwable_fireball",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "big_throwable_fireball.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,fireball_imba:1,imba:1}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate": "big_throwable_fireball.lore",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate": "imba_version",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 1,
-        "max": 2
-      },
-      "entries": [
+            ]
+        },
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:snowball",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              }
+            "rolls": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
             },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 546,
-                "minecraft:custom_data": {
-                  "special": true,
-                  "dragfireball_imba": true,
-                  "imba": true
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "entries": [
                 {
-                  "translate": "dragon_throwable_fireball",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 3,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        546.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "dragon_throwable_fireball",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "dragon_throwable_fireball.lore",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "imba_version",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{special:1,dragfireball_imba:1,imba:1}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate": "dragon_throwable_fireball.lore",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate": "imba_version",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

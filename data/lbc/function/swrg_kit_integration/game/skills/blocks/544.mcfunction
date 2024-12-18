@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_slab
+setblock ~ ~ ~ minecraft:acacia_slab

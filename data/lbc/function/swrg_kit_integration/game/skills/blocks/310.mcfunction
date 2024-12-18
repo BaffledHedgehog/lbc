@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chain
+setblock ~ ~ ~ minecraft:chain

@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:netherite_sword",
             "components": {
-                "minecraft:custom_model_data": 501
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        501.0
+                    ]
+                }
             }
         },
         "title": {
@@ -31,9 +35,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "sword": true,
-                                            "hylian": true
+                                            "transformable":1,
+                                            "sword":1,
+                                            "hylian":1
                                         }
                                     }
                                 }

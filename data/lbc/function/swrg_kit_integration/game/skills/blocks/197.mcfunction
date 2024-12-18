@@ -1,1 +1,1 @@
-setblock ~ ~ ~ ladder
+setblock ~ ~ ~ minecraft:ladder

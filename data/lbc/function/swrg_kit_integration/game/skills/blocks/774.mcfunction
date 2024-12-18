@@ -1,1 +1,1 @@
-setblock ~ ~ ~ loom
+setblock ~ ~ ~ minecraft:loom

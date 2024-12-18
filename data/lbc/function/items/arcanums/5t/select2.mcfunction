@@ -1,1 +1,1 @@
-execute if score @s[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{"gate_of_babylon": true}}}]}] mana >= babylon_gate_mana_tick lbc.math run function lbc:items/arcanums/5t/babylon_gate
+execute if score @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gate_of_babylon:1}},Slot:-106b}]}] mana >= babylon_gate_mana_tick lbc.math run function lbc:items/arcanums/5t/babylon_gate

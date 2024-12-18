@@ -5,4 +5,4 @@ execute as @a at @s run function lbc:other/gayradar/click_rec
 tag @a remove checked
 execute as @a[tag=max,limit=1] at @s run function lbc:other/gayradar/click_2
 tag @a remove max
-playsound lbcsounds.gayradar master @a ~ ~ ~ 1000000000 1 1
+playsound minecraft:lbcsounds.gayradar master @a ~ ~ ~ 1000000000 1 1

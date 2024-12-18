@@ -1,1 +1,1 @@
-setblock ~ ~ ~ air
+setblock ~ ~ ~ minecraft:air

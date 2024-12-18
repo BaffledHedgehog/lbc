@@ -1,1 +1,1 @@
-setblock ~ ~ ~ brain_coral_wall_fan
+setblock ~ ~ ~ minecraft:brain_coral_wall_fan

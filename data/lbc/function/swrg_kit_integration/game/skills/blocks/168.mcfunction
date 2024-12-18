@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bookshelf
+setblock ~ ~ ~ minecraft:bookshelf

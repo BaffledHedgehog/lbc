@@ -1,2 +1,2 @@
-execute store result score snake_count_temp lbc.math if entity @e[type=marker,tag=black_snake]
+execute store result score snake_count_temp lbc.math if entity @e[type=minecraft:marker,tag=black_snake]
 execute if score snake_count_temp lbc.math matches ..78 run function lbc:workingitems/witch_gens/snake_tick_if_2

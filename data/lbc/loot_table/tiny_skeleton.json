@@ -4,7 +4,7 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "value": "lbc:random_sauvojen_wand_tiny"
                 }
             ]
@@ -13,11 +13,11 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "bone_meal",
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone_meal",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         }
                     ]
@@ -28,20 +28,22 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "skeleton_skull",
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_skull",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:unbreakable": {},
-                                "enchantments": {
-                                    "thorns": 15
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:thorns": 15
+                                    }
                                 }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "tiny_skull",
@@ -51,7 +53,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [
@@ -65,42 +67,48 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "golden_sword",
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_damage": 32,
-                                "minecraft:custom_model_data": 582
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        582.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_attributes",
+                            "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
-                                    "id": "afsgfgrirj8ighjrgirj",
+                                    "id": "minecraft:afsgfgrirj8ighjrgirj",
                                     "amount": 10,
-                                    "attribute": "minecraft:player.entity_interaction_range",
+                                    "attribute": "minecraft:entity_interaction_range",
                                     "operation": "add_value",
                                     "slot": "mainhand"
-                                },{
-                                    "id": "afsgf32664ighjrgirj",
+                                },
+                                {
+                                    "id": "minecraft:afsgf32664ighjrgirj",
                                     "amount": 10,
-                                    "attribute": "minecraft:player.block_interaction_range",
+                                    "attribute": "minecraft:block_interaction_range",
                                     "operation": "add_value",
                                     "slot": "mainhand"
-                                },{
-                                    "id": "afsgf32g4grgrgrgrffrirj",
+                                },
+                                {
+                                    "id": "minecraft:afsgf32g4grgrgrgrffrirj",
                                     "amount": 5,
-                                    "attribute": "minecraft:generic.attack_damage",
+                                    "attribute": "minecraft:attack_damage",
                                     "operation": "add_value",
                                     "slot": "mainhand"
                                 }
                             ]
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "sharp_thing",
@@ -110,7 +118,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "entity": "this",
                             "lore": [

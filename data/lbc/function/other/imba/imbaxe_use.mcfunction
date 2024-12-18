@@ -491,7 +491,7 @@ scoreboard players set carved_pumpkin empty 0
 scoreboard players set melon empty 0
 scoreboard players set jack_o_lantern empty 0
 
-execute at @e[type=#mobs_and_markers,tag=!spectator,tag=!imbaxe_used] unless dimension nexus if entity @a[gamemode=!spectator,distance=..120,limit=1] run function lbc:other/imba/imbaxe_use_at
+execute at @e[type=#minecraft:mobs_and_markers,tag=!spectator,tag=!imbaxe_used] unless dimension nexus if entity @a[gamemode=!spectator,distance=..120,limit=1] run function lbc:other/imba/imbaxe_use_at
 
 
 

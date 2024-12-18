@@ -1,1 +1,1 @@
-setblock ~ ~ ~ damaged_anvil
+setblock ~ ~ ~ minecraft:damaged_anvil

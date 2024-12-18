@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_fence_gate
+setblock ~ ~ ~ minecraft:warped_fence_gate

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ skeleton_wall_skull
+setblock ~ ~ ~ minecraft:skeleton_wall_skull

@@ -1,1 +1,1 @@
-execute as @a[tag=caster,limit=1,tag=!spectator] facing ~ ~.1 ~ run function lbcr:raycast_preloop11
+execute as @a[tag=caster,tag=!spectator,limit=1] facing ~ ~.1 ~ run function lbcr:raycast_preloop11

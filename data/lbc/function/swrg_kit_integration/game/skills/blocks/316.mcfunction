@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pumpkin_stem
+setblock ~ ~ ~ minecraft:pumpkin_stem

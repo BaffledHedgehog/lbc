@@ -1,1 +1,1 @@
-setblock ~ ~ ~ peony
+setblock ~ ~ ~ minecraft:peony

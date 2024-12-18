@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_allium
+setblock ~ ~ ~ minecraft:potted_allium

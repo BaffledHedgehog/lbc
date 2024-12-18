@@ -1,1 +1,1 @@
-setblock ~ ~ ~ smooth_red_sandstone_stairs
+setblock ~ ~ ~ minecraft:smooth_red_sandstone_stairs

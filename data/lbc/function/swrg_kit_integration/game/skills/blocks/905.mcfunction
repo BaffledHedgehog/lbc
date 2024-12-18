@@ -1,1 +1,1 @@
-setblock ~ ~ ~ budding_amethyst
+setblock ~ ~ ~ minecraft:budding_amethyst

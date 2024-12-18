@@ -1,3 +1,3 @@
-execute as @e[dx=0,dy=0,dz=0,distance=..15,tag=!magicalsheep,type=!#notforsheep,tag=!raycaster,limit=1,type=!item] at @s run function lbcr:raycast_end8_mob
-execute if entity @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"transformable": true,"potion": true,"succubus": true}}}},distance=..2,tag=!raycaster] run function lbcr:raycast_end8_mob_sheep_blackhole
-execute if entity @a[nbt={Inventory:[{components:{"minecraft:custom_data":{"transformable": true,"potion": true,"succubus": true}}}]},distance=..2,tag=!raycaster] run function lbcr:raycast_end8_mob_sheep_blackhole_player
+execute as @e[type=!#minecraft:notforsheep,type=!minecraft:item,dx=0,dy=0,dz=0,distance=..15,tag=!magicalsheep,tag=!raycaster,limit=1] at @s run function lbcr:raycast_end8_mob
+execute if entity @e[type=minecraft:item,distance=..2,tag=!raycaster,nbt={Item:{components:{"minecraft:custom_data":{transformable:1,potion:1,succubus:1}}}}] run function lbcr:raycast_end8_mob_sheep_blackhole
+execute if entity @a[distance=..2,tag=!raycaster,nbt={Inventory:[{components:{"minecraft:custom_data":{transformable:1,potion:1,succubus:1}}}]}] run function lbcr:raycast_end8_mob_sheep_blackhole_player

@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:iron_sword",
-            "components": {"minecraft:custom_model_data":532}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        532.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.sword.vampire"
@@ -29,9 +35,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "sword": true,
-                                            "vampire": true
+                                            "transformable":1,
+                                            "sword":1,
+                                            "vampire":1
                                         }
                                     }
                                 }

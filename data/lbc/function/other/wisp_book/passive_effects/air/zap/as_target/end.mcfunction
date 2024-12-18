@@ -1,3 +1,3 @@
-tag @e[tag=chained,type=#mobs] remove chained
+tag @e[type=#minecraft:mobs,tag=chained] remove chained
 
 say END

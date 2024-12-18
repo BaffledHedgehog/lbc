@@ -1,1 +1,1 @@
-setblock ~ ~ ~ light_blue_bed
+setblock ~ ~ ~ minecraft:light_blue_bed

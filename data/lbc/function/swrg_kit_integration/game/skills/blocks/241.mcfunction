@@ -1,1 +1,1 @@
-setblock ~ ~ ~ mangrove_pressure_plate
+setblock ~ ~ ~ minecraft:mangrove_pressure_plate

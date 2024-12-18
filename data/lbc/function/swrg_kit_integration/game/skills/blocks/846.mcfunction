@@ -1,1 +1,1 @@
-setblock ~ ~ ~ potted_warped_fungus
+setblock ~ ~ ~ minecraft:potted_warped_fungus

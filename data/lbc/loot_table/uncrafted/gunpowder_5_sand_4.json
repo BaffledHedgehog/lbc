@@ -8,13 +8,14 @@
                     "name": "minecraft:gunpowder",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 5
                         }
                     ]
                 }
             ]
-        },{
+        },
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -22,7 +23,7 @@
                     "name": "minecraft:sand",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 4
                         }
                     ]

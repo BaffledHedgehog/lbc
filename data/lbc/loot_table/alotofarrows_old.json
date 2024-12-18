@@ -3,19 +3,21 @@
         {
             "rolls": {
                 "min": 1,
-                "max": 4
+                "max": 4,
+                "type": "minecraft:uniform"
             },
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:arrow",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 64
+                                "max": 64,
+                                "type": "minecraft:uniform"
                             }
                         }
                     ]

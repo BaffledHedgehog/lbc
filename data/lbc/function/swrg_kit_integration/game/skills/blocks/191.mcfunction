@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_sign
+setblock ~ ~ ~ minecraft:cherry_sign

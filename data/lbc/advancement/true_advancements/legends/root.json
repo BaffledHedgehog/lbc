@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:nether_star"
+            "id": "minecraft:nether_star",
+            "components": null
         },
         "title": {
             "translate": "lbc.adv.legends"
@@ -17,7 +18,7 @@
     "parent": "lbc:true_advancements/root",
     "criteria": {
         "requirement": {
-            "trigger": "player_killed_entity"
+            "trigger": "minecraft:player_killed_entity"
         }
     }
 }

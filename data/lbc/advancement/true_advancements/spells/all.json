@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
             "components": {
-                "minecraft:custom_model_data": 741
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        741.0
+                    ]
+                }
             }
         },
         "title": {
@@ -38,9 +42,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "anvils": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "anvils":1
                             }
                         }
                     }
@@ -66,9 +70,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "arrows1": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "arrows1":1
                             }
                         }
                     }
@@ -94,9 +98,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "heal1": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "heal1":1
                             }
                         }
                     }
@@ -122,9 +126,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "creeperz": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "creeperz":1
                             }
                         }
                     }
@@ -150,9 +154,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "lava1": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "lava1":1
                             }
                         }
                     }
@@ -178,9 +182,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "lightning": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "lightning":1
                             }
                         }
                     }
@@ -206,9 +210,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "skeletons": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "skeletons":1
                             }
                         }
                     }
@@ -234,9 +238,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "trap2": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "trap2":1
                             }
                         }
                     }
@@ -262,9 +266,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "tnts": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "tnts":1
                             }
                         }
                     }
@@ -290,9 +294,9 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable": true,
-                                "spellitem": true,
-                                "wither1": true
+                                "transformable":1,
+                                "spellitem":1,
+                                "wither1":1
                             }
                         }
                     }

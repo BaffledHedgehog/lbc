@@ -40,7 +40,7 @@
                             "minecraft:tipped_arrow"
                         ],
                         "components": {
-                            "potion_contents": {
+                            "minecraft:potion_contents": {
                                 "custom_effects": [
                                     {
                                         "id": "minecraft:instant_damage",

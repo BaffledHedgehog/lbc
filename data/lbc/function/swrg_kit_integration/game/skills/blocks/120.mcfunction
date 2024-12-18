@@ -1,1 +1,1 @@
-setblock ~ ~ ~ powered_rail
+setblock ~ ~ ~ minecraft:powered_rail

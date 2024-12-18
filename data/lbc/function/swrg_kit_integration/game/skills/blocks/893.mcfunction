@@ -1,1 +1,1 @@
-setblock ~ ~ ~ lime_candle_cake
+setblock ~ ~ ~ minecraft:lime_candle_cake

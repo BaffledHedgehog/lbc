@@ -1,1 +1,1 @@
-setblock ~ ~ ~ furnace
+setblock ~ ~ ~ minecraft:furnace

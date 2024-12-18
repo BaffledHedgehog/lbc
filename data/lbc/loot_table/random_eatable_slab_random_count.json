@@ -4,18 +4,19 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "oak_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:oak_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -29,18 +30,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "tuff_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:tuff_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -54,18 +56,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "birch_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:birch_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -79,18 +82,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "stone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -104,18 +108,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "acacia_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:acacia_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -129,18 +134,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "bamboo_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:bamboo_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -154,18 +160,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "cherry_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:cherry_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -179,18 +186,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "jungle_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:jungle_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -204,18 +212,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "purpur_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:purpur_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -229,18 +238,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "quartz_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:quartz_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -254,18 +264,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "warped_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -279,18 +290,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "spruce_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:spruce_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -304,18 +316,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "crimson_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:crimson_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -329,18 +342,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "diorite_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:diorite_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -354,18 +368,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "granite_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:granite_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -379,18 +394,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "andesite_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:andesite_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -404,18 +420,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "dark_oak_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:dark_oak_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -429,18 +446,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "mangrove_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:mangrove_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -454,18 +472,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "mud_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:mud_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -479,18 +498,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "sandstone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:sandstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -504,18 +524,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "blackstone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:blackstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -529,18 +550,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "cut_copper_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:cut_copper_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -554,18 +576,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "prismarine_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:prismarine_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -579,18 +602,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "tuff_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:tuff_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -604,18 +628,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "cobblestone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:cobblestone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -629,18 +654,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "stone_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -654,18 +680,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "nether_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -679,18 +706,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "smooth_stone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:smooth_stone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -704,18 +732,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "cut_sandstone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:cut_sandstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -729,18 +758,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "red_sandstone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_sandstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -754,18 +784,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "bamboo_mosaic_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:bamboo_mosaic_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -779,18 +810,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "petrified_oak_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:petrified_oak_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -804,18 +836,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "polished_tuff_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:polished_tuff_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -829,18 +862,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "smooth_quartz_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:smooth_quartz_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -854,18 +888,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "deepslate_tile_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:deepslate_tile_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -879,18 +914,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "end_stone_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:end_stone_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -904,18 +940,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "dark_prismarine_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:dark_prismarine_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -929,18 +966,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "deepslate_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:deepslate_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -954,18 +992,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "end_stone_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:end_stone_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -979,18 +1018,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "polished_diorite_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:polished_diorite_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1004,18 +1044,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "polished_granite_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:polished_granite_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1029,18 +1070,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "prismarine_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:prismarine_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1054,18 +1096,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "red_nether_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_nether_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1079,18 +1122,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "waxed_cut_copper_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:waxed_cut_copper_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1104,18 +1148,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "smooth_sandstone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:smooth_sandstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1129,18 +1174,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "mossy_stone_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:mossy_stone_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1154,18 +1200,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "cut_red_sandstone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:cut_red_sandstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1179,18 +1226,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "cobbled_deepslate_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:cobbled_deepslate_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1204,18 +1252,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "mossy_cobblestone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:mossy_cobblestone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1229,18 +1278,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "polished_andesite_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:polished_andesite_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1254,18 +1304,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "exposed_cut_copper_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:exposed_cut_copper_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1279,18 +1330,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "polished_deepslate_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:polished_deepslate_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1304,18 +1356,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "oxidized_cut_copper_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:oxidized_cut_copper_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1329,18 +1382,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "polished_blackstone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:polished_blackstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1354,18 +1408,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "weathered_cut_copper_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:weathered_cut_copper_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1379,18 +1434,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "smooth_red_sandstone_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:smooth_red_sandstone_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1404,18 +1460,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "waxed_exposed_cut_copper_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:waxed_exposed_cut_copper_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1429,18 +1486,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "polished_blackstone_brick_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:polished_blackstone_brick_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1454,18 +1512,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "waxed_oxidized_cut_copper_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:waxed_oxidized_cut_copper_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,
@@ -1479,18 +1538,19 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "name": "waxed_weathered_cut_copper_slab",
+                    "type": "minecraft:item",
+                    "name": "minecraft:waxed_weathered_cut_copper_slab",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 99
+                                "max": 99,
+                                "type": "minecraft:uniform"
                             }
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 1,

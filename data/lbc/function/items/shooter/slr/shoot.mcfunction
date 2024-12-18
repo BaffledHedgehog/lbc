@@ -1,6 +1,6 @@
-clear @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{"infinite_arrow":true}}}]}] arrow 1
+clear @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{infinite_arrow:1}}}]}] minecraft:arrow 1
 scoreboard players set @s Distance 0
-execute store result score #mode lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.mode 1
+execute store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
 execute if score #mode lbc.math matches 1 run function lbc:items/shooter/slr/raycast_standart
 execute if score #mode lbc.math matches 2 run function lbc:items/shooter/slr/raycast_poison
 execute if score #mode lbc.math matches 3 run function lbc:items/shooter/slr/raycast_explode

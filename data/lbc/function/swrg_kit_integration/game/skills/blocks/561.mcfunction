@@ -1,1 +1,1 @@
-setblock ~ ~ ~ red_sandstone_slab
+setblock ~ ~ ~ minecraft:red_sandstone_slab

@@ -1,3 +1,3 @@
-effect clear @s nausea
-effect clear @s poison
-effect clear @s wither
+effect clear @s minecraft:nausea
+effect clear @s minecraft:poison
+effect clear @s minecraft:wither

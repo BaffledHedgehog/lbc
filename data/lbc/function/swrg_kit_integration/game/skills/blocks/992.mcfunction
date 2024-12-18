@@ -1,1 +1,1 @@
-setblock ~ ~ ~ exposed_copper_grate
+setblock ~ ~ ~ minecraft:exposed_copper_grate

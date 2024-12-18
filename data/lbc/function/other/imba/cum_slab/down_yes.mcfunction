@@ -1,2 +1,2 @@
-execute positioned ~ ~-1 ~ if block ~ ~ ~ #airs unless entity @e[type=marker,distance=..0.001,tag=cum_slab] run summon marker ~ ~ ~ {Tags:["slowraycast","imba_rc","cum_slab","down"]}
-execute unless block ~ ~-1 ~ #airs run function lbc:other/imba/cum_slab/afterdown
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #minecraft:airs unless entity @e[type=minecraft:marker,distance=..0.001,tag=cum_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","cum_slab","down"]}
+execute unless block ~ ~-1 ~ #minecraft:airs run function lbc:other/imba/cum_slab/afterdown

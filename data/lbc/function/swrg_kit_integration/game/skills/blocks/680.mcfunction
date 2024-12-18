@@ -1,1 +1,1 @@
-setblock ~ ~ ~ kelp_plant
+setblock ~ ~ ~ minecraft:kelp_plant

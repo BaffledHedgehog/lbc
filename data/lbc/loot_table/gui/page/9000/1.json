@@ -1,46 +1,46 @@
 {
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:milk_bucket",
-            "functions": [
-              
-              {
-                  "function": "minecraft:set_name",
-                  "entity": "this",
-                  "name": {
-                      "translate": "lbckit.1",
-                      "italic": false,
-                      "color": "white"
-                  }
-              },
-              {
-                  "function": "minecraft:set_lore",
-                  "mode": "replace_all",
-                  "entity": "this",
-                  "lore": [
-                      {
-                          "translate": "lore.lbckit.1.0",
-                          "italic": false,
-                          "color": "gray"
-                      },{
-                        "translate": "lore.lbckit.1.1",
-                        "italic": false,
-                        "color": "gray"
-                    },{
-                      "translate": "lore.lbckit.1.2",
-                      "italic": false,
-                      "color": "gray"
-                  }
-                  ]
-              }
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:milk_bucket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "lbckit.1",
+                                "italic": false,
+                                "color": "white"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "lore.lbckit.1.0",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbckit.1.1",
+                                    "italic": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "translate": "lore.lbckit.1.2",
+                                    "italic": false,
+                                    "color": "gray"
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
-          }
-        ]
-      }
+        }
     ]
-  }
-  
+}

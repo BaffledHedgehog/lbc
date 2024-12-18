@@ -1,1 +1,1 @@
-setblock ~ ~ ~ prismarine_slab
+setblock ~ ~ ~ minecraft:prismarine_slab

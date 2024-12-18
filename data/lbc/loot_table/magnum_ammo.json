@@ -1,148 +1,184 @@
 {
-  "pools": [
-    {
-      "rolls": 32,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "standard_round": true
+            "rolls": 32,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        609.0
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_standard\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{standard_round:1}"
+                        }
+                    ]
                 },
-                "minecraft:custom_model_data": 609,
-                "minecraft:custom_name": "{\"translate\":\"round_standard\",\"italic\":false,\"color\":\"white\"}"
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "incendiary_round": true
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        610.0
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_incendiary\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{incendiary_round:1}"
+                        }
+                    ]
                 },
-                "minecraft:custom_model_data": 610,
-                "minecraft:custom_name": "{\"translate\":\"round_incendiary\",\"italic\":false,\"color\":\"white\"}"
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "electric_round": true
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        611.0
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_electric\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 3,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{electric_round:1}"
+                        }
+                    ]
                 },
-                "minecraft:custom_model_data": 611,
-                "minecraft:custom_name": "{\"translate\":\"round_electric\",\"italic\":false,\"color\":\"white\"}"
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "acid_round": true
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        612.0
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_acid\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{acid_round:1}"
+                        }
+                    ]
                 },
-                "minecraft:custom_model_data": 612,
-                "minecraft:custom_name": "{\"translate\":\"round_acid\",\"italic\":false,\"color\":\"white\"}"
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "void_round": true
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        613.0
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_void\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{void_round:1}"
+                        }
+                    ]
                 },
-                "minecraft:custom_model_data": 613,
-                "minecraft:custom_name": "{\"translate\":\"round_void\",\"italic\":false,\"color\":\"white\"}"
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "explosive_round": true
-                },
-                "minecraft:custom_model_data": 614,
-                "minecraft:custom_name": "{\"translate\":\"round_explosive\",\"italic\":false,\"color\":\"white\"}"
-              }
-            },
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 2
-              }
-            }
-          ]
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        614.0
+                                    ]
+                                },
+                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_explosive\"}"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2,
+                                "type": "minecraft:uniform"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{explosive_round:1}"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

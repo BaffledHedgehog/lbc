@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_wood
+setblock ~ ~ ~ minecraft:acacia_wood

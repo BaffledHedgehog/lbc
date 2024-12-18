@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cyan_carpet
+setblock ~ ~ ~ minecraft:cyan_carpet

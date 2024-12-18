@@ -1,1 +1,1 @@
-setblock ~ ~ ~ red_banner
+setblock ~ ~ ~ minecraft:red_banner

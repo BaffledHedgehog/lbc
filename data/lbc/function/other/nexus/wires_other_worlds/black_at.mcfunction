@@ -1,3 +1,3 @@
 forceload add ~ ~ ~ ~
-setblock ~ ~ ~ end_gateway{ExactTeleport:true,ExitPortal:{X:1,Y:15000000,Z:1},keepPacked:true,id:"minecraft:beacon"}
+setblock ~ ~ ~ minecraft:end_gateway{ExactTeleport:1b,keepPacked:1b,id:"minecraft:beacon",exit_portal:[I;1,15000000,1]}
 forceload remove ~ ~ ~ ~

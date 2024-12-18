@@ -1,1 +1,1 @@
-setblock ~ ~ ~ activator_rail
+setblock ~ ~ ~ minecraft:activator_rail

@@ -1,71 +1,71 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:splash_potion",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "potion": true
-                },
-                "minecraft:potion_contents": {
-                  "custom_color": 16777215,
-                  "custom_effects": [
-                    {
-                      "id": "minecraft:raid_omen",
-                      "amplifier": 43,
-                      "duration": 100,
-                      "show_particles": false
-                    }
-                  ]
-                },
-                "hide_additional_tooltip": {}
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "purification_potion",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 16777215,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:raid_omen",
+                                            "amplifier": 43,
+                                            "duration": 100,
+                                            "show_particles": false
+                                        }
+                                    ]
+                                },
+                                "minecraft:hide_additional_tooltip": {}
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "purification_potion",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "translate": "type",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "potion.lbc",
+                                    "italic": false,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "translate": "purification_potion.lore",
+                                    "italic": false,
+                                    "color": "white"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,potion:1}"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "translate": "type",
-                  "italic": false,
-                  "color": "aqua"
-                },
-                {
-                  "translate": "potion.lbc",
-                  "italic": false,
-                  "color": "aqua"
-                },
-                {
-                  "translate": "purification_potion.lore",
-                  "italic": false,
-                  "color": "white"
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

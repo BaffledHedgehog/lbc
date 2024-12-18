@@ -14,15 +14,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "acidboom": true,
-                                    "drop": true
-                                },
-                                "minecraft:custom_model_data": 656
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        656.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "drop_acid",
@@ -32,7 +32,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 {
@@ -41,6 +41,10 @@
                                     "color": "white"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{acidboom:1,drop:1}"
                         }
                     ]
                 }
@@ -50,18 +54,18 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "weight": 1,
                     "value": "lbc:stacid_wand",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         }
                     ],
                     "conditions": [
                         {
-                            "condition": "random_chance",
+                            "condition": "minecraft:random_chance",
                             "chance": 0.1
                         }
                     ]

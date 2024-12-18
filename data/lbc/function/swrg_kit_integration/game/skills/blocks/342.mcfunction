@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sandstone_stairs
+setblock ~ ~ ~ minecraft:sandstone_stairs

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_shulker_box
+setblock ~ ~ ~ minecraft:magenta_shulker_box

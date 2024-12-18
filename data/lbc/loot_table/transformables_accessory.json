@@ -4,21 +4,27 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 10,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"gaara": true},"minecraft:custom_model_data":538}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        538.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "sand_amulet",
@@ -28,7 +34,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -59,30 +65,41 @@
                                     "color": "yellow"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,gaara:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 9,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"save": true},"minecraft:custom_model_data":537,"minecraft:enchantments": {
-    "levels": {
-      "minecraft:protection": 1
-    },
-    "show_in_tooltip": false
-  }}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        537.0
+                                    ]
+                                },
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:protection": 1
+                                    },
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "save_platform",
@@ -92,7 +109,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -113,30 +130,41 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,save:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 9,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"heall": true},"minecraft:custom_model_data":536,"minecraft:enchantments": {
-    "levels": {
-      "minecraft:protection": 1
-    },
-    "show_in_tooltip": false
-  }}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        536.0
+                                    ]
+                                },
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:protection": 1
+                                    },
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "regeneration_belt",
@@ -146,7 +174,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -177,30 +205,41 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,heall:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 10,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"manabelt": true},"minecraft:custom_model_data":535,"minecraft:enchantments": {
-    "levels": {
-      "minecraft:efficiency": 1
-    },
-    "show_in_tooltip": false
-  }}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        535.0
+                                    ]
+                                },
+                                "minecraft:enchantments": {
+                                    "levels": {
+                                        "minecraft:efficiency": 1
+                                    },
+                                    "show_in_tooltip": false
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "mana_belt",
@@ -210,7 +249,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -241,25 +280,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,manabelt:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 0,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"magnet": true},"minecraft:custom_model_data":554}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        554.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "magnet_item",
@@ -268,7 +317,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -299,25 +348,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magnet:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 10,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"demonkishki": true},"minecraft:custom_model_data":556}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        556.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "devil_stomach",
@@ -326,7 +385,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -367,25 +426,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,demonkishki:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 8,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"arrowgenerator": true},"minecraft:custom_model_data":562}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        562.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "infinite_quiver",
@@ -394,7 +463,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -420,11 +489,15 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,arrowgenerator:1}"
                         }
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "weight": 400,
                     "quality": 8,
                     "value": "lbc:artifact",
@@ -445,7 +518,7 @@
                     ]
                 },
                 {
-                    "type": "loot_table",
+                    "type": "minecraft:loot_table",
                     "weight": 10,
                     "quality": 8,
                     "value": "lbc:artifact"
@@ -462,14 +535,21 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"magicwand": true,"popit": true},"minecraft:custom_model_data":555}
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        555.0
+                                    ]
+                                }
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "text": "Pop-It",
-                                    "italic": false
+                                    "italic": false,
+                                    "type": "text"
                                 }
                             ]
                         },
@@ -505,25 +585,35 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,popit:1}"
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 10,
                     "quality": 10,
                     "name": "minecraft:repeating_command_block",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"transformable": true,"accessory": true,"runic_ice_shard": true,"craftusable": true},"minecraft:custom_model_data":624}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        624.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "runic_ice_shard",
@@ -533,7 +623,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -564,6 +654,10 @@
                                     "color": "yellow"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,runic_ice_shard:1,craftusable:1}"
                         }
                     ]
                 }

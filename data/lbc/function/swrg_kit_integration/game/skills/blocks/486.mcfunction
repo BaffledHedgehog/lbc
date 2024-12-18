@@ -1,1 +1,1 @@
-setblock ~ ~ ~ gray_carpet
+setblock ~ ~ ~ minecraft:gray_carpet

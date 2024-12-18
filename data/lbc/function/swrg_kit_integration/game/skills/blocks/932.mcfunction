@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sculk_shrieker
+setblock ~ ~ ~ minecraft:sculk_shrieker

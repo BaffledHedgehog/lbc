@@ -1,1 +1,1 @@
-setblock ~ ~ ~ infested_deepslate
+setblock ~ ~ ~ minecraft:infested_deepslate

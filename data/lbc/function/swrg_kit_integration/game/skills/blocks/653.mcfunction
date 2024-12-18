@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pink_concrete
+setblock ~ ~ ~ minecraft:pink_concrete

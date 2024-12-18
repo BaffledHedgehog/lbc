@@ -1,1 +1,1 @@
-setblock ~ ~ ~ smoker
+setblock ~ ~ ~ minecraft:smoker

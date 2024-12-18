@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_trapdoor
+setblock ~ ~ ~ minecraft:birch_trapdoor

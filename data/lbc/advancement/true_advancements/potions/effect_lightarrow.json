@@ -2,7 +2,13 @@
     "display": {
         "icon": {
             "id": "minecraft:repeating_command_block",
-            "components": {"minecraft:custom_model_data":584}
+            "components": {
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        584.0
+                    ]
+                }
+            }
         },
         "title": {
             "translate": "lbc.adv.potion.effect_lightarrow"
@@ -12,7 +18,7 @@
         },
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat":false,
+        "announce_to_chat": false,
         "hidden": false
     },
     "parent": "lbc:true_advancements/potions/effect_evoker",
@@ -21,17 +27,17 @@
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{playerGameType:3}"
-              }
-            }
-          }
-        ],
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{playerGameType:3}"
+                            }
+                        }
+                    }
+                ],
                 "effects": {
                     "minecraft:raid_omen": {
                         "amplifier": 112

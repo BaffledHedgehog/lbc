@@ -1,1033 +1,1049 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 690,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "1t"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        690.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "1t",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"1t\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "1t",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 691,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "1s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        691.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "1s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"1s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "1s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 692,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "2s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        692.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "2s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"2s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "2s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 693,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "2t"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        693.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "2t",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"2t\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "2t",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 694,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "3s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        694.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "3s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"3s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "3s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 695,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "4s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        695.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "4s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"4s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "4s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 696,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "5s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        696.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "5s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"5s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "5s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 697,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "5t"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        697.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "5t",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"5t\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "5t",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 698,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "10s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        698.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "10s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"10s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "10s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 699,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "10t"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        699.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "10t",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"10t\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "10t",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 700,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "15s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        700.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "15s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"15s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "15s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 701,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "30s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        701.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "30s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"30s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "30s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 702,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "jump_1s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment_jump",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment_jump.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        702.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment_jump",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment_jump.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "jump_1s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"jump_1s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "jump_1s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 703,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "jump_2s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment_jump",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment_jump.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        703.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment_jump",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment_jump.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "jump_2s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"jump_2s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "jump_2s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 704,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "jump_5s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment_jump",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment_jump.lore",
-                  "color": "white",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        704.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment_jump",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment_jump.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "jump_5s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"jump_5s\"}"
+                        }
+                    ]
                 },
                 {
-                  "translate": "jump_5s",
-                  "color": "red",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "quality": 8,
+                    "name": "minecraft:carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        705.0
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "time_fragment_jump",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "accessory",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
+                                {
+                                    "translate": "time_fragment_jump.lore",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "jump_10s",
+                                    "color": "red",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{transformable:1,accessory:1,magicwand:1,clocks:1,type:\"jump_10s\"}"
+                        }
+                    ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 10,
-          "quality": 8,
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 705,
-                "minecraft:custom_data": {
-                  "transformable": true,
-                  "accessory": true,
-                  "magicwand": true,
-                  "clocks": true,
-                  "type": "jump_10s"
-                }
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "time_fragment_jump",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "mode": "replace_all",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "translate": "type",
-                    "italic": false,
-                    "color": "aqua"
-                  },
-                  {
-                    "translate": "accessory",
-                    "italic": false,
-                    "color": "aqua"
-                  }
-                ],
-                {
-                  "translate": "time_fragment_jump.lore",
-                  "color": "white",
-                  "italic": false
-                },
-                {
-                  "translate": "jump_10s",
-                  "color": "red",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

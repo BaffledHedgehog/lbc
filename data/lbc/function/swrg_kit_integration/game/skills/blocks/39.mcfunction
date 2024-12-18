@@ -1,1 +1,1 @@
-setblock ~ ~ ~ suspicious_gravel
+setblock ~ ~ ~ minecraft:suspicious_gravel

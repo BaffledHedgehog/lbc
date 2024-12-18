@@ -1,1 +1,1 @@
-setblock ~ ~ ~ jungle_log
+setblock ~ ~ ~ minecraft:jungle_log

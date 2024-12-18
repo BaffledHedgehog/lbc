@@ -1,1 +1,1 @@
-setblock ~ ~ ~ stone_bricks
+setblock ~ ~ ~ minecraft:stone_bricks

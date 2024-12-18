@@ -2,86 +2,92 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                "name": "minecraft:leather_leggings",
-                "functions": [
-                    {
-                        "function": "minecraft:set_components",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "craftusable": true,
-                                "transformable": true,
-                                "leggings": true,
-                                "reactive": true
-                            },
-                            "minecraft:custom_model_data": 3,
-                            "minecraft:max_damage": 500,
-                            "minecraft:dyed_color": {
-                                "rgb": 7,
-                                "show_in_tooltip": false
-                            },
-                            "minecraft:attribute_modifiers": [
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        3.0
+                                    ]
+                                },
+                                "minecraft:max_damage": 500,
+                                "minecraft:dyed_color": {
+                                    "rgb": 7,
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "minecraft:armor",
+                                            "slot": "legs",
+                                            "id": "grgrb5uhntkiyutkgh",
+                                            "amount": 5,
+                                            "operation": "add_value"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
                                 {
-                                    "type": "minecraft:generic.armor",
-                                    "slot": "legs",
-                                    "id": "grgrb5uhntkiyutkgh",
-                                    "amount": 5,
-                                    "operation": "add_value"
+                                    "translate": "reactive_leggings",
+                                    "color": "gold",
+                                    "italic": false
                                 }
                             ]
-                        }
-                    },
-                    {
-                        "function": "minecraft:set_name",
-                        "name": [
-                            {
-                                "translate": "reactive_leggings",
-                                "color": "gold",
-                                "italic": false
-                            }
-                        ]
-                    },
-                    {
-                        "function": "minecraft:set_lore",
-                        "mode": "replace_all",
-                        "lore": [
-                            [
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "translate": "leggings",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
+                                ],
                                 {
-                                    "translate": "type",
-                                    "italic": false,
-                                    "color": "aqua"
+                                    "translate": "reactive_leggings.lore",
+                                    "color": "white",
+                                    "italic": false
                                 },
                                 {
-                                    "translate": "leggings",
-                                    "italic": false,
-                                    "color": "aqua"
+                                    "translate": "set_bonus",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "set_bonus_steampunk",
+                                    "color": "white",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "craft_with_techno_leggings",
+                                    "color": "gold",
+                                    "italic": false
                                 }
-                            ],
-                            {
-                                "translate": "reactive_leggings.lore",
-                                "color": "white",
-                                "italic": false
-                            },
-                            {
-                                "translate": "set_bonus",
-                                "color": "white",
-                                "italic": false
-                            },
-                            {
-                                "translate": "set_bonus_steampunk",
-                                "color": "white",
-                                "italic": false
-                            },
-                            {
-                                "translate": "craft_with_techno_leggings",
-                                "color": "gold",
-                                "italic": false
-                            }
-                        ]
-                    }
-                ]
-            }]
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,transformable:1,leggings:1,reactive:1}"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

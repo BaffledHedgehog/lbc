@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dirt_path
+setblock ~ ~ ~ minecraft:dirt_path

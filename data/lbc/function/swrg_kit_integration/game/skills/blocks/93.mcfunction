@@ -1,1 +1,1 @@
-setblock ~ ~ ~ sponge
+setblock ~ ~ ~ minecraft:sponge

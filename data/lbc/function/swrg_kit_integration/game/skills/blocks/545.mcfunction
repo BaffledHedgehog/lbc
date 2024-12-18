@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cherry_slab
+setblock ~ ~ ~ minecraft:cherry_slab

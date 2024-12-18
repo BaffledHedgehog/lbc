@@ -1,1 +1,1 @@
-setblock ~ ~ ~ oak_door
+setblock ~ ~ ~ minecraft:oak_door

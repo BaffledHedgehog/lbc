@@ -1,2 +1,2 @@
-summon marker ~ ~ ~ {data:{lifetime:100},Tags:["slowraycast","consumption_part","rare","magic"]}
-execute as @e[type=marker,limit=1,distance=..0.1,tag=consumption_part,tag=!active] at @s run function lbc:workingitems/awaken_tuntija_wands/consuming_wand_loop_randomcloud_get
+summon minecraft:marker ~ ~ ~ {data:{lifetime:100},Tags:["slowraycast","consumption_part","rare","magic"]}
+execute as @e[type=minecraft:marker,distance=..0.1,tag=consumption_part,tag=!active,limit=1] at @s run function lbc:workingitems/awaken_tuntija_wands/consuming_wand_loop_randomcloud_get

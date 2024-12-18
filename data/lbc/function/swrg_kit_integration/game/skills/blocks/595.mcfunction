@@ -1,1 +1,1 @@
-setblock ~ ~ ~ purpur_block
+setblock ~ ~ ~ minecraft:purpur_block

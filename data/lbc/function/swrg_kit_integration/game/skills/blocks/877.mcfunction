@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pink_candle
+setblock ~ ~ ~ minecraft:pink_candle

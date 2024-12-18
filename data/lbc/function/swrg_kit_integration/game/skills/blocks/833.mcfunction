@@ -1,1 +1,1 @@
-setblock ~ ~ ~ structure_block
+setblock ~ ~ ~ minecraft:structure_block

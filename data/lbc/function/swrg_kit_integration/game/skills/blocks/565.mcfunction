@@ -1,1 +1,1 @@
-setblock ~ ~ ~ smooth_sandstone
+setblock ~ ~ ~ minecraft:smooth_sandstone

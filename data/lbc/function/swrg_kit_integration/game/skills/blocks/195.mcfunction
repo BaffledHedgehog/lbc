@@ -1,1 +1,1 @@
-setblock ~ ~ ~ bamboo_sign
+setblock ~ ~ ~ minecraft:bamboo_sign

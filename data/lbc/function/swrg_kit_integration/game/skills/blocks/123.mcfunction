@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cobweb
+setblock ~ ~ ~ minecraft:cobweb

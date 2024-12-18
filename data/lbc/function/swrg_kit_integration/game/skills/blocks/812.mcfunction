@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_planks
+setblock ~ ~ ~ minecraft:warped_planks

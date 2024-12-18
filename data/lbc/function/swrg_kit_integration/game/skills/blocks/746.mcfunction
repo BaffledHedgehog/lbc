@@ -1,1 +1,1 @@
-setblock ~ ~ ~ diorite_stairs
+setblock ~ ~ ~ minecraft:diorite_stairs

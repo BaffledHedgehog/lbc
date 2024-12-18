@@ -1,1 +1,1 @@
-setblock ~ ~ ~ warped_pressure_plate
+setblock ~ ~ ~ minecraft:warped_pressure_plate

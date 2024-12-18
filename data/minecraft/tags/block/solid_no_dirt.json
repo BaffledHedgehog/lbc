@@ -1,58 +1,32 @@
 {
-    "values":
-    [        
-    "#minecraft:animals_spawnable_on",
-    "#minecraft:anvil",
-    "#minecraft:base_stone_nether",
-    "#minecraft:base_stone_overworld",
-    "#minecraft:beacon_base_blocks",
-    "#minecraft:beehives",
-    "#minecraft:logs",
-    "#minecraft:colored",
-    "#minecraft:slabs",
-    "#minecraft:sand",
-    "#minecraft:mineable/axe",
-    "#minecraft:mineable/pickaxe",
-    "#minecraft:mineable/hoe",
-    "#minecraft:dragon_immune",
-    "#minecraft:impermeable",
-    "#mecha",
-    "#to_shroomlight",
-    "#to_magma",
-    "#to_netherrack_no_dirt",
-    "#to_nylium",
-    "slime_block",
-    "honey_block",
-    "ochre_froglight",
-    "pearlescent_froglight",
-    "verdant_froglight",
-    "end_rod",
-    "glowstone",
-    "bone_block"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "values": [
+        "#minecraft:animals_spawnable_on",
+        "#minecraft:anvil",
+        "#minecraft:base_stone_nether",
+        "#minecraft:base_stone_overworld",
+        "#minecraft:beacon_base_blocks",
+        "#minecraft:beehives",
+        "#minecraft:logs",
+        "#minecraft:colored",
+        "#minecraft:slabs",
+        "#minecraft:sand",
+        "#minecraft:mineable/axe",
+        "#minecraft:mineable/pickaxe",
+        "#minecraft:mineable/hoe",
+        "#minecraft:dragon_immune",
+        "#minecraft:impermeable",
+        "#minecraft:mecha",
+        "#minecraft:to_shroomlight",
+        "#minecraft:to_magma",
+        "#minecraft:to_netherrack_no_dirt",
+        "#minecraft:to_nylium",
+        "minecraft:slime_block",
+        "minecraft:honey_block",
+        "minecraft:ochre_froglight",
+        "minecraft:pearlescent_froglight",
+        "minecraft:verdant_froglight",
+        "minecraft:end_rod",
+        "minecraft:glowstone",
+        "minecraft:bone_block"
     ]
 }

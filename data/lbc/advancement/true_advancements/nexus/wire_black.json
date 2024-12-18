@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:repeating_command_block",
             "components": {
-                "minecraft:custom_model_data": 649
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        649.0
+                    ]
+                }
             }
         },
         "title": {
@@ -38,7 +42,7 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "nexus_wire_black": true
+                                "nexus_wire_black":1
                             }
                         }
                     }

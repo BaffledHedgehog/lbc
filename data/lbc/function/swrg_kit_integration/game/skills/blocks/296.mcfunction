@@ -1,1 +1,1 @@
-setblock ~ ~ ~ cracked_stone_bricks
+setblock ~ ~ ~ minecraft:cracked_stone_bricks

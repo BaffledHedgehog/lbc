@@ -1,1 +1,1 @@
-execute at @e[type=#mobs,limit=10,distance=1.5..50,tag=!nodmg,tag=!spectator] run function lbc:workingitems/summoner/cultists/chaos/fangs
+execute at @e[type=#minecraft:mobs,distance=1.5..50,tag=!nodmg,tag=!spectator,limit=10] run function lbc:workingitems/summoner/cultists/chaos/fangs

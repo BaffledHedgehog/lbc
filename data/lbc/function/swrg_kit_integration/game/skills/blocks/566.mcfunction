@@ -1,1 +1,1 @@
-setblock ~ ~ ~ smooth_quartz
+setblock ~ ~ ~ minecraft:smooth_quartz

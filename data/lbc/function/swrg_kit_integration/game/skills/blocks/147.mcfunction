@@ -1,1 +1,1 @@
-setblock ~ ~ ~ moving_piston
+setblock ~ ~ ~ minecraft:moving_piston

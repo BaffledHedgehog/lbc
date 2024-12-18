@@ -1,1 +1,1 @@
-setblock ~ ~ ~ chiseled_sandstone
+setblock ~ ~ ~ minecraft:chiseled_sandstone

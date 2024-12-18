@@ -1,11 +1,11 @@
-effect give @s slowness 1 127
-effect give @s mining_fatigue 1 127
-effect give @s nausea 6 0
-effect give @s weakness 1 127
-effect give @s blindness 2 0
-effect give @s hunger 1 6
+effect give @s minecraft:slowness 1 127
+effect give @s minecraft:mining_fatigue 1 127
+effect give @s minecraft:nausea 6 0
+effect give @s minecraft:weakness 1 127
+effect give @s minecraft:blindness 2 0
+effect give @s minecraft:hunger 1 6
 
-execute store result score tmp lbc.math run attribute @s minecraft:generic.max_health get
+execute store result score tmp lbc.math run attribute @s minecraft:max_health get
 execute store result score hplvl lbc.math run data get entity @s Health 1
 scoreboard players operation tmp1 lbc.math = @s mana
 scoreboard players operation tmp1 lbc.math /= @s manamax

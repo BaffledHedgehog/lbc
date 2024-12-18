@@ -1,1 +1,1 @@
-setblock ~ ~ ~ birch_button
+setblock ~ ~ ~ minecraft:birch_button

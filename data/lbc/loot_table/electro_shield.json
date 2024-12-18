@@ -4,34 +4,27 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:shield",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "craftusable": true,
-                                    "energy_shield": true,
-                                    "energyshield": true,
-                                    "transformable": true,
-                                    "shield": true
-                                },
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:generic.movement_speed",
+                                            "type": "minecraft:movement_speed",
                                             "slot": "mainhand",
                                             "id": "gedghhtyjtyjtjspeed",
                                             "amount": -0.5,
                                             "operation": "add_multiplied_base"
                                         },
                                         {
-                                            "type": "minecraft:generic.movement_speed",
+                                            "type": "minecraft:movement_speed",
                                             "slot": "offhand",
                                             "id": "genekrjjy7cfkheed",
                                             "amount": -0.5,
@@ -71,7 +64,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "energy_shield",
@@ -81,7 +74,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -107,6 +100,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{craftusable:1,energy_shield:1,energyshield:1,transformable:1,shield:1}"
                         }
                     ]
                 }

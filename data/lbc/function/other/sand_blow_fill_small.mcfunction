@@ -1,1 +1,1 @@
-fill ~ ~ ~ ~ ~3 ~ air destroy
+fill ~ ~ ~ ~ ~3 ~ minecraft:air destroy

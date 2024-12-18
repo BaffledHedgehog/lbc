@@ -1,1 +1,1 @@
-setblock ~ ~ ~ acacia_pressure_plate
+setblock ~ ~ ~ minecraft:acacia_pressure_plate

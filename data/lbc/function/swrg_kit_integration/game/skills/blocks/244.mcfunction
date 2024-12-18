@@ -1,1 +1,1 @@
-setblock ~ ~ ~ deepslate_redstone_ore
+setblock ~ ~ ~ minecraft:deepslate_redstone_ore

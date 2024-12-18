@@ -1,1 +1,1 @@
-setblock ~ ~ ~ blackstone
+setblock ~ ~ ~ minecraft:blackstone

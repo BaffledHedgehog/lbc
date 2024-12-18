@@ -1,1 +1,1 @@
-setblock ~ ~ ~ orange_candle
+setblock ~ ~ ~ minecraft:orange_candle

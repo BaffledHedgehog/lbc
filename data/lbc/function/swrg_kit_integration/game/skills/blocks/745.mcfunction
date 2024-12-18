@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_andesite_stairs
+setblock ~ ~ ~ minecraft:polished_andesite_stairs

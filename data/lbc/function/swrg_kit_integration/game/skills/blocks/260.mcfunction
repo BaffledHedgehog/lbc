@@ -1,1 +1,1 @@
-setblock ~ ~ ~ polished_basalt
+setblock ~ ~ ~ minecraft:polished_basalt

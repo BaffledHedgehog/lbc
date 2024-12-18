@@ -1,1 +1,1 @@
-setblock ~ ~ ~ magenta_terracotta
+setblock ~ ~ ~ minecraft:magenta_terracotta

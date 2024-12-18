@@ -1,1 +1,1 @@
-setblock ~ ~ ~ soul_soil
+setblock ~ ~ ~ minecraft:soul_soil

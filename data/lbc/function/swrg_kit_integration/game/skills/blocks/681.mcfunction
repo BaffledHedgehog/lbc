@@ -1,1 +1,1 @@
-setblock ~ ~ ~ dried_kelp_block
+setblock ~ ~ ~ minecraft:dried_kelp_block

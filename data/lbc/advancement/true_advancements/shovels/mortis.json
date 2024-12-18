@@ -3,7 +3,11 @@
         "icon": {
             "id": "minecraft:netherite_shovel",
             "components": {
-                "minecraft:custom_model_data": 603
+                "minecraft:custom_model_data": {
+                    "floats": [
+                        603.0
+                    ]
+                }
             }
         },
         "title": {
@@ -31,9 +35,9 @@
                                 "mainhand": {
                                     "predicates": {
                                         "minecraft:custom_data": {
-                                            "transformable": true,
-                                            "shovel": true,
-                                            "mortis": true
+                                            "transformable":1,
+                                            "shovel":1,
+                                            "mortis":1
                                         }
                                     }
                                 }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ pearlescent_froglight
+setblock ~ ~ ~ minecraft:pearlescent_froglight

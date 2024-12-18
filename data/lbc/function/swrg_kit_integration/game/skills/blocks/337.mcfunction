@@ -1,1 +1,1 @@
-setblock ~ ~ ~ end_portal_frame
+setblock ~ ~ ~ minecraft:end_portal_frame

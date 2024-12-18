@@ -19,15 +19,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "gadget": true,
-                                    "end_of_everything": true
-                                },
-                                "minecraft:custom_model_data": 586
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        586.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -38,6 +38,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gadget:1,end_of_everything:1}"
                         }
                     ]
                 },
@@ -57,15 +61,15 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_data": {
-                                    "gadget": true,
-                                    "baffled_of_everything": true
-                                },
-                                "minecraft:custom_model_data": 587
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        587.0
+                                    ]
+                                }
                             }
                         },
                         {
-                            "function": "set_lore",
+                            "function": "minecraft:set_lore",
                             "mode": "replace_all",
                             "lore": [
                                 [
@@ -76,6 +80,10 @@
                                     }
                                 ]
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{gadget:1,baffled_of_everything:1}"
                         }
                     ]
                 }

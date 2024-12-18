@@ -280,9 +280,9 @@ execute if score #lang swrg.math matches 2 run function lbc:swrg_kit_integration
 execute if score #lang swrg.math matches 1 run function lbc:swrg_kit_integration/lang_ru
 forceload add -1 -1 1 1
 forceload add 10241024 10241024
-setblock 10241024 100 10241024 yellow_shulker_box
-setblock 10241024 71 10241024 yellow_shulker_box
-setblock 10241024 94 10241024 yellow_shulker_box
+setblock 10241024 100 10241024 minecraft:yellow_shulker_box
+setblock 10241024 71 10241024 minecraft:yellow_shulker_box
+setblock 10241024 94 10241024 minecraft:yellow_shulker_box
 function lbc:tick5s
 function lbc:tick2s
 function lbc:tick3s
@@ -303,7 +303,7 @@ execute if score SurvivalVersion lbc.math matches 1 run function lbc:config_surv
 #swag
 
 scoreboard objectives add swrg.hp_display dummy
-scoreboard objectives add swrg.hp health {"text":"♥","color": "dark_red"}
+scoreboard objectives add swrg.hp health {"text":"♥","color":"dark_red","type":"text"}
 scoreboard objectives add swrg.death deathCount
 scoreboard objectives add swrg.roll dummy
 scoreboard objectives add swrg.roll_timer dummy

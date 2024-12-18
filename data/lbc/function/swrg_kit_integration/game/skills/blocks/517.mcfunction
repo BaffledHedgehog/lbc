@@ -1,1 +1,1 @@
-setblock ~ ~ ~ green_banner
+setblock ~ ~ ~ minecraft:green_banner

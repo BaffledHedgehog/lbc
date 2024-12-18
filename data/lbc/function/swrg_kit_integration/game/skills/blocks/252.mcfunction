@@ -1,1 +1,1 @@
-setblock ~ ~ ~ clay
+setblock ~ ~ ~ minecraft:clay

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ melon_stem
+setblock ~ ~ ~ minecraft:melon_stem

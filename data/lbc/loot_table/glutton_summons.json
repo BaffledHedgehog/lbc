@@ -4,19 +4,25 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"whale":true,"magicwand": true,"spellwithcooldown": true,"gluttony_cooldown": true},"minecraft:custom_model_data":651}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        651.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "witch_whale",
@@ -25,7 +31,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 {
@@ -34,6 +41,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{whale:1,magicwand:1,spellwithcooldown:1,gluttony_cooldown:1}"
                         }
                     ]
                 }
@@ -43,19 +54,25 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"rabbit": true,"raycastspell": true,"spellwithcooldown": true,"gluttony_cooldown": true},"minecraft:custom_model_data":650}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        650.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "witch_rabbit",
@@ -64,7 +81,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 {
@@ -73,6 +91,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{rabbit:1,raycastspell:1,spellwithcooldown:1,gluttony_cooldown:1}"
                         }
                     ]
                 }
@@ -82,19 +104,25 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:carrot_on_a_stick",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "function": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
-                            "components": {"minecraft:custom_data":{"snake": true,"raycastspell": true},"minecraft:custom_model_data":652}
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": {
+                                    "floats": [
+                                        652.0
+                                    ]
+                                }
+                            }
                         },
                         {
-                            "function": "set_name",
+                            "function": "minecraft:set_name",
                             "name": [
                                 {
                                     "translate": "witch_snake",
@@ -103,7 +131,8 @@
                             ]
                         },
                         {
-                            "function": "set_lore","mode":"replace_all",
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
                             "entity": "this",
                             "lore": [
                                 {
@@ -112,6 +141,10 @@
                                     "italic": false
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{snake:1,raycastspell:1}"
                         }
                     ]
                 }

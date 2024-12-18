@@ -1,2 +1,2 @@
-particle dust_color_transition{from_color:[1.0, 1.0, 0.0], scale:0.2,to_color:[1.0, 0.75, 0.0]} ~ ~ ~ 2 2 2 0 10 normal
-execute as @e[distance=..5.5,tag=!spectator,type=#mobs] at @s run function lbc:other/greed/damage1
+particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],scale:0.2f,to_color:[1.0,0.75,0.0]} ~ ~ ~ 2 2 2 0 10 normal
+execute as @e[type=#minecraft:mobs,distance=..5.5,tag=!spectator] at @s run function lbc:other/greed/damage1

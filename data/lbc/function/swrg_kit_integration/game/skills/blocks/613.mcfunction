@@ -1,1 +1,1 @@
-setblock ~ ~ ~ observer
+setblock ~ ~ ~ minecraft:observer

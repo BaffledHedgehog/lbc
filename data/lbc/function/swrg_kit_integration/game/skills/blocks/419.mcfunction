@@ -1,1 +1,1 @@
-setblock ~ ~ ~ hopper
+setblock ~ ~ ~ minecraft:hopper
