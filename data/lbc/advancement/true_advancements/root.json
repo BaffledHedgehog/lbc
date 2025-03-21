@@ -1,13 +1,9 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:red_mushroom_block",
+            "id": "minecraft:acacia_hanging_sign",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        520.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:lucky_block"
             }
         },
         "title": "Lucky Block",
@@ -40,11 +36,7 @@
                     {
                         "items": "minecraft:red_mushroom_block",
                         "components": {
-                            "minecraft:custom_model_data": {
-                                "floats": [
-                                    520.0
-                                ]
-                            }
+                            "minecraft:item_model": "lbc:lucky_block"
                         }
                     }
                 ]

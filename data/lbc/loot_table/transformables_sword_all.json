@@ -25,7 +25,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         643.0
                                     ]
@@ -140,7 +140,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         655.0
                                     ]
@@ -202,7 +202,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         572.0
                                     ]
@@ -313,7 +313,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         644.0
                                     ]
@@ -369,7 +369,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         575.0
                                     ]

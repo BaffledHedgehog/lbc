@@ -14,7 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         587.0
                                     ]
@@ -54,7 +54,7 @@
                                         "id": "minecraft:panda_spawn_egg",
                                         "Count": 1,
                                         "components": {
-                                            "minecraft:custom_model_data": 588
+                                            "minecraft:item_model": 588
                                         }
                                     }
                                 }
@@ -108,7 +108,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         591.0
                                     ]
@@ -148,7 +148,7 @@
                                         "id": "minecraft:panda_spawn_egg",
                                         "Count": 1,
                                         "components": {
-                                            "minecraft:custom_model_data": 589
+                                            "minecraft:item_model": 589
                                         }
                                     }
                                 }
@@ -202,7 +202,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         592.0
                                     ]
@@ -242,7 +242,7 @@
                                         "id": "minecraft:panda_spawn_egg",
                                         "Count": 1,
                                         "components": {
-                                            "minecraft:custom_model_data": 590
+                                            "minecraft:item_model": 590
                                         }
                                     }
                                 }
@@ -296,7 +296,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         593.0
                                     ]
@@ -336,7 +336,7 @@
                                         "id": "minecraft:panda_spawn_egg",
                                         "Count": 1,
                                         "components": {
-                                            "minecraft:custom_model_data": 594
+                                            "minecraft:item_model": 594
                                         }
                                     }
                                 }

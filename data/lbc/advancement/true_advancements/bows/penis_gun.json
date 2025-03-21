@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:crossbow",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        500.0
-                    ]
-                },
+                "minecraft:item_model": "lbc:dildomet/dildomet",
                 "minecraft:charged_projectiles": []
             }
         },

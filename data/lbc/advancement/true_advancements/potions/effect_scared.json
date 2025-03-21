@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:repeating_command_block",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        625.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:"
             }
         },
         "title": {

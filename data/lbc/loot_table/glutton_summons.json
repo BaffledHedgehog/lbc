@@ -14,7 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         651.0
                                     ]
@@ -64,7 +64,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         650.0
                                     ]
@@ -114,7 +114,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         652.0
                                     ]

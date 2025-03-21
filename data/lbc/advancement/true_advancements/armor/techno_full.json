@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:leather_helmet",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        1.0
-                    ]
-                },
+                "minecraft:item_model": "lbc:armors/power_helmet",
                 "minecraft:enchantment_glint_override": true
             }
         },

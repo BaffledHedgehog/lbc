@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:leather_boots",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        12.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:armors/moisei_boots"
             }
         },
         "title": {

@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:bow",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        539.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:doublebow"
             }
         },
         "title": {

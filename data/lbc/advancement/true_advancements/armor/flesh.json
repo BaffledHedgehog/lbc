@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:leather_chestplate",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        21.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:armors/flesh_chestplate"
             }
         },
         "title": {

@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:repeating_command_block",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        606.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:advancement_icon/gigachad"
             }
         },
         "title": {

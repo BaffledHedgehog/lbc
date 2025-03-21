@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:iron_hoe",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        591.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:sickle"
             }
         },
         "title": {

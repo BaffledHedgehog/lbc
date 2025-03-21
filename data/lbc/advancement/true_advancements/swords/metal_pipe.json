@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:spyglass",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        594.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:"
             }
         },
         "title": {

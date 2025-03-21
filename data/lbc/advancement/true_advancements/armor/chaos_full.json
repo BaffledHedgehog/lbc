@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:leather_helmet",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        8.0
-                    ]
-                },
+                "minecraft:item_model": "lbc:armors/chaos_helmet",
                 "minecraft:enchantment_glint_override": true
             }
         },

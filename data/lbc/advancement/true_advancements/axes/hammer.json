@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:iron_axe",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        592.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:hammer"
             }
         },
         "title": {

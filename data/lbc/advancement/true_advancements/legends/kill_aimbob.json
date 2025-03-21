@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:golden_apple",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        580.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:aimbobapple"
             }
         },
         "title": {

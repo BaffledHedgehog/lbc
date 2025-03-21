@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:wooden_sword",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        522.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:"
             }
         },
         "title": {

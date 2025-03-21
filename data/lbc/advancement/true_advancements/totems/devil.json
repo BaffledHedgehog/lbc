@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:totem_of_undying",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        557.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:"
             }
         },
         "title": {

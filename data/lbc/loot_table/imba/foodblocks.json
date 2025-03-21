@@ -14,7 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         618.0
                                     ]
@@ -59,7 +59,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         620.0
                                     ]
@@ -109,7 +109,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         585.0
                                     ]
@@ -161,7 +161,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         622.0
                                     ]
@@ -206,7 +206,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         621.0
                                     ]

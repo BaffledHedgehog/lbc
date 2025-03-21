@@ -4,11 +4,7 @@
             "id": "minecraft:netherite_sword",
             "components": {
                 "minecraft:enchantment_glint_override": true,
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        501.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:"
             }
         },
         "title": {

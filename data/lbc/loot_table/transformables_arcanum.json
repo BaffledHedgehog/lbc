@@ -16,7 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         573.0
                                     ]
@@ -136,7 +136,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         571.0
                                     ]
@@ -230,7 +230,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         572.0
                                     ]
@@ -311,7 +311,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         569.0
                                     ]
@@ -418,7 +418,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         570.0
                                     ]
@@ -525,7 +525,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         568.0
                                     ]

@@ -34,11 +34,11 @@
                                         "id": "panda_spawn_egg",
                                         "\u0421ount": 1,
                                         "components": {
-                                            "minecraft:custom_model_data": 574
+                                            "minecraft:item_model": 574
                                         }
                                     }
                                 },
-                                "minecraft:custom_model_data": {
+                                "minecraft:item_model": {
                                     "floats": [
                                         574.0
                                     ]

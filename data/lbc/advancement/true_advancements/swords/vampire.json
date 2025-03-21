@@ -3,11 +3,7 @@
         "icon": {
             "id": "minecraft:iron_sword",
             "components": {
-                "minecraft:custom_model_data": {
-                    "floats": [
-                        532.0
-                    ]
-                }
+                "minecraft:item_model": "lbc:"
             }
         },
         "title": {

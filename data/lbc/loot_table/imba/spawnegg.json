@@ -291,7 +291,7 @@
                                             "id": "minecraft:apple",
                                             "count": 6,
                                             "components": {
-                                                "minecraft:custom_model_data": 580
+                                                "minecraft:item_model": 580
                                             }
                                         }
                                     ],
@@ -668,7 +668,7 @@
                                                 "otchim": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:custom_model_data": 658
+                                            "minecraft:item_model": 658
                                         }
                                     }
                                 }
@@ -807,7 +807,7 @@
                                                 "shahid": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:custom_model_data": 658
+                                            "minecraft:item_model": 658
                                         }
                                     }
                                 }
@@ -1038,7 +1038,7 @@
                                                 "droppertnt": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:custom_model_data": 658
+                                            "minecraft:item_model": 658
                                         }
                                     }
                                 }
@@ -1177,7 +1177,7 @@
                                             "id": "minecraft:carrot_on_a_stick",
                                             "count": 1,
                                             "components": {
-                                                "minecraft:custom_model_data": 619
+                                                "minecraft:item_model": 619
                                             }
                                         },
                                         {}
@@ -1321,7 +1321,7 @@
                                                 "mom": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:custom_model_data": 658
+                                            "minecraft:item_model": 658
                                         }
                                     }
                                 }
@@ -1384,7 +1384,7 @@
                                             "id": "minecraft:repeating_command_block",
                                             "count": 1,
                                             "components": {
-                                                "minecraft:custom_model_data": 596,
+                                                "minecraft:item_model": 596,
                                                 "minecraft:enchantments": {
                                                     "vanishing_curse": 1
                                                 },
@@ -1464,7 +1464,7 @@
                                                 "helicopter_boss": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:custom_model_data": 658
+                                            "minecraft:item_model": 658
                                         }
                                     }
                                 }
@@ -1530,7 +1530,7 @@
                                             "id": "minecraft:repeating_command_block",
                                             "count": 1,
                                             "components": {
-                                                "minecraft:custom_model_data": 655,
+                                                "minecraft:item_model": 655,
                                                 "minecraft:enchantments": {
                                                     "vanishing_curse": 1
                                                 },
@@ -1802,7 +1802,7 @@
                                             "id": "minecraft:golden_sword",
                                             "count": 1,
                                             "components": {
-                                                "minecraft:custom_model_data": 582,
+                                                "minecraft:item_model": 582,
                                                 "components": {
                                                     "minecraft:enchantments": {
                                                         "vanishing_curse": 1

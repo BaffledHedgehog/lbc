@@ -1,4 +1,4 @@
-execute if entity @s[type=minecraft:player] run particle minecraft:item{item:{id:"minecraft:repeating_command_block",components:{"minecraft:custom_model_data":{floats:[619.0f]}}}} ~ ~ ~ 0.3 0.2 0.3 0 200 force @s
+execute if entity @s[type=minecraft:player] run particle minecraft:item{item:{id:"minecraft:repeating_command_block",components:{"minecraft:item_model":{floats:[619.0f]}}}} ~ ~ ~ 0.3 0.2 0.3 0 200 force @s
 particle minecraft:item{item:{id:"minecraft:yellow_stained_glass"}} ~ ~ ~ 0.2 0.2 0.2 0 3 force @a[distance=0.1..]
 attribute @s[type=!minecraft:player] minecraft:follow_range base set 2
 effect give @s minecraft:blindness 1 0 true
