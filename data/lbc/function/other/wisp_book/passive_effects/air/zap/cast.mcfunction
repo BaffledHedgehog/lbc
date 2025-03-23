@@ -10,7 +10,7 @@
 #execute store result entity @s Rotation[1] float 0.001 run scoreboard players get #rot1 lbc.math
 
 scoreboard players set *test_ray Distance 0
-summon minecraft:item_display 0 -800 0 {item:{id:"minecraft:repeating_command_block",components:{"minecraft:item_model":{floats:[697.0f]}},count:1},Tags:["lightning_ray"]}
+summon minecraft:item_display 0 -800 0 {item:{id:"minecraft:repeating_command_block",components:{"minecraft:item_model":"lbc:"},count:1},Tags:["lightning_ray"]}
 scoreboard players operation @e[type=minecraft:item_display,tag=lightning_ray,tag=!done,limit=1] lbcID2 = @s lbcID2
 scoreboard players operation *check_id lbcID2 = @s lbcID2
 data modify entity @e[type=minecraft:item_display,tag=lightning_ray,tag=!done,limit=1] transformation.scale set value [3.0f,3.0f,1.0f]

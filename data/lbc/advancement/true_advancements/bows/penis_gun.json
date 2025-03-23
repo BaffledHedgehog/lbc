@@ -4,7 +4,12 @@
             "id": "minecraft:crossbow",
             "components": {
                 "minecraft:item_model": "lbc:dildomet/dildomet",
-                "minecraft:charged_projectiles": []
+                "charged_projectiles": [
+                    {
+                        "id": "arrow",
+                        "count": 1
+                    }
+                ]
             }
         },
         "title": {

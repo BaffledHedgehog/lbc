@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:potion",
             "components": {
-                "minecraft:item_model": "lbc:",
+                "minecraft:item_model": "lbc:oppotion",
                 "minecraft:potion_contents": {
                     "custom_color": 16777215
                 }

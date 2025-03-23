@@ -1,4 +1,4 @@
-data modify entity @s item set value {id:"minecraft:repeating_command_block",components:{"minecraft:item_model":{floats:[607.0f]}},count:1}
+data modify entity @s item set value {id:"minecraft:repeating_command_block",components:{"minecraft:item_model":"lbc:supply_crate"},count:1}
 particle minecraft:cloud ~ ~1 ~ 2 1 2 0 1000 force
 fill ~ ~ ~ ~ ~1 ~ minecraft:barrier
 execute as @e[type=#minecraft:mobs,distance=..3] run damage @s 10 generic
