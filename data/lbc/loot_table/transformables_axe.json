@@ -252,11 +252,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        592.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:hammer",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

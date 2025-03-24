@@ -10,11 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        22.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:max_damage": 7000,
                                 "minecraft:dyed_color": {
                                     "rgb": 9,

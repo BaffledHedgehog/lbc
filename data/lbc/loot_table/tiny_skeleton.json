@@ -74,11 +74,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_damage": 32,
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        582.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:tiny_bone"
                             }
                         },
                         {

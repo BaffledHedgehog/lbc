@@ -10,11 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        520.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:block_state": {
                                     "up": "false",
                                     "down": "false",
@@ -152,11 +148,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        657.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {

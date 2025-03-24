@@ -14,11 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        651.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:whale"
                             }
                         },
                         {
@@ -64,11 +60,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        650.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:witch_rabbit"
                             }
                         },
                         {
@@ -114,11 +106,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        652.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:snake"
                             }
                         },
                         {

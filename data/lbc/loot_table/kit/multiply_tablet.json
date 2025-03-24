@@ -10,11 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        666.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {
@@ -58,11 +54,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        667.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {
@@ -106,11 +98,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        668.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {
@@ -154,11 +142,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        745.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {

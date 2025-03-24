@@ -19,11 +19,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        544.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:smallfireball"
                             }
                         },
                         {
@@ -73,11 +69,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        545.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:bigfireball"
                             }
                         },
                         {
@@ -131,11 +123,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        546.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:dragfireball"
                             }
                         },
                         {

@@ -15,11 +15,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        750.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:overload_crux",
                                 "minecraft:max_stack_size": 99,
                                 "!minecraft:max_damage": {}
                             }

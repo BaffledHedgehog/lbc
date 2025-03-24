@@ -17,11 +17,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        509.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:tnts"
                             }
                         },
                         {
@@ -87,11 +83,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        507.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:lightning"
                             }
                         },
                         {
@@ -162,11 +154,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        504.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:lightning"
                             }
                         },
                         {
@@ -237,11 +225,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        503.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:breaker"
                             }
                         },
                         {
@@ -307,11 +291,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        508.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:skeletons"
                             }
                         },
                         {
@@ -377,11 +357,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        510.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:wither"
                             }
                         },
                         {
@@ -447,11 +423,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        505.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:healarea"
                             }
                         },
                         {
@@ -517,11 +489,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        501.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:firestorm"
                             }
                         },
                         {
@@ -587,11 +555,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        506.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:lava"
                             }
                         },
                         {
@@ -652,11 +616,7 @@
                             "components": {
                                 "minecraft:max_stack_size": 64,
                                 "!minecraft:max_damage": {},
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        502.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:anvilcast"
                             }
                         },
                         {

@@ -66,11 +66,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        542.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:firework",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:feather_falling": 1
@@ -154,11 +150,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        542.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:firework",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:feather_falling": 1
@@ -239,11 +231,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        539.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:doublebow"
                             }
                         },
                         {
@@ -360,11 +348,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        533.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:shulkerbow"
                             }
                         },
                         {

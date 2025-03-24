@@ -96,11 +96,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        591.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:sickle",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

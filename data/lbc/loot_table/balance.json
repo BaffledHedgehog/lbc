@@ -14,11 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        648.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:balance",
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip": false
                                 }

@@ -78,11 +78,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        500.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:dildomet/dildomet",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:quick_charge": 2
@@ -116,11 +112,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        541.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:shishgun_bow",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1

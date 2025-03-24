@@ -19,11 +19,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        586.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:end_of_everything"
                             }
                         },
                         {
@@ -61,11 +57,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        587.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:baffled_of_everything"
                             }
                         },
                         {

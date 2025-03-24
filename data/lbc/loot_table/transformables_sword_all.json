@@ -25,11 +25,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        643.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -140,11 +136,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        655.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:custom_name": "{\"italic\":false,\"translate\":\"techrunner_katana\"}",
                                 "minecraft:lore": [
                                     "{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\",\"extra\":[{\"translate\":\"sword\"}]}",
@@ -202,11 +194,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        572.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -313,11 +301,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        644.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:custom_name": "{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"translate\":\"shit_katana\"}",
                                 "minecraft:lore": [
                                     "[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"sword\",\"italic\": false,\"color\": \"aqua\"}]",
@@ -369,11 +353,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        575.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 255

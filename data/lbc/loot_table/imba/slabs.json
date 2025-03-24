@@ -773,11 +773,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        761.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "!minecraft:max_damage": {},
                                 "minecraft:max_damage": 64
                             }

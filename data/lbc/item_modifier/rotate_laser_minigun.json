@@ -2,11 +2,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model": {
-                "floats": [
-                    681.0
-                ]
-            }
+            "minecraft:item_model": "lbc:laser_minigun/1"
         },
         "conditions": [
             {
@@ -16,11 +12,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        680.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:laser_minigun/2"
                             }
                         }
                     }
@@ -31,11 +23,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model": {
-                "floats": [
-                    682.0
-                ]
-            }
+            "minecraft:item_model": "lbc:laser_minigun/2"
         },
         "conditions": [
             {
@@ -45,11 +33,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        681.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:laser_minigun/3"
                             }
                         }
                     }
@@ -60,11 +44,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model": {
-                "floats": [
-                    683.0
-                ]
-            }
+            "minecraft:item_model": "lbc:laser_minigun/3"
         },
         "conditions": [
             {
@@ -74,11 +54,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        682.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:laser_minigun/4"
                             }
                         }
                     }
@@ -89,11 +65,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model": {
-                "floats": [
-                    684.0
-                ]
-            }
+            "minecraft:item_model": "lbc:laser_minigun/4"
         },
         "conditions": [
             {
@@ -103,11 +75,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        683.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:laser_minigun/5"
                             }
                         }
                     }
@@ -118,11 +86,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model": {
-                "floats": [
-                    685.0
-                ]
-            }
+            "minecraft:item_model": "lbc:laser_minigun/5"
         },
         "conditions": [
             {
@@ -132,11 +96,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        684.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:laser_minigun/6"
                             }
                         }
                     }
@@ -147,11 +107,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model": {
-                "floats": [
-                    686.0
-                ]
-            }
+            "minecraft:item_model": "lbc:laser_minigun/6"
         },
         "conditions": [
             {
@@ -161,11 +117,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        685.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:laser_minigun/7"
                             }
                         }
                     }
@@ -176,11 +128,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model": {
-                "floats": [
-                    687.0
-                ]
-            }
+            "minecraft:item_model": "lbc:laser_minigun/7"
         },
         "conditions": [
             {
@@ -190,11 +138,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        686.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:laser_minigun/8"
                             }
                         }
                     }
@@ -205,11 +149,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:item_model": {
-                "floats": [
-                    680.0
-                ]
-            }
+            "minecraft:item_model": "lbc:laser_minigun/8"
         },
         "conditions": [
             {
@@ -219,11 +159,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        687.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:laser_minigun/1"
                             }
                         }
                     }

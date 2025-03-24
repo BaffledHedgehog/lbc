@@ -15,11 +15,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        729.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/ruby_tiny"
                             }
                         },
                         {
@@ -105,11 +101,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        730.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/terra_tiny"
                             }
                         },
                         {
@@ -195,11 +187,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        731.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/electro_tiny"
                             }
                         },
                         {
@@ -300,11 +288,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        732.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/air_tiny"
                             }
                         },
                         {
@@ -390,11 +374,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        733.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/acid_tiny"
                             }
                         },
                         {
@@ -485,11 +465,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        734.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/teleport_tiny"
                             }
                         },
                         {
@@ -575,11 +551,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        735.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/stone_tiny"
                             }
                         },
                         {
@@ -665,11 +637,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        736.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/fire_tiny"
                             }
                         },
                         {
@@ -755,11 +723,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        737.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:st/blind_tiny"
                             }
                         },
                         {

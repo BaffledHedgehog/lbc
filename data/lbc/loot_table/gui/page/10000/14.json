@@ -10,11 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        2.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {

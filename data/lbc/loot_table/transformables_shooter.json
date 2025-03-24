@@ -16,11 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        565.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:phantomknifes"
                             }
                         },
                         {
@@ -85,11 +81,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        574.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:mobgun"
                             }
                         },
                         {
@@ -156,11 +148,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        574.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:mobgun"
                             }
                         },
                         {
@@ -242,11 +230,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        573.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:kfcgun"
                             }
                         },
                         {
@@ -318,11 +302,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        575.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:razorpine"
                             }
                         },
                         {
@@ -391,11 +371,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        589.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:attack_helicopter"
                             }
                         },
                         {
@@ -473,11 +449,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        680.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:laser_minigun/1",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -576,11 +548,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        707.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:woodificator"
                             }
                         },
                         {

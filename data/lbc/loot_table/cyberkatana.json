@@ -10,11 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        587.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:cyberkatana",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

@@ -15,11 +15,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        573.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:one_punch_glove",
                                 "minecraft:max_damage": 1,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
@@ -90,9 +86,7 @@
                                     {
                                         "score": {
                                             "name": "@s",
-                                            "objective": "hplvl",
-                                            "color": "dark_green",
-                                            "italic": false
+                                            "objective": "hplvl"
                                         },
                                         "type": "score"
                                     },

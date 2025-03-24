@@ -14,11 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        706.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:ice_wand",
                                 "minecraft:unbreakable": {
                                     "show_in_tooltip": false
                                 }

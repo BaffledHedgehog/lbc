@@ -128,11 +128,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        530.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:oppotion",
                                 "minecraft:potion_contents": {
                                     "custom_color": 16777215,
                                     "custom_effects": [
@@ -322,11 +318,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        529.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:snus",
                                 "minecraft:hide_additional_tooltip": {},
                                 "minecraft:potion_contents": {
                                     "custom_effects": [

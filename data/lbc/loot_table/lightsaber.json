@@ -14,11 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        688.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:lightsaber_empty",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -145,11 +141,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        100.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:lightsaber_jedi",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -270,11 +262,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        101.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:lightsaber_sith",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

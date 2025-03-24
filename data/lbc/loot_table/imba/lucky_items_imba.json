@@ -46,11 +46,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        599.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {
@@ -91,11 +87,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        578.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -149,11 +141,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        666.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {
@@ -236,11 +224,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        580.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -393,11 +377,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        541.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:tnt",
                                     "fuse": 50,
@@ -446,11 +426,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        708.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {
@@ -649,11 +625,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        552.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -709,11 +681,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        551.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -770,11 +738,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        526.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {
@@ -822,11 +786,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        523.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {

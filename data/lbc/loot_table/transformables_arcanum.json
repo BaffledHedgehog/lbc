@@ -16,11 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        573.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:arcanumblackhole"
                             }
                         },
                         {
@@ -136,11 +132,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        571.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:arcanumbarrier"
                             }
                         },
                         {
@@ -230,11 +222,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        572.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:arcanumhealing"
                             }
                         },
                         {
@@ -311,11 +299,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        569.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:kiuaskivi"
                             }
                         },
                         {
@@ -418,11 +402,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        570.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:tannerkivi"
                             }
                         },
                         {
@@ -525,11 +505,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        568.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:babylongate"
                             }
                         },
                         {

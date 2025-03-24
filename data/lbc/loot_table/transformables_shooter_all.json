@@ -20,11 +20,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        619.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:ak47"
                             }
                         },
                         {
@@ -83,11 +79,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        656.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:magnum",
                                 "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_standard\"}",
                                 "minecraft:lore": [
                                     "[{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\"},{\"translate\":\"shooter\",\"italic\":false,\"color\":\"aqua\"}]",
@@ -120,11 +112,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        618.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:govnomet"
                             }
                         },
                         {

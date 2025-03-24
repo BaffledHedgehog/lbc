@@ -15,11 +15,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        572.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:crowbar",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -149,11 +145,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        618.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:govnomet"
                             }
                         },
                         {
@@ -243,11 +235,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        656.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:drop_trap"
                             }
                         },
                         {
@@ -329,11 +317,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        617.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:time_clock"
                             }
                         },
                         {
@@ -407,11 +391,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        658.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:drop_boss"
                             }
                         },
                         {
@@ -481,11 +461,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        656.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:drop_not_trap"
                             }
                         },
                         {
@@ -579,11 +555,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        645.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:shetka"
                             }
                         },
                         {
@@ -691,11 +663,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        656.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:drop_trap"
                             }
                         },
                         {
@@ -754,86 +722,9 @@
                     ]
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_boots",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        12.0
-                                    ]
-                                },
-                                "minecraft:max_damage": 600,
-                                "minecraft:dyed_color": {
-                                    "rgb": 768,
-                                    "show_in_tooltip": false
-                                },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "feet",
-                                            "id": "gfhshzs5hgfharmor",
-                                            "amount": 2,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "translate": "moisei_boots",
-                                "color": "#632F19",
-                                "italic": false
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                [
-                                    {
-                                        "translate": "type",
-                                        "italic": false,
-                                        "color": "white"
-                                    },
-                                    {
-                                        "translate": "boots",
-                                        "italic": false,
-                                        "color": "white"
-                                    }
-                                ],
-                                {
-                                    "translate": "moisei_boots.lore",
-                                    "italic": false,
-                                    "color": "aqua"
-                                },
-                                [
-                                    {
-                                        "text": "Nightmare_23",
-                                        "color": "green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "text": " Baffled Lifestory Event",
-                                        "color": "dark_gray",
-                                        "italic": false,
-                                        "type": "text"
-                                    }
-                                ]
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{transformable:1,boots:1,moisei:1}"
-                        }
-                    ]
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:moisei_boots",
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
@@ -847,11 +738,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        656.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:drop_boss"
                             }
                         },
                         {
@@ -922,11 +809,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        590.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:kill_button"
                             }
                         },
                         {
@@ -1000,11 +883,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        575.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:antimagic_stick",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 255
@@ -1126,11 +1005,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        619.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:gayradar"
                             }
                         },
                         {
@@ -1191,11 +1066,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        711.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:banhammer",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -1316,11 +1187,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        640.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:banan"
                             }
                         },
                         {
@@ -1376,11 +1243,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        658.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:drop_boss"
                             }
                         },
                         {
@@ -1439,11 +1302,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        656.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:drop_boss"
                             }
                         },
                         {
@@ -1498,11 +1357,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        1488.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:zaika"
                             }
                         },
                         {

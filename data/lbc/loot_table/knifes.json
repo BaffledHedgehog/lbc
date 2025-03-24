@@ -29,11 +29,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        514.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:enderdart"
                             }
                         },
                         {
@@ -80,11 +76,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        515.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:blinddart"
                             }
                         },
                         {
@@ -116,11 +108,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        516.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:tntdart"
                             }
                         },
                         {
@@ -156,11 +144,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        517.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:dart"
                             }
                         },
                         {
@@ -195,11 +179,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        518.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:witherdart"
                             }
                         },
                         {
@@ -235,11 +215,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        519.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:poisondart"
                             }
                         },
                         {
@@ -275,11 +251,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        576.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:impulsedart"
                             }
                         },
                         {

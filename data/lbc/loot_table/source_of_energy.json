@@ -31,11 +31,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        583.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:lightningwand"
                             }
                         },
                         {
@@ -187,11 +183,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        540.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:lightningegg",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:lightning_bolt"
                                 }

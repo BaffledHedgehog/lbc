@@ -796,11 +796,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        541.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:fusedtnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:tnt",
                                     "fuse": 40,
@@ -834,11 +830,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        576.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:lightningegg_old",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:lightning_bolt"
                                 }
@@ -954,11 +946,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        530.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:oppotion",
                                 "minecraft:potion_contents": {
                                     "custom_color": 16777215,
                                     "custom_effects": [
@@ -1365,11 +1353,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        522.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:devilsword",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -1565,11 +1549,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        538.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:gaara"
                             }
                         },
                         {
@@ -1654,11 +1634,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        534.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:reactive"
                             }
                         },
                         {
@@ -1708,11 +1684,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        532.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:vampiresword",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -1777,11 +1749,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        552.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:omegatnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -1818,11 +1786,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        551.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:nuke",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -1858,11 +1822,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        526.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:bridgebuilder"
                             }
                         },
                         {
@@ -1908,11 +1868,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        523.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:teleporter"
                             }
                         },
                         {
@@ -1974,11 +1930,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        539.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:doublebow"
                             }
                         },
                         {
@@ -2094,11 +2046,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        531.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:epicsword",
                                 "minecraft:unbreakable": {}
                             }
                         },
@@ -2194,11 +2142,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        528.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:rasengan",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:sweeping_edge": 1
@@ -2300,11 +2244,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        521.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:steaksword"
                             }
                         },
                         {
@@ -2345,11 +2285,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        527.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:smokegrenade"
                             }
                         },
                         {
@@ -2378,11 +2314,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        524.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:swapper"
                             }
                         },
                         {
@@ -2428,11 +2360,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        525.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:islandtp"
                             }
                         },
                         {
@@ -2564,7 +2492,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:pig",
-                                    "CustomNameVisible":1,
+                                    "CustomNameVisible":true,
                                     "Health": 50,
                                     "Tags": [
                                         "fakepig",
@@ -2619,11 +2547,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        537.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:saveplatform",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:protection": 1
@@ -2880,11 +2804,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        529.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:snus",
                                 "minecraft:potion_contents": {
                                     "custom_color": 5731155,
                                     "custom_effects": [
@@ -2968,11 +2888,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        513.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:evokerwand",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1
@@ -3085,11 +3001,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        500.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:endersword"
                             }
                         },
                         {
@@ -3135,11 +3047,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        511.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:basswand",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1
@@ -3199,11 +3107,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        542.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:corruptwand",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1
@@ -3263,11 +3167,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        512.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:enderwand",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1
@@ -3316,11 +3216,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        536.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:regenerationbelt",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:protection": 1
@@ -3430,11 +3326,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        535.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:manaregenerationbelt",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:efficiency": 1
@@ -3552,11 +3444,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        533.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:shulkerbow"
                             }
                         },
                         {
@@ -3663,11 +3551,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        546.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:vampirewand",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1
@@ -3727,11 +3611,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        548.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:foxuswand",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1
@@ -3791,11 +3671,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        547.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:killingwand",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1
@@ -3855,11 +3731,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        550.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:badwiki",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:infinity": 1
@@ -3927,11 +3799,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        554.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:magnet"
                             }
                         },
                         {

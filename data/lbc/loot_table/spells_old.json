@@ -19,11 +19,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        509.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:tnts"
                             }
                         },
                         {
@@ -75,11 +71,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        673.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:lightning_old"
                             }
                         },
                         {
@@ -136,11 +128,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        674.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:creepers_old"
                             }
                         },
                         {
@@ -192,11 +180,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        503.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:breaker"
                             }
                         },
                         {
@@ -243,11 +227,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        508.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:skeletons"
                             }
                         },
                         {
@@ -299,11 +279,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        510.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:wither"
                             }
                         },
                         {
@@ -355,11 +331,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        505.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:healarea"
                             }
                         },
                         {
@@ -411,11 +383,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        501.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:firestorm"
                             }
                         },
                         {
@@ -467,11 +435,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        506.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:lava"
                             }
                         },
                         {
@@ -518,11 +482,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        675.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:anvilcast_old"
                             }
                         },
                         {

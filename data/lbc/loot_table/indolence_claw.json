@@ -14,11 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        654.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:invisible_hand"
                             }
                         },
                         {

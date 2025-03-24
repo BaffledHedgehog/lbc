@@ -10,11 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        592.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:spike_ender"
                             }
                         },
                         {
@@ -51,11 +47,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        593.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:spike_blind"
                             }
                         },
                         {
@@ -92,11 +84,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        594.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:spike_explosive"
                             }
                         },
                         {
@@ -133,11 +121,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        595.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:spike"
                             }
                         },
                         {
@@ -173,11 +157,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        596.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:spike_wither"
                             }
                         },
                         {
@@ -214,11 +194,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        597.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:spike_poison"
                             }
                         },
                         {
@@ -255,11 +231,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        598.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:spike_impulse"
                             }
                         },
                         {

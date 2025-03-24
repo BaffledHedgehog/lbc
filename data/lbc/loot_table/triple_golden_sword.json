@@ -14,11 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        727.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:max_damage": 900,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [

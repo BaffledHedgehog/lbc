@@ -15,11 +15,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        649.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:nexus_wire_onyx"
                             }
                         },
                         {

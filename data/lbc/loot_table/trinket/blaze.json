@@ -10,11 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        671.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:max_stack_size": 99
                             }
                         },

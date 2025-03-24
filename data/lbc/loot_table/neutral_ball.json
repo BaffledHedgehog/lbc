@@ -16,11 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        709.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:neutral_ball",
                                 "minecraft:unbreakable": {}
                             }
                         },

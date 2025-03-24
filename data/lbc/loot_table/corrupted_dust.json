@@ -14,11 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        587.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:corrupted_dust",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -52,9 +48,9 @@
                                     "item_display": "fixed",
                                     "item": {
                                         "id": "minecraft:panda_spawn_egg",
-                                        "Count": 1,
+                                        "count": 1,
                                         "components": {
-                                            "minecraft:item_model": 588
+                                            "minecraft:item_model": "lbc:corrupted_pentagram"
                                         }
                                     }
                                 }
@@ -108,11 +104,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        591.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:corrupted_dust_lamashtu",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -146,9 +138,9 @@
                                     "item_display": "fixed",
                                     "item": {
                                         "id": "minecraft:panda_spawn_egg",
-                                        "Count": 1,
+                                        "count": 1,
                                         "components": {
-                                            "minecraft:item_model": 589
+                                            "minecraft:item_model": "lbc:lamashtu"
                                         }
                                     }
                                 }
@@ -202,11 +194,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        592.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:corrupted_dust_belial",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -240,9 +228,9 @@
                                     "item_display": "fixed",
                                     "item": {
                                         "id": "minecraft:panda_spawn_egg",
-                                        "Count": 1,
+                                        "count": 1,
                                         "components": {
-                                            "minecraft:item_model": 590
+                                            "minecraft:item_model": "lbc:belial"
                                         }
                                     }
                                 }
@@ -296,11 +284,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        593.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:corrupted_dust_ahriman",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -334,9 +318,9 @@
                                     "item_display": "fixed",
                                     "item": {
                                         "id": "minecraft:panda_spawn_egg",
-                                        "Count": 1,
+                                        "count": 1,
                                         "components": {
-                                            "minecraft:item_model": 594
+                                            "minecraft:item_model": "lbc:ahriman"
                                         }
                                     }
                                 }

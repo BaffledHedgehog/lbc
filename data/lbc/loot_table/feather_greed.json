@@ -18,11 +18,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        646.0
-                                    ]
-                                },
+                                "minecraft:item_model": "minecraft:feather",
                                 "minecraft:enchantment_glint_override": true
                             }
                         },

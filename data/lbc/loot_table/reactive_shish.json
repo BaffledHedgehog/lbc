@@ -14,11 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        641.0
-                                    ]
-                                }
+                                "minecraft:item_model": "minecraft:spruce_sapling"
                             }
                         },
                         {
@@ -80,11 +76,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        591.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:shish_of_everything"
                             }
                         },
                         {

@@ -16,11 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        1.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:sussy_penis_health"
                             }
                         },
                         {
@@ -67,11 +63,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        1.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:sussy_penis_damage"
                             }
                         },
                         {
@@ -118,11 +110,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        327.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:sussy_penis_speed"
                             }
                         },
                         {

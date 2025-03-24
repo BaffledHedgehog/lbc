@@ -16,11 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        749.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:shish_wall_wand"
                             }
                         },
                         {

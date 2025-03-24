@@ -19,11 +19,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        500.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:efficiency": 255
@@ -77,11 +73,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        500.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:efficiency": 255
@@ -184,11 +176,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        604.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:efficiency": 255
@@ -242,11 +230,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        500.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:efficiency": 255,
@@ -296,11 +280,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        586.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [

@@ -16,11 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        538.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:gaara"
                             }
                         },
                         {
@@ -85,11 +81,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        537.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:saveplatform",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:protection": 1
@@ -150,11 +142,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        536.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:regenerationbelt",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:protection": 1
@@ -225,11 +213,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        535.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:manaregenerationbelt",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:efficiency": 1
@@ -300,11 +284,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        554.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:magnet"
                             }
                         },
                         {
@@ -368,11 +348,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        556.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:kishki"
                             }
                         },
                         {
@@ -446,11 +422,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        562.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:quiver"
                             }
                         },
                         {
@@ -536,11 +508,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        555.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:popit"
                             }
                         },
                         {
@@ -605,11 +573,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        624.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:runic_ice_shard"
                             }
                         },
                         {

@@ -16,11 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        600.0
-                                    ]
-                                }
+                                "minecraft:item_model": "lbc:"
                             }
                         },
                         {
@@ -81,11 +77,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        582.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -129,11 +121,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        583.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:end_crystal"
                                 }
@@ -172,11 +160,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": {
-                                    "floats": [
-                                        584.0
-                                    ]
-                                },
+                                "minecraft:item_model": "lbc:",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
