@@ -421,7 +421,7 @@
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
                                     "PersistenceRequired": true,
-                                    "DeathLootTable": "none",
+                                    "DeathLootTable": "minecraft:empty",
                                     "IsBaby": true,
                                     "Silent": true,
                                     "ArmorItems": [
