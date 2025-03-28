@@ -14,7 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:kapusta"
                             }
                         },
                         {
@@ -55,7 +55,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "minecraft:jack_o_lantern"
                             }
                         },
                         {
@@ -101,7 +101,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "minecraft:pumpkin",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -149,7 +149,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "minecraft:dried_kelp_block"
                             }
                         },
                         {
@@ -190,7 +190,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "minecraft:honey_block"
                             }
                         },
                         {

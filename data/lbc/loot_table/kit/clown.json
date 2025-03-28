@@ -11,7 +11,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:armors/clownmask",
                                 "minecraft:dyed_color": {
                                     "rgb": 513,
                                     "show_in_tooltip": false
@@ -74,7 +74,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:smoke_bomb"
                             }
                         },
                         {
@@ -120,7 +120,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:false_tumba"
                             }
                         },
                         {

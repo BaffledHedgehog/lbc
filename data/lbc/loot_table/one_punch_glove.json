@@ -22,26 +22,19 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gejdyjygjghjghnxcve",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": -1,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "gththxhgdfjgjgj",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": 2147483647,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
-                            }
-                        },
-                        {
-                            "function": "minecraft:toggle_tooltips",
-                            "toggles": {
-                                "attribute_modifiers": false
                             }
                         },
                         {
@@ -71,50 +64,6 @@
                                         "color": "aqua"
                                     }
                                 ],
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": " ",
-                                        "italic": false,
-                                        "color": "dark_green",
-                                        "type": "text"
-                                    },
-                                    {
-                                        "score": {
-                                            "name": "@s",
-                                            "objective": "hplvl"
-                                        },
-                                        "type": "score"
-                                    },
-                                    {
-                                        "text": " ",
-                                        "italic": false,
-                                        "color": "dark_green",
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "\u221e ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
                                 [
                                     {
                                         "text": "GONZO",
@@ -142,7 +91,7 @@
                                         "score": "hplvl"
                                     },
                                     "operation": "add_value",
-                                    "id": "minecraft:97a8d3d5-076f-42f7-874c-b94b838ed265",
+                                    "id": "minecraft:base_attack_damage",
                                     "slot": "mainhand"
                                 }
                             ]

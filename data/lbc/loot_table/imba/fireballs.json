@@ -19,7 +19,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:smallfireball"
                             }
                         },
                         {
@@ -79,7 +79,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:bigfireball"
                             }
                         },
                         {
@@ -143,7 +143,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:dragfireball"
                             }
                         },
                         {

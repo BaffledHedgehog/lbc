@@ -14,26 +14,25 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:triple_golden_sword",
                                 "minecraft:max_damage": 900,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "genhrtjrdxjtyjutk67ke",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 8,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "getnkygukhhlkjd",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.4,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -73,36 +72,7 @@
                                     "translate": "triple_golden_sword.lore.2",
                                     "color": "white",
                                     "italic": false
-                                },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "9 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "1.6 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ]
+                                }
                             ]
                         },
                         {

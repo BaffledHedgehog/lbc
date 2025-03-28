@@ -21,19 +21,18 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "generi23rgeadgdfge",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 8,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "gderghb6hxdfth",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.4,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -61,49 +60,6 @@
                                         "translate": "sword",
                                         "italic": false,
                                         "color": "aqua"
-                                    }
-                                ],
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "9 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "1.6 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "Rexi_31",
-                                        "color": "green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "text": " Beta Server Harem event",
-                                        "color": "dark_gray",
-                                        "italic": false,
-                                        "type": "text"
                                     }
                                 ]
                             ]
@@ -894,19 +850,18 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "ge65dytxjghfj_damage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 4,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "generxjy6xghgfed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -941,35 +896,6 @@
                                     "color": "yellow",
                                     "italic": false
                                 },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "5 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "2.0 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
                                 [
                                     {
                                         "text": "nischtosnektem",
@@ -1072,19 +998,18 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "generxzherhhhhhhhamage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 11,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "gezr4gbfbncghmkhued",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.8,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -1119,35 +1044,6 @@
                                     "color": "white",
                                     "italic": false
                                 },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "12 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "1.2 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
                                 [
                                     {
                                         "text": "JustSh1sh_",

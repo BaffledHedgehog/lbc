@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:steampunk_pickaxe"
                             }
                         },
                         {
@@ -50,7 +50,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:steampunk_sword",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -112,7 +112,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:steampunk_rocket"
                             }
                         },
                         {

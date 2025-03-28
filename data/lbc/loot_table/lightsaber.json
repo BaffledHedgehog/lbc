@@ -20,19 +20,18 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gdexrhrtyhfdhbftb",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 0,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "fuwyr7fyk8gsur8gdd",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -71,36 +70,7 @@
                                     "translate": "lightsaber_no_color.lore.2",
                                     "color": "white",
                                     "italic": false
-                                },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "1 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "2.5 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ]
+                                }
                             ]
                         },
                         {
@@ -147,19 +117,18 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "7cjxrtyh5thjxgfdj",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "ewzthfyjny7iyfg",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -198,36 +167,7 @@
                                     "translate": "lightsaber_blue.lore.2",
                                     "color": "white",
                                     "italic": false
-                                },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "8 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "2.5 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ]
+                                }
                             ]
                         },
                         {
@@ -268,19 +208,18 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "genegfhdghbzhgrtxzds",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "gener5rxd5thx5rhzdfgspeed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -319,36 +258,7 @@
                                     "translate": "lightsaber_red.lore.2",
                                     "color": "white",
                                     "italic": false
-                                },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "8 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "2.5 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ]
+                                }
                             ]
                         },
                         {

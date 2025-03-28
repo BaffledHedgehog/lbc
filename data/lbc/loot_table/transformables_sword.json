@@ -66,7 +66,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:hylian_sword"
                             }
                         },
                         {
@@ -164,18 +164,17 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:devilsword",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gekyjykyukyulyiyulyuli",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 0,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -246,13 +245,13 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:vampiresword",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "genjykjktukukage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 1,
                                             "operation": "add_value"
                                         }
@@ -317,7 +316,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:epicsword",
                                 "minecraft:max_damage": 300
                             }
                         },
@@ -373,7 +372,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:steaksword"
                             }
                         },
                         {
@@ -428,7 +427,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:endersword"
                             }
                         },
                         {
@@ -488,7 +487,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:gravitysword"
                             }
                         },
                         {
@@ -547,7 +546,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:guardiansword"
                             }
                         },
                         {
@@ -606,7 +605,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:icesword"
                             }
                         },
                         {
@@ -665,14 +664,14 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:evolutionsword",
                                 "minecraft:unbreakable": {},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "generyukjutkyjgframage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 1,
                                             "operation": "add_value"
                                         }
@@ -740,25 +739,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:terrasword",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "genejygktgtfhjtmage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "genericjtuykiyukiyupeed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.4,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -812,36 +810,7 @@
                                     "translate": "razorpine.lore.1",
                                     "color": "gold",
                                     "italic": false
-                                },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "8 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "1.6 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ]
+                                }
                             ]
                         },
                         {
@@ -873,25 +842,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:anal_whip",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "genenyfjmtykj6tamage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 6,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "generik5k78kiuspeed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.5,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -930,36 +898,7 @@
                                     "translate": "anal_whip.lore.2",
                                     "color": "white",
                                     "italic": false
-                                },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "7 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "1.5 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ]
+                                }
                             ]
                         },
                         {
@@ -980,25 +919,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:piston_sword",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "generinrtyjryukge",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "generdxhdbthfvghued",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.5,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -1037,36 +975,7 @@
                                     "translate": "piston_sword.lore.2",
                                     "color": "white",
                                     "italic": false
-                                },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "8 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "1.5 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ]
+                                }
                             ]
                         },
                         {

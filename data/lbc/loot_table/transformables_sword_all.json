@@ -25,19 +25,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "geh5tht6j6t7jytjhgamage",
-                                            "amount": 2,
-                                            "operation": "add_value"
-                                        }
-                                    ],
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:item_model": "lbc:vex_sword",
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -85,36 +82,7 @@
                                     "translate": "vex_sword.lore.2",
                                     "color": "white",
                                     "italic": false
-                                },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "3 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "4.0 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ]
+                                }
                             ]
                         },
                         {
@@ -136,24 +104,20 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:techrunner_katana",
                                 "minecraft:custom_name": "{\"italic\":false,\"translate\":\"techrunner_katana\"}",
                                 "minecraft:lore": [
                                     "{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\",\"extra\":[{\"translate\":\"sword\"}]}",
                                     "{\"translate\":\"techrunner_katana_lore_1\",\"italic\":false,\"color\":\"white\"}",
                                     "{\"translate\":\"techrunner_katana_lore_2\",\"italic\":false,\"color\":\"white\"}",
-                                    "{\"translate\":\"techrunner_katana_lore_3\",\"italic\":false,\"color\":\"white\"}",
-                                    "{\"text\":\"\"}",
-                                    "{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}",
-                                    "{\"text\":\" \",\"extra\":[{\"text\":\"8 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.attack_damage\",\"color\":\"dark_green\",\"italic\":false}]}",
-                                    "{\"text\":\" \",\"extra\":[{\"text\":\"1.6 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.attack_speed\",\"color\":\"dark_green\",\"italic\":false}]}"
+                                    "{\"translate\":\"techrunner_katana_lore_3\",\"italic\":false,\"color\":\"white\"}"
                                 ],
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "generijyguk8vyjhe",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 7,
                                             "operation": "add_value"
                                         },
@@ -167,12 +131,11 @@
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "generug5nubyvkctued",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.4,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -194,25 +157,24 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:crowbar",
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "genedbxtghnjgyjymjryhudamage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 8,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "geyejejyumkyutkjyrer56uteyj",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.4,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -240,35 +202,6 @@
                                         "translate": "sword",
                                         "italic": false,
                                         "color": "aqua"
-                                    }
-                                ],
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "9 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "1.6 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
                                     }
                                 ],
                                 [
@@ -301,7 +234,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:shit_katana",
                                 "minecraft:custom_name": "{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"translate\":\"shit_katana\"}",
                                 "minecraft:lore": [
                                     "[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"sword\",\"italic\": false,\"color\": \"aqua\"}]",
@@ -309,9 +242,6 @@
                                     "{\"translate\": \"shit_katana.lore.1\",\"color\": \"white\",\"italic\": false}",
                                     "{\"translate\": \"RCability\",\"color\": \"white\",\"italic\": false}",
                                     "{\"translate\": \"shit_katana.lore.2\",\"color\": \"gold\",\"italic\": false}",
-                                    "{\"translate\": \"item.modifiers.mainhand\",\"color\": \"gray\",\"italic\": false}",
-                                    "[{\"text\": \"5 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\": \"attribute.name.attack_damage\"}]",
-                                    "[{\"text\": \"1.8 \",\"color\": \"dark_green\",\"italic\": false},{\"translate\": \"attribute.name.attack_speed\",\"color\": \"dark_green\",\"italic\": false}]",
                                     "{\"translate\": \"shit_katana.lore.3\",\"color\": \"white\",\"italic\": false}"
                                 ],
                                 "minecraft:attribute_modifiers": {
@@ -319,19 +249,18 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gennfyjntfjmnykmrkyuamage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 4,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "generijryujn6ymkukytpeed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.2,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -353,7 +282,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:antimagic_stick",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 255
@@ -364,19 +293,18 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "genbdrtjnrt6jrtjamage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 4,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "generiyjutu6756565656peed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2,
                                             "operation": "add_value"
                                         }
-                                    ],
-                                    "show_in_tooltip": false
+                                    ]
                                 }
                             }
                         },
@@ -411,35 +339,6 @@
                                     "color": "yellow",
                                     "italic": false
                                 },
-                                {
-                                    "translate": "item.modifiers.mainhand",
-                                    "color": "gray",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "text": "5 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_damage"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "text": "2.0 ",
-                                        "color": "dark_green",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "translate": "attribute.name.attack_speed",
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
                                 [
                                     {
                                         "text": "nischtosnektem",

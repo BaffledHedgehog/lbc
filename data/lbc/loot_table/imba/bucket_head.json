@@ -10,7 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:bucket_reversed",
                                 "minecraft:max_damage": 200,
                                 "minecraft:dyed_color": {
                                     "rgb": 775,

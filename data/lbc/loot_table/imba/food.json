@@ -19,7 +19,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_apple"
                             }
                         },
                         {
@@ -59,7 +59,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_stew"
                             }
                         },
                         {
@@ -99,7 +99,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_bread"
                             }
                         },
                         {
@@ -139,7 +139,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_porkchop"
                             }
                         },
                         {
@@ -179,7 +179,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_porkchop"
                             }
                         },
                         {
@@ -219,7 +219,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/netherite_apple"
                             }
                         },
                         {
@@ -259,7 +259,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/bedrock_apple"
                             }
                         },
                         {
@@ -299,7 +299,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:food/golden_fish",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 2
@@ -310,14 +310,14 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "generic.ahhethhmage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 4,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "genghghghghgck_speed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
@@ -362,7 +362,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:food/diamond_fish",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 5,
@@ -375,14 +375,14 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gfhnhnfykjykamage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 8,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "genejynm8kkmfghjhjhpeed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
@@ -427,7 +427,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:food/netherite_fish",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 255,
@@ -440,14 +440,14 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gensdhs5hbyukmyhumkage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 14,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "genericed6bnu7tmkukbhjed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
@@ -492,7 +492,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:food/netherstar_fish",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 255,
@@ -505,14 +505,14 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gegytunyikibhuge",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 15,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "gentnoiikhjkhjjhed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
@@ -557,7 +557,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:food/transdimensional_fish",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 255,
@@ -570,14 +570,14 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gedjgfynmj8knrc6rege",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 16,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "gvumtujucfyhghghed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
@@ -622,7 +622,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:food/multiverse_fish",
                                 "minecraft:enchantments": {
                                     "levels": {
                                         "minecraft:knockback": 255,
@@ -635,14 +635,14 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "hdbthfdchbdfhmage",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 40,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "genernjt78kitcrheyhthhd",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -1.5,
                                             "operation": "add_value"
                                         }
@@ -687,7 +687,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_cake"
                             }
                         },
                         {
@@ -727,7 +727,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_cookie"
                             }
                         },
                         {
@@ -767,7 +767,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_melon"
                             }
                         },
                         {
@@ -807,7 +807,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_kelp"
                             }
                         },
                         {
@@ -847,7 +847,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_beef"
                             }
                         },
                         {
@@ -887,7 +887,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_beef"
                             }
                         },
                         {
@@ -927,7 +927,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_chicken"
                             }
                         },
                         {
@@ -967,7 +967,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_chicken"
                             }
                         },
                         {
@@ -1007,7 +1007,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/human_flesh"
                             }
                         },
                         {
@@ -1047,7 +1047,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/human_eye"
                             }
                         },
                         {
@@ -1087,7 +1087,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_chorus"
                             }
                         },
                         {
@@ -1127,7 +1127,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_berries"
                             }
                         },
                         {
@@ -1167,7 +1167,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_carrot"
                             }
                         },
                         {
@@ -1207,7 +1207,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/netherite_carrot"
                             }
                         },
                         {
@@ -1247,7 +1247,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_potato"
                             }
                         },
                         {
@@ -1287,7 +1287,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_potato"
                             }
                         },
                         {
@@ -1327,7 +1327,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/netherite_potato"
                             }
                         },
                         {
@@ -1367,7 +1367,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_pie"
                             }
                         },
                         {
@@ -1407,7 +1407,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_rabbit"
                             }
                         },
                         {
@@ -1447,7 +1447,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_rabbit"
                             }
                         },
                         {
@@ -1487,7 +1487,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_stew"
                             }
                         },
                         {
@@ -1527,7 +1527,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_mutton"
                             }
                         },
                         {
@@ -1567,7 +1567,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_mutton"
                             }
                         },
                         {
@@ -1607,7 +1607,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/golden_beetroot"
                             }
                         },
                         {
@@ -1647,7 +1647,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/netherite_stew"
                             }
                         },
                         {
@@ -1687,7 +1687,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/diamond_berries"
                             }
                         },
                         {
@@ -1727,7 +1727,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:food/yellow_lightings_bottle"
                             }
                         },
                         {

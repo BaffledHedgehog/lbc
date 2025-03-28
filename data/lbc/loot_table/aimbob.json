@@ -158,14 +158,14 @@
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "aimbob_sword",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": 1000,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "aimbob_sword1",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 5,
                                             "operation": "add_value"
                                         }
@@ -674,14 +674,14 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "aimbob_shears",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 6,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "aimbob_shears1",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": 32767,
                                             "operation": "add_value"
                                         }

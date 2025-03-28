@@ -2640,11 +2640,11 @@
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "sdfhhykijgujmgbhnpeed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.8,
                                             "operation": "add_value"
                                         }
-                                    ]
+                                    ],"show_in_tooltip": false
                                 }
                             }
                         },
@@ -2733,11 +2733,11 @@
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "gfyjcdbjghffkhkg",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -2.4,
                                             "operation": "add_value"
                                         }
-                                    ]
+                                    ],"show_in_tooltip": false
                                 }
                             }
                         },
@@ -2824,20 +2824,14 @@
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "gednyndyfmkmulmage",
-                                            "amount": 8,
-                                            "operation": "add_value"
-                                        },
-                                        {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "gkukt8t8tktrcgbbed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -3,
                                             "operation": "add_value"
                                         }
-                                    ]
+                                    ],
+                                    "show_in_tooltip": false
                                 }
                             }
                         },

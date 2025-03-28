@@ -20,14 +20,14 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "genej7cj6jxge",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 10,
                                             "operation": "add_value"
                                         },
                                         {
                                             "type": "minecraft:attack_speed",
                                             "slot": "mainhand",
-                                            "id": "fffffffffdaerisdaerosed",
+                                            "id": "minecraft:base_attack_speed",
                                             "amount": -3.1,
                                             "operation": "add_value"
                                         }

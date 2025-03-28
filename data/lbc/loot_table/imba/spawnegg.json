@@ -13,7 +13,7 @@
                                 "minecraft:entity_data": {
                                     "id": "minecraft:ghast",
                                     "DeathLootTable": "lbc:sauvojen_tuntija",
-                                    "PersistenceRequired":1,
+                                    "PersistenceRequired": true,
                                     "Health": 100024,
                                     "ExplosionPower": 3,
                                     "Tags": [
@@ -78,19 +78,16 @@
                                         "bob"
                                     ],
                                     "DeathLootTable": "lbc:bob",
-                                    "CustomNameVisible":1,
-                                    "PersistenceRequired":1,
-                                    "IsBaby": 0,
+                                    "CustomNameVisible": true,
+                                    "PersistenceRequired": true,
+                                    "IsBaby": true,
                                     "CustomName": "{\"translate\":\"bob\",\"color\":\"green\",\"italic\":false}",
                                     "HandItems": [
                                         {
                                             "id": "minecraft:netherite_sword",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "bob_sword",
-                                                    "italic": 0
-                                                },
+                                                "custom_name": "{\"translate\": \"bob_sword\",\"italic\": false}",
                                                 "minecraft:enchantments": {
                                                     "minecraft:sharpness": 5,
                                                     "minecraft:smite": 5,
@@ -108,10 +105,7 @@
                                             "id": "minecraft:enchanted_golden_apple",
                                             "count": 6,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "bob_apple",
-                                                    "italic": 0
-                                                }
+                                                "custom_name": "{\"translate\": \"bob_apple\",\"italic\": false}"
                                             }
                                         }
                                     ],
@@ -123,10 +117,7 @@
                                         {
                                             "id": "minecraft:netherite_boots",
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "bob_boots",
-                                                    "italic": 0
-                                                },
+                                                "custom_name": "{\"translate\": \"bob_boots\",\"italic\": false}",
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
                                                     "minecraft:fire_protection": 4,
@@ -146,10 +137,7 @@
                                             "id": "minecraft:netherite_leggings",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "bob_leggings",
-                                                    "italic": 0
-                                                },
+                                                "custom_name": "{\"translate\": \"bob_leggings\",\"italic\": false}",
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
                                                     "minecraft:fire_protection": 4,
@@ -165,10 +153,7 @@
                                             "id": "minecraft:netherite_chestplate",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "bob_chestplate",
-                                                    "italic": 0
-                                                },
+                                                "custom_name": "{\"translate\": \"bob_chestplate\",\"italic\": false}",
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
                                                     "minecraft:fire_protection": 4,
@@ -184,10 +169,7 @@
                                             "id": "minecraft:netherite_helmet",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "bob_helmet",
-                                                    "italic": 0
-                                                },
+                                                "custom_name": "{\"translate\": \"bob_helmet\",\"italic\": false}",
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
                                                     "minecraft:fire_protection": 4,
@@ -257,7 +239,7 @@
                                         "aimbob"
                                     ],
                                     "DeathLootTable": "lbc:aimbob",
-                                    "PersistenceRequired":1,
+                                    "PersistenceRequired": true,
                                     "active_effects": [
                                         {
                                             "id": "minecraft:instant_damage",
@@ -271,11 +253,6 @@
                                             "id": "minecraft:bow",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "aimbob_bow",
-                                                    "color": "gold",
-                                                    "italic": 0
-                                                },
                                                 "minecraft:enchantments": {
                                                     "minecraft:unbreaking": 3,
                                                     "minecraft:vanishing_curse": 1,
@@ -291,7 +268,7 @@
                                             "id": "minecraft:apple",
                                             "count": 6,
                                             "components": {
-                                                "minecraft:item_model": 580
+                                                "minecraft:item_model": "lbc:aimbobapple"
                                             }
                                         }
                                     ],
@@ -304,11 +281,6 @@
                                             "id": "minecraft:iron_boots",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "aimbob_boots",
-                                                    "color": "gold",
-                                                    "italic": 0
-                                                },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
                                                     "minecraft:fire_protection": 4,
@@ -327,7 +299,7 @@
                                                     {
                                                         "type": "minecraft:knockback_resistance",
                                                         "id": "minecraft:knockback_resistance",
-                                                        "base": 1000,
+                                                        "amount": 1000,
                                                         "operation": "add_value",
                                                         "slot": "feet"
                                                     }
@@ -338,11 +310,6 @@
                                             "id": "minecraft:iron_leggings",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "aimbob_leggings",
-                                                    "color": "gold",
-                                                    "italic": 0
-                                                },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
                                                     "minecraft:fire_protection": 4,
@@ -357,8 +324,8 @@
                                                     {
                                                         "type": "minecraft:movement_speed",
                                                         "id": "minecraft:movement_speed",
-                                                        "base": 0.5,
-                                                        "Operation": 1,
+                                                        "amount": 0.5,
+                                                        "operation": "add_multiplied_total",
                                                         "slot": "legs"
                                                     }
                                                 ]
@@ -368,11 +335,6 @@
                                             "id": "minecraft:iron_chestplate",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "aimbob_chestplate",
-                                                    "color": "gold",
-                                                    "italic": 0
-                                                },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
                                                     "minecraft:fire_protection": 4,
@@ -387,7 +349,7 @@
                                                     {
                                                         "type": "minecraft:max_health",
                                                         "id": "minecraft:max_health",
-                                                        "base": 40,
+                                                        "amount": 40,
                                                         "operation": "add_value",
                                                         "slot": "chest"
                                                     }
@@ -398,11 +360,6 @@
                                             "id": "minecraft:iron_helmet",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "aimbob_helmet",
-                                                    "color": "gold",
-                                                    "italic": 0
-                                                },
                                                 "minecraft:enchantments": {
                                                     "minecraft:protection": 4,
                                                     "minecraft:fire_protection": 4,
@@ -463,10 +420,10 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
-                                    "PersistenceRequired":1,
+                                    "PersistenceRequired": true,
                                     "DeathLootTable": "none",
-                                    "IsBaby": 1,
-                                    "Silent":1,
+                                    "IsBaby": true,
+                                    "Silent": true,
                                     "ArmorItems": [
                                         {},
                                         {},
@@ -475,15 +432,12 @@
                                             "id": "minecraft:oak_slab",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "agressive_slab",
-                                                    "italic": 0
-                                                },
+                                                "item_name": "{\"translate\": \"agressive_slab\",\"italic\": false}",
                                                 "attribute_modifiers": [
                                                     {
                                                         "type": "minecraft:attack_damage",
-                                                        "id": "dghdynukbvghfhjge",
-                                                        "base": 7,
+                                                        "id": "minecraft:base_attack_damage",
+                                                        "amount": 7,
                                                         "operation": "add_value",
                                                         "slot": "mainhand"
                                                     }
@@ -548,18 +502,15 @@
                                         "fat_skeleton"
                                     ],
                                     "DeathLootTable": "lbc:fatskeleton",
-                                    "PersistenceRequired":1,
-                                    "CustomNameVisible":1,
+                                    "PersistenceRequired": true,
+                                    "CustomNameVisible": true,
                                     "CustomName": "{\"translate\":\"fat_skeleton\",\"italic\":false}",
                                     "HandItems": [
                                         {
                                             "id": "minecraft:bone",
                                             "count": 1,
                                             "components": {
-                                                "custom_name": {
-                                                    "translate": "omega_bone",
-                                                    "italic": 0
-                                                },
+                                                "custom_name": "{\"translate\": \"omega_bone\",\"italic\": false}",
                                                 "minecraft:enchantments": {
                                                     "minecraft:knockback": 1,
                                                     "vanishing_curse": 1
@@ -668,7 +619,7 @@
                                                 "otchim": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:item_model": 658
+                                            "minecraft:item_model": "lbc:otchim"
                                         }
                                     }
                                 }
@@ -807,7 +758,7 @@
                                                 "shahid": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:item_model": 658
+                                            "minecraft:item_model": "lbc:drop_trap"
                                         }
                                     }
                                 }
@@ -849,11 +800,11 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
-                                    "CustomNameVisible":1,
+                                    "CustomNameVisible": true,
                                     "DeathLootTable": "lbc:reactive_shish",
-                                    "PersistenceRequired":1,
+                                    "PersistenceRequired": true,
                                     "Health": 30,
-                                    "IsBaby": 1,
+                                    "IsBaby": true,
                                     "CustomName": "{\"translate\":\"reactive_shish\",\"color\":\"green\",\"italic\":false}",
                                     "active_effects": [
                                         {
@@ -941,8 +892,8 @@
                                     "id": "minecraft:husk",
                                     "CustomNameVisible": false,
                                     "CustomName": "{\"text\":\"Lucky Block\",\"color\":\"yellow\",\"italic\":false}",
-                                    "IsBaby": 1,
-                                    "Silent":1,
+                                    "IsBaby": true,
+                                    "Silent": true,
                                     "DeathLootTable": "lbc:luckyblock",
                                     "ArmorItems": [
                                         {},
@@ -954,25 +905,22 @@
                                             "components": {
                                                 "minecraft:profile": {
                                                     "id": [
-                                                        -940982597,
-                                                        -1981660917,
-                                                        -1797831442,
-                                                        692841550
+                                                        2080793942,
+                                                        -524468218,
+                                                        -1541115779,
+                                                        1949756395
                                                     ],
-                                                    "Properties": {
-                                                        "textures": [
-                                                            {
-                                                                "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI5MmNiNDMzMzNhYTYyMWM3MGVlZjRlYmYyOTliYTQxMmI0NDZmZTEyZTM0MWNjYzU4MmYzMTkyMTg5In19fQ=="
-                                                            }
-                                                        ]
-                                                    }
+                                                    "properties": [
+                                                        {
+                                                            "name": "textures",
+                                                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0="
+                                                        }
+                                                    ]
                                                 },
-                                                "components": {
-                                                    "minecraft:enchantments": {
-                                                        "vanishing_curse": 1
-                                                    },
-                                                    "minecraft:enchantment_glint_override": 0
-                                                }
+                                                "minecraft:enchantments": {
+                                                    "vanishing_curse": 1
+                                                },
+                                                "minecraft:enchantment_glint_override": false
                                             }
                                         }
                                     ],
@@ -1038,7 +986,7 @@
                                                 "droppertnt": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:item_model": 658
+                                            "minecraft:item_model": "lbc:drop_boss"
                                         }
                                     }
                                 }
@@ -1080,7 +1028,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:pig",
-                                    "CustomNameVisible":1,
+                                    "CustomNameVisible": true,
                                     "DeathLootTable": "lbc:applepig",
                                     "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}"
                                 }
@@ -1123,7 +1071,7 @@
                                 "minecraft:entity_data": {
                                     "id": "minecraft:bee",
                                     "DeathLootTable": "lbc:honey",
-                                    "HasNectar": 1
+                                    "HasNectar": true
                                 }
                             }
                         },
@@ -1163,9 +1111,9 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombified_piglin",
-                                    "Silent":1,
-                                    "CustomNameVisible":1,
-                                    "PersistenceRequired":1,
+                                    "Silent": true,
+                                    "CustomNameVisible": true,
+                                    "PersistenceRequired": true,
                                     "Health": 500,
                                     "Tags": [
                                         "stalin",
@@ -1177,7 +1125,7 @@
                                             "id": "minecraft:carrot_on_a_stick",
                                             "count": 1,
                                             "components": {
-                                                "minecraft:item_model": 619
+                                                "minecraft:item_model": "lbc:ak47"
                                             }
                                         },
                                         {}
@@ -1194,12 +1142,10 @@
                                                 "dyed_color": {
                                                     "rgb": 517
                                                 },
-                                                "components": {
-                                                    "minecraft:enchantments": {
-                                                        "vanishing_curse": 1
-                                                    },
-                                                    "minecraft:enchantment_glint_override": 0
-                                                }
+                                                "minecraft:enchantments": {
+                                                    "vanishing_curse": 1
+                                                },
+                                                "minecraft:enchantment_glint_override": false
                                             }
                                         },
                                         {
@@ -1219,12 +1165,10 @@
                                                 "dyed_color": {
                                                     "rgb": 517
                                                 },
-                                                "components": {
-                                                    "minecraft:enchantments": {
-                                                        "vanishing_curse": 1
-                                                    },
-                                                    "minecraft:enchantment_glint_override": 0
-                                                }
+                                                "minecraft:enchantments": {
+                                                    "vanishing_curse": 1
+                                                },
+                                                "minecraft:enchantment_glint_override": false
                                             }
                                         },
                                         {
@@ -1234,13 +1178,11 @@
                                                 "dyed_color": {
                                                     "rgb": 517
                                                 },
-                                                "components": {
-                                                    "minecraft:enchantments": {
-                                                        "vanishing_curse": 1
-                                                    },
-                                                    "minecraft:enchantment_glint_override": 0,
-                                                    "minecraft:unbreakable": {}
-                                                }
+                                                "minecraft:enchantments": {
+                                                    "vanishing_curse": 1
+                                                },
+                                                "minecraft:enchantment_glint_override": false,
+                                                "minecraft:unbreakable": {}
                                             }
                                         }
                                     ],
@@ -1321,7 +1263,7 @@
                                                 "mom": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:item_model": 658
+                                            "minecraft:item_model": "lbc:drop_not_trap"
                                         }
                                     }
                                 }
@@ -1364,13 +1306,13 @@
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
                                     "NoGravity": false,
-                                    "Silent":1,
+                                    "Silent": true,
                                     "Invulnerable": false,
-                                    "CustomNameVisible":1,
-                                    "PersistenceRequired":1,
-                                    "NoAI":1,
+                                    "CustomNameVisible": true,
+                                    "PersistenceRequired": true,
+                                    "NoAI": true,
                                     "Health": 500,
-                                    "IsBaby": 0,
+                                    "IsBaby": true,
                                     "Tags": [
                                         "transformator",
                                         "lucky_mob"
@@ -1384,7 +1326,7 @@
                                             "id": "minecraft:repeating_command_block",
                                             "count": 1,
                                             "components": {
-                                                "minecraft:item_model": 596,
+                                                "minecraft:item_model": "lbc:transformator",
                                                 "minecraft:enchantments": {
                                                     "vanishing_curse": 1
                                                 },
@@ -1464,7 +1406,7 @@
                                                 "helicopter_boss": 1,
                                                 "drop": 1
                                             },
-                                            "minecraft:item_model": 658
+                                            "minecraft:item_model": "lbc:drop_boss"
                                         }
                                     }
                                 }
@@ -1506,9 +1448,9 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
-                                    "Silent":1,
+                                    "Silent": true,
                                     "DeathLootTable": "lbc:muravei",
-                                    "PersistenceRequired":1,
+                                    "PersistenceRequired": true,
                                     "ArmorDropChances": [
                                         0.085,
                                         0.085,
@@ -1516,7 +1458,7 @@
                                         0.0
                                     ],
                                     "Health": 10,
-                                    "IsBaby": 1,
+                                    "IsBaby": true,
                                     "Tags": [
                                         "muravei",
                                         "lucky_mob"
@@ -1530,7 +1472,7 @@
                                             "id": "minecraft:repeating_command_block",
                                             "count": 1,
                                             "components": {
-                                                "minecraft:item_model": 655,
+                                                "minecraft:item_model": "lbc:muravei",
                                                 "minecraft:enchantments": {
                                                     "vanishing_curse": 1
                                                 },
@@ -1666,7 +1608,7 @@
                                     ],
                                     "CustomName": "{\"translate\":\"golden_skeleton\",\"color\":\"gold\",\"italic\":false}",
                                     "DeathLootTable": "lbc:golden_skeleton",
-                                    "PersistenceRequired":1,
+                                    "PersistenceRequired": true,
                                     "Health": 30,
                                     "HandItems": [
                                         {
@@ -1795,20 +1737,18 @@
                                     ],
                                     "CustomName": "{\"translate\":\"tiny_skeleton\",\"color\":\"gold\",\"italic\":false}",
                                     "DeathLootTable": "lbc:tiny_skeleton",
-                                    "PersistenceRequired":1,
+                                    "PersistenceRequired": true,
                                     "Health": 45,
                                     "HandItems": [
                                         {
                                             "id": "minecraft:golden_sword",
                                             "count": 1,
                                             "components": {
-                                                "minecraft:item_model": 582,
-                                                "components": {
-                                                    "minecraft:enchantments": {
-                                                        "vanishing_curse": 1
-                                                    },
-                                                    "minecraft:enchantment_glint_override": 0
-                                                }
+                                                "minecraft:item_model": "lbc:tiny_bone",
+                                                "minecraft:enchantments": {
+                                                    "vanishing_curse": 1
+                                                },
+                                                "minecraft:enchantment_glint_override": false
                                             }
                                         },
                                         {}

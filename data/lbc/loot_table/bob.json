@@ -443,7 +443,7 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "bob_shears",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 4,
                                             "operation": "add_value"
                                         }

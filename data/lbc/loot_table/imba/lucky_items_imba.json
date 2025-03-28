@@ -46,7 +46,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:metal_pipe"
                             }
                         },
                         {
@@ -87,7 +87,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "minecraft:bedrock",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -141,7 +141,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:mum"
                             }
                         },
                         {
@@ -224,7 +224,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "minecraft:tnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -320,8 +320,8 @@
                                         2,
                                         0
                                     ],
-                                    "Invulnerable":1,
-                                    "PersistenceRequired":1,
+                                    "Invulnerable": true,
+                                    "PersistenceRequired": true,
                                     "Health": 2147483647,
                                     "attributes": [
                                         {
@@ -377,7 +377,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "fusedtnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:tnt",
                                     "fuse": 50,
@@ -426,7 +426,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:lightningegg"
                             }
                         },
                         {
@@ -542,7 +542,7 @@
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
-                                            "id": "gsgdbgnfkcudsfxgge",
+                                            "id": "minecraft:base_attack_damage",
                                             "amount": 9,
                                             "operation": "add_value"
                                         }
@@ -625,7 +625,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:omegatnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -681,7 +681,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "lbc:nuke",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
                                     "Tags": [
@@ -738,7 +738,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:bridgebuilder"
                             }
                         },
                         {
@@ -786,7 +786,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:"
+                                "minecraft:item_model": "lbc:teleporter"
                             }
                         },
                         {

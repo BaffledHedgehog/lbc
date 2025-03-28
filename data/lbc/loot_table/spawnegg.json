@@ -403,11 +403,10 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
-                                    "id": "minecraft:oak_boat",
-                                    "NoGravity":1,
-                                    "Glowing":1,
+                                    "id": "minecraft:birch_boat",
+                                    "NoGravity":true,
+                                    "Glowing":true,
                                     "CustomNameVisible": false,
-                                    "Type": "birch",
                                     "Motion": [
                                         0,
                                         0.01,

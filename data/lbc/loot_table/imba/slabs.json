@@ -773,7 +773,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:",
+                                "minecraft:item_model": "minecraft:jungle_slab",
                                 "!minecraft:max_damage": {},
                                 "minecraft:max_damage": 64
                             }
@@ -2179,7 +2179,7 @@
                                         "scale": 10
                                     },
                                     "operation": "add_value",
-                                    "id": "minecraft:34826bd8-7659-4719-b70c-3cb21ec8d68b",
+                                    "id": "minecraft:base_attack_damage",
                                     "slot": "mainhand"
                                 }
                             ]
@@ -2229,7 +2229,7 @@
                                         "scale": 100000000
                                     },
                                     "operation": "add_value",
-                                    "id": "minecraft:34826bd8-7659-4719-b70c-3cb21ec8d68b",
+                                    "id": "minecraft:base_attack_damage",
                                     "slot": "mainhand"
                                 }
                             ]
