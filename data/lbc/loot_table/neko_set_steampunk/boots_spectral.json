@@ -18,10 +18,7 @@
                                     "{\"translate\": \"flying_boots.lore.1\",\"color\": \"white\",\"italic\": false}",
                                     "{\"translate\": \"flying_boots.lore.2\",\"color\": \"white\",\"italic\": false}"
                                 ],
-                                "minecraft:dyed_color": {
-                                    "rgb": 6,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:spectral"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

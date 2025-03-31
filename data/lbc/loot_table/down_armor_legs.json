@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/glass_leggings",
                                 "minecraft:max_damage": 150,
-                                "minecraft:dyed_color": {
-                                    "rgb": 256,
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:equippable":{"slot":"legs","asset_id":"lbc:glass"}
                             }
                         },
                         {

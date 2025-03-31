@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/flesh_leggings",
                                 "minecraft:max_damage": 6000,
-                                "minecraft:dyed_color": {
-                                    "rgb": 258,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"legs","asset_id":"lbc:flesh"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

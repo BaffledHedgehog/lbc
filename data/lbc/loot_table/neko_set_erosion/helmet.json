@@ -17,10 +17,7 @@
                                         "minecraft:protection": 120
                                     }
                                 },
-                                "minecraft:dyed_color": {
-                                    "rgb": 8,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"head","asset_id":"lbc:erosion"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

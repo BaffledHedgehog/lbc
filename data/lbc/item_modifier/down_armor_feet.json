@@ -4,10 +4,7 @@
         "components": {
             "minecraft:item_model": "lbc:armors/glass_boots",
             "minecraft:max_damage": 150,
-            "minecraft:dyed_color": {
-                "rgb": 520,
-                "show_in_tooltip": false
-            }
+            "minecraft:equippable":{"slot":"feet","asset_id":"lbc:glass"}
         }
     },
     {

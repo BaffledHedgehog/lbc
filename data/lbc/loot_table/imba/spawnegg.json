@@ -1139,9 +1139,7 @@
                                             "id": "minecraft:leather_boots",
                                             "count": 1,
                                             "components": {
-                                                "dyed_color": {
-                                                    "rgb": 517
-                                                },
+                                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:stalin"},
                                                 "minecraft:enchantments": {
                                                     "vanishing_curse": 1
                                                 },
@@ -1162,9 +1160,7 @@
                                             "id": "minecraft:leather_chestplate",
                                             "count": 1,
                                             "components": {
-                                                "dyed_color": {
-                                                    "rgb": 517
-                                                },
+                                                "minecraft:equippable":{"slot":"chest","asset_id":"lbc:stalin"},
                                                 "minecraft:enchantments": {
                                                     "vanishing_curse": 1
                                                 },
@@ -1175,9 +1171,7 @@
                                             "id": "minecraft:leather_helmet",
                                             "count": 1,
                                             "components": {
-                                                "dyed_color": {
-                                                    "rgb": 517
-                                                },
+                                                "minecraft:equippable":{"slot":"head","asset_id":"lbc:stalin"},
                                                 "minecraft:enchantments": {
                                                     "vanishing_curse": 1
                                                 },

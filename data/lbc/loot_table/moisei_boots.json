@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/moisei_boots",
                                 "minecraft:max_damage": 600,
-                                "minecraft:dyed_color": {
-                                    "rgb": 768,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:moisei"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

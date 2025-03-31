@@ -18,10 +18,7 @@
                                         "minecraft:protection": 3
                                     }
                                 },
-                                "minecraft:dyed_color": {
-                                    "rgb": 4,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:paladin"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

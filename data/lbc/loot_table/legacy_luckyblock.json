@@ -1338,7 +1338,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{jumpboost:1}"
+                            "tag": "{jumpboost_old:1}"
                         }
                     ]
                 },
@@ -1977,7 +1977,7 @@
                                     "show_in_tooltip": false
                                 },
                                 "minecraft:dyed_color": {
-                                    "rgb": 16711680,
+                                    "rgb": 16730112,
                                     "show_in_tooltip": false
                                 },
                                 "minecraft:attribute_modifiers": {
@@ -2492,7 +2492,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:pig",
-                                    "CustomNameVisible":true,
+                                    "CustomNameVisible": true,
                                     "Health": 50,
                                     "Tags": [
                                         "fakepig",
@@ -2601,7 +2601,7 @@
                                     "show_in_tooltip": false
                                 },
                                 "minecraft:dyed_color": {
-                                    "rgb": 917301,
+                                    "rgb": 2555678,
                                     "show_in_tooltip": false
                                 },
                                 "minecraft:attribute_modifiers": {
@@ -3278,10 +3278,7 @@
                                         "minecraft:projectile_protection": 5
                                     }
                                 },
-                                "minecraft:dyed_color": {
-                                    "rgb": 16739302,
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:dyed_color": {"rgb": 16735721,"show_in_tooltip": false}
                             }
                         },
                         {

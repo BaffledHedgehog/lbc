@@ -17,10 +17,7 @@
                                         "minecraft:feather_falling": 10
                                     }
                                 },
-                                "minecraft:dyed_color": {
-                                    "rgb": 3,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:traveller"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

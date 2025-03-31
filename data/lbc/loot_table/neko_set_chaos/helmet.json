@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/chaos_helmet",
                                 "minecraft:max_damage": 700,
-                                "minecraft:dyed_color": {
-                                    "rgb": 257,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"head","asset_id":"lbc:chaos"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

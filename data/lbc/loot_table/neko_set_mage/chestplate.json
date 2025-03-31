@@ -19,10 +19,7 @@
                                         "minecraft:projectile_protection": 5
                                     }
                                 },
-                                "minecraft:dyed_color": {
-                                    "rgb": 3,
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:equippable":{"slot":"chest","asset_id":"lbc:mage"}
                             }
                         },
                         {

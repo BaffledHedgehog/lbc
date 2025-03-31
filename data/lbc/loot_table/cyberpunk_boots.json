@@ -11,10 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_damage": 600,
-                                "minecraft:dyed_color": {
-                                    "rgb": 773,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:techno"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

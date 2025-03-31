@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/shulker_leggings",
                                 "minecraft:max_damage": 900,
-                                "minecraft:dyed_color": {
-                                    "rgb": 6,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"legs","asset_id":"lbc:shulker"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

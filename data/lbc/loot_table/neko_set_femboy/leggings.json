@@ -19,10 +19,7 @@
                                         "minecraft:projectile_protection": 5
                                     }
                                 },
-                                "minecraft:dyed_color": {
-                                    "rgb": 31,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"legs","asset_id":"lbc:nyauwu"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

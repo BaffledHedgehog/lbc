@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/technomk2_boots",
                                 "minecraft:max_damage": 9000,
-                                "minecraft:dyed_color": {
-                                    "rgb": 773,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:technomk2"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

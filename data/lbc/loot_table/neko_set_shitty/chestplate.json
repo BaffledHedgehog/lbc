@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/shit_chestplate",
                                 "minecraft:max_damage": 300,
-                                "minecraft:dyed_color": {
-                                    "rgb": 258,
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:equippable":{"slot":"chest","asset_id":"lbc:shit"}
                             }
                         },
                         {

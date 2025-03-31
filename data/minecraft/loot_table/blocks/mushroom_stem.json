@@ -46,10 +46,15 @@
                     ],
                     "functions": [
                         {
-                            "parameters": {},
                             "enchantment": "minecraft:fortune",
                             "formula": "minecraft:ore_drops",
                             "function": "minecraft:apply_bonus"
+                        },
+                        {
+                            "function": "minecraft:limit_count",
+                            "limit": {
+                                "max": 99
+                            }
                         }
                     ]
                 }
@@ -107,10 +112,15 @@
                     ],
                     "functions": [
                         {
-                            "parameters": {},
                             "enchantment": "minecraft:fortune",
                             "formula": "minecraft:ore_drops",
                             "function": "minecraft:apply_bonus"
+                        },
+                        {
+                            "function": "minecraft:limit_count",
+                            "limit": {
+                                "max": 99
+                            }
                         }
                     ]
                 }
@@ -182,13 +192,6 @@
                                         "min": -6,
                                         "max": 2,
                                         "type": "minecraft:uniform"
-                                    }
-                                },
-                                {
-                                    "function": "minecraft:limit_count",
-                                    "limit": {
-                                        "min": 0,
-                                        "max": 0
                                     }
                                 },
                                 {

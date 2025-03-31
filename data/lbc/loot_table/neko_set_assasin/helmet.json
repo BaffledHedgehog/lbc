@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/assasin_helmet",
                                 "minecraft:max_damage": 500,
-                                "minecraft:dyed_color": {
-                                    "rgb": 515,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"head","asset_id":"lbc:assasin"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

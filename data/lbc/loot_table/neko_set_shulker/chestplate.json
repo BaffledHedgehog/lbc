@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/shulker_chestplate",
                                 "minecraft:max_damage": 900,
-                                "minecraft:dyed_color": {
-                                    "rgb": 259,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"chest","asset_id":"lbc:shulker"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

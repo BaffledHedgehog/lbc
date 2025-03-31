@@ -17,10 +17,7 @@
                                         "minecraft:protection": 180
                                     }
                                 },
-                                "minecraft:dyed_color": {
-                                    "rgb": 257,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"legs","asset_id":"lbc:erosion"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

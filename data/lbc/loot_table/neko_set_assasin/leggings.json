@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/assasin_leggings",
                                 "minecraft:max_damage": 500,
-                                "minecraft:dyed_color": {
-                                    "rgb": 10,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"legs","asset_id":"lbc:assasin"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

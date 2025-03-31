@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/technomk2_leggings",
                                 "minecraft:max_damage": 9000,
-                                "minecraft:dyed_color": {
-                                    "rgb": 30,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"legs","asset_id":"lbc:technomk2"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

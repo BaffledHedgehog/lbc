@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/techno_leggings",
                                 "minecraft:max_damage": 600,
-                                "minecraft:dyed_color": {
-                                    "rgb": 30,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"legs","asset_id":"lbc:techno"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {

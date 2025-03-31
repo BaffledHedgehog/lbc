@@ -12,10 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/overload_helmet",
                                 "minecraft:max_damage": 900,
-                                "minecraft:dyed_color": {
-                                    "rgb": 776,
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:equippable":{"slot":"head","asset_id":"lbc:overload"},
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
