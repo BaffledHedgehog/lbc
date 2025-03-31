@@ -37,10 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "troll":1,
-                                "trollmask": "1"
-                            }
+                            "minecraft:custom_data": "{troll: 1,trollmask: 1}"
                         }
                     }
                 ]
@@ -64,10 +61,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "troll":1,
-                                "trollmask": "2"
-                            }
+                            "minecraft:custom_data": "{troll: 1,trollmask: 2}"
                         }
                     }
                 ]
@@ -91,10 +85,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "troll":1,
-                                "trollmask": "3"
-                            }
+                            "minecraft:custom_data": "{troll: 1,trollmask: 3}"
                         }
                     }
                 ]
@@ -118,10 +109,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "troll":1,
-                                "trollmask": "4"
-                            }
+                            "minecraft:custom_data": "{troll: 1,trollmask: 4}"
                         }
                     }
                 ]
@@ -145,10 +133,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "troll":1,
-                                "trollmask": "5"
-                            }
+                            "minecraft:custom_data": "{troll: 1,trollmask: 5}"
                         }
                     }
                 ]
@@ -172,10 +157,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "troll":1,
-                                "trollmask": "6"
-                            }
+                            "minecraft:custom_data": "{troll: 1,trollmask: 6}"
                         }
                     }
                 ]

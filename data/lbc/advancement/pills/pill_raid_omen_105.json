@@ -5,9 +5,7 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "pill": "102"
-                        }
+                        "minecraft:custom_data": "{pill:102}"
                     }
                 },
                 "player": [

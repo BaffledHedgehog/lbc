@@ -37,11 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "shooter":1,
-                                "woodificator":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,shooter:1,woodificator:1}"
                         }
                     }
                 ]

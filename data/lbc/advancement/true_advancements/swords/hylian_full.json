@@ -38,20 +38,12 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "hylian":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,hylian: 1}"
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "shield":1,
-                                "hylianshield":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,shield: 1,hylianshield: 1}"
                         }
                     }
                 ]

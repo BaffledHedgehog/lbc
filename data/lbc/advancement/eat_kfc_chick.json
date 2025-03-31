@@ -5,9 +5,7 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "kfc_chick":1
-                        }
+                        "minecraft:custom_data": "{kfc_chick:1}"
                     }
                 },
                 "player": [

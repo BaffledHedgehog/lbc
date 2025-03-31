@@ -38,11 +38,11 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "copypaster":1
-                            }
+                            "minecraft:custom_data": "{copypaster:1}"
                         },
-                        "count": 64
+                        "count": {
+                            "min": 64
+                        }
                     }
                 ]
             }

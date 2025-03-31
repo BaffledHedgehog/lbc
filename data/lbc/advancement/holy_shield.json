@@ -4,13 +4,8 @@
             "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {
-                    "items": [
-                        "minecraft:shield"
-                    ],
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "holyshield":1
-                        }
+                        "minecraft:custom_data": "{holyshield:1}"
                     }
                 },
                 "player": [

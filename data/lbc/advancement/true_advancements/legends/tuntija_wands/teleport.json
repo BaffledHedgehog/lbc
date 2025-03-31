@@ -37,9 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "stteleport":1
-                            }
+                            "minecraft:custom_data": "{stteleport:1}"
                         }
                     }
                 ]

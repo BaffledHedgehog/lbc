@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:heart_of_the_sea",
-            "components": null
+            "id": "minecraft:heart_of_the_sea"
         },
         "title": {
             "translate": "lbc.adv.accessories"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "accessory":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,accessory:1}"
                         }
                     }
                 ]

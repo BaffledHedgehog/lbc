@@ -40,14 +40,10 @@
                             "minecraft:enchantments": [
                                 {
                                     "enchantments": "minecraft:power",
-                                    "levels": 5
+                                    "levels": {"min": 2}
                                 }
                             ],
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "bow":1,
-                                "double":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,bow:1,double:1}"
                         }
                     }
                 ]

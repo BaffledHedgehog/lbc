@@ -1,1 +1,1 @@
-execute if score darkness lbc.math matches 1 run effect give @a[gamemode=!spectator,predicate=!lbc:nexus,nbt={Inventory:[{components:{"minecraft:custom_data":{trollmask:"2"}}}]}] minecraft:darkness 15 0 true
+execute if score darkness lbc.math matches 1 run effect give @a[gamemode=!spectator,predicate=!lbc:nexus,nbt={Inventory:[{components:{"minecraft:custom_data":{trollmask:2}}}]}] minecraft:darkness 15 0 true

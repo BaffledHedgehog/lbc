@@ -40,30 +40,26 @@
                             "equipment": {
                                 "head": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "mage":1
-                                        }
+                                        "minecraft:custom_data": "{mage: 1}"
+                                        
                                     }
                                 },
                                 "chest": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "mage":1
-                                        }
+                                        "minecraft:custom_data": "{mage: 1}"
+                                        
                                     }
                                 },
                                 "legs": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "mage":1
-                                        }
+                                        "minecraft:custom_data": "{mage: 1}"
+                                        
                                     }
                                 },
                                 "feet": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "mage":1
-                                        }
+                                        "minecraft:custom_data": "{mage: 1}"
+                                        
                                     }
                                 }
                             }

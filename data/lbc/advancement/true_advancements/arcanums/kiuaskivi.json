@@ -49,11 +49,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "transformable":1,
-                                            "arcanum":1,
-                                            "kiuaskivi":1
-                                        }
+                                        "minecraft:custom_data": "{transformable:1,arcanum:1,kiuaskivi:1}"
                                     }
                                 }
                             }

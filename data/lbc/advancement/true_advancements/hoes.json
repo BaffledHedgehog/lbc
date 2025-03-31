@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:golden_hoe",
-            "components": null
+            "id": "minecraft:golden_hoe"
         },
         "title": {
             "translate": "lbc.adv.hoes"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "hoe":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,hoe:1}"
                         }
                     }
                 ]

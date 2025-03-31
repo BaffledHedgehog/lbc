@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:totem_of_undying",
-            "components": null
+            "id": "minecraft:totem_of_undying"
         },
         "title": {
             "translate": "lbc.adv.totem"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "totem":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,totem:1}"
                         }
                     }
                 ]

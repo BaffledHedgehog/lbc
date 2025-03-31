@@ -5,9 +5,7 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "random_speed":1
-                        }
+                        "minecraft:custom_data": "{random_speed:1}"
                     }
                 },
                 "player": [

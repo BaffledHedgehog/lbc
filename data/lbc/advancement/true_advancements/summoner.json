@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:phantom_spawn_egg",
-            "components": null
+            "id": "minecraft:phantom_spawn_egg"
         },
         "title": {
             "translate": "lbc.adv.summoner"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,summoner:1}"
                         }
                     }
                 ]

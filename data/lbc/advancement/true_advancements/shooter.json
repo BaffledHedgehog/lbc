@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:spectral_arrow",
-            "components": null
+            "id": "minecraft:spectral_arrow"
         },
         "title": {
             "translate": "lbc.adv.shooter"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "shooter":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,shooter:1}"
                         }
                     }
                 ]

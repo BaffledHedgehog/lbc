@@ -73,13 +73,12 @@
                                                 "minecraft:enchantments": [
                                                     {
                                                         "enchantments": "minecraft:unbreaking",
-                                                        "levels": 10
+                                                        "levels": {
+                                                            "min": 10
+                                                        }
                                                     }
                                                 ],
-                                                "minecraft:custom_data": {
-                                                    "transformable":1,
-                                                    "shield":1
-                                                }
+                                                "minecraft:custom_data": "{transformable: 1,shield: 1}"
                                             }
                                         }
                                     }
@@ -95,13 +94,12 @@
                                                 "minecraft:enchantments": [
                                                     {
                                                         "enchantments": "minecraft:unbreaking",
-                                                        "levels": 10
+                                                        "levels": {
+                                                            "min": 10
+                                                        }
                                                     }
                                                 ],
-                                                "minecraft:custom_data": {
-                                                    "transformable":1,
-                                                    "shield":1
-                                                }
+                                                "minecraft:custom_data": "{transformable: 1,shield: 1}"
                                             }
                                         }
                                     }

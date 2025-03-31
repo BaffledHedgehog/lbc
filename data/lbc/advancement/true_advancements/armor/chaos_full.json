@@ -41,30 +41,22 @@
                             "equipment": {
                                 "head": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "chaoschestplate":1
-                                        }
+                                        "minecraft:custom_data": "{chaoschestplate: 1}"
                                     }
                                 },
                                 "chest": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "chaoschestplate":1
-                                        }
+                                        "minecraft:custom_data": "{chaoschestplate: 1}"
                                     }
                                 },
                                 "legs": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "chaoschestplate":1
-                                        }
+                                        "minecraft:custom_data": "{chaoschestplate: 1}"
                                     }
                                 },
                                 "feet": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "chaoschestplate":1
-                                        }
+                                        "minecraft:custom_data": "{chaoschestplate: 1}"
                                     }
                                 }
                             }
@@ -75,26 +67,20 @@
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "cool":1
+                                "transformable": 1,
+                                "sword": 1,
+                                "cool": 1
                             }
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "staff":1,
-                                "unstable_spellbook":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,staff: 1,unstable_spellbook: 1}"
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "luckyblockwand":1
-                            }
+                            "minecraft:custom_data": "{luckyblockwand: 1}"
                         }
                     }
                 ]

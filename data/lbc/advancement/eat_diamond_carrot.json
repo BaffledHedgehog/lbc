@@ -5,9 +5,7 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "diamond_carrot":1
-                        }
+                        "minecraft:custom_data": "{diamond_carrot:1}"
                     }
                 },
                 "player": [

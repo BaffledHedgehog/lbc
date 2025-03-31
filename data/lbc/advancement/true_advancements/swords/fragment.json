@@ -37,12 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 0
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 0}"
                         }
                     }
                 ]
@@ -66,12 +61,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 1}"
                         }
                     }
                 ]
@@ -95,12 +85,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 2
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 2}"
                         }
                     }
                 ]
@@ -124,12 +109,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 3
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 3}"
                         }
                     }
                 ]
@@ -153,12 +133,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 4
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 4}"
                         }
                     }
                 ]
@@ -182,12 +157,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 5
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 5}"
                         }
                     }
                 ]
@@ -211,12 +181,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 6
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 6}"
                         }
                     }
                 ]
@@ -240,12 +205,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 7
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 7}"
                         }
                     }
                 ]
@@ -269,12 +229,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 8
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 8}"
                         }
                     }
                 ]
@@ -298,12 +253,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 9
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 9}"
                         }
                     }
                 ]
@@ -327,12 +277,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 10
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 10}"
                         }
                     }
                 ]
@@ -356,12 +301,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 11
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 11}"
                         }
                     }
                 ]
@@ -385,12 +325,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 12
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 12}"
                         }
                     }
                 ]
@@ -414,12 +349,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 13
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 13}"
                         }
                     }
                 ]
@@ -443,12 +373,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 14
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 14}"
                         }
                     }
                 ]
@@ -472,12 +397,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 15
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 15}"
                         }
                     }
                 ]
@@ -501,12 +421,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "fragmentsword":1,
-                                "cooltype": 16
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,fragmentsword: 1,cooltype: 16}"
                         }
                     }
                 ]

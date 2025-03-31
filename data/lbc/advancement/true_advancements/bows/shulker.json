@@ -30,11 +30,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "transformable":1,
-                                            "bow":1,
-                                            "shulker":1
-                                        }
+                                        "minecraft:custom_data": "{transformable:1,bow:1,shulker:1}"
                                     }
                                 }
                             }
@@ -50,11 +46,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "transformable":1,
-                                            "bow":1,
-                                            "shulker":1
-                                        }
+                                        "minecraft:custom_data": "{transformable:1,bow:1,shulker:1}"
                                     }
                                 }
                             }

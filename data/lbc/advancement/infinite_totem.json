@@ -11,10 +11,7 @@
                                 "levels": 1
                             }
                         ],
-                        "minecraft:custom_data": {
-                            "transformable":1,
-                            "totem":1
-                        }
+                        "minecraft:custom_data": "{transformable:1,totem:1}"
                     }
                 },
                 "player": [

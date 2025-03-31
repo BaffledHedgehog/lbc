@@ -40,9 +40,7 @@
                             "equipment": {
                                 "chest": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "dynamite":1
-                                        }
+                                        "minecraft:custom_data": "{dynamite:1}"
                                     }
                                 }
                             }

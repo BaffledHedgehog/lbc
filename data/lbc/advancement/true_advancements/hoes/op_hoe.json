@@ -40,11 +40,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "transformable":1,
-                                            "hoe":1,
-                                            "op_hoe":1
-                                        }
+                                        "minecraft:custom_data": "{transformable:1,hoe:1,op_hoe:1}"
                                     }
                                 }
                             }

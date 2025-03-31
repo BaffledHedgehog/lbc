@@ -37,20 +37,12 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "arcanum":1,
-                                "healing_arcanum":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,arcanum:1,healing_arcanum:1}"
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "arcanum":1,
-                                "barrier_arcanum":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,arcanum:1,barrier_arcanum:1}"
                         }
                     }
                 ]

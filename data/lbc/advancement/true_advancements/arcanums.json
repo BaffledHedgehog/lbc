@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:ender_eye",
-            "components": null
+            "id": "minecraft:ender_eye"
         },
         "title": {
             "translate": "lbc.adv.arcanums"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "arcanum":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,arcanum:1}"
                         }
                     }
                 ]

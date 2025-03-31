@@ -38,47 +38,27 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "heal":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,heal: 1}"
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "totem":1,
-                                "deviltotem":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,totem: 1,deviltotem: 1}"
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "staff":1,
-                                "bloodmagic":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,staff: 1,bloodmagic: 1}"
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonerghast":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonerghast: 1}"
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "accessory":1,
-                                "demonkishki":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,accessory: 1,demonkishki: 1}"
                         }
                     }
                 ]

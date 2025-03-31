@@ -43,11 +43,7 @@
                                     "levels": 1
                                 }
                             ],
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "shovel":1,
-                                "randchanted":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,shovel: 1,randchanted: 1}"
                         }
                     }
                 ]

@@ -11,9 +11,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "one_punch":1
-                                        }
+                                        "minecraft:custom_data": "{one_punch:1}"
                                     }
                                 }
                             }

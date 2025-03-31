@@ -37,9 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "nexus_compass":1
-                            }
+                            "minecraft:custom_data": "{nexus_compass:1}"
                         }
                     }
                 ]

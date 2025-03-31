@@ -5,9 +5,7 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "armorattribute":1
-                        }
+                        "minecraft:custom_data": "{armorattribute:1}"
                     }
                 },
                 "player": [

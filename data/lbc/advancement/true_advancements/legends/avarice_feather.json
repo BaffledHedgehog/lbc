@@ -37,9 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "feather_greed":1
-                            }
+                            "minecraft:custom_data": "{feather_greed:1}"
                         }
                     }
                 ]

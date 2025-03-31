@@ -11,9 +11,7 @@
                                 "minecraft:ancient_debris"
                             ],
                             "predicates": {
-                                "minecraft:custom_data": {
-                                    "debriser":1
-                                }
+                                "minecraft:custom_data": "{debriser:1}"
                             }
                         }
                     }

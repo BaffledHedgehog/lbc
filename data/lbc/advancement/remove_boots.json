@@ -13,9 +13,7 @@
                                 "equipment": {
                                     "feet": {
                                         "predicates": {
-                                            "minecraft:custom_data": {
-                                                "technomk2":1
-                                            }
+                                            "minecraft:custom_data": "{technomk2:1}"
                                         }
                                     }
                                 }

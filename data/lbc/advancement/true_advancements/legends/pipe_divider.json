@@ -37,9 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "divider_by_metal_pipe":1
-                            }
+                            "minecraft:custom_data": "{divider_by_metal_pipe:1}"
                         }
                     }
                 ]

@@ -37,9 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "boss_helicopter":1
-                            }
+                            "minecraft:custom_data": "{boss_helicopter:1}"
                         }
                     }
                 ]

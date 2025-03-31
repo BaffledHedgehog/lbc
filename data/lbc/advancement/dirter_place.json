@@ -11,9 +11,7 @@
                                 "minecraft:coarse_dirt"
                             ],
                             "predicates": {
-                                "minecraft:custom_data": {
-                                    "dirter":1
-                                }
+                                "minecraft:custom_data": "{dirter:1}"
                             }
                         }
                     }

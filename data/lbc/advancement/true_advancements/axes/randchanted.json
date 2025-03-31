@@ -40,22 +40,18 @@
                             "minecraft:enchantments": [
                                 {
                                     "enchantments": "minecraft:efficiency",
-                                    "levels": 4
+                                    "levels": {"min": 4}
                                 },
                                 {
                                     "enchantments": "minecraft:fortune",
-                                    "levels": 3
+                                    "levels": {"min": 3}
                                 },
                                 {
                                     "enchantments": "minecraft:unbreaking",
-                                    "levels": 3
+                                    "levels": {"min": 3}
                                 }
                             ],
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "axe":1,
-                                "randchanted":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,axe:1,randchanted:1}"
                         }
                     }
                 ]

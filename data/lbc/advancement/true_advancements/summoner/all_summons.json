@@ -37,11 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonerblaze":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonerblaze: 1}"
                         }
                     }
                 ]
@@ -65,11 +61,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonereliteskeletons":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonereliteskeletons: 1}"
                         }
                     }
                 ]
@@ -93,11 +85,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonerghast":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonerghast: 1}"
                         }
                     }
                 ]
@@ -121,11 +109,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonerghostrider":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonerghostrider: 1}"
                         }
                     }
                 ]
@@ -149,11 +133,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonerguardians":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonerguardians: 1}"
                         }
                     }
                 ]
@@ -177,11 +157,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonerrazoritel":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonerrazoritel: 1}"
                         }
                     }
                 ]
@@ -205,11 +181,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonerskeletons":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonerskeletons: 1}"
                         }
                     }
                 ]
@@ -233,11 +205,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "summoner":1,
-                                "summonervexes":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,summoner: 1,summonervexes: 1}"
                         }
                     }
                 ]

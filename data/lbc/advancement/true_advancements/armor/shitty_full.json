@@ -41,30 +41,26 @@
                             "equipment": {
                                 "head": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "gownoleggings":1
-                                        }
+                                        "minecraft:custom_data": "{gownoleggings: 1}"
+                                        
                                     }
                                 },
                                 "chest": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "gownoleggings":1
-                                        }
+                                        "minecraft:custom_data": "{gownoleggings: 1}"
+                                        
                                     }
                                 },
                                 "legs": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "gownoleggings":1
-                                        }
+                                        "minecraft:custom_data": "{gownoleggings: 1}"
+                                        
                                     }
                                 },
                                 "feet": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "gownoleggings":1
-                                        }
+                                        "minecraft:custom_data": "{gownoleggings: 1}"
+                                        
                                     }
                                 }
                             }
@@ -74,20 +70,12 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "shooter":1,
-                                "govnomet":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,shooter: 1,govnomet: 1}"
                         }
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "shit_katana":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,shit_katana: 1}"
                         }
                     }
                 ]

@@ -8,9 +8,7 @@
                         "minecraft:crossbow"
                     ],
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "imba_gatlingator":1
-                        }
+                        "minecraft:custom_data": "{imba_gatlingator:1}"
                     }
                 },
                 "player": [

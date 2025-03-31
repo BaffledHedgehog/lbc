@@ -37,11 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "anvils":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,anvils: 1}"
                         }
                     }
                 ]
@@ -65,11 +61,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "arrows1":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,arrows1: 1}"
                         }
                     }
                 ]
@@ -93,11 +85,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "heal1":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,heal1: 1}"
                         }
                     }
                 ]
@@ -121,11 +109,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "creeperz":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,creeperz: 1}"
                         }
                     }
                 ]
@@ -149,11 +133,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "lava1":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,lava1: 1}"
                         }
                     }
                 ]
@@ -177,11 +157,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "lightning":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,lightning: 1}"
                         }
                     }
                 ]
@@ -205,11 +181,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "skeletons":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,skeletons: 1}"
                         }
                     }
                 ]
@@ -233,11 +205,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "trap2":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,trap2: 1}"
                         }
                     }
                 ]
@@ -261,11 +229,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "tnts":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,tnts: 1}"
                         }
                     }
                 ]
@@ -289,11 +253,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "spellitem":1,
-                                "wither1":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,spellitem: 1,wither1: 1}"
                         }
                     }
                 ]

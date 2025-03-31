@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:shield",
-            "components": null
+            "id": "minecraft:shield"
         },
         "title": {
             "translate": "lbc.adv.shields"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "shield":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,shield:1}"
                         }
                     }
                 ]

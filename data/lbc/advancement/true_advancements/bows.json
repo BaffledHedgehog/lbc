@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:bow",
-            "components": null
+            "id": "minecraft:bow"
         },
         "title": {
             "translate": "lbc.adv.bows"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "bow":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,bow:1}"
                         }
                     }
                 ]

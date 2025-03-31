@@ -30,11 +30,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "transformable":1,
-                                            "shovel":1,
-                                            "mortis":1
-                                        }
+                                        "minecraft:custom_data": "{transformable: 1,shovel: 1,mortis: 1}"
                                     }
                                 }
                             }

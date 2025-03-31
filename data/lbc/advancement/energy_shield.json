@@ -4,13 +4,8 @@
             "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {
-                    "items": [
-                        "minecraft:shield"
-                    ],
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "energyshield":1
-                        }
+                        "minecraft:custom_data": "{energyshield:1}"
                     }
                 },
                 "player": [

@@ -5,9 +5,7 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "multiverse_fish":1
-                        }
+                        "minecraft:custom_data": "{multiverse_fish:1}"
                     }
                 },
                 "player": [

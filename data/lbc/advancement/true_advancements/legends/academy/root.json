@@ -37,9 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "upgraded":1
-                            }
+                            "minecraft:custom_data": "{upgraded:1}"
                         }
                     }
                 ]

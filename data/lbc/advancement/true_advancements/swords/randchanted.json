@@ -40,7 +40,9 @@
                             "minecraft:enchantments": [
                                 {
                                     "enchantments": "minecraft:sharpness",
-                                    "levels": 5
+                                    "levels": {
+                                        "min": 4
+                                    }
                                 },
                                 {
                                     "enchantments": "minecraft:knockback",
@@ -51,11 +53,7 @@
                                     "levels": 2
                                 }
                             ],
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "sword":1,
-                                "randchanted":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,sword: 1,randchanted: 1}"
                         }
                     }
                 ]

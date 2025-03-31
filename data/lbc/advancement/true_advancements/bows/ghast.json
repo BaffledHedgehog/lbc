@@ -43,11 +43,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "bow":1,
-                                "fastexplode":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,bow:1,fastexplode:1}"
                         }
                     }
                 ]

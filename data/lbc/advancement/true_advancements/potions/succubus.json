@@ -38,11 +38,7 @@
                 ],
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "transformable":1,
-                            "potion":1,
-                            "succubus":1
-                        }
+                        "minecraft:custom_data": "{transformable:1,potion:1,succubus:1}"
                     }
                 }
             }

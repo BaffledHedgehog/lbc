@@ -37,9 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "sun_arcanum":1
-                            }
+                            "minecraft:custom_data": "{sun_arcanum:1}"
                         }
                     }
                 ]

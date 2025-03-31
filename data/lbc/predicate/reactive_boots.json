@@ -8,9 +8,7 @@
                 "equipment": {
                     "feet": {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "technomk2":1
-                            }
+                            "minecraft:custom_data": "{technomk2:1}"
                         }
                     }
                 }
@@ -23,9 +21,7 @@
                 "equipment": {
                     "feet": {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "reactive":1
-                            }
+                            "minecraft:custom_data": "{reactive:1}"
                         }
                     }
                 }

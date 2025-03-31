@@ -5,9 +5,7 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "golden_kelp":1
-                        }
+                        "minecraft:custom_data": "{golden_kelp:1}"
                     }
                 },
                 "player": [

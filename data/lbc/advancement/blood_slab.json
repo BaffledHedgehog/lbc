@@ -8,9 +8,7 @@
                         "condition": "minecraft:match_tool",
                         "predicate": {
                             "predicates": {
-                                "minecraft:custom_data": {
-                                    "blood_slab":1
-                                }
+                                "minecraft:custom_data": "{blood_slab:1}"
                             }
                         }
                     }

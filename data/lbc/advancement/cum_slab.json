@@ -11,9 +11,7 @@
                                 "minecraft:birch_slab"
                             ],
                             "predicates": {
-                                "minecraft:custom_data": {
-                                    "cum_slab":1
-                                }
+                                "minecraft:custom_data": "{cum_slab:1}"
                             }
                         }
                     }

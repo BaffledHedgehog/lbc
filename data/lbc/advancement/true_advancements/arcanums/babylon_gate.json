@@ -40,11 +40,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "transformable":1,
-                                            "arcanum":1,
-                                            "gate_of_babylon":1
-                                        }
+                                        "minecraft:custom_data": "{transformable:1,arcanum:1,gate_of_babylon:1}"
                                     }
                                 }
                             }

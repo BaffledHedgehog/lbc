@@ -59,9 +59,7 @@
                                     "equipment": {
                                         "mainhand": {
                                             "predicates": {
-                                                "minecraft:custom_data": {
-                                                    "energy_shield":1
-                                                }
+                                                "minecraft:custom_data": "{energy_shield: 1}"
                                             }
                                         }
                                     }
@@ -74,9 +72,7 @@
                                     "equipment": {
                                         "offhand": {
                                             "predicates": {
-                                                "minecraft:custom_data": {
-                                                    "energy_shield":1
-                                                }
+                                                "minecraft:custom_data": "{energy_shield: 1}"
                                             }
                                         }
                                     }

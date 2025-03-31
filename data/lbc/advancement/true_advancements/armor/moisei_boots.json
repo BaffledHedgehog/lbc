@@ -40,9 +40,7 @@
                             "equipment": {
                                 "feet": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "moisei":1
-                                        }
+                                        "minecraft:custom_data": "{moisei:1}"
                                     }
                                 }
                             }

@@ -29,9 +29,7 @@
                 ],
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "staff":1
-                        }
+                        "minecraft:custom_data": "{staff:1}"
                     }
                 },
                 "entity": [

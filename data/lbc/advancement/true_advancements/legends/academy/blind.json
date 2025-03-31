@@ -37,12 +37,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "upgraded":1,
-                                "transformable":1,
-                                "staff":1,
-                                "stblind":1
-                            }
+                            "minecraft:custom_data": "{upgraded:1,transformable:1,staff:1,stblind:1}"
                         }
                     }
                 ]

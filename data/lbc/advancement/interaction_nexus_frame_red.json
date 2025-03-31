@@ -17,9 +17,7 @@
                 ],
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "nexus_wire_red":1
-                        }
+                        "minecraft:custom_data": "{nexus_wire_red:1}"
                     }
                 },
                 "entity": [

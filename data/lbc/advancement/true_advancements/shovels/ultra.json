@@ -43,10 +43,7 @@
                                     "levels": 255
                                 }
                             ],
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "shovel":1
-                            }
+                            "minecraft:custom_data": "{transformable: 1,shovel: 1}"
                         }
                     }
                 ]

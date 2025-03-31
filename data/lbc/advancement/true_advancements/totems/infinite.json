@@ -27,13 +27,10 @@
                         "minecraft:enchantments": [
                             {
                                 "enchantments": "minecraft:infinity",
-                                "levels": 1
+                                "levels": {"min": 1}
                             }
                         ],
-                        "minecraft:custom_data": {
-                            "transformable":1,
-                            "totem":1
-                        }
+                        "minecraft:custom_data": "{transformable: 1,totem: 1}"
                     }
                 },
                 "player": [

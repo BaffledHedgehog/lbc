@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:trident",
-            "components": null
+            "id": "minecraft:trident"
         },
         "title": {
             "translate": "lbc.adv.tridents"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "trident":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,trident:1}"
                         }
                     }
                 ]

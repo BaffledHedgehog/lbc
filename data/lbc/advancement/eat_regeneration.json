@@ -5,9 +5,7 @@
             "conditions": {
                 "item": {
                     "predicates": {
-                        "minecraft:custom_data": {
-                            "eat_regeneration":1
-                        }
+                        "minecraft:custom_data": "{eat_regeneration:1}"
                     }
                 },
                 "player": [

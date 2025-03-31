@@ -4,6 +4,6 @@ j=53
 for i in a:
     j+=1
     f=open(f'pill_{i}.json',mode='w')
-    k='{"criteria":{"requirement":{"trigger":"minecraft:consume_item","conditions":{"item":{"predicates":{"minecraft:custom_data":{"pill":"'+str(j)+'"}}},"player":[{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"dimension":"minecraft:nexus"}}}}]}}},"rewards":{"function":"lbc:other/attributes/pills/'+i+'"}}'
+    k='{"criteria":{"requirement":{"trigger":"minecraft:consume_item","conditions":{"item":{"predicates":{"minecraft:custom_data":"{pill:'+str(j)+'}"}},"player":[{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"dimension":"minecraft:nexus"}}}}]}}},"rewards":{"function":"lbc:other/attributes/pills/'+i+'"}}'
     f.write(k)
     f.close()

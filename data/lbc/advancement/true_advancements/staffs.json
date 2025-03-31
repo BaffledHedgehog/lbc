@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:blaze_rod",
-            "components": null
+            "id": "minecraft:blaze_rod"
         },
         "title": {
             "translate": "lbc.adv.staffs"
@@ -33,10 +32,7 @@
                 "items": [
                     {
                         "predicates": {
-                            "minecraft:custom_data": {
-                                "transformable":1,
-                                "staff":1
-                            }
+                            "minecraft:custom_data": "{transformable:1,staff:1}"
                         }
                     }
                 ]

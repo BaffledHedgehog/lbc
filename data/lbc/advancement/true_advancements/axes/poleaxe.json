@@ -1,8 +1,7 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:netherite_axe",
-            "components": null
+            "id": "minecraft:netherite_axe"
         },
         "title": {
             "translate": "lbc.adv.axe.poleaxe"
@@ -28,11 +27,7 @@
                             "equipment": {
                                 "mainhand": {
                                     "predicates": {
-                                        "minecraft:custom_data": {
-                                            "transformable":1,
-                                            "axe":1,
-                                            "poleaxe":1
-                                        }
+                                        "minecraft:custom_data": "{transformable:1,axe:1,poleaxe:1}"
                                     }
                                 }
                             }
