@@ -1,4 +1,4 @@
-$execute store result score spell lbc.math run data get entity @s SelectedItem.components.minecraft:custom_data.spell$(currspell) 1
+$execute store result score spell lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".spell$(currspell) 1
 tag @s add caster
 tag @s add raycaster
 scoreboard players set @s Distance 0

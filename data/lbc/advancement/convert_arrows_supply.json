@@ -7,7 +7,7 @@
                     "items": [
                         "minecraft:arrow"
                     ],
-                    "count": 64
+                    "count": {"min": 2}
                 },
                 "entity": {
                     "type": "minecraft:interaction",
