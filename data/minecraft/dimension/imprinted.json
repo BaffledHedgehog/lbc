@@ -1,10 +1,14 @@
 {
-    "type": "minecraft:nexus",
+    "type": "minecraft:imprinted",
     "generator": {
         "type": "minecraft:flat",
         "settings": {
-            "biome":"minecraft:nexus",
+            "biome": "minecraft:imprinted",
             "layers": [
+                {
+                    "block": "minecraft:bedrock",
+                    "height": 4
+                },
                 {
                     "block": "minecraft:air",
                     "height": 1
