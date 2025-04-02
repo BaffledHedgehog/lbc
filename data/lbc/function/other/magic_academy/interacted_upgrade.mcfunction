@@ -1,5 +1,5 @@
 item replace block 10241024 100 10241024 container.0 from entity @s weapon.mainhand
-data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".upgraded set value 1b
+data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".upgraded set value 1
 data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".mode set value 1
 item replace entity @s weapon.mainhand from block 10241024 100 10241024 container.0
 item modify entity @s weapon.mainhand lbc:add_upgrade_desc

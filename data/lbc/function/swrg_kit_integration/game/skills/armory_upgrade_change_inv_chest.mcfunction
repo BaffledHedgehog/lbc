@@ -43,6 +43,6 @@ execute store result block 10241024 71 10241024 Items[{Slot:9b}].components."min
 execute store result block 10241024 71 10241024 Items[{Slot:9b}].components."minecraft:enchantments".levels."minecraft:thorns" byte 1 run scoreboard players get tmp9 lbc.math
 execute store result block 10241024 71 10241024 Items[{Slot:9b}].components."minecraft:enchantments".levels."minecraft:unbreaking" byte 1 run scoreboard players get tmp10 lbc.math
 
-data modify block 10241024 71 10241024 Items[{Slot:9b}].components."minecraft:custom_data".armory_upgraded set value 1b
+data modify block 10241024 71 10241024 Items[{Slot:9b}].components."minecraft:custom_data".armory_upgraded set value 1
 
 item replace entity @s armor.chest from block 10241024 71 10241024 container.9

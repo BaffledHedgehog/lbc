@@ -1,5 +1,5 @@
 item replace block 10241024 100 10241024 container.0 from entity @s weapon.mainhand
-data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".upgradable set value 1b
+data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".upgradable set value 1
 item replace entity @s weapon.mainhand from block 10241024 100 10241024 container.0
 
 tellraw @s {"translate":"magic_academy_root","color":"green"}
