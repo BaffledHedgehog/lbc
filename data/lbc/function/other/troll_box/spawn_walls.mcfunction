@@ -29,3 +29,5 @@ place template lbc:walls ~6 ~-1 ~-27 none none 0.995
 place template lbc:walls ~-16 ~-1 ~17 none none 0.995
 place template lbc:walls ~-5 ~-1 ~17 none none 0.995
 place template lbc:walls ~6 ~-1 ~17 none none 0.995
+
+

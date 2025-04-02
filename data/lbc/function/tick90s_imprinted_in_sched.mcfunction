@@ -1,0 +1,1 @@
+execute as @a run attribute @s gravity modifier remove imprinted
