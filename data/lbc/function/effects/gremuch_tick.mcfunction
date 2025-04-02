@@ -1,2 +1,2 @@
-summon minecraft:tnt
+summon minecraft:tnt ~ ~ ~ {fuse:2s}
 kill @s

@@ -885,7 +885,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:pig",
-                                    "CustomNameVisible":true,
+                                    "CustomNameVisible": true,
                                     "Health": 50,
                                     "Tags": [
                                         "fakepig",
@@ -1322,7 +1322,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:villager",
-                                    "CustomNameVisible":true,
+                                    "CustomNameVisible": true,
                                     "Tags": [
                                         "fake_player"
                                     ]
@@ -2335,8 +2335,147 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 10,
-                    "value": "lbc:luckyblock_imba"
+                    "weight": 100000000000000000,
+                    "value": "lbc:luckyblock_imba",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "#imbadrop_chance"
+                                },
+                                "score": "swrg.math",
+                                "scale": 1
+                            },
+                            "range": 1
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.00001
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100000000000000000,
+                    "value": "lbc:luckyblock_imba",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "#imbadrop_chance"
+                                },
+                                "score": "swrg.math",
+                                "scale": 1
+                            },
+                            "range": 2
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.0001
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100000000000000000,
+                    "value": "lbc:luckyblock_imba",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "#imbadrop_chance"
+                                },
+                                "score": "swrg.math",
+                                "scale": 1
+                            },
+                            "range": 3
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.001
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100000000000000000,
+                    "value": "lbc:luckyblock_imba",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "#imbadrop_chance"
+                                },
+                                "score": "swrg.math",
+                                "scale": 1
+                            },
+                            "range": 4
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.004
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100000000000000000,
+                    "value": "lbc:luckyblock_imba",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "#imbadrop_chance"
+                                },
+                                "score": "swrg.math",
+                                "scale": 1
+                            },
+                            "range": 5
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.01
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100000000000000000,
+                    "value": "lbc:luckyblock_imba",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:value_check",
+                            "value": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "#imbadrop_chance"
+                                },
+                                "score": "swrg.math",
+                                "scale": 1
+                            },
+                            "range": 6
+                        },
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.1
+                        }
+                    ]
                 }
             ]
         }

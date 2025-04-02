@@ -16,7 +16,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:ak47"
+                                "minecraft:item_model": "lbc:ak47",
+                                "enchantments": {
+                                    "infinity": 1
+                                }
                             }
                         },
                         {

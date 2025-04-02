@@ -123,3 +123,4 @@ data modify storage lbc.math z set string entity @e[type=minecraft:marker,tag=st
 function lbc:workingitems/witch_gens/vanity_respawn_return_pos with storage lbc.math
 
 playsound minecraft:lbcsounds.vanity_respawn master @s ~ ~ ~ 1 1 1
+schedule function lbc:workingitems/witch_gens/vanity_respawn_1 1s

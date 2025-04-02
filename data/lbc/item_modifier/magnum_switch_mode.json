@@ -12,9 +12,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:custom_data": {
-                                    "mode": 0
-                                }
+                                "minecraft:custom_data": "{mode: 0}"
                             }
                         }
                     }
@@ -35,9 +33,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:custom_data": {
-                                    "mode": 1
-                                }
+                                "minecraft:custom_data": "{mode: 1}"
                             }
                         }
                     }
@@ -58,9 +54,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:custom_data": {
-                                    "mode": 2
-                                }
+                                "minecraft:custom_data": "{mode: 2}"
                             }
                         }
                     }
@@ -81,9 +75,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:custom_data": {
-                                    "mode": 3
-                                }
+                                "minecraft:custom_data": "{mode: 3}"
                             }
                         }
                     }
@@ -104,9 +96,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:custom_data": {
-                                    "mode": 4
-                                }
+                                "minecraft:custom_data": "{mode: 4}"
                             }
                         }
                     }
@@ -127,9 +117,7 @@
                     "equipment": {
                         "mainhand": {
                             "components": {
-                                "minecraft:custom_data": {
-                                    "mode": 5
-                                }
+                                "minecraft:custom_data": "{mode: 5}"
                             }
                         }
                     }

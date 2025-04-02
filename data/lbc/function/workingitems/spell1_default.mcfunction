@@ -60,7 +60,7 @@ execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{popit:1}}}}] run function lbc:workingitems/popit
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{luckyblockwand:1}}}}] run loot spawn ~ ~ ~ loot lbc:luckyblock
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{govnomet:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:workingitems/govno
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{ak47:1b}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:workingitems/ak47
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{ak47:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:workingitems/ak47
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{feather_greed:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/feather_greed
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{greed_greed:1}}}}] divider_cd matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/divider
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{reactive_shish:1}}}}] coldownshish matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/reactive_shish

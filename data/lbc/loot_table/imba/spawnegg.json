@@ -615,10 +615,7 @@
                                         "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "minecraft:custom_data": {
-                                                "otchim": 1,
-                                                "drop": 1
-                                            },
+                                            "minecraft:custom_data": "{otchim: 1,drop: 1}",
                                             "minecraft:item_model": "lbc:otchim"
                                         }
                                     }
@@ -754,10 +751,7 @@
                                         "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "minecraft:custom_data": {
-                                                "shahid": 1,
-                                                "drop": 1
-                                            },
+                                            "minecraft:custom_data": "{shahid: 1,drop: 1}",
                                             "minecraft:item_model": "lbc:drop_trap"
                                         }
                                     }
@@ -982,10 +976,7 @@
                                         "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "minecraft:custom_data": {
-                                                "droppertnt": 1,
-                                                "drop": 1
-                                            },
+                                            "minecraft:custom_data": "{droppertnt: 1,drop: 1}",
                                             "minecraft:item_model": "lbc:drop_boss"
                                         }
                                     }
@@ -1253,10 +1244,7 @@
                                         "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "minecraft:custom_data": {
-                                                "mom": 1,
-                                                "drop": 1
-                                            },
+                                            "minecraft:custom_data": "{mom:1,drop:1}",
                                             "minecraft:item_model": "lbc:drop_not_trap"
                                         }
                                     }
@@ -1396,10 +1384,7 @@
                                         "count": 1,
                                         "id": "minecraft:repeating_command_block",
                                         "components": {
-                                            "minecraft:custom_data": {
-                                                "helicopter_boss": 1,
-                                                "drop": 1
-                                            },
+                                            "minecraft:custom_data": "{helicopter_boss: 1,drop: 1}",
                                             "minecraft:item_model": "lbc:drop_boss"
                                         }
                                     }

@@ -44,7 +44,7 @@ execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{lucky
 
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{govnomet:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:workingitems/govno
 
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{ak47:1b}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:workingitems/ak47
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{ak47:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:workingitems/ak47
 
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{feather_greed:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/feather_greed
 
