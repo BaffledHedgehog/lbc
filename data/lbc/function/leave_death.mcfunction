@@ -281,7 +281,10 @@ advancement revoke @s only lbc:pills/pill_wither_99
 
 
 
-
+advancement revoke @s only swrg:core/quickstart
+advancement revoke @s only swrg:core/food
+advancement revoke @s only swrg:core/kill
+advancement revoke @s only swrg:core/shoot_arrow
 
 
 scoreboard players set @s lucky_block_count 0
