@@ -1,5 +1,5 @@
 execute if entity @s[tag=!obtained_crux,scores={mana=..0}] at @s anchored eyes positioned ^ ^ ^ run function lbc:other/overload_crux/give
-execute unless entity @s[tag=obtained_crux,scores={mana=..0}] run tag @s remove obtained_crux
+execute if score @s[tag=obtained_crux] mana >= @s manamax run tag @s remove obtained_crux
 
 scoreboard players operation @s manaregen_visual = @s manaregen
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{manabelt:1}}}]}] run function lbc:other/manaregen_mana_belts
