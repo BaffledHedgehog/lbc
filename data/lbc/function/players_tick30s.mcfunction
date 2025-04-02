@@ -1,1 +1,0 @@
-execute if score darkness lbc.math matches 1 unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run effect give @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{trollmask:2}}}]}] minecraft:darkness 15 0 true

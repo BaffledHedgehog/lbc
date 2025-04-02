@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:nexus",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome":"minecraft:nexus",
+            "layers": [
+                {
+                    "block": "minecraft:air",
+                    "height": 1
+                }
+            ],
+            "structure_overrides": "minecraft:end_cities"
+        }
+    }
+}

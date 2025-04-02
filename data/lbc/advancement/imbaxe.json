@@ -29,6 +29,18 @@
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:imprinted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
                                 "nbt": "{playerGameType:3}"
                             }
                         }
