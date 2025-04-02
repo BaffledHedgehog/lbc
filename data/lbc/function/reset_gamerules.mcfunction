@@ -9,3 +9,4 @@ gamerule doMobLoot true
 gamerule doTileDrops true
 gamerule doEntityDrops true
 gamerule playersNetherPortalDefaultDelay 1
+gamerule doImmediateRespawn true
