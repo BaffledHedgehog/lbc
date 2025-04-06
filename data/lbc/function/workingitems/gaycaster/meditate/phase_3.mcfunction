@@ -1,0 +1,1 @@
+summon marker ~ ~15 ~ {Tags:["slowraycast","rare","gaycaster_meditator","acid_balles"],Rotation:[0.0,90.0]}

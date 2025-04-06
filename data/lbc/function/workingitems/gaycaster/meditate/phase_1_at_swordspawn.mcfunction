@@ -1,0 +1,1 @@
+$execute positioned ~ ~1 ~ rotated $(rot) 0 positioned ^ ^ ^-10 run function lbc:workingitems/gaycaster/meditate/phase_1_at_swordspawn_2 with storage lbc.math

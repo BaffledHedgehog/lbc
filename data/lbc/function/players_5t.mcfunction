@@ -6,6 +6,7 @@ scoreboard players remove @s coldown25 5
 scoreboard players remove @s coldown17 5
 scoreboard players remove @s coldownshish 1
 scoreboard players remove @s coldownhohol 1
+execute if entity @s[scores={gaycaster_upgrade=1..}] run function lbc:workingitems/gaycaster/meditate/tick_5t
 execute if entity @s[scores={coldownshish=19}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run fill ~1 ~-2 ~1 ~-1 ~-2 ~-1 minecraft:spruce_leaves[persistent=false]
 execute if entity @s[tag=demonkishki_active,scores={foodlvl=16..,hplvl=..4}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/extraheal
 execute if entity @s[tag=chaosdust_active] run particle minecraft:dust{color:[10.0f,10.0f,10.0f],scale:1.0f} ~ ~1 ~ 0.3 0.3 0.3 0 3 normal

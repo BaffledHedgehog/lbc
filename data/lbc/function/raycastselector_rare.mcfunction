@@ -27,3 +27,4 @@ execute if entity @s[tag=pumpkinator] positioned ~ ~-1.5 ~ run function lbc:othe
 execute if entity @s[tag=roadgun] run function lbc:other/nexus/rays/roadgun
 execute if entity @s[tag=sim_cube] run function lbc:other/nexus/rays/sim_cube_t
 execute if entity @s[tag=pulsar] run function lbc:other/nexus/rays/pulsar_tick
+execute if entity @s[tag=gaycaster_meditator] run function lbc:workingitems/gaycaster/meditate/tick_select

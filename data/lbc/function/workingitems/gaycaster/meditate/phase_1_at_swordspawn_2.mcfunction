@@ -1,0 +1,3 @@
+summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0.0f,shadow_strength:0.0f,teleport_duration:1,item_display:"fixed",transformation:[0.0f,0.0f,1.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,0.0f,1.0f],item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"lbc:prism"},count:1},Tags:["slowraycast","rare","mediprism","gaycaster_meditator"]}
+$execute rotated $(rot) ~ run tp @e[type=item_display,limit=1,distance=..0.01,tag=!actived,tag=mediprism] ~ ~ ~ ~ ~
+tag @e[type=minecraft:item_display,distance=..0.01,tag=mediprism,tag=!actived,limit=1] add actived
