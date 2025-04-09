@@ -301,6 +301,11 @@ scoreboard objectives add gigaponos dummy
 execute unless score SurvivalVersion lbc.math matches 1 run function lbc:config
 execute if score SurvivalVersion lbc.math matches 1 run function lbc:config_survival
 
+execute in overworld run function lbc:reset_gamerules
+execute in the_nether run function lbc:reset_gamerules
+execute in the_end run function lbc:reset_gamerules
+execute in minecraft:imprinted run function lbc:reset_gamerules
+
 #swag
 
 scoreboard objectives add swrg.hp_display dummy
