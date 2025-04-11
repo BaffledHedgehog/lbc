@@ -3,7 +3,7 @@ effect give @s minecraft:resistance 30 4 true
 effect give @s minecraft:blindness infinite
 effect give @s minecraft:darkness infinite
 effect give @s minecraft:hunger infinite
-effect give @s minecraft:instant_damage infinite 127
+effect give @s minecraft:instant_damage infinite 99
 effect give @s minecraft:nausea infinite
 effect give @s minecraft:poison infinite
 effect give @s minecraft:slowness infinite

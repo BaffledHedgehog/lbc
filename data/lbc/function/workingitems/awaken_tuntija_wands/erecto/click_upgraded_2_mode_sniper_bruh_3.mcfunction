@@ -8,4 +8,6 @@ scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erec
 tag @e[type=minecraft:marker,distance=..0.0001,tag=erecto_sniper_bruh,tag=!actived,limit=4] add actived
 
 forceload remove all
+forceload add -10 -10 10 10
+forceload add 10241024 10241024
 particle minecraft:flash ^ ^ ^1 0 0 0 0 1 force
