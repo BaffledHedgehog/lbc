@@ -1,3 +1,4 @@
+execute if entity @s[tag=itemkiller] run function lbc:other/imba/runes/fehu_itemkiller
 execute if entity @s[tag=midas_block] align xyz positioned ~.5 ~.5 ~.5 run return run function lbc:other/imba/midas_block
 execute if entity @s[tag=homing_sword] run return run function lbc:items/swords/chaos_sword_imba/homing_sword
 execute if entity @s[tag=delta_ex] run return run function lbc:other/imba/delta_ex_tick

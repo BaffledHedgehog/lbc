@@ -193,6 +193,7 @@ scoreboard objectives remove effect_gravity_curse
 scoreboard objectives remove god_claw_cd
 scoreboard objectives remove expansion_cd
 scoreboard objectives remove deus_cd
+scoreboard objectives remove tmticked
 function lbc:load
 
 

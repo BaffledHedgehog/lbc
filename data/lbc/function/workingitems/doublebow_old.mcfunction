@@ -6,6 +6,7 @@ execute if entity @e[type=minecraft:spectral_arrow,distance=..3,tag=doublearrow,
 # Set those 2 arrows Motion from first arrow
 execute as @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] run data modify entity @s Owner set from entity @s UUID
 execute as @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] run data modify entity @s Motion set from entity @e[type=#minecraft:arrows,distance=..3,tag=doublearrow,limit=1] Motion
+execute as @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] run data modify entity @s Rotation set from entity @e[type=#minecraft:arrows,distance=..3,tag=doublearrow,limit=1] Rotation
 execute as @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] run data modify entity @s item set from entity @e[type=#minecraft:arrows,distance=..3,tag=doublearrow,limit=1] item
 execute as @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] run data modify entity @s damage set from entity @e[type=#minecraft:arrows,distance=..3,tag=doublearrow,limit=1] damage
 scoreboard players operation @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] lbcID2 = @s lbcID2

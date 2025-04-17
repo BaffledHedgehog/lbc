@@ -24,7 +24,7 @@ execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gaara
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/damaged
 execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/damaged_get_trinket
 scoreboard players set @s blocked_damage 0
-
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{tmt_item:1}}}]}] run function lbc:drops/tmt/trigger_smth_not_damaged
 schedule function lbc:items/damaged_scheduled 2t
 
 advancement revoke @s only lbc:cocksuckers

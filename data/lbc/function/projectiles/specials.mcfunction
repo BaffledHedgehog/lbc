@@ -44,6 +44,18 @@ data modify entity @e[type=!minecraft:item,distance=..4,tag=edited,sort=nearest,
 data modify entity @e[type=!minecraft:item,distance=..4,tag=edited2,sort=nearest,limit=1] Owner set from entity @p[gamemode=!spectator] UUID
 data modify entity @e[type=!minecraft:item,distance=..4,tag=edited3,sort=nearest,limit=1] Owner set from entity @p[gamemode=!spectator] UUID
 data modify entity @e[type=!minecraft:item,distance=..4,tag=edited4,sort=nearest,limit=1] Owner set from entity @p[gamemode=!spectator] UUID
+
+
+execute store result entity @e[type=#arrows,distance=..4,tag=edited,sort=nearest,limit=1] Rotation[0] float -1 run data get entity @p[gamemode=!spectator] Rotation[0]
+execute store result entity @e[type=#arrows,distance=..4,tag=edited2,sort=nearest,limit=1] Rotation[0] float -1 run data get entity @p[gamemode=!spectator] Rotation[0]
+execute store result entity @e[type=#arrows,distance=..4,tag=edited3,sort=nearest,limit=1] Rotation[0] float -1 run data get entity @p[gamemode=!spectator] Rotation[0]
+execute store result entity @e[type=#arrows,distance=..4,tag=edited4,sort=nearest,limit=1] Rotation[0] float -1 run data get entity @p[gamemode=!spectator] Rotation[0]
+execute store result entity @e[type=#arrows,distance=..4,tag=edited,sort=nearest,limit=1] Rotation[1] float -1 run data get entity @p[gamemode=!spectator] Rotation[1]
+execute store result entity @e[type=#arrows,distance=..4,tag=edited2,sort=nearest,limit=1] Rotation[1] float -1 run data get entity @p[gamemode=!spectator] Rotation[1]
+execute store result entity @e[type=#arrows,distance=..4,tag=edited3,sort=nearest,limit=1] Rotation[1] float -1 run data get entity @p[gamemode=!spectator] Rotation[1]
+execute store result entity @e[type=#arrows,distance=..4,tag=edited4,sort=nearest,limit=1] Rotation[1] float -1 run data get entity @p[gamemode=!spectator] Rotation[1]
+
+
 scoreboard players operation @e[distance=..4,tag=edited,sort=nearest,limit=1] lbcID2 = @p[gamemode=!spectator] lbcID2
 scoreboard players operation @e[distance=..4,tag=edited2,sort=nearest,limit=1] lbcID2 = @p[gamemode=!spectator] lbcID2
 scoreboard players operation @e[distance=..4,tag=edited3,sort=nearest,limit=1] lbcID2 = @p[gamemode=!spectator] lbcID2
@@ -60,4 +72,4 @@ execute store result entity @e[type=minecraft:dragon_fireball,distance=..4,tag=e
 execute if data entity @s Item.components.minecraft:custom_data{"ender_pernul":1} as @e[type=minecraft:ender_pearl,distance=..4,tag=edited4,sort=nearest,limit=1] run function lbc:projectiles/specials_ender_pernul
 execute if data entity @s Item.components.minecraft:custom_data{"dragfireball_imba":1} as @e[type=minecraft:dragon_fireball,distance=..4,tag=edited2,tag=pernul,sort=nearest,limit=1] run function lbc:projectiles/specials_dragon_pernul
 execute if data entity @s Item.components.minecraft:custom_data{"smallfireball_imba":1} as @e[type=minecraft:tnt,distance=..4,tag=edited3,tag=puknul,sort=nearest,limit=1] run function lbc:projectiles/specials_fire_pernul
-kill @s
+execute unless data entity @s Item.components.minecraft:custom_data{"tmt_item":1} run kill @s

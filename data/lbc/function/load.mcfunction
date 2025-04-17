@@ -275,6 +275,7 @@ scoreboard objectives add expansion_cd dummy
 scoreboard objectives add deus_cd dummy
 
 scoreboard objectives add gaycaster_upgrade dummy
+scoreboard objectives add tmticked dummy
 #
 execute unless score cfg_lucky_modifier swrg.math matches 0..100 run scoreboard players set cfg_lucky_modifier swrg.math 0
 execute if score #lang swrg.math matches 2 run function lbc:swrg_kit_integration/lang_en

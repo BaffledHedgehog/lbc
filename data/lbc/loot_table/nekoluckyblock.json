@@ -46,14 +46,14 @@
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
+                                    "equipment": {"mainhand": {"predicates": {"minecraft:custom_data": "{luck_key:1}"}}}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_properties",
                                 "entity": "this",
                                 "predicate": {
-                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{luck_key:1}},Slot:-106b}]}"
+                                    "equipment": {"offhand": {"predicates": {"minecraft:custom_data": "{luck_key:1}"}}}
                                 }
                             }
                         ]
@@ -65,8 +65,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:coal",
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:tmtrainer_drop",
                     "weight": 10
                 }
             ],
@@ -78,14 +78,14 @@
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
+                                "equipment": {"mainhand": {"predicates": {"minecraft:custom_data": "{luck_key:1}"}}}
                             }
                         },
                         {
                             "condition": "minecraft:entity_properties",
                             "entity": "this",
                             "predicate": {
-                                "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{luck_key:1}},Slot:-106b}]}"
+                                "equipment": {"offhand": {"predicates": {"minecraft:custom_data": "{luck_key:1}"}}}
                             }
                         }
                     ]

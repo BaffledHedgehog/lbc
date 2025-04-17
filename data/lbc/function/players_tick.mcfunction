@@ -1,3 +1,4 @@
+scoreboard players set @s tmticked 0
 execute store result score @s MaxHealth run attribute @s minecraft:max_health get
 function lbc:player_speed
 execute if entity @s[tag=time_stopped_lol] run function lbc:other/imba/time_stopped_lol_player_tick

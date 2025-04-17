@@ -4,6 +4,8 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:charged_projectil
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:charged_projectiles":[{id:"minecraft:firework_rocket"}]}}}] anchored eyes positioned ^ ^ ^.5 run summon firework_rocket ~ ~ ~ {Tags:["vpered_rc"],LifeTime:100,ShotAtAngle:true,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[]}}}}
 
 data modify entity @e[type=#crossbow_charges,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Owner set from entity @s UUID
+execute store result entity @e[type=#crossbow_charges,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Rotation[0] float 1 run data get entity @s Rotation[0] -1
+execute store result entity @e[type=#crossbow_charges,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Rotation[1] float 1 run data get entity @s Rotation[1] -1
 data modify entity @e[type=#crossbow_charges,tag=vpered_rc,tag=!active,sort=nearest,limit=1] item set from entity @s SelectedItem.components."minecraft:charged_projectiles"[0]
 data modify entity @e[type=firework_rocket,tag=vpered_rc,tag=!active,sort=nearest,limit=1] FireworksItem.components."minecraft:fireworks".explosions set from entity @s SelectedItem.components."minecraft:charged_projectiles"[0].components."minecraft:fireworks".explosions
 
