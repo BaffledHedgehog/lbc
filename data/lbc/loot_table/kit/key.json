@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:golden_axe",
+                    "name": "minecraft:stick",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
@@ -16,7 +16,13 @@
                                     "levels": {
                                         "minecraft:fortune": 25
                                     }
-                                }
+                                },
+                                "tool": {
+                                    "damage_per_block": 1,
+                                    "default_mining_speed": 2,
+                                    "rules": []
+                                },
+                                "max_stack_size": 1
                             }
                         },
                         {

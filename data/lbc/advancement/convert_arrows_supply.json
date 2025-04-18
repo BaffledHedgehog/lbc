@@ -7,7 +7,7 @@
                     "items": [
                         "minecraft:arrow"
                     ],
-                    "count": 64
+                    "count": {"min": 2}
                 },
                 "entity": {
                     "type": "minecraft:interaction",
@@ -22,6 +22,18 @@
                             "predicate": {
                                 "location": {
                                     "dimension": "minecraft:nexus"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "location": {
+                                    "dimension": "minecraft:imprinted"
                                 }
                             }
                         }

@@ -9,4 +9,4 @@ execute as @e[type=minecraft:snowball,tag=new,limit=1] run function lbc:workingi
 kill @e[type=minecraft:marker,tag=dir,limit=1]
 tag @e[tag=new,limit=2] remove new
 playsound minecraft:lbcsounds.ice_wand master @a ~ ~ ~ 1 0.7
-schedule function lbc:workingitems/ice_wand/projectile/tick 1t
+schedule function lbc:workingitems/ice_wand/projectile/tick 2t

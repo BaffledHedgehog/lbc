@@ -1,5 +1,8 @@
-execute anchored eyes run summon minecraft:arrow ^ ^ ^-.2 {SoundEvent:"block.azalea_leaves.break",damage:1.0d,Tags:["razorpine","prestart2","killedarrow"]}
-execute anchored eyes positioned ^ ^ ^0.5 run data modify entity @e[type=minecraft:arrow,distance=..3,tag=prestart2,limit=1] Owner set from entity @s UUID
+execute anchored eyes run summon minecraft:arrow ^ ^ ^-.2 {SoundEvent:"block.azalea_leaves.break",damage:1.5d,Tags:["razorpine","prestart2","killedarrow"]}
+execute anchored eyes positioned ^ ^ ^-0.2 run data modify entity @e[type=minecraft:arrow,distance=..0.1,tag=prestart2,limit=1] Owner set from entity @s UUID
+execute anchored eyes positioned ^ ^ ^-0.2 store result entity @e[type=minecraft:arrow,distance=..0.1,tag=prestart2,limit=1] Rotation[0] float -1 run data get entity @s Rotation[0]
+execute anchored eyes positioned ^ ^ ^-0.2 store result entity @e[type=minecraft:arrow,distance=..0.1,tag=prestart2,limit=1] Rotation[1] float -1 run data get entity @s Rotation[1]
+
 
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["reikast"]}
 execute store result score #pos0 lbc.math run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[0] 5000
@@ -20,8 +23,11 @@ execute store result entity @e[type=minecraft:arrow,distance=..3,tag=razorpine,t
 kill @e[type=minecraft:marker,tag=reikast]
 tag @e remove prestart2
 
-execute anchored eyes run summon minecraft:arrow ^ ^ ^-.2 {SoundEvent:"block.azalea_leaves.break",damage:1.0d,Tags:["razorpine","prestart2","killedarrow"]}
-execute anchored eyes positioned ^ ^ ^0.5 run data modify entity @e[type=minecraft:arrow,distance=..3,tag=prestart2,limit=1] Owner set from entity @s UUID
+execute anchored eyes run summon minecraft:arrow ^ ^ ^-.2 {SoundEvent:"block.azalea_leaves.break",damage:1.5d,Tags:["razorpine","prestart2","killedarrow"]}
+execute anchored eyes positioned ^ ^ ^-0.2 run data modify entity @e[type=minecraft:arrow,distance=..0.1,tag=prestart2,limit=1] Owner set from entity @s UUID
+execute anchored eyes positioned ^ ^ ^-0.2 store result entity @e[type=minecraft:arrow,distance=..0.1,tag=prestart2,limit=1] Rotation[0] float -1 run data get entity @s Rotation[0]
+execute anchored eyes positioned ^ ^ ^-0.2 store result entity @e[type=minecraft:arrow,distance=..0.1,tag=prestart2,limit=1] Rotation[1] float -1 run data get entity @s Rotation[1]
+
 
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^1 {Tags:["reikast"]}
 execute store result score #pos0 lbc.math run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[0] 5000

@@ -20,24 +20,7 @@
     "parent": "lbc:true_advancements/staffs/bass",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:item_used_on_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "components": {
-                                "minecraft:entity_data": {
-                                    "id": "minecraft:marker",
-                                    "Tags": [
-                                        "corrupted_dust"
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
+            "trigger": "impossible"
         }
     },
     "rewards": {

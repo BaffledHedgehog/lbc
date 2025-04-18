@@ -1,6 +1,11 @@
 summon minecraft:arrow ^ ^ ^ {Tags:["pule_arrow","killedarrow"]}
 execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/bows_get_trinket
 data modify entity @e[type=minecraft:arrow,distance=..0.01,tag=pule_arrow,limit=1] Owner set from entity @s UUID
+
+execute store result entity @e[type=minecraft:arrow,distance=..0.01,tag=pule_arrow,limit=1] Rotation[0] float -1 run data get entity @s Rotation[0]
+execute store result entity @e[type=minecraft:arrow,distance=..0.01,tag=pule_arrow,limit=1] Rotation[1] float -1 run data get entity @s Rotation[1]
+
+
 scoreboard players operation tmp4 lbc.math = @s bow_charge
 scoreboard players add tmp4 lbc.math 200
 execute store result storage lbc.math tmp1 double 0.005 run scoreboard players get tmp4 lbc.math

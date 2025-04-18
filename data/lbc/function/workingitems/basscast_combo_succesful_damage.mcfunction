@@ -1,1 +1,1 @@
-$damage @s $(tmp) sonic_boom by @a[tag=caster,limit=1,distance=..25]
+$damage @s $(tmp) sonic_boom by @a[tag=caster,limit=1,distance=..25,gamemode=!spectator]

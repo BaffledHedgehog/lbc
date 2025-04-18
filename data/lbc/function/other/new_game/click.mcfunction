@@ -88,6 +88,7 @@ scoreboard players set trollhunter lbc.math 0
 execute in overworld run function lbc:reset_gamerules
 execute in the_nether run function lbc:reset_gamerules
 execute in the_end run function lbc:reset_gamerules
+execute in minecraft:imprinted run function lbc:reset_gamerules
 
 execute in overworld run forceload remove all
 execute in the_nether run forceload remove all

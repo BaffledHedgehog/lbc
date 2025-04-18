@@ -9,7 +9,7 @@ effect give @s minecraft:haste infinite 127
 effect give @s minecraft:health_boost infinite 127
 effect give @s minecraft:raid_omen infinite 5
 effect give @s minecraft:hunger infinite 255
-effect give @s minecraft:instant_damage infinite 127
+effect give @s minecraft:instant_damage infinite 99
 effect give @s minecraft:instant_health infinite 99
 effect give @s minecraft:invisibility infinite 127 true
 effect give @s minecraft:jump_boost infinite 127

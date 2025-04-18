@@ -19,22 +19,13 @@
                                         "rc_1sec"
                                     ],
                                     "transformation": {
-                                        "translation": [
-                                            0,
-                                            0.5,
-                                            0
-                                        ],
-                                        "left_rotation": [0.0,0.0,0.0,0.0],
-                                        "right_rotation": [0.0,0.0,0.0,0.0],
+                                        "translation": [0,0.5,0],
                                         "scale": [1.0,1.0,1.0]
                                     },
-                                    "Rotation": [
-                                        0,
-                                        0
-                                    ],
-                                    "id": "item_display",
+                                    "Rotation": [0.0,0.0],
+                                    "id": "minecraft:item_display",
                                     "item": {
-                                        "id": "panda_spawn_egg",
+                                        "id": "minecraft:stick",
                                         "count": 1,
                                         "components": {
                                             "minecraft:item_model": "lbc:supply_beacon"
@@ -59,6 +50,16 @@
                     "type": "minecraft:loot_table",
                     "weight": 1,
                     "value": "lbc:sauvojen_tuntija_electro"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "lbc:neko_set_techno_full"
                 }
             ]
         }

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:imprinted",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "minecraft:imprinted",
+            "layers": [
+                {
+                    "block": "minecraft:bedrock",
+                    "height": 4
+                },
+                {
+                    "block": "minecraft:air",
+                    "height": 1
+                }
+            ],
+            "structure_overrides": "minecraft:end_cities"
+        }
+    }
+}

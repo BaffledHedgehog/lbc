@@ -86,9 +86,9 @@ scoreboard players set abyss lbc.math 0
 scoreboard players set powerfall lbc.math 0
 scoreboard players set trollhunter lbc.math 0
 
-execute in overworld run function lbc:reset_gamerules
-execute in the_nether run function lbc:reset_gamerules
-execute in the_end run function lbc:reset_gamerules
+execute in the_end run kill @e[distance=0..]
+execute in the_nether run kill @e[distance=0..]
+execute in imprinted run kill @e[distance=0..]
 
 execute in overworld run forceload remove all
 execute in the_nether run forceload remove all
@@ -117,6 +117,7 @@ scoreboard players set ticker lbc.math 0
 schedule clear lbc:items/win/win_2
 bossbar remove grimoire_boss
 stopsound @a * minecraft:lbcsounds.helicopter
+stopsound @a * minecraft:lbcsounds.penis_bossfight
 scoreboard players set #timer lbc.math 0
 scoreboard players set bottom_nexus lbc.math 0
 scoreboard players set barrier_arcanum_mana_tick2 lbc.math 10

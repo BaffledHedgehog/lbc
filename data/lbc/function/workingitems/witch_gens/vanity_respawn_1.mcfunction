@@ -1,0 +1,1 @@
+execute as @a[tag=sin_vanity,limit=1,gamemode=!spectator] at @s run function lbc:workingitems/witch_gens/vanity_respawn_12

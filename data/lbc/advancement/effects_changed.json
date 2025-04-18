@@ -14,6 +14,17 @@
                             }
                         }
                     }
+                }, {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "minecraft:imprinted"
+                            }
+                        }
+                    }
                 }
             ]
         }

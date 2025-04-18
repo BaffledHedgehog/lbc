@@ -1,6 +1,6 @@
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0b}}}}] run effect give @s minecraft:resistance 5 1
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0b}}}}] run particle minecraft:block{block_state:{Name:"minecraft:iron_block"}} ~ ~1 ~ 0.3 1 0.3 0 45 force
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0b}}}}] run playsound minecraft:block.anvil.break master @a[distance=..20] ~ ~ ~ 10 1
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0}}}}] run effect give @s minecraft:resistance 5 1
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0}}}}] run particle minecraft:block{block_state:{Name:"minecraft:iron_block"}} ~ ~1 ~ 0.3 1 0.3 0 45 force
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0}}}}] run playsound minecraft:block.anvil.break master @a[distance=..20] ~ ~ ~ 10 1
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:1}}}}] run effect give @s minecraft:regeneration 1 99
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:1}}}}] run particle minecraft:heart ~ ~1 ~ 0.3 1 0.3 0 25 force

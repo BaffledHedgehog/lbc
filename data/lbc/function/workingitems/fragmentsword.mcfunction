@@ -1,5 +1,5 @@
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0b}}}}] run function lbc:workingitems/epicswordattacks/absorption
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0}}}}] run function lbc:workingitems/epicswordattacks/absorption
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:1}}}}] run function lbc:workingitems/epicswordattacks/arrows
 

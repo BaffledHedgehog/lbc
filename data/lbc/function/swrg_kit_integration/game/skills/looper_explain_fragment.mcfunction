@@ -1,5 +1,5 @@
 item replace block 10241024 71 10241024 container.0 from entity @s weapon.mainhand
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0b}}}}] run data modify block 10241024 71 10241024 Items[{Slot:0b}].components."minecraft:lore"[1] set value '{"translate":"fragment_0","italic":false,"color":"yellow"}'
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:0}}}}] run data modify block 10241024 71 10241024 Items[{Slot:0b}].components."minecraft:lore"[1] set value '{"translate":"fragment_0","italic":false,"color":"yellow"}'
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:1}}}}] run data modify block 10241024 71 10241024 Items[{Slot:0b}].components."minecraft:lore"[1] set value '{"translate":"fragment_1","italic":false,"color":"yellow"}'
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:2}}}}] run data modify block 10241024 71 10241024 Items[{Slot:0b}].components."minecraft:lore"[1] set value '{"translate":"fragment_2","italic":false,"color":"yellow"}'
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:3}}}}] run data modify block 10241024 71 10241024 Items[{Slot:0b}].components."minecraft:lore"[1] set value '{"translate":"fragment_3","italic":false,"color":"yellow"}'

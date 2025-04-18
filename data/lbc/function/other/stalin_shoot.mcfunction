@@ -1,3 +1,7 @@
-execute anchored eyes positioned ^ ^ ^ run summon minecraft:arrow ~ ~ ~ {item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_effects:[{id:"minecraft:raid_omen",amplifier:104b,duration:2}]}},count:1},Tags:["stalin_arrow"],damage:0.001d}
-execute anchored eyes positioned ^ ^ ^ as @e[tag=stalin_arrow,sort=nearest,limit=1] at @s facing entity @e[type=#minecraft:mobs,tag=!stalin,tag=!spectator,sort=nearest,limit=1] eyes run function lbc:raycast_vpered
-playsound minecraft:lbcsounds.shot master @a ~ ~ ~ 1 1
+
+execute store result storage lbc.math r1 int 1 run random value -4..4
+execute store result storage lbc.math r2 int 1 run random value -4..4
+function lbc:workingitems/ak47_otdacha_stalin with storage lbc.math
+
+
+playsound minecraft:lbcsounds.shot master @a[distance=..200] ~ ~ ~ 1 1 0.2

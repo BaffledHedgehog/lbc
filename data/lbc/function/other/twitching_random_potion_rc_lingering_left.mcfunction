@@ -1,7 +1,7 @@
 execute anchored eyes positioned ^ ^ ^.5 run summon minecraft:potion ~ ~ ~ {Tags:["vpered_rc"],Item:{id:"minecraft:lingering_potion",components:{"minecraft:potion_contents":{potion:"minecraft:water"}},count:1}}
-data modify entity @e[type=minecraft:potion,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Item.components."minecraft:custom_data".custom_potion_effects set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".custom_potion_effects
-data modify entity @e[type=minecraft:potion,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Item.components."minecraft:custom_data".Potion set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".Potion
-data modify entity @e[type=minecraft:potion,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Item.components."minecraft:custom_data".CustomPotionColor set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".CustomPotionColor
-
+data modify entity @e[type=minecraft:potion,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Item.components."minecraft:potion_contents".custom_effects set from entity @s SelectedItem.components."minecraft:potion_contents".custom_effects
+data modify entity @e[type=minecraft:potion,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Item.components."minecraft:potion_contents".potion set from entity @s SelectedItem.components."minecraft:potion_contents".potion
+data modify entity @e[type=minecraft:potion,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Item.components."minecraft:potion_contents".custom_color set from entity @s SelectedItem.components."minecraft:potion_contents".custom_color
+data modify entity @e[type=minecraft:potion,tag=vpered_rc,tag=!active,sort=nearest,limit=1] Item.components."minecraft:potion_contents".custom_name set from entity @s SelectedItem.components."minecraft:potion_contents".custom_name
 item replace entity @s weapon.offhand with minecraft:air
 execute rotated as @s as @e[type=minecraft:potion,tag=vpered_rc,tag=!active,sort=nearest,limit=1] run function lbc:other/twitching_random_potion_motion

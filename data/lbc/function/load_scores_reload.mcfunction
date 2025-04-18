@@ -17,6 +17,7 @@ scoreboard objectives remove hook_cooldown
 scoreboard objectives remove bow_charge
 scoreboard objectives remove crossbow_charge
 scoreboard objectives remove nitro
+scoreboard objectives remove gaycaster_upgrade
 scoreboard objectives remove snowball
 scoreboard objectives remove foodlvl
 scoreboard objectives remove hplvl
@@ -192,6 +193,7 @@ scoreboard objectives remove effect_gravity_curse
 scoreboard objectives remove god_claw_cd
 scoreboard objectives remove expansion_cd
 scoreboard objectives remove deus_cd
+scoreboard objectives remove tmticked
 function lbc:load
 
 

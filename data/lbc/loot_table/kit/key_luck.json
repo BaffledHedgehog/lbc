@@ -5,13 +5,14 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:golden_axe",
+                    "name": "minecraft:stick",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:key_luck",
-                                "minecraft:max_damage": 1,
+                                "minecraft:max_damage": 2,
+                                "minecraft:damage": 0,
                                 "minecraft:attribute_modifiers": {
                                     "modifiers": [
                                         {
@@ -22,7 +23,13 @@
                                             "amount": 64
                                         }
                                     ]
-                                }
+                                },
+                                "tool": {
+                                    "damage_per_block": 1,
+                                    "default_mining_speed": 2,
+                                    "rules": []
+                                },
+                                "max_stack_size": 1
                             }
                         },
                         {

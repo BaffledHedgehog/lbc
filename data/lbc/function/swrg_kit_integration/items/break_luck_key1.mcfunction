@@ -1,1 +1,1 @@
-clear @a minecraft:golden_axe[minecraft:damage=31,minecraft:custom_data~{luck_key:1}] 1
+clear @a minecraft:stick[minecraft:damage=1,minecraft:custom_data~{luck_key:1}] 1

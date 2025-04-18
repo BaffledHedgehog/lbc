@@ -281,7 +281,10 @@ advancement revoke @s only lbc:pills/pill_wither_99
 
 
 
-
+advancement revoke @s only swrg:core/quickstart
+advancement revoke @s only swrg:core/food
+advancement revoke @s only swrg:core/kill
+advancement revoke @s only swrg:core/shoot_arrow
 
 
 scoreboard players set @s lucky_block_count 0
@@ -389,7 +392,7 @@ attribute @s minecraft:movement_speed modifier remove minecraft:gravity_curse
 
 attribute @s minecraft:attack_damage modifier remove minecraft:fire_wisp
 attribute @s minecraft:max_health modifier remove minecraft:water_wisp
-
+scoreboard players set @s gaycaster_upgrade 0
 scoreboard players set @s effect_gravity_curse 0
 tag @s remove have_lucky_effects
 tag @s remove have_lucky_effects_5t

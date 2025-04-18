@@ -36,4 +36,4 @@ execute if data entity @e[type=minecraft:snowball,sort=nearest,limit=1] Item.com
 execute if data entity @e[type=minecraft:snowball,sort=nearest,limit=1] Item.components.minecraft:custom_data{false_tumba:1} run function lbc:swrg_kit_integration/items/false_tumba
 
 # remove egg
-kill @e[type=minecraft:snowball,distance=..10,sort=nearest,limit=1,nbt={Item:{components:{"minecraft:custom_data":{gadget:1}}}}]
+execute as @e[type=minecraft:snowball,distance=..10,sort=nearest,limit=1,nbt={Item:{components:{"minecraft:custom_data":{gadget:1}}}}] unless data entity @s Item.components.minecraft:custom_data{"tmt_item":1} run kill @s

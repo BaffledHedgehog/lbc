@@ -42,6 +42,28 @@
                                     }
                                 }
                             }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:any_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:entity_properties",
+                                        "entity": "this",
+                                        "predicate": {
+                                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:entity_properties",
+                                        "entity": "this",
+                                        "predicate": {
+                                            "nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:custom_data\":{luck_key:1}}}]}"
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ],
                     "functions": [
@@ -123,6 +145,32 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:tmtrainer_drop",
+                    "weight": 100000000000000000,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:any_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:custom_data\":{luck_key:1}}}]}"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -196,6 +244,32 @@
                                 },
                                 {
                                     "function": "minecraft:explosion_decay"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:tmtrainer_drop",
+                    "weight": 100000000000000000,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:any_of",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:custom_data\":{luck_key:1}}}]}"
+                                    }
                                 }
                             ]
                         }

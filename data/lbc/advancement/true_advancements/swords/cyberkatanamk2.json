@@ -37,15 +37,6 @@
                         }
                     }
                 ],
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:player"
-                        }
-                    }
-                ],
                 "damage": {
                     "dealt": {
                         "min": 150

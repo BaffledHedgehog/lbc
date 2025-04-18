@@ -48,7 +48,7 @@ item replace block 10241024 201 10241024 container.11 from entity @s armor.chest
 item replace block 10241024 201 10241024 container.12 from entity @s armor.legs
 item replace block 10241024 201 10241024 container.13 from entity @s armor.feet
 
-execute unless entity @e[type=minecraft:marker,tag=stored_stats_vanity] run summon minecraft:marker 10241024 250 10241024 {Tags:["stored_stats_vanity"]}
+execute unless entity @e[type=minecraft:marker,tag=stored_stats_vanity] run summon minecraft:marker 10241024 250 10241024 {Tags:["stored_stats_vanity","core_marker"]}
 
 scoreboard players operation @e[type=minecraft:marker,tag=stored_stats_vanity,limit=1] mana = @s mana
 scoreboard players operation @e[type=minecraft:marker,tag=stored_stats_vanity,limit=1] manamax = @s manamax

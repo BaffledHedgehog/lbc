@@ -53,7 +53,8 @@
                                             "minecraft:item_model": "lbc:corrupted_pentagram"
                                         }
                                     }
-                                }
+                                },
+                                "minecraft:custom_data": "{corrupted_dust:true}"
                             }
                         },
                         {
@@ -143,7 +144,8 @@
                                             "minecraft:item_model": "lbc:lamashtu"
                                         }
                                     }
-                                }
+                                },
+                                "minecraft:custom_data": "{corrupted_dust:true}"
                             }
                         },
                         {
@@ -233,7 +235,8 @@
                                             "minecraft:item_model": "lbc:belial"
                                         }
                                     }
-                                }
+                                },
+                                "minecraft:custom_data": "{corrupted_dust:true}"
                             }
                         },
                         {
@@ -323,7 +326,8 @@
                                             "minecraft:item_model": "lbc:ahriman"
                                         }
                                     }
-                                }
+                                },
+                                "minecraft:custom_data": "{corrupted_dust:true}"
                             }
                         },
                         {

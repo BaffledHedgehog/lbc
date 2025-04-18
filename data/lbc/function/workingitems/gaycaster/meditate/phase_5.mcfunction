@@ -1,0 +1,1 @@
+summon marker ~ ~-5 ~ {Tags:["slowraycast","rare","gaycaster_meditator","medizatop"]}

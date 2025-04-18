@@ -1,0 +1,1 @@
+data merge entity @s {Item:{id:"minecraft:golden_apple",count:1,components:{"food":{"nutrition":20,saturation:20,can_always_eat:true},"consumable":{"consume_seconds":2,has_consume_particles:true}}}}

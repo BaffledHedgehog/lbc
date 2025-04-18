@@ -1,2 +1,3 @@
-execute positioned ^ ^ ^-.5 as @e[type=#minecraft:mobs,distance=..2,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,tag=!spectator,limit=1] lbcID2 facing entity @s eyes as @a[tag=caster,tag=!spectator,limit=1] run function lbcr:raycast_preloop10magnum
-particle minecraft:electric_spark ~ ~ ~ 0.5 0.5 0.5 0 20 force
+execute as @e[type=#minecraft:mobs,distance=..1.5,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,tag=!spectator,limit=1] lbcID2 run effect give @s minecraft:conduit_power 1 1
+particle minecraft:splash ~ ~ ~ 0.4 0.4 0.4 0 30 force
+execute at @e[type=#minecraft:mobs,distance=..1.5,tag=!spectator] run playsound minecraft:lbcsounds.yametekudasai master @a ~ ~ ~ 2 1

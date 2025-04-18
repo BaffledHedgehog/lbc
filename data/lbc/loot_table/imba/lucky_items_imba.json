@@ -377,7 +377,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "fusedtnt",
+                                "minecraft:item_model": "lbc:fusedtnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:tnt",
                                     "fuse": 50,

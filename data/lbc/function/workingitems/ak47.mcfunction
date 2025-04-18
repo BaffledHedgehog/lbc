@@ -1,4 +1,8 @@
-execute anchored eyes positioned ^ ^ ^ run summon minecraft:arrow ~ ~ ~ {Tags:["stalin_arrow_player"],damage:0.001,item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_effects:[{id:"minecraft:raid_omen",amplifier:104b,duration:2}]}},count:1}}
-execute anchored eyes positioned ^ ^ ^ as @e[tag=stalin_arrow_player,sort=nearest,limit=1] at @s rotated as @p[gamemode=!spectator] run function lbc:raycast_vpered
-scoreboard players operation @e[tag=stalin_arrow_player,sort=nearest,limit=1] lbcID2 = @s lbcID2
-playsound minecraft:lbcsounds.shot master @a ~ ~ ~ 3 1
+scoreboard players set @s Distance 0
+tag @s add caster
+execute anchored eyes positioned ^ ^ ^ run function lbc:workingitems/ak47_rec
+tag @s remove caster
+execute store result storage lbc.math r1 int 1 run random value -3..3
+execute store result storage lbc.math r2 int 1 run random value -5..-1
+function lbc:workingitems/ak47_otdacha with storage lbc.math
+playsound minecraft:lbcsounds.shot master @a[distance=..200] ~ ~ ~ 1 1 0.2

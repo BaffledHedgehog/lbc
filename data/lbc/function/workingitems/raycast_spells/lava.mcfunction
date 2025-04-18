@@ -15,5 +15,5 @@ summon minecraft:ghast ~ ~30 ~15
 summon minecraft:ghast ~ ~30 ~-15
 summon minecraft:ghast ~15 ~30 ~
 summon minecraft:ghast ~-15 ~30 ~
-clear @s minecraft:carrot_on_a_stick[minecraft:custom_data~{lava1:1b}] 1
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_data~{lava1:1}] 1
 scoreboard players set @s Distance 300

@@ -1,5 +1,6 @@
 
 loot spawn ~ ~ ~ loot lbc:imba/random_bucks
+loot spawn ~ ~ ~ loot lbc:imba/random_bucks
 
 setblock 10241024 177 10241024 minecraft:air
 

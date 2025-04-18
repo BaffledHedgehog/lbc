@@ -5,19 +5,13 @@
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
-    "sky_color": 16740540,
-    "fog_color": 16740540,
-    "water_color": 16740540,
-    "water_fog_color": 13500135,
-    "grass_color": 13500135,
-    "foliage_color": 13500135,
+    "sky_color": 3997731,
+    "fog_color": 3997731,
+    "foliage_color": 0,
+    "grass_color": 159868,
+    "water_color": 159868,
+    "water_fog_color": 242824,
     "grass_color_modifier": "none",
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
     "music_volume": 0
   },
   "spawners": {},

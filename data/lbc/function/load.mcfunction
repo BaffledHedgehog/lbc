@@ -274,6 +274,8 @@ scoreboard objectives add god_claw_cd dummy
 scoreboard objectives add expansion_cd dummy
 scoreboard objectives add deus_cd dummy
 
+scoreboard objectives add gaycaster_upgrade dummy
+scoreboard objectives add tmticked dummy
 #
 execute unless score cfg_lucky_modifier swrg.math matches 0..100 run scoreboard players set cfg_lucky_modifier swrg.math 0
 execute if score #lang swrg.math matches 2 run function lbc:swrg_kit_integration/lang_en
@@ -299,6 +301,11 @@ execute in nexus run function lbc:reset_gamerules_nexus
 scoreboard objectives add gigaponos dummy
 execute unless score SurvivalVersion lbc.math matches 1 run function lbc:config
 execute if score SurvivalVersion lbc.math matches 1 run function lbc:config_survival
+
+execute in overworld run function lbc:reset_gamerules
+execute in the_nether run function lbc:reset_gamerules
+execute in the_end run function lbc:reset_gamerules
+execute in minecraft:imprinted run function lbc:reset_gamerules
 
 #swag
 

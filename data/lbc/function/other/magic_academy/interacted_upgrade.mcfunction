@@ -1,5 +1,5 @@
 item replace block 10241024 100 10241024 container.0 from entity @s weapon.mainhand
-data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".upgraded set value 1b
+data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".upgraded set value 1
 data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".mode set value 1
 item replace entity @s weapon.mainhand from block 10241024 100 10241024 container.0
 item modify entity @s weapon.mainhand lbc:add_upgrade_desc
@@ -53,3 +53,6 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{inf
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{stonekivi_wand:1}}}}] run function lbc:other/magic_academy/upgrade/stonekivi_wand
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{ice_wand:1}}}}] run function lbc:other/magic_academy/upgrade/ice_wand
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{snow_wand:1}}}}] run function lbc:other/magic_academy/upgrade/snow_wand
+
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{danmaku_staff:1}}}}] run function lbc:other/magic_academy/upgrade/danmaku_staff
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{gaycaster:1}}}}] run function lbc:other/magic_academy/upgrade/gaycaster
