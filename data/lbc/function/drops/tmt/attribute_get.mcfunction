@@ -1,0 +1,1 @@
+$data modify storage lbc.math attrname set from storage lbc:tags attribute[$(i)]

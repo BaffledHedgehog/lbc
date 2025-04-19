@@ -2,7 +2,7 @@ execute as @a run function lbc:resets
 execute as @a run function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
 execute as @a[scores={overheaven=1..}] at @s run function lbc:start_stand
 function lbc:config
-execute if score cfg_lucky_modifier swrg.math matches 1..12 run scoreboard players set no_borders swrg.math 0
+execute if score cfg_lucky_modifier swrg.math matches 2.. run scoreboard players set no_borders swrg.math 0
 execute if score cfg_lucky_modifier swrg.math matches 0 run function lbc:random_luck_modifier
 execute if score cfg_lucky_modifier swrg.math matches 1 run scoreboard players set final_luck_modifier lbc.math 1
 execute if score cfg_lucky_modifier swrg.math matches 2 run scoreboard players set final_luck_modifier lbc.math 2

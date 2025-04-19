@@ -1,0 +1,1 @@
+$data modify storage lbc.math name set from storage lbc:tags enchantment[$(i)]

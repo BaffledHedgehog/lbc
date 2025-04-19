@@ -43,7 +43,38 @@ execute if score if lbc.math matches 4 run data modify storage lbc.math res set 
 
 
 execute store result storage lbc.math i int 1 run random value 1..707
-execute store result storage lbc.math i1 int 1 run random value 1..16482
+execute store result storage lbc.math i1 int 1 run random value 1..12758
 function lbc:drops/tmt/random_equippable with storage lbc.math
+
+execute if predicate lbc:chance20 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance10 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance10 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance10 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance10 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance10 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance10 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance10 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_attribute
+
+
+execute if predicate lbc:chance20 run function lbc:drops/tmt/select_random_enchantment
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_enchantment
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_enchantment
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_enchantment
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_enchantment
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_enchantment
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_enchantment
+execute if predicate lbc:chance5 run function lbc:drops/tmt/select_random_enchantment
 
 

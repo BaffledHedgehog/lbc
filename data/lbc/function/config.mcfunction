@@ -108,4 +108,6 @@ scoreboard players set tiny_blind_wand_mana_use lbc.math 63
 scoreboard players set penis_cultus_mana_use lbc.math 250
 scoreboard players set overload_crux_mana_use lbc.math 7500
 
+scoreboard players set time_stopped lbc.math 0
+
 function lbc:drops/tmt/set_storage
