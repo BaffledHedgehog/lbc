@@ -12,13 +12,14 @@
                             "components": {
                                 "minecraft:item_model": "lbc:key",
                                 "minecraft:max_damage": 1,
+                                "damage":0,
                                 "minecraft:enchantments": {
                                     "levels": {
-                                        "minecraft:fortune": 25
+                                        "minecraft:fortune": 64
                                     }
                                 },
                                 "tool": {
-                                    "damage_per_block": 1,
+                                    "damage_per_block": 100,
                                     "default_mining_speed": 2,
                                     "rules": []
                                 },
