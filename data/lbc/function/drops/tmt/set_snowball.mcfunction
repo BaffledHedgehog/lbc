@@ -1,1 +1,1 @@
-data merge entity @s {Item:{id:"minecraft:carrot_on_a_stick",count:1}}
+data merge entity @s {Item:{id:"minecraft:snowball",count:1}}
