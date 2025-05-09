@@ -76,6 +76,8 @@ execute if score @s effect_rtp_1 matches 1.. run data modify storage lbc.math ui
 execute if score @s effect_rtp_2 matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_2"},"color":"white"}]}'
 execute if score @s effect_rtp_3 matches 1.. run data modify storage lbc.math ui append value '{"text":" \\uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_3"},"color":"white"}]}'
 
+execute if score #lbcskill swrg.math matches 1 if score @s lbc.skill matches 28 run function lbc:ui/get_data_touhou_skill
+
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{bucket_head:1}},Slot:103b}]}] run data modify storage lbc.math ui2 prepend value '{"text":"                                      \\uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}'
 execute if score @s skill_issue matches 1.. run data modify storage lbc.math ui2 append value '{"text":" \\uE130 "}'
 execute unless score legacy lbc.math matches 1 run title @s actionbar {"storage":"lbc.math","nbt":"ui[]","separator":"","interpret":true,"source":"storage","type":"nbt"}

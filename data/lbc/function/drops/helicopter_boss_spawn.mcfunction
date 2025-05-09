@@ -2,6 +2,6 @@ summon minecraft:item_display ^ ^20 ^50 {Tags:["slowraycast","other","helicopter
 summon minecraft:ravager ^ ^20 ^50 {Tags:["helicopter_boss_hitbox"],NoGravity:1b,Silent:1b,Invulnerable:0b,CustomNameVisible:1b,DeathLootTable:"empty",PersistenceRequired:1b,NoAI:1b,Health:150.0f,CustomName:'{"italic":false,"translate":"helicopter_boss"}',active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:150},{id:"minecraft:armor",base:10},{id:"minecraft:armor_toughness",base:10}]}
 execute positioned ^ ^20 ^50 as @e[type=minecraft:item_display,distance=..1,tag=helicopter_boss,tag=!identified,limit=1] at @s run function lbc:drops/helicopter_boss_spawn_2
 playsound minecraft:lbcsounds.helicopter master @a[distance=..20] ~ ~ ~ 0.1 1 0.1
-playsound minecraft:lbcsounds.kazahstan master @a[distance=..20] ~ ~ ~ 2 1 1
+playsound minecraft:lbcsounds.kazahstan master @a[distance=..20] ~ ~ ~ 1 1 0.4
 execute positioned ^ ^20 ^50 at @e[type=minecraft:item_display,distance=..0.01,tag=helicopter_boss,limit=1] facing entity @s feet rotated ~ 0 run tp @e[type=minecraft:item_display,distance=..0.01,tag=helicopter_boss,limit=1] ~ ~ ~ ~ ~
 particle minecraft:dust{color:[1.0,0.0,0.0],scale:2.0f} ~ ~10 ~ 0 100 0 0 1000 normal

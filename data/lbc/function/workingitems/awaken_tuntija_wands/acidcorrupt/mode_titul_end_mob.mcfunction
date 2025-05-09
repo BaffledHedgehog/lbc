@@ -1,4 +1,5 @@
 scoreboard players add @s delayed_death 120
+tag @s add have_lucky_effects_1s
 playsound minecraft:ambient.cave master @s ~ ~ ~
 playsound minecraft:ambient.cave master @s ~ ~ ~
 playsound minecraft:ambient.cave master @s ~ ~ ~

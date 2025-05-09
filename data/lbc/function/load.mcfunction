@@ -296,7 +296,7 @@ function lbc:tick15s
 function lbc:tick2t
 function lbc:tick10s
 function lbc:tick10t
-function lbc:tick30s
+function lbc:tick90s
 execute in nexus run function lbc:reset_gamerules_nexus
 scoreboard objectives add gigaponos dummy
 execute unless score SurvivalVersion lbc.math matches 1 run function lbc:config
@@ -306,6 +306,11 @@ execute in overworld run function lbc:reset_gamerules
 execute in the_nether run function lbc:reset_gamerules
 execute in the_end run function lbc:reset_gamerules
 execute in minecraft:imprinted run function lbc:reset_gamerules
+
+scoreboard objectives add bomb_fragments dummy
+scoreboard objectives add life_fragments dummy
+scoreboard objectives add time_orbs dummy
+scoreboard objectives add touhou_power dummy
 
 #swag
 

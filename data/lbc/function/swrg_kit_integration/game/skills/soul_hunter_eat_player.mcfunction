@@ -42,7 +42,7 @@ function lbc:other/attributes/knockback_resistance_update with storage minecraft
 
 
 execute store result score tmp lbc.math run attribute @s minecraft:movement_speed base get 1000
-execute store result score tmp1 lbc.math run attribute @a[gamemode=!spectator,scores={death=1},limit=1] minecraft:movement_speed get 100
+execute store result score tmp1 lbc.math run attribute @a[gamemode=!spectator,scores={death=1},limit=1] minecraft:movement_speed get 50
 scoreboard players operation tmp lbc.math += tmp1 lbc.math
 execute store result storage lbcmath tmp double 0.001 run scoreboard players get tmp lbc.math
 function lbc:other/attributes/movement_speed_update with storage minecraft:lbcmath

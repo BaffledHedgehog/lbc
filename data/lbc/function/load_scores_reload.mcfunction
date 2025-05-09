@@ -4,7 +4,6 @@ scoreboard objectives remove jump1
 scoreboard objectives remove empty
 scoreboard objectives remove Distance
 scoreboard objectives remove RC_Raycast
-scoreboard objectives remove crossbow
 scoreboard objectives remove coldown1
 scoreboard objectives remove coldown8
 scoreboard objectives remove coldown13
@@ -147,9 +146,6 @@ scoreboard objectives remove air_wisp_chains
 
 scoreboard objectives remove swrg.hp_display
 scoreboard objectives remove swrg.hp
-scoreboard objectives remove swrg.death
-scoreboard objectives remove swrg.roll
-scoreboard objectives remove swrg.roll_timer
 scoreboard objectives remove swrg.lives
 scoreboard objectives remove swrg.fall_damage
 scoreboard objectives remove lbcID2
@@ -194,6 +190,11 @@ scoreboard objectives remove god_claw_cd
 scoreboard objectives remove expansion_cd
 scoreboard objectives remove deus_cd
 scoreboard objectives remove tmticked
+
+scoreboard objectives remove bomb_fragments
+scoreboard objectives remove life_fragments
+scoreboard objectives remove time_orbs
+scoreboard objectives remove touhou_power
 function lbc:load
 
 

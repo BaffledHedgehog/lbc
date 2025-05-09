@@ -13,7 +13,7 @@ gamerule doLimitedCrafting true
 schedule clear lbc:tick10s
 schedule clear lbc:tick10t
 schedule clear lbc:tick15s
-schedule clear lbc:tick30s
+schedule clear lbc:tick90s
 schedule clear lbc:tick1s
 schedule clear lbc:tick2s
 schedule clear lbc:tick2t

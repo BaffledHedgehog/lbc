@@ -6,7 +6,7 @@ scoreboard players remove @s[scores={coldown8=1..}] coldown8 1
 scoreboard players remove @s[scores={coldown1=1..}] coldown1 1
 scoreboard players remove @s[scores={lust_cd=1..}] lust_cd 1
 scoreboard players remove @s[scores={lust_cd_small=1..}] lust_cd_small 1
-
+execute unless score @s swrg.gui_page matches -2147483648..2147483647 run scoreboard players set @s swrg.gui_page 0
 scoreboard players remove @s[scores={divider_cd=1..}] divider_cd 1
 scoreboard players remove @s[scores={coldownoraora=1..}] coldownoraora 1
 scoreboard players remove @s[scores={coldowntimestand=1..}] coldowntimestand 1

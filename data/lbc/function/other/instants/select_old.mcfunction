@@ -5,3 +5,4 @@ execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{nexus_wire_b
 execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{nexus_wire_blue:1}}}]}] run function lbc:other/nexus/wires_other_worlds/green
 execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{nexus_wire_red:1}}}]}] run function lbc:other/nexus/wires_other_worlds/red
 execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{greedstone:1}}}]}] run function lbc:other/greed/pickup
+execute if data entity @s Inventory[].components."minecraft:custom_data".touhou_item at @s run function lbc:swrg_kit_integration/items/touhou_items/select

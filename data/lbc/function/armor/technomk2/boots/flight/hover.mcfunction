@@ -1,9 +1,9 @@
 scoreboard players set *temp.fly.particle lbc.math 0
 effect clear @s minecraft:levitation
-attribute @s minecraft:gravity modifier remove minecraft:gravity_mk2armor_fix1
-attribute @s minecraft:gravity modifier remove minecraft:gravity_mk2armor_fix2
+attribute @s minecraft:gravity modifier remove gravity_mk2armor_fix1
+attribute @s minecraft:gravity modifier remove gravity_mk2armor_fix2
 
-attribute @s minecraft:gravity modifier add minecraft:gravity_mk2armor_fix1 -0.08 add_value
+attribute @s minecraft:gravity modifier add gravity_mk2armor_fix1 -0.08 add_value
 
 execute store result storage lbc.math tmp double 0.001 run scoreboard players get @s speedy
 function lbc:armor/technomk2/boots/flight/hover_1 with storage lbc.math
