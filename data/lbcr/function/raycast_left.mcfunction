@@ -29,6 +29,7 @@ execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{infbo
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{stonekivi_wand:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] if score @s mana >= stonekivi_wand_mana_use lbc.math anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/stonekivi/click
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{woodificator:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_woodifier_loop
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{lightning_bolt:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_lightning_bolt
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{drone_pult:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:items/misc/drone/click
 
 
 tag @s remove raycaster

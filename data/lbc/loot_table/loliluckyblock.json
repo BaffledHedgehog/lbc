@@ -1305,6 +1305,16 @@
                             "tag": "{zaika:1,magicwand:1}"
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:drone",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:madoka_bow",
+                    "weight": 10
                 }
             ]
         }

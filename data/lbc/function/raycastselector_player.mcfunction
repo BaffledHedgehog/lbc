@@ -35,3 +35,4 @@ execute if entity @s[tag=thromn_sword] run return run function lbc:items/swords/
 execute if entity @s[tag=triplesword_portal] run return run function lbc:other/grimoire_dungeon/mobs/golden_skeleton/portal_tick
 execute if entity @s[tag=nano_trapik] run return run function lbc:swrg_kit_integration/items/nanotrapik_tick
 execute if entity @s[tag=govno_poprigun] run return run function lbc:swrg_kit_integration/items/govno_poprigun
+execute if entity @s[tag=homing_drone] run return run function lbc:items/misc/drone/tick

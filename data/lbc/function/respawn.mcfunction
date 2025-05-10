@@ -10,4 +10,10 @@ execute at @s[tag=sin_indolence,tag=!indolence_active] run function lbc:workingi
 tag @s remove indolence_active
 loot give @s[tag=sin_lust] loot lbc:lust_get
 loot give @s[tag=sin_gluttony] loot lbc:glutton_summons
+effect give @s slow_falling 4 0 true
+tag @s add forespawn
+execute unless entity @s[tag=sin_vanity] run schedule function lbc:respawnnovanity 10t
+
+
+execute in minecraft:white run forceload add ~-10 ~-10 ~10 ~10
 tag @s remove dead
