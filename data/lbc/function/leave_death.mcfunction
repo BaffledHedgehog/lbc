@@ -279,6 +279,8 @@ advancement revoke @s only lbc:pills/pill_wither
 advancement revoke @s only lbc:pills/pill_wither_99
 
 
+advancement revoke @s only lbc:madoka_bow_hit
+
 
 advancement revoke @s only swrg:core/quickstart
 advancement revoke @s only swrg:core/food

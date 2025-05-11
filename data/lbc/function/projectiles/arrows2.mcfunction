@@ -9,11 +9,16 @@ execute if score tmp lbc.math matches 18 run scoreboard players operation @s eff
 execute if score tmp lbc.math matches 19 run scoreboard players operation @s effect_add_mana += dur lbc.math
 execute if score tmp lbc.math matches 20 run scoreboard players operation @s effect_remove_mana += dur lbc.math
 
+
+
+
 execute if score tmp lbc.math matches 40 run scoreboard players operation @s effect_rtp_1 += dur lbc.math
 execute if score tmp lbc.math matches 41 run scoreboard players operation @s effect_rtp_2 += dur lbc.math
 execute if score tmp lbc.math matches 42 run scoreboard players operation @s effect_rtp_3 += dur lbc.math
 
 execute if score tmp lbc.math matches 74 run scoreboard players operation @s effect_snus += dur lbc.math
+
+execute if score tmp lbc.math matches 76 run function lbc:items/bows/kaname_bow/hit
 
 execute if score tmp lbc.math matches 97 run summon minecraft:arrow ~ ~ ~ {Motion:[0.0d,-10.0d,0.0d],damage:0.001d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:97b,duration:20}]},"minecraft:intangible_projectile":{}}},pickup:0b}
 

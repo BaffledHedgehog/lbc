@@ -285,6 +285,7 @@ forceload add 10241024 10241024
 setblock 10241024 100 10241024 minecraft:yellow_shulker_box
 setblock 10241024 71 10241024 minecraft:yellow_shulker_box
 setblock 10241024 94 10241024 minecraft:yellow_shulker_box
+setblock 10241024 194 10241024 minecraft:yellow_shulker_box
 function lbc:tick5s
 function lbc:tick2s
 function lbc:tick3s
