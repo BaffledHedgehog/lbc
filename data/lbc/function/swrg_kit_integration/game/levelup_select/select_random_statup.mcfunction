@@ -10,7 +10,7 @@ execute if score tmp lbc.math matches 8 run attribute @s minecraft:fall_damage_m
 execute if score tmp lbc.math matches 9 run attribute @s minecraft:jump_strength modifier add minecraft:levelup_random_statup_1 0.01 add_value
 execute if score tmp lbc.math matches 10 run attribute @s minecraft:knockback_resistance modifier add minecraft:levelup_random_statup_1 0.2 add_value
 execute if score tmp lbc.math matches 11 run attribute @s minecraft:luck modifier add minecraft:levelup_random_statup_1 1 add_value
-execute if score tmp lbc.math matches 12 run attribute @s minecraft:max_health modifier add minecraft:levelup_random_statup_1 8 add_value
+execute if score tmp lbc.math matches 12 run attribute @s minecraft:max_health modifier add minecraft:levelup_random_statup_1 0.4 add_multiplied_base
 execute if score tmp lbc.math matches 13 run attribute @s minecraft:movement_efficiency modifier add minecraft:levelup_random_statup_1 0.5 add_value
 execute if score tmp lbc.math matches 14 run attribute @s minecraft:movement_speed modifier add minecraft:levelup_random_statup_1 0.025 add_value
 execute if score tmp lbc.math matches 15 run attribute @s minecraft:safe_fall_distance modifier add minecraft:levelup_random_statup_1 4 add_value
@@ -37,7 +37,7 @@ execute if score tmp lbc.math matches 8 run attribute @s minecraft:fall_damage_m
 execute if score tmp lbc.math matches 9 run attribute @s minecraft:jump_strength modifier add minecraft:levelup_random_statup_2 0.01 add_value
 execute if score tmp lbc.math matches 10 run attribute @s minecraft:knockback_resistance modifier add minecraft:levelup_random_statup_2 0.2 add_value
 execute if score tmp lbc.math matches 11 run attribute @s minecraft:luck modifier add minecraft:levelup_random_statup_2 1 add_value
-execute if score tmp lbc.math matches 12 run attribute @s minecraft:max_health modifier add minecraft:levelup_random_statup_2 8 add_value
+execute if score tmp lbc.math matches 12 run attribute @s minecraft:max_health modifier add minecraft:levelup_random_statup_2 0.4 add_multiplied_base
 execute if score tmp lbc.math matches 13 run attribute @s minecraft:movement_efficiency modifier add minecraft:levelup_random_statup_2 0.5 add_value
 execute if score tmp lbc.math matches 14 run attribute @s minecraft:movement_speed modifier add minecraft:levelup_random_statup_2 0.025 add_value
 execute if score tmp lbc.math matches 15 run attribute @s minecraft:safe_fall_distance modifier add minecraft:levelup_random_statup_2 4 add_value
