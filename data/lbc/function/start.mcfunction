@@ -16,7 +16,7 @@ execute if score cfg_lucky_modifier swrg.math matches 9 run scoreboard players s
 execute if score cfg_lucky_modifier swrg.math matches 10 run scoreboard players set final_luck_modifier lbc.math 10
 execute if score cfg_lucky_modifier swrg.math matches 11 run scoreboard players set final_luck_modifier lbc.math 11
 execute if score cfg_lucky_modifier swrg.math matches 12 run scoreboard players set final_luck_modifier lbc.math 12
-schedule function lbc:resourcepacks 5s
+#schedule function lbc:resourcepacks 5s
 experience add @a 20 levels
 title @a times 0 35 0
 execute in overworld run function lbc:reset_gamerules
