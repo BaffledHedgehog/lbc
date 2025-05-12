@@ -1,6 +1,6 @@
-particle minecraft:dust_color_transition{from_color:[0.0,0.8,1.0],scale:1.0f,to_color:[0.0,0.0,0.0]} ~ ~.8 ~ 0.3 0.5 0.3 0 30 force
+particle minecraft:trial_spawner_detection_ominous ~ ~.8 ~ 0.4 0.5 0.4 0 30 normal
 tp @s ^ ^ ^5
-execute at @s run particle minecraft:dust_color_transition{from_color:[0.0,0.8,1.0],scale:1.0f,to_color:[0.0,0.0,0.0]} ~ ~.8 ~ 0.3 0.5 0.3 0 30 force
+execute at @s run particle minecraft:trial_spawner_detection_ominous ~ ~.8 ~ 0.4 0.5 0.4 0 30 normal
 playsound minecraft:item.trident.riptide_1 master @a ~ ~ ~ 2 0
 execute at @s unless block ~ ~ ~ #minecraft:airs run tp @s ~ ~1 ~
 execute at @s unless block ~ ~ ~ #minecraft:airs run tp @s ~ ~1 ~

@@ -270,7 +270,8 @@ scoreboard objectives add effect_boost_mana dummy
 scoreboard objectives add effect_gravity_curse dummy
 
 scoreboard objectives add hook_cooldown dummy
-scoreboard objectives add lbc.tokens dummy
+scoreboard objectives add challenge_score dummy
+scoreboard objectives add lbc.challenge dummy
 scoreboard objectives add god_claw_cd dummy
 scoreboard objectives add expansion_cd dummy
 scoreboard objectives add deus_cd dummy
@@ -313,6 +314,14 @@ scoreboard objectives add bomb_fragments dummy
 scoreboard objectives add life_fragments dummy
 scoreboard objectives add time_orbs dummy
 scoreboard objectives add touhou_power dummy
+
+
+scoreboard objectives add lbc.challenge.skill dummy
+scoreboard objectives add lbc.challenge.kit dummy
+scoreboard objectives add lbc.challenge.levelup dummy
+scoreboard objectives add lbc.challenge.levelup2 dummy
+scoreboard objectives add lbc.challenge.trinket dummy
+scoreboard objectives add lbc.challenge.trinket2 dummy
 
 #swag
 

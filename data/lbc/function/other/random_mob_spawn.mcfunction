@@ -1,4 +1,4 @@
-execute store result score #random81 lbc.math run random value 1..81
+execute store result score #random81 lbc.math run random value 1..84
 execute if score final_luck_modifier lbc.math matches 7 run scoreboard players set #random81 lbc.math 22
 
 execute anchored eyes if score #random81 lbc.math matches 1 run summon minecraft:fox ~ ~ ~
@@ -82,3 +82,6 @@ execute anchored eyes if score #random81 lbc.math matches 78 run summon minecraf
 execute anchored eyes if score #random81 lbc.math matches 79 run summon minecraft:sniffer ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 80 run summon minecraft:camel ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 81 run summon minecraft:breeze ~ ~ ~
+execute anchored eyes if score #random81 lbc.math matches 82 run summon minecraft:armadillo ~ ~ ~
+execute anchored eyes if score #random81 lbc.math matches 83 run summon minecraft:bogged ~ ~ ~
+execute anchored eyes if score #random81 lbc.math matches 84 run summon minecraft:creaking ~ ~ ~ {Invulnerable:true}

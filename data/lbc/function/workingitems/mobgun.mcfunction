@@ -1,5 +1,5 @@
 playsound minecraft:block.piston.extend master @a ~ ~ ~ 1 2
-execute store result score #random105 lbc.math run random value 1..107
+execute store result score #random105 lbc.math run random value 1..108
 execute if score final_luck_modifier lbc.math matches 7 run scoreboard players set #random105 lbc.math 22
 
 execute anchored eyes if score #random105 lbc.math matches 1 positioned ^ ^ ^ run summon minecraft:fox ^ ^ ^0.5 {Tags:["raycastmob","prestartf"]}
@@ -109,6 +109,7 @@ execute anchored eyes if score #random105 lbc.math matches 104 positioned ^ ^ ^ 
 execute anchored eyes if score #random105 lbc.math matches 105 positioned ^ ^ ^ run summon minecraft:wind_charge ^ ^ ^2 {Tags:["raycastmob","prestartf"]}
 execute anchored eyes if score #random105 lbc.math matches 106 positioned ^ ^ ^ run summon minecraft:armadillo ^ ^ ^2 {Tags:["raycastmob","prestartf"]}
 execute anchored eyes if score #random105 lbc.math matches 107 positioned ^ ^ ^ run summon minecraft:bogged ^ ^ ^2 {Tags:["raycastmob","prestartf"]}
+execute anchored eyes if score #random105 lbc.math matches 108 positioned ^ ^ ^ run summon minecraft:creaking ^ ^ ^2 {Tags:["raycastmob","prestartf"],Invulnerable:true}
 
 execute if score #random105 lbc.math matches 22 run advancement grant @s only lbc:true_advancements/shooter/mob_gun
 

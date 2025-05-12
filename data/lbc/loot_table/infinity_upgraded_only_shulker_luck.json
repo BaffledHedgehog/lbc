@@ -12,7 +12,8 @@
                             "components": {
                                 "minecraft:container_loot": {
                                     "loot_table": "lbc:infinity_upgraded_luck"
-                                }
+                                },
+                                "minecraft:custom_data": "{sigma_shulker:1}"
                             }
                         },
                         {

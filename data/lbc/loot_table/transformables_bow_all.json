@@ -130,6 +130,11 @@
                             "tag": "{craftusable:1,transformable:1,bow:1,shish_gun:1}"
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:madoka_bow",
+                    "weight": 1
                 }
             ]
         }

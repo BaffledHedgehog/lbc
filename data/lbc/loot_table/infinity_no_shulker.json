@@ -11187,7 +11187,7 @@
                             "enchantments": {
                                 "minecraft:breach": 1
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11206,7 +11206,7 @@
                             "enchantments": {
                                 "minecraft:breach": 2
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11225,7 +11225,7 @@
                             "enchantments": {
                                 "minecraft:breach": 3
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11244,7 +11244,7 @@
                             "enchantments": {
                                 "minecraft:breach": 4
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11263,7 +11263,7 @@
                             "enchantments": {
                                 "minecraft:wind_burst": 1
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11282,7 +11282,7 @@
                             "enchantments": {
                                 "minecraft:wind_burst": 2
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11301,7 +11301,7 @@
                             "enchantments": {
                                 "minecraft:wind_burst": 3
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11320,7 +11320,7 @@
                             "enchantments": {
                                 "minecraft:density": 1
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11339,7 +11339,7 @@
                             "enchantments": {
                                 "minecraft:density": 2
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11358,7 +11358,7 @@
                             "enchantments": {
                                 "minecraft:density": 3
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11377,7 +11377,7 @@
                             "enchantments": {
                                 "minecraft:density": 4
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11396,7 +11396,7 @@
                             "enchantments": {
                                 "minecraft:density": 5
                             },
-                            "add":1,
+                            "add":true,
                             "conditions": [
                                 {
                                     "condition": "minecraft:random_chance",
@@ -11437,6 +11437,226 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:wolf_armor"
+                }
+
+
+
+
+
+
+
+                ,
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:field_masoned_banner_pattern"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bordure_indented_banner_pattern"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:red_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cyan_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gray_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pink_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:green_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:white_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:brown_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:yellow_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magenta_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_blue_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:light_gray_bundle"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:creaking_heart"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_boat"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_button"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_chest_boat"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_door"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_fence"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_fence_gate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_hanging_sign"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_leaves"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_log"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_planks"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_pressure_plate"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_sapling"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_sign"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_slab"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_stairs"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_trapdoor"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_oak_wood"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stripped_pale_oak_log"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stripped_pale_oak_wood"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_hanging_moss"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_moss_block"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pale_moss_carpet"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:creaking_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:closed_eyeblossom"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:open_eyeblossom"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:resin_block"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:resin_brick"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:resin_brick_slab"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:resin_brick_stairs"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:resin_brick_wall"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:resin_bricks"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:resin_clump"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chiseled_resin_bricks"
                 }
             ]
         }

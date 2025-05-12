@@ -28,3 +28,5 @@ tag @s[nbt={Item:{components:{"minecraft:custom_data":{copypaster:1}}}}] add wor
 tag @s[nbt={Item:{components:{"minecraft:custom_data":{multiply:2}}}}] add working
 tag @s[nbt={Item:{components:{"minecraft:custom_data":{multiply:3}}}}] add working
 tag @s[nbt={Item:{components:{"minecraft:custom_data":{multiply:4}}}}] add working
+tag @s[nbt={Item:{components:{"minecraft:custom_data":{academy_token:1}}}}] add working
+tag @s[nbt={Item:{components:{"minecraft:custom_data":{academy_token:1}}}}] add academy_token

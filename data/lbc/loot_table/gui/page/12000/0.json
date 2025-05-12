@@ -10,14 +10,14 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:advancement_icon/academy"
+                                "minecraft:item_model": "lbc:no_knowledge"
                             }
                         },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "translate": "lbctweak.0",
+                                "translate": "lbcchallenge.0",
                                 "italic": false,
                                 "color": "white"
                             }
@@ -28,38 +28,70 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "translate": "lbctweak.0.lore",
+                                    "translate": "lbcchallenge.0.lore.1",
                                     "italic": false,
-                                    "color": "gray"
+                                    "color": "red"
+                                },
+                                {
+                                    "translate": "lbcchallenge.0.lore.2",
+                                    "italic": false,
+                                    "color": "red"
+                                },
+                                {
+                                    "translate": "lbcchallenge.0.lore.3",
+                                    "italic": false,
+                                    "color": "red"
+                                },
+                                {
+                                    "translate": "lbcchallenge.0.lore.4",
+                                    "italic": false,
+                                    "color": "yellow"
+                                },
+                                {
+                                    "translate": "lbcchallenge.0.lore.5",
+                                    "italic": false,
+                                    "color": "gold"
+                                },
+                                {
+                                    "translate": "lbcchallenge.0.lore.6",
+                                    "italic": false,
+                                    "color": "green"
+                                },
+                                {
+                                    "translate": "lbcchallenge.0.lore.7",
+                                    "italic": false,
+                                    "color": "green"
                                 },
                                 [
                                     {
-                                        "translate": "lbctweak.lore.all",
+                                        "translate": "lbcchallenge.lore.all.1",
                                         "italic": false,
                                         "color": "gray"
                                     },
                                     {
                                         "score": {
-                                            "objective": "swrg.math",
-                                            "name": "#bonus_academy"
-                                        },
-                                        "type": "score"
-                                    }
-                                ],
-                                [
-                                    {
-                                        "translate": "lbctweak.lore.all.1",
-                                        "italic": false,
-                                        "color": "gray"
-                                    },
-                                    {
-                                        "score": {
-                                            "objective": "lbc.tokens",
+                                            "objective": "challenge_score",
                                             "name": "@s"
                                         },
-                                        "type": "score"
+                                        "type": "score",
+                                        "color": "green"
+                                    },
+                                    {
+                                        "translate": "lbcchallenge.lore.all.2",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    },
+                                    {
+                                        "text": "20",
+                                        "italic": false,
+                                        "color": "green"
                                     }
-                                ]
+                                ],
+                                {
+                                    "translate": "lbcchallenge.lore.all.3",
+                                    "italic": false,
+                                    "color": "dark_red"
+                                }
                             ]
                         }
                     ]
