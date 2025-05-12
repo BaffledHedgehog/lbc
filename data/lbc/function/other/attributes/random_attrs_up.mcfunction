@@ -18,10 +18,10 @@ execute if score #rand lbc.math matches 16 run function lbc:other/attributes/min
 execute if score #rand lbc.math matches 17 run function lbc:other/attributes/movement_efficiency_up
 execute if score #rand lbc.math matches 18 run function lbc:other/attributes/oxygen_bonus_up
 execute if score #rand lbc.math matches 19 run function lbc:other/attributes/safe_fall_distance_up
-execute if score #rand lbc.math matches 20 run function lbc:other/attributes/scale_up_godclaw
+execute if score #rand lbc.math matches 20 run function lbc:other/attributes/scale_up_tiny
 execute if score #rand lbc.math matches 21 run function lbc:other/attributes/sneaking_speed_up
 execute if score #rand lbc.math matches 22 run function lbc:other/attributes/step_height_up
 execute if score #rand lbc.math matches 23 run function lbc:other/attributes/submerged_mining_speed_up
 execute if score #rand lbc.math matches 24 run function lbc:other/attributes/sweeping_damage_ratio_up
 execute if score #rand lbc.math matches 25 run function lbc:other/attributes/water_movement_efficiency_up
-execute if score #rand lbc.math matches 26 run function lbc:other/attributes/movement_speed_up_godclaw
+execute if score #rand lbc.math matches 26 run function lbc:other/attributes/movement_speed_up_tiny

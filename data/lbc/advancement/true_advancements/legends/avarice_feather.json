@@ -17,7 +17,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "lbc:true_advancements/legends/avarice_divider",
+    "parent": "lbc:true_advancements/legends/avarice_diamond",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",

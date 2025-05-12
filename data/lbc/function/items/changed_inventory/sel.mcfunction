@@ -27,6 +27,7 @@ tag @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{nanobots:1}}}]}] r
 
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical:1,type:4}}}]}] add no_arrows_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{instantitem:1}}}]}] add instantitem_active
+attribute @s minecraft:movement_speed modifier remove shulker_armor
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{shulkshell:1}},Slot:100b},{components:{"minecraft:custom_data":{shulkshell:1}},Slot:101b},{components:{"minecraft:custom_data":{shulkshell:1}},Slot:102b},{components:{"minecraft:custom_data":{shulkshell:1}},Slot:103b}]}] add shulker_setbonus_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{troll:1}},Slot:103b}]}] add trollmask_active
 tag @s[nbt={Inventory:[{components:{"minecraft:custom_data":{assasin:1}},Slot:100b},{components:{"minecraft:custom_data":{assasin:1}},Slot:101b},{components:{"minecraft:custom_data":{assasin:1}},Slot:102b},{components:{"minecraft:custom_data":{assasin:1}},Slot:103b}]}] add assasin_setbonus_active

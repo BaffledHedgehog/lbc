@@ -1,4 +1,4 @@
-summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0.0f,shadow_strength:0.0f,teleport_duration:1,item_display:"fixed",transformation:[0.0f,0.0f,2.5f,0.0f,1.7678f,-1.7678f,0.0f,0.0f,1.7678f,1.7678f,0.0f,0.0f,0.0f,0.0f,0.0f,3.0f],item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"lbc:triple_golden_sword"},count:1},Tags:["thromn_sword","slowraycast","player"]}
+summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0.0f,shadow_strength:0.0f,teleport_duration:1,item_display:"fixed",transformation:[0.0f,0.0f,2.5f,0.0f,1.7678f,-1.7678f,0.0f,0.0f,1.7678f,1.7678f,0.0f,0.0f,0.0f,0.0f,0.0f,3.0f],item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"lbc:triple_golden_sword"},count:1},Tags:["thromn_sword","slowraycast","player","magic"]}
 tp @e[type=minecraft:item_display,distance=..0.01,tag=thromn_sword,tag=!actived,limit=1] ~ ~ ~ ~ ~
 scoreboard players operation @e[type=minecraft:item_display,distance=..0.01,tag=thromn_sword,tag=!actived,limit=1] lbcID2 = @s lbcID2
 tag @e[type=minecraft:item_display,distance=..0.01,tag=thromn_sword,tag=!actived,limit=1] add actived
