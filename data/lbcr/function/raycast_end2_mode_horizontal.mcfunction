@@ -1,4 +1,4 @@
 
-execute positioned ^ ^ ^.5 run fill ~3 ~ ~3 ~-3 ~ ~-3 minecraft:bricks replace #minecraft:airs
+execute positioned ^ ^ ^.5 run fill ~3 ~ ~3 ~-3 ~ ~-3 minecraft:bricks replace #minecraft:airs strict
 playsound minecraft:block.stone.place master @a ~ ~ ~ 1 1
 tag @s remove shishwall

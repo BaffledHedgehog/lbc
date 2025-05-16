@@ -4,11 +4,11 @@ scoreboard players set ended_temp lbc.math 0
 execute store result score temp_y lbc.math run data get entity @s Pos[1]
 scoreboard players operation rail_temp lbc.math %= 7 lbc.math
 playsound minecraft:block.anvil.place master @a ~ ~ ~ 0.5 1
-setblock ~ ~-1 ~ minecraft:oak_planks
-fill ~ ~ ~ ~ ~2 ~ minecraft:air
-fill ~2 ~ ~2 ~-2 ~4 ~-2 minecraft:glass replace minecraft:water
-fill ~2 ~ ~2 ~-2 ~4 ~-2 minecraft:orange_stained_glass replace minecraft:lava
-execute if score rail_temp lbc.math matches 1 run setblock ~ ~-1 ~ minecraft:redstone_block
+setblock ~ ~-1 ~ minecraft:oak_planks strict
+fill ~ ~ ~ ~ ~2 ~ minecraft:air strict
+fill ~2 ~ ~2 ~-2 ~4 ~-2 minecraft:glass replace minecraft:water strict
+fill ~2 ~ ~2 ~-2 ~4 ~-2 minecraft:orange_stained_glass replace minecraft:lava strict
+execute if score rail_temp lbc.math matches 1 run setblock ~ ~-1 ~ minecraft:redstone_block strict
 execute if score tmp_build_if lbc.math matches 0 if block ^ ^1 ^1 #minecraft:airs if block ^ ^ ^1 #minecraft:airs if block ^ ^-1 ^1 #minecraft:airs if block ^ ^-2 ^1 #minecraft:airs if block ^ ^-3 ^1 #minecraft:airs if block ^ ^-4 ^1 #minecraft:airs if block ^ ^-5 ^1 #minecraft:airs if block ^ ^-6 ^1 #minecraft:airs if block ^ ^-7 ^1 #minecraft:airs if block ^ ^-8 ^1 #minecraft:airs if block ^ ^-9 ^1 #minecraft:airs if block ^ ^-10 ^1 #minecraft:airs if block ^ ^-11 ^1 #minecraft:airs if block ^ ^-12 ^1 #minecraft:airs if block ^ ^-13 ^1 #minecraft:airs if block ^ ^-14 ^1 #minecraft:airs if block ^ ^-15 ^1 #minecraft:airs if block ^ ^-16 ^1 #minecraft:airs if block ^ ^-17 ^1 #minecraft:airs if block ^ ^-18 ^1 #minecraft:airs if block ^ ^-19 ^1 #minecraft:airs if block ^ ^-20 ^1 #minecraft:airs if block ^ ^-21 ^1 #minecraft:airs if block ^ ^-22 ^1 #minecraft:airs if block ^ ^-23 ^1 #minecraft:airs if block ^ ^-24 ^1 #minecraft:airs if block ^ ^-25 ^1 #minecraft:airs if block ^ ^-26 ^1 #minecraft:airs if block ^ ^-27 ^1 #minecraft:airs if block ^ ^-28 ^1 #minecraft:airs if block ^ ^-29 ^1 #minecraft:airs run function lbc:other/railroad/build_straight
 execute if score tmp_build_if lbc.math matches 0 if block ^ ^ ^1 #minecraft:airs unless block ^ ^-1 ^1 #minecraft:airs run function lbc:other/railroad/build_straight
 execute if score tmp_build_if lbc.math matches 0 unless score temp_y lbc.math matches 318.. unless block ^ ^ ^1 #minecraft:airs unless entity @s[tag=prev_down] run function lbc:other/railroad/build_up

@@ -12,4 +12,4 @@ execute if score rot_temp lbc.math matches -180..-136 run data modify entity @s 
 execute if score rot_temp lbc.math matches -135..-46 run data modify entity @s Rotation[0] set value 270.0f
 data modify entity @s Rotation[1] set value 0.0f
 execute at @s run summon minecraft:minecart ^ ^3 ^1
-execute at @s run fill ^ ^ ^-1 ^ ^1 ^-1 minecraft:oak_wood
+execute at @s run fill ^ ^ ^-1 ^ ^1 ^-1 minecraft:oak_wood strict

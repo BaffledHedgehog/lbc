@@ -1,238 +1,238 @@
 
-execute store result score oak_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_log
-execute store result score cherry_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_log
-execute store result score spruce_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_log
-execute store result score birch_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_log
-execute store result score jungle_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_log
-execute store result score acacia_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_log
-execute store result score dark_oak_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_log
-execute store result score mangrove_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_log
-execute store result score bamboo_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_block
-execute store result score crimson_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_stem
-execute store result score warped_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_stem
+execute store result score oak_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_log strict
+execute store result score cherry_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_log strict
+execute store result score spruce_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_log strict
+execute store result score birch_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_log strict
+execute store result score jungle_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_log strict
+execute store result score acacia_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_log strict
+execute store result score dark_oak_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_log strict
+execute store result score mangrove_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_log strict
+execute store result score bamboo_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_block strict
+execute store result score crimson_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_stem strict
+execute store result score warped_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_stem strict
 
-execute store result score oak_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_pressure_plate
-execute store result score cherry_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_pressure_plate
-execute store result score spruce_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_pressure_plate
-execute store result score birch_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_pressure_plate
-execute store result score jungle_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_pressure_plate
-execute store result score acacia_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_pressure_plate
-execute store result score dark_oak_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_pressure_plate
-execute store result score mangrove_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_pressure_plate
-execute store result score bamboo_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_pressure_plate
-execute store result score crimson_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_pressure_plate
-execute store result score warped_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_pressure_plate
+execute store result score oak_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_pressure_plate strict
+execute store result score cherry_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_pressure_plate strict
+execute store result score spruce_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_pressure_plate strict
+execute store result score birch_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_pressure_plate strict
+execute store result score jungle_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_pressure_plate strict
+execute store result score acacia_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_pressure_plate strict
+execute store result score dark_oak_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_pressure_plate strict
+execute store result score mangrove_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_pressure_plate strict
+execute store result score bamboo_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_pressure_plate strict
+execute store result score crimson_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_pressure_plate strict
+execute store result score warped_pressure_plate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_pressure_plate strict
 
-execute store result score oak_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_door
-execute store result score cherry_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_door
-execute store result score spruce_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_door
-execute store result score birch_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_door
-execute store result score jungle_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_door
-execute store result score acacia_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_door
-execute store result score dark_oak_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_door
-execute store result score mangrove_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_door
-execute store result score bamboo_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_door
-execute store result score crimson_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_door
-execute store result score warped_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_door
+execute store result score oak_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_door strict
+execute store result score cherry_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_door strict
+execute store result score spruce_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_door strict
+execute store result score birch_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_door strict
+execute store result score jungle_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_door strict
+execute store result score acacia_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_door strict
+execute store result score dark_oak_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_door strict
+execute store result score mangrove_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_door strict
+execute store result score bamboo_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_door strict
+execute store result score crimson_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_door strict
+execute store result score warped_door1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_door strict
 
-execute store result score oak_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_wood
-execute store result score cherry_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_wood
-execute store result score spruce_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_wood
-execute store result score birch_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_wood
-execute store result score jungle_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_wood
-execute store result score acacia_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_wood
-execute store result score dark_oak_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_wood
-execute store result score mangrove_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_wood
-execute store result score bamboo_mosaic1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_mosaic
-execute store result score crimson_hyphae1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_hyphae
-execute store result score warped_hyphae1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_hyphae
+execute store result score oak_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_wood strict
+execute store result score cherry_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_wood strict
+execute store result score spruce_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_wood strict
+execute store result score birch_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_wood strict
+execute store result score jungle_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_wood strict
+execute store result score acacia_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_wood strict
+execute store result score dark_oak_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_wood strict
+execute store result score mangrove_wood1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_wood strict
+execute store result score bamboo_mosaic1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_mosaic strict
+execute store result score crimson_hyphae1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_hyphae strict
+execute store result score warped_hyphae1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_hyphae strict
 
-execute store result score oak_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_sign
-execute store result score cherry_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_sign
-execute store result score spruce_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_sign
-execute store result score birch_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_sign
-execute store result score jungle_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_sign
-execute store result score acacia_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_sign
-execute store result score dark_oak_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_sign
-execute store result score mangrove_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_sign
-execute store result score bamboo_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_sign
-execute store result score crimson_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_sign
-execute store result score warped_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_sign
+execute store result score oak_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_sign strict
+execute store result score cherry_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_sign strict
+execute store result score spruce_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_sign strict
+execute store result score birch_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_sign strict
+execute store result score jungle_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_sign strict
+execute store result score acacia_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_sign strict
+execute store result score dark_oak_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_sign strict
+execute store result score mangrove_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_sign strict
+execute store result score bamboo_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_sign strict
+execute store result score crimson_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_sign strict
+execute store result score warped_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_sign strict
 
-execute store result score oak_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_hanging_sign
-execute store result score cherry_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_hanging_sign
-execute store result score spruce_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_hanging_sign
-execute store result score birch_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_hanging_sign
-execute store result score jungle_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_hanging_sign
-execute store result score acacia_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_hanging_sign
-execute store result score dark_oak_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_hanging_sign
-execute store result score mangrove_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_hanging_sign
-execute store result score bamboo_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_hanging_sign
-execute store result score crimson_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_hanging_sign
-execute store result score warped_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_hanging_sign
+execute store result score oak_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_hanging_sign strict
+execute store result score cherry_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_hanging_sign strict
+execute store result score spruce_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_hanging_sign strict
+execute store result score birch_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_hanging_sign strict
+execute store result score jungle_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_hanging_sign strict
+execute store result score acacia_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_hanging_sign strict
+execute store result score dark_oak_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_hanging_sign strict
+execute store result score mangrove_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_hanging_sign strict
+execute store result score bamboo_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_hanging_sign strict
+execute store result score crimson_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_hanging_sign strict
+execute store result score warped_hanging_sign1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_hanging_sign strict
 
-execute store result score oak_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_trapdoor
-execute store result score cherry_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_trapdoor
-execute store result score spruce_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_trapdoor
-execute store result score birch_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_trapdoor
-execute store result score jungle_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_trapdoor
-execute store result score acacia_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_trapdoor
-execute store result score dark_oak_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_trapdoor
-execute store result score mangrove_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_trapdoor
-execute store result score bamboo_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_trapdoor
-execute store result score crimson_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_trapdoor
-execute store result score warped_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_trapdoor
+execute store result score oak_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_trapdoor strict
+execute store result score cherry_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_trapdoor strict
+execute store result score spruce_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_trapdoor strict
+execute store result score birch_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_trapdoor strict
+execute store result score jungle_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_trapdoor strict
+execute store result score acacia_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_trapdoor strict
+execute store result score dark_oak_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_trapdoor strict
+execute store result score mangrove_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_trapdoor strict
+execute store result score bamboo_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_trapdoor strict
+execute store result score crimson_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_trapdoor strict
+execute store result score warped_trapdoor1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_trapdoor strict
 #
-execute store result score stripped_oak_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_oak_log
-execute store result score stripped_cherry_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_cherry_log
-execute store result score stripped_spruce_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_spruce_log
-execute store result score stripped_birch_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_birch_log
-execute store result score stripped_jungle_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_jungle_log
-execute store result score stripped_acacia_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_acacia_log
-execute store result score stripped_dark_oak_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_dark_oak_log
-execute store result score stripped_mangrove_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_mangrove_log
-execute store result score stripped_bamboo_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_bamboo_block
-execute store result score stripped_crimson_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_crimson_stem
-execute store result score stripped_warped_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_warped_stem
+execute store result score stripped_oak_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_oak_log strict
+execute store result score stripped_cherry_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_cherry_log strict
+execute store result score stripped_spruce_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_spruce_log strict
+execute store result score stripped_birch_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_birch_log strict
+execute store result score stripped_jungle_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_jungle_log strict
+execute store result score stripped_acacia_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_acacia_log strict
+execute store result score stripped_dark_oak_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_dark_oak_log strict
+execute store result score stripped_mangrove_log1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_mangrove_log strict
+execute store result score stripped_bamboo_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_bamboo_block strict
+execute store result score stripped_crimson_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_crimson_stem strict
+execute store result score stripped_warped_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:stripped_warped_stem strict
 #
-execute store result score oak_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_fence
-execute store result score cherry_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_fence
-execute store result score spruce_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_fence
-execute store result score birch_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_fence
-execute store result score jungle_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_fence
-execute store result score acacia_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_fence
-execute store result score dark_oak_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_fence
-execute store result score mangrove_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_fence
-execute store result score bamboo_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_fence
-execute store result score crimson_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_fence
-execute store result score warped_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_fence
+execute store result score oak_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_fence strict
+execute store result score cherry_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_fence strict
+execute store result score spruce_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_fence strict
+execute store result score birch_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_fence strict
+execute store result score jungle_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_fence strict
+execute store result score acacia_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_fence strict
+execute store result score dark_oak_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_fence strict
+execute store result score mangrove_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_fence strict
+execute store result score bamboo_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_fence strict
+execute store result score crimson_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_fence strict
+execute store result score warped_fence1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_fence strict
 
-execute store result score oak_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_fence_gate
-execute store result score cherry_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_fence_gate
-execute store result score spruce_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_fence_gate
-execute store result score birch_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_fence_gate
-execute store result score jungle_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_fence_gate
-execute store result score acacia_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_fence_gate
-execute store result score dark_oak_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_fence_gate
-execute store result score mangrove_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_fence_gate
-execute store result score bamboo_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_fence_gate
-execute store result score crimson_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_fence_gate
-execute store result score warped_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_fence_gate
+execute store result score oak_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_fence_gate strict
+execute store result score cherry_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_fence_gate strict
+execute store result score spruce_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_fence_gate strict
+execute store result score birch_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_fence_gate strict
+execute store result score jungle_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_fence_gate strict
+execute store result score acacia_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_fence_gate strict
+execute store result score dark_oak_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_fence_gate strict
+execute store result score mangrove_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_fence_gate strict
+execute store result score bamboo_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_fence_gate strict
+execute store result score crimson_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_fence_gate strict
+execute store result score warped_fence_gate1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_fence_gate strict
 
-execute store result score oak_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_slab
-execute store result score cherry_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_slab
-execute store result score spruce_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_slab
-execute store result score birch_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_slab
-execute store result score jungle_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_slab
-execute store result score acacia_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_slab
-execute store result score dark_oak_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_slab
-execute store result score mangrove_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_slab
-execute store result score bamboo_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_slab
-execute store result score bamboo_mosaic_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_mosaic_slab
-execute store result score crimson_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_slab
-execute store result score warped_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_slab
+execute store result score oak_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_slab strict
+execute store result score cherry_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_slab strict
+execute store result score spruce_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_slab strict
+execute store result score birch_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_slab strict
+execute store result score jungle_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_slab strict
+execute store result score acacia_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_slab strict
+execute store result score dark_oak_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_slab strict
+execute store result score mangrove_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_slab strict
+execute store result score bamboo_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_slab strict
+execute store result score bamboo_mosaic_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_mosaic_slab strict
+execute store result score crimson_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_slab strict
+execute store result score warped_slab1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_slab strict
 
-execute store result score oak_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_stairs
-execute store result score cherry_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_stairs
-execute store result score spruce_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_stairs
-execute store result score birch_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_stairs
-execute store result score jungle_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_stairs
-execute store result score acacia_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_stairs
-execute store result score dark_oak_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_stairs
-execute store result score mangrove_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_stairs
-execute store result score bamboo_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_stairs
-execute store result score bamboo_mosaic_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_mosaic_stairs
-execute store result score crimson_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_stairs
-execute store result score warped_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_stairs
+execute store result score oak_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_stairs strict
+execute store result score cherry_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_stairs strict
+execute store result score spruce_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_stairs strict
+execute store result score birch_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_stairs strict
+execute store result score jungle_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_stairs strict
+execute store result score acacia_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_stairs strict
+execute store result score dark_oak_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_stairs strict
+execute store result score mangrove_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_stairs strict
+execute store result score bamboo_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_stairs strict
+execute store result score bamboo_mosaic_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_mosaic_stairs strict
+execute store result score crimson_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_stairs strict
+execute store result score warped_stairs1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_stairs strict
 
-execute store result score oak_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_planks
-execute store result score cherry_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_planks
-execute store result score spruce_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_planks
-execute store result score birch_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_planks
-execute store result score jungle_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_planks
-execute store result score acacia_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_planks
-execute store result score dark_oak_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_planks
-execute store result score mangrove_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_planks
-execute store result score bamboo_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_planks
-execute store result score crimson_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_planks
-execute store result score warped_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_planks
+execute store result score oak_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_planks strict
+execute store result score cherry_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_planks strict
+execute store result score spruce_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_planks strict
+execute store result score birch_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_planks strict
+execute store result score jungle_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_planks strict
+execute store result score acacia_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_planks strict
+execute store result score dark_oak_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_planks strict
+execute store result score mangrove_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_planks strict
+execute store result score bamboo_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_planks strict
+execute store result score crimson_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_planks strict
+execute store result score warped_planks1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_planks strict
 
-execute store result score oak_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_button
-execute store result score cherry_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_button
-execute store result score spruce_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_button
-execute store result score birch_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_button
-execute store result score jungle_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_button
-execute store result score acacia_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_button
-execute store result score dark_oak_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_button
-execute store result score mangrove_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_button
-execute store result score bamboo_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_button
-execute store result score crimson_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_button
-execute store result score warped_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_button
+execute store result score oak_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:oak_button strict
+execute store result score cherry_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cherry_button strict
+execute store result score spruce_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:spruce_button strict
+execute store result score birch_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:birch_button strict
+execute store result score jungle_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jungle_button strict
+execute store result score acacia_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:acacia_button strict
+execute store result score dark_oak_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:dark_oak_button strict
+execute store result score mangrove_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mangrove_button strict
+execute store result score bamboo_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo_button strict
+execute store result score crimson_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crimson_button strict
+execute store result score warped_button1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:warped_button strict
 
-execute store result score white_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:white_banner
-execute store result score red_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:red_banner
-execute store result score black_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:black_banner
-execute store result score blue_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:blue_banner
-execute store result score light_blue_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:light_blue_banner
-execute store result score magenta_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:magenta_banner
-execute store result score purple_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:purple_banner
-execute store result score yellow_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:yellow_banner
-execute store result score pink_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:pink_banner
-execute store result score brown_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:brown_banner
-execute store result score orange_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:orange_banner
-execute store result score green_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:green_banner
-execute store result score lime_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:lime_banner
-execute store result score cyan_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cyan_banner
-execute store result score gray_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:gray_banner
-execute store result score light_gray_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:light_gray_banner
+execute store result score white_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:white_banner strict
+execute store result score red_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:red_banner strict
+execute store result score black_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:black_banner strict
+execute store result score blue_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:blue_banner strict
+execute store result score light_blue_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:light_blue_banner strict
+execute store result score magenta_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:magenta_banner strict
+execute store result score purple_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:purple_banner strict
+execute store result score yellow_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:yellow_banner strict
+execute store result score pink_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:pink_banner strict
+execute store result score brown_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:brown_banner strict
+execute store result score orange_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:orange_banner strict
+execute store result score green_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:green_banner strict
+execute store result score lime_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:lime_banner strict
+execute store result score cyan_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cyan_banner strict
+execute store result score gray_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:gray_banner strict
+execute store result score light_gray_banner1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:light_gray_banner strict
 
-execute store result score white_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:white_bed
-execute store result score red_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:red_bed
-execute store result score black_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:black_bed
-execute store result score blue_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:blue_bed
-execute store result score light_blue_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:light_blue_bed
-execute store result score magenta_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:magenta_bed
-execute store result score purple_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:purple_bed
-execute store result score yellow_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:yellow_bed
-execute store result score pink_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:pink_bed
-execute store result score brown_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:brown_bed
-execute store result score orange_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:orange_bed
-execute store result score green_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:green_bed
-execute store result score lime_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:lime_bed
-execute store result score cyan_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cyan_bed
-execute store result score gray_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:gray_bed
-execute store result score light_gray_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:light_gray_bed
+execute store result score white_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:white_bed strict
+execute store result score red_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:red_bed strict
+execute store result score black_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:black_bed strict
+execute store result score blue_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:blue_bed strict
+execute store result score light_blue_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:light_blue_bed strict
+execute store result score magenta_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:magenta_bed strict
+execute store result score purple_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:purple_bed strict
+execute store result score yellow_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:yellow_bed strict
+execute store result score pink_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:pink_bed strict
+execute store result score brown_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:brown_bed strict
+execute store result score orange_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:orange_bed strict
+execute store result score green_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:green_bed strict
+execute store result score lime_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:lime_bed strict
+execute store result score cyan_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cyan_bed strict
+execute store result score gray_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:gray_bed strict
+execute store result score light_gray_bed1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:light_gray_bed strict
 
-execute store result score red_mushroom_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:red_mushroom_block
-execute store result score mushroom_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mushroom_stem
-execute store result score brown_mushroom_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:brown_mushroom_block
+execute store result score red_mushroom_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:red_mushroom_block strict
+execute store result score mushroom_stem1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:mushroom_stem strict
+execute store result score brown_mushroom_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:brown_mushroom_block strict
 
-execute store result score crafting_table1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crafting_table
-execute store result score smithing_table1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:smithing_table
-execute store result score cartography_table1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cartography_table
-execute store result score fletching_table1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:fletching_table
-execute store result score loom1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:loom
-execute store result score composter1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:composter
-execute store result score campfire1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:campfire
-execute store result score soul_campfire1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:soul_campfire
-execute store result score note_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:note_block
-execute store result score jukebox1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jukebox
-execute store result score ladder1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:ladder
-execute store result score scaffolding1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:scaffolding
-execute store result score bee_nest1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bee_nest
-execute store result score beehive1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:beehive
-execute store result score bookshelf1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bookshelf
-execute store result score chiseled_bookshelf1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:chiseled_bookshelf
-execute store result score lectern1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:lectern
-execute store result score chest1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:chest
-execute store result score barrel1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:barrel
-execute store result score bamboo1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo
+execute store result score crafting_table1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:crafting_table strict
+execute store result score smithing_table1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:smithing_table strict
+execute store result score cartography_table1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:cartography_table strict
+execute store result score fletching_table1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:fletching_table strict
+execute store result score loom1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:loom strict
+execute store result score composter1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:composter strict
+execute store result score campfire1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:campfire strict
+execute store result score soul_campfire1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:soul_campfire strict
+execute store result score note_block1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:note_block strict
+execute store result score jukebox1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jukebox strict
+execute store result score ladder1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:ladder strict
+execute store result score scaffolding1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:scaffolding strict
+execute store result score bee_nest1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bee_nest strict
+execute store result score beehive1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:beehive strict
+execute store result score bookshelf1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bookshelf strict
+execute store result score chiseled_bookshelf1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:chiseled_bookshelf strict
+execute store result score lectern1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:lectern strict
+execute store result score chest1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:chest strict
+execute store result score barrel1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:barrel strict
+execute store result score bamboo1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:bamboo strict
 
-execute store result score stick1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace #minecraft:leaves
-execute store result score pumpkin1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:pumpkin
-execute store result score carved_pumpkin1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:carved_pumpkin
-execute store result score melon1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:melon
-execute store result score jack_o_lantern1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jack_o_lantern
+execute store result score stick1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace #minecraft:leaves strict
+execute store result score pumpkin1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:pumpkin strict
+execute store result score carved_pumpkin1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:carved_pumpkin strict
+execute store result score melon1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:melon strict
+execute store result score jack_o_lantern1 empty run fill ~-15 ~-15 ~-15 ~15 ~15 ~15 minecraft:air replace minecraft:jack_o_lantern strict
 
 
 

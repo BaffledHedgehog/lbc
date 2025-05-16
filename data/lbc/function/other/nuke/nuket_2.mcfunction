@@ -1,9 +1,9 @@
-fill ~1 ~ ~1 ~-1 ~ ~-1 minecraft:netherite_block
-fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:diamond_block
-fill ~3 ~-2 ~3 ~-3 ~-2 ~-3 minecraft:emerald_block
-fill ~4 ~-3 ~4 ~-4 ~-3 ~-4 minecraft:gold_block
-fill ~5 ~-4 ~5 ~-5 ~-4 ~-5 minecraft:iron_block
-execute if score @s Lifetime matches 1..20 run fill ~ ~3 ~ ~ 319 ~ minecraft:air
+fill ~1 ~ ~1 ~-1 ~ ~-1 minecraft:netherite_block strict
+fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:diamond_block strict
+fill ~3 ~-2 ~3 ~-3 ~-2 ~-3 minecraft:emerald_block strict
+fill ~4 ~-3 ~4 ~-4 ~-3 ~-4 minecraft:gold_block strict
+fill ~5 ~-4 ~5 ~-5 ~-4 ~-5 minecraft:iron_block strict
+execute if score @s Lifetime matches 1..20 run fill ~ ~3 ~ ~ 319 ~ minecraft:air strict
 setblock ~ ~1 ~ minecraft:beacon
 
 execute store result score tmp lbc.math run random value 1..16

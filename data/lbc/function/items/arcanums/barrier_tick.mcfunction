@@ -1,6 +1,6 @@
 effect give @s minecraft:resistance 1 4
-execute if items entity @s weapon.mainhand *[minecraft:custom_data~{barrier_arcanum:1}] if items entity @s weapon.offhand *[minecraft:custom_data~{barrier_arcanum:1}] run fill ~1 ~2 ~1 ~-1 ~ ~-1 minecraft:air
-execute if entity @s[predicate=lbc:sneak] if items entity @s weapon.mainhand *[minecraft:custom_data~{barrier_arcanum:1}] if items entity @s weapon.offhand *[minecraft:custom_data~{barrier_arcanum:1}] run fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 minecraft:air
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{barrier_arcanum:1}] if items entity @s weapon.offhand *[minecraft:custom_data~{barrier_arcanum:1}] run fill ~1 ~2 ~1 ~-1 ~ ~-1 minecraft:air strict
+execute if entity @s[predicate=lbc:sneak] if items entity @s weapon.mainhand *[minecraft:custom_data~{barrier_arcanum:1}] if items entity @s weapon.offhand *[minecraft:custom_data~{barrier_arcanum:1}] run fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 minecraft:air strict
 particle minecraft:electric_spark ~ ~2.5 ~ 1 0 1 0 10 normal
 particle minecraft:electric_spark ~ ~-1.5 ~ 1 0 1 0 10 normal
 particle minecraft:electric_spark ~1.5 ~1 ~ 0 1 1 0 10 normal

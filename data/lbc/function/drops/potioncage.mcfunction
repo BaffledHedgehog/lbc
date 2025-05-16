@@ -1,7 +1,7 @@
-fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 minecraft:stone_bricks
-fill ~1 ~ ~1 ~-1 ~3 ~-1 minecraft:iron_bars
-fill ~ ~ ~ ~ 255 ~ minecraft:air
-fill ~ ~ ~ ~ 319 ~ minecraft:air
+fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 minecraft:stone_bricks strict
+fill ~1 ~ ~1 ~-1 ~3 ~-1 minecraft:iron_bars strict
+fill ~ ~ ~ ~ 255 ~ minecraft:air strict
+fill ~ ~ ~ ~ 319 ~ minecraft:air strict
 execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:splash_potion ~ ~50 ~ {Item:{id:"minecraft:splash_potion",components:{"minecraft:potion_contents":{custom_color:7543569,custom_effects:[{id:"minecraft:instant_damage",amplifier:0b,duration:20}]}},count:1}}
 execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:splash_potion ~ ~100 ~ {Item:{id:"minecraft:splash_potion",components:{"minecraft:potion_contents":{custom_color:7543569,custom_effects:[{id:"minecraft:instant_damage",amplifier:0b,duration:20}]}},count:1}}
 execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:splash_potion ~ ~150 ~ {Item:{id:"minecraft:splash_potion",components:{"minecraft:potion_contents":{custom_color:7543569,custom_effects:[{id:"minecraft:instant_damage",amplifier:0b,duration:20}]}},count:1}}

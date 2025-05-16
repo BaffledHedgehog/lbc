@@ -1,1 +1,1 @@
-fill ~ ~ ~ ~ ~ ~ minecraft:black_concrete replace minecraft:white_concrete
+fill ~ ~ ~ ~ ~ ~ minecraft:black_concrete replace minecraft:white_concrete strict

@@ -22,5 +22,5 @@ bossbar set grimoire_boss visible true
 
 schedule function lbc:other/grimoire_dungeon/room_reward/spawn_boss_music 2s
 
-fill ~1 ~ ~1 ~-1 ~ ~-1 minecraft:air
+fill ~1 ~ ~1 ~-1 ~ ~-1 minecraft:air strict
 kill @s[type=minecraft:marker]

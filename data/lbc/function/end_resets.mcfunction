@@ -123,7 +123,4 @@ scoreboard players set bottom_nexus lbc.math 0
 scoreboard players set barrier_arcanum_mana_tick2 lbc.math 10
 gamerule keepInventory false
 execute as @a at @s run function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
-tellraw @a [{"text":"Baffled Discord Server (click): ","color":"gold","italic":false,"click_event":{"action":"open_url","value":"https://discord.gg/RVqrP3ZaYV"},"type":"text"},{"text":"https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true,"click_event":{"action":"open_url","value":"https://discord.gg/RVqrP3ZaYV"},"type":"text"}]
-
-
-schedule function lbc:resourcepacks 10s
+tellraw @a [{"text":"Baffled Discord Server (click): ","color":"gold","italic":false,"click_event":{"action":"open_url","url":"https://discord.gg/RVqrP3ZaYV"},"type":"text"},{"text":"https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true,"click_event":{"action":"open_url","url":"https://discord.gg/RVqrP3ZaYV"},"type":"text"}]

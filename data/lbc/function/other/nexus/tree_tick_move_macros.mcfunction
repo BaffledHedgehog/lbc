@@ -1,2 +1,2 @@
-$fill ^ ^ ^ ^ ^ ^$(tmp) lime_concrete replace air
+$fill ^ ^ ^ ^ ^ ^$(tmp) lime_concrete replace air strict
 $tp @s ^ ^ ^$(tmp)

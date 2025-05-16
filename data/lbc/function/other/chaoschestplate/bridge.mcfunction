@@ -1,41 +1,41 @@
-execute positioned ~ -1.5 ~ run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^1 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^2 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^3 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^4 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^5 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^6 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^7 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^8 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^9 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^10 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^11 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^12 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^13 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^14 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^15 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^16 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^17 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^18 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^19 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^20 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^21 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^22 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^23 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^24 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^25 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^26 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^27 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^28 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^29 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^30 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^31 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^32 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^33 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^34 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^35 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^36 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^37 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^38 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^39 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
-execute positioned ~ -1.5 ~ positioned ^ ^ ^40 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs
+execute positioned ~ -1.5 ~ run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^1 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^2 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^3 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^4 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^5 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^6 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^7 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^8 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^9 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^10 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^11 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^12 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^13 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^14 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^15 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^16 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^17 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^18 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^19 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^20 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^21 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^22 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^23 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^24 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^25 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^26 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^27 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^28 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^29 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^30 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^31 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^32 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^33 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^34 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^35 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^36 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^37 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^38 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^39 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
+execute positioned ~ -1.5 ~ positioned ^ ^ ^40 run fill ~0.5 ~ ~0.5 ~-0.5 ~ ~-0.5 minecraft:light_blue_stained_glass replace #minecraft:airs strict
