@@ -11,7 +11,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"translate\":\"supply_beacon\"}",
+                                "minecraft:custom_name": {
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "translate": "supply_beacon"
+                                },
                                 "minecraft:entity_data": {
                                     "Tags": [
                                         "supply_drop",
@@ -19,10 +23,21 @@
                                         "rc_1sec"
                                     ],
                                     "transformation": {
-                                        "translation": [0,0.5,0],
-                                        "scale": [1.0,1.0,1.0]
+                                        "translation": [
+                                            0,
+                                            0.5,
+                                            0
+                                        ],
+                                        "scale": [
+                                            1.0,
+                                            1.0,
+                                            1.0
+                                        ]
                                     },
-                                    "Rotation": [0.0,0.0],
+                                    "Rotation": [
+                                        0.0,
+                                        0.0
+                                    ],
                                     "id": "minecraft:item_display",
                                     "item": {
                                         "id": "minecraft:stick",

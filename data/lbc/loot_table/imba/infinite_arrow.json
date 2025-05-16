@@ -16,9 +16,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },

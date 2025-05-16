@@ -1,2 +1,2 @@
-execute if score @s[nbt={Inventory:[{components:{"minecraft:custom_data":{nyauwu:1}},Slot:100b}]}] mana < @s manamax run attribute @s minecraft:movement_speed modifier add minecraft:916c89e6-ae62-4b11-91d7-10e7e57c726d 1 add_multiplied_total
+execute if items entity @s armor.feet *[minecraft:custom_data~{nyauwu:1}] if score @s mana < @s manamax run attribute @s minecraft:movement_speed modifier add minecraft:916c89e6-ae62-4b11-91d7-10e7e57c726d 1 add_multiplied_total
 execute if score @s mana >= @s manamax run attribute @s minecraft:movement_speed modifier remove minecraft:916c89e6-ae62-4b11-91d7-10e7e57c726d

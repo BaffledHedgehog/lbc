@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/frog_leggings",
                                 "minecraft:max_damage": 400,
                                 "minecraft:equippable":{"slot":"legs","asset_id":"lbc:traveller"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "legs",
@@ -37,7 +36,7 @@
                                             "operation": "add_multiplied_total"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

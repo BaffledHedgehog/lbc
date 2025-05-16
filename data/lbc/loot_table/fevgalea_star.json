@@ -16,25 +16,22 @@
                             "components": {
                                 "minecraft:item_model": "lbc:fevgalea_star",
                                 "minecraft:max_damage": 4000,
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 13,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2.2,
-                                            "operation": "add_value"
-                                        }
-                                    ],
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 16,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2.2,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

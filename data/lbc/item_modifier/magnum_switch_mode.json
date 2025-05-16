@@ -2,7 +2,10 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_incendiary\"}"
+            "minecraft:custom_name": {
+                "italic": false,
+                "translate": "magnum_mode_incendiary"
+            }
         },
         "conditions": [
             {
@@ -23,7 +26,10 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_electric\"}"
+            "minecraft:custom_name": {
+                "italic": false,
+                "translate": "magnum_mode_electric"
+            }
         },
         "conditions": [
             {
@@ -44,7 +50,10 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_acid\"}"
+            "minecraft:custom_name": {
+                "italic": false,
+                "translate": "magnum_mode_acid"
+            }
         },
         "conditions": [
             {
@@ -65,7 +74,10 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_void\"}"
+            "minecraft:custom_name": {
+                "italic": false,
+                "translate": "magnum_mode_void"
+            }
         },
         "conditions": [
             {
@@ -86,7 +98,10 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_explosive\"}"
+            "minecraft:custom_name": {
+                "italic": false,
+                "translate": "magnum_mode_explosive"
+            }
         },
         "conditions": [
             {
@@ -107,7 +122,10 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_standart\"}"
+            "minecraft:custom_name": {
+                "italic": false,
+                "translate": "magnum_mode_standart"
+            }
         },
         "conditions": [
             {

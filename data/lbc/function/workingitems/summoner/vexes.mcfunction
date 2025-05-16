@@ -14,10 +14,10 @@ execute if entity @s[team=13] run kill @e[type=minecraft:vex,tag=summvex,team=13
 execute if entity @s[team=14] run kill @e[type=minecraft:vex,tag=summvex,team=14]
 execute if entity @s[team=15] run kill @e[type=minecraft:vex,tag=summvex,team=15]
 execute if entity @s[team=16] run kill @e[type=minecraft:vex,tag=summvex,team=16]
-summon minecraft:vex ~1 ~1 ~ {attributes:[{id:"minecraft:follow_range",base:200}],Health:5.0f,HandDropChances:[0.0f,0.0f],HandItems:[{id:"minecraft:iron_sword",count:1},{}],PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summvex"]}
-summon minecraft:vex ~-1 ~1 ~ {attributes:[{id:"minecraft:follow_range",base:200}],Health:5.0f,HandDropChances:[0.0f,0.0f],HandItems:[{id:"minecraft:iron_sword",count:1},{}],PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summvex"]}
-summon minecraft:vex ~ ~1 ~1 {attributes:[{id:"minecraft:follow_range",base:200}],Health:5.0f,HandDropChances:[0.0f,0.0f],HandItems:[{id:"minecraft:iron_sword",count:1},{}],PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summvex"]}
-summon minecraft:vex ~ ~1 ~-1 {attributes:[{id:"minecraft:follow_range",base:200}],Health:5.0f,HandDropChances:[0.0f,0.0f],HandItems:[{id:"minecraft:iron_sword",count:1},{}],PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summvex"]}
+summon minecraft:vex ~1 ~1 ~ {attributes:[{id:"minecraft:follow_range",base:200}],Health:5.0f,equipment:{mainhand:{id:"minecraft:iron_sword",count:1}},drop_chances:{mainhand:0.0f},PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summvex"]}
+summon minecraft:vex ~-1 ~1 ~ {attributes:[{id:"minecraft:follow_range",base:200}],Health:5.0f,equipment:{mainhand:{id:"minecraft:iron_sword",count:1}},drop_chances:{mainhand:0.0f},PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summvex"]}
+summon minecraft:vex ~ ~1 ~1 {attributes:[{id:"minecraft:follow_range",base:200}],Health:5.0f,equipment:{mainhand:{id:"minecraft:iron_sword",count:1}},drop_chances:{mainhand:0.0f},PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summvex"]}
+summon minecraft:vex ~ ~1 ~-1 {attributes:[{id:"minecraft:follow_range",base:200}],Health:5.0f,equipment:{mainhand:{id:"minecraft:iron_sword",count:1}},drop_chances:{mainhand:0.0f},PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summvex"]}
 
 execute if entity @s[team=1] run team join 1 @e[type=minecraft:vex,tag=summvex,tag=!summactivated,sort=nearest,limit=4]
 execute if entity @s[team=2] run team join 2 @e[type=minecraft:vex,tag=summvex,tag=!summactivated,sort=nearest,limit=4]

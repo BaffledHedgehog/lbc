@@ -12,18 +12,19 @@
                             "components": {
                                 "minecraft:item_model": "lbc:armors/moisei_boots",
                                 "minecraft:max_damage": 600,
-                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:moisei"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "feet",
-                                            "id": "gehrththc55yyyyyharmor",
-                                            "amount": 2,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "asset_id": "lbc:moisei"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "feet",
+                                        "id": "gehrththc55yyyyyharmor",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

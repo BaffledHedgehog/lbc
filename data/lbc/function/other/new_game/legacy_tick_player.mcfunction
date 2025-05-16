@@ -1,3 +1,3 @@
 execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:4}}}]}] run function lbc:other/artifact/noarrows_old
-execute at @s[nbt={Inventory:[{id:"minecraft:iron_boots",components:{"minecraft:custom_data":{reactive_old:1}},Slot:100b}]}] run particle minecraft:cloud ~ ~-0.2 ~ 0.2 0.02 0.2 0.01 1 force
-effect give @s[nbt={Inventory:[{id:"minecraft:iron_boots",components:{"minecraft:custom_data":{reactive_old:1}},Slot:100b}]}] minecraft:slow_falling 1 0 true
+execute at @s if items entity @s armor.feet minecraft:iron_boots[minecraft:custom_data~{reactive_old:1}] run particle minecraft:cloud ~ ~-0.2 ~ 0.2 0.02 0.2 0.01 1 force
+execute at @s if items entity @s armor.feet minecraft:iron_boots[minecraft:custom_data~{reactive_old:1}] run effect give @s minecraft:slow_falling 1 0 true

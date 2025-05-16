@@ -450,23 +450,26 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:laser_minigun/1",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "generijfyjyjted",
-                                            "amount": -1,
-                                            "operation": "add_multiplied_total"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "offhand",
-                                            "id": "gjcjgfcjhjgjgjed",
-                                            "amount": -1,
-                                            "operation": "add_multiplied_total"
-                                        }
-                                    ],"show_in_tooltip": false
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "generijfyjyjted",
+                                        "amount": -1,
+                                        "operation": "add_multiplied_total"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "offhand",
+                                        "id": "gjcjgfcjhjgjgjed",
+                                        "amount": -1,
+                                        "operation": "add_multiplied_total"
+                                    }
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:attribute_modifiers"
+                                    ]
                                 }
                             }
                         },

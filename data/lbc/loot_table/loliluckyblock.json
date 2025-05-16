@@ -16,24 +16,22 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:crowbar",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 8,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2.4,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 8,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2.4,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -841,28 +839,24 @@
                             "components": {
                                 "minecraft:item_model": "lbc:antimagic_stick",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 255
-                                    }
+                                    "minecraft:knockback": 255
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 4,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -993,24 +987,22 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:banhammer",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 11,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2.8,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 11,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2.8,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -1314,6 +1306,11 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "lbc:madoka_bow",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:boba_eblan",
                     "weight": 10
                 }
             ]

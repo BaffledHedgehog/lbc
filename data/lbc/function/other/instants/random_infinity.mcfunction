@@ -21,7 +21,7 @@ execute if score #random14 lbc.math matches 7 run attribute @s minecraft:max_hea
 execute if score #random14 lbc.math matches 8 run tag @s add infinite_resistance
 execute if score #random14 lbc.math matches 9 run tag @s add infinite_heal
 execute if score #random14 lbc.math matches 10 run tag @s add infinite_saturation
-execute if score #random14 lbc.math matches 11 run give @s minecraft:carrot_on_a_stick[minecraft:enchantments={levels:{"minecraft:infinity":1}},minecraft:custom_name='{"color":"yellow","italic":false,"translate":"infinite_lucky_block"}',minecraft:lore=['{"translate":"infinite_lucky_block.lore","color":"yellow","italic":false}'],minecraft:custom_data={magicwand:1,luckyblockwand:1,craftusable:1},minecraft:item_model="lbc:lucky_block"] 1
+execute if score #random14 lbc.math matches 11 run give @s minecraft:carrot_on_a_stick[minecraft:enchantments={"minecraft:infinity":1},minecraft:custom_name={"color":"yellow","italic":false,"translate":"infinite_lucky_block"},minecraft:lore=[{"translate":"infinite_lucky_block.lore","color":"yellow","italic":false}],minecraft:custom_data={magicwand:1,luckyblockwand:1,craftusable:1},minecraft:item_model="lbc:lucky_block"] 1
 
 execute if score #random14 lbc.math matches 12 run attribute @s minecraft:fall_damage_multiplier base set -1
 execute if score #random14 lbc.math matches 12 run attribute @s minecraft:movement_efficiency base set 10000000

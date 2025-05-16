@@ -412,6 +412,7 @@ attribute @s max_health modifier remove touhou_power8
 attribute @s attack_damage modifier remove touhou_power9 
 attribute @s attack_damage modifier remove touhou_power10 
 attribute @s minecraft:movement_speed modifier remove shulker_armor
+attribute @s gravity modifier remove imprinted
 scoreboard players set @s touhou_power 0
 scoreboard players set @s life_fragments 0
 scoreboard players set @s bomb_fragments 0

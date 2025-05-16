@@ -1,4 +1,2 @@
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gownoleggings:1}},Slot:100b}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gownoleggings:1}},Slot:101b}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gownoleggings:1}},Slot:102b}]}] run scoreboard players add shit_amount_temp lbc.math 1
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gownoleggings:1}},Slot:103b}]}] run scoreboard players add shit_amount_temp lbc.math 1
+execute store result score temp lbc.math if items entity @s armor.* *[minecraft:custom_data~{gownoleggings:1}]
+scoreboard players operation shit_amount_temp lbc.math += temp lbc.math

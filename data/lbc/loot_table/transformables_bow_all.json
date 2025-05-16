@@ -17,13 +17,20 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:quick_charge": 5
-                                    }
+                                    "minecraft:quick_charge": 5
                                 },
-                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"translate\":\"blaze_crossbow\"}",
+                                "minecraft:custom_name": {
+                                    "bold": true,
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "translate": "blaze_crossbow"
+                                },
                                 "minecraft:lore": [
-                                    "{\"translate\":\"blaze_crossbow.lore\",\"color\": \"gold\",\"italic\":false}"
+                                    {
+                                        "translate": "blaze_crossbow.lore",
+                                        "color": "gold",
+                                        "italic": false
+                                    }
                                 ],
                                 "minecraft:charged_projectiles": [
                                     {
@@ -48,13 +55,20 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:quick_charge": 5
-                                    }
+                                    "minecraft:quick_charge": 5
                                 },
-                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"red\",\"italic\":false,\"translate\":\"ghast_crossbow\"}",
+                                "minecraft:custom_name": {
+                                    "bold": true,
+                                    "color": "red",
+                                    "italic": false,
+                                    "translate": "ghast_crossbow"
+                                },
                                 "minecraft:lore": [
-                                    "{\"translate\":\"ghast_crossbow.lore\",\"color\": \"gold\",\"italic\":false}"
+                                    {
+                                        "translate": "ghast_crossbow.lore",
+                                        "color": "gold",
+                                        "italic": false
+                                    }
                                 ],
                                 "minecraft:charged_projectiles": [
                                     {
@@ -80,11 +94,14 @@
                             "components": {
                                 "minecraft:item_model": "lbc:dildomet/dildomet",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:quick_charge": 2
-                                    }
+                                    "minecraft:quick_charge": 2
                                 },
-                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FF0099\",\"italic\":false,\"translate\":\"dildomet\"}",
+                                "minecraft:custom_name": {
+                                    "bold": true,
+                                    "color": "#FF0099",
+                                    "italic": false,
+                                    "translate": "dildomet"
+                                },
                                 "minecraft:charged_projectiles": [
                                     {
                                         "id": "minecraft:arrow",
@@ -114,14 +131,32 @@
                             "components": {
                                 "minecraft:item_model": "lbc:shishgun_bow",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 },
-                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"green\",\"italic\":false,\"translate\":\"shish_bow\"}",
+                                "minecraft:custom_name": {
+                                    "bold": true,
+                                    "color": "green",
+                                    "italic": false,
+                                    "translate": "shish_bow"
+                                },
                                 "minecraft:lore": [
-                                    "[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"bow.lbc\",\"italic\": false,\"color\": \"aqua\"}]",
-                                    "{\"translate\": \"shish_bow.lore\",\"color\": \"gold\",\"italic\": false}"
+                                    [
+                                        {
+                                            "translate": "type",
+                                            "italic": false,
+                                            "color": "aqua"
+                                        },
+                                        {
+                                            "translate": "bow.lbc",
+                                            "italic": false,
+                                            "color": "aqua"
+                                        }
+                                    ],
+                                    {
+                                        "translate": "shish_bow.lore",
+                                        "color": "gold",
+                                        "italic": false
+                                    }
                                 ]
                             }
                         },

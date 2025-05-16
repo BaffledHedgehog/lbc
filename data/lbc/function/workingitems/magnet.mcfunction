@@ -1,4 +1,3 @@
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{magnet:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=minecraft:item,distance=..30] @s
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{magnet:1}},Slot:-106b}]}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=minecraft:item,distance=..30] @s
+execute if items entity @s weapon.* *[minecraft:custom_data~{magnet:1}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=minecraft:item,distance=..30] @s
 execute if entity @e[type=minecraft:item,distance=..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{penis_bomb:1}}}}] run advancement grant @s only lbc:true_advancements/accesories/magnet
 execute if entity @e[type=minecraft:item,distance=..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{malevich:1}}}}] run advancement grant @s only lbc:true_advancements/accesories/magnet

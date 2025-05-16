@@ -3,4 +3,4 @@ execute if score @s blaze matches 1.. run function lbc:other/blazehead
 execute if entity @s[tag=have_stand,tag=have_stand_clocks_active] run function lbc:other/stand_arrow/tick_10t_stand_clocks
 damage @s[tag=!sin_greed_active,predicate=lbc:the_nether] 1000000 in_fire
 
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{runic_ice_shard:1}}}]}] run function lbc:workingitems/iceshard
+execute if items entity @s container.* *[minecraft:custom_data~{runic_ice_shard:1}] run function lbc:workingitems/iceshard

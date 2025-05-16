@@ -1,0 +1,5 @@
+execute if items entity @s armor.head *[minecraft:custom_data~{nanobots:1}] run scoreboard players add @s[scores={nanobots_coldown=..0,nanobots_tier=..119}] nanobots_tier 2
+execute if items entity @s armor.chest *[minecraft:custom_data~{nanobots:1}] run scoreboard players add @s[scores={nanobots_coldown=..0,nanobots_tier=..119}] nanobots_tier 4
+execute if items entity @s armor.legs *[minecraft:custom_data~{nanobots:1}] run scoreboard players add @s[scores={nanobots_coldown=..0,nanobots_tier=..119}] nanobots_tier 3
+execute if items entity @s armor.feet *[minecraft:custom_data~{nanobots:1}] run scoreboard players add @s[scores={nanobots_coldown=..0,nanobots_tier=..119}] nanobots_tier 1
+execute if items entity @s armor.head *[minecraft:custom_data~{nanobots:1}] if items entity @s armor.chest *[minecraft:custom_data~{nanobots:1}] if items entity @s armor.legs *[minecraft:custom_data~{nanobots:1}] if items entity @s armor.feet *[minecraft:custom_data~{nanobots:1}] run scoreboard players remove @s nanobots_coldown 4

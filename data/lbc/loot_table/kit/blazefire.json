@@ -12,8 +12,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:blazefire_sword",
                                 "minecraft:max_damage": 600,
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
@@ -29,7 +28,7 @@
                                             "operation": "add_value"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

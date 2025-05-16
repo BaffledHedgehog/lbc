@@ -11,8 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:cyberkatana",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
@@ -28,7 +27,7 @@
                                             "operation": "add_value"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

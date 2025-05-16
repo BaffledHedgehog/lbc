@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/shulker_helmet",
                                 "minecraft:max_damage": 900,
                                 "minecraft:equippable":{"slot":"head","asset_id":"lbc:shulker"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "head",
@@ -30,7 +29,7 @@
                                             "operation": "add_value"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

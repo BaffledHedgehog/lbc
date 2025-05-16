@@ -67,21 +67,17 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:silk_touch": 10
-                                    }
+                                    "minecraft:silk_touch": 10
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": -2,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": -2,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

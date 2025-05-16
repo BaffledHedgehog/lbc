@@ -1,2 +1,2 @@
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{attack_helicopter:1}}}}] run function lbc:workingitems/attackhelicopter
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{attack_helicopter:1}},Slot:-106b}]}] run function lbc:workingitems/attackhelicopter_left
+execute if items entity @s weapon.offhand *[minecraft:custom_data~{attack_helicopter:1}] run function lbc:workingitems/attackhelicopter_left

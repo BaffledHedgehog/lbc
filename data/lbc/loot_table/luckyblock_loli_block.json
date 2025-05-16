@@ -11,10 +11,22 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:lucky_block_loli",
-                                "minecraft:custom_name": "{\"color\":\"#FFB8E0\",\"italic\":false,\"text\":\"\u2764 Lucky Block Loli \u2764\"}",
+                                "minecraft:custom_name": {
+                                    "color": "#FFB8E0",
+                                    "italic": false,
+                                    "text": "❤ Lucky Block Loli ❤"
+                                },
                                 "minecraft:lore": [
-                                    "{\"text\":\"Community of the Lucky Wars \u2764\",\"color\":\"gray\",\"italic\":false}",
-                                    "{\"text\":\"Daeris_ | Beta Server harem event\",\"color\":\"dark_gray\",\"italic\":false}"
+                                    {
+                                        "text": "Community of the Lucky Wars ❤",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "Daeris_ | Beta Server harem event",
+                                        "color": "dark_gray",
+                                        "italic": false
+                                    }
                                 ],
                                 "minecraft:block_state": {
                                     "up": "false",

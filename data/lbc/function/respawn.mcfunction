@@ -3,7 +3,7 @@ execute if entity @s[tag=sin_vanity] run function lbc:workingitems/witch_gens/va
 execute if score #lbckit swrg.math matches 1 run function lbc:swrg_kit_integration/game/kit_select/select
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skill_select/select
 execute if score #lbc.challenge swrg.math matches 1 run function lbc:swrg_kit_integration/game/kit_select/challenge_kit_select
-execute if entity @s[tag=have_stand] run loot give @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{oraora:1}}}]}] loot lbc:stand_oraora
+execute if entity @s[tag=have_stand] unless items entity @s container.* *[minecraft:custom_data~{oraora:1}] run loot give @s loot lbc:stand_oraora
 effect give @s[tag=!indolence_active] minecraft:resistance 3 4
 tp @s[tag=!indolence_active] @e[type=minecraft:marker,tag=swrg.spawn,sort=random,limit=1]
 execute at @s[tag=indolence_active] run function lbc:workingitems/witch_gens/indolence_respawn

@@ -26,9 +26,7 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:quick_charge": 255
-                                    }
+                                    "minecraft:quick_charge": 255
                                 }
                             }
                         },
@@ -76,9 +74,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:piercing": 255
-                                    }
+                                    "minecraft:piercing": 255
                                 }
                             }
                         },
@@ -167,10 +163,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:piercing": 255,
-                                        "minecraft:quick_charge": 2
-                                    }
+                                    "minecraft:piercing": 255,
+                                    "minecraft:quick_charge": 2
                                 }
                             }
                         },
@@ -218,9 +212,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:quick_charge": 5
-                                    }
+                                    "minecraft:quick_charge": 5
                                 }
                             }
                         },
@@ -263,10 +255,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:piercing": 255,
-                                        "minecraft:quick_charge": 255
-                                    }
+                                    "minecraft:piercing": 255,
+                                    "minecraft:quick_charge": 255
                                 }
                             }
                         },
@@ -324,9 +314,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -612,7 +600,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -673,7 +665,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -806,7 +802,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {

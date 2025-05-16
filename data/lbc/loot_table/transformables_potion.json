@@ -247,7 +247,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -319,7 +323,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:snus",
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -391,7 +399,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -456,7 +468,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -521,7 +537,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -579,7 +599,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -644,7 +668,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -709,7 +737,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -774,7 +806,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -839,7 +875,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -919,7 +959,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -999,7 +1043,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1079,7 +1127,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {

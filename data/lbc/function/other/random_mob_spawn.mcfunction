@@ -19,7 +19,7 @@ execute anchored eyes if score #random81 lbc.math matches 15 run summon minecraf
 execute anchored eyes if score #random81 lbc.math matches 16 run summon minecraft:dolphin ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 17 run summon minecraft:donkey ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 18 run summon minecraft:guardian ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 19 run summon minecraft:drowned ~ ~ ~ {HandItems:[{id:"minecraft:trident",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 19 run summon minecraft:drowned ~ ~ ~ {equipment:{mainhand:{id:"minecraft:trident",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 20 run summon minecraft:hoglin ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 21 run summon minecraft:elder_guardian ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 22 run summon minecraft:ender_dragon ~ ~ ~ {DragonPhase:4}
@@ -28,7 +28,7 @@ execute anchored eyes if score #random81 lbc.math matches 24 run summon minecraf
 execute anchored eyes if score #random81 lbc.math matches 25 run summon minecraft:evoker ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 26 run summon minecraft:horse ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 27 run summon minecraft:husk ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 28 run summon minecraft:illusioner ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 28 run summon minecraft:illusioner ~ ~ ~ {equipment:{mainhand:{id:"minecraft:bow",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 29 run summon minecraft:iron_golem ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 30 run summon minecraft:llama ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 31 run summon minecraft:magma_cube ~ ~ ~
@@ -39,9 +39,9 @@ execute anchored eyes if score #random81 lbc.math matches 35 run summon minecraf
 execute anchored eyes if score #random81 lbc.math matches 36 run summon minecraft:parrot ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 37 run summon minecraft:phantom ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 38 run summon minecraft:pig ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 39 run summon minecraft:piglin ~ ~ ~ {HandItems:[{id:"minecraft:golden_sword",count:1},{}]}
-execute anchored eyes if score #random81 lbc.math matches 40 run summon minecraft:piglin_brute ~ ~ ~ {HandItems:[{id:"minecraft:golden_axe",count:1},{}]}
-execute anchored eyes if score #random81 lbc.math matches 41 run summon minecraft:pillager ~ ~ ~ {HandItems:[{id:"minecraft:crossbow",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 39 run summon minecraft:piglin ~ ~ ~ {equipment:{mainhand:{id:"minecraft:golden_sword",count:1}}}
+execute anchored eyes if score #random81 lbc.math matches 40 run summon minecraft:piglin_brute ~ ~ ~ {equipment:{mainhand:{id:"minecraft:golden_axe",count:1}}}
+execute anchored eyes if score #random81 lbc.math matches 41 run summon minecraft:pillager ~ ~ ~ {equipment:{mainhand:{id:"minecraft:crossbow",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 42 run summon minecraft:polar_bear ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 43 run summon minecraft:pufferfish ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 44 run summon minecraft:rabbit ~ ~ ~
@@ -50,30 +50,30 @@ execute anchored eyes if score #random81 lbc.math matches 46 run summon minecraf
 execute anchored eyes if score #random81 lbc.math matches 47 run summon minecraft:sheep ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 48 run summon minecraft:shulker ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 49 run summon minecraft:silverfish ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 50 run summon minecraft:skeleton ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 50 run summon minecraft:skeleton ~ ~ ~ {equipment:{mainhand:{id:"minecraft:bow",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 51 run summon minecraft:skeleton_horse ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 52 run summon minecraft:slime ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 53 run summon minecraft:snow_golem ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 54 run summon minecraft:spider ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 55 run summon minecraft:squid ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 56 run summon minecraft:stray ~ ~ ~ {HandItems:[{id:"minecraft:bow",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 56 run summon minecraft:stray ~ ~ ~ {equipment:{mainhand:{id:"minecraft:bow",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 57 run summon minecraft:strider ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 58 run summon minecraft:trader_llama ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 59 run summon minecraft:tropical_fish ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 60 run summon minecraft:turtle ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 61 run summon minecraft:vex ~ ~ ~ {HandItems:[{id:"minecraft:iron_sword",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 61 run summon minecraft:vex ~ ~ ~ {equipment:{mainhand:{id:"minecraft:iron_sword",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 62 run summon minecraft:villager ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 63 run summon minecraft:vindicator ~ ~ ~ {HandItems:[{id:"minecraft:iron_axe",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 63 run summon minecraft:vindicator ~ ~ ~ {equipment:{mainhand:{id:"minecraft:iron_axe",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 64 run summon minecraft:wandering_trader ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 65 run summon minecraft:witch ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 66 run summon minecraft:wither ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 67 run summon minecraft:wither_skeleton ~ ~ ~ {HandItems:[{id:"minecraft:stone_sword",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 67 run summon minecraft:wither_skeleton ~ ~ ~ {equipment:{mainhand:{id:"minecraft:stone_sword",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 68 run summon minecraft:wolf ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 69 run summon minecraft:zoglin ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 70 run summon minecraft:zombie ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 71 run summon minecraft:zombie_horse ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 72 run summon minecraft:zombie_villager ~ ~ ~
-execute anchored eyes if score #random81 lbc.math matches 73 run summon minecraft:zombified_piglin ~ ~ ~ {HandItems:[{id:"minecraft:golden_sword",count:1},{}]}
+execute anchored eyes if score #random81 lbc.math matches 73 run summon minecraft:zombified_piglin ~ ~ ~ {equipment:{mainhand:{id:"minecraft:golden_sword",count:1}}}
 execute anchored eyes if score #random81 lbc.math matches 74 run summon minecraft:allay ~ ~ ~
 execute anchored eyes if score #random81 lbc.math matches 75 run summon minecraft:creeper ~ ~ ~ {powered:1b}
 execute anchored eyes if score #random81 lbc.math matches 76 run summon minecraft:frog ~ ~ ~

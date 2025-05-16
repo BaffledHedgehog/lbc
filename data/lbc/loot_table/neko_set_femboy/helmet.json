@@ -13,31 +13,30 @@
                                 "minecraft:item_model": "lbc:armors/nyauwu_helmet",
                                 "minecraft:max_damage": 1800,
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:fire_protection": 5,
-                                        "minecraft:blast_protection": 5,
-                                        "minecraft:projectile_protection": 5
-                                    }
+                                    "minecraft:fire_protection": 5,
+                                    "minecraft:blast_protection": 5,
+                                    "minecraft:projectile_protection": 5
                                 },
-                                "minecraft:equippable":{"slot":"head","asset_id":"lbc:nyauwu"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:sneaking_speed",
-                                            "slot": "head",
-                                            "id": "ghfh438jh5rfdfdfdfd6hhtkhed",
-                                            "amount": 1,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "head",
-                                            "id": "ghfherg6rjh6hjtujkhed",
-                                            "amount": 4,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "asset_id": "lbc:nyauwu"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:sneaking_speed",
+                                        "slot": "head",
+                                        "id": "ghfh438jh5rfdfdfdfd6hhtkhed",
+                                        "amount": 1,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "head",
+                                        "id": "ghfherg6rjh6hjtujkhed",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

@@ -1,2 +1,2 @@
 summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:stone",count:1},Tags:["modifyitem"],PickupDelay:40}
-data modify entity @e[type=minecraft:item,distance=..2,tag=modifyitem,sort=nearest,limit=1] Item set from entity @s Inventory[{Slot:103b}]
+data modify entity @e[type=minecraft:item,distance=..2,tag=modifyitem,sort=nearest,limit=1] Item set from entity @s equipment.head

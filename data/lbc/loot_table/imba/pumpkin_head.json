@@ -11,9 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:binding_curse": 1
-                                    }
+                                    "minecraft:binding_curse": 1
                                 },
                                 "equippable": {
                                     "slot": "head",

@@ -1,5 +1,5 @@
-execute if score @s nanobots_tier matches 4..11 run data modify storage lbc.math ui append value '{"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"red"}]}'
-execute if score @s nanobots_tier matches 12..23 run data modify storage lbc.math ui append value '{"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"gold"}]}'
-execute if score @s nanobots_tier matches 24..39 run data modify storage lbc.math ui append value '{"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"yellow"}]}'
-execute if score @s nanobots_tier matches 40..59 run data modify storage lbc.math ui append value '{"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"green"}]}'
-execute if score @s nanobots_tier matches 60.. run data modify storage lbc.math ui append value '{"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"aqua"}]}'
+execute if score @s nanobots_tier matches 4..11 run data modify storage lbc.math ui append value {"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"red"}]}
+execute if score @s nanobots_tier matches 12..23 run data modify storage lbc.math ui append value {"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"gold"}]}
+execute if score @s nanobots_tier matches 24..39 run data modify storage lbc.math ui append value {"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"yellow"}]}
+execute if score @s nanobots_tier matches 40..59 run data modify storage lbc.math ui append value {"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"green"}]}
+execute if score @s nanobots_tier matches 60.. run data modify storage lbc.math ui append value {"text":"  \\uE114 ","extra":[{"score":{"name":"@s","objective":"nanobots_tier"},"color":"aqua"}]}

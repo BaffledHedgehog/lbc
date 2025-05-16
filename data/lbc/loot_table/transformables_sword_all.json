@@ -105,38 +105,60 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:techrunner_katana",
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"techrunner_katana\"}",
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "techrunner_katana"
+                                },
                                 "minecraft:lore": [
-                                    "{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\",\"extra\":[{\"translate\":\"sword\"}]}",
-                                    "{\"translate\":\"techrunner_katana_lore_1\",\"italic\":false,\"color\":\"white\"}",
-                                    "{\"translate\":\"techrunner_katana_lore_2\",\"italic\":false,\"color\":\"white\"}",
-                                    "{\"translate\":\"techrunner_katana_lore_3\",\"italic\":false,\"color\":\"white\"}"
+                                    {
+                                        "translate": "type",
+                                        "italic": false,
+                                        "color": "aqua",
+                                        "extra": [
+                                            {
+                                                "translate": "sword"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "translate": "techrunner_katana_lore_1",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "translate": "techrunner_katana_lore_2",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "translate": "techrunner_katana_lore_3",
+                                        "italic": false,
+                                        "color": "white"
+                                    }
                                 ],
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 7,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:movement_speed",
-                                            "slot": "mainhand",
-                                            "id": "tecghas1hishdoiaj2w",
-                                            "amount": 0.05,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2.4,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 7,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:movement_speed",
+                                        "slot": "mainhand",
+                                        "id": "tecghas1hishdoiaj2w",
+                                        "amount": 0.05,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2.4,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -158,24 +180,22 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:crowbar",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 8,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2.4,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 8,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2.4,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -235,33 +255,67 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:shit_katana",
-                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"translate\":\"shit_katana\"}",
+                                "minecraft:custom_name": {
+                                    "bold": true,
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "translate": "shit_katana"
+                                },
                                 "minecraft:lore": [
-                                    "[{\"translate\": \"type\",\"italic\": false,\"color\": \"aqua\"},{\"translate\": \"sword\",\"italic\": false,\"color\": \"aqua\"}]",
-                                    "{\"translate\": \"on_damage\",\"color\": \"white\",\"italic\": false}",
-                                    "{\"translate\": \"shit_katana.lore.1\",\"color\": \"white\",\"italic\": false}",
-                                    "{\"translate\": \"RCability\",\"color\": \"white\",\"italic\": false}",
-                                    "{\"translate\": \"shit_katana.lore.2\",\"color\": \"gold\",\"italic\": false}",
-                                    "{\"translate\": \"shit_katana.lore.3\",\"color\": \"white\",\"italic\": false}"
-                                ],
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                    [
                                         {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 4,
-                                            "operation": "add_value"
+                                            "translate": "type",
+                                            "italic": false,
+                                            "color": "aqua"
                                         },
                                         {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2.2,
-                                            "operation": "add_value"
+                                            "translate": "sword",
+                                            "italic": false,
+                                            "color": "aqua"
                                         }
-                                    ]
-                                }
+                                    ],
+                                    {
+                                        "translate": "on_damage",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "shit_katana.lore.1",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "RCability",
+                                        "color": "white",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "shit_katana.lore.2",
+                                        "color": "gold",
+                                        "italic": false
+                                    },
+                                    {
+                                        "translate": "shit_katana.lore.3",
+                                        "color": "white",
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2.2,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -284,28 +338,24 @@
                             "components": {
                                 "minecraft:item_model": "lbc:antimagic_stick",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 255
-                                    }
+                                    "minecraft:knockback": 255
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 4,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

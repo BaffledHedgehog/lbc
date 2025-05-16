@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/overload_boots",
                                 "minecraft:max_damage": 900,
                                 "minecraft:equippable":{"slot":"feet","asset_id":"lbc:overload"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "feet",
@@ -37,7 +36,7 @@
                                             "operation": "add_value"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

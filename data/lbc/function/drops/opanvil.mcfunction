@@ -1,4 +1,4 @@
 fill ~ ~ ~ ~ ~5 ~ minecraft:air
-execute align xz positioned ~.5 ~ ~.5 run summon minecraft:falling_block ~ ~5 ~ {BlockState:{Name:"minecraft:anvil"},Time:1,DropItem:1b,HurtEntities:0b,FallHurtMax:0,FallDistance:0.0f,FallHurtAmount:0.0f}
+execute align xz positioned ~.5 ~ ~.5 run summon minecraft:falling_block ~ ~5 ~ {BlockState:{Name:"minecraft:anvil"},Time:1,DropItem:1b,HurtEntities:0b,FallHurtMax:0,fall_distance:0.0f,FallHurtAmount:0.0f}
 summon minecraft:experience_orb ~ ~ ~ {Value:1395}
 loot spawn ~ ~ ~ loot lbc:opbook

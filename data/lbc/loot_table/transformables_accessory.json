@@ -81,13 +81,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:saveplatform",
-                                "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 1
-                                    },
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:item_model": "lbc:saveplatform"
                             }
                         },
                         {
@@ -142,13 +136,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:regenerationbelt",
-                                "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 1
-                                    },
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:item_model": "lbc:regenerationbelt"
                             }
                         },
                         {
@@ -213,13 +201,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:manaregenerationbelt",
-                                "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 1
-                                    },
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:item_model": "lbc:manaregenerationbelt"
                             }
                         },
                         {

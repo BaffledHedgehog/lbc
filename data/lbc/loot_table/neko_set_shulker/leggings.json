@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/shulker_leggings",
                                 "minecraft:max_damage": 900,
                                 "minecraft:equippable":{"slot":"legs","asset_id":"lbc:shulker"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "legs",
@@ -31,7 +30,7 @@
                                         }
                                     ]
                                 }
-                            }
+                            
                         },
                         {
                             "function": "minecraft:set_name",

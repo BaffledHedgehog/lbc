@@ -1,2 +1,2 @@
-item replace entity @s weapon.mainhand with minecraft:cooked_beef[minecraft:custom_name='{"color":"white","italic":false,"translate":"infinite_steak"}',minecraft:lore=['{"translate":"infinite_steak.lore","color":"white","italic":false}'],minecraft:custom_data={inf:1}] 1
+item replace entity @s weapon.mainhand with minecraft:cooked_beef[minecraft:custom_name={"color":"white","italic":false,"translate":"infinite_steak"},minecraft:lore=[{"translate":"infinite_steak.lore","color":"white","italic":false}],minecraft:custom_data={inf:1}] 1
 advancement revoke @s only lbc:stewused

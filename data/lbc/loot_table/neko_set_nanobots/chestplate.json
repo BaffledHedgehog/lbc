@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/nanobots_chestplate",
                                 "minecraft:max_damage": 7000,
                                 "minecraft:equippable":{"slot":"chest","asset_id":"lbc:nanobot"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "chest",
@@ -24,7 +23,7 @@
                                         }
                                     ]
                                 }
-                            }
+                            
                         },
                         {
                             "function": "minecraft:set_name",

@@ -14,8 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "feet",
@@ -31,7 +30,7 @@
                                             "operation": "add_multiplied_base"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

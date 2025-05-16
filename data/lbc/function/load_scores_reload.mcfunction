@@ -64,7 +64,6 @@ scoreboard objectives remove coldownMagnum
 scoreboard objectives remove cyborgBossFly
 scoreboard objectives remove death_timer
 scoreboard objectives remove divider_cd
-scoreboard objectives remove death
 scoreboard objectives remove lust_cd
 scoreboard objectives remove lust_cd_small
 scoreboard objectives remove food_count
@@ -173,7 +172,6 @@ scoreboard objectives remove piss
 scoreboard objectives remove effect_witch_gens_reset
 scoreboard objectives remove effect_hedgehog_boom
 scoreboard objectives remove effect_stand_arrow_hit
-scoreboard objectives remove delayed_death
 scoreboard objectives remove effect_nuking
 scoreboard objectives remove effect_vacuum
 scoreboard objectives remove effect_timestop

@@ -13,13 +13,11 @@
                                 "minecraft:item_model": "lbc:armors/erosion_chestplate",
                                 "minecraft:max_damage": 9000,
                                 "minecraft:enchantments": {
-                                    "levels": {
                                         "minecraft:protection": 255
-                                    }
+                                    
                                 },
                                 "minecraft:equippable":{"slot":"chest","asset_id":"lbc:erosion"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "chest",
@@ -28,7 +26,7 @@
                                             "operation": "add_value"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

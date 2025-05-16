@@ -14,8 +14,7 @@
                                 "minecraft:item_model": "lbc:armors/clownmask",
                                 "minecraft:equippable":{"slot":"head","asset_id":"lbc:clown_mask"},
                                 "minecraft:max_damage": 25,
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "id": "fisjgidsjg4givibhjeswh",
                                             "amount": 3,
@@ -24,7 +23,7 @@
                                             "slot": "head"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

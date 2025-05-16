@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=rotate_center,limit=1] at @s run function lbc:items/misc/huynya/at_2at

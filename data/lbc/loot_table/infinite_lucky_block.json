@@ -15,13 +15,19 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 },
-                                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"translate\":\"infinite_lucky_block\"}",
+                                "minecraft:custom_name": {
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "translate": "infinite_lucky_block"
+                                },
                                 "minecraft:lore": [
-                                    "{\"translate\":\"infinite_lucky_block.lore\",\"color\":\"yellow\",\"italic\":false}"
+                                    {
+                                        "translate": "infinite_lucky_block.lore",
+                                        "color": "yellow",
+                                        "italic": false
+                                    }
                                 ],
                                 "minecraft:item_model": "lbc:infinite_lucky_block"
                             }

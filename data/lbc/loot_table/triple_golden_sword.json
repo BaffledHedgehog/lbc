@@ -16,24 +16,22 @@
                             "components": {
                                 "minecraft:item_model": "lbc:triple_golden_sword",
                                 "minecraft:max_damage": 900,
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 8,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2.4,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 8,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2.4,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

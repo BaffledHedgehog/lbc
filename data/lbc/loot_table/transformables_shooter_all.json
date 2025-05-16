@@ -22,12 +22,38 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:magnum",
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"magnum_mode_standard\"}",
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "magnum_mode_standard"
+                                },
                                 "minecraft:lore": [
-                                    "[{\"translate\":\"type\",\"italic\":false,\"color\":\"aqua\"},{\"translate\":\"shooter\",\"italic\":false,\"color\":\"aqua\"}]",
-                                    "{\"translate\":\"magnum_lore_1\",\"italic\":false,\"color\":\"white\"}",
-                                    "{\"translate\":\"magnum_lore_2\",\"italic\":false,\"color\":\"white\"}",
-                                    "{\"translate\":\"magnum_lore_3\",\"italic\":false,\"color\":\"aqua\"}"
+                                    [
+                                        {
+                                            "translate": "type",
+                                            "italic": false,
+                                            "color": "aqua"
+                                        },
+                                        {
+                                            "translate": "shooter",
+                                            "italic": false,
+                                            "color": "aqua"
+                                        }
+                                    ],
+                                    {
+                                        "translate": "magnum_lore_1",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "translate": "magnum_lore_2",
+                                        "italic": false,
+                                        "color": "white"
+                                    },
+                                    {
+                                        "translate": "magnum_lore_3",
+                                        "italic": false,
+                                        "color": "aqua"
+                                    }
                                 ]
                             }
                         },

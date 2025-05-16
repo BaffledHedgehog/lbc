@@ -1,3 +1,3 @@
 execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:1}}}]}] run function lbc:other/artifact/noeffects1_old
 execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:3}}}]}] run function lbc:other/artifact/nohp_old
-effect give @s[nbt={Inventory:[{components:{"minecraft:custom_data":{jumpboost_old:1}},Slot:100b}]}] jump_boost 1 3
+execute if items entity @s armor.feet *[minecraft:custom_data~{jumpboost_old:1}] run effect give @s jump_boost 1 3

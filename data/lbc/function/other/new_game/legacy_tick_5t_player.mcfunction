@@ -6,7 +6,7 @@ scoreboard players remove @s coldown_vampire 5
 scoreboard players remove @s coldown_foxus 5
 scoreboard players remove @s coldown_blood 5
 scoreboard players remove @s coldown_wiki 5
-execute at @s[nbt={Inventory:[{id:"minecraft:leather_helmet",components:{"minecraft:custom_data":{magichat_old:1}},Slot:103b}]}] run function lbc:other/new_game/magic_boost_hat
+execute at @s if items entity @s armor.head *[minecraft:custom_data~{magichat_old:1}] run function lbc:other/new_game/magic_boost_hat
 execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{manabelt_old:1}}}]}] run function lbc:other/new_game/magic_boost_belt
 execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:2}}}]}] run function lbc:other/artifact/nomagic_old
 execute at @s[nbt={Inventory:[{id:"minecraft:repeating_command_block",components:{"minecraft:custom_data":{mystical_old:1,type:5}}}]}] run function lbc:other/artifact/notnt_old

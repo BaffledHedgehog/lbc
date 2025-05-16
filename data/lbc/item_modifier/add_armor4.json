@@ -2,8 +2,7 @@
     {
         "function": "minecraft:set_components",
         "components": {
-            "minecraft:attribute_modifiers": {
-                "modifiers": [
+            "minecraft:attribute_modifiers": [
                     {
                         "type": "minecraft:armor_toughness",
                         "slot": "head",
@@ -12,7 +11,7 @@
                         "operation": "add_value"
                     }
                 ]
-            }
+            
         }
     },
     {

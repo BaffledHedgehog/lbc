@@ -12,7 +12,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:round_standard",
-                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_standard\"}"
+                                "minecraft:custom_name": {
+                                    "color": "white",
+                                    "italic": false,
+                                    "translate": "round_standard"
+                                }
                             }
                         },
                         {
@@ -37,7 +41,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:round_incendiary",
-                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_incendiary\"}"
+                                "minecraft:custom_name": {
+                                    "color": "white",
+                                    "italic": false,
+                                    "translate": "round_incendiary"
+                                }
                             }
                         },
                         {
@@ -62,7 +70,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:round_electric",
-                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_electric\"}"
+                                "minecraft:custom_name": {
+                                    "color": "white",
+                                    "italic": false,
+                                    "translate": "round_electric"
+                                }
                             }
                         },
                         {
@@ -87,7 +99,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:round_acid",
-                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_acid\"}"
+                                "minecraft:custom_name": {
+                                    "color": "white",
+                                    "italic": false,
+                                    "translate": "round_acid"
+                                }
                             }
                         },
                         {
@@ -112,7 +128,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:round_void",
-                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_void\"}"
+                                "minecraft:custom_name": {
+                                    "color": "white",
+                                    "italic": false,
+                                    "translate": "round_void"
+                                }
                             }
                         },
                         {
@@ -137,7 +157,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:round_explosive",
-                                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"translate\":\"round_explosive\"}"
+                                "minecraft:custom_name": {
+                                    "color": "white",
+                                    "italic": false,
+                                    "translate": "round_explosive"
+                                }
                             }
                         },
                         {

@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/berserk_chestplate",
                                 "minecraft:max_damage": 400,
                                 "minecraft:equippable":{"slot":"chest","asset_id":"lbc:berserk"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "chest",
@@ -52,7 +51,7 @@
                                         }
                                     ]
                                 }
-                            }
+                            
                         },
                         {
                             "function": "minecraft:set_name",

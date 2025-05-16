@@ -17,21 +17,15 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:zombie",
-                                    "ArmorItems": [
-                                        {},
-                                        {},
-                                        {},
-                                        {
+                                    "equipment": {
+                                        "head": {
                                             "id": "minecraft:iron_helmet",
                                             "count": 1
                                         }
-                                    ],
-                                    "ArmorDropChances": [
-                                        0,
-                                        0,
-                                        0,
-                                        0
-                                    ]
+                                    },
+                                    "drop_chances": {
+                                        "head": 0.0
+                                    }
                                 }
                             }
                         }

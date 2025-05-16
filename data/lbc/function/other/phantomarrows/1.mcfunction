@@ -1,2 +1,2 @@
-summon minecraft:arrow ~5 ~ ~ {Motion:[-1.0d,0.0d,0.0d],Tags:["groundbreaker"],pickup:2b,damage:2.5d,CustomName:'{"translate":"phantom_arrow"}',PierceLevel:100}
+summon minecraft:arrow ~5 ~ ~ {Motion:[-1.0d,0.0d,0.0d],Tags:["groundbreaker"],pickup:2b,damage:2.5d,CustomName:{"translate":"phantom_arrow"},PierceLevel:100}
 particle minecraft:soul ~5 ~ ~ 0.5 0.5 0.5 0.1 5 normal

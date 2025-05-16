@@ -289,21 +289,17 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:fire_aspect": 20
-                                    }
+                                    "minecraft:fire_aspect": 20
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": -0.99,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": -0.99,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -891,7 +887,11 @@
                                         "fakepig",
                                         "lucky_mob"
                                     ],
-                                    "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}",
+                                    "CustomName": {
+                                        "text": "Lucky Pig",
+                                        "color": "gold",
+                                        "italic": false
+                                    },
                                     "attributes": [
                                         {
                                             "id": "minecraft:max_health",
@@ -1947,7 +1947,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -1983,7 +1987,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -2019,7 +2027,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {

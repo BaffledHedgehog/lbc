@@ -12,7 +12,7 @@
                 "components": {
                   "!minecraft:max_damage": {},
                   "minecraft:max_stack_size": 64,
-                  "minecraft:item_name": "{\"translate\":\"wisp_fire\",\"color\":\"#8e78ee\"}",
+                  "minecraft:item_name": {"translate":"wisp_fire","color":"#8e78ee"},
                   "minecraft:custom_data": "{wisp_fire:1,magicwand:1}",
                   "minecraft:item_model": "lbc:spirit_fire"
                 }

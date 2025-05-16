@@ -301,28 +301,24 @@
                             "components": {
                                 "minecraft:item_model": "lbc:food/golden_fish",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 2
-                                    }
+                                    "minecraft:knockback": 2
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 4,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -1.5,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -364,30 +360,26 @@
                             "components": {
                                 "minecraft:item_model": "lbc:food/diamond_fish",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 5,
-                                        "minecraft:bane_of_arthropods": 5,
-                                        "minecraft:lure": 5
-                                    }
+                                    "minecraft:knockback": 5,
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:lure": 5
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 8,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -1.5,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 8,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -429,30 +421,26 @@
                             "components": {
                                 "minecraft:item_model": "lbc:food/netherite_fish",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 255,
-                                        "minecraft:bane_of_arthropods": 255,
-                                        "minecraft:smite": 255
-                                    }
+                                    "minecraft:knockback": 255,
+                                    "minecraft:bane_of_arthropods": 255,
+                                    "minecraft:smite": 255
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 14,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -1.5,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 14,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -494,30 +482,26 @@
                             "components": {
                                 "minecraft:item_model": "lbc:food/netherstar_fish",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 255,
-                                        "minecraft:bane_of_arthropods": 255,
-                                        "minecraft:smite": 255
-                                    }
+                                    "minecraft:knockback": 255,
+                                    "minecraft:bane_of_arthropods": 255,
+                                    "minecraft:smite": 255
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 15,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -1.5,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 15,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -559,30 +543,26 @@
                             "components": {
                                 "minecraft:item_model": "lbc:food/transdimensional_fish",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 255,
-                                        "minecraft:bane_of_arthropods": 255,
-                                        "minecraft:smite": 255
-                                    }
+                                    "minecraft:knockback": 255,
+                                    "minecraft:bane_of_arthropods": 255,
+                                    "minecraft:smite": 255
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 16,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -1.5,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 16,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -624,30 +604,26 @@
                             "components": {
                                 "minecraft:item_model": "lbc:food/multiverse_fish",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 255,
-                                        "minecraft:bane_of_arthropods": 255,
-                                        "minecraft:smite": 255
-                                    }
+                                    "minecraft:knockback": 255,
+                                    "minecraft:bane_of_arthropods": 255,
+                                    "minecraft:smite": 255
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 40,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -1.5,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 40,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -1.5,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

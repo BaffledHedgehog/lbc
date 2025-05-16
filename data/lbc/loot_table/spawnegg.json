@@ -290,7 +290,9 @@
                                 "minecraft:entity_data": {
                                     "id": "minecraft:illusioner",
                                     "CustomNameVisible": false,
-                                    "CustomName": "{\"translate\":\"illusioner\"}"
+                                    "CustomName": {
+                                        "translate": "illusioner"
+                                    }
                                 }
                             }
                         },
@@ -319,7 +321,9 @@
                                     "Invulnerable": false,
                                     "CustomNameVisible": false,
                                     "NoAI": false,
-                                    "CustomName": "{\"translate\":\"giant\"}",
+                                    "CustomName": {
+                                        "translate": "giant"
+                                    },
                                     "attributes": [
                                         {
                                             "id": "minecraft:attack_damage",
@@ -354,7 +358,9 @@
                                 "minecraft:entity_data": {
                                     "id": "minecraft:armor_stand",
                                     "CustomNameVisible": false,
-                                    "CustomName": "{\"text\":\"\"}"
+                                    "CustomName": {
+                                        "text": ""
+                                    }
                                 }
                             }
                         },
@@ -380,7 +386,9 @@
                                     "id": "minecraft:tnt",
                                     "CustomNameVisible": false,
                                     "fuse": 100,
-                                    "CustomName": "{\"text\":\"\"}"
+                                    "CustomName": {
+                                        "text": ""
+                                    }
                                 }
                             }
                         },
@@ -404,15 +412,17 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:birch_boat",
-                                    "NoGravity":true,
-                                    "Glowing":true,
+                                    "NoGravity": true,
+                                    "Glowing": true,
                                     "CustomNameVisible": false,
                                     "Motion": [
                                         0,
                                         0.01,
                                         0
                                     ],
-                                    "CustomName": "{\"text\":\"\"}"
+                                    "CustomName": {
+                                        "text": ""
+                                    }
                                 }
                             }
                         },

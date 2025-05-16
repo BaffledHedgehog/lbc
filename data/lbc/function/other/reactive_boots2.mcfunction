@@ -1,4 +1,5 @@
 effect give @s minecraft:slow_falling 10 0
 particle minecraft:cloud ~ ~-0.2 ~ 0.2 0.02 0.2 0.03 2 normal
-execute unless score @s reactivefuel matches ..0 at @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{reactive:1}},Slot:101b},{components:{"minecraft:custom_data":{reactive:1}},Slot:102b},{components:{"minecraft:custom_data":{reactive:1}},Slot:103b},{components:{"minecraft:custom_data":{reactive:1}},Slot:100b}]}] run function lbc:other/reactiveboots
-execute unless score @s reactivefuel matches ..0 at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{reactive:1}},Slot:101b},{components:{"minecraft:custom_data":{reactive:1}},Slot:102b},{components:{"minecraft:custom_data":{reactive:1}},Slot:103b},{components:{"minecraft:custom_data":{reactive:1}},Slot:100b}]}] run function lbc:other/reactiveboots_mega
+execute store result score tmp lbc.math if items entity @s armor.* *[minecraft:custom_data~{reactive:1}]
+execute unless score @s reactivefuel matches ..0 if score tmp lbc.math matches ..3 at @s run function lbc:other/reactiveboots
+execute unless score @s reactivefuel matches ..0 if score tmp lbc.math matches 4.. run function lbc:other/reactiveboots_mega

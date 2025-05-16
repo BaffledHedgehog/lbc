@@ -1,7 +1,7 @@
-execute store result score tmp lbc.math run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".teleportid
+execute store result score tmp lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".teleportid
 particle minecraft:portal ~ ~0.81 ~ 0 0.5 0 0.5 50 force
 playsound minecraft:entity.enderman.teleport master @a ~ ~ ~ 1 1
-execute store result score @s lbcID run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".teleportid
+execute store result score @s lbcID run data get entity @s equipment.offhand.components."minecraft:custom_data".teleportid
 tag @s add tp
 execute as @e[type=#minecraft:mobs,tag=!tp,tag=!spectator] store result score @s lbcID run data get entity @s UUID[0]
 execute at @e[type=#minecraft:mobs,tag=!tp,tag=!spectator] if score @e[type=#minecraft:mobs,distance=..0.001,tag=!tp,tag=!spectator,limit=1] lbcID = @s lbcID run tp @s ~ ~ ~

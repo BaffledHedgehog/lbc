@@ -26,15 +26,16 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:sharpness": 5,
-                                        "minecraft:smite": 5,
-                                        "minecraft:bane_of_arthropods": 5,
-                                        "minecraft:efficiency": 5,
-                                        "minecraft:fortune": 3
-                                    }
+                                    "minecraft:sharpness": 5,
+                                    "minecraft:smite": 5,
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:efficiency": 5,
+                                    "minecraft:fortune": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_axe\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_axe"
+                                }
                             }
                         }
                     ]
@@ -53,12 +54,13 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 5,
-                                        "minecraft:fortune": 3
-                                    }
+                                    "minecraft:efficiency": 5,
+                                    "minecraft:fortune": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_hoe\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_hoe"
+                                }
                             }
                         }
                     ]
@@ -77,19 +79,20 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 4,
-                                        "minecraft:fire_protection": 4,
-                                        "minecraft:feather_falling": 4,
-                                        "minecraft:blast_protection": 4,
-                                        "minecraft:projectile_protection": 4,
-                                        "minecraft:thorns": 3,
-                                        "minecraft:depth_strider": 3,
-                                        "minecraft:frost_walker": 2,
-                                        "minecraft:soul_speed": 3
-                                    }
+                                    "minecraft:protection": 4,
+                                    "minecraft:fire_protection": 4,
+                                    "minecraft:feather_falling": 4,
+                                    "minecraft:blast_protection": 4,
+                                    "minecraft:projectile_protection": 4,
+                                    "minecraft:thorns": 3,
+                                    "minecraft:depth_strider": 3,
+                                    "minecraft:frost_walker": 2,
+                                    "minecraft:soul_speed": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_boots\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_boots"
+                                }
                             }
                         }
                     ]
@@ -108,17 +111,18 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:sharpness": 5,
-                                        "minecraft:smite": 5,
-                                        "minecraft:bane_of_arthropods": 5,
-                                        "minecraft:knockback": 2,
-                                        "minecraft:fire_aspect": 2,
-                                        "minecraft:looting": 3,
-                                        "minecraft:sweeping_edge": 3
-                                    }
+                                    "minecraft:sharpness": 5,
+                                    "minecraft:smite": 5,
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:knockback": 2,
+                                    "minecraft:fire_aspect": 2,
+                                    "minecraft:looting": 3,
+                                    "minecraft:sweeping_edge": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_sword\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_sword"
+                                }
                             }
                         }
                     ]
@@ -137,17 +141,18 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 4,
-                                        "minecraft:fire_protection": 4,
-                                        "minecraft:blast_protection": 4,
-                                        "minecraft:projectile_protection": 4,
-                                        "minecraft:respiration": 3,
-                                        "minecraft:aqua_affinity": 1,
-                                        "minecraft:thorns": 3
-                                    }
+                                    "minecraft:protection": 4,
+                                    "minecraft:fire_protection": 4,
+                                    "minecraft:blast_protection": 4,
+                                    "minecraft:projectile_protection": 4,
+                                    "minecraft:respiration": 3,
+                                    "minecraft:aqua_affinity": 1,
+                                    "minecraft:thorns": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_helmet\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_helmet"
+                                }
                             }
                         }
                     ]
@@ -166,12 +171,13 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 5,
-                                        "minecraft:fortune": 3
-                                    }
+                                    "minecraft:efficiency": 5,
+                                    "minecraft:fortune": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_shovel\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_shovel"
+                                }
                             }
                         }
                     ]
@@ -190,12 +196,13 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 5,
-                                        "minecraft:fortune": 3
-                                    }
+                                    "minecraft:efficiency": 5,
+                                    "minecraft:fortune": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_pickaxe\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_pickaxe"
+                                }
                             }
                         }
                     ]
@@ -214,15 +221,16 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 4,
-                                        "minecraft:fire_protection": 4,
-                                        "minecraft:blast_protection": 4,
-                                        "minecraft:projectile_protection": 4,
-                                        "minecraft:thorns": 3
-                                    }
+                                    "minecraft:protection": 4,
+                                    "minecraft:fire_protection": 4,
+                                    "minecraft:blast_protection": 4,
+                                    "minecraft:projectile_protection": 4,
+                                    "minecraft:thorns": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_leggings\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_leggings"
+                                }
                             }
                         }
                     ]
@@ -241,15 +249,16 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 4,
-                                        "minecraft:fire_protection": 4,
-                                        "minecraft:blast_protection": 4,
-                                        "minecraft:projectile_protection": 4,
-                                        "minecraft:thorns": 3
-                                    }
+                                    "minecraft:protection": 4,
+                                    "minecraft:fire_protection": 4,
+                                    "minecraft:blast_protection": 4,
+                                    "minecraft:projectile_protection": 4,
+                                    "minecraft:thorns": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_chestplate\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_chestplate"
+                                }
                             }
                         }
                     ]
@@ -268,14 +277,15 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:power": 5,
-                                        "minecraft:punch": 2,
-                                        "minecraft:flame": 1,
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:power": 5,
+                                    "minecraft:punch": 2,
+                                    "minecraft:flame": 1,
+                                    "minecraft:infinity": 1
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_bow\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_bow"
+                                }
                             }
                         }
                     ]
@@ -294,13 +304,14 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:multishot": 1,
-                                        "minecraft:piercing": 4,
-                                        "minecraft:quick_charge": 3
-                                    }
+                                    "minecraft:multishot": 1,
+                                    "minecraft:piercing": 4,
+                                    "minecraft:quick_charge": 3
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_crossbow\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_crossbow"
+                                }
                             }
                         }
                     ]
@@ -319,19 +330,20 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:sharpness": 5,
-                                        "minecraft:smite": 5,
-                                        "minecraft:bane_of_arthropods": 5,
-                                        "minecraft:knockback": 2,
-                                        "minecraft:fire_aspect": 2,
-                                        "minecraft:looting": 3,
-                                        "minecraft:sweeping_edge": 3,
-                                        "minecraft:loyalty": 3,
-                                        "minecraft:impaling": 5
-                                    }
+                                    "minecraft:sharpness": 5,
+                                    "minecraft:smite": 5,
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:knockback": 2,
+                                    "minecraft:fire_aspect": 2,
+                                    "minecraft:looting": 3,
+                                    "minecraft:sweeping_edge": 3,
+                                    "minecraft:loyalty": 3,
+                                    "minecraft:impaling": 5
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_trident\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_trident"
+                                }
                             }
                         }
                     ]
@@ -349,25 +361,26 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:unbreakable": {},
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_shield\"}",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:knockback_resistance",
-                                            "slot": "offhand",
-                                            "id": "bob_shieldl",
-                                            "amount": 1,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:knockback_resistance",
-                                            "slot": "mainhand",
-                                            "id": "bob_shield",
-                                            "amount": 1,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ]
-                                }
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_shield"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:knockback_resistance",
+                                        "slot": "offhand",
+                                        "id": "bob_shieldl",
+                                        "amount": 1,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:knockback_resistance",
+                                        "slot": "mainhand",
+                                        "id": "bob_shield",
+                                        "amount": 1,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
                             }
                         }
                     ]
@@ -386,11 +399,12 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:fire_aspect": 255
-                                    }
+                                    "minecraft:fire_aspect": 255
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_flint\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_flint"
+                                }
                             }
                         }
                     ]
@@ -409,12 +423,13 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:luck_of_the_sea": 5,
-                                        "minecraft:lure": 5
-                                    }
+                                    "minecraft:luck_of_the_sea": 5,
+                                    "minecraft:lure": 5
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_rod\"}"
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_rod"
+                                }
                             }
                         }
                     ]
@@ -433,22 +448,21 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 5
-                                    }
+                                    "minecraft:efficiency": 5
                                 },
-                                "minecraft:custom_name": "{\"italic\":false,\"translate\":\"bob_shears\"}",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 4,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:custom_name": {
+                                    "italic": false,
+                                    "translate": "bob_shears"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 4,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         }
                     ]
