@@ -1,2 +1,2 @@
 execute store result storage lbc.math arrow int 1 run clear @s #minecraft:arrows 0
-data modify storage lbc.math ui append value {"text":"    \\uE108 ","extra":[{"nbt":"arrow","storage":"lbc.math","color":"white"}]}
+data modify storage lbc.math ui append value {"text":"    \uE108 ","extra":[{"nbt":"arrow","storage":"lbc.math","color":"white"}]}
