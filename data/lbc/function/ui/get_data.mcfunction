@@ -81,4 +81,4 @@ execute if score #lbcskill swrg.math matches 1 if score @s lbc.skill matches 28 
 execute if items entity @s armor.head *[minecraft:custom_data~{bucket_head:1}] run data modify storage lbc.math ui2 prepend value {"text":"                                      \uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}
 execute if score @s skill_issue matches 1.. run data modify storage lbc.math ui2 append value {"text":" \uE130 "}
 execute unless score legacy lbc.math matches 1 run title @s actionbar {"storage":"lbc.math","nbt":"ui","interpret":true,"separator":"","source":"storage","type":"nbt"}
-execute unless score legacy lbc.math matches 1 unless items entity @s[scores={skill_issue=..0}] armor.head *[minecraft:custom_data~{bucket_head:1}] run title @s title {"storage":"lbc.math","nbt":"ui2","separator":"","interpret":true,"source":"storage","type":"nbt"}
+execute unless score legacy lbc.math matches 1 if items entity @s[scores={skill_issue=..0}] armor.head *[minecraft:custom_data~{bucket_head:1}] run title @s title {"storage":"lbc.math","nbt":"ui2","separator":"","interpret":true,"source":"storage","type":"nbt"}

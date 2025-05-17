@@ -6,7 +6,7 @@ for i in a:
     f=open(f'{i}.mcfunction',mode='w')
     k='effect give @s '+i+'\n'
     f.write(k)
-    k='title @s title ""'+'\n'
+    k='title @s title " "'+'\n'
     f.write(k)
     k='title @s subtitle {"translate":"pill_'+i+'"}'+'\n'
     f.write(k)

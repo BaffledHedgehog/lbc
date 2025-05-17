@@ -1,4 +1,4 @@
-execute as @e at @s run summon minecraft:lightning_bolt
+execute as @e at @s unless dimension minecraft:nexus run summon minecraft:lightning_bolt
 particle minecraft:dust_color_transition{from_color:[0.0,10.0,100.0],to_color:[100.0,10.0,0.0],scale:4.0f} ~ ~ ~ 1 1 1 2 5000 force
 advancement grant @a[gamemode=!spectator,distance=..15] only lbc:true_advancements/legends/absurd_child
 tellraw @a {"translate":"absurd_child_born"}

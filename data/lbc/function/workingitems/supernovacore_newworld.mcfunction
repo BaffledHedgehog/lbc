@@ -61,7 +61,7 @@ execute if score #random56 lbc.math matches 55 run function swrg:maploader/map/5
 execute if score #random56 lbc.math matches 56 run function swrg:maploader/map/56
 fill -5 126 -5 5 127 5 minecraft:air strict
 kill @e[tag=swrg.lobby,predicate=!lbc:nexus]
-title @a[predicate=!lbc:nexus] title ""
+title @a[predicate=!lbc:nexus] title " "
 title @a[predicate=!lbc:nexus] subtitle {"translate":"end_respawn"}
 effect clear @a[gamemode=!spectator] minecraft:levitation
 effect clear @a[gamemode=!spectator] minecraft:absorption

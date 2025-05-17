@@ -1,4 +1,4 @@
-title @a title ""
+title @a title " "
 title @a subtitle {"text":"Lucky Hedgehog","type":"text"}
 effect clear @a[gamemode=!spectator]
 effect give @a[gamemode=!spectator] minecraft:luck infinite 4

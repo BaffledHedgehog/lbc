@@ -1,6 +1,6 @@
 execute if entity @s[tag=afkartifact5t_active] run function lbc:other/artifact/afkartifact5t
 execute if entity @s[tag=techno_flame_active] run particle minecraft:soul_fire_flame ~ ~ ~ 0.3 0.1 0.3 0.01 2 normal
-execute if entity @s[tag=hylian_sword_active] if entity @e[type=#minecraft:monsters,distance=..7] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run effect give @s minecraft:strength 2 2
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{hylian:1}] if entity @e[type=#minecraft:monsters,distance=..7] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run effect give @s minecraft:strength 2 2
 scoreboard players remove @s coldown16 5
 scoreboard players remove @s coldown25 5
 scoreboard players remove @s coldown17 5

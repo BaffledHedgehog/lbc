@@ -1,4 +1,4 @@
 give @s minecraft:leather_helmet[minecraft:unbreakable={},minecraft:custom_name={"color":"dark_red","italic":false,"translate":"mask_3"},minecraft:equippable={slot:"head",asset_id:"lbc:mask_3"},minecraft:attribute_modifiers=[{type:"minecraft:attack_damage",slot:"head",id:"isjdfqqwwwwwwww22eris",amount:1,operation:"add_multiplied_base"},{type:"minecraft:armor",slot:"head",id:"dfsai080842i3jhaashd",amount:4,operation:"add_multiplied_base"}],minecraft:custom_data={troll:1,trollmask:3},minecraft:item_model="lbc:mask_3"] 1
-title @a title ""
+title @a title " "
 title @a subtitle {"translate":"beware_3"}
 scoreboard players set powerfall lbc.math 1

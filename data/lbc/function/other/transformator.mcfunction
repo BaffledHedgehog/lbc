@@ -7,5 +7,5 @@ execute if score tr_health lbc.math matches ..490 if predicate lbc:chance50 run 
 execute if score tr_health lbc.math matches ..480 run particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.3 0.3 0.3 0.01 20 normal
 execute if score tr_health lbc.math matches ..470 if predicate lbc:chance50 run playsound minecraft:entity.zombie_villager.cure master @a ~ ~ ~ 1 1
 execute if score tr_health lbc.math matches ..460 if predicate lbc:chance50 run playsound minecraft:entity.zombie_villager.cure master @a ~ ~ ~ 2 1
-execute if score tr_health lbc.math matches ..450 run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:fire replace #minecraft:airs strict
+execute if score tr_health lbc.math matches ..450 run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:fire replace #minecraft:airs
 execute if score tr_health lbc.math matches ..440 run function lbc:other/transformator_explode

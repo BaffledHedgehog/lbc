@@ -1,5 +1,5 @@
 give @s minecraft:leather_helmet[minecraft:unbreakable={},minecraft:custom_name={"color":"dark_red","italic":false,"translate":"mask_5"},minecraft:equippable={slot:"head",asset_id:"lbc:mask_5"},minecraft:attribute_modifiers=[{type:"minecraft:armor",slot:"head",id:"fkl92jnd8u8xcj",amount:-0.8,operation:"add_multiplied_base"},{type:"minecraft:armor_toughness",slot:"head",id:"jkskvskmklmskmc",amount:-0.8,operation:"add_multiplied_base"},{type:"minecraft:attack_speed",slot:"head",id:"dseo3pofpwr21rd",amount:1,operation:"add_multiplied_base"},{type:"minecraft:max_health",slot:"head",id:"mndfdf32ehhdf78",amount:-0.1,operation:"add_multiplied_base"},{type:"minecraft:attack_damage",slot:"head",id:"iimkw3ekiuudfscv",amount:0.75,operation:"add_multiplied_base"}],minecraft:custom_data={troll:1,trollmask:5},minecraft:item_model="lbc:mask_5"] 1
-title @a title ""
+title @a title " "
 title @a subtitle {"translate":"beware_5"}
 execute as @a[gamemode=!spectator] at @s unless dimension nexus run function lbc:other/troll_box/spawn_walls
 execute positioned 0 1000000 0 run playsound minecraft:lbcsounds.backrooms master @a ~ ~ ~ 0.5 1 0.5

@@ -56,3 +56,4 @@ function lbc:items/bows/kaname_bow/hit_find_stor with storage lbc.math
 
 
 execute if items entity @s container.* carrot_on_a_stick[custom_data~{upgraded:1}] run function lbc:items/bows/kaname_bow/hit_find
+execute if items entity @s weapon.* carrot_on_a_stick[custom_data~{upgraded:1}] run function lbc:items/bows/kaname_bow/hit_find

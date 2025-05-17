@@ -18,7 +18,8 @@ execute if score cfg_lucky_modifier swrg.math matches 11 run scoreboard players 
 execute if score cfg_lucky_modifier swrg.math matches 12 run scoreboard players set final_luck_modifier lbc.math 12
 
 experience add @a 20 levels
-title @a times 0 35 0
+title @a times 0 0 0
+title @a times 0 1s 0
 execute in overworld run function lbc:reset_gamerules
 execute in the_nether run function lbc:reset_gamerules
 execute in the_end run function lbc:reset_gamerules

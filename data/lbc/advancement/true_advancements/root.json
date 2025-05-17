@@ -11,7 +11,7 @@
             "translate": "lbc.adv.root.desc"
         },
         "frame": "task",
-        "background": "minecraft:textures/block/lucky_block_nigger.png",
+        "background": "minecraft:block/lucky_block_nigger",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false
