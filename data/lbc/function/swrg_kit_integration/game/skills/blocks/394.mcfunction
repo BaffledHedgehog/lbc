@@ -1,1 +1,1 @@
-setblock ~ ~ ~ glow_item_frame
+setblock ~ ~ ~ test_instance_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ item_frame
+setblock ~ ~ ~ test_block

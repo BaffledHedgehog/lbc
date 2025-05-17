@@ -1,1 +1,1 @@
-$$(rotatemap)
+$$(command)
