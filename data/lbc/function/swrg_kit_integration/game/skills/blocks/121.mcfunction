@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:detector_rail
+setblock ~ ~ ~ brain_coral_wall_fan

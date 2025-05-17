@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_allium
+setblock ~ ~ ~ exposed_copper_door

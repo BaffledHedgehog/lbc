@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_deepslate
+setblock ~ ~ ~ waxed_oxidized_chiseled_copper

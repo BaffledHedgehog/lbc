@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lilac
+setblock ~ ~ ~ light_blue_concrete_powder

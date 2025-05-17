@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_concrete
+setblock ~ ~ ~ oxidized_copper_grate

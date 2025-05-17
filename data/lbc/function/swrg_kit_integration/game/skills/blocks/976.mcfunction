@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:exposed_copper_door
+setblock ~ ~ ~ torchflower

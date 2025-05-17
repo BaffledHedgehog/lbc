@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_wall_hanging_sign
+setblock ~ ~ ~ cracked_nether_bricks

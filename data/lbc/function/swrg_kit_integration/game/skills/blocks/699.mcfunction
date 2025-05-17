@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tube_coral
+setblock ~ ~ ~ pink_wool

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magma_block
+setblock ~ ~ ~ netherite_block

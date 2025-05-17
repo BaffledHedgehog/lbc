@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_wall_banner
+setblock ~ ~ ~ lime_carpet

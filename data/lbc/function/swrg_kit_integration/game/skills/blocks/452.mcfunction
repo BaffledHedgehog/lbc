@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_stained_glass_pane
+setblock ~ ~ ~ infested_stone_bricks

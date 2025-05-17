@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cave_air
+setblock ~ ~ ~ polished_granite_stairs

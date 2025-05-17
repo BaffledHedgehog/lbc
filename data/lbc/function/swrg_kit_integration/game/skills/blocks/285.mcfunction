@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_trapdoor
+setblock ~ ~ ~ dark_oak_planks

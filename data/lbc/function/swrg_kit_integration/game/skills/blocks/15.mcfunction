@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_planks
+setblock ~ ~ ~ acacia_wall_hanging_sign

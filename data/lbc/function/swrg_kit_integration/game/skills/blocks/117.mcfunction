@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_bed
+setblock ~ ~ ~ bookshelf

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:quartz_stairs
+setblock ~ ~ ~ green_carpet

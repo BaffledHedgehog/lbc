@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone_button
+setblock ~ ~ ~ crimson_sign

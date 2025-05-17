@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_azure_bluet
+setblock ~ ~ ~ exposed_copper_grate

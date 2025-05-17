@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_cactus
+setblock ~ ~ ~ firefly_bush

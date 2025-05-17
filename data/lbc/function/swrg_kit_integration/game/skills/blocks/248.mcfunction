@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:snow
+setblock ~ ~ ~ crimson_slab

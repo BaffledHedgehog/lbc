@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blackstone_stairs
+setblock ~ ~ ~ resin_brick_stairs

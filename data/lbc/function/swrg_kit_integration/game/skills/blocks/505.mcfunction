@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_banner
+setblock ~ ~ ~ light_blue_wall_banner

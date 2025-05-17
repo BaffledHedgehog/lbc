@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_birch_log
+setblock ~ ~ ~ beehive

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:infested_deepslate
+setblock ~ ~ ~ waxed_oxidized_copper_door

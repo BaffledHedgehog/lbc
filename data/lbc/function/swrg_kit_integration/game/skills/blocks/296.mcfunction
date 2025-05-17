@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cracked_stone_bricks
+setblock ~ ~ ~ dark_prismarine_slab

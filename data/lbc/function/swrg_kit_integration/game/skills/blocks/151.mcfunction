@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_orchid
+setblock ~ ~ ~ cactus_flower

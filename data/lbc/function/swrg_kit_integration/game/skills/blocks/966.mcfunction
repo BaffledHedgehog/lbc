@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_cut_copper
+setblock ~ ~ ~ tall_dry_grass

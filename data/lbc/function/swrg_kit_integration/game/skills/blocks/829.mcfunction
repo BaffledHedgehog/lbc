@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_sign
+setblock ~ ~ ~ red_sandstone

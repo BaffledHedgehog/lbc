@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_door
+setblock ~ ~ ~ moving_piston

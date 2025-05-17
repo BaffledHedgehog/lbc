@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_fence_gate
+setblock ~ ~ ~ mangrove_wall_hanging_sign

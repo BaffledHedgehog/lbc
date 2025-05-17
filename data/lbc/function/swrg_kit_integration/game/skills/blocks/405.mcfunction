@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dragon_head
+setblock ~ ~ ~ gray_banner

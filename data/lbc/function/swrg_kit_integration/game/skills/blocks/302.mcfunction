@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:infested_stone_bricks
+setblock ~ ~ ~ dead_brain_coral_wall_fan

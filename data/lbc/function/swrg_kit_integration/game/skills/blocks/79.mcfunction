@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_acacia_wood
+setblock ~ ~ ~ birch_wall_sign

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:horn_coral
+setblock ~ ~ ~ pitcher_plant

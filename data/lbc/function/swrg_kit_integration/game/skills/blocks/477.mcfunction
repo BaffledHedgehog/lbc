@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sea_lantern
+setblock ~ ~ ~ jungle_wall_sign

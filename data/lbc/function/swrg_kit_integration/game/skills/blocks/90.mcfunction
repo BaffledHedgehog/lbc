@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_leaves
+setblock ~ ~ ~ black_stained_glass

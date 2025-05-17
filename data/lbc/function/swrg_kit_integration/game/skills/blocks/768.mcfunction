@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:andesite_wall
+setblock ~ ~ ~ potted_red_tulip

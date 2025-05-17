@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_wart_block
+setblock ~ ~ ~ netherrack

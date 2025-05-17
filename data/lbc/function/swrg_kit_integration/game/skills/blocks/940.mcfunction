@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:weathered_cut_copper
+setblock ~ ~ ~ stripped_birch_wood

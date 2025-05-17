@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crafter
+setblock ~ ~ ~ waxed_weathered_cut_copper_slab

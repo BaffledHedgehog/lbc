@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:peony
+setblock ~ ~ ~ light_blue_shulker_box

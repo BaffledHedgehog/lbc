@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_quartz
+setblock ~ ~ ~ mangrove_propagule

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:copper_block
+setblock ~ ~ ~ stone_slab

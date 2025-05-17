@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:vault
+setblock ~ ~ ~ weathered_chiseled_copper

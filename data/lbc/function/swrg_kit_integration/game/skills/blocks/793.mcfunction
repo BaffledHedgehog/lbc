@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_warped_hyphae
+setblock ~ ~ ~ purple_concrete_powder

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_dark_oak_log
+setblock ~ ~ ~ big_dripleaf_stem

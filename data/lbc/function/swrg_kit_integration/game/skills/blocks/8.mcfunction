@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_andesite
+setblock ~ ~ ~ acacia_planks

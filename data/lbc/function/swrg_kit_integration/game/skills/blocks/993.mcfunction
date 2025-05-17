@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:weathered_copper_grate
+setblock ~ ~ ~ tuff_wall

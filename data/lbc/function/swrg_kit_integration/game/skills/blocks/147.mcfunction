@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:moving_piston
+setblock ~ ~ ~ bubble_coral_wall_fan

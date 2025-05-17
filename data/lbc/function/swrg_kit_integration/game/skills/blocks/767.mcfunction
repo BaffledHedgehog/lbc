@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_brick_wall
+setblock ~ ~ ~ potted_red_mushroom

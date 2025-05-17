@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_stone_slab
+setblock ~ ~ ~ magenta_stained_glass

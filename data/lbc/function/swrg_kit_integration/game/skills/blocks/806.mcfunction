@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:weeping_vines
+setblock ~ ~ ~ quartz_bricks

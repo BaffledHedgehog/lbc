@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:suspicious_gravel
+setblock ~ ~ ~ bamboo_fence_gate

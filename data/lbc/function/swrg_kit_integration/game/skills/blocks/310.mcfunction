@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chain
+setblock ~ ~ ~ dead_fire_coral_fan

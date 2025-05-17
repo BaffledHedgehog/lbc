@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_mushroom
+setblock ~ ~ ~ cave_vines

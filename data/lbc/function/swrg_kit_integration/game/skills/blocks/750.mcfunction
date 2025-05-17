@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_diorite_slab
+setblock ~ ~ ~ potted_crimson_fungus

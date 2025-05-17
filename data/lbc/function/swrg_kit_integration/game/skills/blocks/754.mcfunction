@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_quartz_slab
+setblock ~ ~ ~ potted_dead_bush

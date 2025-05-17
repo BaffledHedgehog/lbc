@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_sandstone
+setblock ~ ~ ~ blue_bed

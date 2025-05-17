@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_roots
+setblock ~ ~ ~ basalt

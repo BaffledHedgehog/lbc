@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_sign
+setblock ~ ~ ~ chiseled_stone_bricks

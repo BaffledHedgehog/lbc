@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_concrete_powder
+setblock ~ ~ ~ pale_oak_wood

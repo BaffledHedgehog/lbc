@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_wall_banner
+setblock ~ ~ ~ lime_concrete

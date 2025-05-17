@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_concrete_powder
+setblock ~ ~ ~ pale_oak_leaves

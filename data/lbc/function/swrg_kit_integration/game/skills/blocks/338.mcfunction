@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:end_stone
+setblock ~ ~ ~ detector_rail

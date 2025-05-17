@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:enchanting_table
+setblock ~ ~ ~ deepslate_gold_ore

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lily_pad
+setblock ~ ~ ~ deepslate_bricks

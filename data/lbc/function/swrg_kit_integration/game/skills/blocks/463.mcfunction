@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_mosaic_stairs
+setblock ~ ~ ~ jungle_door

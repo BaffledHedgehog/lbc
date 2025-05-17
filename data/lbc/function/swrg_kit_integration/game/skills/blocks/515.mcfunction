@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_banner
+setblock ~ ~ ~ light_gray_shulker_box

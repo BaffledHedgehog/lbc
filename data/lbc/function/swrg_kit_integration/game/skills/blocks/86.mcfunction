@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_leaves
+setblock ~ ~ ~ black_concrete

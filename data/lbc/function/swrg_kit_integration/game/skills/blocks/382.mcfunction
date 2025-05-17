@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_dead_bush
+setblock ~ ~ ~ fire_coral_wall_fan

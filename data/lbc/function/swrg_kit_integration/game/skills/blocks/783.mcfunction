@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stonecutter
+setblock ~ ~ ~ prismarine_stairs

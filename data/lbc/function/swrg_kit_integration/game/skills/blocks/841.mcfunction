@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:netherite_block
+setblock ~ ~ ~ redstone_lamp

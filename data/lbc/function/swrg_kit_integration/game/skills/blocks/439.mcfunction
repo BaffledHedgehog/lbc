@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_terracotta
+setblock ~ ~ ~ honeycomb_block

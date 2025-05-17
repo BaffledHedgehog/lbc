@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_concrete_powder
+setblock ~ ~ ~ pale_oak_log

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_granite_stairs
+setblock ~ ~ ~ polished_tuff_slab

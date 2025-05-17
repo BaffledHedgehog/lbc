@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_wither_rose
+setblock ~ ~ ~ fire_coral

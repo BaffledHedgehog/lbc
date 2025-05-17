@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_wall_sign
+setblock ~ ~ ~ closed_eyeblossom

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_wool
+setblock ~ ~ ~ brown_mushroom_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:andesite
+setblock ~ ~ ~ acacia_log

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:scaffolding
+setblock ~ ~ ~ potted_white_tulip

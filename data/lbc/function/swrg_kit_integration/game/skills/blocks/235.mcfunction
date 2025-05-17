@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_pressure_plate
+setblock ~ ~ ~ creeper_wall_head

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_log
+setblock ~ ~ ~ bamboo_wall_sign

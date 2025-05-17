@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_concrete
+setblock ~ ~ ~ pale_oak_button

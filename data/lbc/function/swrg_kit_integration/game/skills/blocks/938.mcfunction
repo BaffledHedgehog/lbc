@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_copper_ore
+setblock ~ ~ ~ stripped_bamboo_block

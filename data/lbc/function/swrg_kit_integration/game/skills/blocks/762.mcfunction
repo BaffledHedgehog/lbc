@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_sandstone_wall
+setblock ~ ~ ~ potted_orange_tulip

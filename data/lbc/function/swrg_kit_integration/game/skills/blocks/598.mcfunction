@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:end_stone_bricks
+setblock ~ ~ ~ nether_brick_slab

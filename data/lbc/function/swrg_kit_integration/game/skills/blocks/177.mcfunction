@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_stairs
+setblock ~ ~ ~ cherry_sign

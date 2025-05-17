@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_wood
+setblock ~ ~ ~ birch_fence_gate

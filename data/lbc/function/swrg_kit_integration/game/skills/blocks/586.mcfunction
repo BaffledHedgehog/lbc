@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_door
+setblock ~ ~ ~ mossy_stone_brick_wall

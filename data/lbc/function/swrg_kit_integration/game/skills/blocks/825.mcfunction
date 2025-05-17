@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_button
+setblock ~ ~ ~ red_nether_brick_stairs

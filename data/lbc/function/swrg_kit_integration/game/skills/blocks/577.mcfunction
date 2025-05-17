@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_fence
+setblock ~ ~ ~ melon_stem

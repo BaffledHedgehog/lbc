@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bookshelf
+setblock ~ ~ ~ cherry_door

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chest
+setblock ~ ~ ~ cherry_slab

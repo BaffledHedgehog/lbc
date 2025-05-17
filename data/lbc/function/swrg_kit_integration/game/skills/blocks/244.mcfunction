@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_redstone_ore
+setblock ~ ~ ~ crimson_planks

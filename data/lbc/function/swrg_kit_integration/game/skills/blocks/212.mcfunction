@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_hanging_sign
+setblock ~ ~ ~ cobblestone_wall

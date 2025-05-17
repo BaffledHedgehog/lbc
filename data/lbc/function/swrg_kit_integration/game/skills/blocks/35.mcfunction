@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sand
+setblock ~ ~ ~ bamboo_block

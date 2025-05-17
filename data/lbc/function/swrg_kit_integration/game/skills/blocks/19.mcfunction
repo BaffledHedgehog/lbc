@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_planks
+setblock ~ ~ ~ air

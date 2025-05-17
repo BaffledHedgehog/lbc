@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_planks
+setblock ~ ~ ~ raw_gold_block

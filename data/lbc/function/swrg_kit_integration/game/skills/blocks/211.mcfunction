@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_hanging_sign
+setblock ~ ~ ~ cobblestone_stairs

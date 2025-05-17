@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_acacia_sapling
+setblock ~ ~ ~ end_stone_brick_slab

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_stained_glass
+setblock ~ ~ ~ damaged_anvil

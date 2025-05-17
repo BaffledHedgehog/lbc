@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:wall_torch
+setblock ~ ~ ~ cherry_log

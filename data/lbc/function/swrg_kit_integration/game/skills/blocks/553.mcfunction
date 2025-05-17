@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cut_sandstone_slab
+setblock ~ ~ ~ magenta_terracotta

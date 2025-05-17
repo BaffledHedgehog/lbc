@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:observer
+setblock ~ ~ ~ oak_fence

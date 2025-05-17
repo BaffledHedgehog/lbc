@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:zombie_head
+setblock ~ ~ ~ granite

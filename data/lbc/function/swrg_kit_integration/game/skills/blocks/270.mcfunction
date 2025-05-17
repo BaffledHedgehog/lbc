@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_stained_glass
+setblock ~ ~ ~ cyan_shulker_box

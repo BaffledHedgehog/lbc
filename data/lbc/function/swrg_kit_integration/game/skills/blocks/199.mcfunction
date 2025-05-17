@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cobblestone_stairs
+setblock ~ ~ ~ chorus_plant

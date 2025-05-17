@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_diorite
+setblock ~ ~ ~ acacia_leaves

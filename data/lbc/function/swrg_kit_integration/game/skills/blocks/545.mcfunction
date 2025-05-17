@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_slab
+setblock ~ ~ ~ magenta_candle_cake

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chorus_flower
+setblock ~ ~ ~ muddy_mangrove_roots

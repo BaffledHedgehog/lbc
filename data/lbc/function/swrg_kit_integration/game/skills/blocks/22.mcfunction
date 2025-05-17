@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_planks
+setblock ~ ~ ~ amethyst_cluster

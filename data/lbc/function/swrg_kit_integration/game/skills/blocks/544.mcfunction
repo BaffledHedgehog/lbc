@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_slab
+setblock ~ ~ ~ magenta_candle

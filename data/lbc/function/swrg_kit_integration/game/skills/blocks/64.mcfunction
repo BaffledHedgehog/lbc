@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_oak_log
+setblock ~ ~ ~ birch_button

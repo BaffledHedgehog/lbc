@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_wool
+setblock ~ ~ ~ brown_stained_glass

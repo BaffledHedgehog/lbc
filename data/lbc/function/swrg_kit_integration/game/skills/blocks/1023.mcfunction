@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mud
+setblock ~ ~ ~ waxed_chiseled_copper

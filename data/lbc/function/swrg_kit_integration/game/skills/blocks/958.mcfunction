@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cut_copper_slab
+setblock ~ ~ ~ stripped_warped_stem

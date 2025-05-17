@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_bed
+setblock ~ ~ ~ blue_orchid

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:turtle_egg
+setblock ~ ~ ~ piglin_head

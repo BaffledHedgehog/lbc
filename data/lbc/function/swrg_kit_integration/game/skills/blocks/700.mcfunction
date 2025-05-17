@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brain_coral
+setblock ~ ~ ~ piston

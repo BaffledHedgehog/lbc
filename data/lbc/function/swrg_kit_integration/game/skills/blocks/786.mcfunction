@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:soul_lantern
+setblock ~ ~ ~ pumpkin_stem

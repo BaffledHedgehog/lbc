@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_mangrove_log
+setblock ~ ~ ~ birch_door

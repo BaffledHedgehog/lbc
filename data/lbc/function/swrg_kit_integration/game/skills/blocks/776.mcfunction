@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smoker
+setblock ~ ~ ~ powder_snow_cauldron

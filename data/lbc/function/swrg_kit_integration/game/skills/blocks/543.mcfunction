@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_slab
+setblock ~ ~ ~ magenta_bed

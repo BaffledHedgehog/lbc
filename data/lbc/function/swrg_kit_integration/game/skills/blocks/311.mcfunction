@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:glass_pane
+setblock ~ ~ ~ dead_fire_coral_wall_fan

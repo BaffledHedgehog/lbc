@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_terracotta
+setblock ~ ~ ~ hanging_roots

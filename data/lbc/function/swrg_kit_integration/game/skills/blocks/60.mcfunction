@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_jungle_log
+setblock ~ ~ ~ beetroots

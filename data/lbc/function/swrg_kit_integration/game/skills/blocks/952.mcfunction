@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:weathered_cut_copper_stairs
+setblock ~ ~ ~ stripped_oak_wood

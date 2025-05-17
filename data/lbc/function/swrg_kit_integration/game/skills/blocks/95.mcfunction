@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:glass
+setblock ~ ~ ~ blackstone

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mycelium
+setblock ~ ~ ~ deepslate_brick_wall

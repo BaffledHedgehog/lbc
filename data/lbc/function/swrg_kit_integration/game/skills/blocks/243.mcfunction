@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:redstone_ore
+setblock ~ ~ ~ crimson_nylium

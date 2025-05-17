@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:twisting_vines
+setblock ~ ~ ~ quartz_slab

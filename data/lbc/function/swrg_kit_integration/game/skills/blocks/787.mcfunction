@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:campfire
+setblock ~ ~ ~ purple_banner

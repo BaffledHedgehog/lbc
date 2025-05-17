@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_candle
+setblock ~ ~ ~ small_amethyst_bud

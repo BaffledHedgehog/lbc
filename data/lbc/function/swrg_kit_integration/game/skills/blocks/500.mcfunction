@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:rose_bush
+setblock ~ ~ ~ light_blue_glazed_terracotta

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cauldron
+setblock ~ ~ ~ deepslate_lapis_ore

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tube_coral_block
+setblock ~ ~ ~ pink_concrete

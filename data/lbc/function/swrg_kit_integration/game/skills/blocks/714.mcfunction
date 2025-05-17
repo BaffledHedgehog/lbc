@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_tube_coral_wall_fan
+setblock ~ ~ ~ polished_blackstone_brick_stairs

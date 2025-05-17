@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pumpkin_stem
+setblock ~ ~ ~ dead_tube_coral

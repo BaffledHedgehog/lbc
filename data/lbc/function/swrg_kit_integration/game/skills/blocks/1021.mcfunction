@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:hanging_roots
+setblock ~ ~ ~ water

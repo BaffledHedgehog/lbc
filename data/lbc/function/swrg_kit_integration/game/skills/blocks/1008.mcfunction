@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pointed_dripstone
+setblock ~ ~ ~ warped_hyphae

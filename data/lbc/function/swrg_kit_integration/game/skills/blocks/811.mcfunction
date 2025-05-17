@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_planks
+setblock ~ ~ ~ raw_copper_block

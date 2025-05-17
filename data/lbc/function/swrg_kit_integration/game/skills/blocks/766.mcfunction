@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mud_brick_wall
+setblock ~ ~ ~ potted_poppy

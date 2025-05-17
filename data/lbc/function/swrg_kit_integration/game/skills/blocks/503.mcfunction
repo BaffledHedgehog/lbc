@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:large_fern
+setblock ~ ~ ~ light_blue_stained_glass_pane

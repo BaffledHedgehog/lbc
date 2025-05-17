@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_red_sandstone
+setblock ~ ~ ~ mangrove_roots

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_concrete
+setblock ~ ~ ~ packed_mud

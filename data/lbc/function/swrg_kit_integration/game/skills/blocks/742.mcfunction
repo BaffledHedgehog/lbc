@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:granite_stairs
+setblock ~ ~ ~ potted_bamboo

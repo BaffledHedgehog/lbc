@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:player_wall_head
+setblock ~ ~ ~ granite_wall

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:weeping_vines_plant
+setblock ~ ~ ~ quartz_pillar

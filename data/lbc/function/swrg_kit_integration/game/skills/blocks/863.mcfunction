@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_blackstone_slab
+setblock ~ ~ ~ scaffolding

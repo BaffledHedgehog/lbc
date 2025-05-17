@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:azalea_leaves
+setblock ~ ~ ~ black_stained_glass_pane

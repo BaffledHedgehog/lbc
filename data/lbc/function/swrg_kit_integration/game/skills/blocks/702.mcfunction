@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:fire_coral
+setblock ~ ~ ~ pitcher_crop

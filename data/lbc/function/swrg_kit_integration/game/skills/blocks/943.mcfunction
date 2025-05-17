@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxidized_chiseled_copper
+setblock ~ ~ ~ stripped_crimson_hyphae

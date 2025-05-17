@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_pressure_plate
+setblock ~ ~ ~ crimson_fence_gate

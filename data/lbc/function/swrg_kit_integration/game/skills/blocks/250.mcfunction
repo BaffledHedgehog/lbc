@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:snow_block
+setblock ~ ~ ~ crimson_stem

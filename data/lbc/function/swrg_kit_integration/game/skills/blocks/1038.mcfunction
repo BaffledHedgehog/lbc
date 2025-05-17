@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_brick_stairs
+setblock ~ ~ ~ waxed_exposed_cut_copper

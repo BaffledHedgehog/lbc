@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:emerald_block
+setblock ~ ~ ~ dragon_egg

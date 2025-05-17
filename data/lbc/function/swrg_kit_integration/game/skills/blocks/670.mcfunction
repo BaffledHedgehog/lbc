@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_concrete_powder
+setblock ~ ~ ~ pale_oak_pressure_plate

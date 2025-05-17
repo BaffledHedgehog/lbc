@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_fence_gate
+setblock ~ ~ ~ decorated_pot

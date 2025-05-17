@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_blue_carpet
+setblock ~ ~ ~ lantern

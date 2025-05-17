@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_wood
+setblock ~ ~ ~ birch_planks

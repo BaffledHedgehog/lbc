@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:weathered_copper
+setblock ~ ~ ~ stonecutter

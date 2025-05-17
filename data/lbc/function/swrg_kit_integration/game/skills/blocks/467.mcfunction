@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:iron_trapdoor
+setblock ~ ~ ~ jungle_leaves

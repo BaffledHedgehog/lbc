@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_fence_gate
+setblock ~ ~ ~ red_glazed_terracotta

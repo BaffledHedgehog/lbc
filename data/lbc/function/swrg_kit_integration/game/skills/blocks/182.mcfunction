@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:diamond_block
+setblock ~ ~ ~ cherry_wall_sign

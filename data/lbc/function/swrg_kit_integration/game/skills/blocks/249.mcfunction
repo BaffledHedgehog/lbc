@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:ice
+setblock ~ ~ ~ crimson_stairs

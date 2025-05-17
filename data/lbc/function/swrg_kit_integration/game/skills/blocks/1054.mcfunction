@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:frogspawn
+setblock ~ ~ ~ waxed_weathered_copper_grate

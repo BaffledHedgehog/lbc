@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lever
+setblock ~ ~ ~ crafter

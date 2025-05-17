@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:infested_cracked_stone_bricks
+setblock ~ ~ ~ dead_bubble_coral_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_trapdoor
+setblock ~ ~ ~ dark_oak_pressure_plate

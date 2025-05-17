@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sculk_vein
+setblock ~ ~ ~ stone_bricks

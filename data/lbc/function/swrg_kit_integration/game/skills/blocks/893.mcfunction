@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_candle_cake
+setblock ~ ~ ~ smooth_stone

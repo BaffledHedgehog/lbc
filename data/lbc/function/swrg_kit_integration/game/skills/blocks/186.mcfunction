@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:furnace
+setblock ~ ~ ~ chiseled_bookshelf

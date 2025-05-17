@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_stained_glass
+setblock ~ ~ ~ dark_oak_log

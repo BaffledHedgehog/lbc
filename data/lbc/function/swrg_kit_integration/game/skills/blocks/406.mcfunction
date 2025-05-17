@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dragon_wall_head
+setblock ~ ~ ~ gray_bed

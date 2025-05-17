@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cobbled_deepslate_slab
+setblock ~ ~ ~ waxed_copper_grate

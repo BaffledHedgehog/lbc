@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_spruce_wood
+setblock ~ ~ ~ birch_stairs

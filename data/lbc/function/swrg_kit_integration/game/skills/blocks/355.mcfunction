@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mossy_cobblestone_wall
+setblock ~ ~ ~ emerald_ore

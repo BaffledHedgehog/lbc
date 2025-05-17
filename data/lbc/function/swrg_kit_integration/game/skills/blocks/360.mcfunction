@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_birch_sapling
+setblock ~ ~ ~ end_rod

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:creeper_head
+setblock ~ ~ ~ grass_block

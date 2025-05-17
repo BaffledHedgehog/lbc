@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tuff_stairs
+setblock ~ ~ ~ spruce_hanging_sign

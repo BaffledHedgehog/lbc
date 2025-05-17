@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sculk_sensor
+setblock ~ ~ ~ stone_brick_slab

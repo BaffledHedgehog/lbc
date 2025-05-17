@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone_stairs
+setblock ~ ~ ~ potted_allium

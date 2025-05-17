@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_tuff_wall
+setblock ~ ~ ~ spruce_sapling

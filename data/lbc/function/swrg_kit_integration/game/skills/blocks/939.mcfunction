@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxidized_cut_copper
+setblock ~ ~ ~ stripped_birch_log

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:twisting_vines_plant
+setblock ~ ~ ~ quartz_stairs

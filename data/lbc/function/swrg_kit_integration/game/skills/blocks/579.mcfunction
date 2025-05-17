@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_fence
+setblock ~ ~ ~ moss_carpet

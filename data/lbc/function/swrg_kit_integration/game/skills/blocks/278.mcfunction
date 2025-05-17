@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_stained_glass
+setblock ~ ~ ~ dark_oak_button

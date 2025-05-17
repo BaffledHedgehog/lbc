@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_concrete
+setblock ~ ~ ~ oxidized_cut_copper

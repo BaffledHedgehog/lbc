@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:skeleton_skull
+setblock ~ ~ ~ glow_lichen

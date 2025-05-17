@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_red_sandstone_slab
+setblock ~ ~ ~ potted_closed_eyeblossom

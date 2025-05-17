@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:beetroots
+setblock ~ ~ ~ nether_gold_ore

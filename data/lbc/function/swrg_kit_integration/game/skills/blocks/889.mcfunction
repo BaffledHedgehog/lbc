@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_candle_cake
+setblock ~ ~ ~ smooth_red_sandstone_stairs

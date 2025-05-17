@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_tuff_slab
+setblock ~ ~ ~ spruce_planks

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bedrock
+setblock ~ ~ ~ azalea_leaves

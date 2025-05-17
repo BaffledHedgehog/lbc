@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_leaves
+setblock ~ ~ ~ black_candle_cake

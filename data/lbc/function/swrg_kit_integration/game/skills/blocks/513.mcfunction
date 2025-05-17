@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_banner
+setblock ~ ~ ~ light_gray_concrete_powder

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_fence_gate
+setblock ~ ~ ~ mangrove_sign

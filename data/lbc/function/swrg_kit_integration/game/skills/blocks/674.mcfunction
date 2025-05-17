@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_concrete_powder
+setblock ~ ~ ~ pale_oak_stairs

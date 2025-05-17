@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_door
+setblock ~ ~ ~ mud_brick_stairs

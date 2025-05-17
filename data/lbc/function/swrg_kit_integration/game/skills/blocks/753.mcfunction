@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_sandstone_slab
+setblock ~ ~ ~ potted_dark_oak_sapling

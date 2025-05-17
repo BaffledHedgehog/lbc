@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:beehive
+setblock ~ ~ ~ red_wall_banner

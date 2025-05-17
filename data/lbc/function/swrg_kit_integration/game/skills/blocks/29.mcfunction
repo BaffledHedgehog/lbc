@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_sapling
+setblock ~ ~ ~ attached_melon_stem

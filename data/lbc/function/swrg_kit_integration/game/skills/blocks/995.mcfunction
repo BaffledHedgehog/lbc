@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_copper_grate
+setblock ~ ~ ~ twisting_vines

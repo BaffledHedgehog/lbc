@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_shulker_box
+setblock ~ ~ ~ oak_log

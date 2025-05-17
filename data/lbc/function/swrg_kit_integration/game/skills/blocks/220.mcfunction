@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_wall_hanging_sign
+setblock ~ ~ ~ copper_bulb

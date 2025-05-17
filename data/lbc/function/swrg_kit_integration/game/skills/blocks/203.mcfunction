@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_wall_sign
+setblock ~ ~ ~ coal_ore

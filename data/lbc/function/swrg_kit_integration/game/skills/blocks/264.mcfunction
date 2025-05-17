@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_portal
+setblock ~ ~ ~ cyan_candle

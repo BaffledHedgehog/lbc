@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_flowering_azalea_bush
+setblock ~ ~ ~ waxed_weathered_chiseled_copper

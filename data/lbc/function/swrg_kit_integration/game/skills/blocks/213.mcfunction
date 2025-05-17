@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_hanging_sign
+setblock ~ ~ ~ cobweb

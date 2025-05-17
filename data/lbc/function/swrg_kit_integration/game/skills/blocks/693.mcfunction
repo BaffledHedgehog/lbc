@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:horn_coral_block
+setblock ~ ~ ~ pink_shulker_box

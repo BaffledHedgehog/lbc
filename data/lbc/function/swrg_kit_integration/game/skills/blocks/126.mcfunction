@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_bush
+setblock ~ ~ ~ bricks

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:powder_snow_cauldron
+setblock ~ ~ ~ deepslate_tile_stairs

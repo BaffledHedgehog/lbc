@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:medium_amethyst_bud
+setblock ~ ~ ~ spruce_button

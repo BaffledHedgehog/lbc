@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jack_o_lantern
+setblock ~ ~ ~ cyan_carpet

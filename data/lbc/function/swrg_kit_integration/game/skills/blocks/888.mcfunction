@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_candle_cake
+setblock ~ ~ ~ smooth_red_sandstone_slab

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_concrete
+setblock ~ ~ ~ oxidized_cut_copper_slab

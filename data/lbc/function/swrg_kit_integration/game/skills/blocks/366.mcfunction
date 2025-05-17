@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_fern
+setblock ~ ~ ~ ender_chest

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:prismarine_wall
+setblock ~ ~ ~ potted_open_eyeblossom

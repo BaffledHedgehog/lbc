@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_wool
+setblock ~ ~ ~ brown_wall_banner

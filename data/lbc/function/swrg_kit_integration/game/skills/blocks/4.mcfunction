@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_granite
+setblock ~ ~ ~ acacia_fence_gate

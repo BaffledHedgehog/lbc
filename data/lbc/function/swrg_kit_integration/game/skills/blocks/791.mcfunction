@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_warped_stem
+setblock ~ ~ ~ purple_carpet

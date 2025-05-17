@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tripwire_hook
+setblock ~ ~ ~ dirt_path

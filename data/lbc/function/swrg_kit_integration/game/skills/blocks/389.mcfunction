@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_button
+setblock ~ ~ ~ frosted_ice

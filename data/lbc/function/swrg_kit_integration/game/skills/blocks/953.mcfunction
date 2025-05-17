@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:exposed_cut_copper_stairs
+setblock ~ ~ ~ stripped_pale_oak_log

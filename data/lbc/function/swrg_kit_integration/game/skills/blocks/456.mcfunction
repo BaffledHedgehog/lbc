@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_stained_glass_pane
+setblock ~ ~ ~ iron_ore

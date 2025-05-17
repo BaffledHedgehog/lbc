@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:candle
+setblock ~ ~ ~ sea_pickle

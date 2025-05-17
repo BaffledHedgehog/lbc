@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_brain_coral
+setblock ~ ~ ~ pink_stained_glass_pane

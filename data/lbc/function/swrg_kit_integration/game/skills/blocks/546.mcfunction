@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_slab
+setblock ~ ~ ~ magenta_carpet

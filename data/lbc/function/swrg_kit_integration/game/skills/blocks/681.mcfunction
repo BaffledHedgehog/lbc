@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dried_kelp_block
+setblock ~ ~ ~ petrified_oak_slab

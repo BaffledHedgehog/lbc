@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_diorite_stairs
+setblock ~ ~ ~ poppy

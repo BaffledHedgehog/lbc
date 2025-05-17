@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tnt
+setblock ~ ~ ~ cherry_button

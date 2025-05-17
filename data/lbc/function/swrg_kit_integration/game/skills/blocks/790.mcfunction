@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_stem
+setblock ~ ~ ~ purple_candle_cake

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:end_rod
+setblock ~ ~ ~ mud_brick_wall

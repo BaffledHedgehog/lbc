@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:zombie_wall_head
+setblock ~ ~ ~ granite_slab

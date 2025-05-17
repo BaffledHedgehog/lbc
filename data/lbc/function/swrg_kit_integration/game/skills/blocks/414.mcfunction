@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:heavy_weighted_pressure_plate
+setblock ~ ~ ~ gray_stained_glass

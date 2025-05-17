@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_candle
+setblock ~ ~ ~ smithing_table

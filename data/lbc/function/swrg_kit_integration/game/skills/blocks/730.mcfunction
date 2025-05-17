@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:void_air
+setblock ~ ~ ~ polished_granite_slab

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_exposed_cut_copper_slab
+setblock ~ ~ ~ tinted_glass

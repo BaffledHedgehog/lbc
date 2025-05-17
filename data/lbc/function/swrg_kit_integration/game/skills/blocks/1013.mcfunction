@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:azalea
+setblock ~ ~ ~ warped_sign

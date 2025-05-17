@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_bamboo_block
+setblock ~ ~ ~ birch_fence

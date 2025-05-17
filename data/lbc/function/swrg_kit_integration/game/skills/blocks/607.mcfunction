@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:frosted_ice
+setblock ~ ~ ~ nether_wart_block

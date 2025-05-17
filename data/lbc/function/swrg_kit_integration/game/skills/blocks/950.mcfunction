@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_chiseled_copper
+setblock ~ ~ ~ stripped_mangrove_wood

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_weathered_copper_door
+setblock ~ ~ ~ tube_coral

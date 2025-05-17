@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_concrete_powder
+setblock ~ ~ ~ pale_oak_fence

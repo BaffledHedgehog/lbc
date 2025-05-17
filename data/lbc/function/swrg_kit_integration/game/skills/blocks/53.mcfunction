@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_log
+setblock ~ ~ ~ barrel

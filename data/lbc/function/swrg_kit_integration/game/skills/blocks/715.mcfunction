@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_brain_coral_wall_fan
+setblock ~ ~ ~ polished_blackstone_brick_wall

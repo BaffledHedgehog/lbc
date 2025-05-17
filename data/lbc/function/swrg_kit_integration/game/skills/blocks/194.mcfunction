@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_sign
+setblock ~ ~ ~ chiseled_sandstone

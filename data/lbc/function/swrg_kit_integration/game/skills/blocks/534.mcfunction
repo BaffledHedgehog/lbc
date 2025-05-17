@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_wall_banner
+setblock ~ ~ ~ lime_shulker_box

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_leaves
+setblock ~ ~ ~ black_shulker_box

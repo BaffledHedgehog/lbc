@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_planks
+setblock ~ ~ ~ amethyst_block

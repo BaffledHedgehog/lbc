@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bubble_coral_fan
+setblock ~ ~ ~ polished_basalt

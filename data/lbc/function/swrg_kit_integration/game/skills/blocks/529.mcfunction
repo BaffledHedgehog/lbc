@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_wall_banner
+setblock ~ ~ ~ lime_candle_cake

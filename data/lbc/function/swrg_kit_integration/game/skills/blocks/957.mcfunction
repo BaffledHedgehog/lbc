@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:exposed_cut_copper_slab
+setblock ~ ~ ~ stripped_warped_hyphae

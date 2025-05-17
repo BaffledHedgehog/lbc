@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_candle
+setblock ~ ~ ~ short_dry_grass

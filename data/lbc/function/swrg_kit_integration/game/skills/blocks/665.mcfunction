@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_concrete_powder
+setblock ~ ~ ~ pale_oak_fence_gate

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_sprouts
+setblock ~ ~ ~ purple_terracotta

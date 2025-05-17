@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_crimson_stem
+setblock ~ ~ ~ purple_wool

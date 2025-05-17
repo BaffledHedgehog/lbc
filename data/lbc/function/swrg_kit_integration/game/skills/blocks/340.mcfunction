@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:redstone_lamp
+setblock ~ ~ ~ diamond_ore

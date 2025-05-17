@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_hyphae
+setblock ~ ~ ~ purpur_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_dandelion
+setblock ~ ~ ~ exposed_chiseled_copper

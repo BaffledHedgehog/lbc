@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_nether_bricks
+setblock ~ ~ ~ sculk_shrieker

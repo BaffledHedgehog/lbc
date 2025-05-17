@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_fungus
+setblock ~ ~ ~ purple_shulker_box

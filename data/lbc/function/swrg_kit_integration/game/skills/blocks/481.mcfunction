@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_carpet
+setblock ~ ~ ~ ladder

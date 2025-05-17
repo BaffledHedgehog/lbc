@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_fence_gate
+setblock ~ ~ ~ mangrove_wood

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:repeating_command_block
+setblock ~ ~ ~ nether_sprouts

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:diamond_ore
+setblock ~ ~ ~ cherry_trapdoor

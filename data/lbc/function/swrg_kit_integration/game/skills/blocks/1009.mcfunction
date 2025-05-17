@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dripstone_block
+setblock ~ ~ ~ warped_nylium

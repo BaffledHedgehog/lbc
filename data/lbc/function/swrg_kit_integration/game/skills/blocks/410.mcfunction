@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chipped_anvil
+setblock ~ ~ ~ gray_concrete

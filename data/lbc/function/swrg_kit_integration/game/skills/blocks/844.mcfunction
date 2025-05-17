@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:respawn_anchor
+setblock ~ ~ ~ redstone_wall_torch

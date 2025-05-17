@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_glazed_terracotta
+setblock ~ ~ ~ orange_candle_cake

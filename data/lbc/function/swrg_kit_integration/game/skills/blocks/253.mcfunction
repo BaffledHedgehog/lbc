@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sugar_cane
+setblock ~ ~ ~ crimson_wall_sign

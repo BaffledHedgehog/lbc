@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_leaves
+setblock ~ ~ ~ black_candle

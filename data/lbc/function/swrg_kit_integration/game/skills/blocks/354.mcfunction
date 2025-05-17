@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cobblestone_wall
+setblock ~ ~ ~ emerald_block

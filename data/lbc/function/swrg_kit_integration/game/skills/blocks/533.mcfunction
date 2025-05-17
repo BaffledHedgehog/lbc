@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_wall_banner
+setblock ~ ~ ~ lime_glazed_terracotta

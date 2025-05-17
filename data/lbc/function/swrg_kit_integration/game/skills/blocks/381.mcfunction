@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_brown_mushroom
+setblock ~ ~ ~ fire_coral_fan

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_wool
+setblock ~ ~ ~ brown_concrete

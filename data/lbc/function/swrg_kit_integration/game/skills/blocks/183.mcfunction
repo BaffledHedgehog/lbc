@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crafting_table
+setblock ~ ~ ~ cherry_wood

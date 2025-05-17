@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_carpet
+setblock ~ ~ ~ lapis_ore

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_trapdoor
+setblock ~ ~ ~ dark_oak_slab

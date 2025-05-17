@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_hanging_sign
+setblock ~ ~ ~ comparator

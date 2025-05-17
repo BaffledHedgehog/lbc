@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_deepslate_wall
+setblock ~ ~ ~ waxed_exposed_chiseled_copper

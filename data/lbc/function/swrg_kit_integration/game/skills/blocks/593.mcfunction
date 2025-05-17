@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chorus_plant
+setblock ~ ~ ~ mud_bricks

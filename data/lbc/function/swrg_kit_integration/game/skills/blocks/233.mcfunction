@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:iron_door
+setblock ~ ~ ~ creaking_heart

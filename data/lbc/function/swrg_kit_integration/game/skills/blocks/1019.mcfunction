@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:big_dripleaf_stem
+setblock ~ ~ ~ warped_wall_sign

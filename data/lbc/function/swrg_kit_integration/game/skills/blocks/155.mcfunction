@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_tulip
+setblock ~ ~ ~ campfire

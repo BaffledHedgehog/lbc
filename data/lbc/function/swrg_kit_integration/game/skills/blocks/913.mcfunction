@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tuff_wall
+setblock ~ ~ ~ spruce_leaves

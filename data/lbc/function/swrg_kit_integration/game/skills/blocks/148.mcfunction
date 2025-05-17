@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dandelion
+setblock ~ ~ ~ budding_amethyst

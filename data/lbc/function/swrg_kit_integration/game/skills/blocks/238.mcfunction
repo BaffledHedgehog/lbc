@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_pressure_plate
+setblock ~ ~ ~ crimson_fence

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:glow_lichen
+setblock ~ ~ ~ dead_tube_coral_wall_fan

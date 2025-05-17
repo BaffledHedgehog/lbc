@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_wall_banner
+setblock ~ ~ ~ light_weighted_pressure_plate

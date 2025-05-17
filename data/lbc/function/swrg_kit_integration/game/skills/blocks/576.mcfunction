@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_fence
+setblock ~ ~ ~ melon

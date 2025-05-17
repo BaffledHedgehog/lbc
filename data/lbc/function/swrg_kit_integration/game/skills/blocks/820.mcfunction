@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_trapdoor
+setblock ~ ~ ~ red_concrete_powder

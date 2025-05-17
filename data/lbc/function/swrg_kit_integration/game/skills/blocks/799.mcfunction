@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_stem
+setblock ~ ~ ~ purple_wall_banner

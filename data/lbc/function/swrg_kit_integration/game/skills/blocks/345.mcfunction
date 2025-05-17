@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:ender_chest
+setblock ~ ~ ~ dirt

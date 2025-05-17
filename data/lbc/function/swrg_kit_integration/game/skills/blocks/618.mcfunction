@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_blue_shulker_box
+setblock ~ ~ ~ oak_planks

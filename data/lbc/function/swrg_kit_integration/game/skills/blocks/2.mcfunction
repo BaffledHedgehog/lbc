@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone
+setblock ~ ~ ~ acacia_door

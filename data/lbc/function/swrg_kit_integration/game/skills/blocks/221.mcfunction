@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_wall_hanging_sign
+setblock ~ ~ ~ copper_door

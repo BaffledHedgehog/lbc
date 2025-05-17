@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cobweb
+setblock ~ ~ ~ brick_slab

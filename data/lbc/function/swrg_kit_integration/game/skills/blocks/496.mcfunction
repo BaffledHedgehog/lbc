@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:coal_block
+setblock ~ ~ ~ light_blue_candle_cake

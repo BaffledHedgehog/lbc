@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_planks
+setblock ~ ~ ~ acacia_wall_sign

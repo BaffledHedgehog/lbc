@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_glazed_terracotta
+setblock ~ ~ ~ orange_bed

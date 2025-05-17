@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_tile_slab
+setblock ~ ~ ~ waxed_exposed_copper_door

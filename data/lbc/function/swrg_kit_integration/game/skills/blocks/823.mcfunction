@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_stairs
+setblock ~ ~ ~ red_mushroom_block

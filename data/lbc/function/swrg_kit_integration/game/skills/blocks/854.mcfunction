@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_blackstone
+setblock ~ ~ ~ resin_clump

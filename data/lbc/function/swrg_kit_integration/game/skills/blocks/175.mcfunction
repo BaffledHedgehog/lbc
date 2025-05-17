@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:soul_fire
+setblock ~ ~ ~ cherry_pressure_plate

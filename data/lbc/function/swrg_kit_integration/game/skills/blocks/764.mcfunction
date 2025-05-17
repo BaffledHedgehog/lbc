@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:granite_wall
+setblock ~ ~ ~ potted_pale_oak_sapling

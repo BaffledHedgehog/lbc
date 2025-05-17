@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_hanging_sign
+setblock ~ ~ ~ composter

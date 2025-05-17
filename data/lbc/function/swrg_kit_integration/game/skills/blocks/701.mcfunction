@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bubble_coral
+setblock ~ ~ ~ piston_head

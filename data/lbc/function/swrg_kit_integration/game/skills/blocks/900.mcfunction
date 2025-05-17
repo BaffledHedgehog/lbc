@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_candle_cake
+setblock ~ ~ ~ soul_lantern

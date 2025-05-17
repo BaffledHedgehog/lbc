@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dirt_path
+setblock ~ ~ ~ nether_portal

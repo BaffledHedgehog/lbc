@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:flowering_azalea
+setblock ~ ~ ~ warped_slab

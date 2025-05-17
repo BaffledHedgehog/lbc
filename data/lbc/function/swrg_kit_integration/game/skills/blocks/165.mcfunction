@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:iron_block
+setblock ~ ~ ~ chain

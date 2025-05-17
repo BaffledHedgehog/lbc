@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_fence_gate
+setblock ~ ~ ~ red_mushroom

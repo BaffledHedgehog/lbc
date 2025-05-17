@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:exposed_copper_grate
+setblock ~ ~ ~ tuff_stairs

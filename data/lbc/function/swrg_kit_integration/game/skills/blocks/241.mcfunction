@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_pressure_plate
+setblock ~ ~ ~ crimson_hanging_sign

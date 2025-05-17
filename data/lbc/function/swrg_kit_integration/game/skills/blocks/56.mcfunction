@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:muddy_mangrove_roots
+setblock ~ ~ ~ beacon

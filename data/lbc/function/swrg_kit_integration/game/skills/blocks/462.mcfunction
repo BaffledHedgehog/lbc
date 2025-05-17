@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_stairs
+setblock ~ ~ ~ jungle_button

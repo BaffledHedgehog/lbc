@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_mangrove_wood
+setblock ~ ~ ~ black_bed

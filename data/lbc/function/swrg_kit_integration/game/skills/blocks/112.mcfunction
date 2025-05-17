@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_bed
+setblock ~ ~ ~ blue_stained_glass_pane

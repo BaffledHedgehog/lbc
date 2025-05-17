@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_mosaic
+setblock ~ ~ ~ ancient_debris

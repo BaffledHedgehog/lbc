@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:command_block
+setblock ~ ~ ~ dripstone_block

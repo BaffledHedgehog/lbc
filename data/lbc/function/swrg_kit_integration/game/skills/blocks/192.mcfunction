@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_sign
+setblock ~ ~ ~ chiseled_red_sandstone

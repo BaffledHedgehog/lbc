@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_stained_glass_pane
+setblock ~ ~ ~ iron_trapdoor

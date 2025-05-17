@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cracked_deepslate_bricks
+setblock ~ ~ ~ waxed_oxidized_copper

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_stone_bricks
+setblock ~ ~ ~ dark_prismarine_stairs

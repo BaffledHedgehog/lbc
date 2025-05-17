@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_bricks
+setblock ~ ~ ~ waxed_exposed_copper_trapdoor

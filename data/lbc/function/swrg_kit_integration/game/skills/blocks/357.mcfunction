@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_torchflower
+setblock ~ ~ ~ end_gateway

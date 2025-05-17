@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_tile_wall
+setblock ~ ~ ~ waxed_exposed_copper_grate

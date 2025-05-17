@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_carpet
+setblock ~ ~ ~ light_blue_banner

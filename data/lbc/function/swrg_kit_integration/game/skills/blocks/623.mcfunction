@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_shulker_box
+setblock ~ ~ ~ oak_stairs

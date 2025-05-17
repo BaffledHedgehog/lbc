@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_concrete
+setblock ~ ~ ~ oxeye_daisy

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:copper_ore
+setblock ~ ~ ~ stripped_acacia_wood

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:flower_pot
+setblock ~ ~ ~ enchanting_table

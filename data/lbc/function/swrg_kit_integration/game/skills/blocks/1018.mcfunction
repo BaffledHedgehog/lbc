@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:big_dripleaf
+setblock ~ ~ ~ warped_wall_hanging_sign

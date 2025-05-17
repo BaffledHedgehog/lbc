@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_fence
+setblock ~ ~ ~ mossy_cobblestone_slab

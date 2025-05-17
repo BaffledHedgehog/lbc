@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:redstone_wire
+setblock ~ ~ ~ cherry_stairs

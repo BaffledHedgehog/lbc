@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:diorite_stairs
+setblock ~ ~ ~ potted_cactus

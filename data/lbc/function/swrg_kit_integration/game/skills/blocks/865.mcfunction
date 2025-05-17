@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_blackstone_button
+setblock ~ ~ ~ sculk_catalyst

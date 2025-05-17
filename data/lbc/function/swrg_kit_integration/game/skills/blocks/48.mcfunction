@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_log
+setblock ~ ~ ~ bamboo_slab

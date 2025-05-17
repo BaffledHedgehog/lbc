@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_tube_coral
+setblock ~ ~ ~ pink_stained_glass

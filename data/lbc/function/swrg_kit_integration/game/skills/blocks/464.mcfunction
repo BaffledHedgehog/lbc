@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:slime_block
+setblock ~ ~ ~ jungle_fence

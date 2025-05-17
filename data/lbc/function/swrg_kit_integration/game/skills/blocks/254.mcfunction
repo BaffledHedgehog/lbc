@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jukebox
+setblock ~ ~ ~ crying_obsidian

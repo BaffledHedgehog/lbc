@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:torch
+setblock ~ ~ ~ cherry_leaves

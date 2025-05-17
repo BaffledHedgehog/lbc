@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:poppy
+setblock ~ ~ ~ cactus

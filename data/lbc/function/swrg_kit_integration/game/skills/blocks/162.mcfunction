@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_mushroom
+setblock ~ ~ ~ cave_air

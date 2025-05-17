@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_stained_glass_pane
+setblock ~ ~ ~ iron_bars

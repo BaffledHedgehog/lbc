@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cocoa
+setblock ~ ~ ~ diorite

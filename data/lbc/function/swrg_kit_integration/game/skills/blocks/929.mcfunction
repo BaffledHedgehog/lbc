@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sculk
+setblock ~ ~ ~ stone_brick_wall

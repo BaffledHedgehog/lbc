@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mossy_stone_brick_stairs
+setblock ~ ~ ~ polished_tuff_wall

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:piston_head
+setblock ~ ~ ~ brown_candle_cake

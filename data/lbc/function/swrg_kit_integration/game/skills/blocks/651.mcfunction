@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_concrete
+setblock ~ ~ ~ oxidized_copper_door

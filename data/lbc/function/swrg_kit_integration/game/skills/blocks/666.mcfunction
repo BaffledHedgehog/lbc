@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_blue_concrete_powder
+setblock ~ ~ ~ pale_oak_hanging_sign

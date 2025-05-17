@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_tuff_stairs
+setblock ~ ~ ~ spruce_pressure_plate

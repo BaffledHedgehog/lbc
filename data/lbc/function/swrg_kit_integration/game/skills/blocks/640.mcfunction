@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_glazed_terracotta
+setblock ~ ~ ~ orange_shulker_box

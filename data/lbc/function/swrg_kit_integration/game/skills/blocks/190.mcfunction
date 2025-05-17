@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_sign
+setblock ~ ~ ~ chiseled_polished_blackstone

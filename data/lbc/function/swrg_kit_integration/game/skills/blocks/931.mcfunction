@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sculk_catalyst
+setblock ~ ~ ~ stone_button

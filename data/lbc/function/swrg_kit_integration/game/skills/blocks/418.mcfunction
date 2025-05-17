@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_quartz_ore
+setblock ~ ~ ~ gray_wool

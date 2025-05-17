@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_planks
+setblock ~ ~ ~ activator_rail

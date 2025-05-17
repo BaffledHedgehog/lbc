@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_candle
+setblock ~ ~ ~ smooth_quartz_slab

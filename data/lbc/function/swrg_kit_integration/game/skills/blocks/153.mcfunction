@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:azure_bluet
+setblock ~ ~ ~ calcite

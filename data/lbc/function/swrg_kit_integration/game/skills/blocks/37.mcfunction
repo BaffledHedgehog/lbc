@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_sand
+setblock ~ ~ ~ bamboo_door

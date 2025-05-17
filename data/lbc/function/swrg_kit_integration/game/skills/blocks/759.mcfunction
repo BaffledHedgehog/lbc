@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:diorite_slab
+setblock ~ ~ ~ potted_mangrove_propagule

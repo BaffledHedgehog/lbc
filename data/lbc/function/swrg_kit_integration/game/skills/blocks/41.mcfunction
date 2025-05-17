@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_gold_ore
+setblock ~ ~ ~ bamboo_mosaic

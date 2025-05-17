@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cut_sandstone
+setblock ~ ~ ~ blue_candle

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_wall_hanging_sign
+setblock ~ ~ ~ cracked_polished_blackstone_bricks

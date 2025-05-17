@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jigsaw
+setblock ~ ~ ~ red_stained_glass

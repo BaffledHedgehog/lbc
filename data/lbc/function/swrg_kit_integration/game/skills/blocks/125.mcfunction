@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:fern
+setblock ~ ~ ~ brick_wall

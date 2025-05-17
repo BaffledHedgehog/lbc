@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_concrete_powder
+setblock ~ ~ ~ pale_oak_door

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone_brick_slab
+setblock ~ ~ ~ mangrove_button

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:structure_block
+setblock ~ ~ ~ red_shulker_box

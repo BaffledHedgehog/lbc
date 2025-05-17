@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_candle
+setblock ~ ~ ~ seagrass

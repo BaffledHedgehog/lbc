@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:budding_amethyst
+setblock ~ ~ ~ spawner

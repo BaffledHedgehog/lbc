@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_copper_door
+setblock ~ ~ ~ trial_spawner

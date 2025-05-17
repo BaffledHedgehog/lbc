@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sea_pickle
+setblock ~ ~ ~ polished_deepslate_stairs

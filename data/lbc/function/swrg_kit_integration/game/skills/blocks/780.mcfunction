@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:grindstone
+setblock ~ ~ ~ prismarine_brick_stairs

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_button
+setblock ~ ~ ~ frogspawn

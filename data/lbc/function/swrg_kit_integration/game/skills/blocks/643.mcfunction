@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_glazed_terracotta
+setblock ~ ~ ~ orange_terracotta

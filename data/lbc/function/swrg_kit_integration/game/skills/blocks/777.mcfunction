@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blast_furnace
+setblock ~ ~ ~ powered_rail

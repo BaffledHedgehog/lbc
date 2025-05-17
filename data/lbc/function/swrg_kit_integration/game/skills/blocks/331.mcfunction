@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brewing_stand
+setblock ~ ~ ~ deepslate_iron_ore

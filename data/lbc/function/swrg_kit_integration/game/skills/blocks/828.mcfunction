@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_door
+setblock ~ ~ ~ red_sand

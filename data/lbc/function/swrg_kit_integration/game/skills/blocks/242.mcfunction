@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_pressure_plate
+setblock ~ ~ ~ crimson_hyphae

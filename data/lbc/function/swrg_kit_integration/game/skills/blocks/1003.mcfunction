@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_copper_bulb
+setblock ~ ~ ~ warped_door

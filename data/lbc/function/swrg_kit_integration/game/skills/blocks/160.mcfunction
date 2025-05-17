@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:wither_rose
+setblock ~ ~ ~ carved_pumpkin

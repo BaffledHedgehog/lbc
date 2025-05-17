@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_wall_sign
+setblock ~ ~ ~ red_sandstone_stairs

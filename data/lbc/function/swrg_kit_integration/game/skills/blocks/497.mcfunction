@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:packed_ice
+setblock ~ ~ ~ light_blue_carpet

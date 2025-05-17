@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_fence
+setblock ~ ~ ~ red_candle_cake

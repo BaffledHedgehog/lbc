@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_stairs
+setblock ~ ~ ~ dragon_wall_head

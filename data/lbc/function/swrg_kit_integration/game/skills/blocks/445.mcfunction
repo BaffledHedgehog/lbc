@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_blue_stained_glass_pane
+setblock ~ ~ ~ ice

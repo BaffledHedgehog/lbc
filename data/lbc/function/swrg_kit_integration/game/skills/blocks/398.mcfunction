@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:wither_skeleton_wall_skull
+setblock ~ ~ ~ gold_ore

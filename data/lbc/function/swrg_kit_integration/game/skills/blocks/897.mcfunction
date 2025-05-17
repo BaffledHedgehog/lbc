@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_candle_cake
+setblock ~ ~ ~ snow_block

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lectern
+setblock ~ ~ ~ prismarine_bricks

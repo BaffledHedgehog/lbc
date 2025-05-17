@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_stained_glass_pane
+setblock ~ ~ ~ infested_mossy_stone_bricks

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_oxidized_chiseled_copper
+setblock ~ ~ ~ stripped_jungle_log

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_andesite_stairs
+setblock ~ ~ ~ potted_brown_mushroom

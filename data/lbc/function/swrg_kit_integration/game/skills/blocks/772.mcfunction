@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:diorite_wall
+setblock ~ ~ ~ potted_warped_roots

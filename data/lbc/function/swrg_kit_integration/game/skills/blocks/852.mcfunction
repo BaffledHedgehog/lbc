@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blackstone_wall
+setblock ~ ~ ~ resin_brick_wall

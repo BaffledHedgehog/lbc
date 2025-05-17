@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_bed
+setblock ~ ~ ~ blue_shulker_box

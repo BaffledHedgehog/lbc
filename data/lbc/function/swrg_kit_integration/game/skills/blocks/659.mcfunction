@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_concrete
+setblock ~ ~ ~ pale_hanging_moss

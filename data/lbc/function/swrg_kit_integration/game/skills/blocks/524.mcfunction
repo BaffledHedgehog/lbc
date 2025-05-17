@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_wall_banner
+setblock ~ ~ ~ lily_of_the_valley

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_concrete_powder
+setblock ~ ~ ~ pale_oak_trapdoor

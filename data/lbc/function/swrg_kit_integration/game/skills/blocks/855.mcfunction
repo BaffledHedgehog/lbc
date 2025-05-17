@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_blackstone_bricks
+setblock ~ ~ ~ respawn_anchor

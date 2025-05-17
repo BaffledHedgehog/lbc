@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_wall_sign
+setblock ~ ~ ~ cobbled_deepslate

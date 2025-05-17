@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:coarse_dirt
+setblock ~ ~ ~ acacia_sign

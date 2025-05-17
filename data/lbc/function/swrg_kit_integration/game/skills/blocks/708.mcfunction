@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_horn_coral_fan
+setblock ~ ~ ~ polished_andesite

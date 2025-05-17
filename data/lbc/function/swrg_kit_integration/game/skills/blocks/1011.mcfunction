@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cave_vines_plant
+setblock ~ ~ ~ warped_pressure_plate

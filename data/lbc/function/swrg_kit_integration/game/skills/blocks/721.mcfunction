@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bubble_coral_wall_fan
+setblock ~ ~ ~ polished_blackstone_wall

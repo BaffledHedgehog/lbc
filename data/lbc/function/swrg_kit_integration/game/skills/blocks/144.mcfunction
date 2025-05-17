@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_wool
+setblock ~ ~ ~ bubble_coral

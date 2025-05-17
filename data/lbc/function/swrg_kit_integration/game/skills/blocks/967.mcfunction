@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_oxidized_cut_copper_stairs
+setblock ~ ~ ~ tall_grass

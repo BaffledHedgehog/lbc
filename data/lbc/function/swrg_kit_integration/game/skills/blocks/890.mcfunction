@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_candle_cake
+setblock ~ ~ ~ smooth_sandstone

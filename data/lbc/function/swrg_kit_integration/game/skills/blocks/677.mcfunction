@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_concrete_powder
+setblock ~ ~ ~ pale_oak_wall_sign

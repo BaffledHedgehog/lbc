@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:shroomlight
+setblock ~ ~ ~ quartz_block

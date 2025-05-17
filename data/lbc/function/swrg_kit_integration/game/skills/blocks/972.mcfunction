@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_weathered_cut_copper_slab
+setblock ~ ~ ~ test_instance_block

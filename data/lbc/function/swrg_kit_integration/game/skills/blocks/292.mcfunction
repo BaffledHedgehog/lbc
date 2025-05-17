@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_trapdoor
+setblock ~ ~ ~ dark_oak_wall_hanging_sign

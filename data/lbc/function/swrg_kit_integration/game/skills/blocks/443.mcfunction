@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_stained_glass_pane
+setblock ~ ~ ~ horn_coral_fan

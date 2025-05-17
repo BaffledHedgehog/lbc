@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_wool
+setblock ~ ~ ~ brown_concrete_powder

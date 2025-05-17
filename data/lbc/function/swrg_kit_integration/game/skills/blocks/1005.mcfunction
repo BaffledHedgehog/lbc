@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_weathered_copper_bulb
+setblock ~ ~ ~ warped_fence_gate

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_candle_cake
+setblock ~ ~ ~ soul_campfire

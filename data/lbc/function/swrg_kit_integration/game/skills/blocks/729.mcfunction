@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_bamboo
+setblock ~ ~ ~ polished_granite

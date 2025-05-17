@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_slab
+setblock ~ ~ ~ magenta_banner

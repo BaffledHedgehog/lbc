@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_tulip
+setblock ~ ~ ~ candle

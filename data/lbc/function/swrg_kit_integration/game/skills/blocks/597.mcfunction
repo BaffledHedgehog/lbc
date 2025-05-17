@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purpur_stairs
+setblock ~ ~ ~ nether_brick_fence

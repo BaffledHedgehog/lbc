@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_stairs
+setblock ~ ~ ~ dried_kelp_block

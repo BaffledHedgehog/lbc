@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_roots
+setblock ~ ~ ~ purple_stained_glass_pane

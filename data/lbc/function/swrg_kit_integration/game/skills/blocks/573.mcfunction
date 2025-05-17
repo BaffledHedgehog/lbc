@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_fence_gate
+setblock ~ ~ ~ mangrove_wall_sign

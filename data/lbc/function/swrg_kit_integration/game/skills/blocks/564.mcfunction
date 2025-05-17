@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_stone
+setblock ~ ~ ~ mangrove_planks

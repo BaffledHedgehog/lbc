@@ -1,0 +1,1 @@
+setblock ~ ~ ~ weathered_cut_copper_slab

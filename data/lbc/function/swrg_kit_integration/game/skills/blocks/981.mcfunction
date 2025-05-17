@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_oxidized_copper_door
+setblock ~ ~ ~ tripwire_hook

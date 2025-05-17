@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:air
+setblock ~ ~ ~ acacia_button

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:fire_coral_block
+setblock ~ ~ ~ pink_petals

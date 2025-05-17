@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxidized_copper
+setblock ~ ~ ~ stripped_acacia_log

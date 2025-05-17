@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bone_block
+setblock ~ ~ ~ oak_button

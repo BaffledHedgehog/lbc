@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gold_ore
+setblock ~ ~ ~ bamboo_hanging_sign

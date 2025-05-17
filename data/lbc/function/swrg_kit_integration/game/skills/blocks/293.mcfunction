@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_trapdoor
+setblock ~ ~ ~ dark_oak_wall_sign

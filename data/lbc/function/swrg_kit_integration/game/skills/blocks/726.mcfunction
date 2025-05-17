@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:conduit
+setblock ~ ~ ~ polished_diorite

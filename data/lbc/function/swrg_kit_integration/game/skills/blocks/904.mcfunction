@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:amethyst_block
+setblock ~ ~ ~ soul_wall_torch

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_sapling
+setblock ~ ~ ~ anvil

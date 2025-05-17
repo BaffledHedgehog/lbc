@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_candle_cake
+setblock ~ ~ ~ sniffer_egg

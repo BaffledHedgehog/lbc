@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:iron_bars
+setblock ~ ~ ~ dead_fire_coral_block

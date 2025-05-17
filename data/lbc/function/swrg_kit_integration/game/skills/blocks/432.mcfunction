@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_terracotta
+setblock ~ ~ ~ green_wool

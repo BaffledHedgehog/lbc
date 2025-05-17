@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_fence
+setblock ~ ~ ~ mossy_cobblestone_stairs

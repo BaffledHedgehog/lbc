@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_button
+setblock ~ ~ ~ glow_item_frame

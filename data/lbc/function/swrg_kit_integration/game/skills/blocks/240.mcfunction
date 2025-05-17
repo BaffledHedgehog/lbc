@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_pressure_plate
+setblock ~ ~ ~ crimson_fungus

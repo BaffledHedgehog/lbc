@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_diamond_ore
+setblock ~ ~ ~ cherry_wall_hanging_sign

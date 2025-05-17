@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_cut_copper_slab
+setblock ~ ~ ~ tnt

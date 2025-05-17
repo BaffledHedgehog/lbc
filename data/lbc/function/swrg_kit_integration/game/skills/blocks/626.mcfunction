@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_shulker_box
+setblock ~ ~ ~ oak_wall_sign

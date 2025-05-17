@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_candle_cake
+setblock ~ ~ ~ snow

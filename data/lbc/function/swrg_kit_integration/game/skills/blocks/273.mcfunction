@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_stained_glass
+setblock ~ ~ ~ cyan_terracotta

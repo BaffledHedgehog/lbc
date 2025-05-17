@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:anvil
+setblock ~ ~ ~ gray_carpet

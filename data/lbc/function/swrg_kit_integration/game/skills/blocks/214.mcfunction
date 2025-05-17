@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_hanging_sign
+setblock ~ ~ ~ cocoa

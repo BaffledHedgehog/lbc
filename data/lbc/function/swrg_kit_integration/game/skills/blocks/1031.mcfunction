@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_deepslate_slab
+setblock ~ ~ ~ waxed_cut_copper_stairs

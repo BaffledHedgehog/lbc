@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cut_copper
+setblock ~ ~ ~ stripped_cherry_wood

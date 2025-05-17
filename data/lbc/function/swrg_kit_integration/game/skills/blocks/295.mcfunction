@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mossy_stone_bricks
+setblock ~ ~ ~ dark_prismarine

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:quartz_slab
+setblock ~ ~ ~ mangrove_fence_gate

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sandstone
+setblock ~ ~ ~ blue_banner

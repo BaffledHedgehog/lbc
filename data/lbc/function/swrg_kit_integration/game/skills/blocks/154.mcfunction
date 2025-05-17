@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_tulip
+setblock ~ ~ ~ calibrated_sculk_sensor

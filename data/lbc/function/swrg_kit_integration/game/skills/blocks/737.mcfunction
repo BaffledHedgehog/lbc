@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mossy_cobblestone_stairs
+setblock ~ ~ ~ potatoes

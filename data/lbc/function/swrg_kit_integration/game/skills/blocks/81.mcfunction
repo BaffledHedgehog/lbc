@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_dark_oak_wood
+setblock ~ ~ ~ black_banner

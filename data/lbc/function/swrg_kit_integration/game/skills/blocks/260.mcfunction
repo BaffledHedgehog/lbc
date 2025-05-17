@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_basalt
+setblock ~ ~ ~ cut_sandstone

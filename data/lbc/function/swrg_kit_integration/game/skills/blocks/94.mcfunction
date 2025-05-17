@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:wet_sponge
+setblock ~ ~ ~ black_wool

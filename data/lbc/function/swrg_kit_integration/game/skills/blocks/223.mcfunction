@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_wall_hanging_sign
+setblock ~ ~ ~ copper_ore

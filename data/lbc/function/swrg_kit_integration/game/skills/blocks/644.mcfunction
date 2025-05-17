@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_glazed_terracotta
+setblock ~ ~ ~ orange_tulip

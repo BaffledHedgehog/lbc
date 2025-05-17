@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_wall_banner
+setblock ~ ~ ~ lime_candle

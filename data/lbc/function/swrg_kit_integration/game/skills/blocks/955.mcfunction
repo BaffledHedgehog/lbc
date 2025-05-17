@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxidized_cut_copper_slab
+setblock ~ ~ ~ stripped_spruce_log
