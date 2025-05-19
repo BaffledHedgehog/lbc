@@ -15,6 +15,6 @@ execute at @s[tag=!nomagic_active] if items entity @s weapon.offhand *[minecraft
 execute at @s[tag=!nomagic_active] if items entity @s weapon.offhand *[minecraft:custom_data~{summonerwand:1}] unless entity @a[gamemode=!spectator,distance=..20,tag=nomagic_active] unless score lefthand swrg.math matches 1 unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/spellsummoner_left
 
 advancement revoke @s only lbc:interaction_rightclickable
-scoreboard players remove @s[tag=overload_full_active] mana 10000000
+scoreboard players remove @s[tag=overload_full_active,scores={mana=8000000..}] mana 10000000
 scoreboard players set @s RC_Raycast 0
 tag @s remove caster

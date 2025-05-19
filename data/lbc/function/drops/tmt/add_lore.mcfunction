@@ -1,1 +1,1 @@
-$data modify entity @s Item.components."minecraft:lore" append value "{\"$(txt)\":\"$(name)\",\"color\":\"#$(h1)$(h2)$(h3)$(h4)$(h5)$(h6)\",\"italic\":$(italic),\"bold\":$(bold),\"underlined\":$(underlined),\"strikethrough\":$(strikethrough),\"obfuscated\":$(obfuscated)}"
+$data modify entity @s Item.components."minecraft:lore" append value {"$(txt)":"$(name)","color":"#$(h1)$(h2)$(h3)$(h4)$(h5)$(h6)","italic":$(italic),"bold":$(bold),"underlined":$(underlined),"strikethrough":$(strikethrough),"obfuscated":$(obfuscated)}

@@ -129,7 +129,7 @@ advancement revoke @s only lbc:used_chaos_pic
 advancement revoke @s only lbc:used_imba_shovel
 advancement revoke @s only lbc:use_chaos_hoe
 
-
+advancement revoke @s only lbc:gowno_any_damage
 
 
 advancement revoke @s only lbc:pills/pill_absorption
@@ -420,3 +420,6 @@ scoreboard players set @s time_orbs 0
 effect clear @s
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/killed_by_player
 tag @s remove danmaku_score_spawn
+
+advancement revoke @s only lbc:skill_manavampire_player_hit_by_player
+advancement revoke @s only lbc:gowno_player_hit_player

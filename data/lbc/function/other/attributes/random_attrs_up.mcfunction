@@ -1,7 +1,7 @@
 execute store result score #rand lbc.math run random value 1..26
 execute if score #rand lbc.math matches 1 run function lbc:other/attributes/armor_1
 execute if score #rand lbc.math matches 2 run function lbc:other/attributes/armor_toughness
-execute if score #rand lbc.math matches 3 run function lbc:other/attributes/attack_damage_up
+execute if score #rand lbc.math matches 3 run function lbc:other/attributes/attack_damage_up_tiny
 execute if score #rand lbc.math matches 4 run function lbc:other/attributes/attack_knockback_up
 execute if score #rand lbc.math matches 5 run function lbc:other/attributes/attack_speed_up
 execute if score #rand lbc.math matches 6 run function lbc:other/attributes/block_break_speed_up
@@ -10,7 +10,7 @@ execute if score #rand lbc.math matches 8 run function lbc:other/attributes/burn
 execute if score #rand lbc.math matches 9 run function lbc:other/attributes/entity_interaction_range_up
 execute if score #rand lbc.math matches 10 run function lbc:other/attributes/explosion_knockback_resistance_up
 execute if score #rand lbc.math matches 11 run function lbc:other/attributes/fall_damage_multiplier_down
-execute if score #rand lbc.math matches 12 run function lbc:other/attributes/jump_strength_up
+execute if score #rand lbc.math matches 12 run function lbc:other/attributes/jump_strength_up_tiny
 execute if score #rand lbc.math matches 13 run function lbc:other/attributes/knockback_resistance_up
 execute if score #rand lbc.math matches 14 run function lbc:other/attributes/luck_up
 execute if score #rand lbc.math matches 15 run function lbc:other/attributes/max_health_up

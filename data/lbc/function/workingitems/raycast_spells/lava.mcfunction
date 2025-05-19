@@ -7,10 +7,10 @@ fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:magma_block replace #minecraft:to_magm
 fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:netherrack replace #minecraft:to_netherrack strict
 fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:obsidian replace #minecraft:fluids strict
 fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:fire replace #minecraft:airs_to_fire
-fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:lava replace #minecraft:to_lava strict
+fill ~15 ~15 ~15 ~-15 ~-15 ~-15 minecraft:lava replace #minecraft:to_lava
 place template lbc:sourcelava ~-15 ~-15 ~-15 none none 0.0001
 
-fill ~ 1 ~ ~ 126 ~ minecraft:lava[level=1] strict
+fill ~ 1 ~ ~ 126 ~ minecraft:lava[level=1]
 summon minecraft:ghast ~ ~30 ~15
 summon minecraft:ghast ~ ~30 ~-15
 summon minecraft:ghast ~15 ~30 ~

@@ -6699,7 +6699,7 @@
                                         {
                                             "id": "minecraft:instant_health",
                                             "amplifier": 0,
-                                            "duration": 1
+                                            "duration": 10
                                         },
                                         {
                                             "id": "minecraft:regeneration",
@@ -6781,7 +6781,7 @@
                                         {
                                             "id": "minecraft:instant_health",
                                             "amplifier": 0,
-                                            "duration": 1
+                                            "duration": 10
                                         },
                                         {
                                             "id": "minecraft:regeneration",

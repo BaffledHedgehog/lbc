@@ -74,4 +74,27 @@ execute if score tmp lbc.math matches 30 run tag @s add gravitas
 execute if score tmp lbc.math matches 31 run tag @s add sanguis_magicae
 execute if score tmp lbc.math matches 31 run attribute @s minecraft:max_health modifier add minecraft:8fy489ygkdj89gysd89byvgko8fsyb7ftgddkc8s9p -0.8 add_multiplied_base
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Важно, чтоб было в самом конце!
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:max_health modifier add nulla_magicae 1 add_multiplied_base
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:attack_damage modifier add nulla_magicae 6 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor modifier add nulla_magicae 20 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor_toughness modifier add nulla_magicae 10 add_value
+execute if score tmp lbc.math matches 32 run scoreboard players set @s mana 0
+execute if score tmp lbc.math matches 32 run scoreboard players set @s manaregen 0
+execute if score tmp lbc.math matches 32 run scoreboard players set @s manamax 0
+
 #tellraw @a [{"text":"tmp: }}]}]

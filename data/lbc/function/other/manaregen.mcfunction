@@ -3,7 +3,7 @@ execute if score @s[tag=obtained_crux] mana >= @s manamax run tag @s remove obta
 
 scoreboard players operation @s manaregen_visual = @s manaregen
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{manabelt:1}}}]}] run function lbc:other/manaregen_mana_belts
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mage:1}}}]}] run function lbc:other/manaregen_mage_armor
+execute if items entity @s armor.* *[minecraft:custom_data~{mage:1}] run function lbc:other/manaregen_mage_armor
 
 scoreboard players operation daeris lbc.math = @s manaregen_visual
 execute if score @s effect_boost_mana matches 1.. run function lbc:other/manaregen_mana_boost

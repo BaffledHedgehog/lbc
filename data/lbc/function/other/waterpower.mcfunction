@@ -1,2 +1,2 @@
-execute if entity @s[nbt={active_effects:[{id:"minecraft:conduit_power",amplifier:1b}]}] run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 minecraft:water[level=1] replace #minecraft:airs strict
-execute if entity @s[nbt={active_effects:[{id:"minecraft:conduit_power",amplifier:2b}]}] run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 minecraft:water replace #minecraft:airs strict
+execute if entity @s[nbt={active_effects:[{id:"minecraft:conduit_power",amplifier:1b}]}] run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 minecraft:water[level=1] replace #minecraft:airs
+execute if entity @s[nbt={active_effects:[{id:"minecraft:conduit_power",amplifier:2b}]}] run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 minecraft:water replace #minecraft:airs
