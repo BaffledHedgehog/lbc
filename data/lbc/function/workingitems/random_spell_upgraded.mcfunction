@@ -58,6 +58,7 @@ execute if score #mode lbc.math matches 51 anchored eyes positioned ^ ^ ^ run fu
 execute if score #mode lbc.math matches 52 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/ice_wand/projectile/cast
 execute if score #mode lbc.math matches 53 run scoreboard players add @s danmaku 20
 execute if score #mode lbc.math matches 54 run function lbc:workingitems/random_spell_lol
+execute if score #mode lbc.math matches 55 anchored eyes positioned ^ ^ ^ run function lbc:items/wands/sauvojen_wand/cast_2
 
 playsound minecraft:item.book.page_turn master @s ~ ~ ~ 10
 tag @s remove raycaster

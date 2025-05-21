@@ -8,3 +8,4 @@ execute if entity @s[type=minecraft:skeleton,tag=summoned_cultist] run function 
 execute if entity @s[type=minecraft:zombie,tag=muravei] run function lbc:drops/muravei_tick
 execute if entity @s[tag=tiny_skeleton,nbt={HurtTime:10s}] positioned ~ ~1.4 ~ run function lbc:other/grimoire_dungeon/mobs/tiny_skeleton/hurt
 execute if entity @s[type=minecraft:pig,tag=hook_sit] run function lbc:swrg_kit_integration/items/grapping_hook_tick
+execute if entity @s[type=minecraft:pig,tag=nuke_pig,predicate=lbc:on_ground] run function lbc:drops/crocodildo/blowjob

@@ -1,0 +1,1 @@
+execute if entity @s[tag=crocodildo] run function lbc:drops/crocodildo/5s

@@ -1312,6 +1312,28 @@
                     "type": "minecraft:loot_table",
                     "value": "lbc:boba_eblan",
                     "weight": 10
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:crocodildo",
+                    "weight": 10,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:sauvojen_tuntija_wand",
+                    "weight": 10
                 }
             ]
         }

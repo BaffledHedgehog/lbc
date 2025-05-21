@@ -101,5 +101,8 @@ execute if data entity @s SelectedItem.components."minecraft:custom_data".cunny 
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{blazefire_sword:1}}}}] swordcharged9 matches 5.. run function lbc:items/swords/blazefire_sword/click
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{deus:1}}}}] deus_cd matches 1.. run scoreboard players set @s deus_cd 260
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{boba_eblan:1}}}}] run function lbc:items/misc/huynya/click
+execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{sauvojen_wand:1}}}}] mana >= sauvojen_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:items/wands/sauvojen_wand/cast
+
+
 execute if items entity @s armor.head *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.chest *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.legs *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.feet *[minecraft:custom_data~{nyauwu:1}] run function lbc:workingitems/nyaaahuwuuw
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{overload_crux:1}}}}] anchored eyes positioned ^ ^ ^ unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/overload_crux/use

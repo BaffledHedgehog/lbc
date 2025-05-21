@@ -1,4 +1,4 @@
-execute store result score #random53 lbc.math run random value 1..54
+execute store result score #random53 lbc.math run random value 1..55
 tag @s add raycaster
 scoreboard players set @s Distance 0
 
@@ -60,6 +60,8 @@ execute if score #random53 lbc.math matches 52 anchored eyes positioned ^ ^ ^ ru
 execute if score #random53 lbc.math matches 53 run scoreboard players add @s danmaku 20
 
 execute if score #random53 lbc.math matches 54 run function lbc:workingitems/random_spell_lol
+execute if score #random53 lbc.math matches 55 anchored eyes positioned ^ ^ ^ run function lbc:items/wands/sauvojen_wand/cast_2
+
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1}}}}] run function lbc:workingitems/random_spell_check
 
 playsound minecraft:item.book.page_turn master @s ~ ~ ~ 10
