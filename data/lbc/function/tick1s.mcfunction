@@ -5,7 +5,7 @@ execute as @e[type=minecraft:marker,tag=avarice_diamond] at @s unless dimension 
 kill @e[tag=killwhenonground,nbt={OnGround:1b}]
 execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{craftusable:1}}}}] at @s if entity @e[type=minecraft:item,distance=0.001..1] unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:other/craft_ground
 execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{uniwand:1}}}}] at @s if entity @e[type=minecraft:item,distance=0.001..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{libspell:1}}}}] unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:other/craft_uniwand_with_grimoire
-execute if entity @e[type=item,tag=malevich,limit=1] run function lbc:items_tick_act_m_check
+#execute if entity @e[type=item,tag=malevich,limit=1] run function lbc:items_tick_act_m_check
 execute if entity @e[type=minecraft:marker,tag=black_snake,limit=1] as @e[type=#minecraft:mobs,tag=!spectator,tag=!sin_gluttony,tag=!sin_greed_active] at @s unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:workingitems/witch_gens/snake_damage
 execute as @e[type=#minecraft:mobs] at @s unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:mobs_1s
 execute as @e[type=minecraft:spawner_minecart,tag=hohlospawner] at @s unless entity @e[type=minecraft:hoglin,distance=..5] unless entity @e[type=minecraft:zoglin,distance=..5] unless dimension minecraft:nexus unless dimension minecraft:imprinted run kill @s

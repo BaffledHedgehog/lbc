@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -184,7 +184,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{transformable:1,accessory:1,heall:1}"
+                            "tag": "{transformable:1,accessory:1,heall:1,PublicBukkitValues:{\"lws:regen\":{\"lws:value\":0.04d,\"lws:operation\":\"add\",\"lws:slot\":\"inventory\",\"lws:stackable\":true,\"lws:id\":\"regenbelt1242\"}}}"
                         }
                     ]
                 },

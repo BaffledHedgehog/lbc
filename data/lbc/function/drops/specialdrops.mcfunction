@@ -77,5 +77,6 @@ execute at @s[nbt={Item:{components:{"minecraft:custom_data":{shahid:1}}}}] run 
 execute at @s[nbt={Item:{components:{"minecraft:custom_data":{adv_check_lbc:1}}}}] run advancement grant @a[gamemode=!spectator,distance=..7,limit=1,nbt={SelectedItem:{components:{"minecraft:custom_data":{silk:1}}}}] only lbc:true_advancements/pickaxes/silk
 execute at @s[nbt={Item:{components:{"minecraft:custom_data":{tmt:1}}}}] run function lbc:drops/tmt
 execute at @s[nbt={Item:{components:{"minecraft:custom_data":{crocodildo_boss:1}}}}] run function lbc:drops/crocodildo/spawn
+execute at @s[nbt={Item:{components:{"minecraft:custom_data":{antigravity:1}}}}] run function lbc:drops/antigravity/start
 kill @s[nbt={Item:{count:1}}]
 execute store result entity @s Item.count int 0.99999 run data get entity @s Item.count 1

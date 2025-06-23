@@ -3,15 +3,6 @@ summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernovacore","other"]}
 execute as @e[type=minecraft:marker,tag=supernova] at @s run spreadplayers ~ ~ 0 50 false @s
 particle minecraft:dust{color:[1.0,1.0,1.0],scale:4.0f} ~ ~1 ~ 1 1 1 2 1000 force

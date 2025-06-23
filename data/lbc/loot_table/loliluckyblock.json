@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -1333,6 +1333,11 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "lbc:sauvojen_tuntija_wand",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:herman_antigravity",
                     "weight": 10
                 }
             ]

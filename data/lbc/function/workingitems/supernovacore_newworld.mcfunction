@@ -1,7 +1,3 @@
-tp @e[type=!minecraft:player,tag=!supernovacore,predicate=!lbc:nexus] 0 -60 0
-kill @e[type=!minecraft:player,tag=!supernovacore,predicate=!lbc:nexus]
-kill @e[type=!minecraft:player,tag=!supernovacore,predicate=!lbc:nexus]
-kill @e[type=!minecraft:player,tag=!supernovacore,predicate=!lbc:nexus]
 execute store result score #random56 lbc.math run random value 1..56
 execute if score #random56 lbc.math matches 1 run function swrg:maploader/map/1
 execute if score #random56 lbc.math matches 2 run function swrg:maploader/map/2

@@ -72,3 +72,4 @@ execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{stblind_tin
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{stblind_tiny:1}}}}] if entity @e[type=minecraft:item,distance=0.001..1,limit=1,nbt={Item:{id:"minecraft:glass_bottle"}}] run function lbc:other/craft/crafted_potion
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{wall:1,upgraded:1}}}}] if entity @e[type=minecraft:item,distance=0.001..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{reactive_shish:1}}}}] run function lbc:other/craft/shish_wall_wand
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{explosive_feets:1}}}}] if entity @e[type=minecraft:item,distance=0.001..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{transformable:1,boots:1}}}}] run function lbc:other/craft/rocket_boots_add_ability

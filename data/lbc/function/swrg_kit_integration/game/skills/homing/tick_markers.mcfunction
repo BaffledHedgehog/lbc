@@ -1,0 +1,2 @@
+execute facing entity @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1,distance=..100,tag=!nodmg] eyes positioned ^ ^ ^0.1 rotated as @s positioned ^ ^ ^1 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^ ~ ~
+particle minecraft:dust{color:[1.0,0.0,0.0],scale:2.0f} ~ ~ ~ 0.1 0.1 0.1 0 3 force

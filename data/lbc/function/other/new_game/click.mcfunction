@@ -122,6 +122,7 @@ function lbc:other/new_game/legacy_tick
 function lbc:other/new_game/legacy_tick_1s
 function lbc:other/new_game/legacy_tick_5t
 function lbc:other/new_game/legacy_tick_5s
+scoreboard players set antigravity lbc.math 0
 scoreboard objectives add coldown_evoker dummy
 scoreboard objectives add coldown_bass dummy
 scoreboard objectives add coldown_ender dummy

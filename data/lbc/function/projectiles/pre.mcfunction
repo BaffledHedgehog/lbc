@@ -6,6 +6,8 @@ data merge entity @s[nbt={item:{components:{"minecraft:potion_contents":{custom_
 execute if entity @s[nbt={item:{components:{"minecraft:potion_contents":{custom_color:6710886}},count:1}}] run function lbc:projectiles/homing_tnt
 execute if entity @s[nbt={item:{components:{"minecraft:potion_contents":{custom_color:6710877}},count:1}}] run function lbc:projectiles/homing
 
+execute if entity @s[tag=weak_homing_arrow,predicate=lbc:chance70] unless entity @a[distance=..15,gamemode=!spectator] run function lbc:projectiles/homing_soft
+
 execute if entity @s[tag=cocktail_arrow] if entity @e[type=#minecraft:mobs,distance=..4,tag=!spectator,limit=1] run function lbc:swrg_kit_integration/game/trinkets/cocktail_arrow_tick
 execute if entity @s[tag=volos_arrow] if predicate lbc:chance10 if entity @e[type=#minecraft:mobs,distance=..100,tag=!spectator,limit=1] run function lbc:swrg_kit_integration/game/trinkets/volos_arrow_tick
 execute if entity @s[type=minecraft:arrow,tag=rided] run function lbc:workingitems/sauvojen_staffs/teleport_snowball

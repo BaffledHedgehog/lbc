@@ -9,5 +9,5 @@ execute as @e[type=item,distance=..1] at @s run data modify entity @s NoGravity 
 execute as @e[type=item,distance=..1] at @s run data modify entity @s Invulnerable set value true
 execute as @e[type=item,distance=..1] at @s run data modify entity @s Age set value -32768
 stopsound @a * lbcsounds.crocodildo
-bossbar remove crocodildo
+bossbar remove minecraft:crocodildo
 kill @s

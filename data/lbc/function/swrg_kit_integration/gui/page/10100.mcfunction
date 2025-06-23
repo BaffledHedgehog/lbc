@@ -1,6 +1,6 @@
 loot replace entity @s enderchest.0 loot lbc:gui/page/10100/0
 loot replace entity @s enderchest.1 loot lbc:gui/page/10100/1
-#loot replace entity @s enderchest.2 loot lbc:gui/page/10100/2
+loot replace entity @s enderchest.2 loot lbc:gui/page/10100/2
 #loot replace entity @s enderchest.3 loot lbc:gui/page/10100/3
 #loot replace entity @s enderchest.4 loot lbc:gui/page/10100/4
 #loot replace entity @s enderchest.5 loot lbc:gui/page/10100/5
@@ -53,6 +53,7 @@ item modify entity @s[scores={lbc.skill=52}] enderchest.24 swrg:select
 #
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/danmaku=false}] enderchest.0 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/bows/madoka_bow=false}] enderchest.1 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/exahoming=false}] enderchest.2 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
 
 
@@ -61,6 +62,7 @@ item replace entity @s[advancements={lbc:true_advancements/bows/madoka_bow=false
 #
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/danmaku=false}] enderchest.0 lbc:swrg_unlocks/academy_danmaku
 item modify entity @s[advancements={lbc:true_advancements/bows/madoka_bow=false}] enderchest.1 lbc:swrg_unlocks/madoka_bow
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/exahoming=false}] enderchest.2 lbc:swrg_unlocks/exahoming_academy
 
 
 

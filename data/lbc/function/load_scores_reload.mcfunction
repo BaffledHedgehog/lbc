@@ -193,6 +193,9 @@ scoreboard objectives remove bomb_fragments
 scoreboard objectives remove life_fragments
 scoreboard objectives remove time_orbs
 scoreboard objectives remove touhou_power
+
+scoreboard objectives remove rocket_armor_jumps
+scoreboard objectives remove rocket_armor_jump_cd
 function lbc:load
 
 

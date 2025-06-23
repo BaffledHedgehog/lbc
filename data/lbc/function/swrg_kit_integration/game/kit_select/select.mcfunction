@@ -19,3 +19,4 @@ loot give @s[scores={lbc.kit=18}] loot lbc:kit/phd
 loot give @s[scores={lbc.kit=19}] loot lbc:kit/blazefire
 loot give @s[scores={lbc.kit=20}] loot lbc:kit/clown
 loot give @s[scores={lbc.kit=21}] loot lbc:kit/deus
+loot give @s[scores={lbc.kit=22}] loot lbc:kit/explosive_feets

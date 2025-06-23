@@ -1,3 +1,4 @@
+
 execute if entity @s[tag=god_claw] run return run function lbc:swrg_kit_integration/game/skills/god_claw_tick_marker
 execute if entity @s[tag=expansion] run return run function lbc:swrg_kit_integration/game/skills/expansion_tick_marker
 execute if entity @s[tag=raycastmolnia] run return run function lbcr:raycast_molnia

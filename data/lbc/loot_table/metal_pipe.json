@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -68,7 +68,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{metal_pipe:1,craftusable:1,transformable:1,sword:1}"
+                            "tag": "{metal_pipe:1,craftusable:1,transformable:1,sword:1,PublicBukkitValues:{\"lws:item\":{\"lws:type\":\"metal_pipe\"}}}"
                         }
                     ]
                 }

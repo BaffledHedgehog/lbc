@@ -1,0 +1,1 @@
+execute if score @s lbc.skill matches 30 anchored eyes positioned ^ ^ ^ as @e[type=arrow,distance=..10] if score @s lbcID2 = @p[scores={bow=1..},gamemode=!spectator,distance=..10] lbcID2 run tag @s add weak_homing_arrow

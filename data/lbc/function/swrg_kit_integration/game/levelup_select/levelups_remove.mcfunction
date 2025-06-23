@@ -131,4 +131,8 @@ attribute @s minecraft:entity_interaction_range modifier remove minecraft:levelu
 attribute @s minecraft:sneaking_speed modifier remove minecraft:levelup_random_statup_2
 
 
+attribute @s minecraft:gravity modifier remove antigravity_effect
+
 attribute @s minecraft:max_health modifier remove minecraft:8fy489ygkdj89gysd89byvgko8fsyb7ftgddkc8s9p
+data modify storage lbc.math regen set value regen
+function lbc:swrg_kit_integration/game/levelup_select/levelups_remove_1 with storage lbc.math
