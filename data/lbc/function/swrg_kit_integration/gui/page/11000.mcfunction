@@ -11,6 +11,7 @@ loot replace entity @s enderchest.9 loot lbc:gui/page/11000/9
 loot replace entity @s enderchest.10 loot lbc:gui/page/11000/10
 loot replace entity @s enderchest.11 loot lbc:gui/page/11000/11
 loot replace entity @s enderchest.12 loot lbc:gui/page/11000/12
+loot replace entity @s enderchest.13 loot lbc:gui/page/11000/13
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.trinket
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
@@ -76,6 +77,7 @@ item replace entity @s[advancements={lbc:true_advancements/legends/academy/corru
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/electro=false}] enderchest.10 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=false}] enderchest.11 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/evoker=false}] enderchest.12 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/exoperso=false}] enderchest.13 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
 
 item modify entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 lbc:swrg_unlocks/blaze
@@ -91,6 +93,7 @@ item modify entity @s[advancements={lbc:true_advancements/legends/academy/corrup
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/electro=false}] enderchest.10 lbc:swrg_unlocks/academy_electro
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=false}] enderchest.11 lbc:swrg_unlocks/academy_ender_random
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/evoker=false}] enderchest.12 lbc:swrg_unlocks/evoker_academy
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/exoperso=false}] enderchest.13 lbc:swrg_unlocks/exoperso_academy
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

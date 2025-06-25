@@ -46,6 +46,7 @@ execute if score tmp lbc.math matches 121 run scoreboard players operation @s ef
 execute if score tmp lbc.math matches 122 run scoreboard players operation @s effect_vacuum += dur lbc.math
 execute if score tmp lbc.math matches 123 run scoreboard players operation @s effect_timestop += dur lbc.math
 execute if score tmp lbc.math matches 124 run scoreboard players operation @s effect_chain_lightning += dur lbc.math
+execute if score tmp lbc.math matches 125 run function lbc:items/trinket_effects/rocket_spell_cast
 
 execute if score tmp lbc.math matches -22 run damage @s 4 lava
 execute if score tmp lbc.math matches -21 run effect give @s minecraft:poison 10 4

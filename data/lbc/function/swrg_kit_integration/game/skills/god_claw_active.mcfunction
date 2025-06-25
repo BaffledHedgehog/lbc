@@ -33,4 +33,4 @@ execute if score tmp lbc.math matches 25 run function lbc:other/attributes/subme
 execute if score tmp lbc.math matches 26 run function lbc:other/attributes/sweeping_damage_ratio_up_godclaw
 particle minecraft:portal ~ ~1 ~ 0.1 0.3 0.1 1 30 force @a
 
-execute if score @s god_claw_cd matches 120 run function lbc:swrg_kit_integration/game/skills/god_claw_end
+execute if score @s god_claw_cd matches 90 run function lbc:swrg_kit_integration/game/skills/god_claw_end
