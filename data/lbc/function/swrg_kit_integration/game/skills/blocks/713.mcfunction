@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:horn_coral_fan
+setblock ~ ~ ~ polished_blackstone_brick_slab

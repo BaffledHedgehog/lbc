@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smithing_table
+setblock ~ ~ ~ prismarine_slab

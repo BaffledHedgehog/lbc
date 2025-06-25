@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sticky_piston
+setblock ~ ~ ~ brewing_stand

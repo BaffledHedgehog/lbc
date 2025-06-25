@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:copper_grate
+setblock ~ ~ ~ tuff_slab

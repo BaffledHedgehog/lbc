@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:glowstone
+setblock ~ ~ ~ cyan_bed

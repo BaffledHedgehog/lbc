@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo
+setblock ~ ~ ~ polished_diorite_stairs

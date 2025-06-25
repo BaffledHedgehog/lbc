@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:prismarine
+setblock ~ ~ ~ jungle_log

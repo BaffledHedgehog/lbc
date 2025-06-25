@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_blue_wool
+setblock ~ ~ ~ brown_glazed_terracotta

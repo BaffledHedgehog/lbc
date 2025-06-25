@@ -30,4 +30,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{sto
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{woodificator:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_woodifier_loop
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{lightning_bolt:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] anchored eyes positioned ^ ^ ^ run function lbcr:raycast_lightning_bolt
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cunny_slab:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:other/imba/cunny_slab/cast
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{drone_pult:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:items/misc/drone/click
+
+
 tag @s remove raycaster

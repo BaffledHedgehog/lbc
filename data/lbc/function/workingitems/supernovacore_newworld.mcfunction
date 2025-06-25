@@ -1,7 +1,3 @@
-tp @e[type=!minecraft:player,tag=!supernovacore,predicate=!lbc:nexus] 0 -60 0
-kill @e[type=!minecraft:player,tag=!supernovacore,predicate=!lbc:nexus]
-kill @e[type=!minecraft:player,tag=!supernovacore,predicate=!lbc:nexus]
-kill @e[type=!minecraft:player,tag=!supernovacore,predicate=!lbc:nexus]
 execute store result score #random56 lbc.math run random value 1..56
 execute if score #random56 lbc.math matches 1 run function swrg:maploader/map/1
 execute if score #random56 lbc.math matches 2 run function swrg:maploader/map/2
@@ -59,9 +55,9 @@ execute if score #random56 lbc.math matches 53 run function swrg:maploader/map/5
 execute if score #random56 lbc.math matches 54 run function swrg:maploader/map/54
 execute if score #random56 lbc.math matches 55 run function swrg:maploader/map/55
 execute if score #random56 lbc.math matches 56 run function swrg:maploader/map/56
-fill -5 126 -5 5 127 5 minecraft:air
+fill -5 126 -5 5 127 5 minecraft:air strict
 kill @e[tag=swrg.lobby,predicate=!lbc:nexus]
-title @a[predicate=!lbc:nexus] title ""
+title @a[predicate=!lbc:nexus] title " "
 title @a[predicate=!lbc:nexus] subtitle {"translate":"end_respawn"}
 effect clear @a[gamemode=!spectator] minecraft:levitation
 effect clear @a[gamemode=!spectator] minecraft:absorption
@@ -69,7 +65,7 @@ effect give @a[gamemode=!spectator,predicate=!lbc:nexus] minecraft:slow_falling 
 tp @a[gamemode=!spectator,predicate=!lbc:nexus] 0 128 0
 execute as @e[tag=swrg.spawn,sort=random,predicate=!lbc:nexus] at @s unless entity @p[gamemode=!spectator,distance=..1] run tp @r[gamemode=!spectator,x=0,y=128,z=0,distance=..20] @s
 execute as @a[gamemode=!spectator,predicate=!lbc:nexus] at @s run tp @s ~ ~1 ~ facing entity @e[type=minecraft:marker,tag=swrg.look,limit=1,predicate=!lbc:nexus] feet
-execute at @a[gamemode=!spectator,predicate=!lbc:nexus] run fill ~1 ~-1 ~1 ~-1 ~4 ~-1 minecraft:air
+execute at @a[gamemode=!spectator,predicate=!lbc:nexus] run fill ~1 ~-1 ~1 ~-1 ~4 ~-1 minecraft:air strict
 function swrg:game/start/1
 advancement grant @a[gamemode=!spectator] only lbc:true_advancements/legends/supernova
 loot give @a[tag=balance_user,predicate=!lbc:nexus] loot lbc:balance

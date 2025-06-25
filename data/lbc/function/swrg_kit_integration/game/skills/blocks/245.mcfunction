@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:redstone_torch
+setblock ~ ~ ~ crimson_pressure_plate

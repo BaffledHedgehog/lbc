@@ -17,7 +17,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "lbc:true_advancements/legends/academy/psychoblind",
+    "parent": "lbc:true_advancements/legends/academy/blind",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",
@@ -43,5 +43,8 @@
                 ]
             }
         }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/skill"
     }
 }

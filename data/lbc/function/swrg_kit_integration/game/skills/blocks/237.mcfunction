@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_pressure_plate
+setblock ~ ~ ~ crimson_door

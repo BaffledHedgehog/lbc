@@ -1,0 +1,1 @@
+setblock ~ ~ ~ wither_skeleton_wall_skull

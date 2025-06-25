@@ -17,8 +17,9 @@ execute if block ~ ~ ~ #minecraft:glass_default run data modify storage lbc.math
 execute if block ~ ~ ~ minecraft:tinted_glass run data modify storage lbc.math tmpcolor set value "from_color:[0.019,0.019,0.019],to_color:[0.0,0.0,0.0],scale:2"
 tag @s add stable
 scoreboard players set @s Distance 0
+function lbcr:dmgwithid_un_playeronly
 execute at @s run function lbcr:raycast_loop7_stabilized with storage lbc.math
-
+tag @a remove nodamage
 
 scoreboard players set @s Distance 10000
 kill @s

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_granite_slab
+setblock ~ ~ ~ potted_cherry_sapling

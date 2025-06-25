@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:moss_block
+setblock ~ ~ ~ warped_trapdoor

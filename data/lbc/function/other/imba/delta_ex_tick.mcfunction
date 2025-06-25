@@ -6,7 +6,7 @@ execute if predicate lbc:chance1 run summon minecraft:fireball ~ ~ ~ {ExplosionP
 execute if predicate lbc:chance1 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:10}
 execute if predicate lbc:chance1 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:15}
 execute if predicate lbc:chance1 run summon minecraft:fireball ~ ~ ~ {ExplosionPower:20}
-execute if predicate lbc:chance1 run summon minecraft:tnt ~ ~ ~
+execute if predicate lbc:chance1 run summon minecraft:tnt ~ ~ ~ {fuse:0}
 execute if predicate lbc:chance1 run summon minecraft:tnt ~ ~ ~ {fuse:1000s,Tags:["groundbam"]}
 execute if predicate lbc:chance1 run summon minecraft:tnt ~ ~ ~ {fuse:100s,Tags:["groundbam"],NoGravity:1b}
 execute if predicate lbc:chance1 run summon minecraft:tnt ~ ~ ~ {fuse:100s,Tags:["groundbam","evoker"],NoGravity:1b}

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_tiles
+setblock ~ ~ ~ waxed_exposed_copper

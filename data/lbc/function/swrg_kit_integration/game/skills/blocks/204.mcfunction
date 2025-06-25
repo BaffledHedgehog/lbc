@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_wall_sign
+setblock ~ ~ ~ coarse_dirt

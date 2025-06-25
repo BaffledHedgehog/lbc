@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_wool
+setblock ~ ~ ~ bubble_column

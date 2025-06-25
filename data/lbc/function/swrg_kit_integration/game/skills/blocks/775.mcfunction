@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:barrel
+setblock ~ ~ ~ powder_snow

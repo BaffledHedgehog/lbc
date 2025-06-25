@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:infested_cobblestone
+setblock ~ ~ ~ dead_brain_coral_fan

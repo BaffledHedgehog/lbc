@@ -1,0 +1,1 @@
+setblock ~ ~ ~ white_shulker_box

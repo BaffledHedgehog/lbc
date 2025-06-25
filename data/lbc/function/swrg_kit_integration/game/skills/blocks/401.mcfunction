@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:player_head
+setblock ~ ~ ~ granite_stairs

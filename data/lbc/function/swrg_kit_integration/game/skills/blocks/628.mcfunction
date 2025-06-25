@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_shulker_box
+setblock ~ ~ ~ observer

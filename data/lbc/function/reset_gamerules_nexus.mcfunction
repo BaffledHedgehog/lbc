@@ -3,7 +3,7 @@ gamerule waterSourceConversion false
 gamerule randomTickSpeed 0
 gamerule naturalRegeneration false
 gamerule doLimitedCrafting false
-gamerule commandModificationBlockLimit 100000
+gamerule commandModificationBlockLimit 32777000
 gamerule doDaylightCycle false
 gamerule doMobLoot true
 gamerule doTileDrops true

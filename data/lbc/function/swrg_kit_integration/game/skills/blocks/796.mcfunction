@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_wart_block
+setblock ~ ~ ~ purple_stained_glass

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purpur_slab
+setblock ~ ~ ~ mangrove_log

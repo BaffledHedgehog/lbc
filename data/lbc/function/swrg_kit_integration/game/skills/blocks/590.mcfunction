@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_door
+setblock ~ ~ ~ mud_brick_slab

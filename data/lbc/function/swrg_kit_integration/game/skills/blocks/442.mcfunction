@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_stained_glass_pane
+setblock ~ ~ ~ horn_coral_block

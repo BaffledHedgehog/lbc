@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_cornflower
+setblock ~ ~ ~ fern

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:farmland
+setblock ~ ~ ~ chipped_anvil

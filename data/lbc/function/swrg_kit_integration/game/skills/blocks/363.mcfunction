@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_cherry_sapling
+setblock ~ ~ ~ end_stone_brick_stairs

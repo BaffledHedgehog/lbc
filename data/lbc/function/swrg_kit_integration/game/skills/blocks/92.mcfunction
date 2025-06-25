@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:flowering_azalea_leaves
+setblock ~ ~ ~ black_terracotta

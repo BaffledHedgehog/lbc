@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_emerald_ore
+setblock ~ ~ ~ diorite_wall

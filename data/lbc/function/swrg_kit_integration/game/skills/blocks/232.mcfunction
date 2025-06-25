@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone_pressure_plate
+setblock ~ ~ ~ crafting_table

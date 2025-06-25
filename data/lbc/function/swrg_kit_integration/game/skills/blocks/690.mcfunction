@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brain_coral_block
+setblock ~ ~ ~ pink_concrete_powder

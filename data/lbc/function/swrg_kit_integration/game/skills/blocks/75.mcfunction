@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_oak_wood
+setblock ~ ~ ~ birch_slab

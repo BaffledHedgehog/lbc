@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_wall_hanging_sign
+setblock ~ ~ ~ cracked_deepslate_tiles

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:end_gateway
+setblock ~ ~ ~ nether_quartz_ore

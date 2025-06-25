@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_carpet
+setblock ~ ~ ~ leaf_litter

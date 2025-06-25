@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:end_stone_brick_wall
+setblock ~ ~ ~ potted_warped_fungus

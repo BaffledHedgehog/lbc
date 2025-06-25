@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_candle_cake
+setblock ~ ~ ~ soul_torch

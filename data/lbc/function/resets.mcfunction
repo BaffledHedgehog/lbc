@@ -175,4 +175,5 @@ attribute @s minecraft:mining_efficiency modifier remove minecraft:rune_thurisaz
 attribute @s minecraft:gravity modifier remove minecraft:rune_thurisaz
 attribute @s minecraft:fall_damage_multiplier modifier remove minecraft:rune_thurisaz_negative
 
+advancement revoke @s only lbc:lethal_damage
 function lbc:leave_death

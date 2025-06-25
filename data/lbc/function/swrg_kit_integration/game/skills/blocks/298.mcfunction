@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:packed_mud
+setblock ~ ~ ~ daylight_detector

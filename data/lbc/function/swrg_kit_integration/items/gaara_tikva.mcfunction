@@ -1,4 +1,4 @@
-fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:sand replace #minecraft:tannerkivi
+fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:sand replace #minecraft:tannerkivi strict
 effect give @s minecraft:levitation 1 15
 effect give @s minecraft:slow_falling 10 0
 

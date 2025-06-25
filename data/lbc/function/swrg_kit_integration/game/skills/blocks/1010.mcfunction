@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cave_vines
+setblock ~ ~ ~ warped_planks

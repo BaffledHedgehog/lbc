@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dragon_egg
+setblock ~ ~ ~ diamond_block

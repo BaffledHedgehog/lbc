@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:redstone_block
+setblock ~ ~ ~ gray_wall_banner

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_block
+setblock ~ ~ ~ bedrock

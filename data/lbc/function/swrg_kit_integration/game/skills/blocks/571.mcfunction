@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_fence_gate
+setblock ~ ~ ~ mangrove_trapdoor

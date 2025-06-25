@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_wood
+setblock ~ ~ ~ birch_hanging_sign

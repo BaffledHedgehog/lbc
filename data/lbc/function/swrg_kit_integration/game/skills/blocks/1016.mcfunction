@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_petals
+setblock ~ ~ ~ warped_stem

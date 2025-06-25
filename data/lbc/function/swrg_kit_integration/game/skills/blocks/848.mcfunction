@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_warped_roots
+setblock ~ ~ ~ repeating_command_block

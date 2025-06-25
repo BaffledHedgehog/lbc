@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_bricks
+setblock ~ ~ ~ deepslate_coal_ore

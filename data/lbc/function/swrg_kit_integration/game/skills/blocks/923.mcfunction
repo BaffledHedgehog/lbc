@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_tuff_bricks
+setblock ~ ~ ~ spruce_wall_sign

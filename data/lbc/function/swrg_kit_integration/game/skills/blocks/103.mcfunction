@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:note_block
+setblock ~ ~ ~ blue_candle_cake

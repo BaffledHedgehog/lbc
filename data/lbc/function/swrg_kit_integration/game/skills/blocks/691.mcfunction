@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bubble_coral_block
+setblock ~ ~ ~ pink_glazed_terracotta

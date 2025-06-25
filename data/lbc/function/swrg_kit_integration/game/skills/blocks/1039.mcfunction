@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_brick_slab
+setblock ~ ~ ~ waxed_exposed_cut_copper_slab

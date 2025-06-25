@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:repeater
+setblock ~ ~ ~ cyan_concrete_powder

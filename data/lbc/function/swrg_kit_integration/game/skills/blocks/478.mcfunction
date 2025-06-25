@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:hay_block
+setblock ~ ~ ~ jungle_wood

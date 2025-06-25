@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:fletching_table
+setblock ~ ~ ~ prismarine_brick_slab

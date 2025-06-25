@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:small_dripleaf
+setblock ~ ~ ~ warped_wart_block

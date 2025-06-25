@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_shulker_box
+setblock ~ ~ ~ oak_wall_hanging_sign

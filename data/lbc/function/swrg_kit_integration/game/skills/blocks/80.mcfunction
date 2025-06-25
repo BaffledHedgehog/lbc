@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_cherry_wood
+setblock ~ ~ ~ birch_wood

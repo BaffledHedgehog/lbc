@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:prismarine_brick_slab
+setblock ~ ~ ~ jungle_trapdoor

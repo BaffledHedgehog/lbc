@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:raw_iron_block
+setblock ~ ~ ~ waxed_oxidized_copper_trapdoor

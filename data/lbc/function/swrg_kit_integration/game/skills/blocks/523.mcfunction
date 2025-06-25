@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_blue_wall_banner
+setblock ~ ~ ~ lilac

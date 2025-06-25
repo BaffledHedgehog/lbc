@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:ochre_froglight
+setblock ~ ~ ~ waxed_weathered_copper

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_jungle_wood
+setblock ~ ~ ~ birch_wall_hanging_sign

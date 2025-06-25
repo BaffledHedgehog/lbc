@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_acacia_log
+setblock ~ ~ ~ bell

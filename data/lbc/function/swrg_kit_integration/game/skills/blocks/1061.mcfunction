@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_mushroom_block[down=false,east=false,north=false,south=false,up=false,west=false]
+setblock ~ ~ ~ weathered_copper_bulb

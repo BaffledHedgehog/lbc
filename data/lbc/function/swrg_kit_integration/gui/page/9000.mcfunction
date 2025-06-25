@@ -20,6 +20,7 @@ loot replace entity @s enderchest.17 loot lbc:gui/page/9000/17
 loot replace entity @s enderchest.19 loot lbc:gui/page/9000/18
 loot replace entity @s enderchest.20 loot lbc:gui/page/9000/19
 loot replace entity @s enderchest.21 loot lbc:gui/page/9000/20
+loot replace entity @s enderchest.22 loot lbc:gui/page/9000/21
 #
 item modify entity @s[scores={lbc.kit=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.kit=2}] enderchest.1 swrg:select
@@ -69,6 +70,7 @@ item replace entity @s[advancements={lbc:true_advancements/legends/academy/badwi
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=false}] enderchest.19 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/confuse=false}] enderchest.20 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/erecto=false}] enderchest.21 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/exasperato=false}] enderchest.22 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
 
 item modify entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 lbc:swrg_unlocks/devilstomach
@@ -92,6 +94,7 @@ item modify entity @s[advancements={lbc:true_advancements/legends/academy/badwik
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=false}] enderchest.19 lbc:swrg_unlocks/academy_blazefire
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/confuse=false}] enderchest.20 lbc:swrg_unlocks/academy_confuse
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/erecto=false}] enderchest.21 lbc:swrg_unlocks/academy_erecto
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/exasperato=false}] enderchest.22 lbc:swrg_unlocks/academy_exasperato
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_mushroom_block
+setblock ~ ~ ~ dead_bush

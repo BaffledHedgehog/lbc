@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:key_luck",
                                 "minecraft:max_damage": 2,
                                 "minecraft:damage": 0,
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:luck",
                                             "slot": "mainhand",
@@ -22,8 +21,8 @@
                                             "operation": "add_value",
                                             "amount": 64
                                         }
-                                    ]
-                                },
+                                ]
+                                ,
                                 "tool": {
                                     "damage_per_block": 1,
                                     "default_mining_speed": 2,

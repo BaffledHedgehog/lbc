@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_stained_glass_pane
+setblock ~ ~ ~ infested_cobblestone

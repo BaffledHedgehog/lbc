@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:target
+setblock ~ ~ ~ red_terracotta

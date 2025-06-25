@@ -6,7 +6,7 @@ scoreboard players remove @s[scores={coldown8=1..}] coldown8 1
 scoreboard players remove @s[scores={coldown1=1..}] coldown1 1
 scoreboard players remove @s[scores={lust_cd=1..}] lust_cd 1
 scoreboard players remove @s[scores={lust_cd_small=1..}] lust_cd_small 1
-
+execute unless score @s swrg.gui_page matches -2147483648..2147483647 run scoreboard players set @s swrg.gui_page 0
 scoreboard players remove @s[scores={divider_cd=1..}] divider_cd 1
 scoreboard players remove @s[scores={coldownoraora=1..}] coldownoraora 1
 scoreboard players remove @s[scores={coldowntimestand=1..}] coldowntimestand 1
@@ -38,6 +38,6 @@ effect give @s[tag=paladin_full_active] minecraft:resistance 3 3
 execute if entity @s[scores={sprint_cooldown=1..}] run function lbc:players_1s_sprinted
 advancement grant @s only lbc:penis
 
-execute at @s[tag=nanobots_active] run function lbc:armor/nanobots/tick1s
+function lbc:armor/nanobots/tick1s
 
 execute at @s[scores={nature_wisp_chance=1..}] run function lbc:other/wisp_book/passive_effects/nature/run

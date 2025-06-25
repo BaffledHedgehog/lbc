@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mossy_stone_brick_slab
+setblock ~ ~ ~ potted_cornflower

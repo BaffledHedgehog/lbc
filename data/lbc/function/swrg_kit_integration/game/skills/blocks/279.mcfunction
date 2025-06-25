@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_stained_glass
+setblock ~ ~ ~ dark_oak_door

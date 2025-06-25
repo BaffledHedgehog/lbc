@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_copper_trapdoor
+setblock ~ ~ ~ tuff_brick_slab

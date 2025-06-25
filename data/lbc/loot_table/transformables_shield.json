@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -18,11 +18,8 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:unbreaking": 10
-                                    }
+                                    "minecraft:unbreaking": 10
                                 },
-                                "minecraft:hide_additional_tooltip": {},
                                 "minecraft:base_color": "blue",
                                 "minecraft:banner_patterns": [
                                     {
@@ -49,7 +46,13 @@
                                         "color": "light_gray",
                                         "pattern": "border"
                                     }
-                                ]
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:banner_patterns",
+                                        "minecraft:base_color"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -105,7 +108,6 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:hide_additional_tooltip": {},
                                 "minecraft:base_color": "light_blue",
                                 "minecraft:banner_patterns": [
                                     {
@@ -120,7 +122,13 @@
                                         "color": "yellow",
                                         "pattern": "flower"
                                     }
-                                ]
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:base_color",
+                                        "minecraft:banner_patterns"
+                                    ]
+                                }
                             }
                         },
                         {

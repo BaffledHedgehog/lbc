@@ -8,10 +8,10 @@ execute as @e[type=minecraft:item_display,tag=wisp,tag=wisp_water] if score @s l
 
 attribute @s minecraft:max_health modifier remove minecraft:water_wisp
 
-execute if score *temp1 lbc.math matches 1 run attribute @s minecraft:max_health modifier add minecraft:water_wisp 8.0 add_value
-execute if score *temp1 lbc.math matches 2 run attribute @s minecraft:max_health modifier add minecraft:water_wisp 14.0 add_value
-execute if score *temp1 lbc.math matches 3 run attribute @s minecraft:max_health modifier add minecraft:water_wisp 18.0 add_value
-execute if score *temp1 lbc.math matches 4 run attribute @s minecraft:max_health modifier add minecraft:water_wisp 20.0 add_value
+execute if score *temp1 lbc.math matches 1 run attribute @s minecraft:max_health modifier add minecraft:water_wisp 0.4 add_multiplied_base
+execute if score *temp1 lbc.math matches 2 run attribute @s minecraft:max_health modifier add minecraft:water_wisp 0.7 add_multiplied_base
+execute if score *temp1 lbc.math matches 3 run attribute @s minecraft:max_health modifier add minecraft:water_wisp 0.9 add_multiplied_base
+execute if score *temp1 lbc.math matches 4 run attribute @s minecraft:max_health modifier add minecraft:water_wisp 1 add_multiplied_base
 
 execute if score *temp1 lbc.math matches 5.. run function lbc:other/wisp_book/passive_effects/water/5_and_more
 

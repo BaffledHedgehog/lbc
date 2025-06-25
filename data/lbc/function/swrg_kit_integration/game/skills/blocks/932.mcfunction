@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sculk_shrieker
+setblock ~ ~ ~ stone_pressure_plate

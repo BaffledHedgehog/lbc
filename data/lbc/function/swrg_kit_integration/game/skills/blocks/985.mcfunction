@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxidized_copper_trapdoor
+setblock ~ ~ ~ tube_coral_wall_fan

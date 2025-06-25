@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mud_bricks
+setblock ~ ~ ~ dead_brain_coral

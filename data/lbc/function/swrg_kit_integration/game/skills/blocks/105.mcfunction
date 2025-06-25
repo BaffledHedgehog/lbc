@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_bed
+setblock ~ ~ ~ blue_concrete

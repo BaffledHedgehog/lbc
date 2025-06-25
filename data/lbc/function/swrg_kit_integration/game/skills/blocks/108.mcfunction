@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_bed
+setblock ~ ~ ~ blue_ice

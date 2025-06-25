@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -66,22 +66,20 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_damage": 300,
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 4.5,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -1.6,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 4.5,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -1.6,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -129,22 +127,20 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 14,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -3.55,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 14,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -3.55,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -193,22 +189,20 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:hammer",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 5,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": -2.4,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 5,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": -2.4,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

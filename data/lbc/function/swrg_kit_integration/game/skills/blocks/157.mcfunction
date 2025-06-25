@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_tulip
+setblock ~ ~ ~ candle_cake

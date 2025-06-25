@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_sign
+setblock ~ ~ ~ chiseled_resin_bricks

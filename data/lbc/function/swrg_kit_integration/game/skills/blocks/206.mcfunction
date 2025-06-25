@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_wall_sign
+setblock ~ ~ ~ cobbled_deepslate_slab

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_oak_sapling
+setblock ~ ~ ~ end_portal

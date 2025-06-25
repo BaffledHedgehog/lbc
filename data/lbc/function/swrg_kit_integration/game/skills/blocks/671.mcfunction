@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_gray_concrete_powder
+setblock ~ ~ ~ pale_oak_sapling

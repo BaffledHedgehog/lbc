@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tuff_brick_wall
+setblock ~ ~ ~ spruce_wall_hanging_sign

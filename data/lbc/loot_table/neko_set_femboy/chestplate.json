@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,31 +13,30 @@
                                 "minecraft:item_model": "lbc:armors/nyauwu_chestplate",
                                 "minecraft:max_damage": 1800,
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:fire_protection": 5,
-                                        "minecraft:blast_protection": 5,
-                                        "minecraft:projectile_protection": 5
-                                    }
+                                    "minecraft:fire_protection": 5,
+                                    "minecraft:blast_protection": 5,
+                                    "minecraft:projectile_protection": 5
                                 },
-                                "minecraft:equippable":{"slot":"chest","asset_id":"lbc:nyauwu"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:water_movement_efficiency",
-                                            "slot": "chest",
-                                            "id": "ghfh438juylhumhgfjmluilulkiohed",
-                                            "amount": 1,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "chest",
-                                            "id": "ghfhstgfhsgdthtyjtukukujkhed",
-                                            "amount": 9,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:equippable": {
+                                    "slot": "chest",
+                                    "asset_id": "lbc:nyauwu"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:water_movement_efficiency",
+                                        "slot": "chest",
+                                        "id": "ghfh438juylhumhgfjmluilulkiohed",
+                                        "amount": 1,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "chest",
+                                        "id": "ghfhstgfhsgdthtyjtukukujkhed",
+                                        "amount": 9,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

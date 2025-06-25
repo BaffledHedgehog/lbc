@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:powered_rail
+setblock ~ ~ ~ brain_coral_fan

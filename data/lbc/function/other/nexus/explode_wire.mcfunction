@@ -1,4 +1,4 @@
-fill ~ ~ ~ ~ ~ ~ minecraft:black_concrete
+fill ~ ~ ~ ~ ~ ~ minecraft:black_concrete strict
 execute unless block ~ ~1.0 ~ minecraft:black_concrete if predicate lbc:chance80 run summon minecraft:marker ~ ~1.0 ~ {Tags:["explose_wired","nexus_rc"]}
 execute unless block ~ ~-1.0 ~ minecraft:black_concrete if predicate lbc:chance80 run summon minecraft:marker ~ ~-1.0 ~ {Tags:["explose_wired","nexus_rc"]}
 execute unless block ~ ~ ~1.0 minecraft:black_concrete if predicate lbc:chance80 run summon minecraft:marker ~ ~ ~1.0 {Tags:["explose_wired","nexus_rc"]}

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_red_sandstone
+setblock ~ ~ ~ lime_terracotta

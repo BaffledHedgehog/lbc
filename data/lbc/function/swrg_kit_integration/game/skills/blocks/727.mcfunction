@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_sapling
+setblock ~ ~ ~ polished_diorite_slab

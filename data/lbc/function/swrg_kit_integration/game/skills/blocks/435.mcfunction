@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_terracotta
+setblock ~ ~ ~ hay_block

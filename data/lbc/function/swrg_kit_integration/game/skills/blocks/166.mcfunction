@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bricks
+setblock ~ ~ ~ chain_command_block

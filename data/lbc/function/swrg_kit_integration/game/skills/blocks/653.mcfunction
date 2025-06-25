@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_concrete
+setblock ~ ~ ~ oxidized_copper_trapdoor

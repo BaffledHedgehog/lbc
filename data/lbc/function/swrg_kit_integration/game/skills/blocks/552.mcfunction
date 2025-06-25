@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sandstone_slab
+setblock ~ ~ ~ magenta_stained_glass_pane

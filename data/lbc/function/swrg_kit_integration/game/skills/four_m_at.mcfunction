@@ -82,6 +82,7 @@ execute if entity @s[type=minecraft:breeze] run summon minecraft:breeze ~ ~ ~ {T
 execute if entity @s[type=minecraft:wind_charge] run summon minecraft:wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:armadillo] run summon minecraft:armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:bogged] run summon minecraft:bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:creaking] run summon minecraft:creaking ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 
@@ -170,6 +171,7 @@ execute if entity @s[type=minecraft:breeze] run summon minecraft:breeze ~ ~ ~ {T
 execute if entity @s[type=minecraft:wind_charge] run summon minecraft:wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:armadillo] run summon minecraft:armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:bogged] run summon minecraft:bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:creaking] run summon minecraft:creaking ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 
@@ -258,6 +260,7 @@ execute if entity @s[type=minecraft:breeze] run summon minecraft:breeze ~ ~ ~ {T
 execute if entity @s[type=minecraft:wind_charge] run summon minecraft:wind_charge ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:armadillo] run summon minecraft:armadillo ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:bogged] run summon minecraft:bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:creaking] run summon minecraft:creaking ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 

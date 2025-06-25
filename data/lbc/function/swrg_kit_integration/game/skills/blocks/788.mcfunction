@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:soul_campfire
+setblock ~ ~ ~ purple_bed

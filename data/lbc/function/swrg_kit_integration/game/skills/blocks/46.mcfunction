@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_gold_ore
+setblock ~ ~ ~ bamboo_sapling

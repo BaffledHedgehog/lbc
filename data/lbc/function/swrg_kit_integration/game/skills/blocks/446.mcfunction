@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_stained_glass_pane
+setblock ~ ~ ~ infested_chiseled_stone_bricks

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_orange_tulip
+setblock ~ ~ ~ exposed_cut_copper

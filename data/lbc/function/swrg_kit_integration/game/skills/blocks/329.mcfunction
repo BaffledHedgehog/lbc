@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_wart
+setblock ~ ~ ~ deepslate_emerald_ore

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_prismarine_slab
+setblock ~ ~ ~ jungle_wall_hanging_sign

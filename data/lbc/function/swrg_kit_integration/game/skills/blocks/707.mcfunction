@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_fire_coral_fan
+setblock ~ ~ ~ pointed_dripstone

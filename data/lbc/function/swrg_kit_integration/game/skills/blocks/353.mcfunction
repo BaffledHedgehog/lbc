@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:beacon
+setblock ~ ~ ~ dropper

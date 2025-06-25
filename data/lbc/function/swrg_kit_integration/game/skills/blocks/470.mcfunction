@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_prismarine
+setblock ~ ~ ~ jungle_pressure_plate

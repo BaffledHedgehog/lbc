@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_sapling
+setblock ~ ~ ~ andesite_slab

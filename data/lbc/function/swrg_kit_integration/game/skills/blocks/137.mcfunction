@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_wool
+setblock ~ ~ ~ brown_shulker_box

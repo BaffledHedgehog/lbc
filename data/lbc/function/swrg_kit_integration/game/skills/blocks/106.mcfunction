@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_bed
+setblock ~ ~ ~ blue_concrete_powder

@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/assasin_boots",
                                 "minecraft:max_damage": 500,
                                 "minecraft:equippable":{"slot":"feet","asset_id":"lbc:assasin"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "feet",
@@ -24,7 +23,7 @@
                                         }
                                     ]
                                 }
-                            }
+                            
                         },
                         {
                             "function": "minecraft:set_name",

@@ -1,16 +1,16 @@
-execute if data entity @s Item.components.minecraft:custom_data{black:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:black_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{blue:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:blue_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{brown:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:brown_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{cyan:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:cyan_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{gray:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:gray_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{green:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:green_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{light_blue:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:light_blue_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{light_gray:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:light_gray_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{lime:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:lime_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{magenta:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:magenta_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{orange:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:orange_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{pink:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:pink_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{purple:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:purple_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{red:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:red_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{white:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:white_wool replace minecraft:air
-execute if data entity @s Item.components.minecraft:custom_data{yellow:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:yellow_wool replace minecraft:air
+execute if data entity @s Item.components.minecraft:custom_data{black:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:black_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{blue:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:blue_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{brown:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:brown_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{cyan:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:cyan_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{gray:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:gray_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{green:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:green_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{light_blue:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:light_blue_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{light_gray:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:light_gray_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{lime:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:lime_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{magenta:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:magenta_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{orange:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:orange_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{pink:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:pink_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{purple:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:purple_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{red:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:red_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{white:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:white_wool replace minecraft:air strict
+execute if data entity @s Item.components.minecraft:custom_data{yellow:1} run fill ~0.5 ~-2.5 ~0.5 ~-0.5 ~-2.5 ~-0.5 minecraft:yellow_wool replace minecraft:air strict

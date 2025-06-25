@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_brain_coral_fan
+setblock ~ ~ ~ player_wall_head

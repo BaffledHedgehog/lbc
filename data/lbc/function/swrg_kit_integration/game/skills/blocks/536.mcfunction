@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_sandstone
+setblock ~ ~ ~ lime_stained_glass_pane

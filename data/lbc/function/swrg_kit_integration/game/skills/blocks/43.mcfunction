@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_iron_ore
+setblock ~ ~ ~ bamboo_mosaic_stairs

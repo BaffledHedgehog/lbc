@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,31 +13,30 @@
                                 "minecraft:item_model": "lbc:armors/nyauwu_boots",
                                 "minecraft:max_damage": 1800,
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:fire_protection": 5,
-                                        "minecraft:blast_protection": 5,
-                                        "minecraft:projectile_protection": 5
-                                    }
+                                    "minecraft:fire_protection": 5,
+                                    "minecraft:blast_protection": 5,
+                                    "minecraft:projectile_protection": 5
                                 },
-                                "minecraft:equippable":{"slot":"feet","asset_id":"lbc:nyauwu"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:movement_speed",
-                                            "slot": "feet",
-                                            "id": "ghfhstgfhjymnjkhed",
-                                            "amount": 0.2,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "feet",
-                                            "id": "ghfhstgfhjymnjjujujkhed",
-                                            "amount": 3,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "asset_id": "lbc:nyauwu"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:movement_speed",
+                                        "slot": "feet",
+                                        "id": "ghfhstgfhjymnjkhed",
+                                        "amount": 0.2,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "feet",
+                                        "id": "ghfhstgfhjymnjjujujkhed",
+                                        "amount": 3,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

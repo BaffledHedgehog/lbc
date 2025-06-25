@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cactus
+setblock ~ ~ ~ crimson_trapdoor

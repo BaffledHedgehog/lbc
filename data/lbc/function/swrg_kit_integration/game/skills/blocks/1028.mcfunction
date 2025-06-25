@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cobbled_deepslate_wall
+setblock ~ ~ ~ waxed_copper_trapdoor

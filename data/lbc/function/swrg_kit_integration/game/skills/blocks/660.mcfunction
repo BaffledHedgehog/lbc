@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_concrete
+setblock ~ ~ ~ pale_moss_block

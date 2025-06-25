@@ -28,21 +28,25 @@ scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
 
 scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+scoreboard players operation tmperk1 lbc.math = tmp lbc.math
 function lbc:swrg_kit_integration/gui/page/8000_x
 
 scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 2.. run function lbc:swrg_kit_integration/gui/page/8000_x
+scoreboard players operation tmperk2 lbc.math = tmp lbc.math
+execute if score #lbclevelupmax swrg.math matches 2.. unless score tmp lbc.math = tmperk1 lbc.math run function lbc:swrg_kit_integration/gui/page/8000_x
 
 scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math /= 100 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 3.. run function lbc:swrg_kit_integration/gui/page/8000_x
+scoreboard players operation tmperk3 lbc.math = tmp lbc.math
+execute if score #lbclevelupmax swrg.math matches 3.. unless score tmp lbc.math = tmperk1 lbc.math unless score tmp lbc.math = tmperk2 lbc.math run function lbc:swrg_kit_integration/gui/page/8000_x
 
 scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 4.. run function lbc:swrg_kit_integration/gui/page/8000_x
+scoreboard players operation tmperk4 lbc.math = tmp lbc.math
+execute if score #lbclevelupmax swrg.math matches 4.. unless score tmp lbc.math = tmperk1 lbc.math unless score tmp lbc.math = tmperk2 lbc.math unless score tmp lbc.math = tmperk3 lbc.math run function lbc:swrg_kit_integration/gui/page/8000_x
 
 
 
@@ -51,26 +55,30 @@ execute if score #lbclevelupmax swrg.math matches 4.. run function lbc:swrg_kit_
 
 scoreboard players operation tmp lbc.math = @s lbc.levelup2
 scoreboard players operation tmp lbc.math /= 100000000 lbc.math
-execute if score #lbclevelupmax swrg.math matches 5.. run function lbc:swrg_kit_integration/gui/page/8000_x
+scoreboard players operation tmperk5 lbc.math = tmp lbc.math
+execute if score #lbclevelupmax swrg.math matches 5.. unless score tmp lbc.math = tmperk1 lbc.math unless score tmp lbc.math = tmperk2 lbc.math unless score tmp lbc.math = tmperk3 lbc.math unless score tmp lbc.math = tmperk4 lbc.math run function lbc:swrg_kit_integration/gui/page/8000_x
 
 scoreboard players operation tmp lbc.math = @s lbc.levelup2
 scoreboard players operation tmp lbc.math /= 1000000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 6.. run function lbc:swrg_kit_integration/gui/page/8000_x
+scoreboard players operation tmperk6 lbc.math = tmp lbc.math
+execute if score #lbclevelupmax swrg.math matches 6.. unless score tmp lbc.math = tmperk1 lbc.math unless score tmp lbc.math = tmperk2 lbc.math unless score tmp lbc.math = tmperk3 lbc.math unless score tmp lbc.math = tmperk4 lbc.math unless score tmp lbc.math = tmperk5 lbc.math run function lbc:swrg_kit_integration/gui/page/8000_x
 
 scoreboard players operation tmp lbc.math = @s lbc.levelup2
 scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 7.. run function lbc:swrg_kit_integration/gui/page/8000_x
+scoreboard players operation tmperk7 lbc.math = tmp lbc.math
+execute if score #lbclevelupmax swrg.math matches 7.. unless score tmp lbc.math = tmperk1 lbc.math unless score tmp lbc.math = tmperk2 lbc.math unless score tmp lbc.math = tmperk3 lbc.math unless score tmp lbc.math = tmperk4 lbc.math unless score tmp lbc.math = tmperk5 lbc.math unless score tmp lbc.math = tmperk6 lbc.math run function lbc:swrg_kit_integration/gui/page/8000_x
 
 scoreboard players operation tmp lbc.math = @s lbc.levelup2
 scoreboard players operation tmp lbc.math /= 100 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 8.. run function lbc:swrg_kit_integration/gui/page/8000_x
+scoreboard players operation tmperk8 lbc.math = tmp lbc.math
+execute if score #lbclevelupmax swrg.math matches 8.. unless score tmp lbc.math = tmperk1 lbc.math unless score tmp lbc.math = tmperk2 lbc.math unless score tmp lbc.math = tmperk3 lbc.math unless score tmp lbc.math = tmperk4 lbc.math unless score tmp lbc.math = tmperk5 lbc.math unless score tmp lbc.math = tmperk6 lbc.math unless score tmp lbc.math = tmperk7 lbc.math run function lbc:swrg_kit_integration/gui/page/8000_x
 
 scoreboard players operation tmp lbc.math = @s lbc.levelup2
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 9 run function lbc:swrg_kit_integration/gui/page/8000_x
+execute if score #lbclevelupmax swrg.math matches 9 unless score tmp lbc.math = tmperk1 lbc.math unless score tmp lbc.math = tmperk2 lbc.math unless score tmp lbc.math = tmperk3 lbc.math unless score tmp lbc.math = tmperk4 lbc.math unless score tmp lbc.math = tmperk5 lbc.math unless score tmp lbc.math = tmperk6 lbc.math unless score tmp lbc.math = tmperk7 lbc.math unless score tmp lbc.math = tmperk8 lbc.math run function lbc:swrg_kit_integration/gui/page/8000_x
 
 
 #

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_bed
+setblock ~ ~ ~ blue_terracotta

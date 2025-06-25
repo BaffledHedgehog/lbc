@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brick_slab
+setblock ~ ~ ~ magma_block

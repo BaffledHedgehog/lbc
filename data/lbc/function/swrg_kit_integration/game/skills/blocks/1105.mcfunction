@@ -1,0 +1,1 @@
+setblock ~ ~ ~ zombie_head

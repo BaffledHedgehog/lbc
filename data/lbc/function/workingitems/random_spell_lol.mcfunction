@@ -1,21 +1,21 @@
-execute store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
-execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..241
+execute store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
+execute if score spell lbc.math matches 28..111 store result score spell lbc.math run random value 1..242
 tag @s add caster
 tag @s add raycaster
 scoreboard players set @s Distance 0
@@ -161,6 +161,7 @@ execute if score spell lbc.math matches 238 anchored eyes positioned ^ ^ ^ run f
 execute if score spell lbc.math matches 239 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/bedrock/click_upgraded_mode_remove_cube
 execute if score spell lbc.math matches 240 run function lbc:workingitems/awaken_tuntija_wands/bedrock/click_upgraded_mode_regen_lib
 execute if score spell lbc.math matches 241 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/bedrock/click_upgraded_mode_remove
+execute if score spell lbc.math matches 242 anchored eyes positioned ^ ^ ^ run function lbc:items/wands/sauvojen_wand/cast_2
 tag @s remove caster
 tag @s remove raycaster
 advancement grant @s only lbc:true_advancements/staffs/unstable_book

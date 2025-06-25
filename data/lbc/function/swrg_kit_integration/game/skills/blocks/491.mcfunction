@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_carpet
+setblock ~ ~ ~ lever

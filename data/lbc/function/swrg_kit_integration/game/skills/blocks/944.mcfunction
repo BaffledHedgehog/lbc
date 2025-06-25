@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:weathered_chiseled_copper
+setblock ~ ~ ~ stripped_crimson_stem

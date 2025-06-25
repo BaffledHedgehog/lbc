@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_copper_block
+setblock ~ ~ ~ structure_block

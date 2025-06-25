@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_hanging_sign
+setblock ~ ~ ~ cobblestone

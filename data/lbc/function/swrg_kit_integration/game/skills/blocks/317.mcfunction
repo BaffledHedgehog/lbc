@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:melon_stem
+setblock ~ ~ ~ dead_tube_coral_block

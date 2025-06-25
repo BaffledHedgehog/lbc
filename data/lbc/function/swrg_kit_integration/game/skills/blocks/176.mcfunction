@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spawner
+setblock ~ ~ ~ cherry_sapling

@@ -20,5 +20,5 @@ summon minecraft:fireball ~ ~300 ~1 {ExplosionPower:2b,Motion:[0.0d,-0.2d,0.0d]}
 summon minecraft:fireball ~-1 ~325 ~ {ExplosionPower:2b,Motion:[0.0d,-0.2d,0.0d]}
 summon minecraft:fireball ~ ~350 ~-1 {ExplosionPower:2b,Motion:[0.0d,-0.2d,0.0d]}
 summon minecraft:fireball ~ ~375 ~ {ExplosionPower:4b,Motion:[0.0d,-0.2d,0.0d]}
-execute if score @s Distance matches 150..200 if entity @e[type=#minecraft:mobs,distance=..5,tag=!spectator,tag=!raycaster] run advancement grant @s only lbc:true_advancements/staffs/falling_stars
+execute if score @s Distance matches 300.. if entity @e[type=#minecraft:mobs,distance=..7,tag=!spectator,tag=!raycaster] run advancement grant @s only lbc:true_advancements/staffs/falling_stars
 scoreboard players set @s Distance 1000

@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -51,7 +51,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{magicwand:1,spellwithcooldown_n:1,nexus_compass:1}"
+                            "tag": "{magicwand:1,spellwithcooldown_n:1,nexus_compass:1,PublicBukkitValues:{\"lws:item\":{\"lws:type\":\"nexus_compass\"}}}"
                         }
                     ]
                 }

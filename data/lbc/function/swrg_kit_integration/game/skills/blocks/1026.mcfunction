@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cobbled_deepslate_stairs
+setblock ~ ~ ~ waxed_copper_door

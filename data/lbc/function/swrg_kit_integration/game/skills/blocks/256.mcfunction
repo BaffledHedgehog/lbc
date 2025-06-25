@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:netherrack
+setblock ~ ~ ~ cut_copper_slab

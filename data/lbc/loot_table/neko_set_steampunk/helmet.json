@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/reactive_helmet",
                                 "minecraft:max_damage": 500,
                                 "minecraft:equippable":{"slot":"head","asset_id":"lbc:steampunk"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "head",
@@ -23,7 +22,7 @@
                                             "operation": "add_value"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

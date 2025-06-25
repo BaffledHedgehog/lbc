@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mossy_stone_brick_wall
+setblock ~ ~ ~ potted_oxeye_daisy

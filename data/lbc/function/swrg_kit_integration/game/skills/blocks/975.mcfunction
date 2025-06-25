@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:copper_door
+setblock ~ ~ ~ torch

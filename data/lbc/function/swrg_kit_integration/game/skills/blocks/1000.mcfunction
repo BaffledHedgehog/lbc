@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:exposed_copper_bulb
+setblock ~ ~ ~ void_air

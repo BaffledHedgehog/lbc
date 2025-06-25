@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_candle
+setblock ~ ~ ~ short_grass

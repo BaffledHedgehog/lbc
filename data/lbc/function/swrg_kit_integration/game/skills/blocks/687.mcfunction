@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_fire_coral_block
+setblock ~ ~ ~ pink_candle_cake

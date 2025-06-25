@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_cherry_log
+setblock ~ ~ ~ big_dripleaf

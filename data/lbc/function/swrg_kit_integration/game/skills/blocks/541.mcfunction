@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_slab
+setblock ~ ~ ~ loom

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_oxidized_copper_bulb
+setblock ~ ~ ~ warped_fungus

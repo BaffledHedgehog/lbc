@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:prismarine_brick_stairs
+setblock ~ ~ ~ jungle_sign

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_slab
+setblock ~ ~ ~ red_banner

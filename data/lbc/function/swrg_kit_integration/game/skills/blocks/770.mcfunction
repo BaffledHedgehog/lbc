@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sandstone_wall
+setblock ~ ~ ~ potted_torchflower

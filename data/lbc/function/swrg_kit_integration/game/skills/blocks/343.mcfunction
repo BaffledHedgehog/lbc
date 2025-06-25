@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:emerald_ore
+setblock ~ ~ ~ diorite_stairs

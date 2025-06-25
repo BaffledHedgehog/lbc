@@ -43,14 +43,14 @@
                         ],
                         "components": {
                             "minecraft:potion_contents": {
+                                "custom_color": 16743168,
                                 "custom_effects": [
                                     {
                                         "id": "minecraft:raid_omen",
                                         "amplifier": 104,
-                                        "duration": 2
+                                        "duration": 10
                                     }
-                                ],
-                                "custom_color": 16743168
+                                ]
                             }
                         }
                     }

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:kelp_plant
+setblock ~ ~ ~ peony

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:redstone_wall_torch
+setblock ~ ~ ~ crimson_roots

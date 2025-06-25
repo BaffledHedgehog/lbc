@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_terracotta
+setblock ~ ~ ~ green_shulker_box

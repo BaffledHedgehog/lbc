@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:infested_chiseled_stone_bricks
+setblock ~ ~ ~ dead_bubble_coral_fan

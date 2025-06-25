@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_hanging_sign
+setblock ~ ~ ~ copper_block

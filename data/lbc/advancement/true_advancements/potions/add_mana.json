@@ -40,13 +40,12 @@
                 "item": {
                     "components": {
                         "minecraft:custom_data": "{transformable: 1,potion: 1}",
-                        "minecraft:hide_additional_tooltip": {},
                         "minecraft:potion_contents": {
                             "custom_effects": [
                                 {
                                     "id": "minecraft:raid_omen",
                                     "amplifier": 19,
-                                    "duration": 1,
+                                    "duration": 10,
                                     "show_particles": false
                                 }
                             ],

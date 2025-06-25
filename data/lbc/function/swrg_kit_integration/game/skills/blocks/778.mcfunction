@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cartography_table
+setblock ~ ~ ~ prismarine

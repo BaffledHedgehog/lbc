@@ -1,12 +1,12 @@
 scoreboard players set *temp.fly.particle lbc.math 0
 effect clear @s minecraft:levitation
-attribute @s minecraft:gravity modifier remove minecraft:gravity_mk2armor_fix1
-attribute @s minecraft:gravity modifier remove minecraft:gravity_mk2armor_fix2
-execute if entity @s[nbt=!{Inventory:[{components:{"minecraft:custom_data":{technomk2:1}},Slot:101b}]}] run attribute @s minecraft:gravity modifier add minecraft:gravity_mk2armor_fix2 0.1 add_value
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{technomk2:1}},Slot:101b}]}] store result storage lbc.math tmp double 0.001 run data get entity @s Rotation[1] 70
+attribute @s minecraft:gravity modifier remove gravity_mk2armor_fix1
+attribute @s minecraft:gravity modifier remove gravity_mk2armor_fix2
+execute unless items entity @s armor.legs *[minecraft:custom_data~{technomk2:1}] run attribute @s minecraft:gravity modifier add gravity_mk2armor_fix2 0.1 add_value
+execute if items entity @s armor.legs *[minecraft:custom_data~{technomk2:1}] store result storage lbc.math tmp double 0.001 run data get entity @s Rotation[1] 70
 
 function lbc:armor/technomk2/boots/flight/hover_1 with storage lbc.math
 scoreboard players add @s rocket_sound 1
 execute if score @s rocket_sound matches 3.. run function lbc:armor/technomk2/boots/flight/sound/down
-execute store result score *temp.fly.particle lbc.math if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{technomk2:1}},Slot:102b}]}] run function lbc:armor/technomk2/boots/flight/particle/from_ass
+execute store result score *temp.fly.particle lbc.math if items entity @s armor.chest *[minecraft:custom_data~{technomk2:1}] run function lbc:armor/technomk2/boots/flight/particle/from_ass
 execute unless score *temp.fly.particle lbc.math matches 1 run function lbc:armor/technomk2/boots/flight/particle/from_feet

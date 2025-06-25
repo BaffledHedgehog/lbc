@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_tuff
+setblock ~ ~ ~ spruce_log

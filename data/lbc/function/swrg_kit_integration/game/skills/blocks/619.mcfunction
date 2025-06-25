@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_shulker_box
+setblock ~ ~ ~ oak_pressure_plate

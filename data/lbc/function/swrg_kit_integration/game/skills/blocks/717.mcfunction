@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_fire_coral_wall_fan
+setblock ~ ~ ~ polished_blackstone_button

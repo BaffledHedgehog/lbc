@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_button
+setblock ~ ~ ~ red_nether_brick_wall

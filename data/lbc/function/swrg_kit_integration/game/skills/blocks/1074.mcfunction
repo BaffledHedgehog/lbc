@@ -1,0 +1,1 @@
+setblock ~ ~ ~ white_candle

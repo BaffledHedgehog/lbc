@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_terracotta
+setblock ~ ~ ~ grindstone

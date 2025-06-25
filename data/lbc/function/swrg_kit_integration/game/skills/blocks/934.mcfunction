@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:exposed_copper
+setblock ~ ~ ~ stone_stairs

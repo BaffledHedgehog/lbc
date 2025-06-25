@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:quartz_pillar
+setblock ~ ~ ~ green_candle_cake

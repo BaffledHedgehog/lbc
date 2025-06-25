@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -15,8 +15,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:metal_pipe",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:attack_damage",
                                             "slot": "mainhand",
@@ -32,7 +31,7 @@
                                             "operation": "add_value"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {
@@ -69,7 +68,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{metal_pipe:1,craftusable:1,transformable:1,sword:1}"
+                            "tag": "{metal_pipe:1,craftusable:1,transformable:1,sword:1,PublicBukkitValues:{\"lws:item\":{\"lws:type\":\"metal_pipe\"}}}"
                         }
                     ]
                 }

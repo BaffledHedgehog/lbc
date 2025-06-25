@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cobblestone_slab
+setblock ~ ~ ~ magenta_wool

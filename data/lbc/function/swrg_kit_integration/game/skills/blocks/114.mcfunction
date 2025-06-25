@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_bed
+setblock ~ ~ ~ blue_wall_banner

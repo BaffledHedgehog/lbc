@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_prismarine_stairs
+setblock ~ ~ ~ jungle_slab

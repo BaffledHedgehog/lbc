@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_carpet
+setblock ~ ~ ~ large_fern

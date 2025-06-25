@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_stained_glass_pane
+setblock ~ ~ ~ infested_stone

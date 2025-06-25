@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_log
+setblock ~ ~ ~ bamboo_wall_hanging_sign

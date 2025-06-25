@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:diorite
+setblock ~ ~ ~ acacia_hanging_sign

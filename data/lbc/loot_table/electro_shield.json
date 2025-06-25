@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -14,26 +14,29 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:movement_speed",
-                                            "slot": "mainhand",
-                                            "id": "gedghhtyjtyjtjspeed",
-                                            "amount": -0.5,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:movement_speed",
-                                            "slot": "offhand",
-                                            "id": "genekrjjy7cfkheed",
-                                            "amount": -0.5,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ],
-                                    "show_in_tooltip": false
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:movement_speed",
+                                        "slot": "mainhand",
+                                        "id": "gedghhtyjtyjtjspeed",
+                                        "amount": -0.5,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:movement_speed",
+                                        "slot": "offhand",
+                                        "id": "genekrjjy7cfkheed",
+                                        "amount": -0.5,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ],
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:attribute_modifiers",
+                                        "minecraft:base_color",
+                                        "minecraft:banner_patterns"
+                                    ]
                                 },
-                                "minecraft:hide_additional_tooltip": {},
                                 "minecraft:base_color": "light_blue",
                                 "minecraft:banner_patterns": [
                                     {

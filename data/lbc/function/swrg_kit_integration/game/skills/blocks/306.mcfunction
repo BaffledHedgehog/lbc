@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_mushroom_block
+setblock ~ ~ ~ dead_bubble_coral_wall_fan

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:raw_gold_block
+setblock ~ ~ ~ waxed_oxidized_cut_copper_slab

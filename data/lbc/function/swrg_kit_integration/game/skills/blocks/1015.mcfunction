@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:moss_carpet
+setblock ~ ~ ~ warped_stairs

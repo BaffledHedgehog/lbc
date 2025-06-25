@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxidized_copper_door
+setblock ~ ~ ~ torchflower_crop

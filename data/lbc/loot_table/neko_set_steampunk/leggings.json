@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/reactive_leggings",
                                 "minecraft:max_damage": 500,
                                 "minecraft:equippable":{"slot":"legs","asset_id":"lbc:steampunk"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "legs",
@@ -22,8 +21,8 @@
                                             "amount": 5,
                                             "operation": "add_value"
                                         }
+                                    
                                     ]
-                                }
                             }
                         },
                         {

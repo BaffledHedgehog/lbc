@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:calcite
+setblock ~ ~ ~ spruce_wood

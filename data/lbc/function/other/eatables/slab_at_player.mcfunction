@@ -1,4 +1,4 @@
-loot replace entity @s armor.body loot lbc:random_eatable_slab_random_count
+loot replace entity @s armor.head loot lbc:random_eatable_slab_random_count
 loot replace entity @s armor.chest loot lbc:random_eatable_slab_random_count
 loot replace entity @s armor.legs loot lbc:random_eatable_slab_random_count
 loot replace entity @s armor.feet loot lbc:random_eatable_slab_random_count

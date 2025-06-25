@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_propagule
+setblock ~ ~ ~ azalea

@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -81,13 +81,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:saveplatform",
-                                "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 1
-                                    },
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:item_model": "lbc:saveplatform"
                             }
                         },
                         {
@@ -142,13 +136,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:regenerationbelt",
-                                "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 1
-                                    },
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:item_model": "lbc:regenerationbelt"
                             }
                         },
                         {
@@ -196,7 +184,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{transformable:1,accessory:1,heall:1}"
+                            "tag": "{transformable:1,accessory:1,heall:1,PublicBukkitValues:{\"lws:regen\":{\"lws:value\":0.04d,\"lws:operation\":\"add\",\"lws:slot\":\"inventory\",\"lws:stackable\":true,\"lws:id\":\"regenbelt1242\"}}}"
                         }
                     ]
                 },
@@ -213,13 +201,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:manaregenerationbelt",
-                                "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 1
-                                    },
-                                    "show_in_tooltip": false
-                                }
+                                "minecraft:item_model": "lbc:manaregenerationbelt"
                             }
                         },
                         {

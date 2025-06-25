@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_carpet
+setblock ~ ~ ~ kelp_plant

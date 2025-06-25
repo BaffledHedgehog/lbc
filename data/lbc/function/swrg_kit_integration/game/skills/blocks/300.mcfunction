@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:infested_stone
+setblock ~ ~ ~ dead_brain_coral_block

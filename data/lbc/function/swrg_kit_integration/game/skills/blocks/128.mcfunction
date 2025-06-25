@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tall_seagrass
+setblock ~ ~ ~ brown_bed

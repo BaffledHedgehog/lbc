@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:rooted_dirt
+setblock ~ ~ ~ water_cauldron

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_copper
+setblock ~ ~ ~ stripped_dark_oak_wood

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_terracotta
+setblock ~ ~ ~ hopper

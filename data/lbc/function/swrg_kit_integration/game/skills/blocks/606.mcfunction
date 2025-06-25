@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chain_command_block
+setblock ~ ~ ~ nether_wart

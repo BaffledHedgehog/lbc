@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:skeleton_wall_skull
+setblock ~ ~ ~ glowstone

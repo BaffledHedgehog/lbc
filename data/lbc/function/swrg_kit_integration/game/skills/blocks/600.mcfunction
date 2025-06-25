@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pitcher_crop
+setblock ~ ~ ~ nether_brick_wall

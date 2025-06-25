@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:granite_slab
+setblock ~ ~ ~ potted_fern

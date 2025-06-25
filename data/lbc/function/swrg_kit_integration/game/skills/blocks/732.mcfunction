@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bubble_column
+setblock ~ ~ ~ polished_tuff

@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,11 +13,10 @@
                                 "minecraft:item_model": "lbc:armors/mage_mantle",
                                 "minecraft:max_damage": 300,
                                 "minecraft:enchantments": {
-                                    "levels": {
                                         "minecraft:fire_protection": 5,
                                         "minecraft:blast_protection": 5,
                                         "minecraft:projectile_protection": 5
-                                    }
+                                    
                                 },
                                 "minecraft:equippable":{"slot":"chest","asset_id":"lbc:mage"}
                             }

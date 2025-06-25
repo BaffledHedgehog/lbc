@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cake
+setblock ~ ~ ~ cyan_concrete

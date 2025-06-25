@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_sign
+setblock ~ ~ ~ chiseled_nether_bricks

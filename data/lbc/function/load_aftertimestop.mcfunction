@@ -9,4 +9,4 @@ function lbc:tick15s
 function lbc:tick2t
 function lbc:tick10s
 function lbc:tick10t
-function lbc:tick30s
+function lbc:tick90s

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_spruce_sapling
+setblock ~ ~ ~ end_portal_frame

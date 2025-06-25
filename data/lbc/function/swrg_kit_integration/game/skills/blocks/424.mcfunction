@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:activator_rail
+setblock ~ ~ ~ green_concrete

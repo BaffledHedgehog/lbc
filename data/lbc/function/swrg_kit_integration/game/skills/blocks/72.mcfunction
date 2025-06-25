@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_wood
+setblock ~ ~ ~ birch_pressure_plate

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cut_red_sandstone_slab
+setblock ~ ~ ~ mangrove_leaves

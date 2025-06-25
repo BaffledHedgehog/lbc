@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_hyphae
+setblock ~ ~ ~ purple_concrete

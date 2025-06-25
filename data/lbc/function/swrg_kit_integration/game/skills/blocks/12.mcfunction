@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:podzol
+setblock ~ ~ ~ acacia_slab

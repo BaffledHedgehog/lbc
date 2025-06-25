@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:soul_soil
+setblock ~ ~ ~ cut_red_sandstone

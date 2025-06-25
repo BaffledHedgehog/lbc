@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": {
@@ -492,7 +492,7 @@
                                     "id": "minecraft:tnt",
                                     "CustomNameVisible": false,
                                     "fuse": 100,
-                                    "CustomName": "{\"text\":\"\u0414\u0438\u043d\u0430\u043c\u0438\u0442\"}"
+                                    "CustomName": "Динамит"
                                 }
                             }
                         },
@@ -529,7 +529,7 @@
                                         0.01,
                                         0
                                     ],
-                                    "CustomName": "{\"translate\":\"flying_boat\"}"
+                                    "CustomName": {"translate":"flying_boat"}
                                 }
                             }
                         },

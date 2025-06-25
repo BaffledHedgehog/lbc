@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_mosaic_slab
+setblock ~ ~ ~ magenta_glazed_terracotta

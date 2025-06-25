@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_tile_stairs
+setblock ~ ~ ~ waxed_exposed_copper_bulb

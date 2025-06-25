@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_roots
+setblock ~ ~ ~ rail

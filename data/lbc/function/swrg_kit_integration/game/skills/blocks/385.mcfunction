@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potatoes
+setblock ~ ~ ~ flower_pot

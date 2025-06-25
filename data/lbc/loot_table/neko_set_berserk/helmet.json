@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/berserk",
                                 "minecraft:max_damage": 400,
                                 "minecraft:equippable":{"slot":"head","asset_id":"lbc:berserk"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "head",
@@ -51,7 +50,7 @@
                                             "operation": "add_multiplied_base"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

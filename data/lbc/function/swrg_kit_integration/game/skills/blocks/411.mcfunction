@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:damaged_anvil
+setblock ~ ~ ~ gray_concrete_powder

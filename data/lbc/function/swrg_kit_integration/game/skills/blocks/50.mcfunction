@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_log
+setblock ~ ~ ~ bamboo_trapdoor

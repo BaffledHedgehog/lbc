@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:ancient_debris
+setblock ~ ~ ~ redstone_ore

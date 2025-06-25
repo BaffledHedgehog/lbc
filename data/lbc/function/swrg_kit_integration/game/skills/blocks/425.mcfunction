@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dropper
+setblock ~ ~ ~ green_concrete_powder

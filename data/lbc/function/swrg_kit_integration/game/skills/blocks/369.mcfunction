@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_blue_orchid
+setblock ~ ~ ~ exposed_copper_bulb

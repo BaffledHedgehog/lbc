@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_terracotta
+setblock ~ ~ ~ horn_coral

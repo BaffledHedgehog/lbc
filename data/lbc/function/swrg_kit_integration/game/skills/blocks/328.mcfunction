@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_brick_stairs
+setblock ~ ~ ~ deepslate_diamond_ore

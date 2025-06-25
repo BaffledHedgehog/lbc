@@ -1,3 +1,3 @@
-execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{boss_helicopter:1}}}}] cd_helicopter matches 400.. run function lbc:workingitems/boss_helicopter/shoot
-execute if score @s[nbt={Inventory:[{components:{"minecraft:custom_data":{boss_helicopter:1}},Slot:-106b}]}] cd_helicopter matches 400.. run function lbc:workingitems/boss_helicopter/shoot_left
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{boss_helicopter:1}] if score @s cd_helicopter matches 400.. run function lbc:workingitems/boss_helicopter/shoot
+execute if items entity @s weapon.offhand *[minecraft:custom_data~{boss_helicopter:1}] if score @s cd_helicopter matches 400.. run function lbc:workingitems/boss_helicopter/shoot_left
 scoreboard players remove @s cd_helicopter 1

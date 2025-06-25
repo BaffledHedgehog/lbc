@@ -42,4 +42,4 @@ execute if predicate lbc:chance25 run function lbc:tick4s
 execute if predicate lbc:chance20 run function lbc:tick5s
 execute if predicate lbc:chance10 run function lbc:tick10s
 execute if predicate lbc:chance7 run function lbc:tick15s
-execute if predicate lbc:chance3 run function lbc:tick30s
+execute if predicate lbc:chance3 run function lbc:tick90s

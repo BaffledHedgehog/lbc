@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_concrete
+setblock ~ ~ ~ pale_moss_carpet

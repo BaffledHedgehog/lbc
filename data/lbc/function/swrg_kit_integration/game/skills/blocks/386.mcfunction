@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_button
+setblock ~ ~ ~ flowering_azalea

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxidized_copper_grate
+setblock ~ ~ ~ turtle_egg

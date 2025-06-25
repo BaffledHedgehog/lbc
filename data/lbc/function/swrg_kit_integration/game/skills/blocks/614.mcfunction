@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:shulker_box
+setblock ~ ~ ~ oak_fence_gate

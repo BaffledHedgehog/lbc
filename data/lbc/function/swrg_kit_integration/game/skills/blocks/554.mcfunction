@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:petrified_oak_slab
+setblock ~ ~ ~ magenta_wall_banner

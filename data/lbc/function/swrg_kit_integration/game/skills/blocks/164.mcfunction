@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gold_block
+setblock ~ ~ ~ cave_vines_plant

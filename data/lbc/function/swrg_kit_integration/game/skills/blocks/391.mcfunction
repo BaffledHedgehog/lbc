@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_button
+setblock ~ ~ ~ gilded_blackstone

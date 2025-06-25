@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:loom
+setblock ~ ~ ~ potted_wither_rose

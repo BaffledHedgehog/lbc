@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_stained_glass
+setblock ~ ~ ~ cyan_wall_banner

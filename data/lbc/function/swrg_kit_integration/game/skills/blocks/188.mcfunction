@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_sign
+setblock ~ ~ ~ chiseled_deepslate

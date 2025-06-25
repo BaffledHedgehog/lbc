@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pumpkin
+setblock ~ ~ ~ dead_horn_coral

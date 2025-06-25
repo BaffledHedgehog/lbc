@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_terracotta
+setblock ~ ~ ~ heavy_weighted_pressure_plate

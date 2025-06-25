@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -26,13 +26,11 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:sharpness": 5,
-                                        "minecraft:smite": 5,
-                                        "minecraft:bane_of_arthropods": 5,
-                                        "minecraft:efficiency": 255,
-                                        "minecraft:fortune": 3
-                                    }
+                                    "minecraft:sharpness": 5,
+                                    "minecraft:smite": 5,
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:efficiency": 255,
+                                    "minecraft:fortune": 3
                                 }
                             }
                         },
@@ -61,10 +59,8 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255,
-                                        "minecraft:fortune": 30
-                                    }
+                                    "minecraft:efficiency": 255,
+                                    "minecraft:fortune": 30
                                 }
                             }
                         },
@@ -93,29 +89,25 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 4,
-                                        "minecraft:fire_protection": 4,
-                                        "minecraft:feather_falling": 4,
-                                        "minecraft:blast_protection": 4,
-                                        "minecraft:projectile_protection": 4,
-                                        "minecraft:thorns": 3,
-                                        "minecraft:depth_strider": 3,
-                                        "minecraft:frost_walker": 2,
-                                        "minecraft:soul_speed": 3
-                                    }
+                                    "minecraft:protection": 4,
+                                    "minecraft:fire_protection": 4,
+                                    "minecraft:feather_falling": 4,
+                                    "minecraft:blast_protection": 4,
+                                    "minecraft:projectile_protection": 4,
+                                    "minecraft:thorns": 3,
+                                    "minecraft:depth_strider": 3,
+                                    "minecraft:frost_walker": 2,
+                                    "minecraft:soul_speed": 3
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:knockback_resistance",
-                                            "slot": "feet",
-                                            "id": "aimbob_boots",
-                                            "amount": 1000,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:knockback_resistance",
+                                        "slot": "feet",
+                                        "id": "aimbob_boots",
+                                        "amount": 1000,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -143,34 +135,30 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:sharpness": 5,
-                                        "minecraft:smite": 5,
-                                        "minecraft:bane_of_arthropods": 5,
-                                        "minecraft:knockback": 2,
-                                        "minecraft:fire_aspect": 2,
-                                        "minecraft:looting": 3,
-                                        "minecraft:sweeping_edge": 3
-                                    }
+                                    "minecraft:sharpness": 5,
+                                    "minecraft:smite": 5,
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:knockback": 2,
+                                    "minecraft:fire_aspect": 2,
+                                    "minecraft:looting": 3,
+                                    "minecraft:sweeping_edge": 3
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": 1000,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 5,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": 1000,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 5,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -198,15 +186,13 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 4,
-                                        "minecraft:fire_protection": 4,
-                                        "minecraft:blast_protection": 4,
-                                        "minecraft:projectile_protection": 4,
-                                        "minecraft:respiration": 3,
-                                        "minecraft:aqua_affinity": 1,
-                                        "minecraft:thorns": 3
-                                    }
+                                    "minecraft:protection": 4,
+                                    "minecraft:fire_protection": 4,
+                                    "minecraft:blast_protection": 4,
+                                    "minecraft:projectile_protection": 4,
+                                    "minecraft:respiration": 3,
+                                    "minecraft:aqua_affinity": 1,
+                                    "minecraft:thorns": 3
                                 }
                             }
                         },
@@ -239,10 +225,8 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255,
-                                        "minecraft:fortune": 3
-                                    }
+                                    "minecraft:efficiency": 255,
+                                    "minecraft:fortune": 3
                                 }
                             }
                         },
@@ -271,10 +255,8 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255,
-                                        "minecraft:fortune": 10
-                                    }
+                                    "minecraft:efficiency": 255,
+                                    "minecraft:fortune": 10
                                 }
                             }
                         },
@@ -303,25 +285,21 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 4,
-                                        "minecraft:fire_protection": 4,
-                                        "minecraft:blast_protection": 4,
-                                        "minecraft:projectile_protection": 4,
-                                        "minecraft:thorns": 3
-                                    }
+                                    "minecraft:protection": 4,
+                                    "minecraft:fire_protection": 4,
+                                    "minecraft:blast_protection": 4,
+                                    "minecraft:projectile_protection": 4,
+                                    "minecraft:thorns": 3
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:movement_speed",
-                                            "slot": "legs",
-                                            "id": "aimbob_legs",
-                                            "amount": 1,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:movement_speed",
+                                        "slot": "legs",
+                                        "id": "aimbob_legs",
+                                        "amount": 1,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -349,25 +327,21 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 4,
-                                        "minecraft:fire_protection": 4,
-                                        "minecraft:blast_protection": 4,
-                                        "minecraft:projectile_protection": 4,
-                                        "minecraft:thorns": 3
-                                    }
+                                    "minecraft:protection": 4,
+                                    "minecraft:fire_protection": 4,
+                                    "minecraft:blast_protection": 4,
+                                    "minecraft:projectile_protection": 4,
+                                    "minecraft:thorns": 3
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:max_health",
-                                            "slot": "chest",
-                                            "id": "aimbob_chest",
-                                            "amount": 20,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:max_health",
+                                        "slot": "chest",
+                                        "id": "aimbob_chest",
+                                        "amount": 20,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -395,12 +369,10 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:power": 5,
-                                        "minecraft:punch": 2,
-                                        "minecraft:flame": 1,
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:power": 5,
+                                    "minecraft:punch": 2,
+                                    "minecraft:flame": 1,
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -433,11 +405,9 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:multishot": 1,
-                                        "minecraft:piercing": 5,
-                                        "minecraft:quick_charge": 5
-                                    }
+                                    "minecraft:multishot": 1,
+                                    "minecraft:piercing": 5,
+                                    "minecraft:quick_charge": 5
                                 }
                             }
                         },
@@ -466,15 +436,13 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:sharpness": 5,
-                                        "minecraft:smite": 5,
-                                        "minecraft:bane_of_arthropods": 5,
-                                        "minecraft:knockback": 2,
-                                        "minecraft:fire_aspect": 2,
-                                        "minecraft:sweeping_edge": 3,
-                                        "minecraft:riptide": 15
-                                    }
+                                    "minecraft:sharpness": 5,
+                                    "minecraft:smite": 5,
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:knockback": 2,
+                                    "minecraft:fire_aspect": 2,
+                                    "minecraft:sweeping_edge": 3,
+                                    "minecraft:riptide": 15
                                 }
                             }
                         },
@@ -507,56 +475,52 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 10
-                                    }
+                                    "minecraft:knockback": 10
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:knockback_resistance",
-                                            "slot": "offhand",
-                                            "id": "aimbob_shield",
-                                            "amount": 1,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:knockback_resistance",
-                                            "slot": "mainhand",
-                                            "id": "aimbob_shield1",
-                                            "amount": 1,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "mainhand",
-                                            "id": "aimbob_shield5",
-                                            "amount": 10,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "offhand",
-                                            "id": "aimbob_shield2",
-                                            "amount": 10,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:armor_toughness",
-                                            "slot": "mainhand",
-                                            "id": "aimbob_shield3",
-                                            "amount": 10,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:armor_toughness",
-                                            "slot": "offhand",
-                                            "id": "aimbob_shield4",
-                                            "amount": 10,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:knockback_resistance",
+                                        "slot": "offhand",
+                                        "id": "aimbob_shield",
+                                        "amount": 1,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:knockback_resistance",
+                                        "slot": "mainhand",
+                                        "id": "aimbob_shield1",
+                                        "amount": 1,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "mainhand",
+                                        "id": "aimbob_shield5",
+                                        "amount": 10,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "offhand",
+                                        "id": "aimbob_shield2",
+                                        "amount": 10,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:armor_toughness",
+                                        "slot": "mainhand",
+                                        "id": "aimbob_shield3",
+                                        "amount": 10,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:armor_toughness",
+                                        "slot": "offhand",
+                                        "id": "aimbob_shield4",
+                                        "amount": 10,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -584,9 +548,7 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:fire_aspect": 255
-                                    }
+                                    "minecraft:fire_aspect": 255
                                 }
                             }
                         },
@@ -615,29 +577,25 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:luck_of_the_sea": 5,
-                                        "minecraft:lure": 5
-                                    }
+                                    "minecraft:luck_of_the_sea": 5,
+                                    "minecraft:lure": 5
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:luck",
-                                            "slot": "mainhand",
-                                            "id": "aimbob_rod",
-                                            "amount": 3,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:luck",
-                                            "slot": "offhand",
-                                            "id": "aimbob_rod1",
-                                            "amount": 3,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:luck",
+                                        "slot": "mainhand",
+                                        "id": "aimbob_rod",
+                                        "amount": 3,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:luck",
+                                        "slot": "offhand",
+                                        "id": "aimbob_rod1",
+                                        "amount": 3,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -665,28 +623,24 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255
-                                    }
+                                    "minecraft:efficiency": 255
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_damage",
-                                            "amount": 6,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:attack_speed",
-                                            "slot": "mainhand",
-                                            "id": "minecraft:base_attack_speed",
-                                            "amount": 32767,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_damage",
+                                        "amount": 6,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:attack_speed",
+                                        "slot": "mainhand",
+                                        "id": "minecraft:base_attack_speed",
+                                        "amount": 32767,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {

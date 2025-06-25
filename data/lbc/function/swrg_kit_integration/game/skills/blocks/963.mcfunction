@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_oxidized_cut_copper
+setblock ~ ~ ~ suspicious_gravel

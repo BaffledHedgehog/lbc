@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -16,8 +16,7 @@
                                     "slot": "feet",
                                     "asset_id": "lbc:steampunk"
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers": [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "feet",
@@ -27,7 +26,7 @@
                                         }
                                     ]
                                 }
-                            }
+                            
                         },
                         {
                             "function": "minecraft:set_name",

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_poppy
+setblock ~ ~ ~ exposed_copper

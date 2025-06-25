@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tinted_glass
+setblock ~ ~ ~ sticky_piston

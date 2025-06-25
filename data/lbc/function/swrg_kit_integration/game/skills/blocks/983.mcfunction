@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:copper_trapdoor
+setblock ~ ~ ~ tube_coral_block

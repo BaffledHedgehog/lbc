@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_banner
+setblock ~ ~ ~ light_blue_wool

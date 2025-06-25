@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -361,10 +361,12 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:feather_falling": 1
-                                    },
-                                    "show_in_tooltip": false
+                                    "minecraft:feather_falling": 1
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments"
+                                    ]
                                 }
                             }
                         },
@@ -430,9 +432,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:sharpness": 1
-                                    }
+                                    "minecraft:sharpness": 1
                                 }
                             }
                         },
@@ -489,21 +489,17 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:silk_touch": 10
-                                    }
+                                    "minecraft:silk_touch": 10
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "silkespixaxe",
-                                            "amount": 2,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "silkespixaxe",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -529,10 +525,12 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255
-                                    },
-                                    "show_in_tooltip": false
+                                    "minecraft:efficiency": 255
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments"
+                                    ]
                                 }
                             }
                         },
@@ -575,24 +573,22 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "head",
-                                            "id": "multihelmestt",
-                                            "amount": 0.5,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:armor_toughness",
-                                            "slot": "head",
-                                            "id": "multuiofjdufhduhudghvdhgudhgud",
-                                            "amount": 0.5,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "head",
+                                        "id": "multihelmestt",
+                                        "amount": 0.5,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:armor_toughness",
+                                        "slot": "head",
+                                        "id": "multuiofjdufhduhudghvdhgudhgud",
+                                        "amount": 0.5,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -617,24 +613,22 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "chest",
-                                            "id": "digh8yug8rrfgfgf",
-                                            "amount": 1,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:armor_toughness",
-                                            "slot": "chest",
-                                            "id": "qwertyuiopdfghjklj",
-                                            "amount": 1,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "chest",
+                                        "id": "digh8yug8rrfgfgf",
+                                        "amount": 1,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:armor_toughness",
+                                        "slot": "chest",
+                                        "id": "qwertyuiopdfghjklj",
+                                        "amount": 1,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -659,24 +653,22 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "legs",
-                                            "id": "daerischandevocjkawaifu",
-                                            "amount": 0.8,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:armor_toughness",
-                                            "slot": "legs",
-                                            "id": "eriserisedkidaeris",
-                                            "amount": 0.8,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "legs",
+                                        "id": "daerischandevocjkawaifu",
+                                        "amount": 0.8,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:armor_toughness",
+                                        "slot": "legs",
+                                        "id": "eriserisedkidaeris",
+                                        "amount": 0.8,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -701,24 +693,22 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "feet",
-                                            "id": "jastshishkaisf",
-                                            "amount": 0.4,
-                                            "operation": "add_multiplied_base"
-                                        },
-                                        {
-                                            "type": "minecraft:armor_toughness",
-                                            "slot": "feet",
-                                            "id": "nyauwumewdaerisshiiish",
-                                            "amount": 0.4,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "feet",
+                                        "id": "jastshishkaisf",
+                                        "amount": 0.4,
+                                        "operation": "add_multiplied_base"
+                                    },
+                                    {
+                                        "type": "minecraft:armor_toughness",
+                                        "slot": "feet",
+                                        "id": "nyauwumewdaerisshiiish",
+                                        "amount": 0.4,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -1007,9 +997,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:knockback": 2
-                                    }
+                                    "minecraft:knockback": 2
                                 }
                             }
                         }
@@ -1265,21 +1253,17 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:fire_aspect": 20
-                                    }
+                                    "minecraft:fire_aspect": 20
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "daeriswaifu800yearschan",
-                                            "amount": -0.99,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "daeriswaifu800yearschan",
+                                        "amount": -0.99,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -1309,9 +1293,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:dyed_color": {
-                                    "rgb": 655104,
-                                    "show_in_tooltip": false
+                                "minecraft:dyed_color": 655104,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:dyed_color"
+                                    ]
                                 }
                             }
                         },
@@ -1354,17 +1340,15 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:devilsword",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "edkoedkoedkodaerisaiwisjfijf",
-                                            "amount": 0,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "edkoedkoedkodaerisaiwisjfijf",
+                                        "amount": 0,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -1685,17 +1669,15 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:vampiresword",
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "vu89qjduxlsodkiogaisrepog",
-                                            "amount": 1,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "vu89qjduxlsodkiogaisrepog",
+                                        "amount": 1,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -1971,40 +1953,38 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:blast_protection": 255
+                                    "minecraft:blast_protection": 255
+                                },
+                                "minecraft:dyed_color": 16730112,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "chest",
+                                        "id": "gcnghmcghmghm",
+                                        "amount": 3,
+                                        "operation": "add_value"
                                     },
-                                    "show_in_tooltip": false
-                                },
-                                "minecraft:dyed_color": {
-                                    "rgb": 16730112,
-                                    "show_in_tooltip": false
-                                },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "chest",
-                                            "id": "gcnghmcghmghm",
-                                            "amount": 3,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:knockback_resistance",
-                                            "slot": "chest",
-                                            "id": "hgmcghmhmbcv",
-                                            "amount": 0,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:armor_toughness",
-                                            "slot": "chest",
-                                            "id": "gfcmghfhmgfhmcfhmcghf",
-                                            "amount": 1,
-                                            "operation": "add_value"
-                                        }
-                                    ],
-                                    "show_in_tooltip": false
+                                    {
+                                        "type": "minecraft:knockback_resistance",
+                                        "slot": "chest",
+                                        "id": "hgmcghmhmbcv",
+                                        "amount": 0,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:armor_toughness",
+                                        "slot": "chest",
+                                        "id": "gfcmghfhmgfhmcfhmcghf",
+                                        "amount": 1,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:dyed_color",
+                                        "minecraft:attribute_modifiers"
+                                    ]
                                 }
                             }
                         },
@@ -2089,9 +2069,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:quick_charge": 5
-                                    }
+                                    "minecraft:quick_charge": 5
                                 }
                             }
                         },
@@ -2144,14 +2122,25 @@
                             "components": {
                                 "minecraft:item_model": "lbc:rasengan",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:sweeping_edge": 1
-                                    },
-                                    "show_in_tooltip": false
+                                    "minecraft:sweeping_edge": 1
                                 },
-                                "minecraft:custom_name": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"translate\":\"rasengan\"}",
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments"
+                                    ]
+                                },
+                                "minecraft:custom_name": {
+                                    "bold": true,
+                                    "color": "aqua",
+                                    "italic": false,
+                                    "translate": "rasengan"
+                                },
                                 "minecraft:lore": [
-                                    "{\"translate\":\"rasengan_old.lore\",\"color\":\"white\",\"italic\":false}"
+                                    {
+                                        "translate": "rasengan_old.lore",
+                                        "color": "white",
+                                        "italic": false
+                                    }
                                 ]
                             }
                         },
@@ -2448,7 +2437,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -2498,7 +2491,11 @@
                                         "fakepig",
                                         "lucky_mob"
                                     ],
-                                    "CustomName": "{\"text\":\"Lucky Pig\",\"color\":\"gold\",\"italic\":false}",
+                                    "CustomName": {
+                                        "text": "Lucky Pig",
+                                        "color": "gold",
+                                        "italic": false
+                                    },
                                     "attributes": [
                                         {
                                             "id": "minecraft:max_health",
@@ -2549,10 +2546,12 @@
                             "components": {
                                 "minecraft:item_model": "lbc:saveplatform",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 1
-                                    },
-                                    "show_in_tooltip": false
+                                    "minecraft:protection": 1
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments"
+                                    ]
                                 }
                             }
                         },
@@ -2595,24 +2594,22 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:feather_falling": 1
-                                    },
-                                    "show_in_tooltip": false
+                                    "minecraft:feather_falling": 1
                                 },
-                                "minecraft:dyed_color": {
-                                    "rgb": 2555678,
-                                    "show_in_tooltip": false
-                                },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:movement_speed",
-                                            "slot": "feet",
-                                            "id": "hermeshermes",
-                                            "amount": 0.5,
-                                            "operation": "add_multiplied_base"
-                                        }
+                                "minecraft:dyed_color": 2555678,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:movement_speed",
+                                        "slot": "feet",
+                                        "id": "hermeshermes",
+                                        "amount": 0.5,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:dyed_color"
                                     ]
                                 }
                             }
@@ -2641,9 +2638,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -2670,21 +2665,17 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:riptide": 10
-                                    }
+                                    "minecraft:riptide": 10
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:attack_damage",
-                                            "slot": "mainhand",
-                                            "id": "genericsea.attack_damage",
-                                            "amount": 5,
-                                            "operation": "add_value"
-                                        }
-                                    ]
-                                }
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:attack_damage",
+                                        "slot": "mainhand",
+                                        "id": "genericsea.attack_damage",
+                                        "amount": 5,
+                                        "operation": "add_value"
+                                    }
+                                ]
                             }
                         },
                         {
@@ -2711,11 +2702,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:unbreaking": 10
-                                    }
+                                    "minecraft:unbreaking": 10
                                 },
-                                "minecraft:hide_additional_tooltip": {},
                                 "minecraft:base_color": "blue",
                                 "minecraft:banner_patterns": [
                                     {
@@ -2742,7 +2730,13 @@
                                         "color": "light_gray",
                                         "pattern": "border"
                                     }
-                                ]
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:base_color",
+                                        "minecraft:banner_patterns"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -2850,7 +2844,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -2890,20 +2888,20 @@
                             "components": {
                                 "minecraft:item_model": "lbc:evokerwand",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 },
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:movement_speed",
-                                            "id": "suvhd7sdjgvbbf",
-                                            "amount": -10,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ],
-                                    "show_in_tooltip": false
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:movement_speed",
+                                        "id": "suvhd7sdjgvbbf",
+                                        "amount": -10,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ],
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:attribute_modifiers"
+                                    ]
                                 }
                             }
                         },
@@ -3049,9 +3047,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:basswand",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -3109,9 +3105,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:corruptwand",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -3169,9 +3163,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:enderwand",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -3218,10 +3210,12 @@
                             "components": {
                                 "minecraft:item_model": "lbc:regenerationbelt",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:protection": 1
-                                    },
-                                    "show_in_tooltip": false
+                                    "minecraft:protection": 1
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments"
+                                    ]
                                 }
                             }
                         },
@@ -3268,17 +3262,20 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:unbreakable": {
-                                    "show_in_tooltip": false
-                                },
+                                "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:fire_protection": 5,
-                                        "minecraft:blast_protection": 5,
-                                        "minecraft:projectile_protection": 5
-                                    }
+                                    "minecraft:fire_protection": 5,
+                                    "minecraft:blast_protection": 5,
+                                    "minecraft:projectile_protection": 5
                                 },
-                                "minecraft:dyed_color": {"rgb": 16735721,"show_in_tooltip": false}
+                                "minecraft:dyed_color": 16735721,
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments",
+                                        "minecraft:unbreakable",
+                                        "minecraft:dyed_color"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -3325,10 +3322,12 @@
                             "components": {
                                 "minecraft:item_model": "lbc:manaregenerationbelt",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 1
-                                    },
-                                    "show_in_tooltip": false
+                                    "minecraft:efficiency": 1
+                                },
+                                "tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:enchantments"
+                                    ]
                                 }
                             }
                         },
@@ -3550,9 +3549,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:vampirewand",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -3610,9 +3607,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:foxuswand",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -3670,9 +3665,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:killingwand",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },
@@ -3730,9 +3723,7 @@
                             "components": {
                                 "minecraft:item_model": "lbc:badwiki",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:infinity": 1
-                                    }
+                                    "minecraft:infinity": 1
                                 }
                             }
                         },

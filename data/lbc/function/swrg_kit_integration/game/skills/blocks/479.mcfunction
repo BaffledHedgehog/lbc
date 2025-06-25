@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_carpet
+setblock ~ ~ ~ kelp

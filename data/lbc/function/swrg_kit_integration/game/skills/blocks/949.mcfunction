@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_exposed_chiseled_copper
+setblock ~ ~ ~ stripped_mangrove_log

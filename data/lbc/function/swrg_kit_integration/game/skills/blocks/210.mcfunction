@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_hanging_sign
+setblock ~ ~ ~ cobblestone_slab

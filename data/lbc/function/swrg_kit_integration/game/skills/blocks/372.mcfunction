@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_red_tulip
+setblock ~ ~ ~ exposed_copper_trapdoor

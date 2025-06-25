@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_stairs
+setblock ~ ~ ~ jukebox

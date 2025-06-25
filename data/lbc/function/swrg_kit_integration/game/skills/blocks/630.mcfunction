@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_shulker_box
+setblock ~ ~ ~ ochre_froglight

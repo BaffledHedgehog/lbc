@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_shulker_box
+setblock ~ ~ ~ oak_slab

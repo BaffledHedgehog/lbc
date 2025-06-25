@@ -9,20 +9,25 @@ execute if score tmp lbc.math matches 18 run scoreboard players operation @s eff
 execute if score tmp lbc.math matches 19 run scoreboard players operation @s effect_add_mana += dur lbc.math
 execute if score tmp lbc.math matches 20 run scoreboard players operation @s effect_remove_mana += dur lbc.math
 
+
+
+
 execute if score tmp lbc.math matches 40 run scoreboard players operation @s effect_rtp_1 += dur lbc.math
 execute if score tmp lbc.math matches 41 run scoreboard players operation @s effect_rtp_2 += dur lbc.math
 execute if score tmp lbc.math matches 42 run scoreboard players operation @s effect_rtp_3 += dur lbc.math
 
 execute if score tmp lbc.math matches 74 run scoreboard players operation @s effect_snus += dur lbc.math
 
-execute if score tmp lbc.math matches 97 run summon minecraft:arrow ~ ~ ~ {Motion:[0.0d,-10.0d,0.0d],damage:0.001d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:97b,duration:20}]},"minecraft:intangible_projectile":{}}},pickup:0b}
+execute if score tmp lbc.math matches 76 run function lbc:items/bows/kaname_bow/hit
+
+execute if score tmp lbc.math matches 97 run summon minecraft:arrow ~ ~ ~ {Motion:[0.0d,-10.0d,0.0d],damage:0.001d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:97b,duration:30}]},"minecraft:intangible_projectile":{}}},pickup:0b}
 
 execute if score tmp lbc.math matches 101 run scoreboard players operation @s effect_small_explosion += dur lbc.math
 execute if score tmp lbc.math matches 102 run scoreboard players operation @s effect_evoker += dur lbc.math
 execute if score tmp lbc.math matches 103 run scoreboard players operation @s effect_shock += dur lbc.math
 execute if score tmp lbc.math matches 104 run scoreboard players operation @s effect_explosion += dur lbc.math
 execute if score tmp lbc.math matches 105 run scoreboard players operation @s effect_rtp_4 += dur lbc.math
-execute if score tmp lbc.math matches 106 run summon minecraft:arrow ~ ~ ~ {Motion:[0.0d,-10.0d,0.0d],damage:0.001d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:106b,duration:20}]},"minecraft:intangible_projectile":{}}},pickup:0b}
+execute if score tmp lbc.math matches 106 run summon minecraft:arrow ~ ~ ~ {Motion:[0.0d,-10.0d,0.0d],damage:0.001d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:106b,duration:30}]},"minecraft:intangible_projectile":{}}},pickup:0b}
 execute if score tmp lbc.math matches 107 run scoreboard players operation @s effect_big_explosion += dur lbc.math
 execute if score tmp lbc.math matches 108 run scoreboard players operation @s effect_traps += dur lbc.math
 execute if score tmp lbc.math matches 109 run scoreboard players operation @s effect_lightning_bolt += dur lbc.math
@@ -30,7 +35,7 @@ execute if score tmp lbc.math matches 110 run scoreboard players operation @s ef
 execute if score tmp lbc.math matches 111 run scoreboard players operation @s effect_kiuaskivi += dur lbc.math
 execute if score tmp lbc.math matches 112 run scoreboard players operation @s effect_lightarrow += dur lbc.math
 execute if score tmp lbc.math matches 113 run scoreboard players operation @s effect_evokerarrow += dur lbc.math
-execute if score tmp lbc.math matches 114 run summon minecraft:arrow ~ ~ ~ {Motion:[0.0d,-10.0d,0.0d],damage:0.001d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:114b,duration:20}]},"minecraft:intangible_projectile":{}}},pickup:0b}
+execute if score tmp lbc.math matches 114 run summon minecraft:arrow ~ ~ ~ {Motion:[0.0d,-10.0d,0.0d],damage:0.001d,Tags:["edited"],item:{id:"minecraft:tipped_arrow",components:{"minecraft:potion_contents":{custom_color:16777215,custom_effects:[{id:"minecraft:raid_omen",amplifier:114b,duration:30}]},"minecraft:intangible_projectile":{}}},pickup:0b}
 execute if score tmp lbc.math matches 115 run scoreboard players operation @s effect_dimshifting += dur lbc.math
 execute if score tmp lbc.math matches 116 run scoreboard players operation @s piss += dur lbc.math
 execute if score tmp lbc.math matches 117 run scoreboard players operation @s effect_witch_gens_reset += dur lbc.math
@@ -41,6 +46,7 @@ execute if score tmp lbc.math matches 121 run scoreboard players operation @s ef
 execute if score tmp lbc.math matches 122 run scoreboard players operation @s effect_vacuum += dur lbc.math
 execute if score tmp lbc.math matches 123 run scoreboard players operation @s effect_timestop += dur lbc.math
 execute if score tmp lbc.math matches 124 run scoreboard players operation @s effect_chain_lightning += dur lbc.math
+execute if score tmp lbc.math matches 125 run function lbc:items/trinket_effects/rocket_spell_cast
 
 execute if score tmp lbc.math matches -22 run damage @s 4 lava
 execute if score tmp lbc.math matches -21 run effect give @s minecraft:poison 10 4

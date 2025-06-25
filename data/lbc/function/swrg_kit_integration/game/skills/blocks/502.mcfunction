@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tall_grass
+setblock ~ ~ ~ light_blue_stained_glass

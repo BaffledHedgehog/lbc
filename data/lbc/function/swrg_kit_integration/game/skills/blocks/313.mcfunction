@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:melon
+setblock ~ ~ ~ dead_horn_coral_block

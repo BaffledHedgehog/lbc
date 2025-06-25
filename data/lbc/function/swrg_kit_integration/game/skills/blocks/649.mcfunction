@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_concrete
+setblock ~ ~ ~ oxidized_copper

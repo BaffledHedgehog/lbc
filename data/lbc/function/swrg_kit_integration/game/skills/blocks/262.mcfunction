@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:soul_wall_torch
+setblock ~ ~ ~ cyan_banner

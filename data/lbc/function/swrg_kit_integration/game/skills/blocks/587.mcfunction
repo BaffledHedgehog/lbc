@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_door
+setblock ~ ~ ~ mossy_stone_bricks

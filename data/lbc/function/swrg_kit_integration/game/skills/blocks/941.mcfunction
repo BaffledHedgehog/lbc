@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:exposed_cut_copper
+setblock ~ ~ ~ stripped_cherry_log

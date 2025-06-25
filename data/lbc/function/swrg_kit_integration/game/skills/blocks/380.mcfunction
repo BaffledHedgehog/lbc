@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_red_mushroom
+setblock ~ ~ ~ fire_coral_block

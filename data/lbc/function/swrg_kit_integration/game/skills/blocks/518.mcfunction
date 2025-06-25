@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_banner
+setblock ~ ~ ~ light_gray_terracotta

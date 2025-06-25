@@ -4,17 +4,18 @@
         "type": "minecraft:flat",
         "settings": {
             "biome": "minecraft:imprinted",
+            "lakes": false,
+            "features": false,
             "layers": [
                 {
-                    "block": "minecraft:bedrock",
-                    "height": 4
+                    "height": 4,
+                    "block": "minecraft:bedrock"
                 },
                 {
-                    "block": "minecraft:air",
-                    "height": 1
+                    "height": 1,
+                    "block": "minecraft:air"
                 }
-            ],
-            "structure_overrides": "minecraft:end_cities"
+            ]
         }
     }
 }

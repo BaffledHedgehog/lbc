@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_hanging_sign
+setblock ~ ~ ~ conduit

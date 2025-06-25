@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:end_stone_brick_slab
+setblock ~ ~ ~ potted_dandelion

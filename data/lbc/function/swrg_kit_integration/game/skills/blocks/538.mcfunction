@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cut_red_sandstone
+setblock ~ ~ ~ lime_wall_banner

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_coal_ore
+setblock ~ ~ ~ bamboo_pressure_plate

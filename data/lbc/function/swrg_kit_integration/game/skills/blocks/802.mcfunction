@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_crimson_hyphae
+setblock ~ ~ ~ purpur_pillar

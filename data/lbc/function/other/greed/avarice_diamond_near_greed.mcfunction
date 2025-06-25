@@ -1,4 +1,4 @@
-fill ~10 ~10 ~10 ~-10 ~-10 ~-10 minecraft:diamond_block replace minecraft:light_blue_glazed_terracotta
+fill ~10 ~10 ~10 ~-10 ~-10 ~-10 minecraft:diamond_block replace minecraft:light_blue_glazed_terracotta strict
 playsound minecraft:block.enchantment_table.use master @a[distance=..30] ~ ~ ~ 0.5 0.5 0.3
 playsound minecraft:block.enchantment_table.use master @a[distance=..30] ~ ~ ~ 0.5 1 0.3
 playsound minecraft:block.enchantment_table.use master @a[distance=..30] ~ ~ ~ 0.5 0 0.3

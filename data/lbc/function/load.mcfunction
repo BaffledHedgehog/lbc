@@ -60,6 +60,7 @@ scoreboard players set 50 lbc.math 50
 scoreboard players set 59 lbc.math 59
 scoreboard players set 70 lbc.math 70
 scoreboard players set 75 lbc.math 75
+scoreboard players set 80 lbc.math 80
 scoreboard players set 100 lbc.math 100
 scoreboard players set 144 lbc.math 144
 scoreboard players set 200 lbc.math 200
@@ -269,13 +270,16 @@ scoreboard objectives add effect_boost_mana dummy
 scoreboard objectives add effect_gravity_curse dummy
 
 scoreboard objectives add hook_cooldown dummy
-scoreboard objectives add lbc.tokens dummy
+scoreboard objectives add challenge_score dummy
+scoreboard objectives add lbc.challenge dummy
 scoreboard objectives add god_claw_cd dummy
 scoreboard objectives add expansion_cd dummy
 scoreboard objectives add deus_cd dummy
 
 scoreboard objectives add gaycaster_upgrade dummy
 scoreboard objectives add tmticked dummy
+scoreboard objectives add rocket_armor_jumps dummy
+scoreboard objectives add rocket_armor_jump_cd dummy
 #
 execute unless score cfg_lucky_modifier swrg.math matches 0..100 run scoreboard players set cfg_lucky_modifier swrg.math 0
 execute if score #lang swrg.math matches 2 run function lbc:swrg_kit_integration/lang_en
@@ -285,6 +289,7 @@ forceload add 10241024 10241024
 setblock 10241024 100 10241024 minecraft:yellow_shulker_box
 setblock 10241024 71 10241024 minecraft:yellow_shulker_box
 setblock 10241024 94 10241024 minecraft:yellow_shulker_box
+setblock 10241024 194 10241024 minecraft:yellow_shulker_box
 function lbc:tick5s
 function lbc:tick2s
 function lbc:tick3s
@@ -296,7 +301,7 @@ function lbc:tick15s
 function lbc:tick2t
 function lbc:tick10s
 function lbc:tick10t
-function lbc:tick30s
+function lbc:tick90s
 execute in nexus run function lbc:reset_gamerules_nexus
 scoreboard objectives add gigaponos dummy
 execute unless score SurvivalVersion lbc.math matches 1 run function lbc:config
@@ -306,6 +311,21 @@ execute in overworld run function lbc:reset_gamerules
 execute in the_nether run function lbc:reset_gamerules
 execute in the_end run function lbc:reset_gamerules
 execute in minecraft:imprinted run function lbc:reset_gamerules
+
+scoreboard objectives add bomb_fragments dummy
+scoreboard objectives add life_fragments dummy
+scoreboard objectives add time_orbs dummy
+scoreboard objectives add touhou_power dummy
+
+
+scoreboard objectives add lbc.challenge.skill dummy
+scoreboard objectives add lbc.challenge.kit dummy
+scoreboard objectives add lbc.challenge.levelup dummy
+scoreboard objectives add lbc.challenge.levelup2 dummy
+scoreboard objectives add lbc.challenge.trinket dummy
+scoreboard objectives add lbc.challenge.trinket2 dummy
+
+scoreboard players set antigravity lbc.math 0
 
 #swag
 

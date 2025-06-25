@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tuff_brick_stairs
+setblock ~ ~ ~ spruce_trapdoor

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_fence_gate
+setblock ~ ~ ~ mangrove_slab

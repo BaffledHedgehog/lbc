@@ -54,13 +54,6 @@
                                         "predicate": {
                                             "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
                                         }
-                                    },
-                                    {
-                                        "condition": "minecraft:entity_properties",
-                                        "entity": "this",
-                                        "predicate": {
-                                            "nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:custom_data\":{luck_key:1}}}]}"
-                                        }
                                     }
                                 ]
                             }
@@ -160,13 +153,6 @@
                                     "predicate": {
                                         "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
                                     }
-                                },
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:custom_data\":{luck_key:1}}}]}"
-                                    }
                                 }
                             ]
                         }
@@ -262,13 +248,6 @@
                                     "entity": "this",
                                     "predicate": {
                                         "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
-                                    }
-                                },
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:custom_data\":{luck_key:1}}}]}"
                                     }
                                 }
                             ]

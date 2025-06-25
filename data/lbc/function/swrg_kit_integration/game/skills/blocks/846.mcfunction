@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_warped_fungus
+setblock ~ ~ ~ reinforced_deepslate

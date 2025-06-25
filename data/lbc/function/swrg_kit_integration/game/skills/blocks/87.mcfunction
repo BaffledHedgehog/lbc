@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_leaves
+setblock ~ ~ ~ black_concrete_powder

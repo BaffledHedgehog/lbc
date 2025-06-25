@@ -3,20 +3,11 @@ summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
-summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernovacore","other"]}
 execute as @e[type=minecraft:marker,tag=supernova] at @s run spreadplayers ~ ~ 0 50 false @s
 particle minecraft:dust{color:[1.0,1.0,1.0],scale:4.0f} ~ ~1 ~ 1 1 1 2 1000 force
 particle minecraft:dust{color:[0.001,0.0,0.001],scale:4.0f} ~ ~1 ~ 1 1 1 2 1000 force
-summon minecraft:tnt
+summon minecraft:tnt ~ ~ ~ {fuse:0}
 execute at @e run particle minecraft:flash ~ ~ ~ 10 10 10 0 100 normal
 effect give @p[gamemode=!spectator] minecraft:levitation 10000 0 true
 effect give @p[gamemode=!spectator] minecraft:absorption 10000 30 true

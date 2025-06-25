@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lava
+setblock ~ ~ ~ bamboo

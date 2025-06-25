@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_wall_hanging_sign
+setblock ~ ~ ~ copper_trapdoor

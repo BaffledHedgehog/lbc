@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_slab
+setblock ~ ~ ~ raw_iron_block

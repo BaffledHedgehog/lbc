@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_stained_glass
+setblock ~ ~ ~ cyan_wool

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_quartz_block
+setblock ~ ~ ~ green_candle

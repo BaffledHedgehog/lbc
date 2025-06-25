@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_sign
+setblock ~ ~ ~ chiseled_copper

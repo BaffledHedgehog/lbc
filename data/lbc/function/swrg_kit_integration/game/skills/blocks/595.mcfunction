@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purpur_block
+setblock ~ ~ ~ mushroom_stem

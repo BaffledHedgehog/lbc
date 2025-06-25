@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_nylium
+setblock ~ ~ ~ purple_glazed_terracotta

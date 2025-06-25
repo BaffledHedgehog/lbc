@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_fence
+setblock ~ ~ ~ mossy_cobblestone_wall

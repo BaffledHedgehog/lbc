@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:fire
+setblock ~ ~ ~ cherry_planks

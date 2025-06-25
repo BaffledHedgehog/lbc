@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": {
@@ -8,63 +8,10 @@
             },
             "entries": [
                 {
-                    "type": "minecraft:item",
+                    "type": "minecraft:loot_table",
                     "weight": 10,
                     "quality": 5,
-                    "name": "minecraft:lingering_potion",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:potion_contents": {
-                                    "custom_color": 16743168,
-                                    "custom_effects": [
-                                        {
-                                            "id": "minecraft:raid_omen",
-                                            "amplifier": 104,
-                                            "duration": 2
-                                        }
-                                    ]
-                                },
-                                "minecraft:hide_additional_tooltip": {}
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": [
-                                {
-                                    "translate": "explosive_potion",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                [
-                                    {
-                                        "translate": "type",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    },
-                                    {
-                                        "translate": "potion.lbc",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    }
-                                ]
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{transformable:1,potion:1}"
-                        }
-                    ]
+                    "value": "lbc:unstable_reactive"
                 }
             ]
         }

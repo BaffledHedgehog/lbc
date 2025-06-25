@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_terracotta
+setblock ~ ~ ~ honey_block

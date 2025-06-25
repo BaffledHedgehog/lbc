@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:torchflower
+setblock ~ ~ ~ bush

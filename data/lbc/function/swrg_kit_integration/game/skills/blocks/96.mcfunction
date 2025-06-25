@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lapis_ore
+setblock ~ ~ ~ blackstone_slab

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:daylight_detector
+setblock ~ ~ ~ gray_terracotta

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_stairs
+setblock ~ ~ ~ red_nether_brick_slab

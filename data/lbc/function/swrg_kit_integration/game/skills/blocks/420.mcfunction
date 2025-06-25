@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:quartz_block
+setblock ~ ~ ~ green_bed

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_door
+setblock ~ ~ ~ chiseled_tuff

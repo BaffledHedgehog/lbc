@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:fire_coral_fan
+setblock ~ ~ ~ polished_blackstone

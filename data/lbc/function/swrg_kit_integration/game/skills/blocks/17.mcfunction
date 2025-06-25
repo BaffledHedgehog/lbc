@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_planks
+setblock ~ ~ ~ acacia_wood

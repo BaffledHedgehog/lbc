@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gravel
+setblock ~ ~ ~ bamboo_fence

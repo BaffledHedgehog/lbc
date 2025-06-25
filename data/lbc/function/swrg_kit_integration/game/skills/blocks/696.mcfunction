@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_bubble_coral
+setblock ~ ~ ~ pink_terracotta

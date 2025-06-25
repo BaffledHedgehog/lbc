@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tripwire
+setblock ~ ~ ~ dispenser

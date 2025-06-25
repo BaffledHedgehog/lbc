@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:attached_melon_stem
+setblock ~ ~ ~ dead_horn_coral_wall_fan

@@ -38,11 +38,11 @@ execute if entity @s[nbt={Inventory:[{Slot:33b}]}] run function lbc:other/drop_i
 execute if entity @s[nbt={Inventory:[{Slot:34b}]}] run function lbc:other/drop_inv/34
 execute if entity @s[nbt={Inventory:[{Slot:35b}]}] run function lbc:other/drop_inv/35
 
-execute if entity @s[nbt={Inventory:[{Slot:-106b}]}] run function lbc:other/drop_inv/-106
-execute if entity @s[nbt={Inventory:[{Slot:100b}]}] run function lbc:other/drop_inv/100
-execute if entity @s[nbt={Inventory:[{Slot:101b}]}] run function lbc:other/drop_inv/101
-execute if entity @s[nbt={Inventory:[{Slot:102b}]}] run function lbc:other/drop_inv/102
-execute if entity @s[nbt={Inventory:[{Slot:103b}]}] run function lbc:other/drop_inv/103
+execute if items entity @s weapon.offhand * run function lbc:other/drop_inv/-106
+execute if items entity @s armor.feet * run function lbc:other/drop_inv/100
+execute if items entity @s armor.legs * run function lbc:other/drop_inv/101
+execute if items entity @s armor.chest * run function lbc:other/drop_inv/102
+execute if items entity @s armor.head * run function lbc:other/drop_inv/103
 item replace entity @s inventory.0 with minecraft:air 1
 item replace entity @s inventory.1 with minecraft:air 1
 item replace entity @s inventory.2 with minecraft:air 1

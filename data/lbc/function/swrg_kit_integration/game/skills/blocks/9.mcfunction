@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:grass_block
+setblock ~ ~ ~ acacia_pressure_plate

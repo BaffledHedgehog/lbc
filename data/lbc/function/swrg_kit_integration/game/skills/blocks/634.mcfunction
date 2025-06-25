@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_blue_glazed_terracotta
+setblock ~ ~ ~ orange_candle

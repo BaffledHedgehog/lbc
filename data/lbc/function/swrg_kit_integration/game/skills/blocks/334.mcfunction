@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lava_cauldron
+setblock ~ ~ ~ deepslate_tile_slab

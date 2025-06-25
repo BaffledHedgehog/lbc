@@ -1,2 +1,2 @@
-$fill ^ ^ ^ ^ ^ ^$(tmp) oak_wood
+$fill ^ ^ ^ ^ ^ ^$(tmp) oak_wood strict
 $tp @s ^ ^ ^$(tmp)

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_trapdoor
+setblock ~ ~ ~ dark_oak_sapling

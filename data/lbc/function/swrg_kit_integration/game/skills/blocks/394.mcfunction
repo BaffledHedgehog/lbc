@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_button
+setblock ~ ~ ~ test_instance_block

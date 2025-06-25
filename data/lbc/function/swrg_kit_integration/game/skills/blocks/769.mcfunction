@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_nether_brick_wall
+setblock ~ ~ ~ potted_spruce_sapling

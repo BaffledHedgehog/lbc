@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_stairs
+setblock ~ ~ ~ dragon_head

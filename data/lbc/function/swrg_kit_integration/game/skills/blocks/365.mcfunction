@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_mangrove_propagule
+setblock ~ ~ ~ end_stone_bricks

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:magenta_wall_banner
+setblock ~ ~ ~ lightning_rod

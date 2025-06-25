@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:water_cauldron
+setblock ~ ~ ~ deepslate_redstone_ore

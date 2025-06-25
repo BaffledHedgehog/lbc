@@ -1,3 +1,3 @@
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{techno:1}},Slot:103b}]}] run function lbc:armor/powerhelmettick
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{technomk2:1}},Slot:100b}]}] run function lbc:armor/technomk2/boots/tick
-execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{technomk2:1}},Slot:103b},{components:{"minecraft:custom_data":{technomk2:1}},Slot:102b},{components:{"minecraft:custom_data":{technomk2:1}},Slot:101b},{components:{"minecraft:custom_data":{technomk2:1}},Slot:100b}]}] run function lbc:armor/set_bonus/technomk2/tick
+execute if items entity @s armor.head *[minecraft:custom_data~{techno:1}] run function lbc:armor/powerhelmettick
+execute if items entity @s armor.feet *[minecraft:custom_data~{technomk2:1}] run function lbc:armor/technomk2/boots/tick
+

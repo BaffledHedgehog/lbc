@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_door
+setblock ~ ~ ~ mossy_stone_brick_stairs

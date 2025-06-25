@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_concrete_powder
+setblock ~ ~ ~ pale_oak_planks

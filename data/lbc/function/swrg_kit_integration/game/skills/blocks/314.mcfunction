@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:attached_pumpkin_stem
+setblock ~ ~ ~ dead_horn_coral_fan

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_wall_sign
+setblock ~ ~ ~ coal_block

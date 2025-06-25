@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:vine
+setblock ~ ~ ~ dead_tube_coral_fan

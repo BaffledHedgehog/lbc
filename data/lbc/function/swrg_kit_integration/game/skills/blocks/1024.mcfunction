@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate
+setblock ~ ~ ~ waxed_copper_block

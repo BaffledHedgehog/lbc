@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_sign
+setblock ~ ~ ~ red_sandstone_slab

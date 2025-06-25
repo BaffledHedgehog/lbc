@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:soul_torch
+setblock ~ ~ ~ cut_sandstone_slab

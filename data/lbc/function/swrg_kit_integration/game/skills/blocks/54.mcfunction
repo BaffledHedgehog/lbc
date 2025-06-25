@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_log
+setblock ~ ~ ~ barrier

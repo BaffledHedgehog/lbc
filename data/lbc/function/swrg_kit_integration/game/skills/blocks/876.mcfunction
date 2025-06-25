@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_candle
+setblock ~ ~ ~ skeleton_skull

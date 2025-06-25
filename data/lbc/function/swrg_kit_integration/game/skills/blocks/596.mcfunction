@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purpur_pillar
+setblock ~ ~ ~ mycelium

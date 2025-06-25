@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_pressure_plate
+setblock ~ ~ ~ red_candle

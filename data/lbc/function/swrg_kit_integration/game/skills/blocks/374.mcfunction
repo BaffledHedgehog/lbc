@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_white_tulip
+setblock ~ ~ ~ exposed_cut_copper_slab

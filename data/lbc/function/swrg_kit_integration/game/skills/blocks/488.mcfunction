@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_carpet
+setblock ~ ~ ~ lava_cauldron

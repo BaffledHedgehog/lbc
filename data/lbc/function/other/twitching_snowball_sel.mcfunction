@@ -1,2 +1,2 @@
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:snowball"}}] run function lbc:other/twitching_snowball
-execute if entity @s[nbt={Inventory:[{id:"minecraft:snowball",Slot:-106b}]}] run function lbc:other/twitching_snowball_left
+execute if items entity @s weapon.offhand minecraft:snowball run function lbc:other/twitching_snowball_left

@@ -71,8 +71,8 @@ execute unless entity @s[nbt={Inventory:[{Slot:6b}]}] run item replace entity @s
 execute unless entity @s[nbt={Inventory:[{Slot:7b}]}] run item replace entity @s hotbar.7 from entity @p[gamemode=!spectator,tag=!sin_envy] hotbar.7
 execute unless entity @s[nbt={Inventory:[{Slot:8b}]}] run item replace entity @s hotbar.8 from entity @p[gamemode=!spectator,tag=!sin_envy] hotbar.8
 
-execute unless entity @s[nbt={Inventory:[{Slot:-106b}]}] run item replace entity @s weapon.offhand from entity @p[gamemode=!spectator,tag=!sin_envy] weapon.offhand
-execute unless entity @s[nbt={Inventory:[{Slot:100b}]}] run item replace entity @s armor.feet from entity @p[gamemode=!spectator,tag=!sin_envy] armor.feet
-execute unless entity @s[nbt={Inventory:[{Slot:101b}]}] run item replace entity @s armor.legs from entity @p[gamemode=!spectator,tag=!sin_envy] armor.legs
-execute unless entity @s[nbt={Inventory:[{Slot:102b}]}] run item replace entity @s armor.chest from entity @p[gamemode=!spectator,tag=!sin_envy] armor.chest
-execute unless entity @s[nbt={Inventory:[{Slot:103b}]}] run item replace entity @s armor.head from entity @p[gamemode=!spectator,tag=!sin_envy] armor.head
+execute unless items entity @s weapon.offhand * run item replace entity @s weapon.offhand from entity @p[gamemode=!spectator,tag=!sin_envy] weapon.offhand
+execute unless items entity @s armor.feet * run item replace entity @s armor.feet from entity @p[gamemode=!spectator,tag=!sin_envy] armor.feet
+execute unless items entity @s armor.legs * run item replace entity @s armor.legs from entity @p[gamemode=!spectator,tag=!sin_envy] armor.legs
+execute unless items entity @s armor.chest * run item replace entity @s armor.chest from entity @p[gamemode=!spectator,tag=!sin_envy] armor.chest
+execute unless items entity @s armor.head * run item replace entity @s armor.head from entity @p[gamemode=!spectator,tag=!sin_envy] armor.head

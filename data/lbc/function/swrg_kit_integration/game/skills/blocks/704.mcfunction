@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_tube_coral_fan
+setblock ~ ~ ~ player_head

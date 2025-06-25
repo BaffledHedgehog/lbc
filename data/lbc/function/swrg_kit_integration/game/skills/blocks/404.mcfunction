@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:creeper_wall_head
+setblock ~ ~ ~ gravel

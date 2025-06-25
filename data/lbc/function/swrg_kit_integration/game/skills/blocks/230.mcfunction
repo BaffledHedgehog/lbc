@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_wall_hanging_sign
+setblock ~ ~ ~ cracked_stone_bricks

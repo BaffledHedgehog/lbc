@@ -1,3 +1,4 @@
+
 execute if entity @s[tag=god_claw] run return run function lbc:swrg_kit_integration/game/skills/god_claw_tick_marker
 execute if entity @s[tag=expansion] run return run function lbc:swrg_kit_integration/game/skills/expansion_tick_marker
 execute if entity @s[tag=raycastmolnia] run return run function lbcr:raycast_molnia
@@ -30,7 +31,10 @@ execute if entity @s[tag=banhammer3d] run return run function lbc:items/swords/b
 execute if entity @s[tag=oraora_fireball] run return run function lbc:items/oraora/projectile_tick
 execute if entity @s[tag=danmaku] run return run function lbc:items/wands/danmaku_staff/projectile_tick
 execute if entity @s[tag=danmaku_bomb] run return run function lbc:items/wands/danmaku_staff/bomb_tick
+execute if entity @s[tag=danmaku_bomb_fast] run return run function lbc:items/wands/danmaku_staff/bomb_tick_fast
 execute if entity @s[tag=thromn_sword] run return run function lbc:items/swords/triple_golden_sword/tick
 execute if entity @s[tag=triplesword_portal] run return run function lbc:other/grimoire_dungeon/mobs/golden_skeleton/portal_tick
 execute if entity @s[tag=nano_trapik] run return run function lbc:swrg_kit_integration/items/nanotrapik_tick
 execute if entity @s[tag=govno_poprigun] run return run function lbc:swrg_kit_integration/items/govno_poprigun
+execute if entity @s[tag=homing_drone] run return run function lbc:items/misc/drone/tick
+execute if entity @s[tag=homing_evoker] run return run function lbc:items/trinket_effects/homing_evoker/tick

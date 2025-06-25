@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_weathered_copper_grate
+setblock ~ ~ ~ vault

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:deepslate_lapis_ore
+setblock ~ ~ ~ blackstone_stairs

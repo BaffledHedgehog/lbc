@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_exposed_copper
+setblock ~ ~ ~ sugar_cane

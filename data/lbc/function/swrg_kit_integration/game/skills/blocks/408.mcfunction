@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:piglin_wall_head
+setblock ~ ~ ~ gray_candle_cake

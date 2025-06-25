@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_bed
+setblock ~ ~ ~ blue_wool

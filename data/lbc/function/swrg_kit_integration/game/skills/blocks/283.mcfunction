@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_stained_glass
+setblock ~ ~ ~ dark_oak_leaves

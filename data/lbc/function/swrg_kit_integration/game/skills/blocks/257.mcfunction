@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:soul_sand
+setblock ~ ~ ~ cut_copper_stairs

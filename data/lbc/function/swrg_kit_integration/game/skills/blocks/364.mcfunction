@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_dark_oak_sapling
+setblock ~ ~ ~ end_stone_brick_wall

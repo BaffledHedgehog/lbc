@@ -58,9 +58,10 @@ execute if score #mode lbc.math matches 51 anchored eyes positioned ^ ^ ^ run fu
 execute if score #mode lbc.math matches 52 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/ice_wand/projectile/cast
 execute if score #mode lbc.math matches 53 run scoreboard players add @s danmaku 20
 execute if score #mode lbc.math matches 54 run function lbc:workingitems/random_spell_lol
+execute if score #mode lbc.math matches 55 anchored eyes positioned ^ ^ ^ run function lbc:items/wands/sauvojen_wand/cast_2
 
 playsound minecraft:item.book.page_turn master @s ~ ~ ~ 10
 tag @s remove raycaster
 scoreboard players operation @s mana -= unstable_spellbook_mana_use lbc.math
-scoreboard players operation @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mage:1}},Slot:100b},{components:{"minecraft:custom_data":{mage:1}},Slot:101b},{components:{"minecraft:custom_data":{mage:1}},Slot:102b},{components:{"minecraft:custom_data":{mage:1}},Slot:103b}]}] manamax += mage_set_bonus lbc.math
+execute if items entity @s armor.head *[minecraft:custom_data~{mage:1}] if items entity @s armor.chest *[minecraft:custom_data~{mage:1}] if items entity @s armor.legs *[minecraft:custom_data~{mage:1}] if items entity @s armor.feet *[minecraft:custom_data~{mage:1}] run scoreboard players operation @s manamax += mage_set_bonus lbc.math
 execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/trinket_effects/cast_wand

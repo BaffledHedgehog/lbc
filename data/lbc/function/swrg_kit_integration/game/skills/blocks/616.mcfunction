@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:orange_shulker_box
+setblock ~ ~ ~ oak_leaves

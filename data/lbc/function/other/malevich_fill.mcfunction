@@ -36,6 +36,9 @@ execute unless entity @s[nbt={Inventory:[{Slot:33b}]}] run loot replace entity @
 execute unless entity @s[nbt={Inventory:[{Slot:34b}]}] run loot replace entity @s inventory.25 loot lbc:malevich_rnd
 execute unless entity @s[nbt={Inventory:[{Slot:35b}]}] run loot replace entity @s inventory.26 loot lbc:malevich_rnd
 
-execute unless entity @s[nbt={Inventory:[{Slot:103b}]}] run loot replace entity @s armor.head loot lbc:malevich_rnd
+execute unless items entity @s armor.head * run loot replace entity @s armor.head loot lbc:malevich_rnd
+execute unless items entity @s armor.chest * run loot replace entity @s armor.chest loot lbc:malevich_rnd
+execute unless items entity @s armor.legs * run loot replace entity @s armor.legs loot lbc:malevich_rnd
+execute unless items entity @s armor.feet * run loot replace entity @s armor.feet loot lbc:malevich_rnd
 
-execute unless entity @s[nbt={Inventory:[{Slot:-106b}]}] run loot replace entity @s weapon.offhand loot lbc:malevich_rnd
+execute unless items entity @s weapon.offhand * run loot replace entity @s weapon.offhand loot lbc:malevich_rnd

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_blackstone_wall
+setblock ~ ~ ~ sculk_sensor

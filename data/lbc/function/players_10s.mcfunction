@@ -1,5 +1,5 @@
 execute at @s unless score @s nitro matches 4.. run scoreboard players add @s nitro 1
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{shulkshell:1}},Slot:103b}]}] run function lbc:workingitems/shulkershell
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{chaoschestplate:1}},Slot:103b}]}] unless entity @a[gamemode=!spectator,distance=..25,tag=nomagic_active] at @a[gamemode=!spectator,distance=0.01..25] run loot spawn ~ ~ ~ loot lbc:traps
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{jumpboost:1}},Slot:103b},{components:{"minecraft:custom_data":{jumpboost:1}},Slot:102b},{components:{"minecraft:custom_data":{jumpboost:1}},Slot:101b},{components:{"minecraft:custom_data":{jumpboost:1}},Slot:100b}]}] run function lbc:armor/traveller_set_bonus
+execute at @s if items entity @s armor.head *[minecraft:custom_data~{shulkshell:1}] run function lbc:workingitems/shulkershell
+execute at @s if items entity @s armor.head *[minecraft:custom_data~{chaoschestplate:1}] unless entity @a[gamemode=!spectator,distance=..25,tag=nomagic_active] at @a[gamemode=!spectator,distance=0.01..25] run loot spawn ~ ~ ~ loot lbc:traps
+execute at @s if items entity @s armor.head *[minecraft:custom_data~{jumpboost:1}] if items entity @s armor.chest *[minecraft:custom_data~{jumpboost:1}] if items entity @s armor.legs *[minecraft:custom_data~{jumpboost:1}] if items entity @s armor.feet *[minecraft:custom_data~{jumpboost:1}] run function lbc:armor/traveller_set_bonus
 execute if entity @s[tag=!sin_greed_active,predicate=lbc:the_end] run function lbc:damage_end

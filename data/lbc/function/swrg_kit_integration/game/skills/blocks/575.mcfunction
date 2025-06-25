@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_fence_gate
+setblock ~ ~ ~ medium_amethyst_bud

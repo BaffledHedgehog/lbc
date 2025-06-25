@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_wood
+setblock ~ ~ ~ birch_sign

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:short_grass
+setblock ~ ~ ~ brick_stairs

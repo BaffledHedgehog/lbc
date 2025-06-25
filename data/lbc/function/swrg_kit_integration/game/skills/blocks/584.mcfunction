@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_door
+setblock ~ ~ ~ mossy_stone_brick_slab

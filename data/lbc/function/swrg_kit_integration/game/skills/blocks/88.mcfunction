@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_leaves
+setblock ~ ~ ~ black_glazed_terracotta

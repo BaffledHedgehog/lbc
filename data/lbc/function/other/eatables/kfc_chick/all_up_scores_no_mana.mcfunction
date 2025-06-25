@@ -104,7 +104,7 @@ scoreboard players add @s coldowntimestand 1
 scoreboard players add @s coldownlightning 1
 scoreboard players add @s cd_helicopter 1
 scoreboard players add @s metal_divider_cd 1
-scoreboard players add @s nexus_compass_cd 1
+#scoreboard players add @s nexus_compass_cd 1
 scoreboard players add @s nexus_roadgun_cd 1
 scoreboard players add @s nexus_corrupter_cd 1
 scoreboard players add @s MagnumNyauwu 1

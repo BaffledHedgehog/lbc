@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_fence_gate
+setblock ~ ~ ~ mangrove_stairs

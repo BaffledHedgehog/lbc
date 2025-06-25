@@ -3,7 +3,8 @@ data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:c
 data modify block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".mode set value 1
 item replace entity @s weapon.mainhand from block 10241024 100 10241024 container.0
 item modify entity @s weapon.mainhand lbc:add_upgrade_desc
-
+scoreboard players add @s[scores={lbc.challenge=1}] challenge_score 1
+execute if score @s[scores={lbc.challenge=1}] challenge_score matches 20.. run function lbc:other/magic_academy/completed_challenge
 tellraw @s {"translate":"magic_academy_root","color":"green"}
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{evocator:1}}}}] run function lbc:other/magic_academy/upgrade/evocator
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{bassboost:1}}}}] run function lbc:other/magic_academy/upgrade/bassboost

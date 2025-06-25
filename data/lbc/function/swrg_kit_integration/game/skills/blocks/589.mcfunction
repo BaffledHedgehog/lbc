@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_door
+setblock ~ ~ ~ mud

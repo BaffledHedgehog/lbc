@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mossy_cobblestone_slab
+setblock ~ ~ ~ potted_crimson_roots

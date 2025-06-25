@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_wood
+setblock ~ ~ ~ birch_log

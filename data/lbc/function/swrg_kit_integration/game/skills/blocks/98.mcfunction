@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lapis_block
+setblock ~ ~ ~ blackstone_wall

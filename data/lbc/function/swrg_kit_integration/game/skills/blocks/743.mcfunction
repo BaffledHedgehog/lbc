@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:andesite_stairs
+setblock ~ ~ ~ potted_birch_sapling

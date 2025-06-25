@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -16,11 +16,15 @@
                                         {
                                             "id": "minecraft:raid_omen",
                                             "amplifier": 234,
-                                            "duration": 2
+                                            "duration": 20
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -62,11 +66,15 @@
                                         {
                                             "id": "minecraft:raid_omen",
                                             "amplifier": 235,
-                                            "duration": 2
+                                            "duration": 20
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -108,11 +116,15 @@
                                         {
                                             "id": "minecraft:raid_omen",
                                             "amplifier": 236,
-                                            "duration": 2
+                                            "duration": 20
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -154,11 +166,15 @@
                                         {
                                             "id": "minecraft:raid_omen",
                                             "amplifier": 237,
-                                            "duration": 2
+                                            "duration": 20
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {

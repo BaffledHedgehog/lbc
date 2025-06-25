@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_leaves
+setblock ~ ~ ~ black_carpet

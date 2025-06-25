@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_candle
+setblock ~ ~ ~ slime_block

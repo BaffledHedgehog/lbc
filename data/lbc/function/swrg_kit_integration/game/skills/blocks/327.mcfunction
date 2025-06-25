@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_brick_fence
+setblock ~ ~ ~ deepslate_copper_ore

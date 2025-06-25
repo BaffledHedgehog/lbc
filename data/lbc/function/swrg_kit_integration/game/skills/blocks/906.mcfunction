@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:amethyst_cluster
+setblock ~ ~ ~ sponge

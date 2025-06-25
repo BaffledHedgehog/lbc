@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:trapped_chest
+setblock ~ ~ ~ gray_glazed_terracotta

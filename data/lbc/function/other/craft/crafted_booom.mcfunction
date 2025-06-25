@@ -45,5 +45,5 @@ tag @s add exepted
 execute as @e[type=minecraft:item,distance=..1,tag=booom,limit=40] run function lbc:other/craft/crafted_booom_1
 tag @e[type=minecraft:item,distance=..1,tag=booom,limit=40] remove booom
 tag @s remove exepted
-summon minecraft:tnt
+summon minecraft:tnt ~ ~ ~ {fuse:0}
 kill @s

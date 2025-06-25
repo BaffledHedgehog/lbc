@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_shulker_box
+setblock ~ ~ ~ obsidian

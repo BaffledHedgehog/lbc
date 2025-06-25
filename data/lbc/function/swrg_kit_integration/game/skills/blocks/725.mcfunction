@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_ice
+setblock ~ ~ ~ polished_deepslate_wall

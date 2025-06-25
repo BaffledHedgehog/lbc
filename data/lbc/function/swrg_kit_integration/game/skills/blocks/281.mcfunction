@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_stained_glass
+setblock ~ ~ ~ dark_oak_fence_gate

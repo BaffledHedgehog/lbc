@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_button
+setblock ~ ~ ~ furnace

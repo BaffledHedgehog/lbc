@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_stained_glass
+setblock ~ ~ ~ dark_oak_hanging_sign

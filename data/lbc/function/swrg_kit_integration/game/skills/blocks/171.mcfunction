@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:obsidian
+setblock ~ ~ ~ cherry_hanging_sign

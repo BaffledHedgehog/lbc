@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:coal_ore
+setblock ~ ~ ~ bamboo_planks

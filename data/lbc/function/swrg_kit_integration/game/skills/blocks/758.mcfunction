@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:polished_andesite_slab
+setblock ~ ~ ~ potted_lily_of_the_valley

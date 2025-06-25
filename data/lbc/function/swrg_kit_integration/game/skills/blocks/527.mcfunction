@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_wall_banner
+setblock ~ ~ ~ lime_bed

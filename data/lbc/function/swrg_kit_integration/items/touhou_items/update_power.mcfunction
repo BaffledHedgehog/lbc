@@ -1,0 +1,10 @@
+execute if score @s touhou_power matches 10.. run attribute @s attack_damage modifier add touhou_power1 1 add_value
+execute if score @s touhou_power matches 25.. run attribute @s max_health modifier add touhou_power2 0.2 add_multiplied_base
+execute if score @s touhou_power matches 40.. run attribute @s attack_damage modifier add touhou_power3 1.5 add_value
+execute if score @s touhou_power matches 55.. run attribute @s max_health modifier add touhou_power4 0.2 add_multiplied_base
+execute if score @s touhou_power matches 70.. run attribute @s attack_damage modifier add touhou_power5 1 add_value
+execute if score @s touhou_power matches 85.. run attribute @s max_health modifier add touhou_power6 0.2 add_multiplied_base
+execute if score @s touhou_power matches 100.. run attribute @s attack_damage modifier add touhou_power7 1.5 add_value
+execute if score @s touhou_power matches 115.. run attribute @s max_health modifier add touhou_power8 0.2 add_multiplied_base
+execute if score @s touhou_power matches 130.. run attribute @s attack_damage modifier add touhou_power9 1 add_value
+execute if score @s touhou_power matches 150 run attribute @s attack_damage modifier add touhou_power10 2 add_value

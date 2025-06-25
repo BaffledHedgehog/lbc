@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sniffer_egg
+setblock ~ ~ ~ piglin_wall_head

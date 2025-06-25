@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_concrete_powder
+setblock ~ ~ ~ pale_oak_slab

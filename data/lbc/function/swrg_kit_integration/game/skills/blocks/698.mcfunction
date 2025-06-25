@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_horn_coral
+setblock ~ ~ ~ pink_wall_banner

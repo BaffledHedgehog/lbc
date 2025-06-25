@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pearlescent_froglight
+setblock ~ ~ ~ waxed_weathered_copper_door

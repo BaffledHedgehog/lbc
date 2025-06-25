@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:piston
+setblock ~ ~ ~ brown_candle

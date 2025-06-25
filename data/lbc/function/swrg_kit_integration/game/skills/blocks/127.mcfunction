@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:seagrass
+setblock ~ ~ ~ brown_banner

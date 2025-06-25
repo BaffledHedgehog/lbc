@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,8 +13,7 @@
                                 "minecraft:item_model": "lbc:armors/technomk2_helmet",
                                 "minecraft:max_damage": 9000,
                                 "minecraft:equippable":{"slot":"head","asset_id":"lbc:technomk2"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
+                                "minecraft:attribute_modifiers":  [
                                         {
                                             "type": "minecraft:armor",
                                             "slot": "head",
@@ -30,7 +29,7 @@
                                             "operation": "add_value"
                                         }
                                     ]
-                                }
+                                
                             }
                         },
                         {

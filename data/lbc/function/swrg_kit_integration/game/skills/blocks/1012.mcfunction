@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spore_blossom
+setblock ~ ~ ~ warped_roots

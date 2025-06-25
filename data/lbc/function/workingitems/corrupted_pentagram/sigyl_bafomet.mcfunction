@@ -1,7 +1,4 @@
 
-execute store result score tmp lbc.math run data get entity @s Rotation[0] 1
-scoreboard players add tmp lbc.math 10
-execute store result entity @s Rotation[0] float 1 run scoreboard players get tmp lbc.math
 
 
 

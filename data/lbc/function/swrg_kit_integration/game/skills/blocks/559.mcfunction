@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:nether_brick_slab
+setblock ~ ~ ~ mangrove_fence

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_fence
+setblock ~ ~ ~ cut_copper

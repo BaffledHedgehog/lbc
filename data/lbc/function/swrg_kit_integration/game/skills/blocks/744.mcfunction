@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_nether_brick_stairs
+setblock ~ ~ ~ potted_blue_orchid

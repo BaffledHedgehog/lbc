@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_wall_banner
+setblock ~ ~ ~ light_gray_wool

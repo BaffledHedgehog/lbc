@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:raw_copper_block
+setblock ~ ~ ~ waxed_oxidized_cut_copper

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:large_amethyst_bud
+setblock ~ ~ ~ spore_blossom

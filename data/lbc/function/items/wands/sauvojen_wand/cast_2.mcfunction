@@ -1,0 +1,3 @@
+playsound minecraft:entity.wither.spawn master @a ~ ~ ~ 1 1 0.5
+summon minecraft:ghast ^ ^ ^4 {DeathLootTable:"lbc:sauvojen_tuntija",PersistenceRequired:1b,Health:100024.0f,ExplosionPower:3,Tags:["sauvojen_tuntija","rcdenyalways"],CustomName:{"bold":true,"color":"blue","italic":false,"text":"Sauvojen Tuntija"},attributes:[{id:"minecraft:max_health",base:100024.0d},{id:"minecraft:follow_range",base:256},{id:"minecraft:knockback_resistance",base:256}]}
+execute positioned ^ ^ ^4 as @e[type=ghast,limit=1,distance=..0.01,tag=sauvojen_tuntija] at @s rotated as @p[tag=caster,gamemode=!spectator] run function lbc:raycast_vpered

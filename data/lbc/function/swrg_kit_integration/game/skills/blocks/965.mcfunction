@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:waxed_exposed_cut_copper
+setblock ~ ~ ~ sweet_berry_bush

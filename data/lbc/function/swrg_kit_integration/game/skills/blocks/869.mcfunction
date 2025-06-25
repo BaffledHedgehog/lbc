@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:quartz_bricks
+setblock ~ ~ ~ sea_lantern

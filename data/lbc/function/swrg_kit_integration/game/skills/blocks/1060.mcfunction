@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:heavy_core
+setblock ~ ~ ~ weathered_copper

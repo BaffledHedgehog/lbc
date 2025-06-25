@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:copper_bulb
+setblock ~ ~ ~ vine

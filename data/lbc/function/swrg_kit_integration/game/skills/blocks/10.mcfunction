@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dirt
+setblock ~ ~ ~ acacia_sapling

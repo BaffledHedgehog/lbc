@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_blue_bed
+setblock ~ ~ ~ blue_glazed_terracotta

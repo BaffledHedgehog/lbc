@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_glazed_terracotta
+setblock ~ ~ ~ open_eyeblossom

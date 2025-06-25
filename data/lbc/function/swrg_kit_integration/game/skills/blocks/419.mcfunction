@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:hopper
+setblock ~ ~ ~ green_banner

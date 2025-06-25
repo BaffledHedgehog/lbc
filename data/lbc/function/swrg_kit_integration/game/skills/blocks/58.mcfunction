@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_spruce_log
+setblock ~ ~ ~ bee_nest

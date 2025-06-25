@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_pressure_plate
+setblock ~ ~ ~ creeper_head

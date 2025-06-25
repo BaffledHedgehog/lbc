@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:white_bed
+setblock ~ ~ ~ blue_carpet

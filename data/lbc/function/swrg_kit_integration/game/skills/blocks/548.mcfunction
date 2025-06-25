@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_slab
+setblock ~ ~ ~ magenta_concrete_powder

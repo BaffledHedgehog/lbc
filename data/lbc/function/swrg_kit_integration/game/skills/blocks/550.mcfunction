@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone_slab
+setblock ~ ~ ~ magenta_shulker_box

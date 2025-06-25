@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": {
@@ -21,9 +21,7 @@
                             "components": {
                                 "minecraft:item_model": "minecraft:golden_axe",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255
-                                    }
+                                    "minecraft:efficiency": 255
                                 }
                             }
                         },
@@ -75,9 +73,7 @@
                             "components": {
                                 "minecraft:item_model": "minecraft:golden_hoe",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255
-                                    }
+                                    "minecraft:efficiency": 255
                                 }
                             }
                         },
@@ -178,9 +174,7 @@
                             "components": {
                                 "minecraft:item_model": "minecraft:golden_shovel",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255
-                                    }
+                                    "minecraft:efficiency": 255
                                 }
                             }
                         },
@@ -232,10 +226,8 @@
                             "components": {
                                 "minecraft:item_model": "minecraft:golden_pickaxe",
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:efficiency": 255,
-                                        "minecraft:silk_touch": 1
-                                    }
+                                    "minecraft:efficiency": 255,
+                                    "minecraft:silk_touch": 1
                                 }
                             }
                         },

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light_weighted_pressure_plate
+setblock ~ ~ ~ gray_shulker_box

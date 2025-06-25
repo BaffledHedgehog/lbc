@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cracked_nether_bricks
+setblock ~ ~ ~ sculk_vein

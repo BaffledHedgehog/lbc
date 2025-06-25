@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:comparator
+setblock ~ ~ ~ gray_stained_glass_pane

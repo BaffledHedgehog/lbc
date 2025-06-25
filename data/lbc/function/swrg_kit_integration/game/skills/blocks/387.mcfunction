@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:spruce_button
+setblock ~ ~ ~ flowering_azalea_leaves

@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 32,
@@ -18,29 +18,26 @@
                                     "DeathLootTable": "lbc:fatskeleton",
                                     "PersistenceRequired": true,
                                     "CustomNameVisible": true,
-                                    "CustomName": "{\"translate\":\"fat_skeleton\",\"italic\":false}",
-                                    "HandItems": [
-                                        {
+                                    "CustomName": {
+                                        "translate": "fat_skeleton",
+                                        "italic": false
+                                    },
+                                    "equipment": {
+                                        "mainhand": {
                                             "id": "minecraft:bone",
                                             "count": 1,
                                             "components": {
-                                                "item_name": "{\"translate\": \"omega_bone\",\"italic\": false}",
+                                                "item_name": {
+                                                    "translate": "omega_bone",
+                                                    "italic": false
+                                                },
                                                 "minecraft:enchantments": {
                                                     "minecraft:knockback": 1,
                                                     "vanishing_curse": 1
                                                 }
                                             }
                                         },
-                                        {}
-                                    ],
-                                    "HandDropChances": [
-                                        0,
-                                        0
-                                    ],
-                                    "ArmorItems": [
-                                        {},
-                                        {},
-                                        {
+                                        "chest": {
                                             "id": "minecraft:iron_chestplate",
                                             "count": 1,
                                             "components": {
@@ -50,7 +47,7 @@
                                                 "minecraft:enchantment_glint_override": false
                                             }
                                         },
-                                        {
+                                        "head": {
                                             "id": "minecraft:skeleton_skull",
                                             "count": 1,
                                             "components": {
@@ -60,13 +57,15 @@
                                                 "minecraft:enchantment_glint_override": false
                                             }
                                         }
-                                    ],
-                                    "ArmorDropChances": [
-                                        0,
-                                        0,
-                                        0,
-                                        0
-                                    ],
+                                    },
+                                    "drop_chances": {
+                                        "mainhand": 0.0,
+                                        "offhand": 0.0,
+                                        "head": 0.0,
+                                        "chest": 0.0,
+                                        "legs": 0.0,
+                                        "feet": 0.0
+                                    },
                                     "attributes": [
                                         {
                                             "id": "minecraft:movement_speed",

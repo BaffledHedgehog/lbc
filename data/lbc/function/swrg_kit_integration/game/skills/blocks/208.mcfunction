@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bamboo_wall_sign
+setblock ~ ~ ~ cobbled_deepslate_wall

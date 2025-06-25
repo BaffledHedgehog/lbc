@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxidized_copper_bulb
+setblock ~ ~ ~ warped_button

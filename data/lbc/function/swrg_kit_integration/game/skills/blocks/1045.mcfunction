@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_basalt
+setblock ~ ~ ~ waxed_oxidized_copper_grate

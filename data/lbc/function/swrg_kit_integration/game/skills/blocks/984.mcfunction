@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:exposed_copper_trapdoor
+setblock ~ ~ ~ tube_coral_fan

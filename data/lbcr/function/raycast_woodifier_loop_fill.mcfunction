@@ -1,11 +1,11 @@
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:oak_planks replace #minecraft:woodifier/oak
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:birch_planks replace #minecraft:woodifier/birch
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:spruce_planks replace #minecraft:woodifier/spruce
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:cherry_planks replace #minecraft:woodifier/cherry
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:mangrove_planks replace #minecraft:woodifier/mangrove
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:dark_oak_planks replace #minecraft:woodifier/dark_oak
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:crimson_planks replace #minecraft:woodifier/crimson
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:warped_planks replace #minecraft:woodifier/warped
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:bamboo_planks replace #minecraft:woodifier/bamboo
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:jungle_planks replace #minecraft:woodifier/jungle
-fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:acacia_planks replace #minecraft:woodifier/acacia
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:oak_planks replace #minecraft:woodifier/oak strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:birch_planks replace #minecraft:woodifier/birch strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:spruce_planks replace #minecraft:woodifier/spruce strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:cherry_planks replace #minecraft:woodifier/cherry strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:mangrove_planks replace #minecraft:woodifier/mangrove strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:dark_oak_planks replace #minecraft:woodifier/dark_oak strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:crimson_planks replace #minecraft:woodifier/crimson strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:warped_planks replace #minecraft:woodifier/warped strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:bamboo_planks replace #minecraft:woodifier/bamboo strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:jungle_planks replace #minecraft:woodifier/jungle strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:acacia_planks replace #minecraft:woodifier/acacia strict

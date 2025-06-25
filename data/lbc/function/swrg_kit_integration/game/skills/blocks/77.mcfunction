@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stripped_birch_wood
+setblock ~ ~ ~ birch_trapdoor

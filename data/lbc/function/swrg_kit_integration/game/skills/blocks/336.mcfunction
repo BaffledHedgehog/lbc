@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:end_portal
+setblock ~ ~ ~ deepslate_tile_wall

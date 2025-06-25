@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lantern
+setblock ~ ~ ~ pumpkin

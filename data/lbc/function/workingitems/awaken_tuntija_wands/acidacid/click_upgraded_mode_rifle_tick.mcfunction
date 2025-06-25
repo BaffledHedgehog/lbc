@@ -1,4 +1,4 @@
-execute store result score #tier lbc.math run data get entity @s Inventory[{components:{"minecraft:acidacid_wand":1b,"minecraft:upgraded":1b}}].components."minecraft:custom_data".tier 1
+execute store result score #tier lbc.math run data get entity @s Inventory[{components:{"minecraft:custom_data":{"minecraft:acidacid_wand":1,"minecraft:upgraded":1}}}].components."minecraft:custom_data".tier 1
 summon minecraft:marker ^ ^ ^ {data:{lifetime:200},Tags:["great_acid_burst","rare","slowraycast","magic"]}
 playsound minecraft:entity.item.break master @a ~ ~ ~ 1 2
 data modify entity @e[type=minecraft:marker,distance=..0.001,tag=great_acid_burst,tag=!actived,limit=1] Rotation set from entity @s Rotation

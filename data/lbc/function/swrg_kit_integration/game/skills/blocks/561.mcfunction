@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_sandstone_slab
+setblock ~ ~ ~ mangrove_hanging_sign

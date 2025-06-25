@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_carpet
+setblock ~ ~ ~ lectern

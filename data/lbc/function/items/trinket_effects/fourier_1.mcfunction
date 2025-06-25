@@ -1,0 +1,1 @@
+execute at @s anchored eyes positioned ^ ^ ^ run function lbc:items/trinket_effects/fourier_11

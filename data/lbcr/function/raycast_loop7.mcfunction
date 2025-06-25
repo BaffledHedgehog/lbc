@@ -5,7 +5,7 @@ execute if block ~ ~ ~ #minecraft:glasses_2 run function lbcr:raycast_loop7_stab
 particle minecraft:dust_color_transition{from_color:[0.0,0.7,0.4],scale:2.0f,to_color:[0.0,5.0,1.0]} ~ ~ ~ 0.1 0.1 0.1 0.01 1 force
 playsound minecraft:item.trident.return master @a ~ ~ ~ 0.1 0
 execute if entity @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..15] run function lbcr:dmg_bypl_8
-execute if entity @s[predicate=lbc:chance0_5] run function lbcr:raycast_loop7_prikol
+execute if entity @s[predicate=lbc:chance0_125] run function lbcr:raycast_loop7_prikol
 
 execute unless block ~0.26 ~ ~ #minecraft:airs_or_glass if entity @s[scores={Distance=..6}] rotated ~45 ~ positioned ^ ^ ^0.4 run tp @s ~ ~ ~ ~ ~
 execute unless block ~-0.26 ~ ~ #minecraft:airs_or_glass if entity @s[scores={Distance=..6}] rotated ~-45 ~ positioned ^ ^ ^0.4 run tp @s ~ ~ ~ ~ ~

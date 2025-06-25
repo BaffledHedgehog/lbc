@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:suspicious_sand
+setblock ~ ~ ~ bamboo_button

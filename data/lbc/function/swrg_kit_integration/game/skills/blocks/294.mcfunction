@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone_bricks
+setblock ~ ~ ~ dark_oak_wood

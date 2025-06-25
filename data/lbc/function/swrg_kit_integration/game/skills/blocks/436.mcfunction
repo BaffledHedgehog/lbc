@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_terracotta
+setblock ~ ~ ~ heavy_core

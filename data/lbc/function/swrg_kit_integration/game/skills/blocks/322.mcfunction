@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone_brick_stairs
+setblock ~ ~ ~ deepslate_brick_slab

@@ -1,0 +1,59 @@
+execute if items entity @s container.0 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 0
+execute if items entity @s container.1 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 1
+execute if items entity @s container.2 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 2
+execute if items entity @s container.3 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 3
+execute if items entity @s container.4 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 4
+execute if items entity @s container.5 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 5
+execute if items entity @s container.6 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 6
+execute if items entity @s container.7 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 7
+execute if items entity @s container.8 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 8
+execute if items entity @s container.9 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 9
+execute if items entity @s container.10 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 10
+execute if items entity @s container.11 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 11
+execute if items entity @s container.12 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 12
+execute if items entity @s container.13 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 13
+execute if items entity @s container.14 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 14
+execute if items entity @s container.15 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 15
+execute if items entity @s container.16 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 16
+execute if items entity @s container.17 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 17
+execute if items entity @s container.18 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 18
+execute if items entity @s container.19 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 19
+execute if items entity @s container.20 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 20
+execute if items entity @s container.21 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 21
+execute if items entity @s container.22 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 22
+execute if items entity @s container.23 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 23
+execute if items entity @s container.24 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 24
+execute if items entity @s container.25 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 25
+execute if items entity @s container.26 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 26
+execute if items entity @s container.27 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 27
+execute if items entity @s container.28 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 28
+execute if items entity @s container.29 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 29
+execute if items entity @s container.30 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 30
+execute if items entity @s container.31 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 31
+execute if items entity @s container.32 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 32
+execute if items entity @s container.33 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 33
+execute if items entity @s container.34 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 34
+execute if items entity @s container.35 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 35
+execute if items entity @s container.36 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 36
+execute if items entity @s container.37 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 37
+execute if items entity @s container.38 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 38
+execute if items entity @s container.39 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 39
+execute if items entity @s container.40 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 40
+execute if items entity @s container.41 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 41
+execute if items entity @s container.42 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 42
+execute if items entity @s container.43 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 43
+execute if items entity @s container.44 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 44
+execute if items entity @s container.45 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 45
+execute if items entity @s container.46 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 46
+execute if items entity @s container.47 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 47
+execute if items entity @s container.48 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 48
+execute if items entity @s container.49 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 49
+execute if items entity @s container.50 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 50
+execute if items entity @s container.51 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 51
+execute if items entity @s container.52 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 52
+execute if items entity @s container.53 carrot_on_a_stick[custom_data~{upgraded:1}] run data modify storage lbc.math slot set value 53
+function lbc:items/bows/kaname_bow/hit_find_stor with storage lbc.math
+
+
+execute if items entity @s container.* carrot_on_a_stick[custom_data~{upgraded:1}] run function lbc:items/bows/kaname_bow/hit_find
+execute if items entity @s weapon.* carrot_on_a_stick[custom_data~{upgraded:1}] run function lbc:items/bows/kaname_bow/hit_find

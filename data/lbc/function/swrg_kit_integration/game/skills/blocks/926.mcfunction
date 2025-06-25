@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:powder_snow
+setblock ~ ~ ~ stone

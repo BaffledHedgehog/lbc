@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_shulker_box
+setblock ~ ~ ~ oak_trapdoor

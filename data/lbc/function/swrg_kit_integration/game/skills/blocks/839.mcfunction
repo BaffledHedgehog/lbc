@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:honey_block
+setblock ~ ~ ~ red_wool

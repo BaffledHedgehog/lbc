@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cobbled_deepslate
+setblock ~ ~ ~ waxed_copper_bulb

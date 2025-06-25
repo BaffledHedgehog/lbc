@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_candle_cake
+setblock ~ ~ ~ soul_fire

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sandstone_stairs
+setblock ~ ~ ~ diorite_slab

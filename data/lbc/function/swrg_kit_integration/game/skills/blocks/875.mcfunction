@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_candle
+setblock ~ ~ ~ shulker_box

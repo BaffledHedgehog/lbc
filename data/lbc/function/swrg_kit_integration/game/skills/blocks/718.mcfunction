@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_horn_coral_wall_fan
+setblock ~ ~ ~ polished_blackstone_pressure_plate

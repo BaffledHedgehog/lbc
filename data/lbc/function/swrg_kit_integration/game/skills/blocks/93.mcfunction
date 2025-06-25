@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:sponge
+setblock ~ ~ ~ black_wall_banner

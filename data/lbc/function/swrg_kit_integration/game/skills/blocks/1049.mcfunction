@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_azalea_bush
+setblock ~ ~ ~ waxed_oxidized_cut_copper_stairs

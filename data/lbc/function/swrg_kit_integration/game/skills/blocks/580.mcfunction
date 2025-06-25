@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_fence
+setblock ~ ~ ~ mossy_cobblestone

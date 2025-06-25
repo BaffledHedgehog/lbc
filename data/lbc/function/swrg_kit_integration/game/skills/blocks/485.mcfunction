@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_carpet
+setblock ~ ~ ~ large_amethyst_bud

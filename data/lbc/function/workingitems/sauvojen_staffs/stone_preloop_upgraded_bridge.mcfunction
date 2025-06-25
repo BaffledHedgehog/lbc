@@ -1,15 +1,15 @@
-fill ^-1 ^ ^ ^1 ^ ^2.9 minecraft:crying_obsidian
-fill ^-1 ^ ^2 ^1 ^ ^4.9 minecraft:obsidian
-fill ^-1 ^ ^4 ^1 ^ ^6.9 minecraft:blackstone
-fill ^-1 ^ ^6 ^1 ^ ^8.9 minecraft:smooth_basalt
-fill ^-1 ^ ^8 ^1 ^ ^10.9 minecraft:basalt
-fill ^-1 ^ ^10 ^1 ^ ^12.9 minecraft:deepslate_gold_ore
-fill ^-1 ^ ^12 ^1 ^ ^14.9 minecraft:deepslate_iron_ore
-fill ^-1 ^ ^14 ^1 ^ ^16.9 minecraft:deepslate
-fill ^-1 ^ ^16 ^1 ^ ^18.9 minecraft:tuff
-fill ^-1 ^ ^18 ^1 ^ ^20.9 minecraft:gold_ore
-fill ^-1 ^ ^20 ^1 ^ ^22.9 minecraft:iron_ore
-fill ^-1 ^ ^22 ^1 ^ ^24.9 minecraft:stone
-fill ^-1 ^ ^24 ^1 ^ ^26.9 minecraft:dripstone_block
-fill ^-1 ^ ^26 ^1 ^ ^28.9 minecraft:calcite
-fill ^-1 ^ ^28 ^1 ^ ^30.9 minecraft:diorite
+fill ^-1 ^ ^ ^1 ^ ^2.9 minecraft:crying_obsidian strict
+fill ^-1 ^ ^2 ^1 ^ ^4.9 minecraft:obsidian strict
+fill ^-1 ^ ^4 ^1 ^ ^6.9 minecraft:blackstone strict
+fill ^-1 ^ ^6 ^1 ^ ^8.9 minecraft:smooth_basalt strict
+fill ^-1 ^ ^8 ^1 ^ ^10.9 minecraft:basalt strict
+fill ^-1 ^ ^10 ^1 ^ ^12.9 minecraft:deepslate_gold_ore strict
+fill ^-1 ^ ^12 ^1 ^ ^14.9 minecraft:deepslate_iron_ore strict
+fill ^-1 ^ ^14 ^1 ^ ^16.9 minecraft:deepslate strict
+fill ^-1 ^ ^16 ^1 ^ ^18.9 minecraft:tuff strict
+fill ^-1 ^ ^18 ^1 ^ ^20.9 minecraft:gold_ore strict
+fill ^-1 ^ ^20 ^1 ^ ^22.9 minecraft:iron_ore strict
+fill ^-1 ^ ^22 ^1 ^ ^24.9 minecraft:stone strict
+fill ^-1 ^ ^24 ^1 ^ ^26.9 minecraft:dripstone_block strict
+fill ^-1 ^ ^26 ^1 ^ ^28.9 minecraft:calcite strict
+fill ^-1 ^ ^28 ^1 ^ ^30.9 minecraft:diorite strict

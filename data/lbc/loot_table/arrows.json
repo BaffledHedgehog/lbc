@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": {
@@ -453,12 +453,16 @@
                                         {
                                             "id": "minecraft:raid_omen",
                                             "amplifier": 101,
-                                            "duration": 2,
+                                            "duration": 20,
                                             "show_particles": false
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -494,12 +498,16 @@
                                         {
                                             "id": "minecraft:raid_omen",
                                             "amplifier": 102,
-                                            "duration": 2,
+                                            "duration": 20,
                                             "show_particles": false
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -597,12 +605,16 @@
                                         {
                                             "id": "minecraft:raid_omen",
                                             "amplifier": 103,
-                                            "duration": 2,
+                                            "duration": 20,
                                             "show_particles": false
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -649,7 +661,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -690,7 +706,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {
@@ -730,7 +750,11 @@
                                         }
                                     ]
                                 },
-                                "minecraft:hide_additional_tooltip": {}
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:potion_contents"
+                                    ]
+                                }
                             }
                         },
                         {

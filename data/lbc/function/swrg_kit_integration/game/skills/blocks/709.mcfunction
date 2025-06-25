@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:tube_coral_fan
+setblock ~ ~ ~ polished_andesite_slab

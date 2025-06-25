@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:composter
+setblock ~ ~ ~ red_stained_glass_pane

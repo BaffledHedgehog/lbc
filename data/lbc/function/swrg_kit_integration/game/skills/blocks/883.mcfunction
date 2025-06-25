@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brown_candle
+setblock ~ ~ ~ smooth_basalt

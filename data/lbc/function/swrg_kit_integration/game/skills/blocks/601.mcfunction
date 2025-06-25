@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pitcher_plant
+setblock ~ ~ ~ nether_bricks

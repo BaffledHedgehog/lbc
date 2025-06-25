@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:ladder
+setblock ~ ~ ~ chiseled_tuff_bricks

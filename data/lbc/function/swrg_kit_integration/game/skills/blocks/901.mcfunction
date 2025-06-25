@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_candle_cake
+setblock ~ ~ ~ soul_sand

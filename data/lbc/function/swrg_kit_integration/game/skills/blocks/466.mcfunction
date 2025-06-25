@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:light
+setblock ~ ~ ~ jungle_hanging_sign

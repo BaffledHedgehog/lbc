@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_nylium
+setblock ~ ~ ~ purpur_slab

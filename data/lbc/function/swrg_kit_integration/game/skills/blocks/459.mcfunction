@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_stairs
+setblock ~ ~ ~ jack_o_lantern

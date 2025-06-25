@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:weathered_copper_door
+setblock ~ ~ ~ trapped_chest

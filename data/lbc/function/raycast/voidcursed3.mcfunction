@@ -1,4 +1,4 @@
-fill ~4 ~4.05 ~4 ~-4 ~-4.05 ~-4 minecraft:air replace
+fill ~4 ~4.05 ~4 ~-4 ~-4.05 ~-4 minecraft:air strict
 execute as @e[type=#minecraft:mobs,distance=..4,tag=!curseowner,tag=!spectator] run damage @s 0.3 generic
 tp @e[type=!minecraft:player,distance=..8,tag=!void_curse,tag=!curseowner] @s
 

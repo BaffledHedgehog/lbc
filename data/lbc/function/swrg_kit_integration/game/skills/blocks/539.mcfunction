@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_sandstone_stairs
+setblock ~ ~ ~ lime_wool

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_crimson_fungus
+setblock ~ ~ ~ redstone_wire

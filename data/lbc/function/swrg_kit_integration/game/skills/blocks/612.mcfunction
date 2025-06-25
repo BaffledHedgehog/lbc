@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:structure_void
+setblock ~ ~ ~ oak_door

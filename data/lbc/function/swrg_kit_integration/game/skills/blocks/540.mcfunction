@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_slab
+setblock ~ ~ ~ lodestone

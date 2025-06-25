@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lime_wall_banner
+setblock ~ ~ ~ lily_pad

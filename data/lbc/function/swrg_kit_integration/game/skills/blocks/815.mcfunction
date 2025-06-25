@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_pressure_plate
+setblock ~ ~ ~ red_bed

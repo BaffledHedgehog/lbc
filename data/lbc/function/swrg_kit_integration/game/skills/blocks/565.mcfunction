@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_sandstone
+setblock ~ ~ ~ mangrove_pressure_plate

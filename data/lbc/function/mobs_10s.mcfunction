@@ -1,1 +1,2 @@
 execute if entity @s[type=minecraft:skeleton,tag=golden_skeleton] run function lbc:other/grimoire_dungeon/mobs/golden_skeleton/10s
+execute if score antigravity lbc.math matches 10.. run function lbc:drops/antigravity/refresh_attribute with storage lbc.math

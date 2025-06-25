@@ -5,5 +5,5 @@ fill ~ ~ ~ ~ 255 ~ minecraft:air
 execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:falling_block ~ ~40 ~ {BlockState:{Name:"minecraft:anvil"},Time:1,DropItem:1b,HurtEntities:1b,FallHurtMax:1,FallHurtAmount:1.0f,Motion:[0.0d,0.0d,0.0d]}
 execute align xz positioned ~0.5 ~ ~0.5 run summon minecraft:falling_block ~ ~42 ~ {BlockState:{Name:"minecraft:anvil"},Time:1,DropItem:1b,HurtEntities:1b,FallHurtMax:1,FallHurtAmount:1.0f,Motion:[0.0d,0.0d,0.0d]}
 
-title @s title ""
+title @s title " "
 title @s subtitle {"translate":"look_up"}

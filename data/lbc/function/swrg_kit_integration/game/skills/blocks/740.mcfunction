@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_sandstone_stairs
+setblock ~ ~ ~ potted_azalea_bush

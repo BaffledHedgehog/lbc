@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:bell
+setblock ~ ~ ~ prismarine_wall

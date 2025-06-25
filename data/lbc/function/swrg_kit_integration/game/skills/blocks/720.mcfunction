@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brain_coral_wall_fan
+setblock ~ ~ ~ polished_blackstone_stairs

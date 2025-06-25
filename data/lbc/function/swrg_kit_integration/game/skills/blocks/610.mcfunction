@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_nether_bricks
+setblock ~ ~ ~ note_block

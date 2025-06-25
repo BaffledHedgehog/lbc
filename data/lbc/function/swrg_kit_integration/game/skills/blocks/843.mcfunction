@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crying_obsidian
+setblock ~ ~ ~ redstone_torch

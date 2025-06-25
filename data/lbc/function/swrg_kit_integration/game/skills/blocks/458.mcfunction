@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:acacia_stairs
+setblock ~ ~ ~ test_block

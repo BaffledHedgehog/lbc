@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cracked_deepslate_tiles
+setblock ~ ~ ~ waxed_oxidized_copper_bulb

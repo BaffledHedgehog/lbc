@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:torchflower_crop
+setblock ~ ~ ~ nether_brick_stairs

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:birch_pressure_plate
+setblock ~ ~ ~ crimson_button

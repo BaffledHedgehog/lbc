@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:crimson_fungus
+setblock ~ ~ ~ purpur_stairs

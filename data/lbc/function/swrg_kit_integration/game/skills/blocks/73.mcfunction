@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_wood
+setblock ~ ~ ~ birch_sapling

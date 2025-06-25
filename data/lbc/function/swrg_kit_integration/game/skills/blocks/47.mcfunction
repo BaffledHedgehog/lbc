@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oak_log
+setblock ~ ~ ~ bamboo_sign

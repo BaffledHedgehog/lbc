@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:fire_coral_wall_fan
+setblock ~ ~ ~ polished_deepslate

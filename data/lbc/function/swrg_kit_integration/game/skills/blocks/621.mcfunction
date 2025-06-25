@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_shulker_box
+setblock ~ ~ ~ oak_sign

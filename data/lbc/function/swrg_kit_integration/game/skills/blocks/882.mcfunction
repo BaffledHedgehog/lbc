@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:blue_candle
+setblock ~ ~ ~ smoker

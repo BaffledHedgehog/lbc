@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dispenser
+setblock ~ ~ ~ blast_furnace

@@ -9,4 +9,4 @@ scoreboard players operation @e[type=minecraft:small_fireball,tag=fireb,sort=nea
 # kill arrow
 kill @e[type=minecraft:arrow,tag=fire,sort=nearest,limit=1]
 # Recharging crossbow
-item replace entity @s weapon.mainhand with minecraft:crossbow[minecraft:enchantments={levels:{"minecraft:quick_charge":5}},minecraft:custom_name='{"bold":true,"color":"yellow","italic":false,"translate":"blaze_crossbow"}',minecraft:lore=['{"translate":"ghast_crossbow.lore","color": "white","italic":false}'],minecraft:charged_projectiles=[{id:"minecraft:arrow",count:1}],minecraft:custom_data={transformable:1,bow:1,fastfired:1,craftusable:1}] 1
+item replace entity @s weapon.mainhand with minecraft:crossbow[minecraft:enchantments={"minecraft:quick_charge":5},minecraft:custom_name={"bold":true,"color":"yellow","italic":false,"translate":"blaze_crossbow"},minecraft:lore=[{"translate":"ghast_crossbow.lore","color": "white","italic":false}],minecraft:charged_projectiles=[{id:"minecraft:arrow",count:1}],minecraft:custom_data={transformable:1,bow:1,fastfired:1,craftusable:1}] 1

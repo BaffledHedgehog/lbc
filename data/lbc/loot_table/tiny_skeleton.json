@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -36,9 +36,7 @@
                             "components": {
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:thorns": 15
-                                    }
+                                    "minecraft:thorns": 15
                                 }
                             }
                         },

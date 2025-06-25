@@ -14,11 +14,11 @@ particle minecraft:lava ~ ~1.5 ~ 0.2 2 0.2 0.5 30 force
 execute as @e[type=#minecraft:mobs,type=!#lbc:bloody_slabby,distance=..4] run damage @s 20 arrow at ~ ~ ~
 
 
-execute positioned ~1 ~1 ~1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab"]}
-execute positioned ~-1 ~1 ~1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab"]}
-execute positioned ~1 ~1 ~-1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab"]}
-execute positioned ~-1 ~1 ~-1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab"]}
-execute positioned ~1 ~-1 ~1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab"]}
-execute positioned ~-1 ~-1 ~1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab"]}
-execute positioned ~1 ~-1 ~-1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab"]}
-execute positioned ~-1 ~-1 ~-1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab"]}
+execute positioned ~1 ~1 ~1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab","magic"]}
+execute positioned ~-1 ~1 ~1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab","magic"]}
+execute positioned ~1 ~1 ~-1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab","magic"]}
+execute positioned ~-1 ~1 ~-1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab","magic"]}
+execute positioned ~1 ~-1 ~1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab","magic"]}
+execute positioned ~-1 ~-1 ~1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab","magic"]}
+execute positioned ~1 ~-1 ~-1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab","magic"]}
+execute positioned ~-1 ~-1 ~-1 unless entity @e[type=minecraft:marker,distance=..0.8,tag=blood_slab] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","imba_rc","blood_slab","magic"]}

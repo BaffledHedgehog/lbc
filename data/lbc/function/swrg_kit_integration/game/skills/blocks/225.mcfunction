@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:jungle_wall_hanging_sign
+setblock ~ ~ ~ cornflower

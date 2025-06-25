@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_wall_sign
+setblock ~ ~ ~ cobbled_deepslate_stairs

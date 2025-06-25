@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:prismarine_bricks
+setblock ~ ~ ~ jungle_planks

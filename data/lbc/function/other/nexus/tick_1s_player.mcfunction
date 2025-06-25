@@ -1,4 +1,4 @@
-scoreboard players remove @s nexus_compass_cd 1
+#scoreboard players remove @s nexus_compass_cd 1
 scoreboard players remove @s nexus_roadgun_cd 1
 scoreboard players remove @s nexus_corrupter_cd 1
 scoreboard players remove @s pulsar_cd 1

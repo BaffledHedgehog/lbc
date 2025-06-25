@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:small_amethyst_bud
+setblock ~ ~ ~ spruce_door

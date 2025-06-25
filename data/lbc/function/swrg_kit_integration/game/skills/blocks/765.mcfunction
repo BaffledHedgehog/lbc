@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:stone_brick_wall
+setblock ~ ~ ~ potted_pink_tulip

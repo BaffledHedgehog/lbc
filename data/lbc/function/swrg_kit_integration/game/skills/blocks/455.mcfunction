@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_stained_glass_pane
+setblock ~ ~ ~ iron_door

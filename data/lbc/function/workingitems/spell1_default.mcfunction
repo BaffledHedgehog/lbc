@@ -1,4 +1,3 @@
-
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{evocator:1}}}}] mana >= evoker_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/evokercast_pre
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{bassboost:1}}}}] mana >= bass_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/basscast_pre
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{enderwand:1}}}}] mana >= ender_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/endcast_pre
@@ -33,21 +32,6 @@ execute if score @s[predicate=!lbc:sneak,nbt={SelectedItem:{components:{"minecra
 execute if score @s[predicate=lbc:sneak,nbt={SelectedItem:{components:{"minecraft:custom_data":{ice_wand:1}}}}] mana >= ice_wand_shift_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/ice_wand/use_shift with entity @s
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{snow_wand:1}}}}] mana >= snow_wand_mana_use lbc.math anchored eyes positioned ^ ^ ^ unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/snow_wand/cast
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{shish_wall_wand:1}}}}] mana >= wall_wand_mana_use lbc.math anchored eyes positioned ^ ^ ^ unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/shish_wall_wand/cast
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{mobgun:1}}}}] coldown16 matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:workingitems/mobgun
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{phantomknifes:1}}}}] coldown13 matches -16.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run scoreboard players set @s coldown13 25
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{kfcgun:1}}}}] coldown17 matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:workingitems/kfc
@@ -83,7 +67,6 @@ execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{badwiki_old:1}}}}] coldown_wiki matches 941.. at @s run function lbc:workingitems/badwiki_old
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{lightsaberrc:1}}}}] run function lbc:other/event/november/click
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{laser_minigun:1}}}}] anchored eyes positioned ^ ^ ^ run function lbc:other/techno/laser_minigun/shoot/click
-
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{clocks:1}}}}] run function lbc:workingitems/clock_fragment/select
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{anal_whip:1}}}}] run function lbc:workingitems/ender_whip_teleport
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{banhammer:1}}}}] swordcharged7 matches 1.. run function lbc:items/swords/banhammer/ability
@@ -100,11 +83,8 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{nex
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{piston_sword:1}}}}] run function lbc:items/swords/piston_sword/click
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{danmaku_staff:1}}}}] mana >= danmaku_staff_mana_use lbc.math run function lbc:items/wands/danmaku_staff/click
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{nexus_pulsar:1}}}}] pulsar_cd matches 1.. run function lbc:other/nexus/click/pulsar/pre
-
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{triple_golden_sword:1}}}}] swordcharged8 matches 1.. run function lbc:items/swords/triple_golden_sword/click
-
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{uniwand:1}}}}] run function lbc:items/wands/uniwand/click
-
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{struby_tiny:1}}}}] mana >= tiny_ruby_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/ruby
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{stterra_tiny:1}}}}] mana >= tiny_terra_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/terra
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{stelectro_tiny:1}}}}] mana >= tiny_electro_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/electro
@@ -116,19 +96,13 @@ execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{stfi
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{stblind_tiny:1}}}}] mana >= tiny_blind_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs_tiny/blind
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{multiply:5}}}}] run function lbc:swrg_kit_integration/items/multiply_5
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{penis_cultus:1}}}}] mana >= penis_cultus_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:workingitems/penis_cultus/use
-
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{grapping_hook:1}}}}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] at @s run function lbc:swrg_kit_integration/items/grapping_hook
 execute if data entity @s SelectedItem.components."minecraft:custom_data".cunny run function lbc:workingitems/cunny_item/select
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{blazefire_sword:1}}}}] swordcharged9 matches 5.. run function lbc:items/swords/blazefire_sword/click
 execute unless score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{deus:1}}}}] deus_cd matches 1.. run scoreboard players set @s deus_cd 260
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{boba_eblan:1}}}}] run function lbc:items/misc/huynya/click
+execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{sauvojen_wand:1}}}}] mana >= sauvojen_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:items/wands/sauvojen_wand/cast
 
 
-
-
-
-
-
-execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{nyauwu:1}},Slot:100b},{components:{"minecraft:custom_data":{nyauwu:1}},Slot:101b},{components:{"minecraft:custom_data":{nyauwu:1}},Slot:102b},{components:{"minecraft:custom_data":{nyauwu:1}},Slot:103b}]}] run function lbc:workingitems/nyaaahuwuuw
+execute if items entity @s armor.head *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.chest *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.legs *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.feet *[minecraft:custom_data~{nyauwu:1}] run function lbc:workingitems/nyaaahuwuuw
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{overload_crux:1}}}}] anchored eyes positioned ^ ^ ^ unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/overload_crux/use
-
-

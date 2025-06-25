@@ -1,16 +1,16 @@
 tag @s add owner
-execute at @s at @s[y=2,dy=317] run fill ~1 ~-1.5 ~1 ~-1 ~-1.5 ~-1 minecraft:obsidian
-execute at @s at @s[y=2,dy=317] run fill ~1 ~ ~1 ~-1 ~2 ~-1 minecraft:air
+execute at @s at @s[y=2,dy=317] run fill ~1 ~-1.5 ~1 ~-1 ~-1.5 ~-1 minecraft:obsidian strict
+execute at @s at @s[y=2,dy=317] run fill ~1 ~ ~1 ~-1 ~2 ~-1 minecraft:air strict
 execute at @s at @s[y=2,dy=317] run summon minecraft:marker ~ ~ ~ {Tags:["replacer"]}
 execute at @s at @s[y=2,dy=317] run particle minecraft:portal ~ ~1 ~ 0.2 0.4 0.2 0.3 50
 
-execute at @s at @s[y=2,dy=-10000000] run fill ~1 1 ~1 ~-1 1 ~-1 minecraft:obsidian
-execute at @s at @s[y=2,dy=-10000000] run fill ~1 2 ~1 ~-1 4 ~-1 minecraft:air
+execute at @s at @s[y=2,dy=-10000000] run fill ~1 1 ~1 ~-1 1 ~-1 minecraft:obsidian strict
+execute at @s at @s[y=2,dy=-10000000] run fill ~1 2 ~1 ~-1 4 ~-1 minecraft:air strict
 execute at @s at @s[y=2,dy=-10000000] run summon minecraft:marker ~ 3 ~ {Tags:["replacer"]}
 execute at @s at @s[y=2,dy=-10000000] run particle minecraft:portal ~ 4 ~ 0.2 0.4 0.2 0.3 50
 execute at @s at @s[y=2,dy=-10000000] run tp @s ~ 3 ~
 
-execute at @s at @s[y=319,dy=100000] run fill ~1 314 ~1 ~-1 314 ~-1 minecraft:obsidian
+execute at @s at @s[y=319,dy=100000] run fill ~1 314 ~1 ~-1 314 ~-1 minecraft:obsidian strict
 execute at @s at @s[y=319,dy=100000] run summon minecraft:marker ~ 314 ~ {Tags:["replacer"]}
 execute at @s at @s[y=319,dy=100000] run particle minecraft:portal ~ 314 ~ 0.2 0.4 0.2 0.3 50
 execute at @s at @s[y=319,dy=100000] run tp @s ~ 317 ~

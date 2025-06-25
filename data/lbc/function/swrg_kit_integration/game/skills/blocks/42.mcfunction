@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:iron_ore
+setblock ~ ~ ~ bamboo_mosaic_slab

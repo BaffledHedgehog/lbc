@@ -1,5 +1,5 @@
 $tp @s $(x) $(y) $(z) ~ ~
-execute at @s run fill ~ ~ ~ ~ ~1 ~ minecraft:ice
+execute at @s run fill ~ ~ ~ ~ ~1 ~ minecraft:ice strict
 effect give @s minecraft:mining_fatigue 1 127 true
 effect give @s minecraft:weakness 1 127 true
 effect give @s[type=minecraft:player] minecraft:resistance 1 1 true

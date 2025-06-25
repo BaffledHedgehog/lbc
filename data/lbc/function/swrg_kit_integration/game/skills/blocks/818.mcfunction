@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_fence
+setblock ~ ~ ~ red_carpet

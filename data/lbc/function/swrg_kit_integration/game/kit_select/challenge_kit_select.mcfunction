@@ -1,0 +1,1 @@
+loot give @s[scores={lbc.challenge.kit=1}] loot lbc:kit/academy_token

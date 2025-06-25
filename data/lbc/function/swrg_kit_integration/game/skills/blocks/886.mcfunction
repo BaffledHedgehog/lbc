@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_candle
+setblock ~ ~ ~ smooth_quartz_stairs

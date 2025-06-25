@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,11 +13,10 @@
                                 "minecraft:item_model": "lbc:armors/mage_boots",
                                 "minecraft:max_damage": 300,
                                 "minecraft:enchantments": {
-                                    "levels": {
                                         "minecraft:fire_protection": 2,
                                         "minecraft:blast_protection": 2,
                                         "minecraft:projectile_protection": 2
-                                    }
+                                    
                                 },
                                 "minecraft:equippable":{"slot":"feet","asset_id":"lbc:mage"}
                             }

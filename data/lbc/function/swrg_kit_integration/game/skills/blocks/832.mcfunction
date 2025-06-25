@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:warped_wall_sign
+setblock ~ ~ ~ red_sandstone_wall

@@ -1,4 +1,4 @@
-fill ~ ~ ~ ~ ~ ~ minecraft:air
+fill ~ ~ ~ ~ ~ ~ minecraft:air strict
 execute unless block ~ ~ ~ #minecraft:black_concrete_air run function lbc:other/nexus/rays/pulsar_tick_final_2
 
 kill @e[type=minecraft:marker,distance=0.001..1.7,tag=!selector]

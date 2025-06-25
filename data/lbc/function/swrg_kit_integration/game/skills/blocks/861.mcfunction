@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gilded_blackstone
+setblock ~ ~ ~ sandstone_stairs

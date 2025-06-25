@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_trapdoor
+setblock ~ ~ ~ dark_oak_stairs

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:red_nether_brick_slab
+setblock ~ ~ ~ potted_jungle_sapling

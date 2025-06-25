@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:carrots
+setblock ~ ~ ~ fletching_table

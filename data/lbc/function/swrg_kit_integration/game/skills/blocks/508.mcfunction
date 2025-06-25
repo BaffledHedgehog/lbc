@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:yellow_banner
+setblock ~ ~ ~ light_gray_bed

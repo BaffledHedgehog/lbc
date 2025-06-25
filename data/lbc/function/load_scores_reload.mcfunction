@@ -4,7 +4,6 @@ scoreboard objectives remove jump1
 scoreboard objectives remove empty
 scoreboard objectives remove Distance
 scoreboard objectives remove RC_Raycast
-scoreboard objectives remove crossbow
 scoreboard objectives remove coldown1
 scoreboard objectives remove coldown8
 scoreboard objectives remove coldown13
@@ -65,7 +64,6 @@ scoreboard objectives remove coldownMagnum
 scoreboard objectives remove cyborgBossFly
 scoreboard objectives remove death_timer
 scoreboard objectives remove divider_cd
-scoreboard objectives remove death
 scoreboard objectives remove lust_cd
 scoreboard objectives remove lust_cd_small
 scoreboard objectives remove food_count
@@ -147,9 +145,6 @@ scoreboard objectives remove air_wisp_chains
 
 scoreboard objectives remove swrg.hp_display
 scoreboard objectives remove swrg.hp
-scoreboard objectives remove swrg.death
-scoreboard objectives remove swrg.roll
-scoreboard objectives remove swrg.roll_timer
 scoreboard objectives remove swrg.lives
 scoreboard objectives remove swrg.fall_damage
 scoreboard objectives remove lbcID2
@@ -177,7 +172,6 @@ scoreboard objectives remove piss
 scoreboard objectives remove effect_witch_gens_reset
 scoreboard objectives remove effect_hedgehog_boom
 scoreboard objectives remove effect_stand_arrow_hit
-scoreboard objectives remove delayed_death
 scoreboard objectives remove effect_nuking
 scoreboard objectives remove effect_vacuum
 scoreboard objectives remove effect_timestop
@@ -194,6 +188,14 @@ scoreboard objectives remove god_claw_cd
 scoreboard objectives remove expansion_cd
 scoreboard objectives remove deus_cd
 scoreboard objectives remove tmticked
+
+scoreboard objectives remove bomb_fragments
+scoreboard objectives remove life_fragments
+scoreboard objectives remove time_orbs
+scoreboard objectives remove touhou_power
+
+scoreboard objectives remove rocket_armor_jumps
+scoreboard objectives remove rocket_armor_jump_cd
 function lbc:load
 
 

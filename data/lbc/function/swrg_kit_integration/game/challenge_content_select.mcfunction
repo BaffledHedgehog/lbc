@@ -1,0 +1,3 @@
+function lbc:swrg_kit_integration/game/kit_select/challenge_kit_select
+function lbc:swrg_kit_integration/game/levelup_select/challenge_levelup_select
+function lbc:swrg_kit_integration/game/trinket_select/challenge_trinket_select

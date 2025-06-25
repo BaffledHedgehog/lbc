@@ -400,5 +400,5 @@ function lbc:tick1s
 function lbc:tick2s
 function lbc:tick5s
 function lbc:tick10s
-execute if predicate lbc:chance35 run function lbc:tick30s
+execute if predicate lbc:chance35 run function lbc:tick90s
 execute if predicate lbc:chance70 run function lbc:tick15s

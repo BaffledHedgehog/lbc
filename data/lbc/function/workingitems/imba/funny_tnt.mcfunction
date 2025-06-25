@@ -1,4 +1,4 @@
-fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:tnt
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 minecraft:tnt strict
 summon minecraft:marker ~ ~3 ~ {Tags:["slowraycast","funny_tnt","instant"]}
 summon minecraft:marker ~ ~-3 ~ {Tags:["slowraycast","funny_tnt","instant"]}
 summon minecraft:marker ~ ~ ~3 {Tags:["slowraycast","funny_tnt","instant"]}

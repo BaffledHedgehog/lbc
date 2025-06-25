@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:rail
+setblock ~ ~ ~ chorus_flower

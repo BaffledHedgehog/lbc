@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:reinforced_deepslate
+setblock ~ ~ ~ waxed_weathered_copper_trapdoor

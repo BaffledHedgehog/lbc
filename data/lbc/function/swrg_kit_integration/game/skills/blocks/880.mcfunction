@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cyan_candle
+setblock ~ ~ ~ small_dripleaf

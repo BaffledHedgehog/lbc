@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:terracotta
+setblock ~ ~ ~ light_blue_candle

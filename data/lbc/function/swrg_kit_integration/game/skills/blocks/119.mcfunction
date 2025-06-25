@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_bed
+setblock ~ ~ ~ brain_coral_block

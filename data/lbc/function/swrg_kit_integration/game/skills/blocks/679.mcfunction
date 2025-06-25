@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:kelp
+setblock ~ ~ ~ pearlescent_froglight

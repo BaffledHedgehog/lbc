@@ -1,4 +1,6 @@
 scoreboard players add @s Lifetime 20
+execute if score #lbcskill swrg.math matches 1 if score @s lbcID2 matches 1.. if predicate lbc:chance50 if entity @a[scores={lbc.skill=30}] unless entity @a[gamemode=!spectator,distance=..20] run function lbc:raycastselector_player_check_skill
+
 execute if entity @s[tag=mom] run function lbc:other/mom
 execute if entity @s[tag=futureluckyblock] run function lbc:other/luckyblockspawn
 execute if entity @s[tag=nuke] run function lbc:other/nuke/nuket

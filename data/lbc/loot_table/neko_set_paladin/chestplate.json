@@ -1,4 +1,4 @@
-{
+    {
     "pools": [
         {
             "rolls": 1,
@@ -13,37 +13,36 @@
                                 "minecraft:item_model": "lbc:armors/paladin_chestplate",
                                 "minecraft:max_damage": 4000,
                                 "minecraft:enchantments": {
-                                    "levels": {
-                                        "minecraft:blast_protection": 255,
-                                        "minecraft:protection": 3
-                                    }
+                                    "minecraft:blast_protection": 255,
+                                    "minecraft:protection": 3
                                 },
-                                "minecraft:equippable":{"slot":"chest","asset_id":"lbc:paladin"},
-                                "minecraft:attribute_modifiers": {
-                                    "modifiers": [
-                                        {
-                                            "type": "minecraft:armor",
-                                            "slot": "chest",
-                                            "id": "gegbrtvhjygj",
-                                            "amount": 15,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:armor_toughness",
-                                            "slot": "chest",
-                                            "id": "gxdrdhthnghjghness",
-                                            "amount": 15,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:max_health",
-                                            "slot": "chest",
-                                            "id": "genemlilgvfyhkhh",
-                                            "amount": -0.3,
-                                            "operation": "add_multiplied_base"
-                                        }
-                                    ]
-                                }
+                                "minecraft:equippable": {
+                                    "slot": "chest",
+                                    "asset_id": "lbc:paladin"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "minecraft:armor",
+                                        "slot": "chest",
+                                        "id": "gegbrtvhjygj",
+                                        "amount": 15,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:armor_toughness",
+                                        "slot": "chest",
+                                        "id": "gxdrdhthnghjghness",
+                                        "amount": 15,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "minecraft:max_health",
+                                        "slot": "chest",
+                                        "id": "genemlilgvfyhkhh",
+                                        "amount": -0.3,
+                                        "operation": "add_multiplied_base"
+                                    }
+                                ]
                             }
                         },
                         {

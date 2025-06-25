@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:brain_coral_fan
+setblock ~ ~ ~ polished_andesite_stairs

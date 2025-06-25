@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:purple_concrete
+setblock ~ ~ ~ packed_ice

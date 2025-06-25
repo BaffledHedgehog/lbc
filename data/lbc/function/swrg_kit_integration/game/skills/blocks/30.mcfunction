@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dark_oak_sapling
+setblock ~ ~ ~ attached_pumpkin_stem

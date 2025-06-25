@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:lightning_rod
+setblock ~ ~ ~ warped_hanging_sign

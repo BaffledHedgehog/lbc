@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:dead_fire_coral
+setblock ~ ~ ~ pink_tulip

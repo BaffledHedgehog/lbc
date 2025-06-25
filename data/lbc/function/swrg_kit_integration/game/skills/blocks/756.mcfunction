@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:andesite_slab
+setblock ~ ~ ~ potted_flowering_azalea_bush

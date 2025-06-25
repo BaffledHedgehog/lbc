@@ -4,5 +4,6 @@ tag @s add caster
 execute anchored eyes positioned ^ ^ ^ run function lbc:items/swords/blazefire_sword/tick_5t_rc
 tag @e remove hitten
 tag @s remove caster
-scoreboard players remove @s swordcharged9 1
+scoreboard players remove @s swordcharged9 3
 tag @s[scores={swordcharged9=..0}] remove firefarting
+scoreboard players set @s[scores={swordcharged9=..0}] swordcharged9 0

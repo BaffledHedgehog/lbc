@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:cherry_sign
+setblock ~ ~ ~ chiseled_quartz_block

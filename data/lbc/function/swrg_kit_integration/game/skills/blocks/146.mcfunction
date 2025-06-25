@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_wool
+setblock ~ ~ ~ bubble_coral_fan

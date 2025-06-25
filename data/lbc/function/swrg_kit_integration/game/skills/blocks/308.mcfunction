@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mushroom_stem
+setblock ~ ~ ~ dead_fire_coral

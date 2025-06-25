@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:green_candle
+setblock ~ ~ ~ smooth_quartz

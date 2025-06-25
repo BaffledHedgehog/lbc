@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:potted_pink_tulip
+setblock ~ ~ ~ exposed_cut_copper_stairs

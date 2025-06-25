@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:gray_stained_glass_pane
+setblock ~ ~ ~ infested_deepslate

@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:black_wall_banner
+setblock ~ ~ ~ lime_stained_glass

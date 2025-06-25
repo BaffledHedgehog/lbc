@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:pink_candle
+setblock ~ ~ ~ skeleton_wall_skull

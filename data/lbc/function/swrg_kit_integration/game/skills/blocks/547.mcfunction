@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:mangrove_slab
+setblock ~ ~ ~ magenta_concrete

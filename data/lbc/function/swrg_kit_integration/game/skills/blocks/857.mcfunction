@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:chiseled_polished_blackstone
+setblock ~ ~ ~ rose_bush

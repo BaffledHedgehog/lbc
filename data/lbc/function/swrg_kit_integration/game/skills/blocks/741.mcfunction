@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:smooth_quartz_stairs
+setblock ~ ~ ~ potted_azure_bluet

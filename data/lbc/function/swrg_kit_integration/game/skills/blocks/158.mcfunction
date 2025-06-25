@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:oxeye_daisy
+setblock ~ ~ ~ carrots

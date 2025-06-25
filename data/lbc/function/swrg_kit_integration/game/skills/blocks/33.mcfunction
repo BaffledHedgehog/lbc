@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:water
+setblock ~ ~ ~ azure_bluet

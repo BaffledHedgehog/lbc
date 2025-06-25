@@ -1,1 +1,1 @@
-setblock ~ ~ ~ minecraft:decorated_pot
+setblock ~ ~ ~ waxed_weathered_cut_copper
