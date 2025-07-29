@@ -15,6 +15,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:crowbar",
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -99,6 +100,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:govnomet"
                             }
                         },
@@ -189,6 +191,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_ff",
                                 "minecraft:item_model": "lbc:drop_trap"
                             }
                         },
@@ -271,6 +274,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:item_model": "lbc:time_clock"
                             }
                         },
@@ -345,6 +349,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_ff",
                                 "minecraft:item_model": "lbc:drop_boss"
                             }
                         },
@@ -415,6 +420,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_ff",
                                 "minecraft:item_model": "lbc:drop_not_trap"
                             }
                         },
@@ -509,6 +515,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:shetka"
                             }
                         },
@@ -617,6 +624,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_ff",
                                 "minecraft:item_model": "lbc:drop_trap"
                             }
                         },
@@ -692,6 +700,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_ff",
                                 "minecraft:item_model": "lbc:drop_boss"
                             }
                         },
@@ -763,6 +772,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_f",
                                 "minecraft:item_model": "lbc:kill_button"
                             }
                         },
@@ -837,6 +847,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:item_model": "lbc:antimagic_stick",
                                 "minecraft:enchantments": {
                                     "minecraft:knockback": 255
@@ -925,6 +936,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:item_model": "lbc:gayradar"
                             }
                         },
@@ -986,6 +998,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:item_model": "lbc:banhammer",
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -1075,6 +1088,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:banan"
                             }
                         },
@@ -1131,6 +1145,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_ff",
                                 "minecraft:item_model": "lbc:drop_boss"
                             }
                         },
@@ -1190,6 +1205,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_ff",
                                 "minecraft:item_model": "lbc:drop_boss"
                             }
                         },
@@ -1245,6 +1261,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:item_model": "lbc:zaika"
                             }
                         },
@@ -1284,7 +1301,7 @@
                                         "type": "text"
                                     },
                                     {
-                                        "text": " Happy Birthday 11.12.2024!",
+                                        "text": " Happy Birthday 11.12.2023!",
                                         "color": "dark_gray",
                                         "italic": false,
                                         "type": "text"
@@ -1338,7 +1355,19 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "lbc:herman_antigravity",
-                    "weight": 10
+                    "weight": 10,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         }

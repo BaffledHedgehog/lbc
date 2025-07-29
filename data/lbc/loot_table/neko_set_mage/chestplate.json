@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/mage_mantle",
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:max_damage": 300,
                                 "minecraft:enchantments": {
                                         "minecraft:fire_protection": 5,

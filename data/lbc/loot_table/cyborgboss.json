@@ -11,6 +11,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_q",
                                 "minecraft:custom_name": {
                                     "color": "yellow",
                                     "italic": false,

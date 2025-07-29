@@ -14,6 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:corrupted_dust",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
@@ -106,6 +107,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:corrupted_dust_lamashtu",
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -197,6 +199,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:corrupted_dust_belial",
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [
@@ -288,6 +291,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:corrupted_dust_ahriman",
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_display",
                                     "Tags": [

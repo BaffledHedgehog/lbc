@@ -14,6 +14,7 @@
                             {
                                 "function": "minecraft:set_components",
                                 "components": {
+                                    "minecraft:tooltip_style":"lbc:tier_k",
                                     "minecraft:item_model": "lbc:drop_trap"
                                 }
                             },
@@ -41,18 +42,6 @@
                             {
                                 "function": "minecraft:set_custom_data",
                                 "tag": "{antigravity:1,drop:1}"
-                            }
-                        ],
-                        "conditions": [
-                            {
-                                "condition": "minecraft:inverted",
-                                "term": {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
-                                    }
-                                }
                             }
                         ]
                     }

@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/glass_leggings",
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:max_damage": 150,
                                 "minecraft:equippable":{"slot":"legs","asset_id":"lbc:glass"}
                             }

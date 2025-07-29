@@ -10,6 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_x",
                                 "minecraft:item_model": "lbc:spike_ender"
                             }
                         },
@@ -47,6 +48,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:item_model": "lbc:spike_blind"
                             }
                         },
@@ -84,6 +86,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_x",
                                 "minecraft:item_model": "lbc:spike_explosive"
                             }
                         },
@@ -121,6 +124,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:item_model": "lbc:spike"
                             }
                         },
@@ -157,6 +161,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:item_model": "lbc:spike_wither"
                             }
                         },
@@ -194,6 +199,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:spike_poison"
                             }
                         },
@@ -231,6 +237,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:item_model": "lbc:spike_impulse"
                             }
                         },

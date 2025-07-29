@@ -20,7 +20,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {"minecraft:tooltip_style":"lbc:tier_d"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -65,7 +65,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {"minecraft:tooltip_style":"lbc:tier_d"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -110,7 +110,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {"minecraft:tooltip_style":"lbc:tier_c"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -155,7 +155,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {"minecraft:tooltip_style":"lbc:tier_d"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -200,7 +200,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {"minecraft:tooltip_style":"lbc:tier_d"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -245,7 +245,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {"minecraft:tooltip_style":"lbc:tier_c"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -290,7 +290,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {"minecraft:tooltip_style":"lbc:tier_d"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -335,7 +335,7 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {"minecraft:tooltip_style":"lbc:tier_d"}
                         },
                         {
                             "function": "minecraft:set_name",
