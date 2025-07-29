@@ -1,0 +1,2 @@
+playsound lbcsounds.rocketspell player @a ~ ~ ~ 10 1
+summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0.0f,shadow_strength:0.0f,teleport_duration:1,item_display:"fixed",item:{id:"minecraft:golden_sword",count:1,components:{item_model:"lbc:rocket_govnowars"}},Tags:["rocketspell","slowraycast","player","mecha"],transformation:[-1.0000f,0.0000f,0.0000f,0.0000f,-0.0000f,-1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}

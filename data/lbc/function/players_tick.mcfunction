@@ -15,18 +15,18 @@ execute if entity @s[tag=shulker_setbonus_active] unless entity @e[type=minecraf
 execute if entity @s[tag=trollmask_active] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/troll_box/trollmasksel
 execute if entity @s[tag=assasin_setbonus_active] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:armor/assasin_set_bonus
 execute if entity @s[scores={RC_Raycast=1..}] run function lbc:items/spells
-execute if score @s all_seeing_eye matches 1.. run function lbc:other/effect_allseeingeye
-execute if score @s living_legend matches 1.. run function lbc:other/effect_living_legend
-execute if score @s skill_issue matches 1.. run function lbc:other/effect_skill_issue
+execute if score @s all_seeing_eye matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/effect_allseeingeye
+execute if score @s living_legend matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/effect_living_legend
+execute if score @s skill_issue matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:other/effect_skill_issue
 execute if score @s gigaponos matches 1.. run function lbc:other/effect_gigaponos
-execute if score @s deus_cd matches 1.. run function lbc:swrg_kit_integration/game/kits/deus_tick
+execute if score @s deus_cd matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:swrg_kit_integration/game/kits/deus_tick
 execute if entity @s[nbt=!{OnGround:1b}] run function lbc:items/on_falling
 execute if entity @s[nbt={OnGround:1b}] run function lbc:items/on_ground
 execute if entity @s[tag=sin_greed] run function lbc:workingitems/witch_gens/greed_tick
 execute if entity @s[tag=sin_envy] run function lbc:workingitems/witch_gens/envy_tick
 execute if entity @s[tag=sin_wrath] run function lbc:workingitems/witch_gens/wrath_tick
 execute if entity @s[advancements={lbc:use_chaos_hoe=true}] run function lbc:other/imba/chaos_hoe_use
-execute if score @s danmaku matches 1.. run function lbc:items/wands/danmaku_staff/tick
+execute if score @s danmaku matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:items/wands/danmaku_staff/tick
 scoreboard players remove @s[scores={indolence_cd=1..}] indolence_cd 1
 execute unless score legacy lbc.math matches 1 unless score @s nomagic matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/manaregen
 execute if score @s ray matches 1.. anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/erecto/click_upgraded_2_mode_ray_tick
