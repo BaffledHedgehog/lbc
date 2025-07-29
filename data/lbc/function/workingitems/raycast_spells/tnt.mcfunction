@@ -7,7 +7,6 @@ summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.0d,0.4d,-0.4d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.4d,0.4d,0.0d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[-0.4d,0.4d,0.0d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.0d,0.4d,0.0d]}
-
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.4d,0.0d,0.4d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[-0.4d,0.0d,0.4d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.4d,0.0d,-0.4d]}
@@ -16,7 +15,6 @@ summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.0d,0.0d,0.4d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.0d,0.0d,-0.4d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.4d,0.0d,0.0d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[-0.4d,0.0d,0.0d]}
-
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.4d,-0.4d,0.4d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[-0.4d,-0.4d,0.4d]}
 summon minecraft:tnt ~ ~0.5 ~ {fuse:56s,Motion:[0.4d,-0.4d,-0.4d]}

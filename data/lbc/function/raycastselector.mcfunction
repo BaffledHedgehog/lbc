@@ -1,6 +1,6 @@
 scoreboard players add @s Lifetime 1
 
-execute if score #lbcskill swrg.math matches 1 if score @s lbcID2 matches 1.. if predicate lbc:chance50 if entity @a[scores={lbc.skill=30}] unless entity @a[gamemode=!spectator,distance=..20] run function lbc:raycastselector_player_check_skill
+execute if score #lbcskill swrg.math matches 1 if score @s lbcID2 matches 1.. if predicate lbc:chance50 unless entity @s[tag=cant_be_homing] if entity @a[scores={lbc.skill=30}] unless entity @a[gamemode=!spectator,distance=..20] run function lbc:raycastselector_player_check_skill
 execute at @s[tag=imba_rc] run function lbc:raycastselector_imba
 execute at @s[tag=instant] run function lbc:raycastselector_instant
 execute at @s[tag=tuntija] run function lbc:raycastselector_tuntija

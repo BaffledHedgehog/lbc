@@ -1159,110 +1159,6 @@
                 {
                     "type": "minecraft:item",
                     "weight": 10,
-                    "quality": 7,
-                    "name": "minecraft:panda_spawn_egg",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 3
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_model": "lbc:stopper",
-                                "minecraft:entity_data": {
-                                    "id": "minecraft:marker",
-                                    "Tags": [
-                                        "stopper",
-                                        "rc_1sec",
-                                        "marker_2t"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": [
-                                {
-                                    "translate": "mecha_breaker",
-                                    "color": "red",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                {
-                                    "translate": "mecha_breaker.lore.1",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "mecha_breaker.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 10,
-                    "quality": 7,
-                    "name": "minecraft:panda_spawn_egg",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 3
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_model": "lbc:stopper_magic",
-                                "minecraft:entity_data": {
-                                    "id": "minecraft:marker",
-                                    "Tags": [
-                                        "stopper_magic",
-                                        "rc_1sec",
-                                        "marker_2t"
-                                    ]
-                                }
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": [
-                                {
-                                    "translate": "magic_breaker",
-                                    "color": "red",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                {
-                                    "translate": "magic_breaker.lore.1",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "magic_breaker.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 10,
                     "name": "minecraft:villager_spawn_egg",
                     "functions": [
                         {
@@ -2440,6 +2336,11 @@
                             "chance": 0.1
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "value": "lbc:stoppers"
                 }
             ]
         }
