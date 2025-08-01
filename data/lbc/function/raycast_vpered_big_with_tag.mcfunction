@@ -6,3 +6,4 @@ execute store result entity @s Motion[2] double 0.0001 run data get entity @e[ty
 kill @e[type=minecraft:marker,tag=reycaster]
 tag @s add actived
 data modify entity @s Owner set from entity @a[tag=owner,limit=1] UUID
+data modify entity @s owner set from entity @a[tag=owner,limit=1] UUID

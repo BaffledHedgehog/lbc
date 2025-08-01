@@ -12,3 +12,4 @@ gamerule playersNetherPortalDefaultDelay 1
 gamerule doImmediateRespawn true
 gamerule maxCommandChainLength 2147483647
 gamerule maxCommandForkCount 2147483647
+gamerule locatorBar false
