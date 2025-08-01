@@ -29,6 +29,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:enderdart"
                             }
                         },
@@ -76,6 +77,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:blinddart"
                             }
                         },
@@ -108,6 +110,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:tntdart"
                             }
                         },
@@ -144,6 +147,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:dart"
                             }
                         },
@@ -179,6 +183,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:witherdart"
                             }
                         },
@@ -215,6 +220,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:poisondart"
                             }
                         },
@@ -251,6 +257,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:item_model": "lbc:impulsedart"
                             }
                         },

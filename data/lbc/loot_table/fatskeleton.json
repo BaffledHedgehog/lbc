@@ -63,6 +63,7 @@
                                 "minecraft:enchantments": {
                                     "minecraft:knockback": 1
                                 },
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:attribute_modifiers": [
                                     {
                                         "id": "minecraft:base_attack_damage",

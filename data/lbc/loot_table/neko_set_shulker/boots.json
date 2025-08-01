@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/shulker_boots",
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:max_damage": 900,
                                 "minecraft:equippable":{"slot":"feet","asset_id":"lbc:shulker"},
                                 "minecraft:attribute_modifiers":[
@@ -32,7 +33,7 @@
                                             "type": "minecraft:knockback_resistance",
                                             "slot": "feet",
                                             "id": "generijyjyjyjnxfgfce",
-                                            "amount": 10000,
+                                            "amount": 1,
                                             "operation": "add_value"
                                         }
                                     ]

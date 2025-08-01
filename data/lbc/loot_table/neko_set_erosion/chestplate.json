@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/erosion_chestplate",
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:max_damage": 9000,
                                 "minecraft:enchantments": {
                                         "minecraft:protection": 255

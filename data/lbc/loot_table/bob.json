@@ -24,6 +24,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:sharpness": 5,
@@ -52,6 +53,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 5,
@@ -77,6 +79,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:protection": 4,
@@ -109,6 +112,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:sharpness": 5,
@@ -139,6 +143,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:protection": 4,
@@ -169,6 +174,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 5,
@@ -194,6 +200,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 5,
@@ -219,6 +226,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:protection": 4,
@@ -248,6 +256,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:unbreakable": {},
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:enchantments": {
                                     "minecraft:protection": 4,
                                     "minecraft:fire_protection": 4,
@@ -275,6 +284,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:power": 5,
@@ -302,6 +312,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:multishot": 1,
@@ -328,6 +339,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:sharpness": 5,
@@ -360,6 +372,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:custom_name": {
                                     "italic": false,
@@ -397,6 +410,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:fire_aspect": 255
@@ -421,6 +435,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:luck_of_the_sea": 5,
@@ -446,6 +461,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 5

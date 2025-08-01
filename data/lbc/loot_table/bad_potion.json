@@ -11,6 +11,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -67,6 +68,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -123,6 +125,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -179,6 +182,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -235,6 +239,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -291,6 +296,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -347,6 +353,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -403,6 +410,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -459,6 +467,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [
@@ -515,6 +524,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_color": 0,
                                     "custom_effects": [

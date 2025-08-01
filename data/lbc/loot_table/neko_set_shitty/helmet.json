@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/shit_helmet",
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:max_damage": 300,
                                 "minecraft:equippable":{"slot":"head","asset_id":"lbc:shit"}
                             }

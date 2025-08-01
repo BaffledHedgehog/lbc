@@ -10,6 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:armors/glass_chestplate",
                                 "minecraft:max_damage": 150,
                                 "minecraft:equippable":{"slot":"chest","asset_id":"lbc:glass"}

@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/overload_leggings",
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:max_damage": 900,
                                 "minecraft:equippable":{"slot":"legs","asset_id":"lbc:overload"},
                                 "minecraft:attribute_modifiers": [

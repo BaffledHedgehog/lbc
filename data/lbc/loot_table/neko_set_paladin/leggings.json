@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/paladin_leggings",
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:max_damage": 4000,
                                 "minecraft:enchantments": {
                                     "minecraft:fire_protection": 255,

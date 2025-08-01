@@ -29,7 +29,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_model": "lbc:exasperato"
+                                "minecraft:item_model": "lbc:exasperato",
+                                "minecraft:tooltip_style":"lbc:tier_ss"
                             }
                         },
                         {

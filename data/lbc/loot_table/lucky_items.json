@@ -112,6 +112,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:ghast",
                                     "ExplosionPower": 15,
@@ -147,6 +148,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:tnt",
                                     "fuse": 40,
@@ -184,6 +186,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:lightningegg",
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:lightning_bolt"
                                 }
@@ -288,6 +291,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:enchantments": {
                                     "minecraft:fire_aspect": 20
                                 },
@@ -363,6 +367,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:omegatnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -411,6 +416,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:bridgebuilder"
                             }
                         },
@@ -459,6 +465,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:teleporter"
                             }
                         },
@@ -578,6 +585,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:rasengan"
                             }
                         },
@@ -645,6 +653,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:rasengan"
                             }
                         },
@@ -709,6 +718,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:smokegrenade"
                             }
                         },
@@ -740,6 +750,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:item_model": "lbc:swapper"
                             }
                         },
@@ -788,6 +799,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:islandtp"
                             }
                         },
@@ -831,6 +843,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:pig",
                                     "CustomNameVisible": true,
@@ -894,6 +907,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:container_loot": {
                                     "loot_table": "lbc:infinity"
                                 }
@@ -937,7 +951,9 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c"
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -991,6 +1007,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:badapple"
                             }
                         },
@@ -1060,6 +1077,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:shadowglove"
                             }
                         },
@@ -1117,6 +1135,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:luckygrenade"
                             }
                         },

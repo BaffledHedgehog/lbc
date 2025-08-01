@@ -15,6 +15,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:balance",
+                                "minecraft:tooltip_style":"lbc:tier_x",
                                 "minecraft:unbreakable": {},
                                 "minecraft:tooltip_display": {
                                     "hidden_components": [

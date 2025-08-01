@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/chaos_boots",
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:max_damage": 700,
                                 "minecraft:equippable":{"slot":"feet","asset_id":"lbc:chaos"},
                                 "minecraft:attribute_modifiers": [

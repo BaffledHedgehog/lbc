@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:armors/hermes_boots",
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:max_damage": 400,
                                 "minecraft:enchantments": {
                                     "minecraft:feather_falling": 10
