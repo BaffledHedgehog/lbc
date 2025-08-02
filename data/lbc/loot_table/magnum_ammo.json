@@ -11,6 +11,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:item_model": "lbc:round_standard",
                                 "minecraft:custom_name": {
                                     "color": "white",
@@ -40,6 +41,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:round_incendiary",
                                 "minecraft:custom_name": {
                                     "color": "white",
@@ -69,6 +71,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:item_model": "lbc:round_electric",
                                 "minecraft:custom_name": {
                                     "color": "white",
@@ -98,6 +101,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:round_acid",
                                 "minecraft:custom_name": {
                                     "color": "white",
@@ -127,6 +131,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:item_model": "lbc:round_void",
                                 "minecraft:custom_name": {
                                     "color": "white",
@@ -156,6 +161,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:item_model": "lbc:round_explosive",
                                 "minecraft:custom_name": {
                                     "color": "white",

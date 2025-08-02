@@ -1187,6 +1187,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_f",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:villager",
                                     "CustomNameVisible": true,
@@ -1227,6 +1228,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_u",
                                 "minecraft:item_model": "lbc:superdice"
                             }
                         },
@@ -1296,6 +1298,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_u",
                                 "minecraft:item_model": "lbc:superdice"
                             }
                         },
@@ -1710,7 +1713,9 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {
+                                "minecraft:tooltip_style":"lbc:tier_q"
+                            }
                         },
                         {
                             "function": "minecraft:set_name",
@@ -1757,6 +1762,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:konserva"
                             }
                         },
@@ -1804,6 +1810,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_color": 16777215,
                                     "custom_effects": [
@@ -1844,6 +1851,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_color": 16763161,
                                     "custom_effects": [
@@ -1884,6 +1892,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_color": 2236962,
                                     "custom_effects": [
@@ -1921,6 +1930,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_u",
                                 "minecraft:item_model": "lbc:troll_box"
                             }
                         },
@@ -2014,6 +2024,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_c",
                                 "minecraft:item_model": "lbc:ruchka"
                             }
                         },
@@ -2072,6 +2083,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_q",
                                 "minecraft:item_model": "lbc:witch_gens"
                             }
                         },
@@ -2155,6 +2167,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_d",
                                 "minecraft:item_model": "lbc:railroad",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
