@@ -44,6 +44,10 @@ data modify entity @e[type=!minecraft:item,distance=..4,tag=edited,sort=nearest,
 data modify entity @e[type=!minecraft:item,distance=..4,tag=edited2,sort=nearest,limit=1] Owner set from entity @p[gamemode=!spectator] UUID
 data modify entity @e[type=!minecraft:item,distance=..4,tag=edited3,sort=nearest,limit=1] Owner set from entity @p[gamemode=!spectator] UUID
 data modify entity @e[type=!minecraft:item,distance=..4,tag=edited4,sort=nearest,limit=1] Owner set from entity @p[gamemode=!spectator] UUID
+data modify entity @e[type=!minecraft:item,distance=..4,tag=edited,sort=nearest,limit=1] owner set from entity @p[gamemode=!spectator] UUID
+data modify entity @e[type=!minecraft:item,distance=..4,tag=edited2,sort=nearest,limit=1] owner set from entity @p[gamemode=!spectator] UUID
+data modify entity @e[type=!minecraft:item,distance=..4,tag=edited3,sort=nearest,limit=1] owner set from entity @p[gamemode=!spectator] UUID
+data modify entity @e[type=!minecraft:item,distance=..4,tag=edited4,sort=nearest,limit=1] owner set from entity @p[gamemode=!spectator] UUID
 
 
 execute store result entity @e[type=#arrows,distance=..4,tag=edited,sort=nearest,limit=1] Rotation[0] float -1 run data get entity @p[gamemode=!spectator] Rotation[0]

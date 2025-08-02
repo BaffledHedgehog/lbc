@@ -46,6 +46,8 @@ execute if entity @s[type=minecraft:pale_oak_chest_boat] run summon minecraft:pa
 execute if entity @s[type=minecraft:spruce_chest_boat] run summon minecraft:spruce_chest_boat ~ ~ ~ {Tags:["doubled","doubledcurr"]}
 execute if entity @s[type=minecraft:cherry_chest_boat] run summon minecraft:cherry_chest_boat ~ ~ ~ {Tags:["doubled","doubledcurr"]}
 execute if entity @s[type=minecraft:bamboo_chest_raft] run summon minecraft:bamboo_chest_raft ~ ~ ~ {Tags:["doubled","doubledcurr"]}
+execute if entity @s[type=minecraft:wind_charge] run summon minecraft:wind_charge ~ ~ ~ {Tags:["doubled","doubledcurr"]}
+execute if entity @s[type=minecraft:breeze_wind_charge] run summon minecraft:breeze_wind_charge ~ ~ ~ {Tags:["doubled","doubledcurr"]}
 tag @s add doubled
 tag @s add doubledcurr
 data modify storage lbc.math tmp set from entity @s

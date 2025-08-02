@@ -7,6 +7,7 @@ tag @e[type=#minecraft:projectiles,distance=..7] add mirrored_2
 tag @e[type=#minecraft:projectiles,distance=7.01..14,tag=mirrored] remove mirrored
 
 execute at @e[type=#minecraft:raycasters_projectiles,distance=..7,tag=mirrored] run data modify entity @e[type=#minecraft:raycasters_projectiles,distance=..0.001,tag=mirrored,limit=1] Owner set from entity @s UUID
+execute at @e[type=#minecraft:raycasters_projectiles,distance=..7,tag=mirrored] run data modify entity @e[type=#minecraft:raycasters_projectiles,distance=..0.001,tag=mirrored,limit=1] owner set from entity @s UUID
 scoreboard players operation @e[type=#minecraft:raycasters_projectiles,distance=..7,tag=mirrored] lbcID2 = @s lbcID2
 
 tag @e[type=#minecraft:raycasters,distance=..7] add mirrored

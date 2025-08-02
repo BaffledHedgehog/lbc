@@ -1,5 +1,5 @@
 playsound minecraft:block.piston.extend master @a ~ ~ ~ 1 2
-execute store result score #random105 lbc.math run random value 1..108
+execute store result score #random105 lbc.math run random value 1..109
 execute if score final_luck_modifier lbc.math matches 7 run scoreboard players set #random105 lbc.math 22
 
 execute anchored eyes if score #random105 lbc.math matches 1 positioned ^ ^ ^ run summon minecraft:fox ^ ^ ^0.5 {Tags:["raycastmob","prestartf"]}
@@ -110,6 +110,7 @@ execute anchored eyes if score #random105 lbc.math matches 105 positioned ^ ^ ^ 
 execute anchored eyes if score #random105 lbc.math matches 106 positioned ^ ^ ^ run summon minecraft:armadillo ^ ^ ^2 {Tags:["raycastmob","prestartf"]}
 execute anchored eyes if score #random105 lbc.math matches 107 positioned ^ ^ ^ run summon minecraft:bogged ^ ^ ^2 {Tags:["raycastmob","prestartf"]}
 execute anchored eyes if score #random105 lbc.math matches 108 positioned ^ ^ ^ run summon minecraft:creaking ^ ^ ^2 {Tags:["raycastmob","prestartf"],Invulnerable:true}
+execute anchored eyes if score #random105 lbc.math matches 109 positioned ^ ^ ^ run summon minecraft:happy_ghast ^ ^ ^4 {Tags:["raycastmob","prestartf"]}
 
 execute if score #random105 lbc.math matches 22 run advancement grant @s only lbc:true_advancements/shooter/mob_gun
 
@@ -118,6 +119,7 @@ execute store result entity @e[tag=raycastmob,tag=prestartf,sort=nearest,limit=1
 execute store result entity @e[tag=raycastmob,tag=prestartf,sort=nearest,limit=1] Motion[1] double 0.001 run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[1] 1000
 execute store result entity @e[tag=raycastmob,tag=prestartf,sort=nearest,limit=1] Motion[2] double 0.001 run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[2] 1000
 execute at @e[tag=raycastmob,tag=prestartf,sort=nearest,limit=1] run data modify entity @e[tag=raycastmob,tag=prestartf,sort=nearest,limit=1] Owner set from entity @s UUID
+execute at @e[tag=raycastmob,tag=prestartf,sort=nearest,limit=1] run data modify entity @e[tag=raycastmob,tag=prestartf,sort=nearest,limit=1] owner set from entity @s UUID
 kill @e[type=minecraft:marker,tag=reikast]
 tag @e remove prestartf
 scoreboard players set @s coldown16 50

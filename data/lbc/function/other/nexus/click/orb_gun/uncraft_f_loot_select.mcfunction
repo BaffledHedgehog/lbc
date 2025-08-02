@@ -565,4 +565,23 @@ execute if data storage lbc.math {item:"minecraft:cooked_rabbit"} run return run
 execute if data storage lbc.math {item:"minecraft:cooked_cod"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/cod
 execute if data storage lbc.math {item:"minecraft:cooked_salmon"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/salmon
 
+execute if data storage lbc.math {item:"minecraft:dried_ghast"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/8_ghast_tear_soul_sand
+execute if data storage lbc.math {item:"minecraft:red_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_red_dye
+execute if data storage lbc.math {item:"minecraft:black_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_black_dye
+execute if data storage lbc.math {item:"minecraft:orange_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_orange_dye
+execute if data storage lbc.math {item:"minecraft:pink_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_pink_dye
+execute if data storage lbc.math {item:"minecraft:yellow_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_yellow_dye
+execute if data storage lbc.math {item:"minecraft:white_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/leather_3_glass_2_wool
+execute if data storage lbc.math {item:"minecraft:magenta_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_magenta_dye
+execute if data storage lbc.math {item:"minecraft:purple_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_purple_dye
+execute if data storage lbc.math {item:"minecraft:blue_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_blue_dye
+execute if data storage lbc.math {item:"minecraft:light_blue_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_light_blue_dye
+execute if data storage lbc.math {item:"minecraft:green_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_green_dye
+execute if data storage lbc.math {item:"minecraft:lime_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_lime_dye
+execute if data storage lbc.math {item:"minecraft:gray_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_gray_dye
+execute if data storage lbc.math {item:"minecraft:light_gray_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_light_gray_dye
+execute if data storage lbc.math {item:"minecraft:cyan_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_cyan_dye
+execute if data storage lbc.math {item:"minecraft:brown_harness"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/harness_brown_dye
+execute if data storage lbc.math {item:"minecraft:saddle"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/leather_3_iron_ingot
+
 function lbc:other/nexus/click/orb_gun/uncraft_f_2
