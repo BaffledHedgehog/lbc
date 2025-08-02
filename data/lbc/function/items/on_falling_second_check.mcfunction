@@ -1,0 +1,1 @@
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:swrg_kit_integration/game/trinkets/on_fall

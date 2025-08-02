@@ -40,4 +40,6 @@ advancement grant @s only lbc:penis
 
 function lbc:armor/nanobots/tick1s
 
+execute if entity @s[nbt=!{OnGround:1b}] run function lbc:items/on_falling_second_check
+
 execute at @s[scores={nature_wisp_chance=1..}] run function lbc:other/wisp_book/passive_effects/nature/run

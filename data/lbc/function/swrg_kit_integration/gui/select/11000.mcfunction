@@ -13,6 +13,7 @@ execute if score @s swrg.gui_select matches 10 if entity @s[advancements={lbc:tr
 execute if score @s swrg.gui_select matches 11 if entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 12 if entity @s[advancements={lbc:true_advancements/legends/academy/evoker=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 13 if entity @s[advancements={lbc:true_advancements/legends/academy/exoperso=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 14 if entity @s[advancements={lbc:true_advancements/legends/academy/falling_stars=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 
 #
 
@@ -30,6 +31,7 @@ execute if score @s swrg.gui_select matches 10 run tellraw @s[advancements={lbc:
 execute if score @s swrg.gui_select matches 11 run tellraw @s[advancements={lbc:true_advancements/legends/academy/ender_random=false}] {"translate":"lbc.adv.upgraded_staff.ender_random.lore"}
 execute if score @s swrg.gui_select matches 12 run tellraw @s[advancements={lbc:true_advancements/legends/academy/evoker=false}] {"translate":"lbc.adv.upgraded_staff.evoker.lore"}
 execute if score @s swrg.gui_select matches 13 run tellraw @s[advancements={lbc:true_advancements/legends/academy/exoperso=false}] {"translate":"lbc.adv.upgraded_staff.exoperso.lore"}
+execute if score @s swrg.gui_select matches 14 run tellraw @s[advancements={lbc:true_advancements/legends/academy/falling_stars=false}] {"translate":"lbc.adv.upgraded_staff.falling_stars.lore"}
 
 
 
