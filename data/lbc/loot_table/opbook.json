@@ -552,6 +552,12 @@
                                     "chance": 0.333
                                 }
                             ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:tooltip_style":"lbc:tier_u"
+                            }
                         }
                     ]
                 }

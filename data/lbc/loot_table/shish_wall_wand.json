@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_b",
                                 "minecraft:item_model": "lbc:shish_wall_wand"
                             }
                         },

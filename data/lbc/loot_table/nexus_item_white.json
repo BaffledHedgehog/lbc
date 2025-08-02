@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_s",
                                 "minecraft:item_model": "lbc:nexus_roadgun"
                             }
                         },
@@ -68,6 +69,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style":"lbc:tier_x",
                                 "minecraft:item_model": "lbc:pulsar"
                             }
                         },
