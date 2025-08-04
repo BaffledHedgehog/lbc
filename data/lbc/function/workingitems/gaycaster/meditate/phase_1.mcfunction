@@ -1,1 +1,1 @@
-execute positioned ~ ~.5 ~ run function lbc:workingitems/gaycaster/meditate/phase_1_at
+execute positioned ~ ~ ~ run function lbc:workingitems/gaycaster/meditate/phase_1_at

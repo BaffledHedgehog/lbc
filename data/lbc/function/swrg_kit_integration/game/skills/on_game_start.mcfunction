@@ -1,0 +1,1 @@
+execute if score @s lbc.skill matches 31 run function lbc:swrg_kit_integration/game/skills/phoenix/gamestart

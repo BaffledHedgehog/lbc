@@ -1,0 +1,1 @@
+execute if score #lbcskill swrg.math matches 1.. if entity @s[scores={lbc.skill=31}] run function lbc:swrg_kit_integration/game/skills/phoenix/respawn
