@@ -11,7 +11,7 @@ execute if score danmakuhand lbc.math matches 1 if items entity @s weapon.offhan
 execute if score danmakuhand lbc.math matches 0 if items entity @s weapon.mainhand *[minecraft:custom_data~{uniwand:1}] run function lbc:items/wands/danmaku_staff/tick_right
 execute if score danmakuhand lbc.math matches 1 if items entity @s weapon.offhand *[minecraft:custom_data~{uniwand:1}] run function lbc:items/wands/danmaku_staff/tick_left
 
-execute if score danmakuhand lbc.math matches 0 unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellid:159}}}}] unless entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{danmaku_staff:1}}}]}] run function lbc:items/wands/danmaku_staff/tick_right
+execute if score danmakuhand lbc.math matches 0 unless items entity @s weapon.* *[minecraft:custom_data~{spellid:159}] unless items entity @s container.* *[minecraft:custom_data~{danmaku_staff:1}] unless items entity @s weapon.* *[minecraft:custom_data~{danmaku_staff:1}] run function lbc:items/wands/danmaku_staff/tick_right
 
 
 

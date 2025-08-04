@@ -8,6 +8,6 @@ execute store result score tmp2 lbc.math run data get entity @s equipment.chest.
 execute store result score tmp3 lbc.math run data get entity @s equipment.legs.components."minecraft:attribute_modifiers".[{type:"minecraft:armor"}].amount 20
 execute store result score tmp4 lbc.math run data get entity @s equipment.feet.components."minecraft:attribute_modifiers".[{type:"minecraft:armor"}].amount 20
 
-execute if score tmp1 lbc.math matches ..0 if score tmp2 lbc.math matches ..0 if score tmp3 lbc.math matches ..0 if score tmp4 lbc.math matches ..0 run scoreboard players set if lbc.math 0
+execute if score tmp1 lbc.math matches ..2 if score tmp2 lbc.math matches ..2 if score tmp3 lbc.math matches ..2 if score tmp4 lbc.math matches ..2 run scoreboard players set if lbc.math 0
 execute if score if lbc.math matches 1 run function lbc:swrg_kit_integration/game/skills/armored_damaged_yes
 
