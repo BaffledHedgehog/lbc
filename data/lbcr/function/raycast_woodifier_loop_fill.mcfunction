@@ -9,3 +9,4 @@ fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:warped_planks replace #minecraft:woodifier/w
 fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:bamboo_planks replace #minecraft:woodifier/bamboo strict
 fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:jungle_planks replace #minecraft:woodifier/jungle strict
 fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:acacia_planks replace #minecraft:woodifier/acacia strict
+fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:pale_oak_planks replace #minecraft:woodifier/pale_oak strict
