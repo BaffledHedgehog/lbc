@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:arcanumblackhole"
                             }
                         },
@@ -132,6 +133,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:arcanumbarrier"
                             }
                         },
@@ -222,6 +224,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:arcanumhealing"
                             }
                         },
@@ -299,6 +302,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:kiuaskivi"
                             }
                         },
@@ -402,6 +406,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:tannerkivi"
                             }
                         },
@@ -505,6 +510,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:babylongate"
                             }
                         },

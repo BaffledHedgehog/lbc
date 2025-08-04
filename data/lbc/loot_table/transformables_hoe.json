@@ -68,6 +68,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 255,
                                     "minecraft:unbreaking": 255,
@@ -94,6 +95,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:sickle",
                                 "minecraft:attribute_modifiers": [
                                     {

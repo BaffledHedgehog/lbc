@@ -17,6 +17,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:ak47",
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "enchantments": {
                                     "infinity": 1
                                 }

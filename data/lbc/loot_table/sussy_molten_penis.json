@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_u",
                                 "minecraft:item_model": "lbc:sussy_penis_health"
                             }
                         },
@@ -63,6 +64,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_u",
                                 "minecraft:item_model": "lbc:sussy_penis_damage"
                             }
                         },
@@ -110,6 +112,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_u",
                                 "minecraft:item_model": "lbc:sussy_penis_speed"
                             }
                         },

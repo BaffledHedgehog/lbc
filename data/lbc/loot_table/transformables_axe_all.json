@@ -21,6 +21,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:banhammer",
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:attribute_modifiers": [
                                     {
                                         "type": "minecraft:attack_damage",

@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:enchantments": {
                                     "minecraft:quick_charge": 5
                                 },
@@ -54,6 +55,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:enchantments": {
                                     "minecraft:quick_charge": 5
                                 },
@@ -92,6 +94,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:dildomet/dildomet",
                                 "minecraft:enchantments": {
                                     "minecraft:quick_charge": 2
@@ -129,6 +132,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:item_model": "lbc:shishgun_bow",
                                 "minecraft:enchantments": {
                                     "minecraft:infinity": 1

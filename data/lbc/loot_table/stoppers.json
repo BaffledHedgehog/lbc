@@ -16,6 +16,7 @@
                                 "function": "minecraft:set_components",
                                 "components": {
                                     "minecraft:item_model": "lbc:stopper",
+                                    "minecraft:tooltip_style": "lbc:tier_b",
                                     "minecraft:entity_data": {
                                         "id": "minecraft:marker",
                                         "Tags": [
@@ -67,6 +68,7 @@
                                 "function": "minecraft:set_components",
                                 "components": {
                                     "minecraft:item_model": "lbc:stopper_magic",
+                                    "minecraft:tooltip_style": "lbc:tier_b",
                                     "minecraft:entity_data": {
                                         "id": "minecraft:marker",
                                         "Tags": [

@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:unbreaking": 10
@@ -108,6 +109,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:base_color": "light_blue",
                                 "minecraft:banner_patterns": [
                                     {

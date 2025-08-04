@@ -11,6 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/evoker"
                             }
                         },
@@ -77,6 +78,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/evoker"
                             }
                         },
@@ -148,6 +150,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/evoker"
                             }
                         },
@@ -219,6 +222,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/evoker"
                             }
                         },
@@ -290,6 +294,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/bass"
                             }
                         },
@@ -371,6 +376,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/bass"
                             }
                         },
@@ -442,6 +448,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/bass"
                             }
                         },
@@ -513,6 +520,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/bass"
                             }
                         },
@@ -584,6 +592,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/bass"
                             }
                         },
@@ -655,6 +664,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/corrupt"
                             }
                         },
@@ -736,6 +746,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/corrupt"
                             }
                         },
@@ -807,6 +818,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/corrupt"
                             }
                         },
@@ -878,6 +890,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/corrupt"
                             }
                         },
@@ -949,6 +962,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/corrupt"
                             }
                         },
@@ -1020,6 +1034,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/endcast"
                             }
                         },
@@ -1086,6 +1101,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/endcast"
                             }
                         },
@@ -1157,6 +1173,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/vampire"
                             }
                         },
@@ -1238,6 +1255,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/vampire"
                             }
                         },
@@ -1329,6 +1347,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/vampire"
                             }
                         },
@@ -1415,6 +1434,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/foxus"
                             }
                         },
@@ -1496,6 +1516,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/foxus"
                             }
                         },
@@ -1567,6 +1588,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/foxus"
                             }
                         },
@@ -1638,6 +1660,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/foxus"
                             }
                         },
@@ -1709,6 +1732,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/foxus"
                             }
                         },
@@ -1780,6 +1804,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/blood"
                             }
                         },
@@ -1861,6 +1886,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/blood"
                             }
                         },
@@ -1942,6 +1968,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_u",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2023,6 +2050,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2094,6 +2122,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2165,6 +2194,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2236,6 +2266,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2307,6 +2338,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2378,6 +2410,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2449,6 +2482,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2520,6 +2554,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2591,6 +2626,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2662,6 +2698,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2733,6 +2770,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2804,6 +2842,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2875,6 +2914,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -2946,6 +2986,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3017,6 +3058,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3088,6 +3130,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3159,6 +3202,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3230,6 +3274,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3301,6 +3346,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3372,6 +3418,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3443,6 +3490,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3514,6 +3562,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3585,6 +3634,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3656,6 +3706,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3727,6 +3778,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3798,6 +3850,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3869,6 +3922,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -3940,6 +3994,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4011,6 +4066,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4082,6 +4138,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4153,6 +4210,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4224,6 +4282,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4295,6 +4354,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4366,6 +4426,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4437,6 +4498,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4508,6 +4570,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4579,6 +4642,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4650,6 +4714,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4721,6 +4786,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4792,6 +4858,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4863,6 +4930,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -4934,6 +5002,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5005,6 +5074,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5076,6 +5146,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5147,6 +5218,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5218,6 +5290,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5289,6 +5362,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5360,6 +5434,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5431,6 +5506,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5502,6 +5578,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5573,6 +5650,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5644,6 +5722,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5715,6 +5794,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5786,6 +5866,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5857,6 +5938,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5928,6 +6010,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -5999,6 +6082,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6070,6 +6154,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6141,6 +6226,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6212,6 +6298,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6283,6 +6370,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6354,6 +6442,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6425,6 +6514,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6496,6 +6586,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6567,6 +6658,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6638,6 +6730,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6709,6 +6802,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6780,6 +6874,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6851,6 +6946,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6922,6 +7018,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -6993,6 +7090,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7064,6 +7162,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7135,6 +7234,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7206,6 +7306,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7277,6 +7378,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7348,6 +7450,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7419,6 +7522,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7490,6 +7594,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7561,6 +7666,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7632,6 +7738,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7703,6 +7810,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7774,6 +7882,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7845,6 +7954,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },
@@ -7916,6 +8026,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/potion"
                             }
                         },

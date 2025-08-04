@@ -31,6 +31,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:lightningwand"
                             }
                         },
@@ -183,6 +184,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:lightningegg",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:lightning_bolt"

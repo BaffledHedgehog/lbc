@@ -16,6 +16,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_model": "lbc:stand_arrow",
+                                "minecraft:tooltip_style": "lbc:tier_q",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {

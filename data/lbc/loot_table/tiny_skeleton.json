@@ -34,6 +34,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:unbreakable": {},
                                 "minecraft:enchantments": {
                                     "minecraft:thorns": 15
@@ -72,6 +73,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_damage": 32,
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:tiny_bone"
                             }
                         },

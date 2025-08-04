@@ -998,7 +998,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:tooltip_style":"lbc:tier_s",
+                                "minecraft:tooltip_style":"lbc:tier_x",
                                 "minecraft:item_model": "lbc:banhammer",
                                 "minecraft:attribute_modifiers": [
                                     {

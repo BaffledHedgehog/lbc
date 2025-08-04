@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:phantomknifes"
                             }
                         },
@@ -81,6 +82,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:mobgun"
                             }
                         },
@@ -148,6 +150,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:mobgun"
                             }
                         },
@@ -230,6 +233,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:kfcgun"
                             }
                         },
@@ -302,6 +306,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:razorpine"
                             }
                         },
@@ -371,6 +376,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:attack_helicopter"
                             }
                         },
@@ -449,6 +455,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:laser_minigun/1",
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -551,6 +558,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:woodificator"
                             }
                         },

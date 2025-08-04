@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:gaara"
                             }
                         },
@@ -81,6 +82,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:saveplatform"
                             }
                         },
@@ -136,6 +138,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:regenerationbelt"
                             }
                         },
@@ -201,6 +204,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:manaregenerationbelt"
                             }
                         },
@@ -266,6 +270,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:magnet"
                             }
                         },
@@ -330,6 +335,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:kishki"
                             }
                         },
@@ -404,6 +410,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:quiver"
                             }
                         },
@@ -490,6 +497,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:popit"
                             }
                         },
@@ -555,6 +563,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_q",
                                 "minecraft:item_model": "lbc:runic_ice_shard"
                             }
                         },

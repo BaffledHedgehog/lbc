@@ -21,6 +21,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:item_model": "lbc:magnum",
                                 "minecraft:custom_name": {
                                     "italic": false,
@@ -80,6 +81,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:govnomet"
                             }
                         },
