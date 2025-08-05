@@ -4,7 +4,7 @@ execute if score tmparmor lbc.math matches ..2 run scoreboard players set tmparm
 execute store result storage lbc.math tmparmor double 0.05 run scoreboard players get tmparmor lbc.math
 
 item replace block 10241024 71 10241024 container.5 from entity @s armor.head
-function lbc:swrg_kit_integration/game/skills/armored_damaged_storage with storage lbc.math
+execute if items block 10241024 71 10241024 container.5 * run function lbc:swrg_kit_integration/game/skills/armored_damaged_storage with storage lbc.math
 
 
 item replace entity @s armor.head from block 10241024 71 10241024 container.5
