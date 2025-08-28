@@ -19,6 +19,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:item_model": "minecraft:golden_axe",
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 255
@@ -71,6 +72,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "minecraft:golden_hoe",
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 255
@@ -123,6 +125,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:unbreakable": {}
                             }
                         },
@@ -172,6 +175,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:item_model": "minecraft:golden_shovel",
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 255
@@ -224,6 +228,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:item_model": "minecraft:golden_pickaxe",
                                 "minecraft:enchantments": {
                                     "minecraft:efficiency": 255,
@@ -272,6 +277,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:item_model": "minecraft:gold_block",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",

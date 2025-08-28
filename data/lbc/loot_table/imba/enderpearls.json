@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "minecraft:ender_pearl"
                             }
                         },
@@ -51,7 +52,8 @@
                     "functions": [
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b"}
                         },
                         {
                             "function": "minecraft:set_lore",
@@ -77,6 +79,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "minecraft:end_portal_frame",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -121,6 +124,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "minecraft:end_crystal",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:end_crystal"
@@ -160,6 +164,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:item_model": "minecraft:crying_obsidian",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",

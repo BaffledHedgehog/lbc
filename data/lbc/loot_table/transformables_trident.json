@@ -16,6 +16,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:enchantments": {
                                     "minecraft:riptide": 10
                                 },
@@ -76,6 +77,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:enchantments": {
                                     "minecraft:loyalty": 1,
                                     "minecraft:impaling": 10

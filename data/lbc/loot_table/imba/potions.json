@@ -24,6 +24,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -89,6 +90,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -154,6 +156,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -219,6 +222,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -284,6 +288,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -349,6 +354,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -414,6 +420,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -479,6 +486,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -544,6 +552,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -609,6 +618,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -674,6 +684,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -739,6 +750,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -804,6 +816,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -865,6 +878,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -930,6 +944,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -995,6 +1010,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1060,6 +1076,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1125,6 +1142,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1190,6 +1208,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1255,6 +1274,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1320,6 +1341,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1385,6 +1407,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1450,6 +1473,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1515,6 +1539,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1580,6 +1605,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1645,6 +1671,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1710,6 +1737,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1775,6 +1803,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1840,6 +1869,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1905,6 +1935,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -1970,6 +2001,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2035,6 +2067,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2100,6 +2133,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2165,6 +2199,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2230,6 +2265,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2295,6 +2331,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2360,6 +2397,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2425,6 +2463,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2490,6 +2529,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2555,6 +2595,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2620,6 +2661,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2685,6 +2727,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2750,6 +2793,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2815,6 +2859,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2880,6 +2925,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -2945,6 +2991,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3010,6 +3057,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3075,6 +3123,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3140,6 +3189,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3205,6 +3255,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3270,6 +3321,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3335,6 +3387,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3400,6 +3453,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3465,6 +3519,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3530,6 +3585,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3595,6 +3651,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3660,6 +3717,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3725,6 +3783,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3790,6 +3849,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3855,6 +3915,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3920,6 +3981,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -3985,6 +4047,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4050,6 +4113,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4115,6 +4179,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4180,6 +4245,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4245,6 +4311,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4310,6 +4377,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4375,6 +4443,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4440,6 +4509,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4505,6 +4575,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4566,6 +4637,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4631,6 +4703,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4696,6 +4769,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4761,6 +4835,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4826,6 +4901,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4891,6 +4967,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -4956,6 +5033,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5021,6 +5099,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5086,6 +5165,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5151,6 +5231,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5216,6 +5297,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5281,6 +5363,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5346,6 +5429,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5411,6 +5495,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5476,6 +5561,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5541,6 +5627,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5606,6 +5693,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5671,6 +5759,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5736,6 +5825,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5801,6 +5891,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5866,6 +5957,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5931,6 +6023,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -5996,6 +6089,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6061,6 +6155,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6126,6 +6221,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6191,6 +6287,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6256,6 +6353,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6321,6 +6419,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6386,6 +6485,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6451,6 +6551,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6516,6 +6617,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6581,6 +6683,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6646,6 +6749,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6711,6 +6815,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6776,6 +6881,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6841,6 +6947,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6906,6 +7013,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -6971,6 +7079,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7036,6 +7145,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7101,6 +7211,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7166,6 +7277,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7231,6 +7343,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7296,6 +7409,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7361,6 +7475,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ff",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7426,6 +7541,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7491,6 +7607,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7556,6 +7673,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7621,6 +7739,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7686,6 +7805,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7751,6 +7871,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7816,6 +7937,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7881,6 +8003,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -7946,6 +8069,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8011,6 +8135,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8076,6 +8201,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8141,6 +8267,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8206,6 +8333,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8267,6 +8395,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8332,6 +8461,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8397,6 +8527,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8462,6 +8593,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8527,6 +8659,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8592,6 +8725,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8657,6 +8791,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8722,6 +8857,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8787,6 +8923,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8852,6 +8989,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8917,6 +9055,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -8982,6 +9121,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9047,6 +9187,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9112,6 +9253,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9177,6 +9319,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9242,6 +9385,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9307,6 +9451,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9372,6 +9517,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9437,6 +9583,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9502,6 +9649,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9567,6 +9715,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9632,6 +9781,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9697,6 +9847,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9762,6 +9913,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9827,6 +9979,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9892,6 +10045,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -9957,6 +10111,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10022,6 +10177,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10087,6 +10243,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10152,6 +10309,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10217,6 +10375,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10282,6 +10441,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10347,6 +10507,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10412,6 +10573,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10477,6 +10639,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10542,6 +10705,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10607,6 +10771,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10672,6 +10837,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10737,6 +10903,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10802,6 +10969,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10867,6 +11035,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10932,6 +11101,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -10997,6 +11167,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {
@@ -11062,6 +11233,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:potion_contents": {
                                     "custom_effects": [
                                         {

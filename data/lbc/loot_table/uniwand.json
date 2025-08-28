@@ -14,6 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_q",
                                 "minecraft:item_model": "lbc:uniwand"
                             }
                         },
@@ -76,7 +77,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{transformable:1,staff:1,magicwand:1,uniwand:1,mana:0,spellcount:0,spellwithcooldown:1}"
+                            "tag": "{transformable:1,staff:1,magicwand:1,uniwand:1,mana:0,spellcount:0,spellwithcooldown:1,value:0}"
                         }
                     ]
                 }

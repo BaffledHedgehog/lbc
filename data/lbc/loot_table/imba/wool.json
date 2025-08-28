@@ -24,6 +24,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:black_wool"
                             }
                         },
@@ -70,6 +71,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:blue_wool"
                             }
                         },
@@ -116,6 +118,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:brown_wool"
                             }
                         },
@@ -162,6 +165,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:cyan_wool"
                             }
                         },
@@ -208,6 +212,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:gray_wool"
                             }
                         },
@@ -254,6 +259,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:green_wool"
                             }
                         },
@@ -300,6 +306,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:light_blue_wool"
                             }
                         },
@@ -346,6 +353,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:light_gray_wool"
                             }
                         },
@@ -392,6 +400,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:lime_wool"
                             }
                         },
@@ -438,6 +447,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:magenta_wool"
                             }
                         },
@@ -484,6 +494,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:orange_wool"
                             }
                         },
@@ -530,6 +541,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:pink_wool"
                             }
                         },
@@ -576,6 +588,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:purple_wool"
                             }
                         },
@@ -622,6 +635,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:red_wool"
                             }
                         },
@@ -668,6 +682,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:white_wool"
                             }
                         },
@@ -714,6 +729,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "minecraft:yellow_wool"
                             }
                         },

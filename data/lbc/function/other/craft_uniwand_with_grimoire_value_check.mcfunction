@@ -1,0 +1,9 @@
+execute if score value lbc.math matches ..-11 run return run item modify entity @s container.0 lbc:tiers/ff
+execute if score value lbc.math matches -10..-1 run return run item modify entity @s container.0 lbc:tiers/f
+execute if score value lbc.math matches 0..9 run return run item modify entity @s container.0 lbc:tiers/d
+execute if score value lbc.math matches 10..99 run return run item modify entity @s container.0 lbc:tiers/c
+execute if score value lbc.math matches 100..999 run return run item modify entity @s container.0 lbc:tiers/b
+execute if score value lbc.math matches 1000..9999 run return run item modify entity @s container.0 lbc:tiers/a
+execute if score value lbc.math matches 10000..99999 run return run item modify entity @s container.0 lbc:tiers/s
+execute if score value lbc.math matches 100000..999999 run return run item modify entity @s container.0 lbc:tiers/ss
+execute if score value lbc.math matches 1000000.. run return run item modify entity @s container.0 lbc:tiers/x

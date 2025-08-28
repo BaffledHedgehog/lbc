@@ -664,7 +664,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
-                                "minecraft:tooltip_style": "lbc:tier_d",
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/corrupt"
                             }
                         },
@@ -8098,6 +8098,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/wall"
                             }
                         },
@@ -8174,6 +8175,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/wall"
                             }
                         },
@@ -8245,6 +8247,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/wall"
                             }
                         },
@@ -8316,6 +8319,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/wall"
                             }
                         },
@@ -8387,6 +8391,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:spelllib/advanced_tp"
                             }
                         },
@@ -8473,6 +8478,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:spelllib/advanced_tp"
                             }
                         },
@@ -8544,6 +8550,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:spelllib/advanced_tp"
                             }
                         },
@@ -8615,6 +8622,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:spelllib/advanced_tp"
                             }
                         },
@@ -8686,6 +8694,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/falling_stars"
                             }
                         },
@@ -8767,6 +8776,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/falling_stars"
                             }
                         },
@@ -8838,6 +8848,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:spelllib/falling_stars"
                             }
                         },
@@ -8909,6 +8920,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/prism"
                             }
                         },
@@ -8985,6 +8997,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:spelllib/prism"
                             }
                         },
@@ -9061,6 +9074,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:spelllib/blaze"
                             }
                         },
@@ -9136,6 +9150,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/blaze"
                             }
@@ -9212,6 +9227,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/random"
                             }
@@ -9288,6 +9304,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_u",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/random"
                             }
@@ -9360,6 +9377,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:max_stack_size": 99,
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:spelllib/hedgehog"
                             }
                         },
@@ -9440,6 +9458,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/hedgehog"
                             }
@@ -9511,6 +9530,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/hedgehog"
                             }
@@ -9582,6 +9602,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/hedgehog"
                             }
@@ -9653,6 +9674,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/hedgehog"
                             }
@@ -9724,6 +9746,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/polymorph"
                             }
@@ -9795,6 +9818,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/polymorph"
                             }
@@ -9881,6 +9905,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psycho"
                             }
@@ -9957,6 +9982,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psycho"
                             }
@@ -10028,6 +10054,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psycho"
                             }
@@ -10099,6 +10126,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psycho"
                             }
@@ -10170,6 +10198,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psycho"
                             }
@@ -10241,6 +10270,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/tesla"
                             }
@@ -10327,6 +10357,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/tesla"
                             }
@@ -10398,6 +10429,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/tesla"
                             }
@@ -10469,6 +10501,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acid"
                             }
@@ -10550,6 +10583,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acid"
                             }
@@ -10621,6 +10655,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/omega"
                             }
@@ -10687,6 +10722,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/omega"
                             }
@@ -10758,6 +10794,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/neutral"
                             }
@@ -10824,6 +10861,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/neutral"
                             }
@@ -10895,6 +10934,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/neutral"
                             }
@@ -10966,6 +11006,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/neutral"
                             }
@@ -11037,6 +11078,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/neutral"
                             }
@@ -11108,6 +11150,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/neutral"
                             }
@@ -11179,6 +11222,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/lightning_bolt"
                             }
@@ -11245,6 +11289,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/lightning_bolt"
                             }
@@ -11316,6 +11361,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/lightning_bolt"
                             }
@@ -11387,6 +11433,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/exoperso"
                             }
@@ -11453,6 +11500,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/exoperso"
                             }
@@ -11529,6 +11577,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/danmaku"
                             }
@@ -11625,6 +11674,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/swarogia"
                             }
@@ -11701,6 +11751,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/swarogia"
                             }
@@ -11777,6 +11828,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/swarogia"
                             }
@@ -11853,6 +11905,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/terra"
                             }
@@ -11919,6 +11972,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/terra"
                             }
@@ -11990,6 +12044,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/sosuenerugi"
                             }
@@ -12061,6 +12116,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/sosuenerugi"
                             }
@@ -12132,6 +12188,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/explode"
                             }
@@ -12198,6 +12255,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/explode"
                             }
@@ -12269,6 +12327,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/explode"
                             }
@@ -12340,6 +12399,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/explode"
                             }
@@ -12411,6 +12471,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/lahazor"
                             }
@@ -12482,6 +12543,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/lahazor"
                             }
@@ -12553,6 +12615,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/arkontas"
                             }
@@ -12619,6 +12682,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/arkontas"
                             }
@@ -12690,6 +12754,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/arkontas"
                             }
@@ -12761,6 +12826,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stone"
                             }
@@ -12827,6 +12893,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stone"
                             }
@@ -12898,6 +12965,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stone"
                             }
@@ -12969,6 +13037,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stone"
                             }
@@ -13040,6 +13109,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stone"
                             }
@@ -13111,6 +13181,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/fire"
                             }
@@ -13177,6 +13248,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/fire"
                             }
@@ -13248,6 +13320,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/fire"
                             }
@@ -13319,6 +13392,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/blind"
                             }
@@ -13385,6 +13459,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/blind"
                             }
@@ -13456,6 +13531,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/blind"
                             }
@@ -13527,6 +13603,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/blind"
                             }
@@ -13598,6 +13675,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidacid"
                             }
@@ -13664,77 +13742,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:max_stack_size": 99,
-                                "minecraft:item_model": "lbc:spelllib/acidacid"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": [
-                                {
-                                    "translate": "libspell_acidacid_1",
-                                    "color": "white",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                [
-                                    {
-                                        "translate": "type",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    },
-                                    {
-                                        "translate": "libspell",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    }
-                                ],
-                                {
-                                    "text": "",
-                                    "type": "text"
-                                },
-                                {
-                                    "translate": "libspell_acidacid_1.lore",
-                                    "color": "gold",
-                                    "italic": false
-                                },
-                                [
-                                    {
-                                        "translate": "rarity",
-                                        "italic": false,
-                                        "color": "white"
-                                    },
-                                    {
-                                        "translate": "legendary",
-                                        "italic": false,
-                                        "color": "red"
-                                    },
-                                    {
-                                        "translate": "enhanced",
-                                        "italic": false,
-                                        "color": "gray"
-                                    }
-                                ]
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{transformable:1,gadget:1,libspell:1,mana:1000,unresolved_grimoire:1,spellid:189}"
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:snowball",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidacid"
                             }
@@ -13806,6 +13814,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidacid"
                             }
@@ -13877,6 +13886,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidacid"
                             }
@@ -13948,6 +13958,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidacid"
                             }
@@ -14019,6 +14030,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidacid"
                             }
@@ -14090,6 +14102,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidcorrupt"
                             }
@@ -14156,6 +14169,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidcorrupt"
                             }
@@ -14227,6 +14241,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidcorrupt"
                             }
@@ -14298,6 +14313,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/acidcorrupt"
                             }
@@ -14369,6 +14385,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/exasperato"
                             }
@@ -14435,6 +14452,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/exasperato"
                             }
@@ -14506,6 +14524,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/exasperato"
                             }
@@ -14577,6 +14596,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/exasperato"
                             }
@@ -14648,6 +14668,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/exasperato"
                             }
@@ -14719,6 +14740,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/homing"
                             }
@@ -14785,6 +14807,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/homing"
                             }
@@ -14856,6 +14879,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/homing"
                             }
@@ -14927,6 +14951,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/homing"
                             }
@@ -14998,6 +15023,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psychoblind"
                             }
@@ -15064,6 +15090,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psychoblind"
                             }
@@ -15135,6 +15162,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psychoblind"
                             }
@@ -15206,6 +15234,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/psychoblind"
                             }
@@ -15277,6 +15306,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/boltbolt"
                             }
@@ -15343,6 +15373,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/boltbolt"
                             }
@@ -15414,6 +15445,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/boltbolt"
                             }
@@ -15485,6 +15517,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/boltbolt"
                             }
@@ -15556,6 +15589,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/erecto"
                             }
@@ -15622,6 +15656,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/erecto"
                             }
@@ -15693,6 +15728,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/erecto"
                             }
@@ -15764,6 +15800,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/erecto"
                             }
@@ -15835,6 +15872,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/fireblaze"
                             }
@@ -15901,6 +15939,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/fireblaze"
                             }
@@ -15972,6 +16011,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/fireblaze"
                             }
@@ -16043,6 +16083,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/fireblaze"
                             }
@@ -16114,6 +16155,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/fireblaze"
                             }
@@ -16185,6 +16227,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/consuming"
                             }
@@ -16251,6 +16294,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/consuming"
                             }
@@ -16322,6 +16366,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/consuming"
                             }
@@ -16393,6 +16438,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_x",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/consuming"
                             }
@@ -16464,6 +16510,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/avarice"
                             }
@@ -16530,6 +16577,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/avarice"
                             }
@@ -16601,6 +16649,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/avarice"
                             }
@@ -16672,6 +16721,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/avarice"
                             }
@@ -16743,6 +16793,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stonestone"
                             }
@@ -16809,6 +16860,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stonestone"
                             }
@@ -16880,6 +16932,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stonestone"
                             }
@@ -16951,6 +17004,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/stonestone"
                             }
@@ -17022,6 +17076,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/bedrock"
                             }
@@ -17088,6 +17143,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/bedrock"
                             }
@@ -17159,6 +17215,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/bedrock"
                             }
@@ -17230,6 +17287,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/bedrock"
                             }
@@ -17301,6 +17359,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:max_stack_size": 99,
                                 "minecraft:item_model": "lbc:spelllib/bedrock"
                             }

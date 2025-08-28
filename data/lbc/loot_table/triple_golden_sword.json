@@ -14,6 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:triple_golden_sword",
                                 "minecraft:max_damage": 900,
                                 "minecraft:attribute_modifiers": [

@@ -98,7 +98,7 @@ execute if score spell lbc.math matches 185 anchored eyes positioned ^ ^ ^ run f
 execute if score spell lbc.math matches 186 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/blind_preloop_upgraded_phantom
 execute if score spell lbc.math matches 187 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/blind_preloop_upgraded_rain
 execute if score spell lbc.math matches 188 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/acidacid/click2
-execute if score spell lbc.math matches 189 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/acidacid/click_upgraded_mode_default_lib
+#execute if score spell lbc.math matches 189 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/acidacid/click_upgraded_mode_default_lib
 execute if score spell lbc.math matches 190 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/acidacid/click_upgraded_mode_caust_lib
 execute if score spell lbc.math matches 191 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/acidacid/click_upgraded_mode_caust_lib_1
 execute if score spell lbc.math matches 192 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/acidacid/click_upgraded_mode_gatling_lib

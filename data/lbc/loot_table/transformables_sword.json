@@ -27,7 +27,8 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d"}
                         },
                         {
                             "function": "minecraft:set_lore",
@@ -66,6 +67,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:hylian_sword"
                             }
                         },
@@ -120,6 +122,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:enchantments": {
                                     "minecraft:knockback": 3
                                 }
@@ -162,6 +165,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:devilsword",
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -241,6 +245,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:vampiresword",
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -310,6 +315,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:epicsword",
                                 "minecraft:max_damage": 300
                             }
@@ -366,6 +372,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:steaksword"
                             }
                         },
@@ -421,6 +428,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:item_model": "lbc:endersword"
                             }
                         },
@@ -481,6 +489,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:gravitysword"
                             }
                         },
@@ -540,6 +549,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:guardiansword"
                             }
                         },
@@ -599,6 +610,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:icesword"
                             }
                         },
@@ -658,6 +670,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "lbc:evolutionsword",
                                 "minecraft:unbreakable": {},
                                 "minecraft:attribute_modifiers": [
@@ -731,6 +744,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:terrasword",
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -832,6 +846,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:anal_whip",
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -907,6 +922,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:piston_sword",
                                 "minecraft:attribute_modifiers": [
                                     {

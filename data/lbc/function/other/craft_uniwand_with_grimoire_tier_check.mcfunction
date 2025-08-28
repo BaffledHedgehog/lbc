@@ -1,0 +1,9 @@
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_ff"}}}] run return run scoreboard players remove value lbc.math 99
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_f"}}}] run return run scoreboard players remove value lbc.math 9
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_d"}}}] run return run scoreboard players add value lbc.math 1
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_c"}}}] run return run scoreboard players add value lbc.math 10
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_b"}}}] run return run scoreboard players add value lbc.math 100
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_a"}}}] run return run scoreboard players add value lbc.math 1000
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_s"}}}] run return run scoreboard players add value lbc.math 10000
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_ss"}}}] run return run scoreboard players add value lbc.math 100000
+execute if entity @s[nbt={Item:{"components":{"minecraft:tooltip_style":"tier_x"}}}] run return run scoreboard players add value lbc.math 1000000

@@ -15,7 +15,8 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b"}
                         },
                         {
                             "function": "minecraft:set_lore",
@@ -46,6 +47,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:metal_pipe"
                             }
                         },
@@ -87,6 +89,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "minecraft:bedrock",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -141,6 +144,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:item_model": "lbc:mum"
                             }
                         },
@@ -185,7 +189,8 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -224,6 +229,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:item_model": "minecraft:tnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -272,7 +278,8 @@
                         },
                         {
                             "function": "minecraft:set_components",
-                            "components": {}
+                            "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f"}
                         },
                         {
                             "function": "minecraft:set_name",
@@ -312,6 +319,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:ghast",
                                     "ExplosionPower": 127,
@@ -377,6 +385,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:item_model": "lbc:fusedtnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:tnt",
@@ -426,6 +435,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:lightningegg"
                             }
                         },
@@ -532,6 +542,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:enchantments": {
                                     "minecraft:fire_aspect": 255
                                 },
@@ -621,6 +632,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:item_model": "lbc:omegatnt",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -677,6 +689,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_k",
                                 "minecraft:item_model": "lbc:nuke",
                                 "minecraft:entity_data": {
                                     "id": "minecraft:marker",
@@ -734,6 +747,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:bridgebuilder"
                             }
                         },
@@ -782,6 +796,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:teleporter"
                             }
                         },

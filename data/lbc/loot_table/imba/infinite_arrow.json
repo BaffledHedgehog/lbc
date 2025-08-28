@@ -15,6 +15,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:enchantments": {
                                     "minecraft:infinity": 1
                                 }

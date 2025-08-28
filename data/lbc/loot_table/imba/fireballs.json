@@ -19,6 +19,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:item_model": "lbc:smallfireball"
                             }
                         },
@@ -79,6 +80,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_ss",
                                 "minecraft:item_model": "lbc:bigfireball"
                             }
                         },
@@ -143,6 +145,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:dragfireball"
                             }
                         },

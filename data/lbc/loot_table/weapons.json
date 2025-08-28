@@ -24,6 +24,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:enchantments": {
                                     "minecraft:quick_charge": 5
                                 }
@@ -64,6 +65,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:enchantments": {
                                     "minecraft:piercing": 10
                                 }
@@ -104,6 +106,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_c",
                                 "minecraft:enchantments": {
                                     "minecraft:multishot": 1
                                 }
@@ -144,6 +147,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:enchantments": {
                                     "minecraft:multishot": 1,
                                     "minecraft:piercing": 1,
@@ -186,6 +190,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:enchantments": {
                                     "minecraft:quick_charge": 2
                                 }
@@ -226,6 +231,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_s",
                                 "minecraft:enchantments": {
                                     "minecraft:multishot": 1,
                                     "minecraft:piercing": 1,
@@ -297,6 +303,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_a",
                                 "minecraft:potion_contents": {
                                     "custom_color": 6710881
                                 }
@@ -329,6 +336,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_f",
                                 "minecraft:potion_contents": {
                                     "custom_color": 6710882
                                 }
@@ -376,6 +384,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:potion_contents": {
                                     "custom_color": 2883328,
                                     "custom_effects": [
@@ -422,6 +431,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:potion_contents": {
                                     "custom_color": 6710883
                                 }
@@ -465,6 +475,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_color": 16746496,
                                     "custom_effects": [
@@ -510,6 +521,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_color": 6184020,
                                     "custom_effects": [
@@ -571,6 +583,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_d",
                                 "minecraft:potion_contents": {
                                     "custom_color": 65493,
                                     "custom_effects": [
@@ -617,6 +630,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:potion_contents": {
                                     "custom_color": 52479,
                                     "custom_effects": [
