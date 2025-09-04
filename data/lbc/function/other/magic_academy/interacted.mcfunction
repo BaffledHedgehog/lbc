@@ -1,3 +1,4 @@
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{pissed_by_madoka_sob_sob_sob_sob_sob:1}}}}] run return run function lbc:other/magic_academy/interacted_cancel_update
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgraded:1}}}}] run tellraw @s {"translate":"magic_academy_root","color":"green"}
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgraded:1}}}}] run tellraw @s {"translate":"already_upgraded"}

@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:ender_pearl"}}] run function lbc:other/twitching_ender_pearl
+execute if items entity @s weapon.offhand minecraft:ender_pearl run function lbc:other/twitching_ender_pearl_left

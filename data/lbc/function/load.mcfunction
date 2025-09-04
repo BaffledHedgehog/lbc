@@ -290,6 +290,7 @@ setblock 10241024 100 10241024 minecraft:yellow_shulker_box
 setblock 10241024 71 10241024 minecraft:yellow_shulker_box
 setblock 10241024 94 10241024 minecraft:yellow_shulker_box
 setblock 10241024 194 10241024 minecraft:yellow_shulker_box
+setblock 10241024 55 10241024 minecraft:yellow_shulker_box
 function lbc:tick5s
 function lbc:tick2s
 function lbc:tick3s
@@ -325,7 +326,7 @@ scoreboard objectives add lbc.challenge.levelup2 dummy
 scoreboard objectives add lbc.challenge.trinket dummy
 scoreboard objectives add lbc.challenge.trinket2 dummy
 
-scoreboard players set antigravity lbc.math 0
+#scoreboard players set antigravity lbc.math 0
 
 #swag
 

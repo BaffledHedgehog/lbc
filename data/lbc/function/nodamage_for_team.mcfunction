@@ -1,0 +1,16 @@
+execute if entity @s[team=1] run return run tag @e[type=#mobs,team=1] add nodamage
+execute if entity @s[team=2] run return run tag @e[type=#mobs,team=2] add nodamage
+execute if entity @s[team=3] run return run tag @e[type=#mobs,team=3] add nodamage
+execute if entity @s[team=4] run return run tag @e[type=#mobs,team=4] add nodamage
+execute if entity @s[team=5] run return run tag @e[type=#mobs,team=5] add nodamage
+execute if entity @s[team=6] run return run tag @e[type=#mobs,team=6] add nodamage
+execute if entity @s[team=7] run return run tag @e[type=#mobs,team=7] add nodamage
+execute if entity @s[team=8] run return run tag @e[type=#mobs,team=8] add nodamage
+execute if entity @s[team=9] run return run tag @e[type=#mobs,team=9] add nodamage
+execute if entity @s[team=10] run return run tag @e[type=#mobs,team=10] add nodamage
+execute if entity @s[team=11] run return run tag @e[type=#mobs,team=11] add nodamage
+execute if entity @s[team=12] run return run tag @e[type=#mobs,team=12] add nodamage
+execute if entity @s[team=13] run return run tag @e[type=#mobs,team=13] add nodamage
+execute if entity @s[team=14] run return run tag @e[type=#mobs,team=14] add nodamage
+execute if entity @s[team=15] run return run tag @e[type=#mobs,team=15] add nodamage
+execute if entity @s[team=16] run return run tag @e[type=#mobs,team=16] add nodamage
