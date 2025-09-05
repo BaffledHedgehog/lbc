@@ -1,0 +1,16 @@
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=1] run team join 1 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=2] run team join 2 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=3] run team join 3 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=4] run team join 4 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=5] run team join 5 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=6] run team join 6 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=7] run team join 7 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=8] run team join 8 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=9] run team join 9 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=10] run team join 10 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=11] run team join 11 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=12] run team join 12 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=13] run team join 13 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=14] run team join 14 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=15] run team join 15 @s
+execute if entity @e[type=minecraft:warden,distance=..1,tag=grimoire_boss_hitbox,limit=1,team=16] run team join 16 @s
