@@ -41,7 +41,55 @@
                                     "translate": "lbcskill.20.lore.2",
                                     "italic": false,
                                     "color": "gray"
-                                }
+                                },
+                                    [
+                                        {
+                                            "translate": "pick_rate",
+                                            "italic": false,
+                                            "color": "gold"
+                                        },
+                                        {
+                                            "storage": "stats:stats",
+                                            "nbt": "pick_rate_skill[19]",
+                                            "italic": false,
+                                            "color": "yellow"
+                                        },
+                                        {
+                                            "translate": "pick_count",
+                                            "italic": false,
+                                            "color": "gold"
+                                        },
+                                        {
+                                            "storage": "stats:stats",
+                                            "nbt": "pick_count_skill[19]",
+                                            "italic": false,
+                                            "color": "yellow"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "translate": "win_rate",
+                                            "italic": false,
+                                            "color": "gold"
+                                        },
+                                        {
+                                            "storage": "stats:stats",
+                                            "nbt": "win_rate_skill[19]",
+                                            "italic": false,
+                                            "color": "yellow"
+                                        },
+                                        {
+                                            "translate": "win_count",
+                                            "italic": false,
+                                            "color": "gold"
+                                        },
+                                        {
+                                            "storage": "stats:stats",
+                                            "nbt": "win_count_skill[19]",
+                                            "italic": false,
+                                            "color": "yellow"
+                                        }
+                                    ]
                             ]
                         }
                     ]

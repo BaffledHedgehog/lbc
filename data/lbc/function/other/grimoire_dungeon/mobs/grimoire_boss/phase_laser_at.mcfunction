@@ -1,4 +1,6 @@
-execute at @s if score @s Lifetime matches 0..1 facing entity @e[type=#minecraft:mobs,distance=..40,tag=!dungeon_mob,tag=!spectator,sort=nearest,limit=1] eyes positioned ^ ^ ^ run tp @s ^ ^ ^ ~ ~
-execute at @s if score @s Lifetime matches 2.. anchored eyes facing entity @e[type=#minecraft:mobs,distance=..40,tag=!dungeon_mob,tag=!spectator,sort=nearest,limit=1] eyes positioned ^ ^ ^0.15 rotated as @s positioned ^ ^ ^1 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^ ~ ~
+
+execute at @s if score @s Lifetime matches 0..1 facing entity @e[type=#minecraft:mobs,distance=..40,tag=!dungeon_mob,tag=!spectator,sort=nearest,limit=1,tag=!nodamage] eyes positioned ^ ^ ^ run tp @s ^ ^ ^ ~ ~
+execute at @s if score @s Lifetime matches 2.. anchored eyes facing entity @e[type=#minecraft:mobs,distance=..40,tag=!dungeon_mob,tag=!spectator,sort=nearest,limit=1,tag=!nodamage] eyes positioned ^ ^ ^0.15 rotated as @s positioned ^ ^ ^1 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^ ~ ~
 scoreboard players set @s Distance 0
+
 execute at @s run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_laser_loop

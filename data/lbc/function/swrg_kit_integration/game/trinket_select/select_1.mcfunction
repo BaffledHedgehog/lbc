@@ -1,3 +1,14 @@
+tag @s add player_target
+data remove block 10241024 55 10241024 Items
+loot insert 10241024 55 10241024 loot lbc:player_name_head
+data modify storage stats:stats player set from block 10241024 55 10241024 Items[0].components."minecraft:custom_name".insertion
+tag @s remove player_target
+scoreboard players set tmpm1 lbc.math 0
+scoreboard players operation tmpm1 lbc.math = tmp lbc.math
+scoreboard players remove tmpm1 lbc.math 1
+execute store result storage stats:stats trinket int 1 run scoreboard players get tmpm1 lbc.math
+function lbc:swrg_kit_integration/gui/stats_trinket_add_pick with storage stats:stats
+
 
 execute if score tmp lbc.math matches 1 run loot give @s loot lbc:trinket/blaze
 execute if score tmp lbc.math matches 2 run loot give @s loot lbc:trinket/ghast

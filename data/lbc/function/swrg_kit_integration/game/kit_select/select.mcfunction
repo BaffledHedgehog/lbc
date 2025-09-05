@@ -1,3 +1,14 @@
+tag @s add player_target
+data remove block 10241024 55 10241024 Items
+loot insert 10241024 55 10241024 loot lbc:player_name_head
+data modify storage stats:stats player set from block 10241024 55 10241024 Items[0].components."minecraft:custom_name".insertion
+tag @s remove player_target
+scoreboard players set tmpm1 lbc.math 0
+scoreboard players operation tmpm1 lbc.math = @s lbc.kit
+scoreboard players remove tmpm1 lbc.math 1
+execute store result storage stats:stats kit int 1 run scoreboard players get tmpm1 lbc.math
+execute unless score game_started lbc.math matches 1 run function lbc:swrg_kit_integration/gui/stats_kit_add_pick with storage stats:stats
+
 loot give @s[scores={lbc.kit=1}] loot lbc:kit/broken_totem
 loot give @s[scores={lbc.kit=2}] loot lbc:kit/3_purify_potion
 loot give @s[scores={lbc.kit=3}] loot lbc:kit/gaara

@@ -46,3 +46,7 @@ scoreboard players operation tmp lbc.math = @s lbc.trinket2
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbctrinket swrg.math matches 9 run function lbc:swrg_kit_integration/game/trinket_select/select_1
 
+scoreboard players set num lbc.math 0
+execute store result score num lbc.math run data get storage stats:stats trinket_picks 1
+scoreboard players add num lbc.math 1
+execute store result storage stats:stats trinket_picks int 1 run scoreboard players get num lbc.math

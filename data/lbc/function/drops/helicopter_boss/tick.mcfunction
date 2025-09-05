@@ -1,9 +1,11 @@
 execute unless block ~ ~ ~ #minecraft:airs run summon minecraft:tnt ~ ~ ~ {fuse:0}
 execute at @e[type=minecraft:ravager,tag=helicopter_boss_hitbox] if score @e[type=minecraft:ravager,distance=..0.001,tag=helicopter_boss_hitbox,limit=1] lbcID2 = @s lbcID2 run tag @e[type=minecraft:ravager,distance=..0.001,tag=helicopter_boss_hitbox,limit=1] add current
 execute unless entity @e[type=minecraft:ravager,distance=..5,tag=helicopter_boss_hitbox,tag=current] run function lbc:drops/helicopter_boss/tppos
+execute if entity @s[team=!] run function lbc:nodamage_for_team
 execute if entity @s[tag=phase_1] run function lbc:drops/helicopter_boss/tick_phase_1
 execute at @s[tag=phase_2] run function lbc:drops/helicopter_boss/tick_phase_2
 execute at @s[tag=phase_3] run function lbc:drops/helicopter_boss/tick_phase_3
+tag @e[distance=0..,type=#mobs] remove nodamage
 data modify entity @s[nbt={item:{components:{"minecraft:item_model":"lbc:helicopter_2"}}}] item.components."minecraft:item_model" set value "lbc:helicopter_1"
 data modify entity @s[nbt={item:{components:{"minecraft:item_model":"lbc:helicopter_3"}}}] item.components."minecraft:item_model" set value "lbc:helicopter_2"
 data modify entity @s[nbt={item:{components:{"minecraft:item_model":"lbc:helicopter_4"}}}] item.components."minecraft:item_model" set value "lbc:helicopter_3"

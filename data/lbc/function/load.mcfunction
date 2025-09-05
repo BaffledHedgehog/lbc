@@ -328,6 +328,8 @@ scoreboard objectives add lbc.challenge.trinket2 dummy
 
 #scoreboard players set antigravity lbc.math 0
 
+function lbc:swrg_kit_integration/gui/reset_statholder
+
 #swag
 
 scoreboard objectives add swrg.hp_display dummy

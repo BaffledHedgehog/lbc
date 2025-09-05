@@ -1,3 +1,10 @@
+tag @s add player_target
+data remove block 10241024 55 10241024 Items
+loot insert 10241024 55 10241024 loot lbc:player_name_head
+data modify storage stats:stats player set from block 10241024 55 10241024 Items[0].components."minecraft:custom_name".insertion
+tag @s remove player_target
+function lbc:swrg_kit_integration/gui/stats_refresh_trinket with storage stats:stats
+
 loot replace entity @s enderchest.0 loot lbc:gui/page/11000/0
 loot replace entity @s enderchest.1 loot lbc:gui/page/11000/1
 loot replace entity @s enderchest.2 loot lbc:gui/page/11000/2

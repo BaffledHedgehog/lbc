@@ -39,7 +39,7 @@
                                             "color": "gold"
                                         },
                                         {
-                                            "storage": "lbc:stats",
+                                            "storage": "stats:stats",
                                             "nbt": "pick_rate_levelup[0]",
                                             "italic": false,
                                             "color": "yellow"
@@ -50,7 +50,7 @@
                                             "color": "gold"
                                         },
                                         {
-                                            "storage": "lbc:stats",
+                                            "storage": "stats:stats",
                                             "nbt": "pick_count_levelup[0]",
                                             "italic": false,
                                             "color": "yellow"
@@ -63,7 +63,7 @@
                                             "color": "gold"
                                         },
                                         {
-                                            "storage": "lbc:stats",
+                                            "storage": "stats:stats",
                                             "nbt": "win_rate_levelup[0]",
                                             "italic": false,
                                             "color": "yellow"
@@ -74,7 +74,7 @@
                                             "color": "gold"
                                         },
                                         {
-                                            "storage": "lbc:stats",
+                                            "storage": "stats:stats",
                                             "nbt": "win_count_levelup[0]",
                                             "italic": false,
                                             "color": "yellow"

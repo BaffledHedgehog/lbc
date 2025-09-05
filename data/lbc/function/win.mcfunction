@@ -1,0 +1,1 @@
+function lbc:swrg_kit_integration/gui/stats_grant_wins

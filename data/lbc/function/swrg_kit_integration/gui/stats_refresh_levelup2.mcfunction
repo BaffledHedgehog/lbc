@@ -1,0 +1,5 @@
+
+
+scoreboard players set h lbc.math 25
+data modify storage stats:stats i set value 25
+function lbc:swrg_kit_integration/gui/stats_refresh_levelup_loop with storage stats:stats

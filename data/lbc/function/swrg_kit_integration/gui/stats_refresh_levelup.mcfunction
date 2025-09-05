@@ -1,4 +1,5 @@
-# pick_rate_levelup[0]
-# pick_count_levelup[0]
-# win_rate_levelup[0]
-# win_count_levelup[0]
+
+
+scoreboard players set h lbc.math 0
+data modify storage stats:stats i set value 0
+function lbc:swrg_kit_integration/gui/stats_refresh_levelup_loop with storage stats:stats
