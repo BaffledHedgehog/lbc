@@ -1,5 +1,9 @@
-execute store result score #tier lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".tier 1
-execute store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute unless entity @s[tag=left] store result score #tier lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".tier 1
+execute unless entity @s[tag=left] store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute if entity @s[tag=left] store result score #tier lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".tier 1
+execute if entity @s[tag=left] store result score #mode lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".mode 1
+tag @s remove left
+
 scoreboard players remove #tier lbc.math 1
 execute if score #mode lbc.math matches 28 run scoreboard players add #tier lbc.math 40
 execute store result storage lbc:math tier int 1 run scoreboard players get #tier lbc.math

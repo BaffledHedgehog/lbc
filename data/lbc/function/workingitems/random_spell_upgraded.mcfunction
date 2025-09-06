@@ -1,4 +1,8 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute unless entity @s[tag=left] store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute if entity @s[tag=left] store result score #mode lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".mode 1
+
+
+tag @s remove left
 tag @s add raycaster
 scoreboard players set @s Distance 0
 

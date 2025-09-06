@@ -102,10 +102,10 @@ execute if score tmp lbc.math matches 31 run attribute @s minecraft:max_health m
 
 
 #Важно, чтоб было в самом конце!
-execute if score tmp lbc.math matches 32 run attribute @s minecraft:max_health modifier add nulla_magicae 1 add_multiplied_base
-execute if score tmp lbc.math matches 32 run attribute @s minecraft:attack_damage modifier add nulla_magicae 6 add_value
-execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor modifier add nulla_magicae 20 add_value
-execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor_toughness modifier add nulla_magicae 10 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:max_health modifier add nulla_magicae1 6 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:attack_damage modifier add nulla_magicae2 3 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor modifier add nulla_magicae3 10 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor_toughness modifier add nulla_magicae4 8 add_value
 execute if score tmp lbc.math matches 32 run scoreboard players set @s mana 0
 execute if score tmp lbc.math matches 32 run scoreboard players set @s manaregen 0
 execute if score tmp lbc.math matches 32 run scoreboard players set @s manamax 0

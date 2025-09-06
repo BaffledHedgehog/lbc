@@ -37,29 +37,6 @@
                                 }
                             }
                         }
-                    },
-                    {
-                        "condition": "minecraft:value_check",
-                        "value": {
-                            "type": "minecraft:score",
-                            "score": "lbc.skill",
-                            "target": "attacker",
-                            "scale": 1
-                        },
-                        "range": 29
-                    },
-                    {
-                        "condition": "minecraft:value_check",
-                        "value": {
-                            "type": "minecraft:score",
-                            "score": "swrg.math",
-                            "target": {
-                                "type": "fixed",
-                                "name": "#lbcskill"
-                            },
-                            "scale": 1
-                        },
-                        "range": 1
                     }
                 ],
                 "damage": {
@@ -67,17 +44,13 @@
                     "type": {
                         "tags": [
                             {
-                                "id": "minecraft:arrow_only",
-                                "expected": true
-                            },
-                            {
-                                "id": "minecraft:is_player_attack",
+                                "id": "minecraft:acceptable_for_manavampirism",
                                 "expected": true
                             }
                         ]
                     },
                     "source_entity": {
-                        "type": "minecraft:player"
+                        "nbt": "{Tags:[manavampire]}"
                     }
                 }
             }

@@ -1,0 +1,7 @@
+scoreboard players set #tier lbc.math 0
+item replace block 10241024 100 10241024 container.0 from entity @s weapon.offhand
+execute store result score #tier lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".tier 1
+scoreboard players add #tier lbc.math 1
+execute if score #tier lbc.math matches 4.. run scoreboard players set #tier lbc.math 1
+execute store result block 10241024 100 10241024 Items[{Slot:0b}].components."minecraft:custom_data".tier int 1 run scoreboard players get #tier lbc.math
+item replace entity @s weapon.offhand from block 10241024 100 10241024 container.0

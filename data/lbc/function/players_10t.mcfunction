@@ -5,3 +5,4 @@ damage @s[tag=!sin_greed_active,predicate=lbc:the_nether] 1000000 in_fire
 function lbc:drops/antigravity/tick_10t_player
 execute if items entity @s container.* *[minecraft:custom_data~{runic_ice_shard:1}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/iceshard
 execute if items entity @s weapon.* *[minecraft:custom_data~{runic_ice_shard:1}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/iceshard
+execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skill/tick_10t

@@ -1,0 +1,1 @@
+execute if score @s lbc.skill matches 32 run function lbc:swrg_kit_integration/game/skills/rainbow_aura/tick_10t

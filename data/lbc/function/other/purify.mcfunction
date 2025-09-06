@@ -102,4 +102,8 @@ scoreboard players set @s effect_remove_mana 0
 scoreboard players set @s effect_snus 0
 scoreboard players set @s effect_boost_mana 0
 
+scoreboard players set @s frozen 0
+scoreboard players set @s cold_cd 0
+scoreboard players set @s cold 0
+
 advancement revoke @s only lbc:purify

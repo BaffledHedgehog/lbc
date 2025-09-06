@@ -140,7 +140,13 @@ scoreboard players set @s swrg.roll 0
 tag @s remove submissive
 tag @s remove gigantic
 
-
+tag @s remove aura_red
+tag @s remove aura_orange
+tag @s remove aura_yellow
+tag @s remove aura_lime
+tag @s remove aura_aqua
+tag @s remove aura_blue
+tag @s remove aura_purple
 
 attribute @s minecraft:scale modifier remove minecraft:rune_thurisaz_negative
 attribute @s minecraft:attack_damage modifier remove minecraft:rune_thurisaz_negative

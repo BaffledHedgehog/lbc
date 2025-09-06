@@ -8,6 +8,6 @@ scoreboard players operation tmpm1 lbc.math = @s lbc.skill
 scoreboard players remove tmpm1 lbc.math 1
 execute store result storage stats:stats skill int 1 run scoreboard players get tmpm1 lbc.math
 execute unless score game_started lbc.math matches 1 run function lbc:swrg_kit_integration/gui/stats_skill_add_pick with storage stats:stats
-
-
+tag @s remove manavampire
+execute if entity @s[scores={lbc.skill=29}] run tag @s add manavampire
 execute if entity @s[scores={lbc.skill=5}] run function lbc:swrg_kit_integration/game/skills/erose

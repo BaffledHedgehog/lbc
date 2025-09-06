@@ -137,4 +137,15 @@ attribute @s minecraft:max_health modifier remove minecraft:8fy489ygkdj89gysd89b
 data modify storage lbc.math regen set value regen
 function lbc:swrg_kit_integration/game/levelup_select/levelups_remove_1 with storage lbc.math
 
+attribute @s minecraft:max_health modifier remove nulla_magicae1
+attribute @s minecraft:attack_damage modifier remove nulla_magicae2
+attribute @s minecraft:armor modifier remove nulla_magicae3
+attribute @s minecraft:armor_toughness modifier remove nulla_magicae4
 
+
+attribute @s minecraft:max_health modifier remove nulla_magicae
+attribute @s minecraft:attack_damage modifier remove nulla_magicae
+attribute @s minecraft:armor modifier remove nulla_magicae
+attribute @s minecraft:armor_toughness modifier remove nulla_magicae
+
+attribute @s minecraft:attack_damage modifier remove rainbow_aura_damage

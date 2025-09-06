@@ -1,4 +1,7 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute unless entity @s[tag=left] store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute if entity @s[tag=left] store result score #mode lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".mode 1
+tag @s remove left
+
 execute if score #mode lbc.math matches 1 run effect give @e[type=!#minecraft:unholy_monsters,distance=0.01..15,tag=!spectator] minecraft:poison 10 0 true
 execute if score #mode lbc.math matches 1 run effect give @e[type=#minecraft:unholy_monsters,distance=0.01..15] minecraft:wither 10 1 true
 execute if score #mode lbc.math matches 2 run effect give @e[distance=0.01..15,tag=!spectator] minecraft:wither 7 1 true

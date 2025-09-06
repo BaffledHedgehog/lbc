@@ -1,3 +1,5 @@
+execute if score #lbcskill swrg.math matches 1 if score @s lbc.skill matches 2 unless items entity @s weapon.* *[minecraft:custom_data~{runic_ice_shard:1}] run return fail
+
 scoreboard players set tmp lbc.math 0
 execute store result score tmp lbc.math run data get entity @s active_effects[{id:"minecraft:slowness"}].amplifier 1
 scoreboard players add tmp lbc.math 1

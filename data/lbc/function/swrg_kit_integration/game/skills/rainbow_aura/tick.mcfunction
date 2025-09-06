@@ -1,0 +1,1 @@
+execute if entity @s[tag=aura_red] run return run function lbc:swrg_kit_integration/game/skills/rainbow_aura/aura_red_tick_10t

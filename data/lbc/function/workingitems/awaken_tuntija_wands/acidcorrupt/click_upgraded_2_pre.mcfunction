@@ -1,4 +1,6 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute unless entity @s[tag=left] store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute if entity @s[tag=left] store result score #mode lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".mode 1
+
 scoreboard players set @s Distance 0
 execute if score #mode lbc.math matches 1 run function lbc:workingitems/awaken_tuntija_wands/acidcorrupt/loop
 execute if score #mode lbc.math matches 2 run function lbc:workingitems/awaken_tuntija_wands/acidcorrupt/mode_reverse

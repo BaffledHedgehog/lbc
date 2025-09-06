@@ -1,5 +1,7 @@
+execute unless entity @s[tag=left] store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute if entity @s[tag=left] store result score #mode lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".mode 1
 
-execute store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+tag @s remove left
 playsound minecraft:entity.zombie_villager.cure master @a ~ ~ ~ 1 2
 summon minecraft:marker ^ ^ ^ {data:{lifetime:300},Tags:["raycastacidbig","player","slowraycast","shield_blockable2","magic"]}
 data modify entity @e[type=minecraft:marker,distance=..0.0001,tag=raycastacidbig,tag=!actived,limit=1] Rotation set from entity @s Rotation

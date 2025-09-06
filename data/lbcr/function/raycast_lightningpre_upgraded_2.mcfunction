@@ -1,4 +1,6 @@
-execute store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute unless entity @s[tag=left] store result score #mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".mode 1
+execute if entity @s[tag=left] store result score #mode lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".mode 1
+
 execute if score #mode lbc.math matches 1 run function lbcr:raycast_lightning_mode_default
 execute if score #mode lbc.math matches 2 run function lbcr:raycast_lightning_mode_reforge
 execute if score #mode lbc.math matches 3 run function lbcr:raycast_lightning_mode_chain

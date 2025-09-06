@@ -8,35 +8,18 @@
                     "type": {
                         "tags": [
                             {
-                                "id": "minecraft:arrow_only",
-                                "expected": true
-                            },
-                            {
-                                "id": "minecraft:is_player_attack",
+                                "id": "minecraft:acceptable_for_manavampirism",
                                 "expected": true
                             }
                         ]
+                    },
+                    "taken": {
+                        "min": 0
                     }
                 },
-                "entity": [
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "type": "minecraft:interaction"
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:player"
-                        }
-                    }
-                ],
+                "entity": {
+                    "type": "minecraft:player"
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",

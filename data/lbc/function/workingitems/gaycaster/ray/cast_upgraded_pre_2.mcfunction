@@ -1,6 +1,10 @@
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{gaycaster:1,upgraded:1,mode:8}}}}] run function lbc:other/magic_academy/change_mode_8_gaycaster_color
-execute store result score mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".color
+execute unless entity @s[tag=left] if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{gaycaster:1,upgraded:1,mode:8}}}}] run function lbc:other/magic_academy/change_mode_8_gaycaster_color
+execute unless entity @s[tag=left] store result score mode lbc.math run data get entity @s SelectedItem.components."minecraft:custom_data".color
+execute if entity @s[tag=left] if entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{gaycaster:1,upgraded:1,mode:8}}}}}] run function lbc:other/magic_academy/change_mode_8_gaycaster_color_left
+execute if entity @s[tag=left] store result score mode lbc.math run data get entity @s equipment.offhand.components."minecraft:custom_data".color
+
+tag @s remove left
 scoreboard players set @s Distance 250
 playsound minecraft:lbcsounds.laser_mg_shot master @a ~ ~ ~ 1 0
 playsound minecraft:item.trident.return master @a ~ ~ ~ 1 0

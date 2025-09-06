@@ -8,11 +8,7 @@
                     "type": {
                         "tags": [
                             {
-                                "id": "minecraft:arrow_only",
-                                "expected": true
-                            },
-                            {
-                                "id": "minecraft:is_player_attack",
+                                "id": "minecraft:acceptable_for_manavampirism",
                                 "expected": true
                             }
                         ]
