@@ -1,0 +1,2 @@
+execute summon marker run function lbc:swrg_kit_integration/game/skills/rainbow_aura/aura_purple_tick1
+execute if entity @s[predicate=lbc:on_ground] unless block ~ ~-0.1 ~ #airs run function lbc:swrg_kit_integration/game/skills/rainbow_aura/aura_purple_tick_expansion

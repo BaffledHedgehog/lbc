@@ -4,6 +4,7 @@ execute store result score math1 lbc.math run data get storage stats:stats kit_p
 scoreboard players operation math lbc.math /= math1 lbc.math
 $execute store result storage stats:stats pick_rate_kit[$(i)] double 0.01 run scoreboard players get math lbc.math
 # pick_count_kit[i]
+$data modify storage stats:stats pick_count_kit[$(i)] set value 0
 $data modify storage stats:stats pick_count_kit[$(i)] set from storage stats:stats $(player)_$(i)_kit_pick
 # win_rate_kit[i]
 $execute store result score math lbc.math run data get storage stats:stats $(i)_kit_win 10000
@@ -15,6 +16,7 @@ scoreboard players operation math lbc.math /= math1 lbc.math
 $execute store result storage stats:stats win_rate_kit[$(i)] double 0.01 run scoreboard players get math lbc.math
 #execute if score h lbc.math matches 1 run tellraw @a [{"text":"result "},{"storage":"stats:stats","nbt":"win_rate_kit[$(i)]"}]
 # win_count_kit[i]
+$data modify storage stats:stats win_count_kit[$(i)] set value 0
 $data modify storage stats:stats win_count_kit[$(i)] set from storage stats:stats $(player)_$(i)_kit_win
 #
 $data modify storage stats:stats pick_rate_kit[$(i)] set string storage stats:stats pick_rate_kit[$(i)] 0 -1

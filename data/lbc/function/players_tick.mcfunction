@@ -52,6 +52,6 @@ execute if entity @s[tag=gigantic] run function lbc:other/imba/runes/thurisaz_gi
 execute if items entity @s player.crafting.* minecraft:repeating_command_block[minecraft:custom_data~{phd:1}] run function lbc:swrg_kit_integration/game/kits/changed_inventory_phd
 execute if entity @s[tag=has_wisps] run function lbc:other/wisp_book/realign_wisps/teleport/run
 advancement revoke @s only lbc:penis
-
+tag @s remove left
 
 

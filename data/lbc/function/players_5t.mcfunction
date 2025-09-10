@@ -17,5 +17,6 @@ execute if entity @s[tag=arcanum5t_use2] unless items entity @s weapon.offhand *
 execute if entity @s[tag=phantomset] run function lbc:armor/phantom_set_bonus_pre
 execute if entity @s[tag=yellow_lightning_active] run function lbc:workingitems/yellow_lightning_ball_pre
 execute if entity @s[tag=erosion_active] run function lbc:armor/erosion/tick
+execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skill/tick_5t
 tag @s remove spectator
 execute if score @s acid_rifle matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/acidacid/click_upgraded_mode_rifle_tick

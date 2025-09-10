@@ -1,1 +1,2 @@
-execute unless entity @s[tag=aura_red] run attribute @s minecraft:attack_damage modifier remove rainbow_aura_damage
+
+execute if entity @s[tag=aura_orange] run return run function lbc:swrg_kit_integration/game/skills/rainbow_aura/aura_orange_tick_10t

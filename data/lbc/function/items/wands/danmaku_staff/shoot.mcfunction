@@ -1,5 +1,5 @@
 summon minecraft:item_display ~ ~ ~ {Tags:["slowraycast","player","danmaku","magic"],view_range:10.0f,interpolation_duration:1,teleport_duration:1,item_display:"fixed",transformation:{left_rotation:[1.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:repeating_command_block",components:{"minecraft:item_model":"lbc:card_1"},count:1}}
-scoreboard players operation @e[type=minecraft:item_display,distance=..0.001,tag=!active,limit=1,tag=danmaku] lbcID2 = @s lbcID2
-tp @e[type=minecraft:item_display,distance=..0.001,tag=!active,limit=1,tag=danmaku] ~ ~ ~ ~ ~
-tag @e[type=minecraft:item_display,distance=..0.001,tag=!active,limit=1,tag=danmaku] add active
+scoreboard players operation @e[type=minecraft:item_display,distance=..0.0001,tag=!active,limit=1,tag=danmaku] lbcID2 = @s lbcID2
+tp @e[type=minecraft:item_display,distance=..0.0001,tag=!active,limit=1,tag=danmaku] ~ ~ ~ ~ ~
+tag @e[type=minecraft:item_display,distance=..0.0001,tag=!active,limit=1,tag=danmaku] add active
 playsound minecraft:ui.cartography_table.take_result master @a ~ ~ ~ 0.5 2

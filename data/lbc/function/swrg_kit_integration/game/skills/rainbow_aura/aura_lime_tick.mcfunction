@@ -1,0 +1,2 @@
+execute store result storage lbc.math i int 18 run scoreboard players get ticker lbc.math
+execute positioned ~ ~1 ~ run function lbc:swrg_kit_integration/game/skills/rainbow_aura/aura_lime_tick1 with storage lbc.math

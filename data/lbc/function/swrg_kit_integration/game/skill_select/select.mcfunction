@@ -11,3 +11,5 @@ execute unless score game_started lbc.math matches 1 run function lbc:swrg_kit_i
 tag @s remove manavampire
 execute if entity @s[scores={lbc.skill=29}] run tag @s add manavampire
 execute if entity @s[scores={lbc.skill=5}] run function lbc:swrg_kit_integration/game/skills/erose
+execute if entity @s[scores={lbc.skill=32}] run function lbc:swrg_kit_integration/game/skills/rainbow_aura/damaged_change_red
+

@@ -5,6 +5,7 @@ scoreboard players operation math lbc.math /= math1 lbc.math
 $execute store result storage stats:stats pick_rate_trinket[$(i)] double 0.01 run scoreboard players get math lbc.math
 
 # pick_count_trinket[i]
+$data modify storage stats:stats pick_count_trinket[$(i)] set value 0
 $data modify storage stats:stats pick_count_trinket[$(i)] set from storage stats:stats $(player)_$(i)_trinket_pick
 
 # win_rate_trinket[i]
@@ -15,6 +16,7 @@ scoreboard players operation math lbc.math /= math1 lbc.math
 $execute store result storage stats:stats win_rate_trinket[$(i)] double 0.01 run scoreboard players get math lbc.math
 
 # win_count_trinket[i]
+$data modify storage stats:stats win_count_trinket[$(i)] set value 0
 $data modify storage stats:stats win_count_trinket[$(i)] set from storage stats:stats $(player)_$(i)_trinket_win
 
 

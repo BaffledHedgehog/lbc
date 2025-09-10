@@ -3,4 +3,5 @@ execute if score @s lbc.skill matches 7 run function lbc:swrg_kit_integration/ga
 execute if score @s lbc.skill matches 10 if predicate lbc:chance20 run spreadplayers ~ ~ 0 10 false @s
 execute if score @s lbc.skill matches 19 if predicate lbc:chance40 run function lbc:swrg_kit_integration/game/skills/parasitoit_stat_down
 execute if score @s lbc.skill matches 20 if score @s blocked_damage matches 1.. run function lbc:swrg_kit_integration/game/skills/simbiont_damaged
+execute if score @s lbc.skill matches 32 run function lbc:swrg_kit_integration/game/skills/rainbow_aura/damaged
 

@@ -1,0 +1,1 @@
+damage @s 1 on_fire by @a[predicate=lbc:same_id,distance=..3.5,limit=1]

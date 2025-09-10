@@ -1,5 +1,5 @@
 execute at @s run playsound minecraft:entity.enderman.teleport master @a ~ ~ ~ 1 1
-execute positioned over motion_blocking run tp @s ~ ~ ~
+execute positioned over motion_blocking run tp @s ~ ~.5 ~
 execute store result score pos lbc.math run data get entity @s Pos[1]
 execute if score pos lbc.math matches ..0 run tp @s @s
 execute if score pos lbc.math matches ..0 run scoreboard players add @s mana 3000

@@ -149,3 +149,4 @@ attribute @s minecraft:armor modifier remove nulla_magicae
 attribute @s minecraft:armor_toughness modifier remove nulla_magicae
 
 attribute @s minecraft:attack_damage modifier remove rainbow_aura_damage
+attribute @s minecraft:attack_damage modifier remove uhf78arf7ahfkdhmfiashfdrehf
