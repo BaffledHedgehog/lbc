@@ -1,0 +1,2 @@
+execute at @s facing entity @e[type=item_display,tag=electroweb,tag=active1,distance=0..] eyes positioned ^ ^ ^ run function lbc:items/wands/sauvojen_wand/meditate/phase_electro_tick_at_loop_dmg
+tag @s add active1

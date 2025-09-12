@@ -30,12 +30,12 @@ execute if score tmp lbc.math matches 6 run attribute @s minecraft:armor modifie
 execute if score tmp lbc.math matches 7 run attribute @s minecraft:attack_damage modifier add minecraft:fab7c3d2-7130-478a-b14f-091f52d55a74 0.5 add_multiplied_total
 execute if score tmp lbc.math matches 7 run attribute @s minecraft:max_health modifier add minecraft:1951ef66-6b2a-4ced-91c1-1ffbce34f8ad -0.5 add_multiplied_total
 
-execute if score tmp lbc.math matches 8 run attribute @s minecraft:attack_damage modifier add minecraft:06f286ed-36fb-4bd5-81de-c943cafc594c 0.5 add_multiplied_total
+execute if score tmp lbc.math matches 8 run attribute @s minecraft:attack_damage modifier add minecraft:06f286ed-36fb-4bd5-81de-c943cafc594c 0.25 add_multiplied_total
 execute if score tmp lbc.math matches 8 run attribute @s minecraft:armor modifier add minecraft:78876a9b-b250-4eab-a61b-c1caa6dbe77c -0.6 add_multiplied_total
 
 execute if score tmp lbc.math matches 9 run attribute @s minecraft:attack_damage modifier add minecraft:49f240f6-21df-492e-b8dd-0bd4cdfd8680 0.5 add_multiplied_total
-execute if score tmp lbc.math matches 9 run attribute @s minecraft:armor modifier add minecraft:a243d28c-fd4f-4b04-a69d-dce954ec11a5 -0.2 add_multiplied_total
-execute if score tmp lbc.math matches 9 run attribute @s minecraft:armor_toughness modifier add minecraft:f0e8fa03-e765-4fb2-803e-585bb7a50574 -0.2 add_multiplied_total
+execute if score tmp lbc.math matches 9 run attribute @s minecraft:armor modifier add minecraft:a243d28c-fd4f-4b04-a69d-dce954ec11a5 -0.5 add_multiplied_total
+execute if score tmp lbc.math matches 9 run attribute @s minecraft:armor_toughness modifier add minecraft:f0e8fa03-e765-4fb2-803e-585bb7a50574 -0.5 add_multiplied_total
 execute if score tmp lbc.math matches 9 run attribute @s minecraft:max_health modifier add minecraft:e24d59be-4f6e-4964-af26-c3cbb9ad23f5 -0.2 add_multiplied_total
 
 execute if score tmp lbc.math matches 10 run attribute @s minecraft:max_health modifier add minecraft:6df87481-a199-4207-9585-3b7b776aa370 8 add_value
@@ -88,7 +88,10 @@ execute if score tmp lbc.math matches 31 run tag @s add sanguis_magicae
 execute if score tmp lbc.math matches 31 run attribute @s minecraft:max_health modifier add minecraft:8fy489ygkdj89gysd89byvgko8fsyb7ftgddkc8s9p -16 add_value
 
 
-
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:max_health modifier add nulla_magicae1 6 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:attack_damage modifier add nulla_magicae2 3 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor modifier add nulla_magicae3 10 add_value
+execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor_toughness modifier add nulla_magicae4 8 add_value
 
 
 
@@ -102,10 +105,6 @@ execute if score tmp lbc.math matches 31 run attribute @s minecraft:max_health m
 
 
 #Важно, чтоб было в самом конце!
-execute if score tmp lbc.math matches 32 run attribute @s minecraft:max_health modifier add nulla_magicae1 6 add_value
-execute if score tmp lbc.math matches 32 run attribute @s minecraft:attack_damage modifier add nulla_magicae2 3 add_value
-execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor modifier add nulla_magicae3 10 add_value
-execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor_toughness modifier add nulla_magicae4 8 add_value
 execute if score tmp lbc.math matches 32 run scoreboard players set @s mana 0
 execute if score tmp lbc.math matches 32 run scoreboard players set @s manaregen 0
 execute if score tmp lbc.math matches 32 run scoreboard players set @s manamax 0

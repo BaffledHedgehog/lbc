@@ -110,6 +110,6 @@ scoreboard players set overload_crux_mana_use lbc.math 7500
 
 scoreboard players set time_stopped lbc.math 0
 
-scoreboard players set sauvojen_wand_mana_use lbc.math 5000
+scoreboard players set sauvojen_wand_mana_use lbc.math 2500
 
 function lbc:drops/tmt/set_storage

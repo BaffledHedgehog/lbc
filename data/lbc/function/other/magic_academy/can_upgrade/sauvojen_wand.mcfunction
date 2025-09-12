@@ -1,0 +1,1 @@
+tellraw @s {"translate":"upgrade_condition_sauvojen_wand","color":"yellow"}

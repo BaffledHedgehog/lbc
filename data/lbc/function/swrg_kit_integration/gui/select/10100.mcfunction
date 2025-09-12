@@ -2,6 +2,7 @@ scoreboard players set @s[scores={swrg.gui_select=0},advancements={lbc:true_adva
 scoreboard players set @s[scores={swrg.gui_select=1},advancements={lbc:true_advancements/bows/madoka_bow=true}] lbc.skill 29
 scoreboard players set @s[scores={swrg.gui_select=2},advancements={lbc:true_advancements/legends/academy/exahoming=true}] lbc.skill 30
 scoreboard players set @s[scores={swrg.gui_select=3},advancements={lbc:true_advancements/legends/academy/fire=true}] lbc.skill 31
+scoreboard players set @s[scores={swrg.gui_select=4},advancements={lbc:true_advancements/legends/academy/gaycaster=true}] lbc.skill 32
 
 
 
@@ -16,6 +17,8 @@ tellraw @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/legend
 tellraw @s[scores={swrg.gui_select=1},advancements={lbc:true_advancements/bows/madoka_bow=false}] {"translate":"lbc.adv.bow.madoka_bow.lore"}
 tellraw @s[scores={swrg.gui_select=2},advancements={lbc:true_advancements/legends/academy/exahoming=false}] {"translate":"lbc.adv.upgraded_tuntija.exahoming.lore"}
 tellraw @s[scores={swrg.gui_select=3},advancements={lbc:true_advancements/legends/academy/fire=false}] {"translate":"lbc.adv.upgraded_tuntija.fire.lore"}
+tellraw @s[scores={swrg.gui_select=3},advancements={lbc:true_advancements/legends/academy/gaycaster=false}] {"translate":"lbc.adv.upgraded_staff.gaycaster.lore"}
+
 
 
 #

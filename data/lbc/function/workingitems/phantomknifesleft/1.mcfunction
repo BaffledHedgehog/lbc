@@ -1,4 +1,4 @@
-execute anchored eyes positioned ^0.2 ^ ^0.5 run summon minecraft:arrow ~ ~ ~ {pickup:0b,damage:1.0d,PierceLevel:127b,Tags:["killedarrow","phantomarrow1"]}
+execute anchored eyes positioned ^0.2 ^ ^0.5 run summon minecraft:arrow ~ ~ ~ {pickup:0b,damage:2.0d,PierceLevel:127b,Tags:["killedarrow","phantomarrow1"]}
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^0.25 ^ ^1 {Tags:["reikast"]}
 execute store result entity @e[type=minecraft:arrow,distance=..3,tag=phantomarrow1,tag=!actived,limit=1] Motion[0] double 0.0015 run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[0] 1000
 execute store result entity @e[type=minecraft:arrow,distance=..3,tag=phantomarrow1,tag=!actived,limit=1] Motion[1] double 0.0015 run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[1] 1000
