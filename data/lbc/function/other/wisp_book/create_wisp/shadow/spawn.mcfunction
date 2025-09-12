@@ -6,4 +6,5 @@ particle minecraft:squid_ink ~ ~ ~ 0.1 0.1 0.1 0.1 20
 
 tag @e[type=minecraft:item_display,tag=new,tag=wisp,limit=1] remove new
 tag @s add has_wisps
+function lbc:other/wisp_book/passive_effects/shadow/count
 function lbc:other/wisp_book/realign_wisps/start

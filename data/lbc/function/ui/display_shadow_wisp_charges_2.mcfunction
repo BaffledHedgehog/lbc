@@ -1,0 +1,1 @@
+$data modify storage lbc.math ui append value {"text":"    \uE174 \uE18$(tmpI)","color":"#4E5C24"}

@@ -51,6 +51,8 @@ execute if entity @s[tag=overload_slam] run function lbc:armor/overload/boots/ti
 execute if entity @s[tag=gigantic] run function lbc:other/imba/runes/thurisaz_gigant_tick
 execute if items entity @s player.crafting.* minecraft:repeating_command_block[minecraft:custom_data~{phd:1}] run function lbc:swrg_kit_integration/game/kits/changed_inventory_phd
 execute if entity @s[tag=has_wisps] run function lbc:other/wisp_book/realign_wisps/teleport/run
+execute if entity @s[scores={shadow_wisp_count=1..}] at @s anchored eyes positioned ^ ^ ^ run function lbc:other/wisp_book/passive_effects/shadow/tick
+execute if score @s shadow_wisp_charge matches 100.. at @s anchored eyes positioned ^ ^ ^ run function lbc:other/wisp_book/passive_effects/shadow/check with entity @s
 advancement revoke @s only lbc:penis
 tag @s remove left
 
