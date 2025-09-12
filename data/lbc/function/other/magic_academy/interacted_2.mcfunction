@@ -54,3 +54,4 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{sno
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{danmaku_staff:1}}}}] run function lbc:other/magic_academy/can_upgrade/danmaku_staff
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{gaycaster:1}}}}] run function lbc:other/magic_academy/can_upgrade/gaycaster
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{sauvojen_wand:1}}}}] run function lbc:other/magic_academy/can_upgrade/sauvojen_wand

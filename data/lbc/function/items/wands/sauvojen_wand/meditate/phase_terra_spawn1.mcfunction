@@ -1,0 +1,1 @@
+$execute positioned ~ ~1 ~ rotated $(i) 0 positioned ^ ^ ^10 facing entity @s eyes rotated ~ 0 summon item_display run function lbc:items/wands/sauvojen_wand/meditate/phase_terra_spawn1_setup

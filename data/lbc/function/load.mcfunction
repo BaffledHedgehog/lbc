@@ -44,9 +44,11 @@ scoreboard players set 9 lbc.math 9
 scoreboard players set 10 lbc.math 10
 scoreboard players set 11 lbc.math 11
 scoreboard players set 12 lbc.math 12
+scoreboard players set 13 lbc.math 13
 scoreboard players set 14 lbc.math 14
 scoreboard players set 15 lbc.math 15
 scoreboard players set 16 lbc.math 16
+scoreboard players set 17 lbc.math 17
 scoreboard players set 18 lbc.math 18
 scoreboard players set 20 lbc.math 20
 scoreboard players set 22 lbc.math 22
@@ -281,6 +283,7 @@ scoreboard objectives add expansion_cd dummy
 scoreboard objectives add deus_cd dummy
 
 scoreboard objectives add gaycaster_upgrade dummy
+scoreboard objectives add sauvojen_wand_upgrade dummy
 scoreboard objectives add tmticked dummy
 scoreboard objectives add rocket_armor_jumps dummy
 scoreboard objectives add rocket_armor_jump_cd dummy

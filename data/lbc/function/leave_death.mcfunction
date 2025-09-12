@@ -401,6 +401,7 @@ attribute @s minecraft:movement_speed modifier remove minecraft:gravity_curse
 attribute @s minecraft:attack_damage modifier remove minecraft:fire_wisp
 attribute @s minecraft:max_health modifier remove minecraft:water_wisp
 scoreboard players set @s gaycaster_upgrade 0
+scoreboard players set @s sauvojen_wand_upgrade 0
 scoreboard players set @s effect_gravity_curse 0
 scoreboard players set @s god_claw_cd 0
 scoreboard players set @s hook_cooldown 0

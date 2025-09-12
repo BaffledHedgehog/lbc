@@ -53,6 +53,7 @@ execute if items entity @s player.crafting.* minecraft:repeating_command_block[m
 execute if entity @s[tag=has_wisps] run function lbc:other/wisp_book/realign_wisps/teleport/run
 execute if entity @s[scores={shadow_wisp_count=1..}] at @s anchored eyes positioned ^ ^ ^ run function lbc:other/wisp_book/passive_effects/shadow/tick
 execute if score @s shadow_wisp_charge matches 100.. at @s anchored eyes positioned ^ ^ ^ run function lbc:other/wisp_book/passive_effects/shadow/check with entity @s
+execute if entity @s[scores={sauvojen_wand_upgrade=1..}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:items/wands/sauvojen_wand/meditate/tick
 advancement revoke @s only lbc:penis
 tag @s remove left
 

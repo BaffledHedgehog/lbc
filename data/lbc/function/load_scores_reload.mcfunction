@@ -17,6 +17,7 @@ scoreboard objectives remove bow_charge
 scoreboard objectives remove crossbow_charge
 scoreboard objectives remove nitro
 scoreboard objectives remove gaycaster_upgrade
+scoreboard objectives remove sauvojen_wand_upgrade
 scoreboard objectives remove snowball
 scoreboard objectives remove foodlvl
 scoreboard objectives remove hplvl

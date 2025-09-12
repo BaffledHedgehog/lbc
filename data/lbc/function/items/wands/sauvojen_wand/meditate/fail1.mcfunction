@@ -1,0 +1,1 @@
+kill @e[type=#raycasters,tag=sauvojen_wand_meditator]
