@@ -236,6 +236,9 @@ scoreboard objectives add light_wisp_count dummy
 scoreboard objectives add air_wisp_count dummy
 scoreboard objectives add air_wisp_charge dummy
 scoreboard objectives add air_wisp_chains dummy
+scoreboard objectives add shadow_wisp_count dummy
+scoreboard objectives add shadow_wisp_charge dummy
+scoreboard objectives add shadow_wisp_cooldown dummy
 #effect!
 
 scoreboard objectives add effect_rtp_1 dummy

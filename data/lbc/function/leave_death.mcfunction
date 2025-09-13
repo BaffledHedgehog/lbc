@@ -338,6 +338,13 @@ attribute @s minecraft:attack_damage modifier remove 585f98b8-a8b8-4e4c-838a-f2e
 attribute @s minecraft:gravity modifier remove gravity_mk2armor_fix1
 attribute @s minecraft:gravity modifier remove gravity_mk2armor_fix2
 
+function lbc:other/wisp_book/delete_wisp/air/all
+function lbc:other/wisp_book/delete_wisp/fire/all
+function lbc:other/wisp_book/delete_wisp/water/all
+function lbc:other/wisp_book/delete_wisp/nature/all
+function lbc:other/wisp_book/delete_wisp/shadow/all
+function lbc:other/wisp_book/delete_wisp/light/all
+
 tag @s remove time_stopped_lol
 
 tag @s remove shef_hated

@@ -17,6 +17,8 @@ execute if entity @s[predicate=lbc:bow_or_crossbow] run function lbc:ui/count_ar
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{swordwithability:1}}}}] run function lbc:ui/charging
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellwithcooldown:1}}}}] run function lbc:ui/cooldown
 execute if items entity @s weapon.offhand *[minecraft:custom_data~{spellwithcooldown:1}] run function lbc:ui/cooldown
+#shadow wisp charges inserted here cause I think this is close to having an active item with a cooldown
+execute if score @s shadow_wisp_charge matches 1.. run function lbc:ui/display_shadow_wisp_charges
 execute if score @s acid_rifle matches 1.. run data modify storage lbc.math ui append value {"text":"    \uE109 ","extra":[{"score":{"name":"@s","objective":"acid_rifle"},"color":"green"}]}
 execute if score @s blaze matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE110 ","extra":[{"score":{"name":"@s","objective":"blaze"},"color":"green"}]}
 execute if score @s delayed_death matches 1.. run data modify storage lbc.math ui append value {"text":" \uE111 ","extra":[{"score":{"name":"@s","objective":"delayed_death"},"color":"red"}]}
