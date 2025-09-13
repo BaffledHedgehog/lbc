@@ -8,3 +8,4 @@ execute if entity @s[tag=imba_kara] run return run function lbc:items/swords/imb
 execute if entity @s[tag=cum_slab] run return run function lbc:other/imba/cum_slab/select
 execute if entity @s[tag=blood_slab] run return run function lbc:other/imba/blood_slab/tick
 execute if entity @s[tag=cunny_jungle] run return run function lbc:other/imba/cunny_slab/tick
+execute if entity @s[tag=badappleimba] run return run function lbc:other/imba/bad_apple/display_tick

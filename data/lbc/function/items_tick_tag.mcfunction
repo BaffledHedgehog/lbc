@@ -30,3 +30,4 @@ tag @s[nbt={Item:{components:{"minecraft:custom_data":{multiply:3}}}}] add worki
 tag @s[nbt={Item:{components:{"minecraft:custom_data":{multiply:4}}}}] add working
 tag @s[nbt={Item:{components:{"minecraft:custom_data":{academy_token:1}}}}] add working
 tag @s[nbt={Item:{components:{"minecraft:custom_data":{academy_token:1}}}}] add academy_token
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{bad_apple_imba:1}}}}] run function lbc:other/imba/bad_apple/spawn

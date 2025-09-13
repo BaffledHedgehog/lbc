@@ -158,7 +158,7 @@ attribute @s minecraft:block_break_speed modifier remove minecraft:rune_thurisaz
 attribute @s minecraft:block_interaction_range modifier remove minecraft:rune_thurisaz_negative
 attribute @s minecraft:entity_interaction_range modifier remove minecraft:rune_thurisaz_negative
 attribute @s minecraft:gravity modifier remove minecraft:rune_thurisaz_negative
-
+attribute @s gravity modifier remove asguhg4gh8gh848g
 
 
 attribute @s minecraft:scale modifier remove minecraft:rune_thurisaz

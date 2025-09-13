@@ -867,6 +867,80 @@
                         "weight": 10,
                         "quality": 7,
                         "value": "lbc:imba/slabs"
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "weight": 10,
+                        "quality": 10,
+                        "name": "minecraft:repeating_command_block",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_count",
+                                "count": 1
+                            },
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:tooltip_style": "lbc:tier_b",
+                                    "minecraft:item_model": "lbc:badapple1"
+                                }
+                            },
+                            {
+                                "function": "minecraft:set_name",
+                                "name": [
+                                    {
+                                        "text": "B",
+                                        "color": "white",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "a",
+                                        "color": "black",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "d ",
+                                        "color": "white",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "A",
+                                        "color": "black",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "ppl",
+                                        "color": "white",
+                                        "italic": false,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "e",
+                                        "color": "black",
+                                        "italic": false,
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "function": "minecraft:set_custom_data",
+                                "tag": "{bad_apple_imba:1}"
+                            },
+                            {
+                                "function": "minecraft:set_lore",
+                                "mode": "replace_all",
+                                "lore": [
+                                    {
+                                        "translate": "imba_version",
+                                        "italic": false
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }

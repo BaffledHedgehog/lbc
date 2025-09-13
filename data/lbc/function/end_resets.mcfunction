@@ -96,7 +96,7 @@ execute in the_end run forceload remove all
 execute in overworld run weather clear 10000000
 execute at @e[tag=swrg.spawn] run forceload add ~ ~ ~ ~
 execute in overworld run forceload add 10241024 10241024
-function lbc:load_scores_reload
+
 stopsound @a master minecraft:lbcsounds.burning_balance
 scoreboard players set legacy lbc.math 0
 schedule clear lbc:other/new_game/legacy_tick
@@ -118,6 +118,8 @@ schedule clear lbc:items/win/win_2
 bossbar remove grimoire_boss
 stopsound @a * minecraft:lbcsounds.helicopter
 stopsound @a * minecraft:lbcsounds.penis_bossfight
+stopsound @a * minecraft:lbcsounds.bad_apple
+
 scoreboard players set #timer lbc.math 0
 scoreboard players set bottom_nexus lbc.math 0
 scoreboard players set barrier_arcanum_mana_tick2 lbc.math 10
