@@ -1,4 +1,4 @@
-scoreboard players operation @s mana -= wall_wand_mana_use lbc.math
+scoreboard players operation @s mana -= shish_wall_wand_mana_use lbc.math
 scoreboard players set @s Distance 1000
 tag @s add shishwall
 execute if entity @s[tag=shishwall] if predicate lbc:sneak run function lbcr:raycast_end2_mode_break

@@ -25,6 +25,7 @@ scoreboard players set confuse_wand_mana_use lbc.math 900
 scoreboard players set blood_wand_mana_use lbc.math 5000
 scoreboard players set bad_wiki_mana_use lbc.math 500
 scoreboard players set wall_wand_mana_use lbc.math 1500
+scoreboard players set shish_wall_wand_mana_use lbc.math 500
 scoreboard players set advanced_ender_wand_mana_use lbc.math 3000
 scoreboard players set falling_stars_wand_mana_use lbc.math 4000
 scoreboard players set unstable_prism_mana_use lbc.math 1200
