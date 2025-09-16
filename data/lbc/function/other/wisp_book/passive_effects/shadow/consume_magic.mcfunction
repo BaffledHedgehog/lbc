@@ -1,4 +1,4 @@
-kill @e[type=#raycasters,limit=1,distance=..0.01] 
+kill @e[type=#raycasters,limit=2,distance=..0.01] 
 particle dragon_breath ~ ~ ~ 0 0 0 0.1 10 force
 particle squid_ink ~ ~ ~ 0 0 0 0.1 10 force
 scoreboard players remove @s shadow_wisp_charge 100

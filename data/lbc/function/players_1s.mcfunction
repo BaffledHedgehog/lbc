@@ -36,6 +36,7 @@ execute at @s[tag=techno_active] unless entity @e[type=minecraft:marker,distance
 execute at @s[tag=death_compass_active] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/death_compass_check
 effect give @s[tag=paladin_full_active] minecraft:resistance 3 3
 execute if entity @s[scores={sprint_cooldown=1..}] run function lbc:players_1s_sprinted
+execute if score @s shadow_wisp_count matches 10.. run scoreboard players set @s void_resistance 10
 
 
 function lbc:armor/nanobots/tick1s
