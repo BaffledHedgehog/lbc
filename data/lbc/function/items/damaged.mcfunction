@@ -18,6 +18,7 @@ execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integra
 execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/damaged_get_trinket
 scoreboard players set @s blocked_damage 0
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{tmt_item:1}}}]}] run function lbc:drops/tmt/trigger_smth_not_damaged
+execute if entity @s[scores={effect_shock_potion=1..}] run function lbc:other/shock_effect/zap
 schedule function lbc:items/damaged_scheduled 2t
 
 advancement revoke @s only lbc:cocksuckers

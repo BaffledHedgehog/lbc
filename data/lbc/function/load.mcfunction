@@ -266,6 +266,7 @@ scoreboard objectives add effect_nuking dummy
 scoreboard objectives add effect_vacuum dummy
 scoreboard objectives add effect_timestop dummy
 scoreboard objectives add effect_chain_lightning dummy
+scoreboard objectives add effect_shock_potion dummy
 
 scoreboard objectives add effect_add_manamax dummy
 scoreboard objectives add effect_add_manaregen dummy

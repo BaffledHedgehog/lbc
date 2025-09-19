@@ -20,4 +20,5 @@ scoreboard players set @s effect_vacuum 0
 scoreboard players set @s effect_timestop 0
 scoreboard players set @s effect_chain_lightning 0
 scoreboard players set @s skill_issue 0
+scoreboard players set @s effect_shock_potion 0
 scoreboard players set @s nomagic 0

@@ -4,3 +4,4 @@ execute if score tmp lbc.math matches -22 run return run function lbc:effects/te
 execute if score tmp lbc.math matches -21 run return run function lbc:effects/sulfur_tick
 execute if score tmp lbc.math matches -20 run return run function lbc:effects/phosphin_tick
 execute if score tmp lbc.math matches -19 run return run function lbc:effects/gremuch_tick
+execute if score tmp lbc.math matches 126 run return run function lbc:other/shock_effect/potion/convert
