@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item_display,tag=done,tag=lightning_ray] at @s unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/shock_effect/zap/visual/run

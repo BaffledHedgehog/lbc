@@ -536,6 +536,12 @@
                     "value": "lbc:unstable_reactive"
                 },
                 {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "quality": 5,
+                    "value": "lbc:shock_potion"
+                },
+                {
                     "type": "minecraft:item",
                     "weight": 10,
                     "name": "minecraft:potion",

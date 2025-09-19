@@ -1,0 +1,1 @@
+$particle electric_spark ~ ~ ~ $(Radius) 0.2 $(Radius) 0 1

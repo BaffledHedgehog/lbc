@@ -1,0 +1,3 @@
+data merge entity @s[tag=!done] {"custom_particle":{"type": "minecraft:dust_color_transition", "from_color": [0.0,0.8,1.0], to_color: [0.0,0.2,0.2], "scale": 0.8},RadiusOnUse:0.0f,Radius:5.0f,RadiusPerTick:0,Duration:300,WaitTime:0,ReapplicationDelay:10,potion_duration_scale:1}
+execute if entity @s[tag=!done] at @s run summon area_effect_cloud ~ ~ ~ {Radius:5.0f,RadiusOnUse:0.0f,Duration:300,custom_particle: {type:"electric_spark"},potion_contents:{custom_color:0,custom_effects:[{id:"slowness",show_icon:0b,show_particles:0b,amplifier:0,duration:1}]},ReapplicationDelay:10,WaitTime:0,potion_duration_scale:1}
+tag @s add done
