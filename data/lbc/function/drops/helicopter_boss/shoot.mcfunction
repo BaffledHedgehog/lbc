@@ -1,7 +1,7 @@
 scoreboard players operation math lbc.math = ticker lbc.math
 scoreboard players operation math lbc.math %= 2 lbc.math
-execute if score math lbc.math matches 0 run summon minecraft:arrow ^1.5 ^ ^0.7 {Tags:["helicopterbullet","killedarrow"],pickup:2b,damage:0.5d}
-execute if score math lbc.math matches 1 run summon minecraft:arrow ^-1.5 ^ ^0.5 {Tags:["helicopterbullet","killedarrow"],pickup:2b,damage:0.5d}
+execute if score math lbc.math matches 0 run summon minecraft:arrow ^1.5 ^ ^0.5 {Tags:["helicopterbullet","killedarrow"],pickup:2b,damage:1.0d}
+execute if score math lbc.math matches 1 run summon minecraft:arrow ^-1.5 ^ ^0.5 {Tags:["helicopterbullet","killedarrow"],pickup:2b,damage:1.0d}
 execute positioned ^1.5 ^ ^0.5 run data modify entity @e[type=minecraft:arrow,distance=..0.001,tag=helicopterbullet,limit=1] Owner set from entity @s UUID
 execute positioned ^-1.5 ^ ^0.5 run data modify entity @e[type=minecraft:arrow,distance=..0.001,tag=helicopterbullet,limit=1] Owner set from entity @s UUID
 
