@@ -21,7 +21,7 @@ loot replace entity @s enderchest.12 loot lbc:gui/page/11000/12
 loot replace entity @s enderchest.13 loot lbc:gui/page/11000/13
 loot replace entity @s enderchest.14 loot lbc:gui/page/11000/14
 #
-scoreboard players operation tmp1 lbc.math = @s lbc.trinket
+scoreboard players operation tmp1 lbc.math = @s lbc.trinket1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
 
 scoreboard players operation tmp lbc.math = tmp1 lbc.math
@@ -47,29 +47,49 @@ execute if score #lbctrinket swrg.math matches 4.. run function lbc:swrg_kit_int
 
 
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math /= 100000000 lbc.math
+scoreboard players operation tmp1 lbc.math = @s lbc.trinket2
+scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 1000000 lbc.math
 execute if score #lbctrinket swrg.math matches 5.. run function lbc:swrg_kit_integration/gui/page/11000_x
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbctrinket swrg.math matches 6.. run function lbc:swrg_kit_integration/gui/page/11000_x
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math /= 10000 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 100 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbctrinket swrg.math matches 7.. run function lbc:swrg_kit_integration/gui/page/11000_x
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math /= 100 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbctrinket swrg.math matches 8.. run function lbc:swrg_kit_integration/gui/page/11000_x
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbctrinket swrg.math matches 9 run function lbc:swrg_kit_integration/gui/page/11000_x
 
+
+scoreboard players operation tmp1 lbc.math = @s lbc.trinket3
+scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+execute if score #lbctrinket swrg.math matches 9.. run function lbc:swrg_kit_integration/gui/page/11000_x
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 10000 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbctrinket swrg.math matches 10.. run function lbc:swrg_kit_integration/gui/page/11000_x
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 100 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbctrinket swrg.math matches 11.. run function lbc:swrg_kit_integration/gui/page/11000_x
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbctrinket swrg.math matches 12.. run function lbc:swrg_kit_integration/gui/page/11000_x
 
 #
 item replace entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]

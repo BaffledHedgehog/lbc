@@ -29,7 +29,7 @@ scoreboard players add num lbc.math 1
 execute store result storage stats:stats kit_wins int 1 run scoreboard players get num lbc.math
 
 #########
-scoreboard players operation tmp1 lbc.math = @s lbc.levelup
+scoreboard players operation tmp1 lbc.math = @s lbc.levelup1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
 
 scoreboard players operation tmp lbc.math = tmp1 lbc.math
@@ -50,32 +50,53 @@ scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbclevelupmax swrg.math matches 4.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
-scoreboard players operation tmp lbc.math /= 100000000 lbc.math
+scoreboard players operation tmp1 lbc.math = @s lbc.levelup2
+scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 1000000 lbc.math
 execute if score #lbclevelupmax swrg.math matches 5.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
-scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbclevelupmax swrg.math matches 6.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
-scoreboard players operation tmp lbc.math /= 10000 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 100 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbclevelupmax swrg.math matches 7.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
-scoreboard players operation tmp lbc.math /= 100 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbclevelupmax swrg.math matches 8.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
+
+
+scoreboard players operation tmp1 lbc.math = @s lbc.levelup3
+scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+execute if score #lbclevelupmax swrg.math matches 9.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 9 run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
+execute if score #lbclevelupmax swrg.math matches 10.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 100 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbclevelupmax swrg.math matches 11.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbclevelupmax swrg.math matches 12.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_levelup
 ############
 
 
-scoreboard players operation tmp1 lbc.math = @s lbc.trinket
+scoreboard players operation tmp1 lbc.math = @s lbc.trinket1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
 
 scoreboard players operation tmp lbc.math = tmp1 lbc.math
@@ -99,28 +120,51 @@ execute if score #lbctrinket swrg.math matches 4.. run function lbc:swrg_kit_int
 
 
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math /= 100000000 lbc.math
+scoreboard players operation tmp1 lbc.math = @s lbc.trinket2
+scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 1000000 lbc.math
 execute if score #lbctrinket swrg.math matches 5.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbctrinket swrg.math matches 6.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math /= 10000 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 100 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbctrinket swrg.math matches 7.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
-scoreboard players operation tmp lbc.math /= 100 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbctrinket swrg.math matches 8.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
 
-scoreboard players operation tmp lbc.math = @s lbc.trinket2
+
+
+scoreboard players operation tmp1 lbc.math = @s lbc.trinket3
+scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+execute if score #lbctrinket swrg.math matches 9.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbctrinket swrg.math matches 9 run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
+execute if score #lbctrinket swrg.math matches 10.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 100 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbctrinket swrg.math matches 11.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbctrinket swrg.math matches 12.. run function lbc:swrg_kit_integration/gui/stats_grant_wins_trinket
+
+
 
 scoreboard players set num lbc.math 0
 execute store result score num lbc.math run data get storage stats:stats levelup_wins 1

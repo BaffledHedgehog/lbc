@@ -1,5 +1,5 @@
 function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
-scoreboard players operation tmp1 lbc.math = @s lbc.levelup
+scoreboard players operation tmp1 lbc.math = @s lbc.levelup1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
 
 scoreboard players operation tmp lbc.math = tmp1 lbc.math
@@ -23,30 +23,49 @@ execute if score #lbclevelupmax swrg.math matches 4.. run function lbc:swrg_kit_
 
 
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
-scoreboard players operation tmp lbc.math /= 100000000 lbc.math
+scoreboard players operation tmp1 lbc.math = @s lbc.levelup2
+scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 1000000 lbc.math
 execute if score #lbclevelupmax swrg.math matches 5.. run function lbc:swrg_kit_integration/game/levelup_select/select_1
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
-scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbclevelupmax swrg.math matches 6.. run function lbc:swrg_kit_integration/game/levelup_select/select_1
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
-scoreboard players operation tmp lbc.math /= 10000 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 100 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbclevelupmax swrg.math matches 7.. run function lbc:swrg_kit_integration/game/levelup_select/select_1
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
-scoreboard players operation tmp lbc.math /= 100 lbc.math
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
 execute if score #lbclevelupmax swrg.math matches 8.. run function lbc:swrg_kit_integration/game/levelup_select/select_1
 
-scoreboard players operation tmp lbc.math = @s lbc.levelup2
+
+
+scoreboard players operation tmp1 lbc.math = @s lbc.levelup3
+scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 1000000 lbc.math
+execute if score #lbclevelupmax swrg.math matches 9.. run function lbc:swrg_kit_integration/game/levelup_select/select_1
+
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 10000 lbc.math
 scoreboard players operation tmp lbc.math %= 100 lbc.math
-execute if score #lbclevelupmax swrg.math matches 9 run function lbc:swrg_kit_integration/game/levelup_select/select_1
+execute if score #lbclevelupmax swrg.math matches 10.. run function lbc:swrg_kit_integration/game/levelup_select/select_1
 
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math /= 100 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbclevelupmax swrg.math matches 11.. run function lbc:swrg_kit_integration/game/levelup_select/select_1
 
+scoreboard players operation tmp lbc.math = tmp1 lbc.math
+scoreboard players operation tmp lbc.math %= 100 lbc.math
+execute if score #lbclevelupmax swrg.math matches 12.. run function lbc:swrg_kit_integration/game/levelup_select/select_1
 
 
 

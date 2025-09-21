@@ -197,6 +197,8 @@ scoreboard objectives remove touhou_power
 
 scoreboard objectives remove rocket_armor_jumps
 scoreboard objectives remove rocket_armor_jump_cd
+
+scoreboard objectives remove build_gui_pointer
 function lbc:load
 
 

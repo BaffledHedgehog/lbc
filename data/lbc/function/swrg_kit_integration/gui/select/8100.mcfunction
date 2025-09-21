@@ -18,7 +18,8 @@ execute if score @s swrg.gui_select matches 4 run tellraw @s[advancements={lbc:t
 
 #
 scoreboard players set @s[scores={swrg.gui_select=18}] swrg.gui_page 8000
-scoreboard players set @s[scores={swrg.gui_select=25}] lbc.levelup 100000000
-scoreboard players set @s[scores={swrg.gui_select=25}] lbc.levelup2 0
+scoreboard players set @s[scores={swrg.gui_select=25}] lbc.levelup1 100000000
+scoreboard players set @s[scores={swrg.gui_select=25}] lbc.levelup2 100000000
+scoreboard players set @s[scores={swrg.gui_select=25}] lbc.levelup3 100000000
 
 scoreboard players set @s swrg.gui_select -1

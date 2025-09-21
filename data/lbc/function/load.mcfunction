@@ -217,10 +217,12 @@ scoreboard objectives add bass_combo_len dummy
 scoreboard objectives add blocked_damage minecraft.custom:damage_resisted
 scoreboard players set *id.cloud lbcID2 3
 scoreboard players set *id.cloud lbcID 3
-scoreboard objectives add lbc.levelup dummy
+scoreboard objectives add lbc.levelup1 dummy
 scoreboard objectives add lbc.levelup2 dummy
-scoreboard objectives add lbc.trinket dummy
+scoreboard objectives add lbc.levelup3 dummy
+scoreboard objectives add lbc.trinket1 dummy
 scoreboard objectives add lbc.trinket2 dummy
+scoreboard objectives add lbc.trinket3 dummy
 scoreboard objectives add lbc.kit dummy
 scoreboard objectives add lbc.skill dummy
 scoreboard objectives add sprint_cooldown dummy
@@ -288,6 +290,8 @@ scoreboard objectives add sauvojen_wand_upgrade dummy
 scoreboard objectives add tmticked dummy
 scoreboard objectives add rocket_armor_jumps dummy
 scoreboard objectives add rocket_armor_jump_cd dummy
+
+#scoreboard objectives add build_gui_pointer trigger
 #
 execute unless score cfg_lucky_modifier swrg.math matches 0..100 run scoreboard players set cfg_lucky_modifier swrg.math 0
 execute if score #lang swrg.math matches 2 run function lbc:swrg_kit_integration/lang_en
@@ -329,10 +333,12 @@ scoreboard objectives add touhou_power dummy
 
 scoreboard objectives add lbc.challenge.skill dummy
 scoreboard objectives add lbc.challenge.kit dummy
-scoreboard objectives add lbc.challenge.levelup dummy
+scoreboard objectives add lbc.challenge.levelup1 dummy
 scoreboard objectives add lbc.challenge.levelup2 dummy
-scoreboard objectives add lbc.challenge.trinket dummy
+scoreboard objectives add lbc.challenge.levelup3 dummy
+scoreboard objectives add lbc.challenge.trinket1 dummy
 scoreboard objectives add lbc.challenge.trinket2 dummy
+scoreboard objectives add lbc.challenge.trinket3 dummy
 
 #scoreboard players set antigravity lbc.math 0
 
