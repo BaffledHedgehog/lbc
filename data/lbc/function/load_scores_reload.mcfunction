@@ -199,6 +199,7 @@ scoreboard objectives remove rocket_armor_jumps
 scoreboard objectives remove rocket_armor_jump_cd
 
 scoreboard objectives remove build_gui_pointer
+scoreboard objectives remove respawn_timer
 function lbc:load
 
 

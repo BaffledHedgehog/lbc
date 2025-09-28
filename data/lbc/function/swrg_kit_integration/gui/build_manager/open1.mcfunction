@@ -1,0 +1,1 @@
+$execute as @s run buildmanager $(pass) @s

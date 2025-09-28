@@ -14,4 +14,5 @@ execute if score trollhunter lbc.math matches 1 unless dimension minecraft:nexus
 scoreboard players add #timer lbc.math 1
 execute if entity @e[type=#minecraft:mobs,scores={target=1..},limit=1] unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:other/target_curse
 execute as @a[gamemode=!spectator] at @s if dimension minecraft:nexus run function lbc:other/nexus/tick_1s_player
+execute if score #developer swrg.math matches 0 if score #gamemode swrg.math matches 3..4 run function lbc:bedwars/game/tick_1s
 tag @a remove time_stopped

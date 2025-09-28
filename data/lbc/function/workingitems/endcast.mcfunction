@@ -2,8 +2,10 @@ effect give @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgraded:
 playsound minecraft:entity.enderman.teleport master @a[distance=..16] ~ ~ ~ 2
 playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ 200
 particle minecraft:portal ~ ~ ~1 0.2 0.5 0.2 0.5 100 force
-spreadplayers ~ ~ 0 100 under 125 false @s[predicate=lbc:the_nether]
-spreadplayers ~ ~ 0 100 false @s[predicate=!lbc:the_nether]
+execute unless score no_borders swrg.math matches 0 run spreadplayers ~ ~ 0 100 under 125 false @s[predicate=lbc:the_nether]
+execute unless score no_borders swrg.math matches 0 run spreadplayers ~ ~ 0 100 false @s[predicate=!lbc:the_nether]
+execute if score no_borders swrg.math matches 0 run spreadplayers 0 0 0 100 under 125 false @s[predicate=lbc:the_nether]
+execute if score no_borders swrg.math matches 0 run spreadplayers 0 0 0 100 false @s[predicate=!lbc:the_nether]
 execute at @s run tp @s ~ ~.5 ~
 particle minecraft:reverse_portal ~ ~ ~1 0.2 0.5 0.2 0.5 100 force
 playsound minecraft:entity.enderman.teleport master @a[distance=..16] ~ ~ ~ 2

@@ -10,7 +10,7 @@ data modify storage lbc.math b set value b
 function lbc:other/imba/bad_apple/display_tick1 with storage lbc.math
 particle squid_ink ~ ~ ~ 1 1 1 1 100 normal
 effect give @p[gamemode=!spectator] levitation 1 24
-execute as @a at @s run attribute @s gravity modifier add asguhg4gh8gh848g -1 add_multiplied_total
+attribute @p[gamemode=!spectator] gravity modifier add asguhg4gh8gh848g -1 add_multiplied_total
 scoreboard players set badapple lbc.math 1
 schedule function lbc:other/imba/bad_apple/end 219s
 kill @e[tag=badapple_exp]

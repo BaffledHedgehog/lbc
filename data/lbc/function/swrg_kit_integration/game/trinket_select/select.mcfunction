@@ -69,8 +69,10 @@ execute if score #lbctrinket swrg.math matches 12.. run function lbc:swrg_kit_in
 
 
 
+data modify storage lbc.math slot set value 4
+scoreboard players set slot lbc.math 4
+
 data modify storage lbc.math target set value 0
-data modify storage lbc.math slot set value 0
 execute if data entity @s[type=player] Inventory[{Slot:0b}].components."minecraft:custom_data".trinket run function lbc:swrg_kit_integration/game/trinket_select/replace_trinket_to_slot with storage lbc.math
 data modify storage lbc.math target set value 1
 execute if data entity @s[type=player] Inventory[{Slot:1b}].components."minecraft:custom_data".trinket run function lbc:swrg_kit_integration/game/trinket_select/replace_trinket_to_slot with storage lbc.math

@@ -39,13 +39,5 @@ particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^9.25 0 0 0 0 1 normal
 particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^9.5 0 0 0 0 1 normal
 particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^9.75 0 0 0 0 1 normal
 particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^10 0 0 0 0 1 normal
-particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^10.25 0 0 0 0 1 normal
-particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^10.5 0 0 0 0 1 normal
-particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^10.75 0 0 0 0 1 normal
-particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^11 0 0 0 0 1 normal
-particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^11.25 0 0 0 0 1 normal
-particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^11.5 0 0 0 0 1 normal
-particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^11.75 0 0 0 0 1 normal
-particle dust{color:[0.8,0.0,0.0],scale:0.8} ^ ^ ^12 0 0 0 0 1 normal
 playsound block.beacon.activate master @a ~ ~ ~ 1 1
-particle witch ~ ~ ~ 0.4 0.4 0.4 3 15 normal
+particle witch ~ ~ ~ 0.4 0.4 0.4 0 2 normal

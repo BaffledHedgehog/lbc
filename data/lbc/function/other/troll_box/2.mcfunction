@@ -2,5 +2,6 @@ give @s minecraft:leather_helmet[minecraft:unbreakable={},minecraft:custom_name=
 title @a title " "
 title @a subtitle {"translate":"beware_2"}
 scoreboard players set darkness lbc.math 1
+tag @s add darkness_player
 schedule clear lbc:tick90s
 function lbc:tick90s

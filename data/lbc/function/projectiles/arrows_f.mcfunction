@@ -12,7 +12,7 @@ execute if score tmp lbc.math matches 111 unless entity @e[type=minecraft:marker
 execute if score tmp lbc.math matches 118 unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/hedgehog_boom
 execute if score tmp lbc.math matches 119 run loot spawn ~ ~ ~ loot lbc:stand_arrow
 execute if score tmp lbc.math matches 121 unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:other/nuke/nuke1_at
-execute if score tmp lbc.math matches 122 unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=!minecraft:player,distance=..100] ~ ~ ~ ~ ~
+execute if score tmp lbc.math matches 122 unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run tp @e[type=!minecraft:player,distance=..100,tag=!strict_map_object] ~ ~ ~ ~ ~
 execute if score tmp lbc.math matches 124 unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:other/imba/chain_lightning
 execute if score tmp lbc.math matches 125 run function lbc:items/trinket_effects/rocket_spell_cast
 kill @s

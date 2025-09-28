@@ -11,8 +11,10 @@ execute at @s[tag=sin_indolence,tag=!indolence_active] run function lbc:workingi
 tag @s remove indolence_active
 loot give @s[tag=sin_lust] loot lbc:lust_get
 loot give @s[tag=sin_gluttony] loot lbc:glutton_summons
-effect give @s slow_falling 4 0 true
+effect give @s slow_falling 5 0 true
 tag @s add forespawn
+tag @s add forespawn1
+schedule function lbc:respawn2 2
 execute unless entity @s[tag=sin_vanity] run schedule function lbc:respawnnovanity 10t
 
 

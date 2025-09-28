@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=copper_generator] at @s run function lbc:bedwars/game/generator/copper

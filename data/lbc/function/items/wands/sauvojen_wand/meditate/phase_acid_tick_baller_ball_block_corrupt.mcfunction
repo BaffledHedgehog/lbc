@@ -8,4 +8,4 @@ execute if block ~ ~ ~ minecraft:light_gray_concrete_powder run return run setbl
 execute if block ~ ~ ~ minecraft:yellow_concrete_powder run return run setblock ~ ~ ~ minecraft:light_gray_concrete_powder
 execute if block ~ ~ ~ minecraft:green_concrete_powder run return run setblock ~ ~ ~ minecraft:yellow_concrete_powder
 execute if block ~ ~ ~ minecraft:lime_concrete_powder run return run setblock ~ ~ ~ minecraft:green_concrete_powder
-execute unless block ~ ~ ~ #minecraft:to_lime run setblock ~ ~ ~ lime_concrete_powder destroy
+execute unless block ~ ~ ~ #minecraft:to_lime run setblock ~ ~ ~ lime_concrete_powder

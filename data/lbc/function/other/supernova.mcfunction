@@ -1,3 +1,4 @@
+execute if score #gamemode swrg.math matches 3..4 at @s run return run function lbc:other/ponos
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
