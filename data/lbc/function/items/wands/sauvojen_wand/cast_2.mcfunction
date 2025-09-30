@@ -23,3 +23,4 @@ execute if score #random10 lbc.math matches 8 run advancement grant @s only lbc:
 execute if score #random10 lbc.math matches 9 run advancement grant @s only lbc:true_advancements/staffs/sauvojen_tuntija_wand wand9
 
 execute positioned ^ ^ ^2 run scoreboard players operation @e[type=item_display,limit=1,distance=..0.001,tag=savoujen_player] lbcID2 = @s lbcID2
+execute positioned ^ ^ ^2 run scoreboard players operation @e[type=item_display,limit=1,distance=..0.001,tag=savoujen_player] team_number = @s team_number

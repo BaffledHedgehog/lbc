@@ -8,6 +8,7 @@ playsound minecraft:lbcsounds.laser_mg_shot master @a ~ ~ ~ 2 0
 
 execute positioned ^-.3 ^-.2 ^.5 run summon minecraft:marker ~ ~ ~ {Tags:["raycaster","laser_mg_ray"]}
 scoreboard players operation @e[distance=..2,tag=laser_mg_ray,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[distance=..2,tag=laser_mg_ray,limit=1] team_number = @s team_number
 data modify entity @e[distance=..2,tag=laser_mg_ray,limit=1] Rotation set from entity @s Rotation
 execute as @e[type=minecraft:marker,distance=..2,tag=laser_mg_ray,limit=1] at @s run function lbc:other/techno/laser_minigun/ray/cast with storage lbc.math
 

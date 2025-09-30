@@ -4,6 +4,7 @@ summon minecraft:item_display ~ ~ ~ {view_range:500000.0f,shadow_radius:0.0f,sha
 advancement grant @s only lbc:true_advancements/staffs/danmaku_staff
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1}}}}] danmaku_score matches 1500.. run function lbc:other/magic_academy/can_upgrade
 scoreboard players operation @e[type=minecraft:item_display,distance=..0.0001,tag=danmaku_bomb,tag=act,tag=!active,limit=2] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:item_display,distance=..0.0001,tag=danmaku_bomb,tag=act,tag=!active,limit=2] team_number = @s team_number
 scoreboard players operation @e[type=minecraft:item_display,distance=..0.0001,tag=danmaku_bomb,tag=!active,limit=2] Distance = @s danmaku_score
 playsound minecraft:lbcsounds.bomb master @a ~ ~ ~ 2 1
 scoreboard players set @s danmaku_score 0

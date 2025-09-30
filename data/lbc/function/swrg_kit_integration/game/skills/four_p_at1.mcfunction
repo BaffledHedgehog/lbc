@@ -1,6 +1,7 @@
 $execute as @e[tag=quadriedcurr,limit=3,distance=..0.01] run data merge entity @s $(tmp)
 
 scoreboard players operation @e[distance=..0.01,tag=quadriedcurr,limit=3] lbcID2 = @s lbcID2
+scoreboard players operation @e[distance=..0.01,tag=quadriedcurr,limit=3] team_number = @s team_number
 scoreboard players operation @e[distance=..0.01,tag=quadriedcurr,limit=3] Distance = @s Distance
 scoreboard players operation @e[distance=..0.01,tag=quadriedcurr,limit=3] Lifetime = @s Lifetime
 

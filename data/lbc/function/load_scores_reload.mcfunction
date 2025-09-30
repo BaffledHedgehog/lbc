@@ -142,7 +142,7 @@ scoreboard objectives remove nature_wisp_chance
 scoreboard objectives remove light_wisp_count
 scoreboard objectives remove air_wisp_count
 scoreboard objectives remove air_wisp_chains
-
+scoreboard objectives remove effect_shock_potion
 
 scoreboard objectives remove swrg.hp_display
 scoreboard objectives remove swrg.hp

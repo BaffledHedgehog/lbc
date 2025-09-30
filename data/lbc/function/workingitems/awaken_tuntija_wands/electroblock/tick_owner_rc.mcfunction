@@ -1,2 +1,3 @@
 execute if score @e[type=#minecraft:raycasters,tag=!no_repell,sort=nearest,limit=1] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:raycasters,tag=!no_repell,sort=nearest,limit=1] add no_repell
+execute if score @e[type=#minecraft:raycasters,tag=!no_repell,sort=nearest,limit=1] team_number = @s team_number run tag @e[type=#minecraft:raycasters,tag=!no_repell,sort=nearest,limit=1] add no_repell
 particle minecraft:electric_spark ~ ~ ~ 0 0 0 0.3 10 normal

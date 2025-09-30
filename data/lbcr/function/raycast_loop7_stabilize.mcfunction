@@ -20,6 +20,7 @@ scoreboard players set @s Distance 0
 function lbcr:dmgwithid_un_playeronly
 execute at @s run function lbcr:raycast_loop7_stabilized with storage lbc.math
 tag @a remove nodamage
+tag @a remove nodamage1
 
 scoreboard players set @s Distance 10000
 kill @s

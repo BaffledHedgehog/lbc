@@ -1,2 +1,3 @@
 execute at @e[type=#minecraft:mobs,tag=!spectator] if score @e[type=#minecraft:mobs,distance=..0.001,tag=!spectator,limit=1] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,distance=..0.001,tag=!spectator,limit=1] add nodamage
+execute at @e[type=#minecraft:mobs,tag=!spectator] if score @e[type=#minecraft:mobs,distance=..0.001,tag=!spectator,limit=1] team_number = @s team_number run tag @e[type=#minecraft:mobs,distance=..0.001,tag=!spectator,limit=1] add nodamage1
 execute unless entity @e[type=#minecraft:mobs,tag=nodamage] run tag @s add nodamage

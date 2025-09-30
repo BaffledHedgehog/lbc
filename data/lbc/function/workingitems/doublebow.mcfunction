@@ -10,6 +10,7 @@ execute as @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2
 execute as @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] run data modify entity @s item set from entity @e[type=#minecraft:arrows,distance=..3,tag=doublearrow,limit=1] item
 execute as @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] run data modify entity @s damage set from entity @e[type=#minecraft:arrows,distance=..3,tag=doublearrow,limit=1] damage
 scoreboard players operation @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] team_number = @s team_number
 tag @e[type=#minecraft:arrows,distance=..3,tag=doubel,tag=!active,limit=2] add active
 # Kill first arrow
 kill @e[type=#minecraft:arrows,distance=..2,tag=doublearrow]

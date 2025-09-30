@@ -5,7 +5,7 @@ execute if entity @s[tag=have_lucky_effects_5t,tag=!spectator] run function lbc:
 
 execute if entity @s[tag=!spectator,scores={lookback=1..}] run function lbc:workingitems/psychowand/lookbackloop
 execute if entity @s[tag=!spectator,scores={scared=1..}] run function lbc:workingitems/psychowand/scaredloop
-execute if entity @s[tag=!hedgehog,tag=!spectator] unless score @e[type=minecraft:silverfish,distance=..1,tag=hedgehog,limit=1] lbcID2 = @s lbcID2 run damage @s 4 thorns
+execute if entity @s[tag=!hedgehog,tag=!spectator] unless score @e[type=minecraft:silverfish,distance=..1,tag=hedgehog,limit=1] lbcID2 = @s lbcID2 unless score @e[type=minecraft:silverfish,distance=..1,tag=hedgehog,limit=1] team_number = @s team_number run damage @s 4 thorns
 execute if entity @s[type=minecraft:player] run function lbc:pre_player_5t
 execute if entity @s[tag=lucky_mob] run function lbc:mobs_5t_lbc
 

@@ -1,4 +1,5 @@
 execute at @a[gamemode=!spectator] if score @a[gamemode=!spectator,distance=..0.001,limit=1] lbcID2 = @s lbcID2 run tag @a[gamemode=!spectator,distance=..0.001,limit=1] add nodmg
+execute at @a[gamemode=!spectator] if score @a[gamemode=!spectator,distance=..0.001,limit=1] team_number = @s team_number run tag @a[gamemode=!spectator,distance=..0.001,limit=1] add nodmg
 particle minecraft:dust{color:[1.0,0.0,0.0],scale:2.0f} ~ ~ ~ 0 0 0 0 1 force
 scoreboard players add @s Lifetime 1
 execute store result storage lbc.math tmp double 0.01 run scoreboard players get @s Lifetime

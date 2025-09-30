@@ -2,4 +2,5 @@ summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0.0f
 
 tp @e[type=minecraft:item_display,distance=..0.01,tag=govno_poprigun,tag=!actived,limit=1] ~ ~ ~ ~ ~-20
 scoreboard players operation @e[type=minecraft:item_display,distance=..0.01,tag=govno_poprigun,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:item_display,distance=..0.01,tag=govno_poprigun,tag=!actived,limit=1] team_number = @s team_number
 tag @e[type=minecraft:item_display,distance=..0.01,tag=govno_poprigun,tag=!actived,limit=1] add actived

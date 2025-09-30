@@ -5,5 +5,6 @@ playsound minecraft:lbcsounds.laser_mg_shot master @a ~ ~ ~ 1 1
 playsound minecraft:lbcsounds.laser_mg_shot master @a ~ ~ ~ 1.5 1
 playsound minecraft:lbcsounds.laser_mg_shot master @a ~ ~ ~ 2 1
 function lbcr:dmgwithid_un_playeronly
-execute unless entity @e[type=#minecraft:mobs,distance=..5,tag=!spectator,tag=!nodamage,limit=1] if entity @e[type=#minecraft:mobs,distance=5..10,tag=!spectator,tag=!nodamage,limit=1] run function lbcr:raycast_molnia_chain_end_check
+execute unless entity @e[type=#minecraft:mobs,distance=..5,tag=!spectator,tag=!nodamage,tag=!nodamage1,limit=1] if entity @e[type=#minecraft:mobs,distance=5..10,tag=!spectator,tag=!nodamage,tag=!nodamage1,limit=1] run function lbcr:raycast_molnia_chain_end_check
 tag @a remove nodamage
+tag @a remove nodamage1

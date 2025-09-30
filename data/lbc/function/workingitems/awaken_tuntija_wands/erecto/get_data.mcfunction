@@ -19,6 +19,7 @@ execute rotated ~40 ~ run tp @e[type=minecraft:marker,distance=..0.0001,tag=erec
 execute rotated ~-40 ~ run tp @e[type=minecraft:marker,distance=..0.0001,tag=erecto_arc,tag=arc_4n,tag=!active,limit=1] ~ ~ ~ ~ ~
 scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erecto_arc,tag=!active,limit=8] Distance_const = @a[gamemode=!spectator,tag=caster,limit=1] Distance
 scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erecto_arc,tag=!active,limit=8] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erecto_arc,tag=!active,limit=8] team_number = @s team_number
 scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erecto_arc,tag=!active,limit=8] lbcID = id_cloud lbcID
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1}}}}] run tag @e[type=minecraft:marker,distance=..0.0001,tag=erecto_arc,tag=!active,limit=8] add check_upg
 tag @e[type=minecraft:marker,distance=..0.0001,tag=erecto_arc,tag=!active,limit=8] add active

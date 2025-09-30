@@ -1,4 +1,5 @@
 execute at @a[gamemode=!spectator] if score @a[gamemode=!spectator,distance=..0.001,limit=1] lbcID2 = @s lbcID2 run tag @a[gamemode=!spectator,distance=..0.001,limit=1] add curseowner
+execute at @a[gamemode=!spectator] if score @a[gamemode=!spectator,distance=..0.001,limit=1] team_number = @s team_number run tag @a[gamemode=!spectator,distance=..0.001,limit=1] add curseowner1
 execute unless entity @a[tag=curseowner,tag=voidactive] unless entity @a[tag=curseowner,tag=voidactive2] run kill @s
 execute if score @a[tag=curseowner,limit=1] mana matches ..30 run kill @s
 execute at @a[gamemode=spectator] if score @a[gamemode=spectator,distance=..0.001,limit=1] lbcID2 = @s lbcID2 run kill @s
@@ -11,3 +12,4 @@ execute if score holescount lbc.math matches 3 run function lbc:raycast/voidcurs
 execute if score holescount lbc.math matches 4 run function lbc:raycast/voidcursed4
 execute if score holescount lbc.math matches 5.. run function lbc:raycast/voidcursed5
 tag @a remove curseowner
+tag @a remove curseowner1

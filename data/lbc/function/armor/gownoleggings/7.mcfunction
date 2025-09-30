@@ -1,4 +1,5 @@
-effect give @e[distance=0.01..70,tag=!spectator] minecraft:poison 3 0
-effect give @e[distance=0.01..70,tag=!spectator] minecraft:hunger 3 0
-effect give @e[distance=0.01..16,tag=!spectator] minecraft:wither 3 3
+scoreboard players operation *tempt lbcID2 = @s team_number
+effect give @e[distance=0.01..70,tag=!spectator,predicate=!lbc:same_team] minecraft:poison 3 0
+effect give @e[distance=0.01..70,tag=!spectator,predicate=!lbc:same_team] minecraft:hunger 3 0
+effect give @e[distance=0.01..16,tag=!spectator,predicate=!lbc:same_team] minecraft:wither 3 3
 particle minecraft:sneeze ~ ~1 ~ 56 56 56 0 7 normal

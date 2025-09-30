@@ -39,6 +39,7 @@ scoreboard players set @s target 0
 scoreboard players set @s void_resistance 0
 scoreboard players set @s dimensional_shifting 0
 scoreboard players set @s sprint_cooldown 0
+scoreboard players set @s effect_shock_potion 0
 tag @s remove female
 tag @s remove male
 scoreboard players set @s gatling_fovos 0
@@ -182,6 +183,10 @@ attribute @s minecraft:entity_interaction_range modifier remove minecraft:rune_t
 attribute @s minecraft:mining_efficiency modifier remove minecraft:rune_thurisaz
 attribute @s minecraft:gravity modifier remove minecraft:rune_thurisaz
 attribute @s minecraft:fall_damage_multiplier modifier remove minecraft:rune_thurisaz_negative
+
+attribute @s minecraft:armor modifier remove uhf78arf7ahfkdhmfiash
+attribute @s minecraft:armor_toughness modifier remove uhf78arf7ashfdrehf
+attribute @s minecraft:knockback_resistance modifier remove ahfkdhmfiashfdrehf
 
 advancement revoke @s only lbc:lethal_damage
 function lbc:leave_death

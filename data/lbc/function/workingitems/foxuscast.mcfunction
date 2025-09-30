@@ -1,9 +1,9 @@
 execute store result score #random4 lbc.math run random value 1..4
 
 execute store result score tmp lbc.math run data get entity @s Pos[1]
-
-execute if score #random4 lbc.math matches 4 run effect give @e[distance=0.01..10,tag=!spectator] minecraft:blindness 6 0 true
-execute if score #random4 lbc.math matches 4 run tellraw @a[gamemode=!spectator,distance=0.01..10] {"translate":"player_blinded","color":"gray"}
+scoreboard players operation *tempt lbcID2 = @s team_number
+execute if score #random4 lbc.math matches 4 run effect give @e[distance=0.01..10,tag=!spectator,predicate=!lbc:same_team] minecraft:blindness 6 0 true
+execute if score #random4 lbc.math matches 4 run tellraw @a[gamemode=!spectator,distance=0.01..10,predicate=!lbc:same_team] {"translate":"player_blinded","color":"gray"}
 execute if score #random4 lbc.math matches 4 run effect give @s minecraft:levitation 1 10 true
 execute if score #random4 lbc.math matches 4 run effect give @s minecraft:slow_falling 8 0 true
 execute if score #random4 lbc.math matches 4 run playsound minecraft:entity.illusioner.prepare_blindness master @a ~ ~ ~ 1
@@ -11,10 +11,10 @@ execute if score #random4 lbc.math matches 4 run particle minecraft:poof ~ ~1 ~ 
 execute if score #random4 lbc.math matches 1 run effect give @s minecraft:invisibility 10 0 true
 execute if score #random4 lbc.math matches 1 run playsound minecraft:entity.illusioner.prepare_mirror master @a ~ ~ ~ 1
 execute if score #random4 lbc.math matches 1 run particle minecraft:campfire_signal_smoke ~ ~1 ~ 1 1 1 0.075 100 force
-execute if score #random4 lbc.math matches 2 run effect give @e[distance=0.1..10,tag=!spectator] minecraft:slowness 3 50 true
+execute if score #random4 lbc.math matches 2 run effect give @e[distance=0.1..10,tag=!spectator,predicate=!lbc:same_team] minecraft:slowness 3 50 true
 execute if score #random4 lbc.math matches 2 run playsound minecraft:entity.illusioner.mirror_move master @a ~ ~ ~ 1 0
 execute if score #random4 lbc.math matches 2 run particle minecraft:large_smoke ~ ~1 ~ 1 1 1 0.075 80 force
-execute if score #random4 lbc.math matches 2 run tellraw @a[gamemode=!spectator,distance=0.01..10] [{"translate":"player_teleported","color":"light_purple"},{"text":" ","type":"text"},{"translate":"player_stopped","color":"aqua"}]
+execute if score #random4 lbc.math matches 2 run tellraw @a[gamemode=!spectator,distance=0.01..10,predicate=!lbc:same_team] [{"translate":"player_teleported","color":"light_purple"},{"text":" ","type":"text"},{"translate":"player_stopped","color":"aqua"}]
 execute if score #random4 lbc.math matches 2 run spreadplayers ~ ~ 0 10 under 120 false @s[predicate=lbc:the_nether]
 execute if score #random4 lbc.math matches 2 run spreadplayers ~ ~ 0 10 false @s[predicate=!lbc:the_nether]
 execute if score #random4 lbc.math matches 2 run particle minecraft:large_smoke ~ ~1 ~ 1 1 1 0.075 80 force

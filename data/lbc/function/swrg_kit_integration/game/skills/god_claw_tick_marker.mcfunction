@@ -31,6 +31,7 @@ execute if predicate lbc:chance40 positioned ~ ~-1 ~-1 unless entity @e[type=min
 
 tag @s add current
 execute as @e[type=minecraft:marker,distance=..2,tag=god_claw,tag=!spawned] run scoreboard players operation @s lbcID2 = @e[type=minecraft:marker,distance=..0.2,tag=god_claw,tag=current] lbcID2
+execute as @e[type=minecraft:marker,distance=..2,tag=god_claw,tag=!spawned] run scoreboard players operation @s team_number = @e[type=minecraft:marker,distance=..0.2,tag=god_claw,tag=current] team_number
 tag @e[type=minecraft:marker,distance=..2,tag=god_claw,tag=!spawned] add spawned
 tag @s remove current
 

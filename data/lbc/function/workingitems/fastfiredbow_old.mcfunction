@@ -6,6 +6,7 @@ execute at @e[tag=fire] at @s anchored eyes run summon minecraft:small_fireball 
 execute as @e[type=minecraft:small_fireball,tag=fireb,sort=nearest,limit=1] at @s run data modify entity @s Motion set from entity @e[type=minecraft:arrow,tag=fire,sort=nearest,limit=1] Motion
 execute as @e[type=minecraft:small_fireball,tag=fireb,sort=nearest,limit=1] at @s run data modify entity @s Owner set from entity @p[gamemode=!spectator] UUID
 scoreboard players operation @e[type=minecraft:small_fireball,tag=fireb,sort=nearest,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:small_fireball,tag=fireb,sort=nearest,limit=1] team_number = @s team_number
 # kill arrow
 kill @e[type=minecraft:arrow,tag=fire,sort=nearest,limit=1]
 # Recharging crossbow

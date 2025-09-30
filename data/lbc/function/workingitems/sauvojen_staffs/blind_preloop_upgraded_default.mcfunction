@@ -8,5 +8,6 @@ summon minecraft:marker ^ ^ ^.1 {data:{lifetime:30},Tags:["raycastblindwand","pl
 summon minecraft:marker ^ ^ ^-.1 {data:{lifetime:30},Tags:["raycastblindwand","player","slowraycast","shield_blockable2","magic"]}
 execute as @e[type=minecraft:marker,distance=..0.2,tag=raycastblindwand,tag=!actived,limit=7] run data modify entity @s Rotation set from entity @a[tag=caster,limit=1] Rotation
 scoreboard players operation @e[type=minecraft:marker,distance=..0.2,tag=raycastblindwand,tag=!actived,limit=7] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.2,tag=raycastblindwand,tag=!actived,limit=7] team_number = @s team_number
 execute as @e[type=minecraft:marker,distance=..0.2,tag=raycastblindwand,tag=!actived,limit=7] at @s run function lbc:universal_razbros
 tag @e[type=minecraft:marker,distance=..0.2,tag=raycastblindwand,tag=!actived,limit=7] add actived

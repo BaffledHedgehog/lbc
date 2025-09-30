@@ -12,6 +12,7 @@ execute if entity @s[tag=main] run function lbc:swrg_kit_integration/game/skills
 
 tag @s add current
 execute as @e[type=minecraft:marker,distance=..2,tag=expansion,tag=!spawned] run scoreboard players operation @s lbcID2 = @e[type=minecraft:marker,distance=..0.01,tag=expansion,tag=current] lbcID2
+execute as @e[type=minecraft:marker,distance=..2,tag=expansion,tag=!spawned] run scoreboard players operation @s team_number = @e[type=minecraft:marker,distance=..0.01,tag=expansion,tag=current] team_number
 tag @e[type=minecraft:marker,distance=..2,tag=expansion,tag=!spawned] add spawned
 tag @s remove current
 

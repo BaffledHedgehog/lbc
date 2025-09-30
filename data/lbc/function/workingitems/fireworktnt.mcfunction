@@ -42,5 +42,6 @@ execute unless score tmp lbc.math matches 0 run function lbc:workingitems/firewo
 execute as @e[type=minecraft:tnt,distance=..4] run data modify entity @s Motion set from entity @e[type=#minecraft:arrows,distance=..2,sort=nearest,limit=1] Motion
 execute as @e[type=minecraft:tnt,distance=..4] run data modify entity @s owner set from entity @p[gamemode=!spectator] UUID
 scoreboard players operation @e[type=minecraft:tnt,distance=..4] lbcID2 = @p[gamemode=!spectator] lbcID2
+scoreboard players operation @e[type=minecraft:tnt,distance=..4] team_number = @p[gamemode=!spectator] team_number
 # Kill arrow
 kill @s

@@ -1,3 +1,4 @@
 execute at @e[type=#minecraft:mobs,distance=..8,tag=!spectator] if score @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] add nodmg
+execute at @e[type=#minecraft:mobs,distance=..8,tag=!spectator] if score @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] team_number = @s team_number run tag @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] add nodmg
 execute if entity @e[type=#minecraft:mobs,distance=..8,tag=!spectator,tag=!nodmg] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/summoner/cultists/luck_arrow_spam_yes
 tag @e remove nodmg

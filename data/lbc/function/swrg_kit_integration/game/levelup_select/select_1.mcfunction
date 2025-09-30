@@ -19,7 +19,7 @@ execute if score tmp lbc.math matches 1 run tag @s add rnd_statup
 
 execute if score tmp lbc.math matches 2 run tag @s add mana2
 
-execute if score tmp lbc.math matches 3 run attribute @s minecraft:max_health modifier add minecraft:a5e06574-2c94-4f2f-843c-55e25f5c4520 0.25 add_multiplied_total
+execute if score tmp lbc.math matches 3 run attribute @s minecraft:max_health modifier add minecraft:a5e06574-2c94-4f2f-843c-55e25f5c4520 0.15 add_multiplied_total
 
 execute if score tmp lbc.math matches 4 run attribute @s minecraft:knockback_resistance modifier add minecraft:c1b6809e-55c4-4a5e-b43d-2ee8f50b74f1 0.4 add_value
 
@@ -38,7 +38,7 @@ execute if score tmp lbc.math matches 9 run attribute @s minecraft:armor modifie
 execute if score tmp lbc.math matches 9 run attribute @s minecraft:armor_toughness modifier add minecraft:f0e8fa03-e765-4fb2-803e-585bb7a50574 -0.5 add_multiplied_total
 execute if score tmp lbc.math matches 9 run attribute @s minecraft:max_health modifier add minecraft:e24d59be-4f6e-4964-af26-c3cbb9ad23f5 -0.2 add_multiplied_total
 
-execute if score tmp lbc.math matches 10 run attribute @s minecraft:max_health modifier add minecraft:6df87481-a199-4207-9585-3b7b776aa370 8 add_value
+execute if score tmp lbc.math matches 10 run attribute @s minecraft:max_health modifier add minecraft:6df87481-a199-4207-9585-3b7b776aa370 4 add_value
 
 execute if score tmp lbc.math matches 11 run tag @s add perfe
 

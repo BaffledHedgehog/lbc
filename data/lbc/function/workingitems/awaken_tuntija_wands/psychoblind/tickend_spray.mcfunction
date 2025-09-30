@@ -4,5 +4,6 @@ summon minecraft:marker ~ ~ ~ {data:{lifetime:20},Tags:["psycho_charge","rare","
 playsound minecraft:item.trident.riptide_1 master @a ~ ~ ~ 0.3 0
 playsound minecraft:item.trident.riptide_1 master @a ~ ~ ~ 0.2 1
 scoreboard players operation @e[type=minecraft:marker,distance=..0.001,tag=psycho_charge,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.001,tag=psycho_charge,tag=!actived,limit=1] team_number = @s team_number
 execute as @e[type=minecraft:marker,distance=..0.001,tag=psycho_charge,tag=!actived,limit=1] run function lbc:random_rot
 tag @e[type=minecraft:marker,distance=..0.001,tag=psycho_charge,tag=!actived,limit=1] add actived

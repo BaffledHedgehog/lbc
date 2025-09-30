@@ -1,1 +1,1 @@
-execute facing entity @e[type=#minecraft:mobs,distance=5..10,tag=!spectator,tag=!nodamage,sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~
+execute facing entity @e[type=#minecraft:mobs,distance=5..10,tag=!spectator,tag=!nodamage,tag=!nodamage1,sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~

@@ -13,3 +13,4 @@ execute if score #random6 lbc.math matches 5 run summon minecraft:item ~ ~ ~ {Ag
 execute if score #random6 lbc.math matches 6 run summon minecraft:item ~ ~ ~ {Age:-32768,Health:10000,PickupDelay:3,Invulnerable:1b,Tags:["penis"],Item:{id:"minecraft:repeating_command_block",components:{"minecraft:item_name":{"translate":"penis"},"minecraft:custom_data":{instantitem:1,penis_bomb:1,penis_num:6},"minecraft:item_model":"lbc:penis_6","minecraft:max_stack_size":1,"minecraft:tooltip_style":"lbc:tier_ff"},count:1}}
 execute at @e[type=minecraft:item,distance=..0.1,tag=penis,limit=1] rotated as @s as @e[type=minecraft:item,distance=..0.1,tag=penis,limit=1] run function lbc:raycast_vpered_slow
 scoreboard players operation @e[type=minecraft:item,distance=..0.01,tag=penis,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:item,distance=..0.01,tag=penis,limit=1] team_number = @s team_number

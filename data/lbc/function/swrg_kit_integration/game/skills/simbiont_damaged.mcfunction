@@ -1,5 +1,5 @@
 
-execute at @e[type=#minecraft:mobs,type=!minecraft:player] if score @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1] add addicted
+execute at @e[type=#minecraft:mobs,type=!minecraft:player,tag=!strict_map_object] if score @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1,tag=!strict_map_object] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1,tag=!strict_map_object] add addicted
 execute store result score tmp1 lbc.math if entity @e[type=#minecraft:mobs,type=!minecraft:player,tag=addicted]
 scoreboard players operation tmp lbc.math = @s blocked_damage
 scoreboard players operation tmp lbc.math /= tmp1 lbc.math

@@ -12,7 +12,9 @@
 scoreboard players set *test_ray Distance 0
 summon minecraft:item_display 0 -800 0 {item:{id:"minecraft:repeating_command_block",components:{"minecraft:item_model":"lbc:lightning_bolt_linear"},count:1},Tags:["lightning_ray"]}
 scoreboard players operation @e[type=minecraft:item_display,tag=lightning_ray,tag=!done,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:item_display,tag=lightning_ray,tag=!done,limit=1] team_number = @s team_number
 scoreboard players operation *check_id lbcID2 = @s lbcID2
+scoreboard players operation *check_team lbcID2 = @s team_number
 data modify entity @e[type=minecraft:item_display,tag=lightning_ray,tag=!done,limit=1] transformation.scale set value [3.0f,3.0f,1.0f]
 function lbc:other/shock_effect/zap/loop
 

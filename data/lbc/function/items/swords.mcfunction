@@ -1,4 +1,5 @@
 # Steak sword
+scoreboard players operation *tempt lbcID2 = @s team_number
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{feeding:1}}}}] run function lbc:workingitems/feedingsword
 # Epic sword
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cool:1}}}}] unless entity @a[gamemode=!spectator,distance=..20,tag=nomagic_active,limit=1] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/coolsword
@@ -17,7 +18,7 @@ execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical_old
 execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gaara:1}}}]}] unless entity @a[gamemode=!spectator,distance=..20,tag=nomagic_active,limit=1] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] if entity @e[distance=..10,tag=!spectator,nbt={HurtTime:10s}] run function lbc:workingitems/gaara1
 execute at @s[nbt={Inventory:[{components:{"minecraft:custom_data":{gaara_old:1}}}]}] run function lbc:workingitems/gaara1_old
 
-execute if score time_stopped lbc.math matches 1.. if entity @s[tag=!time_stopped] at @e[type=#minecraft:mobs,distance=0.01..7,tag=!spectator,nbt={HurtTime:10s}] run summon minecraft:marker ~ ~ ~ {Tags:["damage_splash"]}
+execute if score time_stopped lbc.math matches 1.. if entity @s[tag=!time_stopped] at @e[type=#minecraft:mobs,distance=0.01..7,tag=!spectator,nbt={HurtTime:10s},predicate=!lbc:same_team] run summon minecraft:marker ~ ~ ~ {Tags:["damage_splash"]}
 
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{heal:1}}}}] unless entity @a[gamemode=!spectator,distance=..20,tag=nomagic_active,limit=1] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/devilsword
 
@@ -42,16 +43,16 @@ execute at @s[gamemode=!spectator] if items entity @s armor.head *[minecraft:cus
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{vexsword:1}}}}] unless entity @a[gamemode=!spectator,distance=..20,tag=nomagic_active,limit=1] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/vexsword
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{true_terra:1}}}}] unless entity @a[gamemode=!spectator,distance=..20,tag=nomagic_active,limit=1] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/true_terra_sword_hit
 execute at @s if items entity @s armor.chest *[minecraft:custom_data~{nyauwu:1}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/manaregen_hit
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{antimagic:1}}}}] as @a[gamemode=!spectator,distance=0.01..7,nbt={HurtTime:10s}] run function lbc:other/effect_nomagic
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{holocaust:1}}}}] run effect give @e[type=#minecraft:mobs,gamemode=!spectator,distance=0.01..7,nbt={HurtTime:10s}] minecraft:raid_omen 20 111
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{antimagic:1}}}}] as @a[gamemode=!spectator,distance=0.01..7,nbt={HurtTime:10s},predicate=!lbc:same_team] run function lbc:other/effect_nomagic
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{holocaust:1}}}}] run effect give @e[type=#minecraft:mobs,gamemode=!spectator,distance=0.01..7,nbt={HurtTime:10s},predicate=!lbc:same_team] minecraft:raid_omen 20 111
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{anal_whip:1}}}}] run function lbc:workingitems/ender_whip_get_id
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{diamond_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s}] at @s run function lbc:items/swords/get_penised
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{netherite_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s}] positioned ^ ^ ^200 run function lbc:items/swords/get_penised_2
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{netherstar_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s}] positioned ^ ^ ^400 run function lbc:items/swords/get_penised_3
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{transdimensional_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s}] run function lbc:items/swords/get_penised_4
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{multiverse_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s}] positioned ^ ^ ^800 run function lbc:items/swords/get_penised_5
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{diamond_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s},predicate=!lbc:same_team] at @s run function lbc:items/swords/get_penised
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{netherite_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s},predicate=!lbc:same_team] positioned ^ ^ ^200 run function lbc:items/swords/get_penised_2
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{netherstar_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s},predicate=!lbc:same_team] positioned ^ ^ ^400 run function lbc:items/swords/get_penised_3
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{transdimensional_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s},predicate=!lbc:same_team] run function lbc:items/swords/get_penised_4
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{multiverse_fish:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s},predicate=!lbc:same_team] positioned ^ ^ ^800 run function lbc:items/swords/get_penised_5
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{banhammer:1}}}}] run function lbc:items/swords/banhammer/hurt
-execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{stand_arrow:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s}] at @s run function lbc:other/stand_arrow/hit
+execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{stand_arrow:1}}}}] as @e[distance=0.01..7,tag=!spectator,nbt={HurtTime:10s},predicate=!lbc:same_team] at @s run function lbc:other/stand_arrow/hit
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{wtf_item:1}}}}] run function lbc:items/swords/wtf_item/hit
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{fevgalea_star:1}}}}] run function lbc:items/swords/fevgalea_star/hit
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{chaos_swo:1}}}}] run function lbc:items/swords/chaos_sword_imba_pre

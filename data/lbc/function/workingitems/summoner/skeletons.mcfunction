@@ -52,6 +52,7 @@ execute if entity @s[team=15] run team join 15 @e[type=minecraft:skeleton,distan
 execute if entity @s[team=16] run team join 16 @e[type=minecraft:skeleton,distance=..4,tag=summskeleton,tag=!summactivated,sort=nearest,limit=20]
 
 scoreboard players operation @e[type=minecraft:skeleton,distance=..4,tag=summskeleton,tag=!summactivated,sort=nearest,limit=20] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:skeleton,distance=..4,tag=summskeleton,tag=!summactivated,sort=nearest,limit=20] team_number = @s team_number
 tag @e[type=minecraft:skeleton,distance=..4,tag=summskeleton,tag=!summactivated,sort=nearest,limit=20] add summactivated
 scoreboard players operation @s mana -= skeleton_soul_mana_use lbc.math
 particle minecraft:soul_fire_flame ~ ~1 ~ 5 5 5 0 300 normal

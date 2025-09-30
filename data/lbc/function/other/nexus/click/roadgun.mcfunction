@@ -1,5 +1,6 @@
 summon minecraft:block_display ~ ~ ~ {Tags:["slowraycast","nexus_rc","roadgun","rare"],teleport_duration:1,interpolation_duration:1}
 execute store result score @e[type=minecraft:block_display,distance=..0.01,tag=roadgun,tag=!actived,limit=1] lbcID2 run scoreboard players get @s lbcID2
+execute store result score @e[type=minecraft:block_display,distance=..0.01,tag=roadgun,tag=!actived,limit=1] team_number run scoreboard players get @s team_number
 data modify entity @e[type=minecraft:block_display,distance=..0.01,tag=roadgun,tag=!actived,limit=1] Rotation set from entity @s Rotation
 ride @s mount @e[type=minecraft:block_display,distance=..0.01,tag=roadgun,tag=!actived,limit=1]
 tag @e[type=minecraft:block_display,distance=..0.01,tag=roadgun,tag=!actived,limit=1] add actived

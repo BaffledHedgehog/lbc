@@ -5,4 +5,5 @@ summon minecraft:marker ~ ~ ~ {data:{lifetime:35},Tags:["raycastmolnia","slowray
 summon minecraft:marker ~ ~ ~ {data:{lifetime:40},Tags:["raycastmolnia","slowraycast","shield_blockable","mecha","player"],Rotation:[0.0f,90.0f]}
 summon minecraft:marker ~ ~ ~ {data:{lifetime:45},Tags:["raycastmolnia","slowraycast","shield_blockable","mecha","player"],Rotation:[0.0f,90.0f]}
 scoreboard players operation @e[type=minecraft:marker,distance=..0.1,tag=raycastmolnia,tag=!actived,limit=4] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.1,tag=raycastmolnia,tag=!actived,limit=4] team_number = @s team_number
 tag @e[type=minecraft:marker,distance=..0.1,tag=raycastmolnia,tag=!actived,limit=4] add actived

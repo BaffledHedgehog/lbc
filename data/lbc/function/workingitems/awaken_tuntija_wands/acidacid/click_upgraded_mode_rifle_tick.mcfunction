@@ -3,6 +3,7 @@ summon minecraft:marker ^ ^ ^ {data:{lifetime:200},Tags:["great_acid_burst","rar
 playsound minecraft:entity.item.break master @a ~ ~ ~ 1 2
 data modify entity @e[type=minecraft:marker,distance=..0.001,tag=great_acid_burst,tag=!actived,limit=1] Rotation set from entity @s Rotation
 scoreboard players operation @e[type=minecraft:marker,distance=..0.001,tag=great_acid_burst,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.001,tag=great_acid_burst,tag=!actived,limit=1] team_number = @s team_number
 execute if score #tier lbc.math matches 1 run tag @e[type=minecraft:marker,distance=..0.001,tag=great_acid_burst,tag=!actived,limit=1] add on_fire
 tag @e[type=minecraft:marker,distance=..0.001,tag=great_acid_burst,tag=!actived,limit=1] add actived
 scoreboard players remove @s acid_rifle 1

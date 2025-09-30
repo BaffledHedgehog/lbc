@@ -8,4 +8,5 @@ playsound minecraft:block.stone.place master @a ~ ~ ~ 2 1
 playsound minecraft:block.stone.place master @a ~ ~ ~ 2 1.5
 playsound minecraft:block.stone.place master @a ~ ~ ~ 2 2
 tag @e remove nodamage
+tag @e remove nodamage1
 kill @s

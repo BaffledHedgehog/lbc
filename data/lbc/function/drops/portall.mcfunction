@@ -1,8 +1,8 @@
 summon minecraft:marker ~ ~ ~ {Tags:["randomportal"]}
 execute as @e[tag=randomportal] at @s unless score no_borders swrg.math matches 0 run spreadplayers ~ ~ 0 200 under 120 false @s[predicate=lbc:the_nether]
 execute as @e[tag=randomportal] at @s unless score no_borders swrg.math matches 0 run spreadplayers ~ ~ 0 200 false @s[predicate=!lbc:the_nether]
-execute as @e[tag=randomportal] at @s if score no_borders swrg.math matches 0 run spreadplayers 0 0 0 190 under 120 false @s[predicate=lbc:the_nether]
-execute as @e[tag=randomportal] at @s if score no_borders swrg.math matches 0 run spreadplayers 0 0 0 190 false @s[predicate=!lbc:the_nether]
+execute as @e[tag=randomportal] at @s if score no_borders swrg.math matches 0 run spreadplayers 0 0 0 170 under 120 false @s[predicate=lbc:the_nether]
+execute as @e[tag=randomportal] at @s if score no_borders swrg.math matches 0 run spreadplayers 0 0 0 170 false @s[predicate=!lbc:the_nether]
 
 
 execute at @e[tag=randomportal] run setblock ~ ~-1 ~ minecraft:bedrock

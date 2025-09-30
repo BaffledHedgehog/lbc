@@ -1,4 +1,4 @@
-execute if predicate lbc:chance25 anchored eyes positioned ^ ^ ^1 run function lbc:swrg_kit_integration/items/steampunk_pickaxe_use_rc
+execute if predicate lbc:chance25 unless entity @e[type=marker,tag=stopper,distance=..20] anchored eyes positioned ^ ^ ^1 run function lbc:swrg_kit_integration/items/steampunk_pickaxe_use_rc
 
 
 

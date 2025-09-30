@@ -1,3 +1,4 @@
 summon minecraft:block_display ~ ~ ~ {Tags:["slowraycast","rare","kapusta","shield_blockable","ass"],view_range:10.0f,interpolation_duration:5,teleport_duration:5,block_state:{Name:"minecraft:melon"}}
 data modify entity @e[type=minecraft:block_display,distance=..0.001,tag=kapusta,tag=!actived,limit=1] Rotation set from entity @s Rotation
 scoreboard players operation @e[type=minecraft:block_display,distance=..0.001,tag=kapusta,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:block_display,distance=..0.001,tag=kapusta,tag=!actived,limit=1] team_number = @s team_number

@@ -12,7 +12,9 @@ execute store result entity @s Rotation[1] float 0.001 run scoreboard players ge
 scoreboard players set *test_ray Distance 0
 summon minecraft:item_display 0 -800 0 {item:{id:"minecraft:repeating_command_block",components:{"minecraft:item_model":"lbc:laser_minigun_ray"},count:1},Tags:["laser_ray"]}
 scoreboard players operation @e[type=minecraft:item_display,tag=laser_ray,tag=!done,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:item_display,tag=laser_ray,tag=!done,limit=1] team_number = @s team_number
 scoreboard players operation *check_id lbcID2 = @s lbcID2
+scoreboard players operation *check_team lbcID2 = @s team_number
 
 data modify entity @e[type=minecraft:item_display,tag=laser_ray,tag=!done,limit=1] transformation.scale set value [0.0f,0.0f,0.0f]
 execute at @s run function lbc:other/techno/laser_minigun/ray/loop

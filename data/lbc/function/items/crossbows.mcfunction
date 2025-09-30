@@ -1,5 +1,6 @@
 
 execute anchored eyes positioned ^ ^ ^ run scoreboard players operation @e[type=#minecraft:crossbow_charges,distance=..3,sort=nearest,limit=3] lbcID2 = @s lbcID2
+execute anchored eyes positioned ^ ^ ^ run scoreboard players operation @e[type=#minecraft:crossbow_charges,distance=..3,sort=nearest,limit=3] team_number = @s team_number
 execute anchored eyes positioned ^ ^ ^ if score #lbclevelup swrg.math matches 1 if entity @s[tag=fast_charge] as @e[type=#minecraft:crossbow_charges,distance=..10,sort=nearest,limit=1] at @s run function lbc:items/accelerate
 execute anchored eyes positioned ^ ^ ^ if score #lbclevelup swrg.math matches 1 if entity @s[tag=strong_charge] as @e[type=#minecraft:crossbow_charges,distance=..10,sort=nearest,limit=1] at @s run function lbc:items/damage_up
 execute anchored eyes positioned ^ ^ ^ if score #lbclevelup swrg.math matches 1 if entity @s[tag=strong_charge_1] as @e[type=#minecraft:crossbow_charges,distance=..10,sort=nearest,limit=1] at @s run function lbc:items/damage_up_1

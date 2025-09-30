@@ -1,3 +1,4 @@
 execute at @e[type=#minecraft:mobs,distance=..50,tag=!spectator] if score @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] add nodmg
+execute at @e[type=#minecraft:mobs,distance=..50,tag=!spectator] if score @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] team_number = @s team_number run tag @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] add nodmg
 execute at @e[type=#minecraft:mobs,distance=..50,tag=!spectator,tag=!nodmg] run function lbc:workingitems/summoner/cultists/omnipresence_teleport_yes
 tag @e remove nodmg

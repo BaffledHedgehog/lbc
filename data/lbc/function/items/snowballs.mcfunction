@@ -3,4 +3,5 @@ execute anchored eyes positioned ^ ^ ^ if score #lbclevelup swrg.math matches 1 
 execute anchored eyes positioned ^ ^ ^ as @e[type=minecraft:snowball,sort=nearest,limit=1] if data entity @s Item.components.minecraft:custom_data{"special":1} run function lbc:projectiles/specials
 execute if data entity @e[type=minecraft:snowball,sort=nearest,limit=1] Item.components.minecraft:custom_data{"gadget":1} run function lbc:projectiles/eggs
 scoreboard players operation @e[type=minecraft:snowball,sort=nearest,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:snowball,sort=nearest,limit=1] team_number = @s team_number
 scoreboard players set @s snowball 0

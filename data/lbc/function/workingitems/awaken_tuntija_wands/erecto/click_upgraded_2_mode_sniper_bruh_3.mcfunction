@@ -5,6 +5,7 @@ summon minecraft:marker ~ ~ ~ {data:{lifetime:30},Tags:["erecto_sniper_bruh","im
 summon minecraft:marker ~ ~ ~ {data:{lifetime:40},Tags:["erecto_sniper_bruh","imba_rc","slowraycast","mecha"]}
 execute as @e[type=minecraft:marker,distance=..0.0001,tag=erecto_sniper_bruh,tag=!actived,limit=4] run function lbc:universal_razbros_withpre_small
 scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erecto_sniper_bruh,tag=!actived,limit=4] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erecto_sniper_bruh,tag=!actived,limit=4] team_number = @s team_number
 tag @e[type=minecraft:marker,distance=..0.0001,tag=erecto_sniper_bruh,tag=!actived,limit=4] add actived
 
 forceload remove all

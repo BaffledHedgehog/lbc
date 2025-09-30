@@ -1,5 +1,6 @@
 execute store result score #random4 lbc.math run random value 1..4
-execute if score #random4 lbc.math matches 4 run effect give @e[distance=0.1..10,tag=!spectator] minecraft:blindness 6 0 true
+scoreboard players operation *tempt lbcID2 = @s team_number
+execute if score #random4 lbc.math matches 4 run effect give @e[distance=0.1..10,tag=!spectator,predicate=!lbc:same_team] minecraft:blindness 6 0 true
 execute if score #random4 lbc.math matches 4 run effect give @s minecraft:levitation 1 10 true
 execute if score #random4 lbc.math matches 4 run effect give @s minecraft:slow_falling 8 0 true
 execute if score #random4 lbc.math matches 4 run playsound minecraft:entity.illusioner.prepare_blindness master @a ~ ~ ~ 1
@@ -9,7 +10,7 @@ execute if score #random4 lbc.math matches 1 run effect give @s minecraft:invisi
 execute if score #random4 lbc.math matches 1 run playsound minecraft:entity.illusioner.prepare_mirror master @a ~ ~ ~ 1
 execute if score #random4 lbc.math matches 1 run particle minecraft:campfire_signal_smoke ~ ~1 ~ 1 1 1 0.075 100 force
 
-execute if score #random4 lbc.math matches 2 run effect give @e[distance=0.1..10] minecraft:slowness 3 50 true
+execute if score #random4 lbc.math matches 2 run effect give @e[distance=0.1..10,predicate=!lbc:same_team] minecraft:slowness 3 50 true
 execute if score #random4 lbc.math matches 2 run playsound minecraft:entity.illusioner.mirror_move master @a ~ ~ ~ 1 0
 execute if score #random4 lbc.math matches 2 run particle minecraft:large_smoke ~ ~1 ~ 1 1 1 0.075 80 force
 execute if score #random4 lbc.math matches 2 run spreadplayers ~ ~ 0 10 false @s

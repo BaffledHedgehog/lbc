@@ -6,4 +6,5 @@ data modify entity @e[type=arrow,tag=madoka_arrow,sort=nearest,limit=1,distance=
 
 
 scoreboard players operation @e[type=arrow,tag=madoka_arrow,sort=nearest,limit=1,distance=..25] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=arrow,tag=madoka_arrow,sort=nearest,limit=1,distance=..25] team_number = @s team_number
 

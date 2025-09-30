@@ -5,4 +5,5 @@ execute store result storage lbc.math t3 double 0.01 run random value -400..100
 execute store result storage lbc.math t4 double 0.01 run random value -100..100
 execute store result storage lbc.math t5 double 0.01 run random value -400..400
 execute store result storage lbc.math t6 double 0.01 run random value -100..100
-execute as @e[type=#minecraft:mobs,distance=0.01..8,tag=!spectator,nbt={HurtTime:10s}] run function lbc:workingitems/gravitationsword_atmacro with storage lbc.math
+scoreboard players operation *tempt lbcID2 = @s team_number
+execute as @e[type=#minecraft:mobs,distance=0.01..8,tag=!spectator,nbt={HurtTime:10s},predicate=!lbc:same_team] run function lbc:workingitems/gravitationsword_atmacro with storage lbc.math

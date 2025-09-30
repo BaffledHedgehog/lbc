@@ -163,6 +163,25 @@
                                 },
                                 "range": 2
                             }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:value_check",
+                                "value": {
+                                    "type": "minecraft:score",
+                                    "target": {
+                                        "type": "minecraft:fixed",
+                                        "name": "#gamemode"
+                                    },
+                                    "score": "swrg.math",
+                                    "scale": 1
+                                },
+                                "range": {
+                                    "min": 3,
+                                    "max": 4
+                                }
+                            }
                         }
                     ]
                 },
@@ -182,6 +201,25 @@
                                 "scale": 1
                             },
                             "range": 2
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:value_check",
+                                "value": {
+                                    "type": "minecraft:score",
+                                    "target": {
+                                        "type": "minecraft:fixed",
+                                        "name": "#gamemode"
+                                    },
+                                    "score": "swrg.math",
+                                    "scale": 1
+                                },
+                                "range": {
+                                    "min": 3,
+                                    "max": 4
+                                }
+                            }
                         }
                     ]
                 }
@@ -229,6 +267,25 @@
                                 },
                                 "range": 7
                             }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:value_check",
+                                "value": {
+                                    "type": "minecraft:score",
+                                    "target": {
+                                        "type": "minecraft:fixed",
+                                        "name": "#gamemode"
+                                    },
+                                    "score": "swrg.math",
+                                    "scale": 1
+                                },
+                                "range": {
+                                    "min": 3,
+                                    "max": 4
+                                }
+                            }
                         }
                     ]
                 },
@@ -252,6 +309,25 @@
                                 "scale": 1
                             },
                             "range": 2
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:value_check",
+                                "value": {
+                                    "type": "minecraft:score",
+                                    "target": {
+                                        "type": "minecraft:fixed",
+                                        "name": "#gamemode"
+                                    },
+                                    "score": "swrg.math",
+                                    "scale": 1
+                                },
+                                "range": {
+                                    "min": 3,
+                                    "max": 4
+                                }
+                            }
                         }
                     ]
                 },
@@ -275,66 +351,25 @@
                                 "scale": 1
                             },
                             "range": 7
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "type": "minecraft:score",
-                "target": {
-                    "type": "minecraft:fixed",
-                    "name": "#bonus_academy"
-                },
-                "score": "swrg.math",
-                "scale": 1
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:repeating_command_block",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 1
                         },
                         {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_model": "lbc:drop_not_trap"
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:value_check",
+                                "value": {
+                                    "type": "minecraft:score",
+                                    "target": {
+                                        "type": "minecraft:fixed",
+                                        "name": "#gamemode"
+                                    },
+                                    "score": "swrg.math",
+                                    "scale": 1
+                                },
+                                "range": {
+                                    "min": 3,
+                                    "max": 4
+                                }
                             }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": [
-                                {
-                                    "translate": "drop_academy",
-                                    "italic": false,
-                                    "color": "yellow"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                {
-                                    "translate": "trap_desc",
-                                    "italic": false,
-                                    "color": "white"
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{magic_academy:1,drop:1}"
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.004
                         }
                     ]
                 }

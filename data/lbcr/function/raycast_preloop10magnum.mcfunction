@@ -6,4 +6,5 @@ summon minecraft:marker ^ ^0.2 ^ {data:{lifetime:11},Tags:["raycastmolnia","slow
 tp @e[type=minecraft:marker,distance=..0.3,tag=raycastmolnia,tag=!actived,limit=4] ~ ~ ~ ~ ~
 
 scoreboard players operation @e[type=minecraft:marker,distance=..0.3,tag=raycastmolnia,tag=!actived,limit=4] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.3,tag=raycastmolnia,tag=!actived,limit=4] team_number = @s team_number
 tag @e[type=minecraft:marker,distance=..0.3,tag=raycastmolnia,tag=!actived,limit=4] add actived

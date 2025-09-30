@@ -1,1 +1,2 @@
 execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator] lbcID2 = @s lbcID2 run tag @p[gamemode=!spectator] add nodamage
+execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator] team_number = @s team_number run tag @p[gamemode=!spectator] add nodamage1

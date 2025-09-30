@@ -39,6 +39,7 @@ summon minecraft:marker ~ ~.038 ~ {data:{lifetime:500},Tags:["raycastacid","play
 summon minecraft:marker ~ ~.039 ~ {data:{lifetime:500},Tags:["raycastacid","player","slowraycast","magic"]}
 summon minecraft:marker ~ ~.0401 ~ {data:{lifetime:500},Tags:["raycastacid","player","slowraycast","magic"]}
 scoreboard players operation @e[type=minecraft:marker,distance=..0.1,tag=raycastacid,tag=!actived,limit=40] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.1,tag=raycastacid,tag=!actived,limit=40] team_number = @s team_number
 execute as @e[type=minecraft:marker,distance=..0.1,tag=raycastacid,tag=!actived,limit=40] run function lbc:random_rot
 tag @e[type=minecraft:marker,distance=..0.1,tag=raycastacid,tag=!actived,limit=40] add actived
 playsound minecraft:item.shield.break master @a ~ ~ ~ 2 0

@@ -1,4 +1,5 @@
 scoreboard players operation @e[type=#minecraft:arrows,distance=..10,sort=nearest,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=#minecraft:arrows,distance=..10,sort=nearest,limit=1] team_number = @s team_number
 data modify entity @e[type=#minecraft:arrows,distance=..10,sort=nearest,limit=1,nbt={item:{components:{"minecraft:potion_contents":{custom_color:6710877}}}}] Rotation set from entity @s Rotation
 execute if score #lbclevelup swrg.math matches 1 if entity @s[tag=fast_charge] as @e[type=#minecraft:arrows,distance=..10,sort=nearest,limit=1] at @s run function lbc:items/accelerate
 execute if score #lbclevelup swrg.math matches 1 if entity @s[tag=strong_charge] as @e[type=#minecraft:arrows,distance=..10,sort=nearest,limit=1] at @s run function lbc:items/damage_up

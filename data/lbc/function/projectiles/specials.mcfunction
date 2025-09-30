@@ -64,6 +64,11 @@ scoreboard players operation @e[distance=..4,tag=edited,sort=nearest,limit=1] lb
 scoreboard players operation @e[distance=..4,tag=edited2,sort=nearest,limit=1] lbcID2 = @p[gamemode=!spectator] lbcID2
 scoreboard players operation @e[distance=..4,tag=edited3,sort=nearest,limit=1] lbcID2 = @p[gamemode=!spectator] lbcID2
 scoreboard players operation @e[distance=..4,tag=edited4,sort=nearest,limit=1] lbcID2 = @p[gamemode=!spectator] lbcID2
+
+scoreboard players operation @e[distance=..4,tag=edited,sort=nearest,limit=1] team_number = @p[gamemode=!spectator] team_number
+scoreboard players operation @e[distance=..4,tag=edited2,sort=nearest,limit=1] team_number = @p[gamemode=!spectator] team_number
+scoreboard players operation @e[distance=..4,tag=edited3,sort=nearest,limit=1] team_number = @p[gamemode=!spectator] team_number
+scoreboard players operation @e[distance=..4,tag=edited4,sort=nearest,limit=1] team_number = @p[gamemode=!spectator] team_number
 execute store result entity @e[type=minecraft:small_fireball,distance=..4,tag=edited2,sort=nearest,limit=1] Motion[0] double 0.000002 run data get entity @s Motion[0] 100000
 execute store result entity @e[type=minecraft:small_fireball,distance=..4,tag=edited2,sort=nearest,limit=1] Motion[1] double 0.000002 run data get entity @s Motion[1] 100000
 execute store result entity @e[type=minecraft:small_fireball,distance=..4,tag=edited2,sort=nearest,limit=1] Motion[2] double 0.000002 run data get entity @s Motion[2] 100000

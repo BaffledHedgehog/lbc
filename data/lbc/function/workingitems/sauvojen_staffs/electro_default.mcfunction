@@ -4,4 +4,5 @@ summon minecraft:marker ^ ^ ^-0.01 {data:{lifetime:45},Tags:["raycastmolnia","sl
 summon minecraft:marker ^ ^ ^-0.02 {data:{lifetime:50},Tags:["raycastmolnia","slowraycast","shield_blockable","mecha","player"]}
 execute at @e[type=minecraft:marker,distance=..1,tag=raycastmolnia,tag=!actived,limit=3] run data modify entity @e[type=minecraft:marker,distance=..0.001,tag=raycastmolnia,tag=!actived,limit=1] Rotation set from entity @s Rotation
 scoreboard players operation @e[type=minecraft:marker,distance=..1,tag=raycastmolnia,tag=!actived,limit=3] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..1,tag=raycastmolnia,tag=!actived,limit=3] team_number = @s team_number
 tag @e[type=minecraft:marker,distance=..1,tag=raycastmolnia,tag=!actived,limit=3] add actived

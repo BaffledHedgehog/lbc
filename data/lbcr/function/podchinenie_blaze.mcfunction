@@ -16,4 +16,5 @@ execute if entity @s[team=14] run team join 14 @e[type=minecraft:blaze,dx=0,dy=0
 execute if entity @s[team=15] run team join 15 @e[type=minecraft:blaze,dx=0,dy=0,dz=0,distance=..5]
 execute if entity @s[team=16] run team join 16 @e[type=minecraft:blaze,dx=0,dy=0,dz=0,distance=..5]
 scoreboard players operation @e[type=minecraft:blaze,dx=0,dy=0,dz=0,distance=..5] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:blaze,dx=0,dy=0,dz=0,distance=..5] team_number = @s team_number
 playsound minecraft:entity.villager.trade master @a ~ ~ ~ 1 1

@@ -4,4 +4,5 @@ execute if score rand3 lbc.math matches 2 run summon minecraft:marker ^ ^ ^ {dat
 execute if score rand3 lbc.math matches 3 run summon minecraft:marker ^ ^ ^ {data:{lifetime:40},Tags:["star_charge","star_3","slowraycast","shield_blockable","magic","player"]}
 data modify entity @e[type=minecraft:marker,distance=..0.001,tag=star_charge,tag=!actived,limit=1] Rotation set from entity @s Rotation
 scoreboard players operation @e[type=minecraft:marker,distance=..0.001,tag=star_charge,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.001,tag=star_charge,tag=!actived,limit=1] team_number = @s team_number
 tag @e[type=minecraft:marker,distance=..0.001,tag=star_charge,tag=!actived,limit=1] add actived

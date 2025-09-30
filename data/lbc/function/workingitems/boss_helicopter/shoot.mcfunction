@@ -3,6 +3,7 @@ execute anchored eyes run summon minecraft:arrow ^-0.75 ^ ^0.5 {Tags:["helicopte
 execute anchored eyes positioned ^0.75 ^ ^0.5 run data modify entity @e[type=minecraft:arrow,distance=..0.001,tag=helicopterbullet,limit=1] UUID set from entity @s
 execute anchored eyes positioned ^-0.75 ^ ^0.5 run data modify entity @e[type=minecraft:arrow,distance=..0.001,tag=helicopterbullet,limit=1] UUID set from entity @s
 execute anchored eyes positioned ^ ^ ^ run scoreboard players operation @e[type=minecraft:arrow,distance=..2,tag=helicopterbullet,limit=2] lbcID2 = @s lbcID2
+execute anchored eyes positioned ^ ^ ^ run scoreboard players operation @e[type=minecraft:arrow,distance=..2,tag=helicopterbullet,limit=2] team_number = @s team_number
 execute positioned 0.0 0.0 0.0 run summon minecraft:marker ^ ^ ^6 {Tags:["reikast"]}
 execute anchored eyes positioned ^0.75 ^ ^0.5 store result entity @e[type=minecraft:arrow,distance=..0.001,tag=helicopterbullet,limit=1] Motion[0] double 0.001 run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[0] 1000
 execute anchored eyes positioned ^0.75 ^ ^0.5 store result entity @e[type=minecraft:arrow,distance=..0.001,tag=helicopterbullet,limit=1] Motion[1] double 0.001 run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[1] 1000

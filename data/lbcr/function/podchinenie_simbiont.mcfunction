@@ -17,6 +17,7 @@ execute if entity @s[team=15] run team join 15 @e[type=#minecraft:mobs,type=!min
 execute if entity @s[team=16] run team join 16 @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1,team=!16]
 playsound minecraft:entity.villager.trade master @a ~ ~ ~ 1 1
 scoreboard players operation @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1] team_number = @s team_number
 execute if entity @e[type=#minecraft:mobs,distance=..0.001,tag=sauvojen_tuntija,limit=1] run tag @s add friendly_tuntija
 
 execute as @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1] at @s run function lbcr:podchinenie_simbiont2

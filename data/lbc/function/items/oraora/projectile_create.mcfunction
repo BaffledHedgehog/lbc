@@ -7,4 +7,5 @@ execute if entity @s[scores={overheaven=1..}] run summon minecraft:item_display 
 
 execute as @e[type=minecraft:item_display,distance=..0.01,tag=oraora_fireball,tag=!actived,limit=1] at @s rotated as @a[tag=owner,limit=1] run tp @s ~ ~ ~ ~ ~
 scoreboard players operation @e[type=minecraft:item_display,distance=..0.01,tag=oraora_fireball,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:item_display,distance=..0.01,tag=oraora_fireball,tag=!actived,limit=1] team_number = @s team_number
 tag @e[type=minecraft:item_display,distance=..0.01,tag=oraora_fireball,tag=!actived,limit=1] add actived

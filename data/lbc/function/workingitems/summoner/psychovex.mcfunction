@@ -20,6 +20,7 @@ execute if entity @s[team=15] run team join 15 @e[type=#minecraft:mobs,tag=summo
 execute if entity @s[team=16] run team join 16 @e[type=#minecraft:mobs,tag=summoned_cultist,tag=!summactivated,sort=nearest,limit=1]
 
 scoreboard players operation @e[type=#minecraft:mobs,tag=summoned_cultist,tag=!summactivated,sort=nearest,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=#minecraft:mobs,tag=summoned_cultist,tag=!summactivated,sort=nearest,limit=1] team_number = @s team_number
 tag @e[type=#minecraft:mobs,tag=summoned_cultist,tag=!summactivated,sort=nearest,limit=1] add summactivated
 scoreboard players operation @s mana -= psychovex_wand_mana_use lbc.math
 particle minecraft:soul_fire_flame ~ ~1 ~ 5 5 5 0 300 normal

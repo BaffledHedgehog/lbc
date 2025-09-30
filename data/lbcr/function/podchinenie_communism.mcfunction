@@ -19,4 +19,6 @@ tag @e[type=!minecraft:player,dx=0,dy=0,dz=0,distance=..15] add communist
 playsound minecraft:entity.villager.trade master @a ~ ~ ~ 1 1
 scoreboard players operation @e[tag=summoned_cultist,type=#mobs,type=!minecraft:player,dx=0,dy=0,dz=0,distance=..15] lbcID2 = @s lbcID2
 scoreboard players operation @e[tag=summactivated,type=#mobs,type=!minecraft:player,dx=0,dy=0,dz=0,distance=..15] lbcID2 = @s lbcID2
+scoreboard players operation @e[tag=summoned_cultist,type=#mobs,type=!minecraft:player,dx=0,dy=0,dz=0,distance=..15] team_number = @s team_number
+scoreboard players operation @e[tag=summactivated,type=#mobs,type=!minecraft:player,dx=0,dy=0,dz=0,distance=..15] team_number = @s team_number
 execute if entity @e[dx=0,dy=0,dz=0,distance=..15,tag=sauvojen_tuntija] run tag @s add friendly_tuntija

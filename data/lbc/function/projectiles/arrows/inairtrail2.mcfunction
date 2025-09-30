@@ -1,5 +1,6 @@
 summon minecraft:tnt ~ ~ ~ {fuse:0}
 summon minecraft:lightning_bolt
+execute if entity @s[tag=weak_v] run return fail
 summon minecraft:tnt ~ ~3 ~ {fuse:0}
 summon minecraft:lightning_bolt ~ ~3 ~
 summon minecraft:tnt ~ ~-1 ~ {fuse:0}

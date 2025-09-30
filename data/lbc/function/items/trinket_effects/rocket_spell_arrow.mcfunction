@@ -1,3 +1,4 @@
+execute if score @s mana matches ..5 run return fail
 execute as @e[type=#minecraft:arrows,sort=nearest,limit=1,distance=..10] at @s if entity @s[type=spectral_arrow] run function lbc:items/bows/kaname_bow/spec_in_norm
 tag @e[type=arrow,sort=nearest,limit=1,distance=..10] add rocket_spell
 
@@ -6,4 +7,5 @@ data modify entity @e[type=arrow,tag=rocket_spell,sort=nearest,limit=1,distance=
 playsound lbcsounds.hihihiha player @a ~ ~ ~ 2 1
 
 scoreboard players operation @e[type=arrow,tag=rocket_spell,sort=nearest,limit=1,distance=..10] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=arrow,tag=rocket_spell,sort=nearest,limit=1,distance=..10] team_number = @s team_number
 scoreboard players remove @s mana 6

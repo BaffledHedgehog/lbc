@@ -1,3 +1,4 @@
 execute at @e[type=#minecraft:mobs,distance=..13,team=!] if score @e[type=#minecraft:mobs,distance=..0.01,limit=1,team=!] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,distance=..0.01,limit=1,team=!] add nodmg
+execute at @e[type=#minecraft:mobs,distance=..13,team=!] if score @e[type=#minecraft:mobs,distance=..0.01,limit=1,team=!] team_number = @s team_number run tag @e[type=#minecraft:mobs,distance=..0.01,limit=1,team=!] add nodmg
 execute at @s if entity @e[type=#minecraft:mobs,distance=0.001..10,tag=!spectator,tag=!nodmg,limit=1] anchored eyes positioned ^ ^ ^ facing entity @e[type=#minecraft:mobs,distance=0.001..10,tag=!spectator,tag=!nodmg,limit=1] eyes run function lbc:other/baffledwall/tick_rc_pl_laser
 tag @e remove nodmg

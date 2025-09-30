@@ -3,4 +3,5 @@ execute at @s positioned 0.0 0.0 0.0 positioned ^ ^ ^.5 run summon minecraft:mar
 data modify entity @e[type=minecraft:snowball,tag=piss,tag=new,limit=1] Motion set from entity @e[type=minecraft:marker,tag=dir,limit=1] Pos
 kill @e[type=minecraft:marker,tag=dir,limit=1]
 scoreboard players operation @e[type=minecraft:snowball,tag=piss,tag=new,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:snowball,tag=piss,tag=new,limit=1] team_number = @s team_number
 tag @e[type=minecraft:snowball,tag=piss,tag=new,limit=1] remove new

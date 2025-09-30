@@ -1,0 +1,2 @@
+execute if entity @s[tag=lighttrail] run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","lightarrowtrail","magic","other"],data:{lifetime:200}}
+execute if entity @s[tag=trappertrail] run function lbc:projectiles/shulker_bullet_generate

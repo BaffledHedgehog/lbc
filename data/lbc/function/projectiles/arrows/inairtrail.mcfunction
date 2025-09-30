@@ -1,5 +1,6 @@
 particle minecraft:end_rod ~ ~ ~ 0 0 0 0 1 normal
-execute if entity @s[scores={Lifetime=50}] run particle minecraft:dust_color_transition{from_color:[1.0,1.0,1.0],to_color:[1.0,1.0,0.0],scale:4.0f} ~ ~.5 ~ 1 0.5 1 0.05 10 force
-execute if entity @s[scores={Lifetime=100}] run particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,0.0,0.0],scale:4.0f} ~ ~.5 ~ 1 0.5 1 0.05 10 force
-execute if entity @s[scores={Lifetime=150}] run particle minecraft:dust_color_transition{from_color:[1.0,0.0,0.0],to_color:[0.0,0.0,0.0],scale:4.0f} ~ ~.5 ~ 1 0.5 1 0.05 10 force
-execute if entity @s[scores={Lifetime=199}] run function lbc:projectiles/arrows/inairtrail2
+execute if entity @s[scores={Lifetime=50}] run return run particle minecraft:dust_color_transition{from_color:[1.0,1.0,1.0],to_color:[1.0,1.0,0.0],scale:4.0f} ~ ~.5 ~ 1 0.5 1 0.05 10 force
+execute if entity @s[scores={Lifetime=100}] run return run particle minecraft:dust_color_transition{from_color:[1.0,1.0,0.0],to_color:[1.0,0.0,0.0],scale:4.0f} ~ ~.5 ~ 1 0.5 1 0.05 10 force
+execute if entity @s[scores={Lifetime=150}] run return run particle minecraft:dust_color_transition{from_color:[1.0,0.0,0.0],to_color:[0.0,0.0,0.0],scale:4.0f} ~ ~.5 ~ 1 0.5 1 0.05 10 force
+execute if entity @s[scores={Lifetime=199}] run return run function lbc:projectiles/arrows/inairtrail2
+kill @s[scores={Lifetime=200..}]

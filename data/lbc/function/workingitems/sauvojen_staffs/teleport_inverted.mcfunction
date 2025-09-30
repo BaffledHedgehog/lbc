@@ -2,4 +2,5 @@ playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 1 2
 summon minecraft:marker ^ ^ ^ {data:{lifetime:200},Tags:["raycastteleportwand_inverted","player","slowraycast","shield_blockable2","magic"]}
 data modify entity @e[type=minecraft:marker,distance=..0.0001,tag=raycastteleportwand_inverted,tag=!actived,limit=1] Rotation set from entity @s Rotation
 scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=raycastteleportwand_inverted,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=raycastteleportwand_inverted,tag=!actived,limit=1] team_number = @s team_number
 tag @e[type=minecraft:marker,distance=..0.0001,tag=raycastteleportwand_inverted,tag=!actived,limit=1] add actived
