@@ -42,4 +42,4 @@ summon minecraft:creeper ~-18 ~-40 ~ {PersistenceRequired:1b,ExplosionRadius:16b
 summon minecraft:creeper ~ ~-40 ~18 {PersistenceRequired:1b,ExplosionRadius:16b,Fuse:1,ignited:1b,NoGravity:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:{"italic":false,"translate":"killed_by_nuke"}}
 summon minecraft:creeper ~ ~-40 ~-18 {PersistenceRequired:1b,ExplosionRadius:16b,Fuse:1,ignited:1b,NoGravity:1b,Invulnerable:1b,CustomNameVisible:0b,CustomName:{"italic":false,"translate":"killed_by_nuke"}}
 
-kill @e[type=!minecraft:creeper,type=!minecraft:player,distance=..14,tag=!slowparticlesexplode_2]
+kill @e[type=!minecraft:creeper,type=!minecraft:player,distance=..14,tag=!slowparticlesexplode_2,tag=!strict_map_object]

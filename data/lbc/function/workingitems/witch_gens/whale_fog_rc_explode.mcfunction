@@ -1,2 +1,3 @@
 particle minecraft:block_marker{block_state:{Name:"minecraft:light_gray_wool"}} ~ ~ ~ 10 10 10 0 1000 force
-execute as @e[distance=..5,tag=!white_whale,tag=!sin_gluttony,tag=!sin_wrath,tag=!spectator,tag=!sin_greed_active,tag=!whale_fog,tag=!white_whale_clone] unless entity @s[scores={void_resistance=1..}] run kill @s
+scoreboard 
+execute as @e[distance=..5,tag=!white_whale,tag=!sin_gluttony,tag=!sin_wrath,tag=!spectator,tag=!sin_greed_active,tag=!whale_fog,tag=!white_whale_clone,tag=!strict_map_object] unless entity @s[scores={void_resistance=1..}] run kill @s

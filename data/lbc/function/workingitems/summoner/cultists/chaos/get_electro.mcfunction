@@ -1,4 +1,4 @@
-execute at @s facing entity @e[type=#minecraft:mobs,tag=!nodmg,tag=!spectator,sort=nearest,limit=1] feet run tp @s ~ ~ ~ ~ ~
+execute at @s facing entity @e[type=#minecraft:mobs,tag=!nodmg,tag=!spectator,sort=nearest,limit=1,tag=!strict_map_object] feet run tp @s ~ ~ ~ ~ ~
 playsound minecraft:entity.firework_rocket.twinkle master @a ~ ~ ~ 1 1
 execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ^ ^ ^ {data:{lifetime:20},Tags:["raycastelectro","tuntija","slowraycast","shield_blockable","magic"]}
 execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ^ ^ ^-0.01 {data:{lifetime:25},Tags:["raycastelectro","tuntija","slowraycast","shield_blockable","magic"]}

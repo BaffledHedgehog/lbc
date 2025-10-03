@@ -22,3 +22,6 @@ title @s subtitle ""
 clear @s
 effect clear @s
 experience add @s 30 levels
+execute if score #lbckit swrg.math matches 1.. run function lbc:swrg_kit_integration/game/kit_select/select
+execute if score #lbcskill swrg.math matches 1.. run function lbc:swrg_kit_integration/game/skill_select/select
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:swrg_kit_integration/game/trinket_select/select

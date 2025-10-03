@@ -3,7 +3,7 @@ execute if score @s Lifetime matches 200.. run return run function lbc:items/wan
 execute unless block ~ ~ ~ #airs run return run function lbc:items/wands/sauvojen_wand/flying_wand_kill
 scoreboard players operation *temp lbcID2 = @s lbcID2
 scoreboard players operation *tempt lbcID2 = @s team_number
-execute at @s facing entity @e[predicate=!lbc:same_id,predicate=!lbc:same_team,tag=!spectator,type=#mobs,distance=..150,limit=1,sort=nearest] eyes run tp @s ~ ~ ~ ~ ~
+execute at @s facing entity @e[predicate=!lbc:same_id,predicate=!lbc:same_team,tag=!spectator,type=#mobs,distance=..150,limit=1,sort=nearest,tag=!strict_map_object] eyes run tp @s ~ ~ ~ ~ ~
 
 scoreboard players operation math lbc.math = @s Lifetime
 scoreboard players operation m10 lbc.math = @s Lifetime

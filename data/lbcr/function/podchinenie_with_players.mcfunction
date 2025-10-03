@@ -19,4 +19,5 @@ execute if entity @s[team=15] run team join 15 @e[type=#minecraft:mobs,dx=0,dy=0
 execute if entity @s[team=16] run team join 16 @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..15,tag=!spectator,tag=!cantleave]
 tag @p[gamemode=!spectator,distance=..2,tag=!sin_wrath] add affected_by_wrath
 execute if entity @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..15,tag=sauvojen_tuntija] run tag @s add friendly_tuntija
+scoreboard players operation @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..15,tag=!spectator,tag=!cantleave] team_number = @s team_number
 tag @a remove cantleave

@@ -1,4 +1,4 @@
 execute at @e[type=#minecraft:mobs,distance=..100,team=!] if score @e[type=#minecraft:mobs,distance=..0.01,limit=1,team=!] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,distance=..0.01,limit=1,team=!] add nodmg
 execute at @e[type=#minecraft:mobs,distance=..100,team=!] if score @e[type=#minecraft:mobs,distance=..0.01,limit=1,team=!] team_number = @s team_number run tag @e[type=#minecraft:mobs,distance=..0.01,limit=1,team=!] add nodmg
-execute at @s if entity @e[type=#minecraft:mobs,distance=0.001..95,tag=nodmg,tag=!spectator,limit=1] anchored eyes positioned ^ ^ ^ facing entity @e[type=#minecraft:mobs,distance=0.001..95,tag=!spectator,tag=!nodmg,sort=nearest,limit=1] eyes run function lbc:other/baffledwall/tick_rc_pl_sniper
+execute at @s if entity @e[type=#minecraft:mobs,distance=0.001..95,tag=nodmg,tag=!spectator,limit=1,tag=!strict_map_object] anchored eyes positioned ^ ^ ^ facing entity @e[type=#minecraft:mobs,distance=0.001..95,tag=!spectator,tag=!nodmg,sort=nearest,limit=1,tag=!strict_map_object] eyes run function lbc:other/baffledwall/tick_rc_pl_sniper
 tag @e remove nodmg

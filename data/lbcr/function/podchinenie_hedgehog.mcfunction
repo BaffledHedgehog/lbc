@@ -15,4 +15,5 @@ execute if entity @s[team=13] run team join 13 @e[type=minecraft:silverfish,dist
 execute if entity @s[team=14] run team join 14 @e[type=minecraft:silverfish,distance=..0.001,tag=hedgehog_upgraded,tag=!active,limit=1]
 execute if entity @s[team=15] run team join 15 @e[type=minecraft:silverfish,distance=..0.001,tag=hedgehog_upgraded,tag=!active,limit=1]
 execute if entity @s[team=16] run team join 16 @e[type=minecraft:silverfish,distance=..0.001,tag=hedgehog_upgraded,tag=!active,limit=1]
+scoreboard players operation @e[type=minecraft:silverfish,distance=..0.001,tag=hedgehog_upgraded,tag=!active,limit=1] team_number = @s team_number
 tag @e[type=minecraft:silverfish,distance=..0.001,tag=hedgehog_upgraded,tag=!active,limit=1] add active

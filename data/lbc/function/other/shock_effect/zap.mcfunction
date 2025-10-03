@@ -15,7 +15,7 @@ scoreboard players set *temptemp lbc.math 0
 tag @s add damager
 scoreboard players operation *temp lbcID2 = @s lbcID2
 scoreboard players operation *tempt lbcID2 = @s team_number
-execute anchored eyes positioned ^ ^ ^ facing entity @e[type=#minecraft:mobs,distance=..10,tag=!damager,tag=!nodamage,tag=!nodamage1,tag=!spectator,sort=nearest,limit=1] eyes run function lbc:other/shock_effect/zap/cast
+execute anchored eyes positioned ^ ^ ^ facing entity @e[type=#minecraft:mobs,distance=..10,tag=!damager,tag=!nodamage,tag=!nodamage1,tag=!spectator,sort=nearest,limit=1,tag=!strict_map_object] eyes run function lbc:other/shock_effect/zap/cast
 tag @s remove damager
 
 tag @e[type=#minecraft:mobs,tag=chained] remove chained

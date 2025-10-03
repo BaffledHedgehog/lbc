@@ -10,7 +10,7 @@ scoreboard players set *temptemp lbc.math 0
 tag @s add damager
 scoreboard players operation *temp lbcID2 = @s lbcID2
 scoreboard players operation *tempt lbcID2 = @s team_number
-execute at @e[type=minecraft:item_display,distance=..4,tag=wisp_air,sort=random,limit=1,predicate=lbc:same_id] facing entity @e[type=#minecraft:mobs,distance=..10,tag=!damager,tag=!nodamage,tag=!spectator,sort=nearest,limit=1] eyes run function lbc:other/wisp_book/passive_effects/air/zap/cast
+execute at @e[type=minecraft:item_display,distance=..4,tag=wisp_air,sort=random,limit=1,predicate=lbc:same_id] facing entity @e[type=#minecraft:mobs,distance=..10,tag=!damager,tag=!nodamage,tag=!spectator,sort=nearest,limit=1,tag=!strict_map_object] eyes run function lbc:other/wisp_book/passive_effects/air/zap/cast
 tag @s remove damager
 
 tag @e[type=#minecraft:mobs,tag=chained] remove chained

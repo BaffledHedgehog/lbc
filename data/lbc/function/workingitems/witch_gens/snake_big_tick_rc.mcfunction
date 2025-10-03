@@ -7,4 +7,4 @@ execute if score snake_storona lbc.math matches 1 run tp @s ^ ^ ^.5 ~2 ~
 execute if score snake_storona lbc.math matches 2 run tp @s ^ ^ ^.5 ~-2 ~
 fill ~4 ~4 ~4 ~-4 ~-4 ~-4 minecraft:sculk strict
 fill ~7 ~7 ~7 ~-7 ~-7 ~-7 minecraft:sculk replace #minecraft:tannerkivi strict
-execute if predicate lbc:chance0_25 facing entity @e[type=#minecraft:mobs,tag=!sin_gluttony,tag=!spectator] eyes run tp @s ^ ^ ^.5 ~ ~
+execute if predicate lbc:chance0_25 facing entity @e[type=#minecraft:mobs,tag=!sin_gluttony,tag=!spectator,tag=!strict_map_object] eyes run tp @s ^ ^ ^.5 ~ ~

@@ -7,4 +7,4 @@ stopsound @a master minecraft:lbcsounds.burning_balance
 stopsound @a master minecraft:lbcsounds.penis_bossfight
 stopsound @a master minecraft:lbcsounds.kazahstan
 summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","slowparticlesexplode_2","player","magic"],data:{lifetime:400}}
-kill @e[type=!minecraft:creeper,type=!minecraft:player,distance=..14,tag=!slowparticlesexplode_2]
+kill @e[type=!minecraft:creeper,type=!minecraft:player,distance=..14,tag=!slowparticlesexplode_2,tag=!strict_map_object]

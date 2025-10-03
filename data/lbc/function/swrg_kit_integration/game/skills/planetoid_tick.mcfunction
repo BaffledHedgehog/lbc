@@ -1,5 +1,5 @@
-tag @e[type=#minecraft:mobs,type=!minecraft:player,distance=..2.5,tag=!affected_by_gravity] add affected_by_gravity
-tag @e[type=#minecraft:mobs,type=!minecraft:player,distance=15..20,tag=affected_by_gravity] remove affected_by_gravity
-execute at @e[type=#minecraft:projectiles,distance=2..15] facing entity @s eyes rotated ~80 ~ as @e[type=#minecraft:projectiles,distance=..0.001,limit=1] run function lbc:raycast_vpered_3
-execute at @e[type=#minecraft:mobs,distance=..15,tag=affected_by_gravity] facing entity @s eyes rotated ~-87 ~ as @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1] run function lbc:raycast_vpered_slow
-execute at @e[type=#minecraft:raycasters,distance=2..15] facing entity @s eyes rotated ~82 ~ as @e[type=#minecraft:raycasters,distance=..0.001,limit=1] run tp @s ~ ~ ~ ~ ~
+tag @e[type=#minecraft:mobs,type=!minecraft:player,distance=..2.5,tag=!affected_by_gravity,tag=!strict_map_object] add affected_by_gravity
+tag @e[type=#minecraft:mobs,type=!minecraft:player,distance=15..20,tag=affected_by_gravity,tag=!strict_map_object] remove affected_by_gravity
+execute at @e[type=#minecraft:projectiles,distance=2..15,tag=!strict_map_object] facing entity @s eyes rotated ~80 ~ as @e[type=#minecraft:projectiles,distance=..0.001,limit=1,tag=!strict_map_object] run function lbc:raycast_vpered_3
+execute at @e[type=#minecraft:mobs,distance=..15,tag=!strict_map_object,tag=affected_by_gravity] facing entity @s eyes rotated ~-87 ~ as @e[type=#minecraft:mobs,type=!minecraft:player,distance=..0.001,limit=1,tag=!strict_map_object] run function lbc:raycast_vpered_slow
+execute at @e[type=#minecraft:raycasters,distance=2..15,tag=!strict_map_object] facing entity @s eyes rotated ~82 ~ as @e[type=#minecraft:raycasters,distance=..0.001,limit=1,tag=!strict_map_object] run tp @s ~ ~ ~ ~ ~

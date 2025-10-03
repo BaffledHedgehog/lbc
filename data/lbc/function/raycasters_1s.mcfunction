@@ -12,7 +12,7 @@ execute if entity @s[tag=stopper_magic,tag=!activated] run function lbc:other/st
 execute if entity @s[tag=stopper_magic,tag=activated] run particle minecraft:witch ~ ~.5 ~ 0.2 0.4 0.2 0 10 normal
 execute if entity @s[tag=chickblazespell] run function lbc:other/spawnfireballchick
 execute if entity @s[tag=blazespell] run function lbc:other/spawnfireball
-execute if entity @s[tag=area_1s] facing entity @e[type=#minecraft:mobs,tag=!spectator,tag=!rcdenyalways,tag=!friendly_tuntija,sort=nearest,limit=1] eyes run function lbc:raycast/select1s
+execute if entity @s[tag=area_1s] facing entity @e[type=#minecraft:mobs,tag=!spectator,tag=!rcdenyalways,tag=!friendly_tuntija,sort=nearest,limit=1,tag=!strict_map_object] eyes run function lbc:raycast/select1s
 execute if entity @s[tag=supply_drop,tag=new] run function lbc:other/techno/supply_crate/tick
 execute if entity @s[tag=everlasting_bolt] run function lbc:workingitems/awaken_tuntija_wands/boltbolt/charge_tick_1s
 execute if entity @s[tag=diamondificator] align xyz positioned ~.5 ~.5 ~.5 run function lbc:workingitems/imba/diamond_area

@@ -4,7 +4,7 @@ execute if score #lbcskill swrg.math matches 1 if score @s lbcID2 matches 1.. if
 execute at @s[tag=phantomarrows] run particle minecraft:soul ~ ~ ~ 10 10 10 0 50 normal
 execute at @s[tag=iceblock] run function lbc:other/ice
 execute at @s[tag=greed_curse_active] if entity @e[type=#minecraft:mobs,distance=..5.5] run function lbc:other/greed/damage
-execute at @s[tag=sauvojen_fire] facing entity @e[type=#minecraft:mobs,tag=!spectator,tag=!rcdenyalways,tag=!friendly_tuntija,sort=nearest,limit=1] eyes run function lbc:raycast/sauvojen_fire
+execute at @s[tag=sauvojen_fire] facing entity @e[type=#minecraft:mobs,tag=!spectator,tag=!rcdenyalways,tag=!friendly_tuntija,sort=nearest,limit=1,tag=!strict_map_object] eyes run function lbc:raycast/sauvojen_fire
 execute at @s[tag=forest] run function lbc:drops/forest_loop
 execute at @s[tag=ultraponos] run function lbc:drops/ultraponos
 execute at @s[tag=unstablespell] run function lbc:other/unstablearea

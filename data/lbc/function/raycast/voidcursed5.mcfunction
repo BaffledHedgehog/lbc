@@ -5,5 +5,5 @@ particle minecraft:squid_ink ~ ~1 ~ 20 20 20 0 12 normal
 playsound minecraft:entity.creeper.primed master @a ~ ~ ~ 7 2
 fill ~3 ~3 ~3 ~-3 ~-3 ~-3 minecraft:obsidian strict
 kill @e[type=minecraft:falling_block,distance=..5]
-execute facing entity @e[type=#minecraft:mobs,distance=1..,tag=!curseowner,tag=!curseowner1,tag=!spectator,sort=nearest,limit=1] feet run tp @s ^ ^ ^0.5 ~ ~
+execute facing entity @e[type=#minecraft:mobs,distance=1..,tag=!curseowner,tag=!curseowner1,tag=!spectator,sort=nearest,limit=1,tag=!strict_map_object] feet run tp @s ^ ^ ^0.5 ~ ~
 advancement grant @a[gamemode=!spectator,tag=curseowner] only lbc:true_advancements/arcanums/black_hole_max

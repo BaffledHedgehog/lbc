@@ -1,2 +1,2 @@
-execute positioned ^ ^ ^-.5 as @e[type=#minecraft:mobs,distance=..2,tag=!spectator] unless score @s lbcID2 = @a[tag=caster,tag=!spectator,limit=1] lbcID2 unless score @s team_number = @a[tag=caster,tag=!spectator,limit=1] team_number facing entity @s eyes as @a[tag=caster,tag=!spectator,limit=1] run function lbcr:raycast_preloop10magnum
+execute positioned ^ ^ ^-.5 as @e[type=#minecraft:mobs,distance=..2,tag=!spectator,tag=!strict_map_object] unless score @s lbcID2 = @a[tag=caster,tag=!spectator,limit=1] lbcID2 unless score @s team_number = @a[tag=caster,tag=!spectator,limit=1] team_number facing entity @s eyes as @a[tag=caster,tag=!spectator,limit=1] run function lbcr:raycast_preloop10magnum
 particle minecraft:electric_spark ~ ~ ~ 0.5 0.5 0.5 0 20 force

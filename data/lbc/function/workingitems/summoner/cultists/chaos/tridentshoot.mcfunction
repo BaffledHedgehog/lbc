@@ -1,4 +1,4 @@
 execute anchored eyes positioned ^ ^ ^ run summon minecraft:trident ^ ^ ^1 {damage:0.2,Tags:["rc_vp"]}
-execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:trident,distance=..0.001,tag=rc_vp,tag=!actived,limit=1] at @s facing entity @e[type=#minecraft:mobs,distance=..50,tag=!nodmg,tag=!spectator,limit=1] eyes run function lbc:raycast_vpered_big
+execute anchored eyes positioned ^ ^ ^1 as @e[type=minecraft:trident,distance=..0.001,tag=rc_vp,tag=!actived,limit=1] at @s facing entity @e[type=#minecraft:mobs,distance=..50,tag=!nodmg,tag=!spectator,limit=1,tag=!strict_map_object] eyes run function lbc:raycast_vpered_big
 execute anchored eyes positioned ^ ^ ^1 run data modify entity @e[type=minecraft:trident,distance=..0.001,tag=rc_vp,tag=!actived,limit=1] Owner set from entity @s UUID
 execute anchored eyes positioned ^ ^ ^1 run tag @e[type=minecraft:trident,distance=..0.001,tag=rc_vp,tag=!actived,limit=1] add actived

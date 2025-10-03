@@ -1,4 +1,4 @@
 tp @s ^ ^ ^1
 execute if entity @e[type=#minecraft:mobs,distance=..50,tag=!helicopter_boss_hitbox,tag=!spectator,limit=1,tag=!nodamage] if predicate lbc:chance1 run function lbc:drops/helicopter_boss/phase_1_to_3
-execute if entity @e[type=#minecraft:mobs,distance=..100,tag=!helicopter_boss_hitbox,tag=!spectator,limit=1,tag=!nodamage] facing entity @e[type=#minecraft:mobs,distance=..100,tag=!helicopter_boss_hitbox,tag=!spectator,sort=nearest,limit=1,tag=!nodamage] eyes positioned ^ ^ ^8 run function lbc:drops/helicopter_boss/shoot
+execute if entity @e[type=#minecraft:mobs,distance=..100,tag=!helicopter_boss_hitbox,tag=!spectator,limit=1,tag=!nodamage] facing entity @e[type=#minecraft:mobs,distance=..100,tag=!helicopter_boss_hitbox,tag=!spectator,sort=nearest,limit=1,tag=!nodamage,tag=!strict_map_object] eyes positioned ^ ^ ^8 run function lbc:drops/helicopter_boss/shoot
 execute unless entity @e[type=#minecraft:mobs,distance=..100,tag=!helicopter_boss_hitbox,tag=!spectator,limit=1,tag=!nodamage] run function lbc:drops/helicopter_boss/phase_1_to_2

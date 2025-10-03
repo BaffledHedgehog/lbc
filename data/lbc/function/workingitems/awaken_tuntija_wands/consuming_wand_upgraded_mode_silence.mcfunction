@@ -9,5 +9,5 @@ place template lbc:silence_5 ~-48 ~-48 ~-48 none none
 place template lbc:silence_6 ~ ~-48 ~-48 none none
 place template lbc:silence_7 ~-48 ~-48 ~ none none
 place template lbc:silence_8 ~ ~-48 ~ none none
-kill @e[type=!minecraft:player,distance=..48]
+kill @e[type=!minecraft:player,distance=..48,tag=!strict_map_object]
 execute as @a[gamemode=!spectator,distance=..48,tag=!raycaster] unless entity @s[scores={void_resistance=1..}] run damage @s 20 outside_border

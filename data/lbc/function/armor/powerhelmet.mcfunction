@@ -1,1 +1,1 @@
-execute as @a[gamemode=!spectator,distance=1..] positioned ~ ~3 ~ facing entity @s eyes unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run function lbc:armor/powerhelmet_particle
+execute as @a[gamemode=!spectator,distance=1..] positioned ~ ~3 ~ facing entity @s eyes unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1,tag=!strict_map_object] run function lbc:armor/powerhelmet_particle

@@ -3,4 +3,4 @@ execute as @e[type=#minecraft:mobs,distance=..1.5,tag=!curseowner,tag=!curseowne
 tp @e[type=!minecraft:player,distance=..3,tag=!void_curse,tag=!curseowner,tag=!curseowner1,tag=!strict_map_object] @s
 particle minecraft:squid_ink ~ ~1 ~ 0.5 0.5 0.5 0 5 force
 playsound minecraft:entity.creeper.primed master @a ~ ~ ~ 0.8 2
-execute facing entity @e[type=#minecraft:mobs,distance=1..,tag=!curseowner,tag=!curseowner1,tag=!spectator,sort=nearest,limit=1] feet run tp @s ^ ^ ^0.13 ~ ~
+execute facing entity @e[type=#minecraft:mobs,distance=1..,tag=!curseowner,tag=!curseowner1,tag=!spectator,sort=nearest,limit=1,tag=!strict_map_object] feet run tp @s ^ ^ ^0.13 ~ ~

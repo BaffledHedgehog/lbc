@@ -1,1 +1,2 @@
-execute facing entity @e[type=#minecraft:mobs,distance=..10,tag=!baffled_wall,tag=!spectator,limit=1] eyes run function lbc:other/baffledwall/tick_rc
+execute if score @s team_number matches 1.. run scoreboard players operation *tempt lbcID2 = @s team_number
+execute facing entity @e[type=#minecraft:mobs,distance=..10,tag=!baffled_wall,tag=!spectator,limit=1,predicate=!lbc:same_team,tag=!strict_map_object] eyes run function lbc:other/baffledwall/tick_rc

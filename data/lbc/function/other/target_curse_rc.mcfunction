@@ -1,2 +1,3 @@
-execute facing entity @e[type=#minecraft:mobs,scores={target=1..},limit=1] eyes run tp @s ~ ~ ~ ~ ~
-execute if score @s lbcID2 = @a[gamemode=!spectator,scores={target=1..},limit=1] lbcID2 run scoreboard players set @s lbcID2 -1
+execute facing entity @e[type=#minecraft:mobs,scores={target=1..},limit=1,tag=!strict_map_object] eyes run tp @s ~ ~ ~ ~ ~
+execute if score @s lbcID2 = @a[gamemode=!spectator,scores={target=1..},limit=1,tag=!strict_map_object] lbcID2 run scoreboard players set @s lbcID2 -1
+execute if score @s team_number = @a[gamemode=!spectator,scores={target=1..},limit=1,tag=!strict_map_object] team_number run scoreboard players set @s team_number -1
