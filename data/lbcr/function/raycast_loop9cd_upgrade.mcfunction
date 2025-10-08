@@ -6,6 +6,7 @@ summon minecraft:silverfish ^ ^ ^1 {Tags:["baffled_wall","lucky_mob"],Persistenc
 tellraw @a {"translate":"baffled_awakened","color":"dark_red"}
 
 
-
+execute store result score tmp lbc.math if entity @e[type=silverfish,tag=baffled_wall]
+execute if score tmp lbc.math matches 150.. run function lbcr:megahedgehog_spawn
 
 function lbc:other/magic_academy/can_upgrade

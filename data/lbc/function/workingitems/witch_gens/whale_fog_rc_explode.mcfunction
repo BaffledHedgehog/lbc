@@ -1,3 +1,3 @@
 particle minecraft:block_marker{block_state:{Name:"minecraft:light_gray_wool"}} ~ ~ ~ 10 10 10 0 1000 force
-scoreboard 
-execute as @e[distance=..5,tag=!white_whale,tag=!sin_gluttony,tag=!sin_wrath,tag=!spectator,tag=!sin_greed_active,tag=!whale_fog,tag=!white_whale_clone,tag=!strict_map_object] unless entity @s[scores={void_resistance=1..}] run kill @s
+scoreboard players operation *tempt lbcID2 = @s team_number
+execute as @e[distance=..5,tag=!white_whale,tag=!sin_gluttony,tag=!sin_wrath,tag=!spectator,tag=!sin_greed_active,tag=!whale_fog,tag=!white_whale_clone,tag=!strict_map_object,predicate=!lbc:same_team] unless entity @s[scores={void_resistance=1..}] run kill @s

@@ -25,7 +25,7 @@ execute at @s[scores={dimensional_shifting=1..}] run function lbc:other/effect_s
 execute at @s[scores={void_resistance=1..}] run function lbc:other/effect_void_resistance
 execute unless score @s lbcID2 matches 5.. run function lbc:other/idgive
 effect give @s[tag=night_vision_active] minecraft:night_vision 15 0 true
-execute if score @s lucky_block_count matches 1.. if score november lbc.math matches 1 run function lbc:other/event/november/give_sword
+execute if score @s lucky_block_count matches 1.. if score november lbc.event matches 1 run function lbc:other/event/november/give_sword
 execute at @s[tag=greed_cursed] align xyz run function lbc:other/greed/summon
 execute at @s[tag=sin_greed] if entity @e[type=#minecraft:mobs,distance=..5,tag=!spectator] run function lbc:workingitems/witch_gens/greed_second_mobs_near
 effect give @s[tag=sin_lust] minecraft:regeneration 1 4 true

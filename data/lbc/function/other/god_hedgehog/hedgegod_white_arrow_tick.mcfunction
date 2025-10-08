@@ -1,0 +1,1 @@
+execute if score @s Lifetime matches 40 run function lbc:other/god_hedgehog/hedgegod_white_arrow_shoot

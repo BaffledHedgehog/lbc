@@ -166,6 +166,7 @@ scoreboard objectives add blaze dummy
 scoreboard objectives add coldownoraora dummy
 scoreboard objectives add fevgalea_charge dummy
 scoreboard objectives add damage_taken minecraft.custom:damage_taken
+scoreboard objectives add lbc.event dummy
 
 scoreboard objectives add h dummy
 scoreboard objectives add s dummy

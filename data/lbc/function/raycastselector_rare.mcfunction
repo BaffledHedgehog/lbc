@@ -29,3 +29,6 @@ execute if entity @s[tag=sim_cube] run return run function lbc:other/nexus/rays/
 execute if entity @s[tag=pulsar] run return run function lbc:other/nexus/rays/pulsar_tick
 execute if entity @s[tag=gaycaster_meditator] run return run function lbc:workingitems/gaycaster/meditate/tick_select
 execute if entity @s[tag=crocodildo_hitbox] run return run function lbc:drops/crocodildo/hitbox_tick
+execute if entity @s[tag=hedgegod_eater] run return run function lbc:other/god_hedgehog/hedgegod_eater_tick
+execute if entity @s[tag=floatingwhitearrow] run return run function lbc:other/god_hedgehog/hedgegod_white_arrow_tick
+execute if entity @s[tag=jack_o_lantern] run return run function lbc:other/event/halloween/jack_o_lantern_tick

@@ -1,0 +1,4 @@
+summon minecraft:block_display ~ ~ ~ {Tags:["slowraycast","rare","jack_o_lantern","shield_blockable"],view_range:10.0f,interpolation_duration:1,teleport_duration:1,block_state:{Name:"minecraft:jack_o_lantern",Properties:{facing:west}},transformation:{translation:[-0.5,-0.5,-0.5],left_rotation:[0,0,0,1],right_rotation:[0,0,0,1],scale:[1,1,1]}}
+data modify entity @e[type=minecraft:block_display,distance=..0.001,tag=jack_o_lantern,tag=!actived,limit=1] Rotation set from entity @s Rotation
+scoreboard players operation @e[type=minecraft:block_display,distance=..0.001,tag=jack_o_lantern,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:block_display,distance=..0.001,tag=jack_o_lantern,tag=!actived,limit=1] team_number = @s team_number

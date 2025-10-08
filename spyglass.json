@@ -1,6 +1,7 @@
 {
     "env": {
         "gameVersion": "1.21.8",
-        "permissionLevel": 4
+        "permissionLevel": 4,
+        "exclude": []
     }
 }

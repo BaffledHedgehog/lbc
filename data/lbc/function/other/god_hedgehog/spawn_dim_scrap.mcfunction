@@ -1,0 +1,4 @@
+summon minecraft:item_display ^ ^ ^10 {Tags:["slowraycast","rare","hedgegod_eater","magic"],view_range:1000.0f,interpolation_duration:1,teleport_duration:1,item_display:"fixed",transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],scale:[0.01f,0.01f,0.01f]},item:{id:"minecraft:stick",components:{"minecraft:item_model":"lbc:hedgegod_eater"},count:1},brightness:{sky:15,block:15}}
+execute positioned ^ ^ ^10 run tp @e[type=item_display,limit=1,distance=..0.01,tag=hedgegod_eater] ~ ~ ~ ~ ~
+execute positioned ^ ^ ^10 run playsound lbcsounds.energy_2 master @a ~ ~ ~ 1 1 0.5
+tp @s ~ ~-2 ~ ~20 ~

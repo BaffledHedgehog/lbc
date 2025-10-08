@@ -1,0 +1,2 @@
+
+$execute positioned ~ ~.4 ~ rotated $(i) $(r) positioned ^ ^ ^10 facing entity @s eyes positioned ^$(j) ^ ^ rotated ~$(k) ~ summon item_display run function lbc:other/god_hedgehog/spawn_white_arrows1at

@@ -1,0 +1,3 @@
+execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator] lbcID2 = @s lbcID2 run tag @p[gamemode=!spectator] add damager
+execute if entity @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,tag=!damager,tag=!spectator,limit=1] run function lbc:other/event/halloween/jack_o_lantern_explode
+tag @a remove damager
