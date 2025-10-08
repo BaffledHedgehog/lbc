@@ -57,6 +57,7 @@ execute if entity @s[scores={sauvojen_wand_upgrade=1..}] unless entity @e[type=m
 #execute if score #gamestat swrg.math matches 0 run scoreboard players enable @s build_gui_pointer
 #execute if score #gamestat swrg.math matches 0 if score @s build_gui_pointer matches 1.. run function lbc:swrg_kit_integration/gui/build_manager/build_gui_pointer_select
 advancement revoke @s only lbc:penis
+advancement revoke @s only lbc:eat_halloween_food
 tag @s remove left
 
 

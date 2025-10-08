@@ -341,6 +341,7 @@ scoreboard objectives add lbc.challenge.levelup3 dummy
 scoreboard objectives add lbc.challenge.trinket1 dummy
 scoreboard objectives add lbc.challenge.trinket2 dummy
 scoreboard objectives add lbc.challenge.trinket3 dummy
+execute if score halloween lbc.event matches 1 run scoreboard objectives add pumpkin_counter dummy
 
 #scoreboard players set antigravity lbc.math 0
 
