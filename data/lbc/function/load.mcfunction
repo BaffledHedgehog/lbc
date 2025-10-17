@@ -30,6 +30,7 @@ scoreboard objectives add sprint_timer dummy
 scoreboard objectives add end_damage dummy
 scoreboard objectives add piss dummy
 scoreboard objectives add laser_minigun_spread dummy
+scoreboard objectives add cooldown_wind_charge dummy
 scoreboard players set -1 lbc.math -1
 scoreboard players set 0 lbc.math 0
 scoreboard players set 1 lbc.math 1
@@ -304,6 +305,7 @@ setblock 10241024 100 10241024 minecraft:yellow_shulker_box
 setblock 10241024 71 10241024 minecraft:yellow_shulker_box
 setblock 10241024 94 10241024 minecraft:yellow_shulker_box
 setblock 10241024 194 10241024 minecraft:yellow_shulker_box
+setblock 10241024 166 10241024 minecraft:yellow_shulker_box
 setblock 10241024 55 10241024 minecraft:yellow_shulker_box
 function lbc:tick5s
 function lbc:tick2s

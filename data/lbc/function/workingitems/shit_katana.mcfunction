@@ -6,6 +6,9 @@ execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ~ ~ ~ {data:{
 execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ~ ~-.01 ~ {data:{lifetime:50},Tags:["yellow_bolt","slowraycast","shield_blockable","mecha","other"]}
 execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ~ ~-.02 ~ {data:{lifetime:50},Tags:["yellow_bolt","slowraycast","shield_blockable","mecha","other"]}
 execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ~ ~-.03 ~ {data:{lifetime:50},Tags:["yellow_bolt","slowraycast","shield_blockable","mecha","other"]}
-execute anchored eyes positioned ^ ^ ^ at @e[type=minecraft:marker,distance=..1,tag=yellow_bolt,tag=!actived,limit=4] run function lbc:workingitems/shit_katana_rc_getid
+execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ~ ~-.04 ~ {data:{lifetime:50},Tags:["yellow_bolt","slowraycast","shield_blockable","mecha","other"]}
+execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ~ ~-.05 ~ {data:{lifetime:50},Tags:["yellow_bolt","slowraycast","shield_blockable","mecha","other"]}
+execute anchored eyes positioned ^ ^ ^ run summon minecraft:marker ~ ~-.06 ~ {data:{lifetime:50},Tags:["yellow_bolt","slowraycast","shield_blockable","mecha","other"]}
+execute anchored eyes positioned ^ ^ ^ at @e[type=minecraft:marker,distance=..1,tag=yellow_bolt,tag=!actived,limit=7] run function lbc:workingitems/shit_katana_rc_getid
 
 execute if score #lbcskill swrg.math matches 1 if score @s lbc.skill matches 9 run function lbc:workingitems/shit_katana_gownomen

@@ -113,4 +113,6 @@ scoreboard players set time_stopped lbc.math 0
 
 scoreboard players set sauvojen_wand_mana_use lbc.math 2500
 
+scoreboard players set vex_wand_mana_use lbc.math 700
+
 function lbc:drops/tmt/set_storage

@@ -1,0 +1,1 @@
+execute if entity @e[type=item_display,distance=..2,tag=screamer_halloween,limit=1] run function lbc:other/event/halloween/screamer_activate

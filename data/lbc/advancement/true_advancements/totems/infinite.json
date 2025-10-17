@@ -3,7 +3,8 @@
         "icon": {
             "id": "minecraft:totem_of_undying",
             "components": {
-                "minecraft:enchantment_glint_override": true
+                "minecraft:enchantment_glint_override": true,
+                "item_model": "lbc:infinite_totem"
             }
         },
         "title": {
@@ -27,7 +28,9 @@
                         "minecraft:enchantments": [
                             {
                                 "enchantments": "minecraft:infinity",
-                                "levels": {"min": 1}
+                                "levels": {
+                                    "min": 1
+                                }
                             }
                         ],
                         "minecraft:custom_data": "{transformable: 1,totem: 1}"

@@ -201,6 +201,8 @@ scoreboard objectives remove rocket_armor_jump_cd
 scoreboard objectives remove build_gui_pointer
 scoreboard objectives remove respawn_timer
 
+scoreboard objectives remove cooldown_wind_charge
+
 function lbc:load
 
 

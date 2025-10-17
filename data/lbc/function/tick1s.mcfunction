@@ -3,6 +3,7 @@ schedule function lbc:tick1s 1s
 execute as @e[type=#minecraft:raycasters,tag=rc_1sec] at @s unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:raycasters_1s
 execute as @e[type=minecraft:marker,tag=avarice_diamond] at @s unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:other/greed/avarice_diamond_near1
 kill @e[tag=killwhenonground,nbt={OnGround:1b}]
+execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{pumpkin_curse:1}}}}] at @s unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:other/event/halloween/pumpkin_king_sword/drop_cursed_pumpkin
 execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{craftusable:1}}}}] at @s if entity @e[type=minecraft:item,distance=0.001..1] unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:other/craft_ground
 execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{uniwand:1}}}}] at @s if entity @e[type=minecraft:item,distance=0.001..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{libspell:1}}}}] unless dimension minecraft:nexus unless dimension minecraft:imprinted run function lbc:other/craft_uniwand_with_grimoire
 #execute if entity @e[type=item,tag=malevich,limit=1] run function lbc:items_tick_act_m_check

@@ -17,9 +17,8 @@ data modify storage lbc.math ui2 set value [{"text":""}]
 execute if items entity @s armor.feet *[minecraft:custom_data~{techno:1}] run data modify storage lbc.math ui append value {"text":"  \uE101 ","extra":[{"score":{"name":"@s","objective":"nitro"},"color":"white"}]}
 execute if predicate lbc:reactive_boots run data modify storage lbc.math ui append value {"text":"  \uE102 ","extra":[{"score":{"name":"@s","objective":"reactivefuel"},"color":"yellow"}]}
 execute if entity @s[predicate=lbc:bow_or_crossbow] run function lbc:ui/count_arrows
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{swordwithability:1}}}}] run function lbc:ui/charging
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellwithcooldown:1}}}}] run function lbc:ui/cooldown
-execute if items entity @s weapon.offhand *[minecraft:custom_data~{spellwithcooldown:1}] run function lbc:ui/cooldown
+execute if items entity @s weapon.* *[minecraft:custom_data~{swordwithability:1}] run function lbc:ui/charging
+execute if items entity @s weapon.* *[minecraft:custom_data~{spellwithcooldown:1}] run function lbc:ui/cooldown
 #shadow wisp charges inserted here cause I think this is close to having an active item with a cooldown
 execute if score @s shadow_wisp_charge matches 1.. run function lbc:ui/display_shadow_wisp_charges
 execute if score @s acid_rifle matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE109 ","extra":[{"score":{"name":"@s","objective":"acid_rifle"},"color":"green"}]}
@@ -82,8 +81,8 @@ execute if score @s effect_rtp_1 matches 1.. run data modify storage lbc.math ui
 execute if score @s effect_rtp_2 matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_2"},"color":"white"}]}
 execute if score @s effect_rtp_3 matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_3"},"color":"white"}]}
 
-execute if entity @s[scores={nexus_compass_cd=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{nexus_compass:1}}}}] run data modify storage lbc.math ui append value {"text":"    \uE105 ","extra":[{"score":{"name":"@s","objective":"nexus_compass_cd"},"color":"white"}]}
-execute if entity @s[scores={nexus_compass_cd=..0},nbt={SelectedItem:{components:{"minecraft:custom_data":{nexus_compass:1}}}}] run data modify storage lbc.math ui append value {"text":"    \uE104 ","extra":[{"translate":"ready","color":"green"}]}
+execute if items entity @s[scores={nexus_compass_cd=1..}] weapon.* *[minecraft:custom_data~{nexus_compass:1}] run data modify storage lbc.math ui append value {"text":"    \uE105 ","extra":[{"score":{"name":"@s","objective":"nexus_compass_cd"},"color":"white"}]}
+execute if items entity @s[scores={nexus_compass_cd=..0}] weapon.* *[minecraft:custom_data~{nexus_compass:1}] run data modify storage lbc.math ui append value {"text":"    \uE104 ","extra":[{"translate":"ready","color":"green"}]}
 
 execute if items entity @s armor.feet *[minecraft:custom_data~{explosive_feets:1}] run data modify storage lbc.math ui append value [{"text":"    \uE173 ","extra":[{"score":{"name":"@s","objective":"rocket_armor_jumps"},"color":"white"}]},{"text":" - ","extra":[{"score":{"name":"@s","objective":"rocket_armor_jump_cd"},"color":"white"}]}]
 

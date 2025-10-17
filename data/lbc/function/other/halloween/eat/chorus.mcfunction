@@ -23,7 +23,7 @@ summon falling_block ~ ~.5 ~ {BlockState:{Name:"minecraft:pumpkin"},HurtEntities
 execute positioned ~ ~.5 ~ as @e[type=falling_block,limit=20,tag=pumpkinfall,distance=..0.01] at @s run function lbc:other/halloween/eat/chorus_pumpkin_rand
 
 particle item{item:"minecraft:pumpkin"} ~ ~1 ~ 0.3 0.6 0.3 0 150 normal
-spreadplayers ~ ~ 0 30 false @s
+spreadplayers ~ ~ 0 10 false @s
 
 execute at @s run particle item{item:"minecraft:pumpkin"} ~ ~1 ~ 0.3 0.6 0.3 0 150 normal
 

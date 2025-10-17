@@ -1,0 +1,2 @@
+playsound lbcsounds.s1 master @s ~ ~ ~ 1 1 1
+summon skeleton ~ ~ ~ {active_effects:[{"id":"minecraft:invisibility",duration:-1,show_particles:false},{"id":"minecraft:fire_resistance",duration:-1,show_particles:false}],HasVisualFire:false}

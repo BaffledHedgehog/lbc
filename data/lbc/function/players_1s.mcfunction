@@ -26,6 +26,7 @@ execute at @s[scores={void_resistance=1..}] run function lbc:other/effect_void_r
 execute unless score @s lbcID2 matches 5.. run function lbc:other/idgive
 effect give @s[tag=night_vision_active] minecraft:night_vision 15 0 true
 execute if score @s lucky_block_count matches 1.. if score november lbc.event matches 1 run function lbc:other/event/november/give_sword
+execute if score halloween lbc.event matches 1 run function lbc:other/event/halloween/player_tick_1s
 execute at @s[tag=greed_cursed] align xyz run function lbc:other/greed/summon
 execute at @s[tag=sin_greed] if entity @e[type=#minecraft:mobs,distance=..5,tag=!spectator] run function lbc:workingitems/witch_gens/greed_second_mobs_near
 effect give @s[tag=sin_lust] minecraft:regeneration 1 4 true
@@ -36,8 +37,8 @@ execute at @s[tag=techno_active] unless entity @e[type=minecraft:marker,distance
 execute at @s[tag=death_compass_active] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/death_compass_check
 effect give @s[tag=paladin_full_active] minecraft:resistance 3 3
 execute if entity @s[scores={sprint_cooldown=1..}] run function lbc:players_1s_sprinted
-execute if score @s shadow_wisp_count matches 10.. run scoreboard players set @s void_resistance 10
-
+execute if score @s shadow_wisp_count matches 10.. unless score @s void_resistance matches 11.. run scoreboard players set @s void_resistance 10
+execute if score @s cooldown_wind_charge matches 1.. run scoreboard players remove @s cooldown_wind_charge 1
 
 function lbc:armor/nanobots/tick1s
 

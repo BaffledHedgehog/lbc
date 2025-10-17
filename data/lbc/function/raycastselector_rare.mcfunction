@@ -32,3 +32,4 @@ execute if entity @s[tag=crocodildo_hitbox] run return run function lbc:drops/cr
 execute if entity @s[tag=hedgegod_eater] run return run function lbc:other/god_hedgehog/hedgegod_eater_tick
 execute if entity @s[tag=floatingwhitearrow] run return run function lbc:other/god_hedgehog/hedgegod_white_arrow_tick
 execute if entity @s[tag=jack_o_lantern] run return run function lbc:other/event/halloween/jack_o_lantern_tick
+execute if entity @s[tag=particle_wind] run return run function lbc:other/event/halloween/particle_wind

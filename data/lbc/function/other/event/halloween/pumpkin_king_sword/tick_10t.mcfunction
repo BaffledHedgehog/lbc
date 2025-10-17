@@ -1,0 +1,3 @@
+execute if items entity @s container.* *[minecraft:custom_data~{pumpkin_curse:1}] run return run function lbc:other/event/halloween/pumpkin_king_sword/tick_10t_true
+execute if items entity @s weapon.* *[minecraft:custom_data~{pumpkin_curse:1}] run return run function lbc:other/event/halloween/pumpkin_king_sword/tick_10t_true
+execute if items entity @s armor.* *[minecraft:custom_data~{pumpkin_curse:1}] run return run function lbc:other/event/halloween/pumpkin_king_sword/tick_10t_true
