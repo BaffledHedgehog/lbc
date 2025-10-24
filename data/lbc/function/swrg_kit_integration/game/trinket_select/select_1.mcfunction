@@ -25,4 +25,5 @@ execute if score tmp lbc.math matches 12 run loot give @s loot lbc:trinket/banan
 execute if score tmp lbc.math matches 13 run loot give @s loot lbc:trinket/fourier
 execute if score tmp lbc.math matches 14 run loot give @s loot lbc:trinket/rocket_spell
 execute if score tmp lbc.math matches 15 run loot give @s loot lbc:trinket/twilight_sparkle
+execute if score tmp lbc.math matches 16 run loot give @s loot lbc:trinket/gneiss_stone
 

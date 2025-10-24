@@ -6,6 +6,7 @@ execute if score @s swrg.gui_select matches 1 if entity @s[advancements={lbc:tru
 execute if score @s swrg.gui_select matches 2 if entity @s[advancements={lbc:true_advancements/bows/shulker=true}] run function lbc:swrg_kit_integration/gui/select/8000_prex_3
 execute if score @s swrg.gui_select matches 3 if entity @s[advancements={lbc:true_advancements/legends/academy/blood=true}] run function lbc:swrg_kit_integration/gui/select/8000_prex_3
 execute if score @s swrg.gui_select matches 4 if entity @s[advancements={lbc:true_advancements/armor/antimagic=true}] run function lbc:swrg_kit_integration/gui/select/8000_prex_3
+execute if score @s swrg.gui_select matches 5..16 run function lbc:swrg_kit_integration/gui/select/8000_prex_3
 
 
 

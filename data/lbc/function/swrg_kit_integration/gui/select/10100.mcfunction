@@ -3,6 +3,7 @@ scoreboard players set @s[scores={swrg.gui_select=1},advancements={lbc:true_adva
 scoreboard players set @s[scores={swrg.gui_select=2},advancements={lbc:true_advancements/legends/academy/exahoming=true}] lbc.skill 30
 scoreboard players set @s[scores={swrg.gui_select=3},advancements={lbc:true_advancements/legends/academy/fire=true}] lbc.skill 31
 scoreboard players set @s[scores={swrg.gui_select=4},advancements={lbc:true_advancements/legends/academy/gaycaster=true}] lbc.skill 32
+scoreboard players set @s[scores={swrg.gui_select=5}] lbc.skill 33
 
 
 

@@ -10,26 +10,7 @@ loot replace entity @s[advancements={lbc:true_advancements/bows/madoka_bow=true}
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/exahoming=true}] enderchest.2 loot lbc:gui/page/10100/2
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/fire=true}] enderchest.3 loot lbc:gui/page/10100/3
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/gaycaster=true}] enderchest.4 loot lbc:gui/page/10100/4
-#loot replace entity @s enderchest.5 loot lbc:gui/page/10100/5
-#loot replace entity @s enderchest.6 loot lbc:gui/page/10100/6
-#loot replace entity @s enderchest.7 loot lbc:gui/page/10100/7
-#loot replace entity @s enderchest.8 loot lbc:gui/page/10100/8
-#loot replace entity @s enderchest.9 loot lbc:gui/page/10100/9
-#loot replace entity @s enderchest.10 loot lbc:gui/page/10100/10
-#loot replace entity @s enderchest.11 loot lbc:gui/page/10100/11
-#loot replace entity @s enderchest.12 loot lbc:gui/page/10100/12
-#loot replace entity @s enderchest.13 loot lbc:gui/page/10100/13
-#loot replace entity @s enderchest.14 loot lbc:gui/page/10100/14
-#loot replace entity @s enderchest.15 loot lbc:gui/page/10100/15
-#loot replace entity @s enderchest.16 loot lbc:gui/page/10100/16
-#loot replace entity @s enderchest.17 loot lbc:gui/page/10100/17
-
-#loot replace entity @s enderchest.19 loot lbc:gui/page/10100/19
-#loot replace entity @s enderchest.20 loot lbc:gui/page/10100/20
-#loot replace entity @s enderchest.21 loot lbc:gui/page/10100/21
-#loot replace entity @s enderchest.22 loot lbc:gui/page/10100/22
-#loot replace entity @s enderchest.23 loot lbc:gui/page/10100/23
-#loot replace entity @s enderchest.24 loot lbc:gui/page/10100/24
+loot replace entity @s enderchest.5 loot lbc:gui/page/10100/5
 
 
 item modify entity @s[scores={lbc.skill=28}] enderchest.0 swrg:select

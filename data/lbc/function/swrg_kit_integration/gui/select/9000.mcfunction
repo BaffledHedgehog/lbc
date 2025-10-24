@@ -21,6 +21,7 @@ scoreboard players set @s[scores={swrg.gui_select=19},advancements={lbc:true_adv
 scoreboard players set @s[scores={swrg.gui_select=20},advancements={lbc:true_advancements/legends/academy/confuse=true}] lbc.kit 20
 scoreboard players set @s[scores={swrg.gui_select=21},advancements={lbc:true_advancements/legends/academy/erecto=true}] lbc.kit 21
 scoreboard players set @s[scores={swrg.gui_select=22},advancements={lbc:true_advancements/legends/academy/exasperato=true}] lbc.kit 22
+scoreboard players set @s[scores={swrg.gui_select=23}] lbc.kit 23
 #
 
 

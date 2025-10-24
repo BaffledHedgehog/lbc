@@ -1,0 +1,1 @@
+execute if score @s lbc.skill matches 33 run function lbc:swrg_kit_integration/game/skills/champion/hit

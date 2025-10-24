@@ -6,19 +6,13 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:repeating_command_block",
+                    "name": "minecraft:shield",
                     "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_model": "lbc:rainbow_aura"
-                            }
-                        },
                         {
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "translate": "lbcskill.29",
+                                "translate": "lbcskill.30",
                                 "italic": false,
                                 "color": "white"
                             }
@@ -29,47 +23,17 @@
                             "entity": "this",
                             "lore": [
                                 {
-                                    "translate": "lbcskill.29.lore.1",
+                                    "translate": "lbcskill.30.lore.1",
                                     "italic": false,
                                     "color": "gray"
                                 },
                                 {
-                                    "translate": "lbcskill.29.lore.2",
+                                    "translate": "lbcskill.30.lore.2",
                                     "italic": false,
                                     "color": "gray"
                                 },
                                 {
-                                    "translate": "lbcskill.29.lore.3",
-                                    "italic": false,
-                                    "color": "gray"
-                                },
-                                {
-                                    "translate": "lbcskill.29.lore.4",
-                                    "italic": false,
-                                    "color": "gray"
-                                },
-                                {
-                                    "translate": "lbcskill.29.lore.5",
-                                    "italic": false,
-                                    "color": "gray"
-                                },
-                                {
-                                    "translate": "lbcskill.29.lore.6",
-                                    "italic": false,
-                                    "color": "gray"
-                                },
-                                {
-                                    "translate": "lbcskill.29.lore.7",
-                                    "italic": false,
-                                    "color": "gray"
-                                },
-                                {
-                                    "translate": "lbcskill.29.lore.8",
-                                    "italic": false,
-                                    "color": "gray"
-                                },
-                                {
-                                    "translate": "lbcskill.29.lore.9",
+                                    "translate": "lbcskill.30.lore.3",
                                     "italic": false,
                                     "color": "gray"
                                 },
@@ -81,7 +45,7 @@
                                     },
                                     {
                                         "storage": "stats:stats",
-                                        "nbt": "pick_rate_skill[31]",
+                                        "nbt": "pick_rate_skill[32]",
                                         "italic": false,
                                         "color": "yellow"
                                     },
@@ -92,7 +56,7 @@
                                     },
                                     {
                                         "storage": "stats:stats",
-                                        "nbt": "pick_count_skill[31]",
+                                        "nbt": "pick_count_skill[32]",
                                         "italic": false,
                                         "color": "yellow"
                                     }
@@ -105,7 +69,7 @@
                                     },
                                     {
                                         "storage": "stats:stats",
-                                        "nbt": "win_rate_skill[31]",
+                                        "nbt": "win_rate_skill[32]",
                                         "italic": false,
                                         "color": "yellow"
                                     },
@@ -116,7 +80,7 @@
                                     },
                                     {
                                         "storage": "stats:stats",
-                                        "nbt": "win_count_skill[31]",
+                                        "nbt": "win_count_skill[32]",
                                         "italic": false,
                                         "color": "yellow"
                                     }

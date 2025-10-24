@@ -66,7 +66,7 @@ execute if score tmp lbc.math matches 20 run attribute @s minecraft:attack_speed
 execute if score tmp lbc.math matches 21 run attribute @s minecraft:attack_damage modifier add minecraft:520ff3ae-0b51-4ac0-b756-d3f0966209ee 0.5 add_multiplied_total
 execute if score tmp lbc.math matches 21 run attribute @s minecraft:attack_speed modifier add minecraft:00ef8539-4056-4352-9d3c-6179f8c7c85d -0.5 add_multiplied_total
 
-execute if score tmp lbc.math matches 22 run attribute @s minecraft:movement_speed modifier add minecraft:ad39dc9d-e3dc-4d13-a384-cc010d3e5f3b 0.08 add_value
+execute if score tmp lbc.math matches 22 run attribute @s minecraft:movement_speed modifier add minecraft:ad39dc9d-e3dc-4d13-a384-cc010d3e5f3b 0.05 add_value
 
 execute if score tmp lbc.math matches 23 run attribute @s minecraft:attack_damage modifier add minecraft:c0f91f26-ba5e-4cc0-a1db-4e98b4ffab19 4 add_value
 execute if score tmp lbc.math matches 23 run attribute @s minecraft:attack_speed modifier add minecraft:84353fc7-45e9-44fe-bf7a-17b611093e82 -1 add_value
@@ -96,7 +96,18 @@ execute if score tmp lbc.math matches 32 run attribute @s minecraft:armor_toughn
 
 
 
-
+execute if score tmp lbc.math matches 33 run attribute @s minecraft:attack_damage modifier add naturalperk1 0.8 add_value
+execute if score tmp lbc.math matches 34 run attribute @s minecraft:armor modifier add naturalperk2 4 add_value
+execute if score tmp lbc.math matches 35 run attribute @s minecraft:armor_toughness modifier add naturalperk3 4 add_value
+execute if score tmp lbc.math matches 36 run attribute @s minecraft:jump_strength modifier add naturalperk4 0.3 add_value
+execute if score tmp lbc.math matches 37 run attribute @s minecraft:fall_damage_multiplier modifier add naturalperk5 -0.5 add_multiplied_total
+execute if score tmp lbc.math matches 38 run attribute @s minecraft:movement_speed modifier add naturalperk6 0.05 add_value
+execute if score tmp lbc.math matches 39 run attribute @s minecraft:entity_interaction_range modifier add naturalperk7 0.5 add_value
+execute if score tmp lbc.math matches 40 run attribute @s minecraft:block_interaction_range modifier add naturalperk8 3 add_value
+execute if score tmp lbc.math matches 41 run attribute @s minecraft:block_break_speed modifier add naturalperk9 1 add_value
+execute if score tmp lbc.math matches 42 run attribute @s minecraft:knockback_resistance modifier add naturalperk10 0.4 add_value
+execute if score tmp lbc.math matches 43 run attribute @s minecraft:max_health modifier add naturalperk11 4 add_value
+execute if score tmp lbc.math matches 44 run attribute @s minecraft:step_height modifier add naturalperk12 1.5 add_value
 
 
 

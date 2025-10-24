@@ -14,6 +14,7 @@ execute if score @s swrg.gui_select matches 11 if entity @s[advancements={lbc:tr
 execute if score @s swrg.gui_select matches 12 if entity @s[advancements={lbc:true_advancements/legends/academy/evoker=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 13 if entity @s[advancements={lbc:true_advancements/legends/academy/exoperso=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 14 if entity @s[advancements={lbc:true_advancements/legends/academy/falling_stars=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 15 run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 
 #
 

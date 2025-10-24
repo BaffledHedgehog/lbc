@@ -10,6 +10,18 @@ loot replace entity @s[advancements={lbc:true_advancements/bows/randchanted=true
 loot replace entity @s[advancements={lbc:true_advancements/bows/shulker=true}] enderchest.2 loot lbc:gui/page/8000/29
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/blood=true}] enderchest.3 loot lbc:gui/page/8000/30
 loot replace entity @s[advancements={lbc:true_advancements/armor/antimagic=true}] enderchest.4 loot lbc:gui/page/8000/31
+loot replace entity @s enderchest.5 loot lbc:gui/page/8000/32
+loot replace entity @s enderchest.6 loot lbc:gui/page/8000/33
+loot replace entity @s enderchest.7 loot lbc:gui/page/8000/34
+loot replace entity @s enderchest.8 loot lbc:gui/page/8000/35
+loot replace entity @s enderchest.9 loot lbc:gui/page/8000/36
+loot replace entity @s enderchest.10 loot lbc:gui/page/8000/37
+loot replace entity @s enderchest.11 loot lbc:gui/page/8000/38
+loot replace entity @s enderchest.12 loot lbc:gui/page/8000/39
+loot replace entity @s enderchest.13 loot lbc:gui/page/8000/40
+loot replace entity @s enderchest.14 loot lbc:gui/page/8000/41
+loot replace entity @s enderchest.15 loot lbc:gui/page/8000/42
+loot replace entity @s enderchest.16 loot lbc:gui/page/8000/43
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.levelup1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math

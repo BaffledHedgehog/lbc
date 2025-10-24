@@ -151,4 +151,22 @@ attribute @s minecraft:armor_toughness modifier remove nulla_magicae
 attribute @s minecraft:attack_damage modifier remove rainbow_aura_damage
 attribute @s minecraft:attack_damage modifier remove uhf78arf7ahfkdhmfiashfdrehf
 
+
+attribute @s minecraft:attack_damage modifier remove naturalperk1
+attribute @s minecraft:armor modifier remove naturalperk2
+attribute @s minecraft:armor_toughness modifier remove naturalperk3
+attribute @s minecraft:jump_strength modifier remove naturalperk4
+attribute @s minecraft:fall_damage_multiplier modifier remove naturalperk5
+attribute @s minecraft:movement_speed modifier remove naturalperk6
+attribute @s minecraft:entity_interaction_range modifier remove naturalperk7
+attribute @s minecraft:block_interaction_range modifier remove naturalperk8
+attribute @s minecraft:block_break_speed modifier remove naturalperk9
+attribute @s minecraft:knockback_resistance modifier remove naturalperk10
+attribute @s minecraft:max_health modifier remove naturalperk11
+attribute @s minecraft:step_height modifier remove naturalperk12
+
+attribute @s minecraft:armor modifier remove 7374yg374g347g37gh34
+attribute @s minecraft:armor_toughness modifier remove 7374yg3274g347g37gh34
+attribute @s minecraft:attack_damage modifier remove g8wu4g8k4wug84khu84hu48h
+
 function lbc:get_team

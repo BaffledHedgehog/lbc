@@ -62,6 +62,7 @@ execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{blazefire_
 
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{pumpkin_king:1}}}}] as @a[gamemode=!spectator,distance=0.01..7,nbt={HurtTime:10s},predicate=!lbc:same_team] at @s run function lbc:other/event/halloween/pumpkin_king_sword/activate
 
-execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/swords_get_trinket
+execute unless score legacy lbc.math matches 1 if score #lbctrinket swrg.math matches 1.. run function lbc:items/swords_get_trinket
+execute unless score legacy lbc.math matches 1 if score #lbcskill swrg.math matches 1.. run function lbc:swrg_kit_integration/game/skills/player_hit_entity
 
 advancement revoke @s only lbc:gowno

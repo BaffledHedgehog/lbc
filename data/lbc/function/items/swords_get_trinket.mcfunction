@@ -9,3 +9,4 @@ scoreboard players set tmp lbc.math 0
 execute store result score tmp lbc.math run clear @s *[minecraft:custom_data~{trinket:"intercal"}] 0
 execute if score tmp lbc.math matches 1.. run function lbc:items/trinket_effects/intercal
 scoreboard players set tmp lbc.math 0
+

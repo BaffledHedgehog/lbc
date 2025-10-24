@@ -20,6 +20,7 @@ loot replace entity @s[advancements={lbc:true_advancements/legends/academy/ender
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/evoker=true}] enderchest.12 loot lbc:gui/page/11000/12
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/exoperso=true}] enderchest.13 loot lbc:gui/page/11000/13
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/falling_stars=true}] enderchest.14 loot lbc:gui/page/11000/14
+loot replace entity @s enderchest.15 loot lbc:gui/page/11000/15
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.trinket1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math

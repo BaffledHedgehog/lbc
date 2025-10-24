@@ -28,6 +28,7 @@ loot replace entity @s[advancements={lbc:true_advancements/legends/academy/blaze
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/confuse=true}] enderchest.20 loot lbc:gui/page/9000/19
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/erecto=true}] enderchest.21 loot lbc:gui/page/9000/20
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/exasperato=true}] enderchest.22 loot lbc:gui/page/9000/21
+loot replace entity @s enderchest.23 loot lbc:gui/page/9000/22
 #
 item modify entity @s[scores={lbc.kit=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.kit=2}] enderchest.1 swrg:select
