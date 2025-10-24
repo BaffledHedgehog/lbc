@@ -19,5 +19,5 @@ execute if score #random11 lbc.math matches 8 run effect give @s minecraft:regen
 execute if score #random11 lbc.math matches 9 run effect give @s minecraft:resistance 20 1
 execute if score #random11 lbc.math matches 10 run effect give @s minecraft:strength 10
 execute if score #random11 lbc.math matches 11 run effect give @s minecraft:water_breathing 30
-clear @s minecraft:repeating_command_block[minecraft:custom_data~{konserva:1}] 1
+clear @s *[minecraft:custom_data~{konserva:1}] 1
 scoreboard players add @s food_count 1

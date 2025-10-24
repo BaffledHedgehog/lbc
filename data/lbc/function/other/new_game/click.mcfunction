@@ -138,5 +138,6 @@ gamerule doTileDrops true
 gamerule doMobLoot true
 gamerule doEntityDrops true
 execute as @a at @s run function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
+execute as @a at @s run attribute @s minecraft:max_health modifier remove gamehealthmodifier
 scoreboard players set #lbcskill lbc.math 0
 advancement grant @a[gamemode=!spectator] only lbc:true_advancements/legends/new_world

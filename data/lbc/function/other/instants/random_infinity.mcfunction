@@ -56,7 +56,7 @@ execute if score #random14 lbc.math matches 14 run attribute @s minecraft:safe_f
 execute if score #random14 lbc.math matches 14 run attribute @s minecraft:fall_damage_multiplier modifier add minecraft:infinity_scale1 -1 add_multiplied_total
 execute if score #random14 lbc.math matches 14 run attribute @s minecraft:gravity modifier add minecraft:infinity_scale -0.8125 add_multiplied_total
 
-clear @s minecraft:repeating_command_block[minecraft:custom_data~{infinity_rand:1}] 1
+clear @s *[minecraft:custom_data~{infinity_rand:1}] 1
 title @s title " "
 title @s subtitle {"translate":"infinity_feel"}
 advancement grant @s only lbc:true_advancements/legends/infinity

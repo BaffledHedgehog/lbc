@@ -12,6 +12,7 @@ effect give @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical_ol
 effect give @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical_old:3,type:2}}}]}] minecraft:levitation 1 4 true
 effect give @s[nbt={Inventory:[{components:{"minecraft:custom_data":{mystical_old:3,type:3}}}]}] minecraft:speed 3 4 true
 execute if items entity @s[x_rotation=80..90] weapon.* *[minecraft:custom_data~{halloween_mace:1}] unless score @s cooldown_wind_charge matches 1.. run function lbc:other/event/halloween/halloween_mace/ability
+execute if items entity @s[x_rotation=80..90] weapon.* *[minecraft:custom_data~{soulhunter_mace:1}] unless score @s mace_3 matches 1.. run function lbc:other/event/halloween/soulhunter_mace/jump
 
 scoreboard players add @s falltimer 0
 scoreboard players set @s jump1 0

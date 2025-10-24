@@ -5,30 +5,30 @@ data modify storage stats:stats player set from block 10241024 55 10241024 Items
 tag @s remove player_target
 function lbc:swrg_kit_integration/gui/stats_refresh_levelup with storage stats:stats
 
-loot replace entity @s enderchest.0 loot lbc:gui/page/8000/0
-loot replace entity @s enderchest.1 loot lbc:gui/page/8000/1
-loot replace entity @s enderchest.2 loot lbc:gui/page/8000/2
-loot replace entity @s enderchest.3 loot lbc:gui/page/8000/3
-loot replace entity @s enderchest.4 loot lbc:gui/page/8000/4
-loot replace entity @s enderchest.5 loot lbc:gui/page/8000/5
-loot replace entity @s enderchest.6 loot lbc:gui/page/8000/6
-loot replace entity @s enderchest.7 loot lbc:gui/page/8000/7
-loot replace entity @s enderchest.8 loot lbc:gui/page/8000/8
-loot replace entity @s enderchest.9 loot lbc:gui/page/8000/9
-loot replace entity @s enderchest.10 loot lbc:gui/page/8000/10
-loot replace entity @s enderchest.11 loot lbc:gui/page/8000/11
-loot replace entity @s enderchest.12 loot lbc:gui/page/8000/12
-loot replace entity @s enderchest.13 loot lbc:gui/page/8000/13
-loot replace entity @s enderchest.14 loot lbc:gui/page/8000/14
-loot replace entity @s enderchest.15 loot lbc:gui/page/8000/15
-loot replace entity @s enderchest.16 loot lbc:gui/page/8000/16
-loot replace entity @s enderchest.17 loot lbc:gui/page/8000/17
-loot replace entity @s enderchest.19 loot lbc:gui/page/8000/19
-loot replace entity @s enderchest.20 loot lbc:gui/page/8000/20
-loot replace entity @s enderchest.21 loot lbc:gui/page/8000/21
-loot replace entity @s enderchest.22 loot lbc:gui/page/8000/22
-loot replace entity @s enderchest.23 loot lbc:gui/page/8000/23
-loot replace entity @s enderchest.24 loot lbc:gui/page/8000/24
+loot replace entity @s[advancements={lbc:true_advancements/accesories/infinite_quiver=true}] enderchest.0 loot lbc:gui/page/8000/0
+loot replace entity @s[advancements={lbc:true_advancements/accesories/mana_belt=true}] enderchest.1 loot lbc:gui/page/8000/1
+loot replace entity @s[advancements={lbc:true_advancements/accesories/regeneration_belt=true}] enderchest.2 loot lbc:gui/page/8000/2
+loot replace entity @s[advancements={lbc:true_advancements/accesories/save_platform=true}] enderchest.3 loot lbc:gui/page/8000/3
+loot replace entity @s[advancements={lbc:true_advancements/arcanums/babylon_gate=true}] enderchest.4 loot lbc:gui/page/8000/4
+loot replace entity @s[advancements={lbc:true_advancements/arcanums/barrier=true}] enderchest.5 loot lbc:gui/page/8000/5
+loot replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole=true}] enderchest.6 loot lbc:gui/page/8000/6
+loot replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole_2=true}] enderchest.7 loot lbc:gui/page/8000/7
+loot replace entity @s[advancements={lbc:true_advancements/arcanums/black_hole_max=true}] enderchest.8 loot lbc:gui/page/8000/8
+loot replace entity @s[advancements={lbc:true_advancements/arcanums/heal=true}] enderchest.9 loot lbc:gui/page/8000/9
+loot replace entity @s[advancements={lbc:true_advancements/arcanums/neutral=true}] enderchest.10 loot lbc:gui/page/8000/10
+loot replace entity @s[advancements={lbc:true_advancements/armor/assasin=true}] enderchest.11 loot lbc:gui/page/8000/11
+loot replace entity @s[advancements={lbc:true_advancements/armor/berserker=true}] enderchest.12 loot lbc:gui/page/8000/12
+loot replace entity @s[advancements={lbc:true_advancements/armor/chaos=true}] enderchest.13 loot lbc:gui/page/8000/13
+loot replace entity @s[advancements={lbc:true_advancements/armor/flesh=true}] enderchest.14 loot lbc:gui/page/8000/14
+loot replace entity @s[advancements={lbc:true_advancements/armor/glass=true}] enderchest.15 loot lbc:gui/page/8000/15
+loot replace entity @s[advancements={lbc:true_advancements/armor/mage=true}] enderchest.16 loot lbc:gui/page/8000/16
+loot replace entity @s[advancements={lbc:true_advancements/armor/shulker=true}] enderchest.17 loot lbc:gui/page/8000/17
+loot replace entity @s[advancements={lbc:true_advancements/armor/techno=true}] enderchest.19 loot lbc:gui/page/8000/19
+loot replace entity @s[advancements={lbc:true_advancements/armor/tnt_jacket=true}] enderchest.20 loot lbc:gui/page/8000/20
+loot replace entity @s[advancements={lbc:true_advancements/armor/traveller=true}] enderchest.21 loot lbc:gui/page/8000/21
+loot replace entity @s[advancements={lbc:true_advancements/axes/poleaxe=true}] enderchest.22 loot lbc:gui/page/8000/22
+loot replace entity @s[advancements={lbc:true_advancements/axes/tomahawk=true}] enderchest.23 loot lbc:gui/page/8000/23
+loot replace entity @s[advancements={lbc:true_advancements/bows/railgun=true}] enderchest.24 loot lbc:gui/page/8000/24
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.levelup1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math

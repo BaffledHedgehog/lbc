@@ -293,6 +293,7 @@ scoreboard objectives add sauvojen_wand_upgrade dummy
 scoreboard objectives add tmticked dummy
 scoreboard objectives add rocket_armor_jumps dummy
 scoreboard objectives add rocket_armor_jump_cd dummy
+scoreboard objectives add effect_ghosting dummy
 
 #scoreboard objectives add build_gui_pointer trigger
 #
@@ -344,6 +345,11 @@ scoreboard objectives add lbc.challenge.trinket1 dummy
 scoreboard objectives add lbc.challenge.trinket2 dummy
 scoreboard objectives add lbc.challenge.trinket3 dummy
 execute if score halloween lbc.event matches 1 run scoreboard objectives add pumpkin_counter dummy
+
+scoreboard objectives add mace_1 dummy
+scoreboard objectives add mace_2 dummy
+scoreboard objectives add mace_3 dummy
+scoreboard objectives add mace_4 dummy
 
 #scoreboard players set antigravity lbc.math 0
 

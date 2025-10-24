@@ -8,4 +8,4 @@ execute if entity @s[type=minecraft:player,gamemode=!spectator] run function lbc
 data modify entity @s[type=minecraft:ender_dragon,nbt={DragonPhase:10}] DragonPhase set value 1
 execute if entity @s[scores={cold=1..}] run function lbc:other/freeze/cooldown
 execute if entity @s[scores={frozen=1..}] run function lbc:other/freeze/tick_1s_frozen
-
+execute if entity @s[scores={effect_ghosting=1..}] run function lbc:effects/ghosting_second

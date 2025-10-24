@@ -110,6 +110,8 @@ attribute @s minecraft:attack_damage modifier remove minecraft:e916adfe-014b-4ff
 attribute @s minecraft:knockback_resistance modifier remove minecraft:e916adfe-014b-4ff5-82f1-af6ec9226d21
 attribute @s minecraft:movement_speed modifier remove minecraft:916c89e6-ae62-4b11-91d7-10e7e57c726d
 attribute @s minecraft:max_health modifier remove minecraft:44a8aa48-d53d-42c0-b229-4557d3c581b1
+
+
 advancement revoke @s only lbc:remove_boots
 scoreboard players set @s lucky_block_count 0
 advancement revoke @s only lbc:sith_killed_jedi
@@ -139,6 +141,19 @@ scoreboard players set @s cold 0
 scoreboard players set @s cold_cd 0
 scoreboard players set @s swrg.roll_timer 0
 scoreboard players set @s swrg.roll 0
+attribute @s minecraft:armor modifier remove 89shg89emh89gseghs89d98ghsdg
+attribute @s minecraft:armor_toughness modifier remove 47568678ghs89d98ghsdg
+attribute @s minecraft:attack_damage modifier remove 47565hytyktyktysdg
+attribute @s minecraft:gravity modifier remove wge5gd6j7hn8kus89d98ghsdg
+attribute @s minecraft:fall_damage_multiplier modifier remove wge5gh45h45h54h5sdg
+scoreboard players set @s effect_ghosting 0
+
+
+scoreboard players set @s mace_1 0
+scoreboard players set @s mace_2 0
+scoreboard players set @s mace_3 0
+scoreboard players set @s mace_4 0
+tag @s remove unstamined
 
 tag @s remove submissive
 tag @s remove gigantic

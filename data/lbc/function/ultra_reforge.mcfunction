@@ -40,6 +40,7 @@ execute if data entity @s {Item:{components:{"minecraft:custom_data":{nanobots:1
 execute if data entity @s {Item:{components:{"minecraft:custom_data":{flesh:1}}}} run loot spawn ~ ~ ~ loot lbc:neko_set_flesh
 execute if data entity @s {Item:{components:{"minecraft:custom_data":{glass:1}}}} run loot spawn ~ ~ ~ loot lbc:neko_set_glass
 execute if data entity @s {Item:{components:{"minecraft:custom_data":{overload:1}}}} run loot spawn ~ ~ ~ loot lbc:neko_set_overload
+execute if data entity @s {Item:{components:{"minecraft:custom_data":{metasola:1}}}} run loot spawn ~ ~ ~ loot lbc:halloween/metasola
 advancement grant @p[gamemode=!spectator] only lbc:true_advancements/lightning_smith_ultra
 
 

@@ -1,5 +1,5 @@
 scoreboard players add @s Lifetime 5
-execute if score #lbcskill swrg.math matches 1 if score @s lbcID2 matches 1.. if predicate lbc:chance50 if entity @a[scores={lbc.skill=30}] unless entity @a[gamemode=!spectator,distance=..20] run function lbc:raycastselector_player_check_skill
+execute unless score legacy lbc.math matches 1 if score #lbcskill swrg.math matches 1 if score @s lbcID2 matches 1.. if predicate lbc:chance50 if entity @a[scores={lbc.skill=30}] unless entity @a[gamemode=!spectator,distance=..20] run function lbc:raycastselector_player_check_skill
 
 execute at @s[tag=phantomarrows] run particle minecraft:soul ~ ~ ~ 10 10 10 0 50 normal
 execute at @s[tag=iceblock] run function lbc:other/ice

@@ -1,0 +1,35 @@
+execute if score #gamemode swrg.math matches 3..4 at @s run return run function lbc:other/ponos
+summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
+summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
+summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
+summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
+summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernova","other"]}
+summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","supernovacore","other"]}
+execute as @e[type=minecraft:marker,tag=supernova] at @s run spreadplayers ~ ~ 0 50 false @s
+particle minecraft:dust{color:[1.0,1.0,1.0],scale:4.0f} ~ ~1 ~ 1 1 1 2 1000 force
+particle minecraft:dust{color:[0.001,0.0,0.001],scale:4.0f} ~ ~1 ~ 1 1 1 2 1000 force
+summon minecraft:tnt ~ ~ ~ {fuse:0}
+execute at @e run particle minecraft:flash ~ ~ ~ 10 10 10 0 100 normal
+effect give @s minecraft:levitation 10000 0 true
+effect give @s minecraft:absorption 10000 30 true
+tag @s add balance_user
+gamerule doTileDrops false
+gamerule doMobLoot false
+gamerule doEntityDrops false
+title @a title {"translate":"end_begins"}
+playsound minecraft:entity.wither.death master @a ~ ~ ~ 10000 0
+playsound minecraft:entity.wither.death master @a ~ ~ ~ 10000 2
+playsound minecraft:block.end_portal.spawn master @a ~ ~ ~ 10000 2
+playsound minecraft:block.end_portal.spawn master @a ~ ~ ~ 10000 1
+summon minecraft:lightning_bolt
+
+execute if items entity @s player.crafting.0 *[minecraft:custom_data~{shish_gun:1}] run item modify entity @s player.crafting.0 lbc:count_reduce
+execute if items entity @s player.crafting.1 *[minecraft:custom_data~{shish_gun:1}] run item modify entity @s player.crafting.1 lbc:count_reduce
+execute if items entity @s player.crafting.2 *[minecraft:custom_data~{shish_gun:1}] run item modify entity @s player.crafting.2 lbc:count_reduce
+execute if items entity @s player.crafting.3 *[minecraft:custom_data~{shish_gun:1}] run item modify entity @s player.crafting.3 lbc:count_reduce
+execute if items entity @s player.crafting.0 *[minecraft:custom_data~{shit_katana:1}] run item modify entity @s player.crafting.0 lbc:count_reduce
+execute if items entity @s player.crafting.1 *[minecraft:custom_data~{shit_katana:1}] run item modify entity @s player.crafting.1 lbc:count_reduce
+execute if items entity @s player.crafting.2 *[minecraft:custom_data~{shit_katana:1}] run item modify entity @s player.crafting.2 lbc:count_reduce
+execute if items entity @s player.crafting.3 *[minecraft:custom_data~{shit_katana:1}] run item modify entity @s player.crafting.3 lbc:count_reduce
+
+forceload add ~30 ~30 ~-30 ~-30

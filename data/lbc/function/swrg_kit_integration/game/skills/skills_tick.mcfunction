@@ -1,3 +1,4 @@
+execute if score legacy lbc.math matches 1 run return fail
 execute if score @s lbc.skill matches 6 run return run function lbc:swrg_kit_integration/game/skills/trusiki_tick
 execute if score @s lbc.skill matches 10 run return run function lbc:swrg_kit_integration/game/skills/teleportities_tick
 execute if score @s lbc.skill matches 15 run return run function lbc:swrg_kit_integration/game/skills/two

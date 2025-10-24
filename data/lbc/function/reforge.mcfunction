@@ -20,6 +20,7 @@ execute if data entity @s {Item:{components:{"minecraft:custom_data":{helmet:1}}
 execute if data entity @s {Item:{components:{"minecraft:custom_data":{chestplate:1}}}} run loot spawn ~ ~ ~ loot lbc:transformables_chestplate
 execute if data entity @s {Item:{components:{"minecraft:custom_data":{leggings:1}}}} run loot spawn ~ ~ ~ loot lbc:transformables_leggings
 execute if data entity @s {Item:{components:{"minecraft:custom_data":{boots:1}}}} run loot spawn ~ ~ ~ loot lbc:transformables_boots
+execute if data entity @s {Item:{components:{"minecraft:custom_data":{metasola:1}}}} run loot spawn ~ ~ ~ loot lbc:halloween/metasola
 advancement grant @p[gamemode=!spectator] only lbc:true_advancements/lightning_smith
 
 execute if data entity @s {Item:{count:1}} run kill @s

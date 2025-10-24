@@ -185,6 +185,7 @@ scoreboard objectives remove effect_remove_mana
 scoreboard objectives remove effect_snus
 scoreboard objectives remove effect_boost_mana
 scoreboard objectives remove effect_gravity_curse
+scoreboard objectives remove effect_ghosting
 scoreboard objectives remove god_claw_cd
 scoreboard objectives remove expansion_cd
 scoreboard objectives remove deus_cd
@@ -202,6 +203,10 @@ scoreboard objectives remove build_gui_pointer
 scoreboard objectives remove respawn_timer
 
 scoreboard objectives remove cooldown_wind_charge
+scoreboard objectives remove mace_1
+scoreboard objectives remove mace_2
+scoreboard objectives remove mace_3
+scoreboard objectives remove mace_4
 
 function lbc:load
 

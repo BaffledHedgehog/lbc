@@ -46,16 +46,13 @@
                         {
                             "condition": "minecraft:inverted",
                             "term": {
-                                "condition": "minecraft:any_of",
-                                "terms": [
-                                    {
-                                        "condition": "minecraft:entity_properties",
-                                        "entity": "this",
-                                        "predicate": {
-                                            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
-                                        }
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "luck_amount": {
+                                        "min": 16
                                     }
-                                ]
+                                }
                             }
                         }
                     ],
@@ -145,16 +142,13 @@
                     "weight": 100000000000000000,
                     "conditions": [
                         {
-                            "condition": "minecraft:any_of",
-                            "terms": [
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
-                                    }
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "luck_amount": {
+                                    "min": 16
                                 }
-                            ]
+                            }
                         }
                     ]
                 }
@@ -241,16 +235,13 @@
                     "weight": 100000000000000000,
                     "conditions": [
                         {
-                            "condition": "minecraft:any_of",
-                            "terms": [
-                                {
-                                    "condition": "minecraft:entity_properties",
-                                    "entity": "this",
-                                    "predicate": {
-                                        "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{luck_key:1}}}}"
-                                    }
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "luck_amount": {
+                                    "min": 16
                                 }
-                            ]
+                            }
                         }
                     ]
                 }

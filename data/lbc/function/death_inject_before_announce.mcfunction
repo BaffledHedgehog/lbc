@@ -1,2 +1,2 @@
-execute if score #lbcskill swrg.math matches 1.. if entity @s[scores={lbc.skill=31}] run function lbc:swrg_kit_integration/game/skills/phoenix/respawn
+execute unless score legacy lbc.math matches 1 if score #lbcskill swrg.math matches 1.. if entity @s[scores={lbc.skill=31}] run function lbc:swrg_kit_integration/game/skills/phoenix/respawn
 execute if score #gamemode swrg.math matches 3..4 run function lbc:bedwars/player/died

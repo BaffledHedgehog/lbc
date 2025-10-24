@@ -11,6 +11,18 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "weight": 10000,
+                    "value": "lbc:lucky_items_high_quality",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {"equipment": {"head": {"predicates": {"custom_data": "{mellstroy_mask:1}"}}}}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "weight": 200000000,
                     "value": "lbc:luckyblock_imba",
                     "conditions": [

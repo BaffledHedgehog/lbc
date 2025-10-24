@@ -5,11 +5,11 @@ data modify storage stats:stats player set from block 10241024 55 10241024 Items
 tag @s remove player_target
 function lbc:swrg_kit_integration/gui/stats_refresh_skill2 with storage stats:stats
 
-loot replace entity @s enderchest.0 loot lbc:gui/page/10100/0
-loot replace entity @s enderchest.1 loot lbc:gui/page/10100/1
-loot replace entity @s enderchest.2 loot lbc:gui/page/10100/2
-loot replace entity @s enderchest.3 loot lbc:gui/page/10100/3
-loot replace entity @s enderchest.4 loot lbc:gui/page/10100/4
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/danmaku=true}] enderchest.0 loot lbc:gui/page/10100/0
+loot replace entity @s[advancements={lbc:true_advancements/bows/madoka_bow=true}] enderchest.1 loot lbc:gui/page/10100/1
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/exahoming=true}] enderchest.2 loot lbc:gui/page/10100/2
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/fire=true}] enderchest.3 loot lbc:gui/page/10100/3
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/gaycaster=true}] enderchest.4 loot lbc:gui/page/10100/4
 #loot replace entity @s enderchest.5 loot lbc:gui/page/10100/5
 #loot replace entity @s enderchest.6 loot lbc:gui/page/10100/6
 #loot replace entity @s enderchest.7 loot lbc:gui/page/10100/7

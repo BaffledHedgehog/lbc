@@ -25,6 +25,12 @@
                                             "id": "minecraft:base_attack_damage",
                                             "amount": 5,
                                             "operation": "add_value"
+                                        },{
+                                            "type": "minecraft:attack_speed",
+                                            "slot": "mainhand",
+                                            "id": "minecraft:base_attack_speed",
+                                            "amount": -3.4,
+                                            "operation": "add_value"
                                         }
                                     ],
                                     "enchantments": {
@@ -75,6 +81,11 @@
                                         "color": "yellow"
                                     },
                                     {
+                                        "translate": "halloween_mace.lore.4",
+                                        "italic": false,
+                                        "color": "gold"
+                                    },
+                                    {
                                         "translate": "halloween.lore",
                                         "color": "#ff670f",
                                         "italic": false
@@ -83,7 +94,7 @@
                             },
                             {
                                 "function": "minecraft:set_custom_data",
-                                "tag": "{transformable:1,shovel:1,halloween_mace:1,spellwithcooldown:1}"
+                                "tag": "{transformable:1,shovel:1,halloween_mace:1,spellwithcooldown:1,craftusable:1}"
                             }
                         ]
                     }

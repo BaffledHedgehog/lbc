@@ -1,0 +1,1 @@
+$place template lbc:light_sphere_21x21 ~-10 ~-10 ~-10 none none 0.1 $(rand) strict

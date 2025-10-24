@@ -134,6 +134,10 @@ execute unless items entity @s armor.legs *[minecraft:custom_data~{overload:1}] 
 execute if items entity @s armor.feet *[minecraft:custom_data~{overload:1}] run tag @s add overload_boots_active
 execute unless items entity @s armor.feet *[minecraft:custom_data~{overload:1}] run tag @s remove overload_boots_active
 
+
+execute if items entity @s armor.* *[minecraft:custom_data~{mellstroy_mask:1}] run function lbc:items/changed_inventory/mellstroy_equip_check
+execute unless items entity @s armor.* *[minecraft:custom_data~{mellstroy_mask:1}] run function lbc:items/changed_inventory/mellstroy_unequip_check
+
 execute if items entity @s armor.feet * unless data entity @s equipment.feet.components."minecraft:attribute_modifiers" run function lbc:items/changed_inventory/fix_attribute_feet
 execute if items entity @s armor.legs * unless data entity @s equipment.legs.components."minecraft:attribute_modifiers" run function lbc:items/changed_inventory/fix_attribute_legs
 execute if items entity @s armor.chest * unless data entity @s equipment.chest.components."minecraft:attribute_modifiers" run function lbc:items/changed_inventory/fix_attribute_chest

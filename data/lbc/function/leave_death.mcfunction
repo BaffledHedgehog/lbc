@@ -429,5 +429,19 @@ effect clear @s
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skills/killed_by_player
 tag @s remove danmaku_score_spawn
 
+attribute @s minecraft:armor modifier remove 89shg89emh89gseghs89d98ghsdg
+attribute @s minecraft:armor_toughness modifier remove 47568678ghs89d98ghsdg
+attribute @s minecraft:attack_damage modifier remove 47565hytyktyktysdg
+attribute @s minecraft:gravity modifier remove wge5gd6j7hn8kus89d98ghsdg
+attribute @s minecraft:fall_damage_multiplier modifier remove wge5gh45h45h54h5sdg
+scoreboard players set @s effect_ghosting 0
+
+scoreboard players set @s mace_1 60
+scoreboard players set @s mace_2 0
+scoreboard players set @s mace_3 0
+scoreboard players set @s mace_4 0
+tag @s remove unstamined
+
+advancement revoke @s only lbc:soulhunter_mace_use
 advancement revoke @s only lbc:skill_manavampire_player_hit_by_player
 advancement revoke @s only lbc:gowno_player_hit_player

@@ -5,21 +5,21 @@ data modify storage stats:stats player set from block 10241024 55 10241024 Items
 tag @s remove player_target
 function lbc:swrg_kit_integration/gui/stats_refresh_trinket with storage stats:stats
 
-loot replace entity @s enderchest.0 loot lbc:gui/page/11000/0
-loot replace entity @s enderchest.1 loot lbc:gui/page/11000/1
-loot replace entity @s enderchest.2 loot lbc:gui/page/11000/2
-loot replace entity @s enderchest.3 loot lbc:gui/page/11000/3
-loot replace entity @s enderchest.4 loot lbc:gui/page/11000/4
-loot replace entity @s enderchest.5 loot lbc:gui/page/11000/5
-loot replace entity @s enderchest.6 loot lbc:gui/page/11000/6
-loot replace entity @s enderchest.7 loot lbc:gui/page/11000/7
-loot replace entity @s enderchest.8 loot lbc:gui/page/11000/8
-loot replace entity @s enderchest.9 loot lbc:gui/page/11000/9
-loot replace entity @s enderchest.10 loot lbc:gui/page/11000/10
-loot replace entity @s enderchest.11 loot lbc:gui/page/11000/11
-loot replace entity @s enderchest.12 loot lbc:gui/page/11000/12
-loot replace entity @s enderchest.13 loot lbc:gui/page/11000/13
-loot replace entity @s enderchest.14 loot lbc:gui/page/11000/14
+loot replace entity @s[advancements={lbc:true_advancements/bows/blaze=true}] enderchest.0 loot lbc:gui/page/11000/0
+loot replace entity @s[advancements={lbc:true_advancements/bows/ghast=true}] enderchest.1 loot lbc:gui/page/11000/1
+loot replace entity @s[advancements={lbc:true_advancements/bows/penis_gun=true}] enderchest.2 loot lbc:gui/page/11000/2
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/acid=true}] enderchest.3 loot lbc:gui/page/11000/3
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/air=true}] enderchest.4 loot lbc:gui/page/11000/4
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/bass=true}] enderchest.5 loot lbc:gui/page/11000/5
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/bedrock=true}] enderchest.6 loot lbc:gui/page/11000/6
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/blaze=true}] enderchest.7 loot lbc:gui/page/11000/7
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/blind=true}] enderchest.8 loot lbc:gui/page/11000/8
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/corruption=true}] enderchest.9 loot lbc:gui/page/11000/9
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/electro=true}] enderchest.10 loot lbc:gui/page/11000/10
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/ender_random=true}] enderchest.11 loot lbc:gui/page/11000/11
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/evoker=true}] enderchest.12 loot lbc:gui/page/11000/12
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/exoperso=true}] enderchest.13 loot lbc:gui/page/11000/13
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/falling_stars=true}] enderchest.14 loot lbc:gui/page/11000/14
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.trinket1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math

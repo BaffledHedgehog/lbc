@@ -1,4 +1,4 @@
-clear @s minecraft:nether_star[minecraft:custom_data~{greedstone:1}] 1
+clear @s *[minecraft:custom_data~{greedstone:1}] 1
 scoreboard players add @s greed_prestige 1
 tag @s add greed_cursed
 title @s title " "

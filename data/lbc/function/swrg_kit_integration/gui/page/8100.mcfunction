@@ -5,11 +5,11 @@ data modify storage stats:stats player set from block 10241024 55 10241024 Items
 tag @s remove player_target
 function lbc:swrg_kit_integration/gui/stats_refresh_levelup2 with storage stats:stats
 
-loot replace entity @s enderchest.0 loot lbc:gui/page/8000/27
-loot replace entity @s enderchest.1 loot lbc:gui/page/8000/28
-loot replace entity @s enderchest.2 loot lbc:gui/page/8000/29
-loot replace entity @s enderchest.3 loot lbc:gui/page/8000/30
-loot replace entity @s enderchest.4 loot lbc:gui/page/8000/31
+loot replace entity @s[advancements={lbc:true_advancements/bows/railshish=true}] enderchest.0 loot lbc:gui/page/8000/27
+loot replace entity @s[advancements={lbc:true_advancements/bows/randchanted=true}] enderchest.1 loot lbc:gui/page/8000/28
+loot replace entity @s[advancements={lbc:true_advancements/bows/shulker=true}] enderchest.2 loot lbc:gui/page/8000/29
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/blood=true}] enderchest.3 loot lbc:gui/page/8000/30
+loot replace entity @s[advancements={lbc:true_advancements/armor/antimagic=true}] enderchest.4 loot lbc:gui/page/8000/31
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.levelup1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math

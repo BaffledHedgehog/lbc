@@ -1,0 +1,2 @@
+execute if entity @s[tag=metasola_1,scores={Lifetime=200..}] run return run function lbc:other/event/halloween/soulcorruptwand/metasola/1_tick_1s
+execute if entity @s[tag=metasola_2,scores={Lifetime=80..}] run return run function lbc:other/event/halloween/soulcorruptwand/metasola/2_tick_1s

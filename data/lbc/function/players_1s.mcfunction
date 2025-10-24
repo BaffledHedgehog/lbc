@@ -39,6 +39,9 @@ effect give @s[tag=paladin_full_active] minecraft:resistance 3 3
 execute if entity @s[scores={sprint_cooldown=1..}] run function lbc:players_1s_sprinted
 execute if score @s shadow_wisp_count matches 10.. unless score @s void_resistance matches 11.. run scoreboard players set @s void_resistance 10
 execute if score @s cooldown_wind_charge matches 1.. run scoreboard players remove @s cooldown_wind_charge 1
+scoreboard players remove @s[scores={mace_2=1..}] mace_2 1
+scoreboard players remove @s[scores={mace_3=1..}] mace_3 1
+scoreboard players remove @s[scores={mace_4=1..}] mace_4 1
 
 function lbc:armor/nanobots/tick1s
 

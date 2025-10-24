@@ -15,5 +15,5 @@ execute store success score tmp3 lbc.math if items entity @s armor.legs minecraf
 execute if score tmp3 lbc.math matches 1 run playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2
 execute store success score tmp3 lbc.math if items entity @s armor.feet minecraft:diamond_boots run loot replace entity @s armor.feet loot lbc:neko_set_overload/boots
 execute if score tmp3 lbc.math matches 1 run playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2
-clear @s minecraft:carrot_on_a_stick[minecraft:custom_data~{overload_crux:1}] 1
+clear @s *[minecraft:custom_data~{overload_crux:1}] 1
 #say хоба

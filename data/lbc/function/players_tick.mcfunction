@@ -8,6 +8,8 @@ execute if entity @s[scores={snowball=1..}] run function lbc:items/snowballs
 execute if entity @s[scores={bow_charge=1..}] run function lbc:items/bows/charge_query
 execute if entity @s[scores={crossbow_charge=1..}] run function lbc:items/bows/charge_query_crossbow
 execute if entity @s[predicate=lbc:is_sprinting] run function lbc:items/on_sprint
+execute if entity @s[predicate=!lbc:is_sprinting] run function lbc:items/on_not_sprint
+
 execute if entity @s[scores={sprint_timer=1..},predicate=!lbc:is_sprinting] run function lbc:players_sprint_end
 execute if entity @s[tag=no_arrows_active] run function lbc:other/artifact/noarrows
 execute if entity @s[tag=instantitem_active] run function lbc:other/instants/select
@@ -56,6 +58,9 @@ execute if score @s shadow_wisp_charge matches 100.. at @s anchored eyes positio
 execute if entity @s[scores={sauvojen_wand_upgrade=1..}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:items/wands/sauvojen_wand/meditate/tick
 #execute if score #gamestat swrg.math matches 0 run scoreboard players enable @s build_gui_pointer
 #execute if score #gamestat swrg.math matches 0 if score @s build_gui_pointer matches 1.. run function lbc:swrg_kit_integration/gui/build_manager/build_gui_pointer_select
+execute if items entity @s player.crafting.* *[custom_data~{craftusable:1}] run function lbc:other/craft/inventory_craft_check
+execute if entity @s[tag=mellstroy] run function lbc:armor/mellstroy_mask/tick
+
 advancement revoke @s only lbc:penis
 advancement revoke @s only lbc:eat_halloween_food
 tag @s remove left

@@ -58,7 +58,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "lbc:imba/barriers_imba",
-                    "weight": 43,
+                    "weight": 1,
                     "conditions": [
                         {
                             "condition": "minecraft:value_check",

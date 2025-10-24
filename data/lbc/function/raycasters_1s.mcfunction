@@ -1,5 +1,5 @@
 scoreboard players add @s Lifetime 20
-execute if score #lbcskill swrg.math matches 1 if score @s lbcID2 matches 1.. if predicate lbc:chance50 if entity @a[scores={lbc.skill=30}] unless entity @a[gamemode=!spectator,distance=..20] run function lbc:raycastselector_player_check_skill
+execute unless score legacy lbc.math matches 1 if score #lbcskill swrg.math matches 1 if score @s lbcID2 matches 1.. if predicate lbc:chance50 if entity @a[scores={lbc.skill=30}] unless entity @a[gamemode=!spectator,distance=..20] run function lbc:raycastselector_player_check_skill
 
 execute if entity @s[tag=mom] run function lbc:other/mom
 execute if entity @s[tag=futureluckyblock] run function lbc:other/luckyblockspawn
@@ -17,5 +17,6 @@ execute if entity @s[tag=supply_drop,tag=new] run function lbc:other/techno/supp
 execute if entity @s[tag=everlasting_bolt] run function lbc:workingitems/awaken_tuntija_wands/boltbolt/charge_tick_1s
 execute if entity @s[tag=diamondificator] align xyz positioned ~.5 ~.5 ~.5 run function lbc:workingitems/imba/diamond_area
 execute if entity @s[tag=corrupted_dust] run function lbc:workingitems/corrupted_pentagram/tick_1s
+execute if entity @s[tag=metasola] run function lbc:other/event/halloween/soulcorruptwand/metasola/tick_1s_select
 execute store result score lifetime_tmp lbc.math run data get entity @s data.lifetime 1
 execute if score lifetime_tmp lbc.math matches 1.. if score @s Lifetime >= lifetime_tmp lbc.math run kill @s

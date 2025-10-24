@@ -26,7 +26,7 @@
                     "is_direct": true
                 },
                 "entity": {
-                    "type": "#minecraft:mobs"
+                    "type": "player"
                 },
                 "player": {
                     "movement": {
@@ -47,5 +47,8 @@
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/default_kit"
     }
 }

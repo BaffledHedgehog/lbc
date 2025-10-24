@@ -5,31 +5,30 @@ data modify storage stats:stats player set from block 10241024 55 10241024 Items
 tag @s remove player_target
 function lbc:swrg_kit_integration/gui/stats_refresh_skill with storage stats:stats
 
-loot replace entity @s enderchest.0 loot lbc:gui/page/10000/0
-loot replace entity @s enderchest.1 loot lbc:gui/page/10000/1
-loot replace entity @s enderchest.2 loot lbc:gui/page/10000/2
-loot replace entity @s enderchest.3 loot lbc:gui/page/10000/3
-loot replace entity @s enderchest.4 loot lbc:gui/page/10000/4
-loot replace entity @s enderchest.5 loot lbc:gui/page/10000/5
-loot replace entity @s enderchest.6 loot lbc:gui/page/10000/6
-loot replace entity @s enderchest.7 loot lbc:gui/page/10000/7
-loot replace entity @s enderchest.8 loot lbc:gui/page/10000/8
-loot replace entity @s enderchest.9 loot lbc:gui/page/10000/9
-loot replace entity @s enderchest.10 loot lbc:gui/page/10000/10
-loot replace entity @s enderchest.11 loot lbc:gui/page/10000/11
-loot replace entity @s enderchest.12 loot lbc:gui/page/10000/12
-loot replace entity @s enderchest.13 loot lbc:gui/page/10000/13
-loot replace entity @s enderchest.14 loot lbc:gui/page/10000/14
-loot replace entity @s enderchest.15 loot lbc:gui/page/10000/15
-loot replace entity @s enderchest.16 loot lbc:gui/page/10000/16
-loot replace entity @s enderchest.17 loot lbc:gui/page/10000/17
-
-loot replace entity @s enderchest.19 loot lbc:gui/page/10000/19
-loot replace entity @s enderchest.20 loot lbc:gui/page/10000/20
-loot replace entity @s enderchest.21 loot lbc:gui/page/10000/21
-loot replace entity @s enderchest.22 loot lbc:gui/page/10000/22
-loot replace entity @s enderchest.23 loot lbc:gui/page/10000/23
-loot replace entity @s enderchest.24 loot lbc:gui/page/10000/24
+loot replace entity @s[advancements={lbc:true_advancements/accesories/jaakivi=true}] enderchest.0 loot lbc:gui/page/10000/0
+loot replace entity @s[advancements={lbc:true_advancements/accesories/magnet=true}] enderchest.1 loot lbc:gui/page/10000/1
+loot replace entity @s[advancements={lbc:true_advancements/accesories/mystical_artifact=true}] enderchest.2 loot lbc:gui/page/10000/2
+loot replace entity @s[advancements={lbc:true_advancements/arcanums/tannerkivi=true}] enderchest.3 loot lbc:gui/page/10000/3
+loot replace entity @s[advancements={lbc:true_advancements/armor/erosion=true}] enderchest.4 loot lbc:gui/page/10000/4
+loot replace entity @s[advancements={lbc:true_advancements/armor/nyauwu=true}] enderchest.5 loot lbc:gui/page/10000/5
+loot replace entity @s[advancements={lbc:true_advancements/armor/paladin=true}] enderchest.6 loot lbc:gui/page/10000/6
+loot replace entity @s[advancements={lbc:true_advancements/armor/randchanted=true}] enderchest.7 loot lbc:gui/page/10000/7
+loot replace entity @s[advancements={lbc:true_advancements/armor/shitty_full=true}] enderchest.8 loot lbc:gui/page/10000/8
+loot replace entity @s[advancements={lbc:true_advancements/armor/shulker_full=true}] enderchest.9 loot lbc:gui/page/10000/9
+loot replace entity @s[advancements={lbc:true_advancements/armor/techno_full=true}] enderchest.10 loot lbc:gui/page/10000/10
+loot replace entity @s[advancements={lbc:true_advancements/axes/banhammer=true}] enderchest.11 loot lbc:gui/page/10000/11
+loot replace entity @s[advancements={lbc:true_advancements/axes/hammer=true}] enderchest.12 loot lbc:gui/page/10000/12
+loot replace entity @s[advancements={lbc:true_advancements/bows/minigun=true}] enderchest.13 loot lbc:gui/page/10000/13
+loot replace entity @s[advancements={lbc:true_advancements/bows/double=true}] enderchest.14 loot lbc:gui/page/10000/14
+loot replace entity @s[advancements={lbc:true_advancements/hoes/death_skytche=true}] enderchest.15 loot lbc:gui/page/10000/15
+loot replace entity @s[advancements={lbc:true_advancements/hoes/sickle=true}] enderchest.16 loot lbc:gui/page/10000/16
+loot replace entity @s[advancements={lbc:true_advancements/hoes/socializm=true}] enderchest.17 loot lbc:gui/page/10000/17
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/acidacid=true}] enderchest.19 loot lbc:gui/page/10000/19
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/acidcorrupt=true}] enderchest.20 loot lbc:gui/page/10000/20
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/big_stone=true}] enderchest.21 loot lbc:gui/page/10000/21
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/boltbolt=true}] enderchest.22 loot lbc:gui/page/10000/22
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/consuming=true}] enderchest.23 loot lbc:gui/page/10000/23
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/dublicating=true}] enderchest.24 loot lbc:gui/page/10000/24
 #
 item modify entity @s[scores={lbc.skill=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.skill=2}] enderchest.1 swrg:select

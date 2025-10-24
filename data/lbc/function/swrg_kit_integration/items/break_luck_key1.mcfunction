@@ -1,1 +1,1 @@
-clear @a minecraft:stick[minecraft:damage=1,minecraft:custom_data~{luck_key:1}] 1
+clear @a *[minecraft:damage=1,minecraft:custom_data~{luck_key:1}] 1

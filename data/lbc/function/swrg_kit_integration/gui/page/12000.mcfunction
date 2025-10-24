@@ -9,7 +9,7 @@ function lbc:swrg_kit_integration/gui/stats_refresh_x_kit with storage stats:sta
 #function lbc:swrg_kit_integration/gui/stats_refresh_x_levelup with storage stats:stats
 
 
-loot replace entity @s enderchest.0 loot lbc:gui/page/12000/0
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/root=true,lbc:challenges/no_knowledge=false}] enderchest.0 loot lbc:gui/page/12000/0
 loot replace entity @s[advancements={lbc:challenges/no_knowledge=true}] enderchest.0 loot lbc:gui/page/12000/0_completed
 
 

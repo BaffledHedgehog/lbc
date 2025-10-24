@@ -26,11 +26,10 @@ execute if score @s effect_add_manaregen matches 1.. run function lbc:effects/ef
 execute if score @s[tag=!sin_greed_active] effect_remove_mana matches 1.. run function lbc:effects/effect_remove_mana
 execute if score @s[tag=!sin_greed_active] effect_snus matches 1.. run function lbc:effects/effect_snus
 execute if score @s[tag=!sin_greed_active] effect_shock_potion matches 1.. run function lbc:effects/effect_shock_potion
+execute if score @s[tag=!sin_greed_active] effect_ghosting matches 1.. run function lbc:effects/ghosting_tick
 
 execute if entity @s[scores={piss=1..},tag=!sin_greed_active] anchored eyes positioned ^ ^ ^.3 run function lbc:workingitems/yellow_lightning_asplayer
 execute if entity @s[scores={frozen=1..},tag=!sin_greed_active] run function lbc:other/freeze/block/tick with storage lbc.math
-
-
 
 
 

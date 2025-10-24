@@ -54,5 +54,7 @@ execute if items entity @s[scores={cooldown_wind_charge=..0}] weapon.* *[minecra
 execute if items entity @s[scores={pulsar_cd=1..}] weapon.* *[minecraft:custom_data~{nexus_pulsar:1}] run data modify storage lbc.math ui append value {"text":"    \uE105 ","extra":[{"score":{"name":"@s","objective":"pulsar_cd"},"color":"white"}]}
 execute if items entity @s[scores={pulsar_cd=..0}] weapon.* *[minecraft:custom_data~{nexus_pulsar:1}] run data modify storage lbc.math ui append value {"text":"    \uE104 ","extra":[{"translate":"ready","color":"green"}]}
 
+execute if items entity @s weapon.* *[minecraft:custom_data~{soulhunter_mace:1}] run function lbc:ui/cooldown_soulhunter_mace
+
 execute if score @s danmaku matches 1.. run data modify storage lbc.math ui append value {"text":"    \uE133 ","extra":[{"score":{"name":"@s","objective":"danmaku"},"color":"#FFA1F2"}]}
 execute if score @s danmaku_score matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE134 ","extra":[{"score":{"name":"@s","objective":"danmaku_score"},"color":"#D494FF"}]}

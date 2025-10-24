@@ -12,12 +12,6 @@ execute store result storage lbc.math i int 1 run random value 0..1048
 function lbc:drops/tmt/write_random_nbttag with storage lbc.math
 execute store result storage lbc.math i int 1 run random value 0..1048
 function lbc:drops/tmt/write_random_nbttag with storage lbc.math
-execute store result storage lbc.math i int 1 run random value 0..1048
-function lbc:drops/tmt/write_random_nbttag with storage lbc.math
-execute store result storage lbc.math i int 1 run random value 0..1048
-function lbc:drops/tmt/write_random_nbttag with storage lbc.math
-execute store result storage lbc.math i int 1 run random value 0..1048
-function lbc:drops/tmt/write_random_nbttag with storage lbc.math
 
 function lbc:drops/tmt/select_random_name
 

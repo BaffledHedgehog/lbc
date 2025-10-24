@@ -1,6 +1,6 @@
 scoreboard players operation *tempt lbcID2 = @s team_number
 execute as @e[type=#minecraft:mobs,distance=0.01..50,tag=!spectator,tag=!strict_map_object,predicate=!lbc:same_team] at @s run function lbc:other/imba/runes/thurisaz_cast_others
-clear @s minecraft:carrot_on_a_stick[minecraft:custom_data~{rune_thurisaz:1}] 1
+clear @s *[minecraft:custom_data~{rune_thurisaz:1}] 1
 attribute @s minecraft:scale modifier add minecraft:rune_thurisaz 1 add_multiplied_total
 attribute @s minecraft:attack_damage modifier add minecraft:rune_thurisaz 1 add_multiplied_total
 attribute @s minecraft:attack_knockback modifier add minecraft:rune_thurisaz 1 add_value

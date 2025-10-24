@@ -38,5 +38,8 @@
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "lbc:swrg_kit_integration/gain/default_skill"
     }
 }

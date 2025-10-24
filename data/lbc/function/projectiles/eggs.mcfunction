@@ -37,6 +37,10 @@ execute if data entity @e[type=minecraft:snowball,sort=nearest,limit=1] Item.com
 execute if data entity @e[type=minecraft:snowball,sort=nearest,limit=1] Item.components.minecraft:custom_data{time_stopper:1} run function lbc:swrg_kit_integration/items/touhou_items/time_stop
 execute if data entity @e[type=minecraft:snowball,sort=nearest,limit=1] Item.components.minecraft:custom_data{bomb_item:1} run function lbc:swrg_kit_integration/items/touhou_items/bomb
 
+tag @s add thrower
+execute as @e[type=minecraft:snowball,sort=nearest,limit=1,nbt={Item:{components:{"minecraft:custom_data":{metasola:1}}}}] at @s run function lbc:other/event/halloween/soulcorruptwand/metasola/throw
+tag @s remove thrower
+
 execute anchored eyes positioned ^ ^ ^ if data entity @e[type=minecraft:snowball,sort=nearest,limit=1] Item.components.minecraft:custom_data{jack_o_lantern:1} run function lbc:other/event/halloween/jack_o_lantern_spawn
 
 # remove egg

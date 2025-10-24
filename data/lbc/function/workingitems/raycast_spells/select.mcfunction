@@ -18,7 +18,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{ske
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{trap2:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{trap2:1}}}}] run clear @s minecraft:carrot_on_a_stick[minecraft:custom_data~{trap2:1}] 1
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{trap2:1}}}}] run clear @s *[minecraft:custom_data~{trap2:1}] 1
 
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{lightning_old:1}}}}] run function lbc:workingitems/unstable_spellbook/raycast_loop16_old
@@ -67,5 +67,6 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{run
 
 
 # Сбросить счёт RC_Raycast
+item replace entity @s[scores={empty=1}] weapon.mainhand with air
 scoreboard players set @s empty 0
 scoreboard players set @s Distance 0

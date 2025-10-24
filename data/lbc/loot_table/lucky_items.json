@@ -173,80 +173,10 @@
                         ]
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
-                        "quality": 5,
-                        "name": "minecraft:panda_spawn_egg",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 8
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:item_model": "lbc:lightningegg",
-                                    "minecraft:tooltip_style": "lbc:tier_b",
-                                    "minecraft:entity_data": {
-                                        "id": "minecraft:lightning_bolt"
-                                    }
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "lightning_bolt.lbc",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "lightning_bolt.lore.1",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "lightning_bolt.lore.2",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "lightning_bolt.lore.3",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "lightning_bolt.lore.4",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "lightning_bolt.lore.5",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "lightning_bolt.lore.6",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "craft_with_wind",
-                                        "color": "gold",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{craftusable:1,bolt_material:1}"
-                            }
-                        ]
+                        "quality": 0,
+                        "value": "lbc:lightning_bolt_egg"
                     },
                     {
                         "type": "minecraft:loot_table",
@@ -573,54 +503,10 @@
                         "value": "lbc:stews"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 10,
-                        "name": "minecraft:snowball",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_c",
-                                    "minecraft:item_model": "lbc:rasengan"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "rasengan.lore.1",
-                                        "color": "yellow",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "rasengan.lore.2",
-                                        "color": "yellow",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "rasengan",
-                                        "color": "aqua",
-                                        "bold": true,
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{gadget:1,rasengan:1}"
-                            }
-                        ],
+                        "value": "lbc:rasengan",
                         "conditions": [
                             {
                                 "condition": "minecraft:inverted",
@@ -641,54 +527,10 @@
                         ]
                     },
                     {
-                        "type": "minecraft:item",
-                        "weight": 10000,
+                        "type": "minecraft:loot_table",
+                        "weight": 10,
                         "quality": 10,
-                        "name": "minecraft:snowball",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_c",
-                                    "minecraft:item_model": "lbc:rasengan"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "rasengan.lore.1",
-                                        "color": "yellow",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "rasengan.lore.2",
-                                        "color": "yellow",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "rasengan",
-                                        "color": "aqua",
-                                        "bold": true,
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{gadget:1,rasengan:1}"
-                            }
-                        ],
+                        "value": "lbc:rasengan",
                         "conditions": [
                             {
                                 "condition": "minecraft:value_check",
@@ -738,97 +580,16 @@
                         ]
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 9,
-                        "name": "minecraft:snowball",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_a",
-                                    "minecraft:item_model": "lbc:swapper"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "swapper",
-                                        "color": "light_purple",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "swapper.lore.1",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "swapper.lore.2",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{randtp:1,gadget:1}"
-                            }
-                        ]
+                        "value": "lbc:swapper"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 8,
-                        "name": "minecraft:snowball",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_b",
-                                    "minecraft:item_model": "lbc:islandtp"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "island_teleporter",
-                                        "color": "aqua",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "island_teleporter.lore",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{islandtp:1,gadget:1}"
-                            }
-                        ]
+                        "value": "lbc:island_teleporter"
                     },
                     {
                         "type": "minecraft:item",
@@ -896,91 +657,16 @@
                         ]
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
-                        "name": "minecraft:black_shulker_box",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_c",
-                                    "minecraft:container_loot": {
-                                        "loot_table": "lbc:infinity"
-                                    }
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "infinite_shulker",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "infinite_shulker.lore",
-                                        "italic": false,
-                                        "color": "yellow"
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{craftusable:1,inf_shulker:1}"
-                            }
-                        ]
+                        "quality": 2,
+                        "value": "lbc:inf_shulker"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 10,
-                        "name": "minecraft:cooked_beef",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_c"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "infinite_steak",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "infinite_steak.lore",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{inf:1}"
-                            }
-                        ]
+                        "value": "lbc:inf_steak"
                     },
                     {
                         "type": "minecraft:loot_table",
@@ -995,68 +681,10 @@
                         "value": "lbc:redstone"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 10,
-                        "name": "minecraft:golden_apple",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_b",
-                                    "minecraft:item_model": "lbc:badapple"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "text": "B",
-                                        "color": "white",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "text": "a",
-                                        "color": "black",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "text": "d ",
-                                        "color": "white",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "text": "A",
-                                        "color": "black",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "text": "ppl",
-                                        "color": "white",
-                                        "italic": false,
-                                        "type": "text"
-                                    },
-                                    {
-                                        "text": "e",
-                                        "color": "black",
-                                        "italic": false,
-                                        "type": "text"
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{bad_apple:1}"
-                            }
-                        ]
+                        "value": "lbc:badapple"
                     },
                     {
                         "type": "minecraft:loot_table",
@@ -1065,115 +693,16 @@
                         "value": "lbc:attributefood"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 10,
-                        "name": "minecraft:carrot_on_a_stick",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_b",
-                                    "minecraft:item_model": "lbc:shadowglove"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "shadow_glove",
-                                        "color": "aqua",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "shadow_glove.lore.1",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "shadow_glove.lore.2",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "shadow_glove.lore.3",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{raycastspell:1,krazha:1}"
-                            }
-                        ]
+                        "value": "lbc:shadowglove"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 10,
-                        "name": "minecraft:snowball",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": {
-                                    "min": 1,
-                                    "max": 6,
-                                    "type": "minecraft:uniform"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_b",
-                                    "minecraft:item_model": "lbc:luckygrenade"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "lucky_grenade",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "lucky_grenade.lore.1",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "lucky_grenade.lore.2",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "lucky_grenade.lore.3",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{special:1,luckygrenade:1}"
-                            }
-                        ]
+                        "value": "lbc:lucky_grenades"
                     },
                     {
                         "type": "minecraft:item",
@@ -1815,172 +1344,25 @@
                         ]
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
-                        "name": "minecraft:tipped_arrow",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_a",
-                                    "minecraft:potion_contents": {
-                                        "custom_color": 16777215,
-                                        "custom_effects": [
-                                            {
-                                                "id": "minecraft:raid_omen",
-                                                "amplifier": 112,
-                                                "duration": 400
-                                            }
-                                        ]
-                                    },
-                                    "tooltip_display": {
-                                        "hidden_components": [
-                                            "minecraft:potion_contents"
-                                        ]
-                                    }
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "lightshoot_arrow",
-                                        "italic": false
-                                    }
-                                ]
-                            }
-                        ]
+                        "value": "lbc:lightarrow"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
-                        "name": "minecraft:tipped_arrow",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 4
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_a",
-                                    "minecraft:potion_contents": {
-                                        "custom_color": 16763161,
-                                        "custom_effects": [
-                                            {
-                                                "id": "minecraft:raid_omen",
-                                                "amplifier": 111,
-                                                "duration": 300
-                                            }
-                                        ]
-                                    },
-                                    "tooltip_display": {
-                                        "hidden_components": [
-                                            "minecraft:potion_contents"
-                                        ]
-                                    }
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "kiuaskivi_arrow",
-                                        "italic": false
-                                    }
-                                ]
-                            }
-                        ]
+                        "value": "lbc:kiuaskivi_arrow"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
-                        "name": "minecraft:tipped_arrow",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 5
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_b",
-                                    "minecraft:potion_contents": {
-                                        "custom_color": 2236962,
-                                        "custom_effects": [
-                                            {
-                                                "id": "minecraft:raid_omen",
-                                                "amplifier": 113,
-                                                "duration": 300
-                                            }
-                                        ]
-                                    },
-                                    "tooltip_display": {
-                                        "hidden_components": [
-                                            "minecraft:potion_contents"
-                                        ]
-                                    }
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "trapping_arrow",
-                                        "italic": false
-                                    }
-                                ]
-                            }
-                        ]
+                        "value": "lbc:evoker_arrow"
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 7,
-                        "name": "minecraft:snowball",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_u",
-                                    "minecraft:item_model": "lbc:troll_box"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "troll_box",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "troll_box.lore.1",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "troll_box.lore.2",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{trollge:1,gadget:1}"
-                            }
-                        ]
+                        "value": "lbc:troll_box"
                     },
                     {
                         "type": "minecraft:loot_table",
@@ -2087,83 +1469,10 @@
                         ]
                     },
                     {
-                        "type": "minecraft:item",
+                        "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 8,
-                        "name": "minecraft:carrot_on_a_stick",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_q",
-                                    "minecraft:item_model": "lbc:witch_gens"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "witch_gens",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "entity": "this",
-                                "lore": [
-                                    {
-                                        "translate": "witch_gens.lore.1",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "witch_gens.lore.2",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "witch_gens.lore.3",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "witch_gens.lore.4",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "witch_gens.lore.5",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "witch_gens.lore.6",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "witch_gens.lore.7",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "witch_gens.lore.8",
-                                        "color": "white",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{witch_gens:1,magicwand:1}"
-                            }
-                        ]
+                        "value": "lbc:witch_gens"
                     },
                     {
                         "type": "minecraft:loot_table",

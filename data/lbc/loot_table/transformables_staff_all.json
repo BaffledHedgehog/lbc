@@ -97,6 +97,11 @@
                     "type": "minecraft:loot_table",
                     "value": "lbc:sauvojen_tuntija_wand",
                     "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:halloween/transformables_staff",
+                    "weight": 2
                 }
             ]
         }

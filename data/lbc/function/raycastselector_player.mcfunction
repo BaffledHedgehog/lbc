@@ -46,3 +46,7 @@ execute if entity @s[tag=electric_particle] run return run function lbc:swrg_kit
 execute if entity @s[tag=purple_particle] run return run function lbc:swrg_kit_integration/game/skills/rainbow_aura/aura_purple_tick_particle
 execute if entity @s[tag=savoujen_player] run return run function lbc:items/wands/sauvojen_wand/flying_wand_tick
 execute if entity @s[tag=savoujen_player_upgraded] run return run function lbc:items/wands/sauvojen_wand/flying_wand_tick_upgraded
+execute if entity @s[tag=winpumpkin] run return run function lbc:swrg_kit_integration/game/win_effects/winpumpkin
+execute if entity @s[tag=metasola] run return run function lbc:other/event/halloween/soulcorruptwand/metasola/tick
+execute if entity @s[tag=soulparticle] run return run function lbc:swrg_kit_integration/kill_effects/soul_particle
+execute if entity @s[tag=wagnerhammer] run return run function lbc:swrg_kit_integration/kill_effects/hammerfalling
