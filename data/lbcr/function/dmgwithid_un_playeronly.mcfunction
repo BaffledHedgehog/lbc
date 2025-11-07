@@ -1,2 +1,2 @@
-execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator] lbcID2 = @s lbcID2 run tag @p[gamemode=!spectator] add nodamage
-execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator] team_number = @s team_number run tag @p[gamemode=!spectator] add nodamage1
+execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator,distance=..0.01] lbcID2 = @s lbcID2 run tag @p[gamemode=!spectator] add nodamage
+execute at @a[gamemode=!spectator] if score @p[gamemode=!spectator,distance=..0.01] team_number = @s team_number run tag @p[gamemode=!spectator] add nodamage1

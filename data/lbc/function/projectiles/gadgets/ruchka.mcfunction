@@ -1,2 +1,3 @@
-execute positioned ~ ~1 ~ unless entity @a[gamemode=!spectator,distance=..4.5] run scoreboard players set @s lbcID2 -1
+execute positioned ~ ~1 ~ unless entity @a[gamemode=!spectator,distance=..7] run scoreboard players set @s lbcID2 -1
+execute positioned ~ ~1 ~ unless entity @a[gamemode=!spectator,distance=..7] run scoreboard players set @s team_number -1
 execute positioned ~ ~1 ~ at @a[gamemode=!spectator,distance=..4.5] unless score @p[gamemode=!spectator] lbcID2 = @s lbcID2 unless score @p[gamemode=!spectator] team_number = @s team_number run function lbc:projectiles/gadgets/ruchka_2

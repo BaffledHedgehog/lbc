@@ -8,15 +8,8 @@
                     "value": "lbc:random_glack_1",
                     "functions": [
                         {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:max_stack_size": 99,
-                                "!minecraft:max_damage": {}
-                            }
-                        },
-                        {
                             "function": "minecraft:set_count",
-                            "count": 99
+                            "count": 64
                         }
                     ]
                 }

@@ -15,7 +15,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "lbc:nekoluckyblock",
+                    "value": "lbc:nekolucky_items",
                     "weight": 10
                 },
                 {
@@ -45,7 +45,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "lbc:luckyblock_imba",
+                    "value": "lbc:imba/lucky_items_imba",
                     "weight": 5
                 },
                 {
@@ -60,7 +60,12 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "lbc:reactive_shish",
+                    "value": "lbc:reactive_shish_item",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:end_of_technomagic",
                     "weight": 1
                 },
                 {

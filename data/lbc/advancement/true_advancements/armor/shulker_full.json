@@ -42,25 +42,21 @@
                                 "head": {
                                     "predicates": {
                                         "minecraft:custom_data": "{shulkshell: 1}"
-                                        
                                     }
                                 },
                                 "chest": {
                                     "predicates": {
                                         "minecraft:custom_data": "{shulkshell: 1}"
-                                        
                                     }
                                 },
                                 "legs": {
                                     "predicates": {
                                         "minecraft:custom_data": "{shulkshell: 1}"
-                                        
                                     }
                                 },
                                 "feet": {
                                     "predicates": {
                                         "minecraft:custom_data": "{shulkshell: 1}"
-                                        
                                     }
                                 }
                             }
@@ -75,7 +71,7 @@
                     },
                     {
                         "predicates": {
-                            "minecraft:custom_data": "{transformable: 1,bow: 1,shulker: 1}"
+                            "minecraft:custom_data": "{transformable: 1,bow: 1,shulker_new: 1}"
                         }
                     },
                     {

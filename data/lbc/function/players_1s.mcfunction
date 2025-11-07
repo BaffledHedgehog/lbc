@@ -7,6 +7,7 @@ scoreboard players remove @s[scores={coldown1=1..}] coldown1 1
 scoreboard players remove @s[scores={lust_cd=1..}] lust_cd 1
 scoreboard players remove @s[scores={lust_cd_small=1..}] lust_cd_small 1
 execute unless score @s swrg.gui_page matches -2147483648..2147483647 run scoreboard players set @s swrg.gui_page 0
+execute unless score @s nexus_compass_cd matches -2147483648..2147483647 run scoreboard players set @s nexus_compass_cd 0
 scoreboard players remove @s[scores={divider_cd=1..}] divider_cd 1
 scoreboard players remove @s[scores={coldownoraora=1..}] coldownoraora 1
 scoreboard players remove @s[scores={coldowntimestand=1..}] coldowntimestand 1
@@ -43,6 +44,7 @@ scoreboard players remove @s[scores={mace_2=1..}] mace_2 1
 scoreboard players remove @s[scores={mace_3=1..}] mace_3 1
 scoreboard players remove @s[scores={mace_4=1..}] mace_4 1
 
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{fartus_nadristailo:1,upgraded:1}] run function lbc:workingitems/firtusnadristailo/sword_tick_1s
 function lbc:armor/nanobots/tick1s
 
 execute if entity @s[nbt=!{OnGround:1b}] run function lbc:items/on_falling_second_check

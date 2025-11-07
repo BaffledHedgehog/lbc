@@ -350,6 +350,7 @@ scoreboard objectives add mace_1 dummy
 scoreboard objectives add mace_2 dummy
 scoreboard objectives add mace_3 dummy
 scoreboard objectives add mace_4 dummy
+scoreboard objectives add fartus_sword dummy
 
 #scoreboard players set antigravity lbc.math 0
 

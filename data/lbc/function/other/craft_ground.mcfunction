@@ -76,3 +76,4 @@ execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{explosive_f
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{troll:1}}}}] if entity @e[type=minecraft:item,distance=0.001..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{troll:1}}}}] run function lbc:other/craft/mellstroy_mask
 
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{halloween_mace:1}}}}] if entity @e[type=minecraft:item,distance=0.001..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{soulcorrupter:1}}}}] run function lbc:other/craft/soulhunter_mace
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{stterra:1}}}}] if entity @e[type=minecraft:item,distance=0.001..1,limit=1,nbt={Item:{components:{"minecraft:custom_data":{wtf_item:1}}}}] run function lbc:other/craft/fartus_nadristailo

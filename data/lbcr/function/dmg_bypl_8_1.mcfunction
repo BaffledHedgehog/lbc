@@ -4,5 +4,3 @@ execute unless entity @a[tag=nodamage] run summon minecraft:marker ~ ~4 ~ {Tags:
 execute if entity @s[tag=stable] if entity @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..10,tag=!nodamage,tag=!nodamage1,tag=!spectator] run advancement grant @a[tag=nodamage,limit=1] only lbc:true_advancements/staffs/prism
 execute as @e[type=#minecraft:mobs,dx=0,dy=0,dz=0,distance=..10,tag=!nodamage,tag=!nodamage1,tag=!spectator,limit=2] run damage @s 8 cactus by @e[type=#minecraft:player_marker,tag=nodamage,tag=!spectator,limit=1]
 kill @e[type=minecraft:marker,tag=nodamage]
-tag @a remove nodamage
-tag @a remove nodamage1

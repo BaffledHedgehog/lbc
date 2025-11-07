@@ -1113,7 +1113,7 @@
                                     },
                                     [
                                         {
-                                            "text": "Tinkist",
+                                            "text": "Tinkist00",
                                             "color": "green",
                                             "italic": false,
                                             "type": "text"
@@ -1124,12 +1124,16 @@
                                             "italic": false,
                                             "type": "text"
                                         }
-                                    ]
+                                    ],{
+                                        "translate": "razorpine.lore.1",
+                                        "color": "yellow",
+                                        "italic": false
+                                    }
                                 ]
                             },
                             {
                                 "function": "minecraft:set_custom_data",
-                                "tag": "{wtf_item:1}"
+                                "tag": "{wtf_item:1,craftusable:1}"
                             }
                         ]
                     },
@@ -1387,6 +1391,16 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "type": "minecraft:loot_table",
+                        "value": "lbc:big_bob",
+                        "weight": 10
+                    },
+                    {
+                        "type": "minecraft:loot_table",
+                        "value": "lbc:siggewinne_syringe",
+                        "weight": 10
                     }
                 ]
             }

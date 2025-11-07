@@ -1,6 +1,6 @@
 scoreboard players add @s Distance 1
 
-execute if block ~ ~ ~ #minecraft:glasses_2 run function lbcr:raycast_loop7_stabilize
+execute if block ~ ~ ~ #minecraft:glasses_2 run return run function lbcr:raycast_loop7_stabilize
 
 particle minecraft:dust_color_transition{from_color:[0.0,0.7,0.4],scale:2.0f,to_color:[0.0,5.0,1.0]} ~ ~ ~ 0.1 0.1 0.1 0.01 1 force
 playsound minecraft:item.trident.return master @a ~ ~ ~ 0.1 0

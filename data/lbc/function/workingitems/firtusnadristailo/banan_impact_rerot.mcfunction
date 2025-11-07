@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^1 facing entity @s feet positioned as @s run tp @s ~ ~ ~ ~ ~

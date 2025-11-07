@@ -1,3 +1,6 @@
+execute if entity @s[advancements={lbc:eat_oreshek=true}] run tellraw @a {"text":"\uE202"}
+advancement revoke @s only lbc:damaged_by_super_guardian
+advancement revoke @s only lbc:eat_oreshek
 advancement revoke @s only lbc:aimbobapple
 advancement revoke @s only lbc:any_shield
 advancement revoke @s only lbc:armorattr
@@ -440,6 +443,7 @@ scoreboard players set @s mace_1 60
 scoreboard players set @s mace_2 0
 scoreboard players set @s mace_3 0
 scoreboard players set @s mace_4 0
+scoreboard players set @s fartus_sword 0
 tag @s remove unstamined
 
 advancement revoke @s only lbc:soulhunter_mace_use

@@ -19,6 +19,8 @@ execute if entity @s[tag=yellow_lightning_active] run function lbc:workingitems/
 execute if entity @s[tag=erosion_active] run function lbc:armor/erosion/tick
 execute if score #lbcskill swrg.math matches 1 run function lbc:swrg_kit_integration/game/skill/tick_5t
 execute if score badapple lbc.math matches 1 run function lbc:other/imba/bad_apple/players_second
+execute if items entity @s weapon.* *[minecraft:custom_data~{siggewinne_syringe:1}] run function lbc:workingitems/siggewinne_syringe/tick_5t
+execute unless items entity @s[tag=holding_syringe] weapon.* *[minecraft:custom_data~{siggewinne_syringe:1}] run function lbc:workingitems/siggewinne_syringe/drop
 
 tag @s remove spectator
 execute if score @s acid_rifle matches 1.. unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/awaken_tuntija_wands/acidacid/click_upgraded_mode_rifle_tick

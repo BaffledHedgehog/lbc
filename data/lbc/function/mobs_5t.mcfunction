@@ -2,10 +2,10 @@ execute if entity @s[tag=lightningist,tag=!spectator] run particle minecraft:ele
 execute if data entity @s[tag=!spectator] active_effects[{id:"minecraft:conduit_power"}] run function lbc:other/waterpower
 execute if data entity @s[tag=!spectator] active_effects[{id:"minecraft:water_breathing"}] run function lbc:other/realdrownpre
 execute if entity @s[tag=have_lucky_effects_5t,tag=!spectator] run function lbc:effects/tick_5t
-
+execute if entity @s[type=minecraft:blaze,tag=super_blaze] if predicate lbc:chance10 run function lbc:other/big_fireball_byid
 execute if entity @s[tag=!spectator,scores={lookback=1..}] run function lbc:workingitems/psychowand/lookbackloop
 execute if entity @s[tag=!spectator,scores={scared=1..}] run function lbc:workingitems/psychowand/scaredloop
 execute if entity @s[tag=!hedgehog,tag=!spectator] unless score @e[type=minecraft:silverfish,distance=..1,tag=hedgehog,limit=1] lbcID2 = @s lbcID2 unless score @e[type=minecraft:silverfish,distance=..1,tag=hedgehog,limit=1] team_number = @s team_number run damage @s 4 thorns
 execute if entity @s[type=minecraft:player] run function lbc:pre_player_5t
 execute if entity @s[tag=lucky_mob] run function lbc:mobs_5t_lbc
-
+execute if entity @s[tag=syringe_buffed] run function lbc:workingitems/siggewinne_syringe/buffed_mob_particles

@@ -1,0 +1,6 @@
+summon minecraft:item_display ~ ~ ~ {interpolation_duration:1,shadow_radius:0.0f,shadow_strength:0.0f,teleport_duration:1,item_display:"fixed",transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],translation:[0.0f,0.0f,0.0f],scale:[1.0f,1.0f,1.0f]},item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"lbc:banana"},count:1},Tags:["banana","slowraycast","player","homing","in_entity"],data:{lifetime:100}}
+tp @e[type=minecraft:item_display,distance=..0.01,tag=banana,tag=!actived,limit=1] ~ ~ ~ ~ ~
+execute as @e[type=minecraft:item_display,distance=..0.01,tag=banana,tag=!actived,limit=1] at @s run function lbc:universal_razbros_big
+scoreboard players operation @e[type=minecraft:item_display,distance=..0.01,tag=banana,tag=!actived,limit=1] lbcID2 = @s lbcID2
+scoreboard players operation @e[type=minecraft:item_display,distance=..0.01,tag=banana,tag=!actived,limit=1] team_number = @s team_number
+tag @e[type=minecraft:item_display,distance=..0.01,tag=banana,tag=!actived,limit=1] add actived

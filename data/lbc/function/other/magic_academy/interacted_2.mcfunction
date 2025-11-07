@@ -58,3 +58,4 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{sau
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{vex_wand:1}}}}] run function lbc:other/magic_academy/can_upgrade/vex_wand
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{soulcorrupter:1}}}}] run function lbc:other/magic_academy/can_upgrade/soulcorrupter
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{fartus_nadristailo:1}}}}] run function lbc:other/magic_academy/can_upgrade/fartus_nadristailo

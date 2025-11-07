@@ -9,6 +9,6 @@ execute if items entity @s weapon.* *[minecraft:custom_data~{fevgalea_star:1}] r
 execute if items entity @s weapon.* *[minecraft:custom_data~{triple_golden_sword:1}] run data modify storage lbc.math ui append value {"text":"    \uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged8"},"color":"gold"}]}
 execute if items entity @s weapon.* *[minecraft:custom_data~{blazefire_sword:1}] run data modify storage lbc.math ui append value {"text":"    \uE103 §fx","extra":[{"score":{"name":"@s","objective":"swordcharged9"},"color":"gold"}]}
 
-
+execute if items entity @s weapon.* *[minecraft:custom_data~{fartus_nadristailo:1,upgraded:1}] run data modify storage lbc.math ui append value {"text":"    \uE103 §fx","extra":[{"score":{"name":"@s","objective":"fartus_sword"},"color":"yellow"}]}
 
 

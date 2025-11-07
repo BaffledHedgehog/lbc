@@ -1,4 +1,4 @@
-
-execute align xyz positioned ~.5 ~.5 ~.5 run summon minecraft:marker ~ ~ ~ {Tags:["slowraycast","nexus_rc","pulsar","selector","rare"]}
+data modify storage lbc.math cmd set value "pulsar"
+execute align xyz positioned ~.5 ~.5 ~.5 run function lbc:run_command with storage lbc.math
 
 scoreboard players set @s Distance 58395

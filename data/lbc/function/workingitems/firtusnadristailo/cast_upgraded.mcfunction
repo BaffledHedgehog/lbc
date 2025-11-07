@@ -1,0 +1,6 @@
+scoreboard players remove @s fartus_sword 3
+function lbc:workingitems/firtusnadristailo/cast_banan_shoot_homing
+function lbc:workingitems/firtusnadristailo/cast_banan_shoot_homing
+function lbc:workingitems/firtusnadristailo/cast_banan_shoot_homing
+function lbc:workingitems/firtusnadristailo/cast_banan_shoot_homing
+function lbc:workingitems/firtusnadristailo/cast_banan_shoot_homing

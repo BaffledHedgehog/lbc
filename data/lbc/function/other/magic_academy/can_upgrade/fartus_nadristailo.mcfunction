@@ -1,0 +1,1 @@
+tellraw @s {"translate":"upgrade_condition_fartus_nadristailo","color":"yellow"}

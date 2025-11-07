@@ -38,6 +38,7 @@ execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{gayc
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{sauvojen_wand:1}}}}] mana >= sauvojen_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:items/wands/sauvojen_wand/cast_upgraded
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{vex_wand:1}}}}] mana >= vex_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:other/event/halloween/vex_wand/cast_upgraded
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{soulcorrupter:1}}}}] mana >= soulcorruption_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:other/event/halloween/soulcorruptwand/cast_upgraded
+execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{fartus_nadristailo:1}}}}] fartus_sword matches 3.. anchored eyes positioned ^ ^ ^ run function lbc:workingitems/firtusnadristailo/cast_upgraded
 
 
 execute if items entity @s armor.head *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.chest *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.legs *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.feet *[minecraft:custom_data~{nyauwu:1}] run function lbc:workingitems/nyaaahuwuuw

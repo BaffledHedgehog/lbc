@@ -1,11 +1,10 @@
 # Grant arrow tag
 tag @e[type=#minecraft:arrows,sort=nearest,limit=1] add shulkerarrow
 # Summoning
-execute anchored eyes positioned ^ ^ ^ as @e[type=#minecraft:arrows,tag=shulkerarrow,sort=nearest,limit=1] run summon minecraft:shulker_bullet ~ ~ ~ {Tags:["shulk"],NoGravity:true}
+execute anchored eyes positioned ^ ^ ^ as @e[type=#minecraft:arrows,tag=shulkerarrow,sort=nearest,limit=1] run summon minecraft:shulker_bullet ~ ~ ~ {Tags:["shulk"]}
 execute anchored eyes positioned ^ ^ ^ store result score tmp lbc.math run data get entity @e[type=#minecraft:arrows,tag=shulkerarrow,sort=nearest,limit=1] item.components."minecraft:potion_contents".custom_effects[{"id":"minecraft:raid_omen"}].amplifier 1
 execute if score tmp lbc.math matches 112 anchored eyes positioned ^ ^ ^ run tag @e[tag=shulk,sort=nearest,limit=1] add lighttrail
 execute if score tmp lbc.math matches 113 anchored eyes positioned ^ ^ ^ run tag @e[tag=shulk,sort=nearest,limit=1] add trappertrail
-execute if score tmp lbc.math matches 113 anchored eyes positioned ^ ^ ^ run data modify entity @e[tag=shulk,sort=nearest,limit=1] NoGravity set value false
 
 # Set Motion from first arrow
 execute anchored eyes positioned ^ ^ ^ as @e[tag=shulk,sort=nearest,limit=1] run data modify entity @s Motion set from entity @e[tag=shulkerarrow,sort=nearest,limit=1] Motion

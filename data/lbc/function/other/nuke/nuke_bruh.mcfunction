@@ -1,5 +1,7 @@
 title @a title " "
-title @a subtitle [{"selector":"@p[gamemode=!spectator]","color":"red","italic":false,"type":"selector"},{"translate":"nuke_lol_activated","color":"dark_red"}]
+execute unless entity @s[tag=zelensky] run title @a subtitle [{"selector":"@p[gamemode=!spectator]","color":"red","italic":false,"type":"selector"},{"translate":"nuke_lol_activated","color":"dark_red"}]
+execute if entity @s[tag=zelensky] run title @a subtitle [{"text":"Володимир Зеленський ","color":"red","italic":false},{"translate":"nuke_lol_activated","color":"dark_red"}]
+
 tag @s add nuke1
 playsound minecraft:lbcsounds.nuke master @a ~ ~ ~ 0.5 1 0.5
 playsound minecraft:lbcsounds.nuke master @a ~ ~ ~ 0.5 0.5 0.5

@@ -1,4 +1,6 @@
-execute as @p[gamemode=!spectator] run function lbc:projectiles/gadgets/ruchka_pl
+scoreboard players operation *temp lbcID2 = @s lbcID2
+scoreboard players operation *tempt lbcID2 = @s team_number
+execute as @p[gamemode=!spectator,distance=..4.5,predicate=!lbc:same_team,predicate=!lbc:same_id] run function lbc:projectiles/gadgets/ruchka_pl
 
 
 

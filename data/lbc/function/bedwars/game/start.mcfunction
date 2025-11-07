@@ -24,7 +24,7 @@ execute if score #lbc.challenge swrg.math matches 1 as @a at @s run function lbc
 scoreboard players set game_started lbc.math 1 
 function lbc:start_after_all
 gamemode survival @a
-
+execute as @a[sort=random] at @s run function swrg:game/start/player_suffix_select
 gamerule doMobLoot true
 gamerule doTileDrops true
 gamerule doEntityDrops true

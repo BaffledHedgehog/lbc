@@ -116,4 +116,7 @@ scoreboard players set sauvojen_wand_mana_use lbc.math 2500
 
 scoreboard players set vex_wand_mana_use lbc.math 700
 
+scoreboard players set barrier_arcanum_mana_tick2 lbc.math 10
+scoreboard players set fartus_nadristailo_mana_use lbc.math 1250
+
 function lbc:drops/tmt/set_storage

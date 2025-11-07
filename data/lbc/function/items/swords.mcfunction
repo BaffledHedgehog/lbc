@@ -59,6 +59,7 @@ execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{chaos_swo:
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{triple_golden_sword:1}}}}] run function lbc:items/swords/triple_golden_sword/damage
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{kara:1}}}}] run function lbc:items/swords/imba_kara_slab/hit
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{blazefire_sword:1}}}}] run scoreboard players add @s swordcharged9 1
+scoreboard players add @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{fartus_nadristailo:1,upgraded:1}}}}] fartus_sword 1
 
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{pumpkin_king:1}}}}] as @a[gamemode=!spectator,distance=0.01..7,nbt={HurtTime:10s},predicate=!lbc:same_team] at @s run function lbc:other/event/halloween/pumpkin_king_sword/activate
 

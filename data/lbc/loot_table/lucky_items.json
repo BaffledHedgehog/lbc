@@ -1351,12 +1351,24 @@
                     {
                         "type": "minecraft:loot_table",
                         "weight": 10,
-                        "value": "lbc:kiuaskivi_arrow"
+                        "value": "lbc:kiuaskivi_arrow",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_count",
+                                "count": 4
+                            }
+                        ]
                     },
                     {
                         "type": "minecraft:loot_table",
                         "weight": 10,
-                        "value": "lbc:evoker_arrow"
+                        "value": "lbc:evoker_arrow",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_count",
+                                "count": 5
+                            }
+                        ]
                     },
                     {
                         "type": "minecraft:loot_table",
