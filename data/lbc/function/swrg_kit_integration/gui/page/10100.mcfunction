@@ -11,6 +11,7 @@ loot replace entity @s[advancements={lbc:true_advancements/legends/academy/exaho
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/fire=true}] enderchest.3 loot lbc:gui/page/10100/3
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/gaycaster=true}] enderchest.4 loot lbc:gui/page/10100/4
 loot replace entity @s enderchest.5 loot lbc:gui/page/10100/5
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/stone=true}] enderchest.6 loot lbc:gui/page/10100/6
 
 
 item modify entity @s[scores={lbc.skill=28}] enderchest.0 swrg:select
@@ -44,6 +45,7 @@ item replace entity @s[advancements={lbc:true_advancements/bows/madoka_bow=false
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/exahoming=false}] enderchest.2 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/fire=false}] enderchest.3 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/gaycaster=false}] enderchest.4 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/stone=false}] enderchest.6 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
 
 
@@ -55,6 +57,7 @@ item modify entity @s[advancements={lbc:true_advancements/bows/madoka_bow=false}
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/exahoming=false}] enderchest.2 lbc:swrg_unlocks/exahoming_academy
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/fire=false}] enderchest.3 lbc:swrg_unlocks/stfire_academy
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/gaycaster=false}] enderchest.4 lbc:swrg_unlocks/gaycaster_academy
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/stone=false}] enderchest.6 lbc:swrg_unlocks/ststone_academy
 
 
 

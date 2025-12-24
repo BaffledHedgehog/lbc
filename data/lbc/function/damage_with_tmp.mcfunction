@@ -1,1 +1,1 @@
-$damage @s $(tmp) cactus
+$damage @s $(tmp) outside_border

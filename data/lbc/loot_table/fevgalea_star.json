@@ -14,7 +14,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:tooltip_style":"lbc:tier_ss",
+                                "minecraft:tooltip_style":"lbc:tier_x",
                                 "minecraft:item_model": "lbc:fevgalea_star",
                                 "minecraft:max_damage": 4000,
                                 "minecraft:attribute_modifiers": [

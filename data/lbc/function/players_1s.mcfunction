@@ -1,7 +1,7 @@
 execute at @s[tag=gaara_active] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/gaara
-execute at @s[tag=save_platform_active] at @s at @s[y=-10,dy=-5000000] run function lbc:workingitems/platform
-execute at @s[tag=chaos_set_bonus_active] at @s at @s[y=-10,dy=-5000000] run function lbc:armor/chaos_set_bonus
-execute if entity @s[tag=magnet_active] run function lbc:workingitems/magnet
+execute at @s[tag=save_platform_active] at @s at @s[y=-10,dy=-5000000] unless entity @e[type=marker,tag=stopper,distance=..20] run function lbc:workingitems/platform
+execute at @s[tag=chaos_set_bonus_active] at @s at @s[y=-10,dy=-5000000] unless entity @e[type=marker,tag=stopper_magic,distance=..20] run function lbc:armor/chaos_set_bonus
+execute if entity @s[tag=magnet_active] unless entity @e[type=marker,tag=stopper,distance=..20] run function lbc:workingitems/magnet
 scoreboard players remove @s[scores={coldown8=1..}] coldown8 1
 scoreboard players remove @s[scores={coldown1=1..}] coldown1 1
 scoreboard players remove @s[scores={lust_cd=1..}] lust_cd 1

@@ -24,11 +24,13 @@ loot replace entity @s[advancements={lbc:true_advancements/bows/firework=true}] 
 loot replace entity @s[advancements={lbc:true_advancements/hoes/op_hoe=true}] enderchest.15 loot lbc:gui/page/9000/15
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/acid_tuntija=true}] enderchest.16 loot lbc:gui/page/9000/16
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/badwiki=true}] enderchest.17 loot lbc:gui/page/9000/17
+
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/blazefire=true}] enderchest.19 loot lbc:gui/page/9000/18
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/confuse=true}] enderchest.20 loot lbc:gui/page/9000/19
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/erecto=true}] enderchest.21 loot lbc:gui/page/9000/20
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/exasperato=true}] enderchest.22 loot lbc:gui/page/9000/21
 loot replace entity @s enderchest.23 loot lbc:gui/page/9000/22
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/fartus_nadristailo=true}] enderchest.24 loot lbc:gui/page/9000/23
 #
 item modify entity @s[scores={lbc.kit=1}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.kit=2}] enderchest.1 swrg:select
@@ -55,7 +57,6 @@ item modify entity @s[scores={lbc.kit=21}] enderchest.21 swrg:select
 item modify entity @s[scores={lbc.kit=22}] enderchest.22 swrg:select
 item modify entity @s[scores={lbc.kit=23}] enderchest.23 swrg:select
 item modify entity @s[scores={lbc.kit=24}] enderchest.24 swrg:select
-item modify entity @s[scores={lbc.kit=25}] enderchest.25 swrg:select
 #
 item replace entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/accesories/popit=false}] enderchest.1 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
@@ -80,6 +81,8 @@ item replace entity @s[advancements={lbc:true_advancements/legends/academy/confu
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/erecto=false}] enderchest.21 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/exasperato=false}] enderchest.22 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/fartus_nadristailo=false}] enderchest.24 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+
 
 item modify entity @s[advancements={lbc:true_advancements/accesories/devilstomach=false}] enderchest.0 lbc:swrg_unlocks/devilstomach
 item modify entity @s[advancements={lbc:true_advancements/accesories/popit=false}] enderchest.1 lbc:swrg_unlocks/popit
@@ -103,6 +106,8 @@ item modify entity @s[advancements={lbc:true_advancements/legends/academy/blazef
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/confuse=false}] enderchest.20 lbc:swrg_unlocks/academy_confuse
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/erecto=false}] enderchest.21 lbc:swrg_unlocks/academy_erecto
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/exasperato=false}] enderchest.22 lbc:swrg_unlocks/academy_exasperato
+
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/fartus_nadristailo=false}] enderchest.24 lbc:swrg_unlocks/fartus_nadristailo
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset

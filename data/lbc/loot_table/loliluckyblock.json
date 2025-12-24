@@ -1077,65 +1077,9 @@
                         "weight": 10
                     },
                     {
-                        "type": "minecraft:item",
-                        "weight": 10,
-                        "name": "minecraft:repeating_command_block",
-                        "functions": [
-                            {
-                                "function": "minecraft:set_count",
-                                "count": 1
-                            },
-                            {
-                                "function": "minecraft:set_components",
-                                "components": {
-                                    "minecraft:tooltip_style": "lbc:tier_b",
-                                    "minecraft:item_model": "lbc:banan"
-                                }
-                            },
-                            {
-                                "function": "minecraft:set_name",
-                                "name": [
-                                    {
-                                        "translate": "wtf_item",
-                                        "color": "aqua",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_lore",
-                                "mode": "replace_all",
-                                "lore": [
-                                    {
-                                        "translate": "wtf_item.lore",
-                                        "color": "white",
-                                        "italic": false
-                                    },
-                                    [
-                                        {
-                                            "text": "Tinkist00",
-                                            "color": "green",
-                                            "italic": false,
-                                            "type": "text"
-                                        },
-                                        {
-                                            "text": " No Nut November 2023 Event",
-                                            "color": "dark_gray",
-                                            "italic": false,
-                                            "type": "text"
-                                        }
-                                    ],{
-                                        "translate": "razorpine.lore.1",
-                                        "color": "yellow",
-                                        "italic": false
-                                    }
-                                ]
-                            },
-                            {
-                                "function": "minecraft:set_custom_data",
-                                "tag": "{wtf_item:1,craftusable:1}"
-                            }
-                        ]
+                        "type": "minecraft:loot_table",
+                        "value": "lbc:wtf_item",
+                        "weight": 10
                     },
                     {
                         "type": "minecraft:item",
@@ -1401,6 +1345,42 @@
                         "type": "minecraft:loot_table",
                         "value": "lbc:siggewinne_syringe",
                         "weight": 10
+                    },
+                    {
+                        "type": "minecraft:loot_table",
+                        "value": "lbc:lust_death",
+                        "weight": 10,
+                        "conditions": [
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": "#gamemode"
+                                        },
+                                        "score": "swrg.math",
+                                        "scale": 1
+                                    },
+                                    "range": {
+                                        "min": 3,
+                                        "max": 4
+                                    }
+                                }
+                            }
+                        ]
                     }
                 ]
             }

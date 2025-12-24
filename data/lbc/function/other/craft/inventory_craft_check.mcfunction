@@ -73,3 +73,5 @@ execute if items entity @s player.crafting.* *[minecraft:custom_data~{troll:1}] 
 
 execute if items entity @s player.crafting.* *[minecraft:custom_data~{soulcorrupter:1}] if items entity @s player.crafting.* *[minecraft:custom_data~{halloween_mace:1}] run function lbc:other/craft/soulhunter_mace_inv
 execute if items entity @s player.crafting.* *[minecraft:custom_data~{stterra:1}] if items entity @s player.crafting.* *[minecraft:custom_data~{wtf_item:1}] run function lbc:other/craft/fartus_nadristailo_inv
+
+execute if items entity @s player.crafting.* *[minecraft:custom_data~{reroll_machine:1}] if items entity @s player.crafting.* *[minecraft:custom_data~{transformable:1}] run function lbc:other/craft/reroll_machine

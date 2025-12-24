@@ -11,7 +11,7 @@
                                 "function": "minecraft:set_components",
                                 "components": {
                                     "minecraft:item_model": "lbc:mellstroy_mask",
-                                    "minecraft:tooltip_style": "lbc:tier_x",
+                                    "minecraft:tooltip_style": "lbc:tier_ss",
                                     "minecraft:max_damage": 5000,
                                     "minecraft:equippable": {
                                         "slot": "head",
@@ -46,20 +46,6 @@
                                             "id": "bdfohid9zsrgi9eigfhdsugfgf",
                                             "amount": 100,
                                             "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:luck",
-                                            "slot": "head",
-                                            "id": "iw94igigo8eagj94gj4g4",
-                                            "amount": 1,
-                                            "operation": "add_value"
-                                        },
-                                        {
-                                            "type": "minecraft:luck",
-                                            "slot": "head",
-                                            "id": "iw94igdgrsh5sh54h",
-                                            "amount": 2,
-                                            "operation": "add_multiplied_total"
                                         }
                                     ]
                                 }

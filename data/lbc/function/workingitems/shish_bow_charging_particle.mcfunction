@@ -1,7 +1,7 @@
 
 playsound minecraft:entity.firework_rocket.blast master @a ~ ~ ~ 10 1
 
-execute anchored eyes positioned ^ ^ ^2 run particle minecraft:block{block_state:{Name:"minecraft:spruce_leaves"}} ~ ~ ~ 0 0 0 0 4 force
+execute anchored eyes positioned ^ ^ ^2 run particle minecraft:block{block_state:{Name:"minecraft:spruce_leaves"}} ~ ~ ~ 0 0 0 0 1 force
 
 scoreboard players operation temp_distance lbc.math = @s bow_charge
 scoreboard players set @s Distance 0

@@ -32,3 +32,5 @@ loot give @s[scores={lbc.kit=20}] loot lbc:kit/clown
 loot give @s[scores={lbc.kit=21}] loot lbc:kit/deus
 loot give @s[scores={lbc.kit=22}] loot lbc:kit/explosive_feets
 loot give @s[scores={lbc.kit=23}] loot lbc:kit/fast_sword
+loot give @s[scores={lbc.kit=24}] loot lbc:kit/palm_with_bananas
+loot give @s[scores={lbc.kit=25}] loot lbc:kit/reroll_machine

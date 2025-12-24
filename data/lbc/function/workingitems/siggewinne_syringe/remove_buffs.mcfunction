@@ -1,6 +1,7 @@
 
 attribute @s minecraft:max_health modifier remove syringe_buff
 attribute @s minecraft:attack_damage modifier remove syringe_buff
+attribute @s minecraft:movement_speed modifier remove syringe_buff
 execute store result entity @s Health float 0.34 run data get entity @s Health 1
 execute store result entity @s ExplosionPower int 0.34 run data get entity @s ExplosionPower 1
 execute store result entity @s ExplosionRadius byte 0.34 run data get entity @s ExplosionRadius 1

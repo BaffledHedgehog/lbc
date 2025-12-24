@@ -386,6 +386,8 @@ scoreboard players set @s effect_vacuum 0
 scoreboard players set @s effect_timestop 0
 scoreboard players set @s effect_chain_lightning 0
 
+scoreboard players set @s stone_layers 0
+scoreboard players set @s stone_cd 0
 
 scoreboard players set @s effect_add_manamax 0
 scoreboard players set @s effect_add_manaregen 0

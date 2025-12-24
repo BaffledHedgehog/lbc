@@ -1,0 +1,1 @@
+execute as @p[gamemode=!spectator,tag=!sin_greed_active,nbt=!{Dimension:"minecraft:nexus"}] at @s run function lbc:drops/death_lust_at

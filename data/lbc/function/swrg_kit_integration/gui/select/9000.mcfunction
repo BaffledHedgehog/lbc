@@ -22,6 +22,7 @@ scoreboard players set @s[scores={swrg.gui_select=20},advancements={lbc:true_adv
 scoreboard players set @s[scores={swrg.gui_select=21},advancements={lbc:true_advancements/legends/academy/erecto=true}] lbc.kit 21
 scoreboard players set @s[scores={swrg.gui_select=22},advancements={lbc:true_advancements/legends/academy/exasperato=true}] lbc.kit 22
 scoreboard players set @s[scores={swrg.gui_select=23}] lbc.kit 23
+scoreboard players set @s[scores={swrg.gui_select=24},advancements={lbc:true_advancements/legends/academy/fartus_nadristailo=true}] lbc.kit 24
 #
 
 
@@ -48,6 +49,8 @@ tellraw @s[scores={swrg.gui_select=19},advancements={lbc:true_advancements/legen
 tellraw @s[scores={swrg.gui_select=20},advancements={lbc:true_advancements/legends/academy/confuse=false}] {"translate":"lbc.adv.upgraded_staff.confuse.lore"}
 tellraw @s[scores={swrg.gui_select=21},advancements={lbc:true_advancements/legends/academy/erecto=false}] {"translate":"lbc.adv.upgraded_tuntija.erecto.lore"}
 tellraw @s[scores={swrg.gui_select=22},advancements={lbc:true_advancements/legends/academy/exasperato=false}] {"translate":"lbc.adv.upgraded_tuntija.exasperato.lore"}
+
+tellraw @s[scores={swrg.gui_select=24},advancements={lbc:true_advancements/legends/academy/fartus_nadristailo=false}] {"translate":"lbc.adv.fartus_nadristailo_upgrade.lore"}
 
 
 

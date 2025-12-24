@@ -209,6 +209,9 @@ scoreboard objectives remove mace_3
 scoreboard objectives remove mace_4
 scoreboard objectives remove fartus_sword
 
+scoreboard objectives remove stone_layers
+scoreboard objectives remove stone_cd
+
 function lbc:load
 
 

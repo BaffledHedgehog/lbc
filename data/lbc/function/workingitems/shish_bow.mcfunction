@@ -5,7 +5,7 @@ execute if score temp_distance lbc.math matches 701.. run scoreboard players set
 
 execute anchored eyes positioned ^ ^ ^ run kill @e[type=minecraft:arrow,distance=..2]
 effect give @s minecraft:resistance 1 4
-execute if score temp_distance lbc.math matches 6.. anchored eyes positioned ^ ^ ^2 run function lbcr:shishgun
+execute if score temp_distance lbc.math matches 6.. anchored eyes positioned ^ ^ ^3 run function lbcr:shishgun
 
 playsound minecraft:item.trident.return master @a ~ ~ ~ 10 2 0.7
 playsound minecraft:block.azalea_leaves.break master @a ~ ~ ~ 0.3 0.8 0.3

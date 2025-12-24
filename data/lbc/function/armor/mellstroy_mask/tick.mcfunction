@@ -10,17 +10,17 @@
 #   сопротивление к отдаче. Так же дропается предметов в 2-4 раза больше на рандом
 scoreboard players operation *tempt lbcID2 = @s team_number
 scoreboard players operation *temp lbcID2 = @s lbcID2
-effect give @s regeneration 1 9
-effect give @s resistance 1 11
-effect give @s speed 1 2
-effect give @s haste 1 9
-effect give @s jump_boost 1 3
-effect give @s saturation 1 19
+effect give @s regeneration 1 0
+effect give @s resistance 1 0
+effect give @s speed 1 0
+effect give @s haste 1 0
+effect give @s jump_boost 1 1
+effect give @s saturation 1 0
 
 tag @s add raycaster
 scoreboard players set @s Distance 0
-execute at @s anchored eyes positioned ^ ^ ^ run function lbc:items/arcanums/eyelaser1
+execute unless entity @e[type=marker,tag=stopper,distance=..20] at @s anchored eyes positioned ^ ^ ^ run function lbc:items/arcanums/eyelaser1
 tag @s remove raycaster
 
 
-execute as @e[distance=..20,predicate=!lbc:same_team,predicate=!lbc:same_id,type=#mobs,tag=!spectator] run function lbc:armor/mellstroy_mask/tick_enemies_players
+execute unless entity @e[type=marker,tag=stopper_magic,distance=..20] as @e[distance=..6,predicate=!lbc:same_team,predicate=!lbc:same_id,type=#mobs,tag=!spectator] run function lbc:armor/mellstroy_mask/tick_enemies_players

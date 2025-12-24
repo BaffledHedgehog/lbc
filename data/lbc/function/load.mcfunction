@@ -294,6 +294,8 @@ scoreboard objectives add tmticked dummy
 scoreboard objectives add rocket_armor_jumps dummy
 scoreboard objectives add rocket_armor_jump_cd dummy
 scoreboard objectives add effect_ghosting dummy
+scoreboard objectives add stone_layers dummy
+scoreboard objectives add stone_cd dummy
 
 #scoreboard objectives add build_gui_pointer trigger
 #

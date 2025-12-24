@@ -32,6 +32,18 @@
                                 "function": "minecraft:set_lore",
                                 "mode": "replace_all",
                                 "lore": [
+                                    [
+                                        {
+                                            "translate": "type",
+                                            "italic": false,
+                                            "color": "aqua"
+                                        },
+                                        {
+                                            "translate": "summoner",
+                                            "italic": false,
+                                            "color": "aqua"
+                                        }
+                                    ],
                                     {
                                         "translate": "siggewinne_syringe.lore.1",
                                         "italic": false,
@@ -65,7 +77,7 @@
                                             "type": "text"
                                         },
                                         {
-                                            "text": " Happy Birthday! 03.11.2025",
+                                            "text": " Happy Birthday! 22.10.2025",
                                             "color": "dark_gray",
                                             "italic": false,
                                             "type": "text"
@@ -75,7 +87,7 @@
                             },
                             {
                                 "function": "minecraft:set_custom_data",
-                                "tag": "{magicwand:1,siggewinne_syringe:1}"
+                                "tag": "{magicwand:1,siggewinne_syringe:1,transformable:1,summoner:1,summonerwand:1}"
                             }
                         ]
                     }

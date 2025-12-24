@@ -1,0 +1,1 @@
+$execute unless score @s[tag=!sin_greed_active] void_resistance matches 1.. run damage @s $(tmp) out_of_world

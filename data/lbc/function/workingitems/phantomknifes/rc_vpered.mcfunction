@@ -3,5 +3,7 @@ execute store result entity @s Motion[0] double 0.0015 run data get entity @e[ty
 execute store result entity @s Motion[1] double 0.0015 run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[1] 1000
 execute store result entity @s Motion[2] double 0.0015 run data get entity @e[type=minecraft:marker,tag=reikast,limit=1] Pos[2] 1000
 data modify entity @s Owner set from entity @a[tag=owner,limit=1] UUID
+scoreboard players operation @s lbcID2 = @a[tag=owner,limit=1] lbcID2
+scoreboard players operation @s team_number = @a[tag=owner,limit=1] team_number
 tag @s add actived
 kill @e[type=minecraft:marker,tag=reikast]

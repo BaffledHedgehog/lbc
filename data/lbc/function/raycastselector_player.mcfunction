@@ -1,5 +1,6 @@
 #execute if entity @s[tag=red_spin_particle] run return run function lbc:swrg_kit_integration/game/skills/rainbow_aura/red_spin_particle_tick
 execute if entity @s[tag=sauvojen_wand_meditator] run return run function lbc:items/wands/sauvojen_wand/meditate/meditator_tick
+execute if entity @s[tag=hedgehog_spike] run return run function lbc:items/trinket_effects/hedgehog_gauntlet_spike
 execute if entity @s[tag=god_claw] run return run function lbc:swrg_kit_integration/game/skills/god_claw_tick_marker
 execute if entity @s[tag=expansion] run return run function lbc:swrg_kit_integration/game/skills/expansion_tick_marker
 execute if entity @s[tag=raycastmolnia] run return run function lbcr:raycast_molnia

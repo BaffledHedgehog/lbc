@@ -77,6 +77,8 @@ execute if score @s god_claw_cd matches 1.. run data modify storage lbc.math ui 
 execute if score @s expansion_cd matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE167 ","extra":[{"score":{"name":"@s","objective":"expansion_cd"},"color":"gold"}]}
 execute if score @s deus_cd matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE168 ","extra":[{"score":{"name":"@s","objective":"deus_cd"},"color":"gold"}]}
 execute if score @s effect_ghosting matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE196 ","extra":[{"score":{"name":"@s","objective":"effect_ghosting"},"color":"white"}]}
+execute if score @s stone_layers matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE205 ","extra":[{"score":{"name":"@s","objective":"stone_layers"},"color":"white"}]}
+execute if score @s stone_cd matches 1.. run data modify storage lbc.math ui append value {"text":" | ","extra":[{"score":{"name":"@s","objective":"stone_cd"},"color":"gray"}]}
 
 execute if score @s effect_rtp_1 matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_1"},"color":"white"}]}
 execute if score @s effect_rtp_2 matches 1.. run data modify storage lbc.math ui append value {"text":"  \uE142 ","extra":[{"score":{"name":"@s","objective":"effect_rtp_2"},"color":"white"}]}

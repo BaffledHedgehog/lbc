@@ -1,6 +1,6 @@
 tag @s add caster
 execute if entity @s[x_rotation=85..90] rotated ~ 0 positioned ^ ^ ^2 run function lbc:workingitems/summoner/psychovex_spawn
-execute unless entity @s[x_rotation=85..90] at @p[gamemode=!spectator,tag=!caster] run function lbc:workingitems/summoner/psychovex_spawn_pre
+execute unless entity @s[x_rotation=85..90] at @p[gamemode=!spectator,tag=!caster,nbt=!{Dimension:"minecraft:nexus"}] run function lbc:workingitems/summoner/psychovex_spawn_pre
 
 execute if entity @s[team=1] run team join 1 @e[type=#minecraft:mobs,tag=summoned_cultist,tag=!summactivated,sort=nearest,limit=1]
 execute if entity @s[team=2] run team join 2 @e[type=#minecraft:mobs,tag=summoned_cultist,tag=!summactivated,sort=nearest,limit=1]

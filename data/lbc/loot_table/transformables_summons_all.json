@@ -10,11 +10,18 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "lbc:tuntijaa_blind_vex"
+                    "value": "lbc:tuntijaa_blind_vex",
+                    "weight": 1
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "lbc:penis_cultus"
+                    "value": "lbc:penis_cultus",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "lbc:siggewinne_syringe",
+                    "weight": 1
                 }
             ]
         }

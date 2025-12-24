@@ -42,7 +42,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{trinket:\"intercal\"}"
+                            "tag": "{trinket:\"intercal\",govnoq:1,craftusable:1}"
                         }
                     ]
                 }

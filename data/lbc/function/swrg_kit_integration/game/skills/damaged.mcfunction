@@ -5,4 +5,5 @@ execute if score @s lbc.skill matches 19 if predicate lbc:chance40 run function 
 execute if score @s lbc.skill matches 20 if score @s blocked_damage matches 1.. run function lbc:swrg_kit_integration/game/skills/simbiont_damaged
 execute if score @s lbc.skill matches 32 run function lbc:swrg_kit_integration/game/skills/rainbow_aura/damaged
 execute if score @s lbc.skill matches 33 run function lbc:swrg_kit_integration/game/skills/champion/damaged
+execute if score @s lbc.skill matches 34 run function lbc:swrg_kit_integration/game/skills/stone_golem/damaged
 

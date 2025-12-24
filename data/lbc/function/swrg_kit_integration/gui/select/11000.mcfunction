@@ -15,6 +15,10 @@ execute if score @s swrg.gui_select matches 12 if entity @s[advancements={lbc:tr
 execute if score @s swrg.gui_select matches 13 if entity @s[advancements={lbc:true_advancements/legends/academy/exoperso=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 14 if entity @s[advancements={lbc:true_advancements/legends/academy/falling_stars=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 15 run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 16 if entity @s[advancements={lbc:true_advancements/legends/academy/hedgehog=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 17 if entity @s[advancements={lbc:true_advancements/legends/academy/snow_wand=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 19 if entity @s[advancements={lbc:true_advancements/legends/academy/ice_wand=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 20 if entity @s[advancements={lbc:true_advancements/legends/academy/neutral=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 
 #
 
@@ -33,6 +37,11 @@ execute if score @s swrg.gui_select matches 11 run tellraw @s[advancements={lbc:
 execute if score @s swrg.gui_select matches 12 run tellraw @s[advancements={lbc:true_advancements/legends/academy/evoker=false}] {"translate":"lbc.adv.upgraded_staff.evoker.lore"}
 execute if score @s swrg.gui_select matches 13 run tellraw @s[advancements={lbc:true_advancements/legends/academy/exoperso=false}] {"translate":"lbc.adv.upgraded_staff.exoperso.lore"}
 execute if score @s swrg.gui_select matches 14 run tellraw @s[advancements={lbc:true_advancements/legends/academy/falling_stars=false}] {"translate":"lbc.adv.upgraded_staff.falling_stars.lore"}
+
+execute if score @s swrg.gui_select matches 16 run tellraw @s[advancements={lbc:true_advancements/legends/academy/hedgehog=false}] {"translate":"lbc.adv.upgraded_staff.hedgehog.lore"}
+execute if score @s swrg.gui_select matches 17 run tellraw @s[advancements={lbc:true_advancements/legends/academy/snow_wand=false}] {"translate":"lbc.adv.upgraded_staff.snow_wand.lore"}
+execute if score @s swrg.gui_select matches 19 run tellraw @s[advancements={lbc:true_advancements/legends/academy/ice_wand=false}] {"translate":"lbc.adv.upgraded_staff.ice_wand.lore"}
+execute if score @s swrg.gui_select matches 20 run tellraw @s[advancements={lbc:true_advancements/legends/academy/neutral=false}] {"translate":"lbc.adv.upgraded_staff.neutral.lore"}
 
 
 
