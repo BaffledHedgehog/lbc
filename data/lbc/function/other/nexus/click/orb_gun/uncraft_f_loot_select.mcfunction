@@ -73,7 +73,7 @@ execute if data storage lbc.math {item:"minecraft:candle"} run return run loot s
 execute if data storage lbc.math {item:"minecraft:carrot_on_a_stick"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/fishing_rod_carrot
 execute if data storage lbc.math {item:"minecraft:cartography_table"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/dark_oak_planks_4_paper_2
 execute if data storage lbc.math {item:"minecraft:cauldron"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/iron_ingot_7
-execute if data storage lbc.math {item:"minecraft:chain"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/iron_nugget_2_iron_ingot
+execute if data storage lbc.math {item:"minecraft:iron_chain"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/iron_nugget_2_iron_ingot
 execute if data storage lbc.math {item:"minecraft:cherry_boat"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/cherry_planks_5
 execute if data storage lbc.math {item:"minecraft:cherry_button"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/cherry_planks
 execute if data storage lbc.math {item:"minecraft:cherry_chest_boat"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/cherry_boat_chest

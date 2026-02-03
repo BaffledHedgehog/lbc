@@ -6,4 +6,4 @@ scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erec
 tag @e[type=minecraft:marker,distance=..0.0001,tag=erecto_sniper,tag=!actived,limit=1] add actived
 effect give @s minecraft:slowness 1 100 true
 execute at @s run tp @s ~ ~ ~ ~ ~-15
-particle minecraft:flash ^ ^ ^1 0 0 0 0 1 force
+particle minecraft:flash{color:[0,1,1,1]} ^ ^ ^1 0 0 0 0 1 force

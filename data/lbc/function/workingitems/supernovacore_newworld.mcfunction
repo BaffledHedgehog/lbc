@@ -71,7 +71,7 @@ advancement grant @a[gamemode=!spectator] only lbc:true_advancements/legends/sup
 loot give @a[tag=balance_user,predicate=!lbc:nexus] loot lbc:balance
 tag @a remove balance_user
 kill @e[type=minecraft:falling_block,predicate=!lbc:nexus]
-gamerule doTileDrops true
-gamerule doMobLoot true
-gamerule doEntityDrops true
+gamerule block_drops true
+gamerule mob_drops true
+gamerule entity_drops true
 kill @e[tag=supernovacore,predicate=!lbc:nexus]

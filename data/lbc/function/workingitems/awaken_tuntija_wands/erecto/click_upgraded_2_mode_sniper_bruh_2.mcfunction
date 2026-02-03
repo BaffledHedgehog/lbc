@@ -36,4 +36,4 @@ scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erec
 scoreboard players operation @e[type=minecraft:marker,distance=..0.0001,tag=erecto_sniper_bruh,tag=!actived,limit=32] team_number = @s team_number
 tag @e[type=minecraft:marker,distance=..0.0001,tag=erecto_sniper_bruh,tag=!actived,limit=32] add actived
 execute at @s run tp @s ~ ~ ~ ~180 ~
-particle minecraft:flash ^ ^ ^1 0 0 0 0 1 force
+particle minecraft:flash{color:[0,1,1,1]} ^ ^ ^1 0 0 0 0 1 force

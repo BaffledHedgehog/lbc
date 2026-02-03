@@ -11,7 +11,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{coo
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:2}}}}] run playsound minecraft:entity.blaze.shoot master @a[distance=..20] ~ ~ ~ 10 1
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:3}}}}] run effect give @s minecraft:speed 2 2
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:3}}}}] run particle minecraft:flash ~ ~1 ~ 10 10 10 0 100 force
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:3}}}}] run particle minecraft:flash{color:[1,1,1,1]} ~ ~1 ~ 10 10 10 0 100 force
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:3}}}}] run playsound minecraft:entity.firework_rocket.large_blast master @a[distance=..20] ~ ~ ~ 10 1
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltype:4}}}}] run tag @s add evokercast1

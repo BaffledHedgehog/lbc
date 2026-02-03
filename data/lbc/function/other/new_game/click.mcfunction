@@ -1,6 +1,6 @@
-gamerule doTileDrops false
-gamerule doMobLoot false
-gamerule doEntityDrops false
+gamerule block_drops false
+gamerule entity_drops false
+gamerule mob_drops false
 tp @e[type=!minecraft:player,tag=!supernovacore] 0 -600000 0
 kill @e[type=!minecraft:player,tag=!supernovacore]
 kill @e[type=!minecraft:player,tag=!supernovacore]
@@ -134,9 +134,9 @@ scoreboard objectives add coldown_wiki dummy
 effect give @a minecraft:resistance 5 4 true
 effect give @a minecraft:instant_health 5 4 true
 effect give @a minecraft:saturation 5 40 true
-gamerule doTileDrops true
-gamerule doMobLoot true
-gamerule doEntityDrops true
+gamerule block_drops true
+gamerule entity_drops true
+gamerule mob_drops true
 execute as @a at @s run function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
 execute as @a at @s run attribute @s minecraft:max_health modifier remove gamehealthmodifier
 scoreboard players set #lbcskill swrg.math 0

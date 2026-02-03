@@ -9,13 +9,13 @@ execute as @e[type=minecraft:marker,tag=supernova] at @s run spreadplayers ~ ~ 0
 particle minecraft:dust{color:[1.0,1.0,1.0],scale:4.0f} ~ ~1 ~ 1 1 1 2 1000 force
 particle minecraft:dust{color:[0.001,0.0,0.001],scale:4.0f} ~ ~1 ~ 1 1 1 2 1000 force
 summon minecraft:tnt ~ ~ ~ {fuse:0}
-execute at @e run particle minecraft:flash ~ ~ ~ 10 10 10 0 100 normal
+execute at @e run particle minecraft:flash{color:0} ~ ~ ~ 10 10 10 0 100 normal
 effect give @s minecraft:levitation 10000 0 true
 effect give @s minecraft:absorption 10000 30 true
 tag @s add balance_user
-gamerule doTileDrops false
-gamerule doMobLoot false
-gamerule doEntityDrops false
+gamerule block_drops false
+gamerule mob_drops false
+gamerule entity_drops false
 title @a title {"translate":"end_begins"}
 playsound minecraft:entity.wither.death master @a ~ ~ ~ 10000 0
 playsound minecraft:entity.wither.death master @a ~ ~ ~ 10000 2

@@ -4,12 +4,12 @@ execute as @a[gamemode=!spectator,tag=!have_stand,nbt=!{Inventory:[{components:{
 execute as @e[type=minecraft:marker,tag=teleport_nearest_here] at @s run data modify entity @s Rotation set from entity @a[gamemode=!spectator,distance=..0.1,limit=1] Rotation
 scoreboard players set time_stopped lbc.math 11
 playsound minecraft:lbcsounds.zawardo master @a ~ ~ ~ 1 1 0.5
-gamerule doDaylightCycle false
-gamerule doFireTick false
-gamerule waterSourceConversion false
-gamerule randomTickSpeed 0
-gamerule naturalRegeneration false
-gamerule doLimitedCrafting true
+gamerule advance_time false
+gamerule fire_spread_radius_around_player 0
+gamerule water_source_conversion false
+gamerule random_tick_speed 0
+gamerule natural_health_regeneration false
+gamerule limited_crafting true
 schedule clear lbc:tick10s
 schedule clear lbc:tick10t
 schedule clear lbc:tick15s
