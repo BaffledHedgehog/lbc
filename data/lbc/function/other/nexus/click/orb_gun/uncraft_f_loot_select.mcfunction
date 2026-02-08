@@ -651,6 +651,7 @@ execute if data storage lbc.math {item:"minecraft:netherite_nautilus_armor"} run
 execute if data storage lbc.math {item:"minecraft:wooden_spear"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/oak_planks_stick_2
 execute if data storage lbc.math {item:"minecraft:stone_spear"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/cobblestone_stick_2
 execute if data storage lbc.math {item:"minecraft:golden_spear"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/gold_ingot_stick_2
+execute if data storage lbc.math {item:"minecraft:copper_spear"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/copper_ingot_2_stick_1
 execute if data storage lbc.math {item:"minecraft:iron_spear"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/iron_ingot_stick_2
 execute if data storage lbc.math {item:"minecraft:diamond_spear"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/diamond_stick_2
 execute if data storage lbc.math {item:"minecraft:netherite_spear"} run return run loot spawn ~ ~ ~ loot lbc:uncrafted/netherite_ingot_netherite_upgrade_diamond_spear

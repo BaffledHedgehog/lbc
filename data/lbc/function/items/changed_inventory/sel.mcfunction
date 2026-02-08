@@ -8,6 +8,8 @@ execute if score tmp lbc.math matches ..3 run tag @s remove chaos_set_bonus_acti
 execute if items entity @s container.* *[minecraft:custom_data~{magnet:1}] run tag @s add magnet_active
 execute if items entity @s weapon.* *[minecraft:custom_data~{magnet:1}] run tag @s add magnet_active
 execute if items entity @s armor.head *[minecraft:custom_data~{technomk2:1}] run tag @s add night_vision_active
+execute if items entity @s armor.head *[minecraft:custom_data~{night_vision:1}] run tag @s add aimbob_helmet
+
 execute if items entity @s armor.* *[minecraft:custom_data~{gownoleggings:1}] run tag @s add gowno_active
 execute if items entity @s armor.head *[minecraft:custom_data~{techno:1}] run tag @s add techno_active
 execute if items entity @s container.* *[minecraft:custom_data~{death_compass:1}] run tag @s add death_compass_active
@@ -26,7 +28,7 @@ execute unless items entity @s armor.* *[minecraft:custom_data~{gownoleggings:1}
 execute unless items entity @s armor.head *[minecraft:custom_data~{techno:1}] run tag @s remove techno_active
 execute unless items entity @s container.* *[minecraft:custom_data~{death_compass:1}] unless items entity @s weapon.* *[minecraft:custom_data~{death_compass:1}] run tag @s remove death_compass_active
 execute unless items entity @s armor.* *[minecraft:custom_data~{nanobots:1}] run tag @s remove nanobots_active
-
+execute unless items entity @s armor.head *[minecraft:custom_data~{night_vision:1}] run tag @s add aimbob_helmet
 
 
 

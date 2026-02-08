@@ -1713,6 +1713,62 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:pale_oak_slab",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_count",
+                                "count": 1
+                            },
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:tooltip_style": "lbc:tier_f",
+                                    "minecraft:enchantments": {
+                                        "minecraft:knockback": 1
+                                    }
+                                }
+                            },
+                            {
+                                "function": "minecraft:set_name",
+                                "name": [
+                                    {
+                                        "translate": "cum_slab",
+                                        "italic": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:resin_brick_slab",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_count",
+                                "count": 1
+                            },
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:tooltip_style": "lbc:tier_a",
+                                    "minecraft:enchantments": {
+                                        "minecraft:knockback": 10
+                                    }
+                                }
+                            },
+                            {
+                                "function": "minecraft:set_name",
+                                "name": [
+                                    {
+                                        "translate": "gandon_slab",
+                                        "italic": false
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }

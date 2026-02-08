@@ -1862,6 +1862,67 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:resin_brick_slab",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_count",
+                                "count": {
+                                    "min": 1,
+                                    "max": 99,
+                                    "type": "minecraft:uniform"
+                                }
+                            },
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:food": {
+                                        "nutrition": 1,
+                                        "saturation": 1,
+                                        "can_always_eat": true
+                                    },
+                                    "minecraft:consumable": {
+                                        "consume_seconds": 30,
+                                        "animation": "eat",
+                                        "sound": "block.resin_bricks.break",
+                                        "has_consume_particles": true
+                                    },
+                                    "minecraft:max_stack_size": 99
+                                }
+                            }
+                        ]
+                    },{
+                        "type": "minecraft:item",
+                        "name": "minecraft:pale_oak_slab",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_count",
+                                "count": {
+                                    "min": 1,
+                                    "max": 99,
+                                    "type": "minecraft:uniform"
+                                }
+                            },
+                            {
+                                "function": "minecraft:set_components",
+                                "components": {
+                                    "minecraft:food": {
+                                        "nutrition": 1,
+                                        "saturation": 1,
+                                        "can_always_eat": true
+                                    },
+                                    "minecraft:consumable": {
+                                        "consume_seconds": 0.2,
+                                        "animation": "eat",
+                                        "sound": "block.wood.break",
+                                        "has_consume_particles": true
+                                    },
+                                    "minecraft:max_stack_size": 99
+                                }
+                            }
+                        ]
                     }
                 ]
             }
