@@ -3,4 +3,4 @@ execute if score @s Lifetime matches 71.. as @e[type=minecraft:marker,distance=.
 execute if score @s Lifetime matches 250 run function lbc:other/grimoire_dungeon/mobs/grimoire_boss/phase_laser_end
 execute if score @s Lifetime matches 70 run summon minecraft:marker ~ ~ ~ {Tags:["grumm_laser","slowraycast","boss_piece","magic"]}
 
-particle minecraft:flash
+particle minecraft:flash{color:[1,0,0,1]}

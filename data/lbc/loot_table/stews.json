@@ -816,6 +816,29 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "quality": -1,
+                    "name": "minecraft:suspicious_stew",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:suspicious_stew_effects": [
+                                    {
+                                        "id": "minecraft:breath_of_the_nautilus",
+                                        "duration": 600
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             ]
         }

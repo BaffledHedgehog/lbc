@@ -503,6 +503,29 @@
                     "type": "minecraft:item",
                     "name": "minecraft:happy_ghast_spawn_egg"
                 }
+
+
+                ,
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:copper_golem_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:camel_husk_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:parched_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nautilus_spawn_egg"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:zombie_nautilus_spawn_egg"
+                }
             ]
         }
     ]

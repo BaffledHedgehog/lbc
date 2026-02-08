@@ -4,4 +4,4 @@ effect give @s minecraft:blindness 8 1 true
 effect give @s minecraft:levitation 1 15 true
 summon minecraft:lightning_bolt
 playsound minecraft:lbcsounds.woo master @a ~ ~ ~ 1 1
-particle minecraft:flash ~ ~1 ~ 2 2 2 1 100 normal
+particle minecraft:flash{color:[1,1,0.8,1]} ~ ~1 ~ 2 2 2 1 100 normal

@@ -11,4 +11,4 @@ tellraw @a[gamemode=!spectator,distance=0.01..25,predicate=!lbc:same_team] {"tra
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1}}}}] run function lbc:workingitems/basscast_upg_check
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 2 0
 playsound minecraft:entity.firework_rocket.blast master @a ~ ~ ~ 2 0
-particle minecraft:flash ~ ~ ~ 17 17 17 1 100 force
+particle minecraft:flash{color:[1,1,1,0.1]} ~ ~ ~ 17 17 17 1 100 force

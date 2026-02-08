@@ -174,6 +174,11 @@ execute if entity @s[type=minecraft:armadillo] run summon minecraft:armadillo ~ 
 execute if entity @s[type=minecraft:bogged] run summon minecraft:bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:creaking] run summon minecraft:creaking ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:happy_ghast] run summon minecraft:happy_ghast ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:copper_golem] run summon minecraft:copper_golem ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:camel_husk] run summon minecraft:camel_husk ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:parched] run summon minecraft:parched ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:nautilus] run summon minecraft:nautilus ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:zombie_nautilus] run summon minecraft:zombie_nautilus ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 
@@ -264,6 +269,11 @@ execute if entity @s[type=minecraft:armadillo] run summon minecraft:armadillo ~ 
 execute if entity @s[type=minecraft:bogged] run summon minecraft:bogged ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:creaking] run summon minecraft:creaking ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 execute if entity @s[type=minecraft:happy_ghast] run summon minecraft:happy_ghast ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:copper_golem] run summon minecraft:copper_golem ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:camel_husk] run summon minecraft:camel_husk ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:parched] run summon minecraft:parched ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:nautilus] run summon minecraft:nautilus ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
+execute if entity @s[type=minecraft:zombie_nautilus] run summon minecraft:zombie_nautilus ~ ~ ~ {Tags:["quadried","quadriedcurr"]}
 
 
 

@@ -167,6 +167,21 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:pale_oak_log",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 16,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
                 }
             ]
         }

@@ -9,5 +9,5 @@ execute if score #random4 lbc.math matches 4 run effect give @e[distance=1..25] 
 
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 2 0
 playsound minecraft:entity.firework_rocket.blast master @a ~ ~ ~ 2 0
-particle minecraft:flash ~ ~ ~ 17 17 17 1 100 force
+particle minecraft:flash{color:[1,1,1,1]} ~ ~ ~ 17 17 17 1 100 force
 scoreboard players set @s coldown_bass 1000

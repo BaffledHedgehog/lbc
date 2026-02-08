@@ -11,4 +11,4 @@ function lbc:workingitems/basscast_combo
 tellraw @a[gamemode=!spectator,distance=0.01..25,predicate=!lbc:same_team] {"translate":"player_stunned"}
 playsound minecraft:entity.firework_rocket.large_blast master @a ~ ~ ~ 2 0
 playsound minecraft:entity.firework_rocket.blast master @a ~ ~ ~ 2 0
-particle minecraft:flash ~ ~ ~ 17 17 17 1 100 force
+particle minecraft:flash{color:[1,1,1,0.1]} ~ ~ ~ 17 17 17 1 100 force
