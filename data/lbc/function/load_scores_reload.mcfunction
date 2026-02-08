@@ -211,6 +211,7 @@ scoreboard objectives remove fartus_sword
 
 scoreboard objectives remove stone_layers
 scoreboard objectives remove stone_cd
+scoreboard objectives remove hitbullet
 
 function lbc:load
 

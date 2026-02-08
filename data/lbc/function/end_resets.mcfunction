@@ -126,6 +126,7 @@ scoreboard players set barrier_arcanum_mana_tick2 lbc.math 10
 stopsound @a * lbcsounds.crocodildo
 bossbar remove minecraft:crocodildo
 gamerule keepInventory false
+scoreboard players set randrule lbc.math 0
 execute as @a at @s run function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
 tellraw @a [{"text":"Baffled Discord Server (click): ","color":"gold","italic":false,"click_event":{"action":"open_url","url":"https://discord.gg/RVqrP3ZaYV"},"type":"text"},{"text":"https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true,"click_event":{"action":"open_url","url":"https://discord.gg/RVqrP3ZaYV"},"type":"text"}]
 tag @a remove have_bed

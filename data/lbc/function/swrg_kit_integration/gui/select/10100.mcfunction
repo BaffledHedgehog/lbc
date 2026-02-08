@@ -5,6 +5,7 @@ scoreboard players set @s[scores={swrg.gui_select=3},advancements={lbc:true_adva
 scoreboard players set @s[scores={swrg.gui_select=4},advancements={lbc:true_advancements/legends/academy/gaycaster=true}] lbc.skill 32
 scoreboard players set @s[scores={swrg.gui_select=5}] lbc.skill 33
 scoreboard players set @s[scores={swrg.gui_select=6},advancements={lbc:true_advancements/legends/academy/stone=true}] lbc.skill 34
+scoreboard players set @s[scores={swrg.gui_select=7},advancements={lbc:true_advancements/legends/academy/omega_flag=true}] lbc.skill 35
 
 
 
@@ -21,6 +22,7 @@ tellraw @s[scores={swrg.gui_select=2},advancements={lbc:true_advancements/legend
 tellraw @s[scores={swrg.gui_select=3},advancements={lbc:true_advancements/legends/academy/fire=false}] {"translate":"lbc.adv.upgraded_tuntija.fire.lore"}
 tellraw @s[scores={swrg.gui_select=4},advancements={lbc:true_advancements/legends/academy/gaycaster=false}] {"translate":"lbc.adv.upgraded_staff.gaycaster.lore"}
 tellraw @s[scores={swrg.gui_select=6},advancements={lbc:true_advancements/legends/academy/stone=false}] {"translate":"lbc.adv.upgraded_tuntija.stone.lore"}
+tellraw @s[scores={swrg.gui_select=7},advancements={lbc:true_advancements/legends/academy/omega_flag=false}] {"translate":"lbc.adv.upgraded_staff.omega_flag.lore"}
 
 
 

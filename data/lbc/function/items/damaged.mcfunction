@@ -1,3 +1,5 @@
+advancement revoke @s only lbc:cocksuckers
+
 execute at @s if items entity @s armor.chest *[minecraft:custom_data~{dynamite:1}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper,limit=1] run summon minecraft:tnt ~ ~0.2 ~ {fuse:80}
 execute at @s if items entity @s container.* *[minecraft:custom_data~{mystical:4}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/artifact/damaged
 execute at @s if items entity @s armor.chest *[minecraft:custom_data~{chaoschestplate:1}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] unless entity @a[gamemode=!spectator,distance=..20,tag=nomagic_active,limit=1] run function lbc:other/chaoschestplate/effectselect
@@ -20,5 +22,4 @@ scoreboard players set @s blocked_damage 0
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{tmt_item:1}}}]}] run function lbc:drops/tmt/trigger_smth_not_damaged
 execute if entity @s[scores={effect_shock_potion=1..}] run function lbc:other/shock_effect/zap
 schedule function lbc:items/damaged_scheduled 2t
-
-advancement revoke @s only lbc:cocksuckers
+execute if score @s damage_taken matches 1.. run scoreboard players add @s hitbullet 1

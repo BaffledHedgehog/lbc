@@ -336,6 +336,7 @@ scoreboard objectives add bomb_fragments dummy
 scoreboard objectives add life_fragments dummy
 scoreboard objectives add time_orbs dummy
 scoreboard objectives add touhou_power dummy
+scoreboard objectives add hitbullet dummy
 
 
 scoreboard objectives add lbc.challenge.skill dummy
