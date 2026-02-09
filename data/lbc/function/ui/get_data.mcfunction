@@ -89,6 +89,9 @@ execute if items entity @s[scores={nexus_compass_cd=..0}] weapon.* *[minecraft:c
 
 execute if items entity @s armor.feet *[minecraft:custom_data~{explosive_feets:1}] run data modify storage lbc.math ui append value [{"text":"    \uE173 ","extra":[{"score":{"name":"@s","objective":"rocket_armor_jumps"},"color":"white"}]},{"text":" - ","extra":[{"score":{"name":"@s","objective":"rocket_armor_jump_cd"},"color":"white"}]}]
 
+execute if items entity @s weapon.* *[minecraft:custom_data~{ak47:1,finite:1}] run data modify storage lbc.math ui append value {"text":"  \uE206 ","extra":[{"score":{"name":"@s","objective":"hitbullet"},"color":"white"}]}
+
+
 execute if score #lbcskill swrg.math matches 1 if score @s lbc.skill matches 28 run function lbc:ui/get_data_touhou_skill
 
 execute if items entity @s armor.head *[minecraft:custom_data~{bucket_head:1}] run data modify storage lbc.math ui2 prepend value {"text":"                                      \uE124 ","extra":[{"score":{"name":"@s","objective":"mana"},"color":"white"}]}

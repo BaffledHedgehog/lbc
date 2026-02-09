@@ -447,6 +447,7 @@ scoreboard players set @s mace_3 0
 scoreboard players set @s mace_4 0
 scoreboard players set @s fartus_sword 0
 tag @s remove unstamined
+scoreboard players set @s hitbullet 0
 
 advancement revoke @s only lbc:soulhunter_mace_use
 advancement revoke @s only lbc:skill_manavampire_player_hit_by_player

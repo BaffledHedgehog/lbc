@@ -34,3 +34,4 @@ execute if entity @s[tag=floatingwhitearrow] run return run function lbc:other/g
 execute if entity @s[tag=jack_o_lantern] run return run function lbc:other/event/halloween/jack_o_lantern_tick
 execute if entity @s[tag=particle_wind] run return run function lbc:other/event/halloween/particle_wind
 execute if entity @s[tag=piss_particle] run return run function lbc:workingitems/firtusnadristailo/piss_particle
+execute if entity @s[tag=oreshnik] run return run function lbc:swrg_kit_integration/game/skills/absolute_cinema/oreshnik_tick

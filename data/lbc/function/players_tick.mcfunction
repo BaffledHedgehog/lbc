@@ -60,7 +60,7 @@ execute if entity @s[scores={sauvojen_wand_upgrade=1..}] unless entity @e[type=m
 #execute if score #gamestat swrg.math matches 0 if score @s build_gui_pointer matches 1.. run function lbc:swrg_kit_integration/gui/build_manager/build_gui_pointer_select
 execute if items entity @s player.crafting.* *[custom_data~{craftusable:1}] run function lbc:other/craft/inventory_craft_check
 execute if entity @s[tag=mellstroy] run function lbc:armor/mellstroy_mask/tick
-
+execute if entity @s[tag=lenin] run function lbcr:podchinenie_3
 advancement revoke @s only lbc:penis
 advancement revoke @s only lbc:eat_halloween_food
 tag @s remove left
