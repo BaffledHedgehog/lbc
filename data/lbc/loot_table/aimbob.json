@@ -390,7 +390,7 @@
                                         "minecraft:punch": 2,
                                         "minecraft:flame": 1,
                                         "minecraft:infinity": 1,
-                                        "quick_charge": 4
+                                        "multishot": 5
                                     }
                                 }
                             },
@@ -420,11 +420,11 @@
                                     "minecraft:unbreakable": {},
                                     "minecraft:tooltip_style": "lbc:tier_s",
                                     "minecraft:enchantments": {
-                                        "minecraft:multishot": 20,
+                                        "minecraft:multishot": 1,
                                         "minecraft:piercing": 5,
                                         "power": 1,
                                         "flame": 1,
-                                        "looting": 10,
+                                        "quick_charge": 5,
                                         "punch": 1,
                                         "infinity": 1
                                     }

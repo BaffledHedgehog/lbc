@@ -19,16 +19,8 @@
         "minecraft:projectile_spread": [
             {
                 "effect": {
-                    "type": "minecraft:add",
-                    "value": {
-                        "type": "minecraft:fraction",
-                        "numerator": 10,
-                        "denominator": {
-                            "type": "linear",
-                            "base": 1,
-                            "per_level_above_first": 1
-                        }
-                    }
+                    "type": "minecraft:set",
+                    "value": 15
                 }
             }
         ]

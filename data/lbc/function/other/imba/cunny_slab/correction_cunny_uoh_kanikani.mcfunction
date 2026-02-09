@@ -1,0 +1,1 @@
+$setblock ~ ~ ~ $(wood)_sign[rotation=$(rot)]{is_waxed:true,front_text:{has_glowing_text:true,color:"white",messages:[{"text":"$(t1)"},{"text":"$(t2)"},{"text":"$(t3)"},{"text":"$(t4)"}]},back_text:{has_glowing_text:true,color:"white",messages:[{"text":"$(t12)"},{"text":"$(t22)"},{"text":"$(t32)"},{"text":"$(t42)"}]}}

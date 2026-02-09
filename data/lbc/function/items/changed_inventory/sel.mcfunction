@@ -28,7 +28,7 @@ execute unless items entity @s armor.* *[minecraft:custom_data~{gownoleggings:1}
 execute unless items entity @s armor.head *[minecraft:custom_data~{techno:1}] run tag @s remove techno_active
 execute unless items entity @s container.* *[minecraft:custom_data~{death_compass:1}] unless items entity @s weapon.* *[minecraft:custom_data~{death_compass:1}] run tag @s remove death_compass_active
 execute unless items entity @s armor.* *[minecraft:custom_data~{nanobots:1}] run tag @s remove nanobots_active
-execute unless items entity @s armor.head *[minecraft:custom_data~{night_vision:1}] run tag @s add aimbob_helmet
+execute unless items entity @s armor.head *[minecraft:custom_data~{night_vision:1}] run tag @s remove aimbob_helmet
 
 
 
