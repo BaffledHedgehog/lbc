@@ -93,4 +93,6 @@ execute if items entity @s weapon.offhand *[minecraft:custom_data~{vex_wand:1}] 
 execute if items entity @s weapon.offhand *[minecraft:custom_data~{soulcorrupter:1}] if score @s mana >= soulcorruption_wand_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] at @s anchored eyes positioned ^ ^ ^ run function lbc:other/event/halloween/soulcorruptwand/cast
 execute if items entity @s weapon.offhand *[minecraft:custom_data~{fartus_nadristailo:1}] if score @s mana >= fartus_nadristailo_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/firtusnadristailo/cast
 execute if items entity @s weapon.offhand *[minecraft:custom_data~{big_bob:1}] positioned ~ ~1 ~ run function lbc:workingitems/big_bob/click
+execute if items entity @s weapon.offhand *[minecraft:custom_data~{pozdman_bot:1}] run function lbc:swrg_kit_integration/game/skills/absolute_cinema/bot_click
+
 execute if items entity @s armor.head *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.chest *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.legs *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.feet *[minecraft:custom_data~{nyauwu:1}] run function lbc:workingitems/nyaaahuwuuw

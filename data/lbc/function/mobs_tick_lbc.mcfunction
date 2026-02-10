@@ -10,3 +10,4 @@ execute if entity @s[tag=tiny_skeleton,nbt={HurtTime:10s}] positioned ~ ~1.4 ~ r
 execute if entity @s[type=minecraft:pig,tag=hook_sit] run function lbc:swrg_kit_integration/items/grapping_hook_tick
 execute if entity @s[type=minecraft:pig,tag=nuke_pig,predicate=lbc:on_ground] run function lbc:drops/crocodildo/blowjob
 execute if entity @s[tag=god_hedgehog] run function lbc:other/god_hedgehog/tick
+execute if entity @s[type=minecraft:dolphin,tag=akyla_devid] run function lbc:swrg_kit_integration/game/skills/absolute_cinema/akyla_devid_tick

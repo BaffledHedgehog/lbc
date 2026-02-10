@@ -1,0 +1,5 @@
+summon item_display ~ ~ ~ {item_display:"fixed",transformation:{"translation": [0, 0, 0],"scale": [2, 2, 2],"left_rotation": [0,0,0,1],"right_rotation": [0.0, 0.0, 0.0, 1.0]},item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"lbc:bitcoin"},count:1},Tags:["bitcoin","mecha","slowraycast","player","physical_object"],brightness:{block:15,sky:15},Rotation:[0.0f,0.0f],teleport_duration:1,interpolation_duration:1,data:{motion:[0d,0d,0d],friction:0.8d,air_friction:1d,bounceness:1d,lifetime:100}}
+scoreboard players operation @e[type=item_display,tag=bitcoin,limit=1,distance=..0.01] team_number = @s team_number
+execute store result entity @e[type=item_display,tag=bitcoin,limit=1,distance=..0.01] Rotation[0] float 0.1 run random value -1800..1800
+execute store result entity @e[type=item_display,tag=bitcoin,limit=1,distance=..0.01] data.motion[0] double 0.01 run random value -50..50
+execute store result entity @e[type=item_display,tag=bitcoin,limit=1,distance=..0.01] data.motion[2] double 0.01 run random value -50..50

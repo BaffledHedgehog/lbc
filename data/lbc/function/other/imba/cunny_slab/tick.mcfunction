@@ -18,11 +18,6 @@ summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
 summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
 summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
 summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
-summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
-summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
-summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
-summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
-summon marker ~ ~ ~ {Tags:["cunnycorrector"]}
 execute as @e[type=marker,tag=cunnycorrector,distance=..0.1] at @s run function lbc:other/imba/cunny_slab/correction_cunny
 
 

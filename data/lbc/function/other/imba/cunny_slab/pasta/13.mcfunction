@@ -1,4 +1,4 @@
-data modify storage lbc:math t1 set value "HOW YOU CAN"
-data modify storage lbc:math t2 set value "TEASE ADULTS"
-data modify storage lbc:math t3 set value "LIKE THIS YOU BRAT"
-data modify storage lbc:math t4 set value "IMMEDIATE CORRECTION"
+data modify storage lbc:math t1 set value "\uF82FHOW YOU CAN\uF82F"
+data modify storage lbc:math t2 set value "\uF82FTEASE ADULTS\uF82F"
+data modify storage lbc:math t3 set value "\uF82FLIKE THIS YOU BRAT\uF82F"
+data modify storage lbc:math t4 set value "\uF82FIMMEDIATE CORRECTION\uF82F"

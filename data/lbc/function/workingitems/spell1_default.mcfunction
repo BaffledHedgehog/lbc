@@ -108,6 +108,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{mel
 execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{fartus_nadristailo:1}}}}] mana >= fartus_nadristailo_mana_use lbc.math unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/firtusnadristailo/cast
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{big_bob:1}}}}] positioned ~ ~1 ~ run function lbc:workingitems/big_bob/click
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{banana_palm:1}}}}] positioned ~ ~1 ~ run function lbc:workingitems/banana_palm/click
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{pozdman_bot:1}}}}] run function lbc:swrg_kit_integration/game/skills/absolute_cinema/bot_click
 
 execute if items entity @s armor.head *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.chest *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.legs *[minecraft:custom_data~{nyauwu:1}] if items entity @s armor.feet *[minecraft:custom_data~{nyauwu:1}] run function lbc:workingitems/nyaaahuwuuw
 execute at @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{overload_crux:1}}}}] anchored eyes positioned ^ ^ ^ unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/overload_crux/use

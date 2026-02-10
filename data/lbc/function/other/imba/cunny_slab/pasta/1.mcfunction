@@ -1,4 +1,4 @@
-data modify storage lbc:math t1 set value "CUNNY CUNNY"
-data modify storage lbc:math t2 set value "CUTE AND FUNNY"
-data modify storage lbc:math t3 set value "UOOOOOOOOOOH"
-data modify storage lbc:math t4 set value "PLAP PLAP PLAP"
+data modify storage lbc:math t1 set value "\uF82FCUNNY CUNNY\uF82F"
+data modify storage lbc:math t2 set value "\uF82FCUTE AND FUNNY\uF82F"
+data modify storage lbc:math t3 set value "\uF82FUOOOOOOOOOOH\uF82F"
+data modify storage lbc:math t4 set value "\uF82FPLAP PLAP PLAP\uF82F"

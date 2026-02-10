@@ -1,4 +1,4 @@
-data modify storage lbc:math t1 set value "BLUE ARCHIVE GIRLS"
-data modify storage lbc:math t2 set value "NEEDS TO BE LOVED"
-data modify storage lbc:math t3 set value "BY THEIR SENSEIS"
-data modify storage lbc:math t4 set value "CUNNY UOOOOOOOOH"
+data modify storage lbc:math t1 set value "\uF82FBLUE ARCHIVE GIRLS\uF82F"
+data modify storage lbc:math t2 set value "\uF82FNEEDS TO BE LOVED\uF82F"
+data modify storage lbc:math t3 set value "\uF82FBY THEIR SENSEIS\uF82F"
+data modify storage lbc:math t4 set value "\uF82FCUNNY UOOOOOOOOH\uF82F"

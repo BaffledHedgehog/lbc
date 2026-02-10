@@ -203,5 +203,12 @@ attribute @s minecraft:armor modifier remove uhf78arf7ahfkdhmfiash
 attribute @s minecraft:armor_toughness modifier remove uhf78arf7ashfdrehf
 attribute @s minecraft:knockback_resistance modifier remove ahfkdhmfiashfdrehf
 
+attribute @s minecraft:attack_damage modifier remove pozdman
+attribute @s minecraft:armor modifier remove pozdman
+tag @s remove pozdman
+tag @s remove nahida
+tag @s remove lenin
+tag @s remove stalin
+
 advancement revoke @s only lbc:lethal_damage
 function lbc:leave_death

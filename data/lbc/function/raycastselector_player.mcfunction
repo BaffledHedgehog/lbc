@@ -53,3 +53,4 @@ execute if entity @s[tag=soulparticle] run return run function lbc:swrg_kit_inte
 execute if entity @s[tag=wagnerhammer] run return run function lbc:swrg_kit_integration/kill_effects/hammerfalling
 execute if entity @s[tag=etiketka] run return run function lbc:workingitems/firtusnadristailo/etiketka/etiketka_tick
 execute if entity @s[tag=banana,tag=in_entity] run return run function lbc:workingitems/firtusnadristailo/banan_impact
+execute if entity @s[tag=bitcoin] run return run function lbc:swrg_kit_integration/game/skills/absolute_cinema/bitcoin_tick

@@ -1,2 +1,2 @@
-damage @s 1000 arrow
+damage @s 60 arrow
 tellraw @a {"translate":"trump_angry"}
