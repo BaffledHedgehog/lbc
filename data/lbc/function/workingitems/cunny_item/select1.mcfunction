@@ -1,16 +1,22 @@
-#execute if score cunny lbc.math matches 1 run
-#execute if score cunny lbc.math matches 2 run
-#execute if score cunny lbc.math matches 3 run
-#execute if score cunny lbc.math matches 4 run
-#execute if score cunny lbc.math matches 5 run
-#execute if score cunny lbc.math matches 6 run
-#execute if score cunny lbc.math matches 7 run
-#execute if score cunny lbc.math matches 8 run
-#execute if score cunny lbc.math matches 9 run
-#execute if score cunny lbc.math matches 10 run
-#execute if score cunny lbc.math matches 11 run
-#execute if score cunny lbc.math matches 12 run
-#execute if score cunny lbc.math matches 13 run
-#execute if score cunny lbc.math matches 14 run
-#execute if score cunny lbc.math matches 15 run
-#execute if score cunny lbc.math matches 16 run
+execute if score cunny lbc.math matches 0 run function lbc:other/imba/cunny_slab/cunnys/0
+execute if score cunny lbc.math matches 1 run function lbc:other/imba/cunny_slab/cunnys/1
+execute if score cunny lbc.math matches 2 run function lbc:other/imba/cunny_slab/cunnys/2
+execute if score cunny lbc.math matches 3 run function lbc:other/imba/cunny_slab/cunnys/3
+execute if score cunny lbc.math matches 4 run function lbc:other/imba/cunny_slab/cunnys/4
+execute if score cunny lbc.math matches 5 run function lbc:other/imba/cunny_slab/cunnys/5
+execute if score cunny lbc.math matches 6 run function lbc:other/imba/cunny_slab/cunnys/6
+execute if score cunny lbc.math matches 7 run function lbc:other/imba/cunny_slab/cunnys/7
+execute if score cunny lbc.math matches 8 run function lbc:other/imba/cunny_slab/cunnys/8
+execute if score cunny lbc.math matches 9 run function lbc:other/imba/cunny_slab/cunnys/9
+execute if score cunny lbc.math matches 10 run function lbc:other/imba/cunny_slab/cunnys/10
+execute if score cunny lbc.math matches 11 run function lbc:other/imba/cunny_slab/cunnys/11
+execute if score cunny lbc.math matches 12 run function lbc:other/imba/cunny_slab/cunnys/12
+execute if score cunny lbc.math matches 13 run function lbc:other/imba/cunny_slab/cunnys/13
+execute if score cunny lbc.math matches 14 run function lbc:other/imba/cunny_slab/cunnys/14
+execute if score cunny lbc.math matches 15 run function lbc:other/imba/cunny_slab/cunnys/15
+execute if score cunny lbc.math matches 16 run function lbc:other/imba/cunny_slab/cunnys/16
+execute if score cunny lbc.math matches 17 run function lbc:other/imba/cunny_slab/cunnys/17
+execute if score cunny lbc.math matches 18 run function lbc:other/imba/cunny_slab/cunnys/18
+execute if score cunny lbc.math matches 19 run function lbc:other/imba/cunny_slab/cunnys/19
+execute if score cunny lbc.math matches 20 run function lbc:other/imba/cunny_slab/cunnys/20
+execute if score cunny lbc.math matches 21 run function lbc:other/imba/cunny_slab/cunnys/21
