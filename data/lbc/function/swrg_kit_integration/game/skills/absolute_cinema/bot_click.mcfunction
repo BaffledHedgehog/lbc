@@ -1,4 +1,6 @@
 execute store result score tmp lbc.math run random value 1..100
+tag @s add pozdman_wait
+
 execute if score tmp lbc.math matches 1 run return run tellraw @s {"translate":"pozdman_girl_1"}
 execute if score tmp lbc.math matches 2 run return run tellraw @s {"translate":"pozdman_girl_2"}
 execute if score tmp lbc.math matches 3 run return run tellraw @s {"translate":"pozdman_girl_3"}
@@ -98,4 +100,5 @@ execute if score tmp lbc.math matches 96 run return run tellraw @s {"translate":
 execute if score tmp lbc.math matches 97 run return run tellraw @s {"translate":"pozdman_girl_97"}
 execute if score tmp lbc.math matches 98 run return run tellraw @s {"translate":"pozdman_girl_98"}
 execute if score tmp lbc.math matches 99 run return run tellraw @s {"translate":"pozdman_girl_99"}
+
 execute if score tmp lbc.math matches 100 anchored eyes positioned ^ ^ ^ run function lbc:swrg_kit_integration/game/skills/absolute_cinema/akyla_devid

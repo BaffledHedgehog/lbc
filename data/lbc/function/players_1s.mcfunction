@@ -44,7 +44,7 @@ execute if score @s cooldown_wind_charge matches 1.. run scoreboard players remo
 scoreboard players remove @s[scores={mace_2=1..}] mace_2 1
 scoreboard players remove @s[scores={mace_3=1..}] mace_3 1
 scoreboard players remove @s[scores={mace_4=1..}] mace_4 1
-
+tag @s[tag=pozdman_wait] remove pozdman_wait
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{fartus_nadristailo:1,upgraded:1}] run function lbc:workingitems/firtusnadristailo/sword_tick_1s
 function lbc:armor/nanobots/tick1s
 
