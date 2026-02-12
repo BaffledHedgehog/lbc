@@ -1,4 +1,4 @@
-    {
+{
     "pools": [
         {
             "rolls": 1,
@@ -28,7 +28,8 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:tooltip_style": "lbc:tier_d"}
+                                "minecraft:tooltip_style": "lbc:tier_d"
+                            }
                         },
                         {
                             "function": "minecraft:set_lore",
@@ -549,7 +550,6 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                
                                 "minecraft:tooltip_style": "lbc:tier_b",
                                 "minecraft:item_model": "lbc:guardiansword"
                             }
@@ -658,74 +658,9 @@
                     ]
                 },
                 {
-                    "type": "minecraft:item",
+                    "type": "minecraft:loot_table",
                     "weight": 10,
-                    "quality": 0,
-                    "name": "minecraft:golden_sword",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:tooltip_style": "lbc:tier_f",
-                                "minecraft:item_model": "lbc:evolutionsword",
-                                "minecraft:unbreakable": {},
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:attack_damage",
-                                        "slot": "mainhand",
-                                        "id": "minecraft:base_attack_damage",
-                                        "amount": 1,
-                                        "operation": "add_value"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": [
-                                {
-                                    "translate": "evolution_sword",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "mode": "replace_all",
-                            "lore": [
-                                [
-                                    {
-                                        "translate": "type",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    },
-                                    {
-                                        "translate": "sword",
-                                        "italic": false,
-                                        "color": "aqua"
-                                    }
-                                ],
-                                {
-                                    "translate": "evolution_sword.lore.1",
-                                    "color": "white",
-                                    "italic": false
-                                },
-                                {
-                                    "translate": "evolution_sword.lore.2",
-                                    "color": "white",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{transformable:1,sword:1,evolution:1}"
-                        }
-                    ]
+                    "value": "lbc:evolution_sword"
                 },
                 {
                     "type": "minecraft:loot_table",

@@ -210,5 +210,12 @@ tag @s remove nahida
 tag @s remove lenin
 tag @s remove stalin
 
+attribute @s armor modifier remove cunny2buffs
+attribute @s armor_toughness modifier remove cunny2buffs
+attribute @s attack_damage modifier remove cunny2buffs
+attribute @s scale modifier remove cunny2buffs
+attribute @s max_health modifier remove cunny2buffs
+attribute @s movement_speed modifier remove cunny2buffs
+
 advancement revoke @s only lbc:lethal_damage
 function lbc:leave_death

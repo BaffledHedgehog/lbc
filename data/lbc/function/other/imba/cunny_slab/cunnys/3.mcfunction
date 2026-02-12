@@ -1,4 +1,5 @@
-
+effect give @s regeneration infinite 2
+summon marker ~ ~-1 ~ {Tags:["slowraycast","rare","grassifier"]}
 
 
 tellraw @a {"translate":"cunny_slab_3","color":"#e680f3"}
