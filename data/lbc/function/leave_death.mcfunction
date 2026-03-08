@@ -452,7 +452,17 @@ scoreboard players set @s mace_4 0
 scoreboard players set @s fartus_sword 0
 tag @s remove unstamined
 scoreboard players set @s hitbullet 0
+scoreboard players set @s cumming 0
 
+attribute @s max_health modifier remove plapper_debuff
+attribute @s max_absorption modifier remove plapper_debuff
+attribute @s attack_damage modifier remove plapper_debuff
+attribute @s camera_distance modifier remove plapper_debuff
+stopsound @a master minecraft:lbcsounds.bafled
+tag @s remove plapper
+tag @s remove love_girl
+tag @s remove girl_seeker
+tag @s remove cumming
 advancement revoke @s only lbc:soulhunter_mace_use
 advancement revoke @s only lbc:skill_manavampire_player_hit_by_player
 advancement revoke @s only lbc:gowno_player_hit_player

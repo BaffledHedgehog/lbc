@@ -7,5 +7,5 @@ execute if score #random10 lbc.math matches 5 run function lbc:workingitems/summ
 execute if score #random10 lbc.math matches 6 run function lbc:workingitems/summoner/cultists/chaos/get_tridents
 execute if score #random10 lbc.math matches 7 run function lbc:workingitems/summoner/cultists/chaos/get_evoker
 execute if score #random10 lbc.math matches 8 run function lbc:workingitems/summoner/cultists/chaos/get_stun
-execute if score #random10 lbc.math matches 9 run function lbc:workingitems/summoner/cultists/chaos/get_terra
+execute if score #random10 lbc.math matches 9 anchored eyes positioned ^ ^ ^ run function lbc:workingitems/summoner/cultists/chaos/get_terra
 execute if score #random10 lbc.math matches 10 run function lbc:workingitems/summoner/cultists/chaos/get_electro

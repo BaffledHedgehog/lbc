@@ -22,23 +22,5 @@
                 }
             }
         }
-    },
-    {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-            "lbcID": {
-                "min": {
-                    "type": "minecraft:score",
-                    "target": "this",
-                    "score": "lbcID"
-                },
-                "max": {
-                    "type": "minecraft:score",
-                    "target": "this",
-                    "score": "lbcID"
-                }
-            }
-        }
     }
 ]

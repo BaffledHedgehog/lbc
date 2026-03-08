@@ -1,0 +1,2 @@
+execute at @a[tag=love_girl] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run particle minecraft:entity_effect{color:[0.0,0.01,0.0,1.0]} ~ ~ ~ 0 0 0 0 1 force @s
+execute as @a[tag=love_girl] positioned ~ ~3 ~ facing entity @s eyes unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1,tag=!strict_map_object] run function lbc:armor/powerhelmet_particle

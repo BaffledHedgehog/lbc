@@ -9,7 +9,7 @@ scoreboard players remove @s coldownhohol 1
 execute if entity @s[scores={gaycaster_upgrade=1..}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:workingitems/gaycaster/meditate/tick_5t
 execute if entity @s[scores={coldownshish=19}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/reactive_shish_place
 execute if entity @s[tag=demonkishki_active,scores={foodlvl=16..,hplvl=..4}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:other/extraheal
-execute if entity @s[tag=chaosdust_active] run particle minecraft:dust{color:[10.0f,10.0f,10.0f],scale:1.0f} ~ ~1 ~ 0.3 0.3 0.3 0 3 normal
+execute if entity @s[tag=chaosdust_active] run particle minecraft:dust{color:[1.0f,1.0f,1.0f],scale:1.0f} ~ ~1 ~ 0.3 0.3 0.3 0 3 normal
 execute if items entity @s weapon.mainhand *[minecraft:custom_data~{arcanum5t:1}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:items/arcanums/5true/select
 execute if entity @s[tag=arcanum5t_use] unless items entity @s weapon.mainhand *[minecraft:custom_data~{arcanum5t:1}] run function lbc:items/arcanums/end5t
 execute if items entity @s weapon.offhand *[minecraft:custom_data~{arcanum5t:1}] unless entity @e[type=minecraft:marker,distance=..20,tag=stopper_magic,limit=1] run function lbc:items/arcanums/5true/select2

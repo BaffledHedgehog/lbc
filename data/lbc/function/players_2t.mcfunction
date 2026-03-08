@@ -18,4 +18,8 @@ execute if score @s death_timer matches 1.. run function lbc:other/death
 execute if score @s gatling_fovos matches 1.. anchored eyes positioned ^ ^ ^ run function lbc:workingitems/sauvojen_staffs/blind_loop_gatling
 execute if entity @s[tag=firefarting] run function lbc:items/swords/blazefire_sword/tick_5t
 execute if score @s air_wisp_count matches 1.. run function lbc:other/wisp_book/passive_effects/air/as_player/run
+
+
+
+execute if entity @s[tag=girl_seeker] run function lbc:other/imba/cunny_slab/cunnys/6_seek
 execute as @e[type=horse,tag=twilight_sparkle,scores={sprint_timer=1..},distance=..2] positioned as @s run function lbc:items/trinket_effects/twilight_sparkle_horse

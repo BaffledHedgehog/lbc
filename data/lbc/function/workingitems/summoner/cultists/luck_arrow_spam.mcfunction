@@ -1,4 +1,5 @@
-execute at @e[type=#minecraft:mobs,distance=..8,tag=!spectator] if score @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] add nodmg
-execute at @e[type=#minecraft:mobs,distance=..8,tag=!spectator] if score @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] team_number = @s team_number run tag @e[type=#minecraft:mobs,tag=!spectator,sort=nearest,limit=1] add nodmg
-execute if entity @e[type=#minecraft:mobs,distance=..8,tag=!spectator,tag=!nodmg] anchored eyes positioned ^ ^ ^ run function lbc:workingitems/summoner/cultists/luck_arrow_spam_yes
+scoreboard players operation *tempt lbcID2 = @s team_number
+scoreboard players operation *temp lbcID2 = @s lbcID2
+
+execute anchored eyes positioned ^ ^ ^ facing entity @e[type=#minecraft:mobs,distance=0.01..12,tag=!spectator,predicate=!lbc:same_id,predicate=!lbc:same_team,limit=1,sort=nearest] eyes run function lbc:workingitems/summoner/cultists/luck_arrow_spam_yes
 tag @e remove nodmg

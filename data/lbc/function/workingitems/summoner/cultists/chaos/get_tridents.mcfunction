@@ -1,2 +1,2 @@
-execute anchored eyes facing entity @e[type=#minecraft:mobs,distance=..75,tag=!nodmg,tag=!spectator,sort=nearest,limit=1,tag=!strict_map_object] eyes positioned ^ ^ ^.5 run function lbc:workingitems/summoner/cultists/chaos/tridentshoot
+execute anchored eyes facing entity @e[type=#minecraft:mobs,distance=..75,predicate=!lbc:same_id,predicate=!lbc:same_team,tag=!spectator,sort=nearest,limit=1,tag=!strict_map_object] eyes positioned ^ ^ ^.5 run function lbc:workingitems/summoner/cultists/chaos/tridentshoot
 playsound minecraft:item.trident.throw master @a ~ ~ ~ 1 1

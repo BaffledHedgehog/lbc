@@ -1,4 +1,3 @@
-execute at @e[type=#minecraft:mobs,distance=..50,tag=!spectator] if score @e[type=#minecraft:mobs,distance=..0.001,tag=!spectator,limit=1] lbcID2 = @s lbcID2 run tag @e[type=#minecraft:mobs,distance=..0.001,tag=!spectator,limit=1] add nodmg
-execute at @e[type=#minecraft:mobs,distance=..50,tag=!spectator] if score @e[type=#minecraft:mobs,distance=..0.001,tag=!spectator,limit=1] team_number = @s team_number run tag @e[type=#minecraft:mobs,distance=..0.001,tag=!spectator,limit=1] add nodmg
-execute if entity @e[type=#minecraft:mobs,distance=..50,tag=!spectator,tag=!nodmg] run function lbc:workingitems/summoner/cultists/chaos/2s_yes
-tag @e remove nodmg
+scoreboard players operation *tempt lbcID2 = @s team_number
+scoreboard players operation *temp lbcID2 = @s lbcID2
+execute if entity @e[type=#minecraft:mobs,distance=..50,tag=!spectator,predicate=!lbc:same_id,predicate=!lbc:same_team] run function lbc:workingitems/summoner/cultists/chaos/2s_yes

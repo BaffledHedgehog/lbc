@@ -357,6 +357,8 @@ scoreboard objectives add fartus_sword dummy
 
 #scoreboard players set antigravity lbc.math 0
 
+scoreboard objectives add cumming dummy
+
 function lbc:swrg_kit_integration/gui/reset_statholder
 
 #swag

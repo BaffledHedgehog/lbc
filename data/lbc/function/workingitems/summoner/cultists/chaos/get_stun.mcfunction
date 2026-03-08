@@ -1,2 +1,2 @@
-execute as @e[type=#minecraft:mobs,tag=!nodmg,tag=!spectator,sort=nearest,limit=1] at @s run function lbc:workingitems/summoner/cultists/chaos/stun
+execute as @e[type=#minecraft:mobs,predicate=!lbc:same_id,predicate=!lbc:same_team,tag=!spectator,sort=nearest,limit=1] at @s run function lbc:workingitems/summoner/cultists/chaos/stun
 playsound minecraft:block.amethyst_block.break master @a ~ ~ ~ 1 1

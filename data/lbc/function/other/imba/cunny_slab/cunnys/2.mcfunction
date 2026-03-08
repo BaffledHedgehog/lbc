@@ -9,5 +9,5 @@ loot give @s loot lbc:inf_shulker
 loot give @s loot lbc:inf_steak
 loot give @s loot lbc:evolution_sword
 
-tellraw @a {"translate":"cunny_slab_2","color":"#e680f3"}
+tellraw @s {"translate":"cunny_slab_2","color":"#e680f3"}
 clear @s *[custom_data~{cunny:2}] 1

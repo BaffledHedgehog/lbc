@@ -3,40 +3,22 @@
         "condition": "minecraft:entity_scores",
         "entity": "this",
         "scores": {
-            "lbcID2": {
-                "min": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "*tempt"
-                    },
-                    "score": "lbcID2"
-                },
-                "max": {
-                    "type": "minecraft:score",
-                    "target": {
-                        "type": "minecraft:fixed",
-                        "name": "*tempt"
-                    },
-                    "score": "lbcID2"
-                }
-            }
-        }
-    },
-    {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
             "team_number": {
                 "min": {
                     "type": "minecraft:score",
-                    "target": "this",
-                    "score": "team_number"
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "*tempt"
+                    },
+                    "score": "lbcID2"
                 },
                 "max": {
                     "type": "minecraft:score",
-                    "target": "this",
-                    "score": "team_number"
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "*tempt"
+                    },
+                    "score": "lbcID2"
                 }
             }
         }

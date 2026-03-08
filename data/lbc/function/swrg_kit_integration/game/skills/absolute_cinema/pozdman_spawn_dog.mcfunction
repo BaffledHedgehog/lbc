@@ -1,0 +1,2 @@
+advancement revoke @s only lbc:killed_by_pozdman
+summon wolf ~ ~ ~ {"CollarColor":14,attributes:[{id:"minecraft:max_health","base":40},{"id":"minecraft:attack_damage","base":9}],CustomName:{"translate":"ebynavy_dog"},PersistenceRequired:true,CustomNameVisible:true}
