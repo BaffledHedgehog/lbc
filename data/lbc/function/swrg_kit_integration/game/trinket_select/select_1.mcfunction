@@ -28,6 +28,10 @@ execute if score tmp lbc.math matches 15 run loot give @s loot lbc:trinket/twili
 execute if score tmp lbc.math matches 16 run loot give @s loot lbc:trinket/gneiss_stone
 execute if score tmp lbc.math matches 17 run loot give @s loot lbc:trinket/hedgehog_gauntlet
 execute if score tmp lbc.math matches 18 run loot give @s loot lbc:trinket/snow_gem
-execute if score tmp lbc.math matches 19 run loot give @s loot lbc:trinket/ice_gem
-execute if score tmp lbc.math matches 20 run loot give @s loot lbc:trinket/mana_gem
+
+execute if score tmp lbc.math matches 20 run loot give @s loot lbc:trinket/ice_gem
+execute if score tmp lbc.math matches 21 run loot give @s loot lbc:trinket/mana_gem
+execute if score tmp lbc.math matches 22 run loot give @s loot lbc:trinket/poly_gem
+execute if score tmp lbc.math matches 23 run loot give @s loot lbc:trinket/glass_shard
+execute if score tmp lbc.math matches 24 run loot give @s loot lbc:trinket/psycho_soul
 

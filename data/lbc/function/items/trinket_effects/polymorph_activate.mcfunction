@@ -1,0 +1,1 @@
+execute as @e[type=!player,tag=!magicalsheep,distance=..24,limit=1,sort=random] at @s run function lbc:items/trinket_effects/polymorph_me

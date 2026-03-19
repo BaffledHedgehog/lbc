@@ -13,3 +13,7 @@ scoreboard players set tmp lbc.math 0
 execute store result score tmp lbc.math run clear @s *[minecraft:custom_data~{trinket:"snow_pearl"}] 0
 execute if score tmp lbc.math matches 1.. run function lbc:items/trinket_effects/snow_pearl
 scoreboard players set tmp lbc.math 0
+
+execute store result score tmp lbc.math run clear @s *[minecraft:custom_data~{trinket:"psycho_soul"}] 0
+execute if score tmp lbc.math matches 1.. run function lbc:items/trinket_effects/psycho_soul
+scoreboard players set tmp lbc.math 0

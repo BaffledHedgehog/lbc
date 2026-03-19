@@ -19,6 +19,9 @@ execute if score @s swrg.gui_select matches 16 if entity @s[advancements={lbc:tr
 execute if score @s swrg.gui_select matches 17 if entity @s[advancements={lbc:true_advancements/legends/academy/snow_wand=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 19 if entity @s[advancements={lbc:true_advancements/legends/academy/ice_wand=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 20 if entity @s[advancements={lbc:true_advancements/legends/academy/neutral=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 21 if entity @s[advancements={lbc:true_advancements/legends/academy/polymorph=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 22 if entity @s[advancements={lbc:true_advancements/legends/academy/prism=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
+execute if score @s swrg.gui_select matches 23 if entity @s[advancements={lbc:true_advancements/legends/academy/psycho=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 
 #
 
@@ -42,6 +45,9 @@ execute if score @s swrg.gui_select matches 16 run tellraw @s[advancements={lbc:
 execute if score @s swrg.gui_select matches 17 run tellraw @s[advancements={lbc:true_advancements/legends/academy/snow_wand=false}] {"translate":"lbc.adv.upgraded_staff.snow_wand.lore"}
 execute if score @s swrg.gui_select matches 19 run tellraw @s[advancements={lbc:true_advancements/legends/academy/ice_wand=false}] {"translate":"lbc.adv.upgraded_staff.ice_wand.lore"}
 execute if score @s swrg.gui_select matches 20 run tellraw @s[advancements={lbc:true_advancements/legends/academy/neutral=false}] {"translate":"lbc.adv.upgraded_staff.neutral.lore"}
+execute if score @s swrg.gui_select matches 21 run tellraw @s[advancements={lbc:true_advancements/legends/academy/polymorph=false}] {"translate":"lbc.adv.upgraded_staff.polymorph.lore"}
+execute if score @s swrg.gui_select matches 22 run tellraw @s[advancements={lbc:true_advancements/legends/academy/prism=false}] {"translate":"lbc.adv.upgraded_staff.prism.lore"}
+execute if score @s swrg.gui_select matches 23 run tellraw @s[advancements={lbc:true_advancements/legends/academy/psycho=false}] {"translate":"lbc.adv.upgraded_staff.psycho.lore"}
 
 
 

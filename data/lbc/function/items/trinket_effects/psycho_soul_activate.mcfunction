@@ -1,0 +1,1 @@
+execute as @e[type=#mobs,type=!player,tag=!strict_map_object,distance=..24,nbt={HurtTime:10s},nbt=!{NoAI:true}] at @s run function lbc:items/trinket_effects/psycho_soul_activate_1

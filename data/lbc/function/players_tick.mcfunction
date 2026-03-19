@@ -64,6 +64,7 @@ execute if entity @s[tag=lenin] run function lbcr:podchinenie_3
 execute if entity @s[tag=love_girl,predicate=!lbc:on_ground] facing entity @a[tag=girl_seeker,limit=1,sort=nearest] feet run function lbc:other/imba/cunny_slab/cunnys/6_move
 execute if entity @s[tag=plapper,advancements={lbc:use_nahida=false}] run function lbc:other/imba/cunny_slab/cunnys/5_plapping_stop
 execute if score @s cumming matches 1.. run function lbc:effects/cumming
+execute if score #lbctrinket swrg.math matches 1.. run function lbc:items/trinket_effects/tick
 advancement revoke @s only lbc:use_nahida
 advancement revoke @s only lbc:penis
 advancement revoke @s only lbc:eat_halloween_food

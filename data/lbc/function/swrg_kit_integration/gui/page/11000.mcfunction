@@ -26,6 +26,9 @@ loot replace entity @s[advancements={lbc:true_advancements/legends/academy/snow_
 
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/ice_wand=true}] enderchest.19 loot lbc:gui/page/11000/19
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/neutral=true}] enderchest.20 loot lbc:gui/page/11000/20
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/polymorph=true}] enderchest.21 loot lbc:gui/page/11000/21
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/prism=true}] enderchest.22 loot lbc:gui/page/11000/22
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/psycho=true}] enderchest.23 loot lbc:gui/page/11000/23
 #
 scoreboard players operation tmp1 lbc.math = @s lbc.trinket1
 scoreboard players operation tmp1 lbc.math %= 100000000 lbc.math
@@ -117,6 +120,9 @@ item replace entity @s[advancements={lbc:true_advancements/legends/academy/hedge
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/snow_wand=false}] enderchest.17 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/ice_wand=false}] enderchest.19 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/neutral=false}] enderchest.20 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/polymorph=false}] enderchest.21 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/prism=false}] enderchest.22 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/psycho=false}] enderchest.23 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
 
 item modify entity @s[advancements={lbc:true_advancements/bows/blaze=false}] enderchest.0 lbc:swrg_unlocks/blaze
@@ -138,6 +144,9 @@ item modify entity @s[advancements={lbc:true_advancements/legends/academy/hedgeh
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/snow_wand=false}] enderchest.17 lbc:swrg_unlocks/snow_wand_academy
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/ice_wand=false}] enderchest.19 lbc:swrg_unlocks/ice_wand_academy
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/neutral=false}] enderchest.20 lbc:swrg_unlocks/neutral_wand_academy
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/polymorph=false}] enderchest.21 lbc:swrg_unlocks/polymorph_wand_academy
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/prism=false}] enderchest.22 lbc:swrg_unlocks/prism_academy
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/psycho=false}] enderchest.23 lbc:swrg_unlocks/prism_psycho
 
 loot replace entity @s enderchest.18 loot swrg:gui/back
 loot replace entity @s enderchest.25 loot swrg:gui/reset
