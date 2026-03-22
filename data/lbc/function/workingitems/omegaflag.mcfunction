@@ -2,9 +2,9 @@ tag @s add caster
 execute store result score tmp1 lbc.math run data get entity @s Health 1
 #tellraw @s {"score": {"name": "tmp1","objective": "lbc.math"}}
 playsound minecraft:entity.ender_dragon.growl master @a ~ 100000 ~ 100000 2
-execute at @e[type=#minecraft:mobs,tag=!spectator,predicate=!lbc:nexus] run function lbc:workingitems/omegaflag_particles
-execute as @e[type=#minecraft:mobs,type=!player,tag=!spectator,predicate=!lbc:nexus] run damage @s 6 cactus
-execute as @a[tag=!spectator,predicate=!lbc:nexus] run damage @s 6 cactus by @p[gamemode=!spectator,tag=caster]
+execute at @e[type=#minecraft:mobs,tag=!spectator,predicate=!lbc:nexus] unless entity @e[type=marker,tag=stopper_magic,distance=..20] run function lbc:workingitems/omegaflag_particles
+execute as @e[type=#minecraft:mobs,type=!player,tag=!spectator,predicate=!lbc:nexus] at @s unless entity @e[type=marker,tag=stopper_magic,distance=..20] run damage @s 6 cactus
+execute as @a[tag=!spectator,predicate=!lbc:nexus] at @s unless entity @e[type=marker,tag=stopper_magic,distance=..20] run damage @s 6 cactus by @p[gamemode=!spectator,tag=caster]
 execute store result score tmp2 lbc.math run data get entity @s Health 1
 #tellraw @s {"score": {"name": "tmp2","objective": "lbc.math"}}
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{upgradable:1}}}}] if score tmp1 lbc.math <= tmp2 lbc.math run function lbc:other/magic_academy/can_upgrade
