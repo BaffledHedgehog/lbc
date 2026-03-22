@@ -1,4 +1,4 @@
-scoreboard players set final lbc.math 5
+scoreboard players set final lbc.math 2
 scoreboard players operation tmp lbc.math *= 1 lbc.math
 scoreboard players remove tmp lbc.math 1
 scoreboard players operation final lbc.math += tmp lbc.math
