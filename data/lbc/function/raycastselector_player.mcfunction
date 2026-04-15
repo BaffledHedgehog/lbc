@@ -55,3 +55,4 @@ execute if entity @s[tag=etiketka] run return run function lbc:workingitems/firt
 execute if entity @s[tag=banana,tag=in_entity] run return run function lbc:workingitems/firtusnadristailo/banan_impact
 execute if entity @s[tag=bitcoin] run return run function lbc:swrg_kit_integration/game/skills/absolute_cinema/bitcoin_tick
 execute if entity @s[tag=soulparticle1] run return run function lbc:items/trinket_effects/psycho_soul_particle
+execute if entity @s[tag=doppel] run return run function lbc:swrg_kit_integration/game/skills/psychblind/doppel_tick

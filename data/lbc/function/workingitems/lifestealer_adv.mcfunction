@@ -14,3 +14,20 @@ execute if entity @s[team=13] if entity @e[type=#minecraft:mobs,type=!player,dis
 execute if entity @s[team=14] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=14] run advancement grant @s only lbc:true_advancements/staffs/vampire
 execute if entity @s[team=15] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=15] run advancement grant @s only lbc:true_advancements/staffs/vampire
 execute if entity @s[team=16] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=16] run advancement grant @s only lbc:true_advancements/staffs/vampire
+
+execute if entity @s[team=17] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=17] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=18] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=18] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=19] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=19] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=20] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=20] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=21] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=21] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=22] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=22] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=23] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=23] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=24] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=24] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=25] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=25] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=26] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=26] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=27] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=27] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=28] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=28] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=29] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=29] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=30] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=30] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=31] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=31] run advancement grant @s only lbc:true_advancements/staffs/vampire
+execute if entity @s[team=32] if entity @e[type=#minecraft:mobs,type=!player,distance=0.1..20,team=32] run advancement grant @s only lbc:true_advancements/staffs/vampire

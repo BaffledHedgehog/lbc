@@ -32,6 +32,23 @@ execute if entity @s[team=14] run team join 14 @e[distance=..0.01,tag=quadriedcu
 execute if entity @s[team=15] run team join 15 @e[distance=..0.01,tag=quadriedcurr,limit=3]
 execute if entity @s[team=16] run team join 16 @e[distance=..0.01,tag=quadriedcurr,limit=3]
 
+execute if entity @s[team=17] run team join 17 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=18] run team join 18 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=19] run team join 19 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=20] run team join 20 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=21] run team join 21 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=22] run team join 22 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=23] run team join 23 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=24] run team join 24 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=25] run team join 25 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=26] run team join 26 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=27] run team join 27 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=28] run team join 28 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=29] run team join 29 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=30] run team join 30 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=31] run team join 31 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+execute if entity @s[team=32] run team join 32 @e[distance=..0.01,tag=quadriedcurr,limit=3]
+
 execute as @e[distance=..0.01,tag=quadriedcurr,limit=3] at @s run function lbc:rand_motion_razbros
 function lbc:rand_motion_razbros
 tag @e[distance=..0.01,tag=quadriedcurr,limit=3] remove quadriedcurr

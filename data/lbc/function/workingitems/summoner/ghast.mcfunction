@@ -14,6 +14,23 @@ execute if entity @s[team=13] run kill @e[type=minecraft:ghast,tag=summghast,tea
 execute if entity @s[team=14] run kill @e[type=minecraft:ghast,tag=summghast,team=14]
 execute if entity @s[team=15] run kill @e[type=minecraft:ghast,tag=summghast,team=15]
 execute if entity @s[team=16] run kill @e[type=minecraft:ghast,tag=summghast,team=16]
+
+execute if entity @s[team=17] run kill @e[type=minecraft:ghast,tag=summghast,team=17]
+execute if entity @s[team=18] run kill @e[type=minecraft:ghast,tag=summghast,team=18]
+execute if entity @s[team=19] run kill @e[type=minecraft:ghast,tag=summghast,team=19]
+execute if entity @s[team=20] run kill @e[type=minecraft:ghast,tag=summghast,team=20]
+execute if entity @s[team=21] run kill @e[type=minecraft:ghast,tag=summghast,team=21]
+execute if entity @s[team=22] run kill @e[type=minecraft:ghast,tag=summghast,team=22]
+execute if entity @s[team=23] run kill @e[type=minecraft:ghast,tag=summghast,team=23]
+execute if entity @s[team=24] run kill @e[type=minecraft:ghast,tag=summghast,team=24]
+execute if entity @s[team=25] run kill @e[type=minecraft:ghast,tag=summghast,team=25]
+execute if entity @s[team=26] run kill @e[type=minecraft:ghast,tag=summghast,team=26]
+execute if entity @s[team=27] run kill @e[type=minecraft:ghast,tag=summghast,team=27]
+execute if entity @s[team=28] run kill @e[type=minecraft:ghast,tag=summghast,team=28]
+execute if entity @s[team=29] run kill @e[type=minecraft:ghast,tag=summghast,team=29]
+execute if entity @s[team=30] run kill @e[type=minecraft:ghast,tag=summghast,team=30]
+execute if entity @s[team=31] run kill @e[type=minecraft:ghast,tag=summghast,team=31]
+execute if entity @s[team=32] run kill @e[type=minecraft:ghast,tag=summghast,team=32]
 summon minecraft:ghast ~ ~20 ~10 {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"minecraft:follow_range",base:200}]}
 summon minecraft:ghast ~ ~20 ~-10 {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"minecraft:follow_range",base:200}]}
 summon minecraft:ghast ~10 ~20 ~ {PersistenceRequired:1b,DeathLootTable:"empty",Tags:["summghast"],attributes:[{id:"minecraft:follow_range",base:200}]}
@@ -40,6 +57,23 @@ execute if entity @s[team=13] run team join 13 @e[type=minecraft:ghast,tag=summg
 execute if entity @s[team=14] run team join 14 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
 execute if entity @s[team=15] run team join 15 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
 execute if entity @s[team=16] run team join 16 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+
+execute if entity @s[team=17] run team join 17 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=18] run team join 18 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=19] run team join 19 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=20] run team join 20 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=21] run team join 21 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=22] run team join 22 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=23] run team join 23 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=24] run team join 24 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=25] run team join 25 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=26] run team join 26 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=27] run team join 27 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=28] run team join 28 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=29] run team join 29 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=30] run team join 30 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=31] run team join 31 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
+execute if entity @s[team=32] run team join 32 @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9]
 
 scoreboard players operation @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9] lbcID2 = @s lbcID2
 scoreboard players operation @e[type=minecraft:ghast,tag=summghast,tag=!summactivated,sort=nearest,limit=9] team_number = @s team_number

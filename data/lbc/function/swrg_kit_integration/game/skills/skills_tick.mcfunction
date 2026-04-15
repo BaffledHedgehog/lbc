@@ -9,3 +9,4 @@ execute if score @s lbc.skill matches 21 run return run function lbc:swrg_kit_in
 execute if score @s lbc.skill matches 23 run return run function lbc:swrg_kit_integration/game/skills/god_claw_tick
 execute if score @s lbc.skill matches 24 run return run function lbc:swrg_kit_integration/game/skills/expansion_tick
 execute if score @s lbc.skill matches 32 run return run function lbc:swrg_kit_integration/game/skills/rainbow_aura/tick
+execute if score @s lbc.skill matches 36 run return run function lbc:swrg_kit_integration/game/skills/psychblind/tick

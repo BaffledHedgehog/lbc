@@ -13,6 +13,7 @@ loot replace entity @s[advancements={lbc:true_advancements/legends/academy/gayca
 loot replace entity @s enderchest.5 loot lbc:gui/page/10100/5
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/stone=true}] enderchest.6 loot lbc:gui/page/10100/6
 loot replace entity @s[advancements={lbc:true_advancements/legends/academy/omega_flag=true}] enderchest.7 loot lbc:gui/page/10100/7
+loot replace entity @s[advancements={lbc:true_advancements/legends/academy/psychoblind=true}] enderchest.8 loot lbc:gui/page/10100/8
 
 item modify entity @s[scores={lbc.skill=28}] enderchest.0 swrg:select
 item modify entity @s[scores={lbc.skill=29}] enderchest.1 swrg:select
@@ -47,6 +48,7 @@ item replace entity @s[advancements={lbc:true_advancements/legends/academy/fire=
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/gaycaster=false}] enderchest.4 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/stone=false}] enderchest.6 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 item replace entity @s[advancements={lbc:true_advancements/legends/academy/omega_flag=false}] enderchest.7 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
+item replace entity @s[advancements={lbc:true_advancements/legends/academy/psychoblind=false}] enderchest.8 with minecraft:repeating_command_block[minecraft:item_model="lbc:locked"]
 
 
 
@@ -60,6 +62,7 @@ item modify entity @s[advancements={lbc:true_advancements/legends/academy/fire=f
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/gaycaster=false}] enderchest.4 lbc:swrg_unlocks/gaycaster_academy
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/stone=false}] enderchest.6 lbc:swrg_unlocks/ststone_academy
 item modify entity @s[advancements={lbc:true_advancements/legends/academy/omega_flag=false}] enderchest.7 lbc:swrg_unlocks/omegaflag_academy
+item modify entity @s[advancements={lbc:true_advancements/legends/academy/psychoblind=false}] enderchest.8 lbc:swrg_unlocks/psychoblind_academy
 
 
 

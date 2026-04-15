@@ -14,3 +14,20 @@ execute if entity @s[team=13] run return run tag @e[type=#mobs,team=13] add noda
 execute if entity @s[team=14] run return run tag @e[type=#mobs,team=14] add nodamage
 execute if entity @s[team=15] run return run tag @e[type=#mobs,team=15] add nodamage
 execute if entity @s[team=16] run return run tag @e[type=#mobs,team=16] add nodamage
+
+execute if entity @s[team=17] run return run tag @e[type=#mobs,team=17] add nodamage
+execute if entity @s[team=18] run return run tag @e[type=#mobs,team=18] add nodamage
+execute if entity @s[team=19] run return run tag @e[type=#mobs,team=19] add nodamage
+execute if entity @s[team=20] run return run tag @e[type=#mobs,team=20] add nodamage
+execute if entity @s[team=21] run return run tag @e[type=#mobs,team=21] add nodamage
+execute if entity @s[team=22] run return run tag @e[type=#mobs,team=22] add nodamage
+execute if entity @s[team=23] run return run tag @e[type=#mobs,team=23] add nodamage
+execute if entity @s[team=24] run return run tag @e[type=#mobs,team=24] add nodamage
+execute if entity @s[team=25] run return run tag @e[type=#mobs,team=25] add nodamage
+execute if entity @s[team=26] run return run tag @e[type=#mobs,team=26] add nodamage
+execute if entity @s[team=27] run return run tag @e[type=#mobs,team=27] add nodamage
+execute if entity @s[team=28] run return run tag @e[type=#mobs,team=28] add nodamage
+execute if entity @s[team=29] run return run tag @e[type=#mobs,team=29] add nodamage
+execute if entity @s[team=30] run return run tag @e[type=#mobs,team=30] add nodamage
+execute if entity @s[team=31] run return run tag @e[type=#mobs,team=31] add nodamage
+execute if entity @s[team=32] run return run tag @e[type=#mobs,team=32] add nodamage

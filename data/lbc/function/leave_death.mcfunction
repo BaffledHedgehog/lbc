@@ -463,6 +463,8 @@ tag @s remove plapper
 tag @s remove love_girl
 tag @s remove girl_seeker
 tag @s remove cumming
+tag @s remove doppeled
+tag @s remove doppcaster
 advancement revoke @s only lbc:soulhunter_mace_use
 advancement revoke @s only lbc:skill_manavampire_player_hit_by_player
 advancement revoke @s only lbc:gowno_player_hit_player

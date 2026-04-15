@@ -119,6 +119,7 @@ bossbar remove grimoire_boss
 stopsound @a * minecraft:lbcsounds.helicopter
 stopsound @a * minecraft:lbcsounds.penis_bossfight
 stopsound @a * minecraft:lbcsounds.bad_apple
+stopsound @a * minecraft:lbcsounds.ukraine
 tag @a remove darkness_player
 scoreboard players set #timer lbc.math 0
 scoreboard players set bottom_nexus lbc.math 0
@@ -130,3 +131,5 @@ gamerule keep_inventory false
 execute as @a at @s run function lbc:swrg_kit_integration/game/levelup_select/levelups_remove
 tellraw @a [{"text":"Baffled Discord Server (click): ","color":"gold","italic":false,"click_event":{"action":"open_url","url":"https://discord.gg/RVqrP3ZaYV"},"type":"text"},{"text":"https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true,"click_event":{"action":"open_url","url":"https://discord.gg/RVqrP3ZaYV"},"type":"text"}]
 tag @a remove have_bed
+
+execute align xyz positioned ~.5 ~ ~.5 run summon minecraft:block_display ~ ~ ~ {view_range:999f,shadow_radius:0f,shadow_strength:0f,block_state:{Name:"minecraft:gravel"}}

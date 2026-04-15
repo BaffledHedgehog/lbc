@@ -1,3 +1,6 @@
+scoreboard players operation *temp lbcID2 = @s lbcID2
+scoreboard players operation *tempt lbcID2 = @s team_number
+
 function lbc:workingitems/awaken_tuntija_wands/fireblaze/click2_upgraded
 scoreboard players operation @s mana -= fireblaze_wand_mana_use lbc.math
 execute if items entity @s armor.head *[minecraft:custom_data~{mage:1}] if items entity @s armor.chest *[minecraft:custom_data~{mage:1}] if items entity @s armor.legs *[minecraft:custom_data~{mage:1}] if items entity @s armor.feet *[minecraft:custom_data~{mage:1}] run scoreboard players operation @s manamax += mage_set_bonus lbc.math

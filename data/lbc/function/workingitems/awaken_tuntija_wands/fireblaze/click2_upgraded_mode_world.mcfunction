@@ -1,2 +1,2 @@
-execute at @e[type=#minecraft:mobs,tag=!spectator,tag=!caster] positioned ~ ~1 ~ run function lbc:workingitems/awaken_tuntija_wands/fireblaze/at_random_fireball
+execute at @e[type=#minecraft:mobs,tag=!spectator,tag=!caster,predicate=!lbc:same_team,predicate=!lbc:same_id] positioned ~ ~1 ~ run function lbc:workingitems/awaken_tuntija_wands/fireblaze/at_random_fireball
 playsound minecraft:item.firecharge.use master @a ~ ~ ~ 1 1
