@@ -208,6 +208,7 @@ attribute @s minecraft:armor modifier remove pozdman
 tag @s remove pozdman
 tag @s remove nahida
 tag @s remove lenin
+tag @s remove dtrump
 tag @s remove stalin
 
 attribute @s armor modifier remove cunny2buffs

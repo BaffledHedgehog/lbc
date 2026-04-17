@@ -132,4 +132,6 @@ execute as @a at @s run function lbc:swrg_kit_integration/game/levelup_select/le
 tellraw @a [{"text":"Baffled Discord Server (click): ","color":"gold","italic":false,"click_event":{"action":"open_url","url":"https://discord.gg/RVqrP3ZaYV"},"type":"text"},{"text":"https://discord.gg/RVqrP3ZaYV","color":"blue","italic":false,"underlined":true,"click_event":{"action":"open_url","url":"https://discord.gg/RVqrP3ZaYV"},"type":"text"}]
 tag @a remove have_bed
 
+execute if score tournament lbc.event matches 1 run function lbc:other/event/tournament/end
+
 execute align xyz positioned ~.5 ~ ~.5 run summon minecraft:block_display ~ ~ ~ {view_range:999f,shadow_radius:0f,shadow_strength:0f,block_state:{Name:"minecraft:gravel"}}

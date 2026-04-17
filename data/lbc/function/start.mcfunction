@@ -26,4 +26,5 @@ execute in the_end run function lbc:reset_gamerules
 execute in minecraft:imprinted run function lbc:reset_gamerules
 execute if score november lbc.event matches 1 run schedule function lbc:start_nov_event_pre 1s
 execute if score halloween lbc.event matches 1 run function lbc:other/event/halloween/start
+execute if score tournament lbc.event matches 1 run function lbc:other/event/tournament/start
 execute store result score #game_seed lbc.math run random value 1..10000000

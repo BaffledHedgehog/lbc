@@ -1,1 +1,2 @@
 execute if score @s swrg.kill_effect matches 1 run return run function lbc:swrg_kit_integration/kill_effects/soul
+execute if score @s swrg.kill_effect matches 3 run return run function lbc:swrg_kit_integration/kill_effects/bloodshed

@@ -12,6 +12,7 @@ execute if entity @s[tag=raycastterra] run return run function lbcr:raycast_terr
 execute if entity @s[tag=raycastterrameditator] run return run function lbcr:raycast_terrameditator
 execute if entity @s[tag=void_curse] run return run function lbc:raycast/voidcurse
 execute if entity @s[tag=prism] run return run function lbcr:raycast_loop7
+execute if entity @s[tag=supergoldensword] run return run function lbc:swrg_kit_integration/game/win_effects/wingoldensword
 execute if entity @s[tag=pieceofshit] run return run function lbcr:raycast_gavno
 execute if entity @s[tag=pieceofshit_mega] run return run function lbcr:raycast_gavno_mega
 execute if entity @s[tag=slowparticlesexplode] run return run function lbc:workingitems/exopersoexplodeparticles
@@ -56,3 +57,4 @@ execute if entity @s[tag=banana,tag=in_entity] run return run function lbc:worki
 execute if entity @s[tag=bitcoin] run return run function lbc:swrg_kit_integration/game/skills/absolute_cinema/bitcoin_tick
 execute if entity @s[tag=soulparticle1] run return run function lbc:items/trinket_effects/psycho_soul_particle
 execute if entity @s[tag=doppel] run return run function lbc:swrg_kit_integration/game/skills/psychblind/doppel_tick
+execute if entity @s[tag=bloodshedparticle] run return run function lbc:swrg_kit_integration/kill_effects/bloodshed_particle

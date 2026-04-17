@@ -22,4 +22,4 @@ scoreboard players set @s blocked_damage 0
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{tmt_item:1}}}]}] run function lbc:drops/tmt/trigger_smth_not_damaged
 execute if entity @s[scores={effect_shock_potion=1..}] run function lbc:other/shock_effect/zap
 schedule function lbc:items/damaged_scheduled 2t
-execute if score @s damage_taken matches 1.. run scoreboard players add @s hitbullet 1
+execute if score @s damage_taken matches 35.. run scoreboard players add @s hitbullet 1
