@@ -1,4 +1,8 @@
 scoreboard players set tmp lbc.math 0
+
+execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/select/11000_ranked
+# НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                                   ^^^^^^^^^^^^^^^^^^^^
+
 execute if score @s swrg.gui_select matches 0 if entity @s[advancements={lbc:true_advancements/bows/blaze=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 1 if entity @s[advancements={lbc:true_advancements/bows/ghast=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2
 execute if score @s swrg.gui_select matches 2 if entity @s[advancements={lbc:true_advancements/bows/penis_gun=true}] run function lbc:swrg_kit_integration/gui/select/11000_prex_2

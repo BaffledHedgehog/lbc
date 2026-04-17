@@ -1,3 +1,9 @@
+data modify storage lbc.math command set value "magmify"
+return run function lbc:workingitems/awaken_tuntija_wands/stonekivi/loop_sun_end_nerfed1 with storage lbc.math
+
+return run function lbc:workingitems/awaken_tuntija_wands/stonekivi/loop_sun_end_nerfed
+
+
 place template lbc:sun/sun-1 ~-96 ~48 ~-96
 place template lbc:sun/sun-2 ~-48 ~48 ~-96
 place template lbc:sun/sun-3 ~ ~48 ~-96

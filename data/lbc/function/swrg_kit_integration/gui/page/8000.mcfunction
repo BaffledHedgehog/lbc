@@ -5,6 +5,9 @@ data modify storage stats:stats player set from block 10241024 55 10241024 Items
 tag @s remove player_target
 function lbc:swrg_kit_integration/gui/stats_refresh_levelup with storage stats:stats
 
+execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/page/8000_ranked
+# НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                           ^^^^^^^^^^^^^^^^^^^^
+
 loot replace entity @s[advancements={lbc:true_advancements/accesories/infinite_quiver=true}] enderchest.0 loot lbc:gui/page/8000/0
 loot replace entity @s[advancements={lbc:true_advancements/accesories/mana_belt=true}] enderchest.1 loot lbc:gui/page/8000/1
 loot replace entity @s[advancements={lbc:true_advancements/accesories/regeneration_belt=true}] enderchest.2 loot lbc:gui/page/8000/2

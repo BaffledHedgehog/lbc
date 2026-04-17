@@ -5,6 +5,8 @@ data modify storage stats:stats player set from block 10241024 55 10241024 Items
 tag @s remove player_target
 function lbc:swrg_kit_integration/gui/stats_refresh_kit with storage stats:stats
 
+execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/page/9000_ranked
+# НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                           ^^^^^^^^^^^^^^^^^^^^
 
 loot replace entity @s[advancements={lbc:true_advancements/accesories/devilstomach=true}] enderchest.0 loot lbc:gui/page/9000/0
 loot replace entity @s[advancements={lbc:true_advancements/accesories/popit=true}] enderchest.1 loot lbc:gui/page/9000/1

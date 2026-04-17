@@ -1,3 +1,7 @@
+execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/select/10100_ranked
+# НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                                   ^^^^^^^^^^^^^^^^^^^^
+
+
 scoreboard players set @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/legends/academy/danmaku=true}] lbc.skill 28
 scoreboard players set @s[scores={swrg.gui_select=1},advancements={lbc:true_advancements/bows/madoka_bow=true}] lbc.skill 29
 scoreboard players set @s[scores={swrg.gui_select=2},advancements={lbc:true_advancements/legends/academy/exahoming=true}] lbc.skill 30

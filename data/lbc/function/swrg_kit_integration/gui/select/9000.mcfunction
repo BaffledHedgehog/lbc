@@ -1,3 +1,6 @@
+execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/select/9000_ranked
+# НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                                   ^^^^^^^^^^^^^^^^^^^^
+
 scoreboard players set @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/accesories/devilstomach=true}] lbc.kit 1
 scoreboard players set @s[scores={swrg.gui_select=1},advancements={lbc:true_advancements/accesories/popit=true}] lbc.kit 2
 scoreboard players set @s[scores={swrg.gui_select=2},advancements={lbc:true_advancements/accesories/sand_amulet=true}] lbc.kit 3

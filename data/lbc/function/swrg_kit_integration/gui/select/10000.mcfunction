@@ -1,3 +1,6 @@
+execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/select/10000_ranked
+# НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                                   ^^^^^^^^^^^^^^^^^^^^
+
 scoreboard players set @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/accesories/jaakivi=true}] lbc.skill 1
 scoreboard players set @s[scores={swrg.gui_select=1},advancements={lbc:true_advancements/accesories/magnet=true}] lbc.skill 2
 scoreboard players set @s[scores={swrg.gui_select=2},advancements={lbc:true_advancements/accesories/mystical_artifact=true}] lbc.skill 3

@@ -7,6 +7,7 @@ execute if entity @s[tag=dublicated_hole] run return run function lbc:workingite
 execute if entity @s[tag=terra_ch] run return run function lbc:workingitems/awaken_tuntija_wands/terra/tick_awaken
 execute if entity @s[tag=fast_terra] run return run function lbcr:raycast_terra_fast
 execute if entity @s[tag=erecto_arc] run return run function lbc:workingitems/awaken_tuntija_wands/erecto/arc_tick
+#execute if entity @s[tag=new_sun] run return run function lbc:workingitems/awaken_tuntija_wands/stonekivi/loop_sun_end_nerfed_tick
 execute if entity @s[tag=erecto] run return run function lbc:workingitems/awaken_tuntija_wands/erecto/central_tick
 execute if entity @s[tag=erecto_sniper] run return run function lbc:workingitems/awaken_tuntija_wands/erecto/click_upgraded_2_mode_sniper_charge
 execute if entity @s[tag=exasperato] run return run function lbc:workingitems/awaken_tuntija_wands/exasperato/chtick
