@@ -1,6 +1,6 @@
 scoreboard players set tmp lbc.math 0
 
-execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/select/12000_ranked
+execute if score ranked lbc.event matches 1 run return run function lbc:swrg_kit_integration/gui/select/12000_ranked
 # НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                                   ^^^^^^^^^^^^^^^^^^^^
 
 execute if score @s swrg.gui_select matches 0 if entity @s[advancements={lbc:true_advancements/legends/academy/root=true}] unless entity @s[advancements={lbc:challenges/no_knowledge=true}] run scoreboard players set @s lbc.challenge 1

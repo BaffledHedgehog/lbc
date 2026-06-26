@@ -1,6 +1,6 @@
 scoreboard players set tmp lbc.math 0
 
-execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/select/8100_ranked
+execute if score ranked lbc.event matches 1 run return run function lbc:swrg_kit_integration/gui/select/8100_ranked
 # НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                                   ^^^^^^^^^^^^^^^^^^^^
 
 

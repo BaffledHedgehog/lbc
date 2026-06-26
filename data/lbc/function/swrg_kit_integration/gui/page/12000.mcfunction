@@ -8,7 +8,7 @@ function lbc:swrg_kit_integration/gui/stats_refresh_x_kit with storage stats:sta
 #function lbc:swrg_kit_integration/gui/stats_refresh_x_trinket with storage stats:stats
 #function lbc:swrg_kit_integration/gui/stats_refresh_x_levelup with storage stats:stats
 
-execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/page/12000_ranked
+execute if score ranked lbc.event matches 1 run return run function lbc:swrg_kit_integration/gui/page/12000_ranked
 # НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 

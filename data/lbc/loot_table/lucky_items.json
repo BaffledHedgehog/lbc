@@ -331,7 +331,25 @@
                         "type": "minecraft:loot_table",
                         "weight": 10,
                         "quality": 10,
-                        "value": "lbc:nuke"
+                        "value": "lbc:nuke",
+                        "conditions": [
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": "ranked"
+                                        },
+                                        "score": "lbc.event",
+                                        "scale": 1
+                                    },
+                                    "range": 1
+                                }
+                            }
+                        ]
                     },
                     {
                         "type": "minecraft:item",

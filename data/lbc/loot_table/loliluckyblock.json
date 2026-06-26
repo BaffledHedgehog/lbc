@@ -1276,7 +1276,25 @@
                     {
                         "type": "minecraft:loot_table",
                         "value": "lbc:boba_eblan",
-                        "weight": 10
+                        "weight": 10,
+                        "conditions": [
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": "ranked"
+                                        },
+                                        "score": "lbc.event",
+                                        "scale": 1
+                                    },
+                                    "range": 1
+                                }
+                            }
+                        ]
                     },
                     {
                         "type": "minecraft:loot_table",
@@ -1291,6 +1309,22 @@
                                     "predicate": {
                                         "nbt": "{Inventory:[{components:{\"minecraft:custom_data\":{zaika:1}}}]}"
                                     }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:inverted",
+                                "term": {
+                                    "condition": "minecraft:value_check",
+                                    "value": {
+                                        "type": "minecraft:score",
+                                        "target": {
+                                            "type": "minecraft:fixed",
+                                            "name": "ranked"
+                                        },
+                                        "score": "lbc.event",
+                                        "scale": 1
+                                    },
+                                    "range": 1
                                 }
                             }
                         ]

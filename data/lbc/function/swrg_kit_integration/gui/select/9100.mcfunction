@@ -1,4 +1,4 @@
-execute if score ranked lbc.math matches 1 run return run function lbc:swrg_kit_integration/gui/select/9100_ranked
+execute if score ranked lbc.event matches 1 run return run function lbc:swrg_kit_integration/gui/select/9100_ranked
 # НЕ ЗАБЫВАТЬ МЕНЯТЬ                                                                   ^^^^^^^^^^^^^^^^^^^^
 
 scoreboard players set @s[scores={swrg.gui_select=0},advancements={lbc:true_advancements/legends/academy/lightning=true}] lbc.kit 25
